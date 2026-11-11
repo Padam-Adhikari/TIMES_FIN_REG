@@ -1,0 +1,606 @@
+====================================================================================================
+TASK 0 DRY RUN - nothing has been written.
+====================================================================================================
+Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
+  =IF(Region_selection!$B$8=Region_selection!$D$8, <single-region value>, <Reg-FINTIMES value>)
+
+--- Reg-FINTIMES/SubRES_TMPL/SubRES_00_Nuc-EU.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'ELC_FI'!M5: 'NCAP_BND~FX'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"NCAP_BND~FX","\I:NCAP_BND~FX")
+      (switch off column in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+
+--- Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'SUP_Blending'!U15: 'BNDACT~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"BNDACT~LO","\I:BNDACT~LO")
+      (switch off column in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+
+--- Reg-FINTIMES/SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'BioImport'!B10: '~UC_SETS: R_S: AL,BE,BG,CY,DE,DK,EE,ES,FI,FR,EL,HR,IE,IS,IT,LT,LV,ME,MT,NL,NO,PL,PT,RO,SE,SI,UK'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_SETS: R_S: AL,BE,BG,CY,DE,DK,EE,ES,FI,FR,EL,HR,IE,IS,IT,LT,LV,ME,MT,NL,NO,PL,PT,RO,SE,SI,UK","~UC_Sets: R_S: AllRegions")
+      (R_S over a fixed country list excludes FI1xx regions; Reg mode -> AllRegions)
+  + sheet 'RegSum': gated tags (Reg mode only)
+      B2 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: R_S: AllRegions","~UC_Sets: R_S: AllRegions")
+      B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
+      B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   8 constraints:
+    UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
+    RS_ACT_MINBIOCRP41_UP | UC_ACT=1 | MINBIOCRP41 |  | UP | 2020:3.5, 2030:4.2, 2040:6, 2050:7.4 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L59; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L60; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L61; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L62
+    RS_ACT_MINBIOGAS1_UP | UC_ACT=1 | MINBIOGAS1 |  | UP | 2005:0.9, 2010:0.9, 2020:0.9, 2030:2.1, 2040:5.4, 2050:6.5 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L81; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L82; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L83; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L84; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L85; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L86
+    RS_ACT_MINBIOAGRW1_UP | UC_ACT=1 | MINBIOAGRW1 |  | UP | 2005:14.5, 2010:14.5, 2020:17, 2030:17.9, 2040:17.9, 2050:17.9 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L94; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L95; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L96; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L97; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L98; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L99
+    RS_ACT_MINBIOWOO_UP | UC_ACT=1 | MINBIOWOO |  | UP | 2005:56, 2010:55.7, 2020:74.2, 2030:82.8, 2040:82.1, 2050:80.6 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L107; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L108; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L109; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L110; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L111; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L112
+    RS_ACT_MINBIOFRSR1_UP | UC_ACT=1 | MINBIOFRSR1 |  | UP | 2005:19, 2010:18.7, 2020:18.7, 2030:40.3, 2040:42.5, 2050:43.9 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L133; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L134; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L135; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L136; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L137; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L138
+    RS_ACT_MINBIOWOOW1a_UP | UC_ACT=1 | MINBIOWOOW1a |  | UP | 2005:55, 2010:55.1, 2020:63, 2030:84.3, 2040:84.3, 2050:84.3 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L159; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L160; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L161; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L162; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L163; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L164
+    RS_ACT_MINBIOMUN1_UP | UC_ACT=1 | MINBIOMUN1 |  | UP | 2005:8, 2010:8.1, 2020:9.4, 2030:11.8, 2040:14.5, 2050:17 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L185; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L186; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L187; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L188; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L189; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L190
+    RS_ACT_MINBIOSLU1_UP | UC_ACT=1 | MINBIOSLU1 |  | UP | 2005:2, 2010:2.2, 2020:2.5, 2030:3, 2040:3.6, 2050:4.1 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L198; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L199; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L200; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L201; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L202; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L203
+
+--- Reg-FINTIMES/SuppXLS/Scen_CO2target_NONETS_2030.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'ESRnonETS'!C2: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'ESRnonETS'!L4: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'ESRnonETS'!P5: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_Diversified_Cement.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'ICMFICO2'!C2: '~UC_SETS: R_E: FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_SETS: R_E: FI","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: FI -> R_S: AllRegions in Reg mode)
+  ~ 'ICMFICO2'!F5: 'UC_RHSRTS'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS","UC_RHSTS")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_NewHouses_and_retrofits.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'Stock'!B13: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'Stock'!D14: '~UC_T: UC_RHSRT~FX'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~FX","~UC_T: UC_RHST~FX")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Stock'!D45: '~UC_T: UC_RHSRT~FX'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~FX","~UC_T: UC_RHST~FX")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Stock'!D76: '~UC_T: UC_RHSRT~FX'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~FX","~UC_T: UC_RHST~FX")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Stock'!D107: '~UC_T: UC_RHSRT~FX'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~FX","~UC_T: UC_RHST~FX")
+      (RHS attribute in tag -> region-less in Reg mode)
+  + sheet 'RegSum': gated tags (Reg mode only)
+      B2 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: R_S: AllRegions","~UC_Sets: R_S: AllRegions")
+      B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
+      B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   126 constraints:
+    UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
+    RS_CAP_DETPre45-MG1_UP | UC_CAP=1 | DETPre45-MG1 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MG2_UP | UC_CAP=1 | DETPre45-MG2 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MG3_UP | UC_CAP=1 | DETPre45-MG3 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MR2_UP | UC_CAP=1 | DETPre45-MR2 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MR3_UP | UC_CAP=1 | DETPre45-MR3 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MW2_UP | UC_CAP=1 | DETPre45-MW2 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MW3_UP | UC_CAP=1 | DETPre45-MW3 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre69-MG1_UP | UC_CAP=1 | DETPre69-MG1 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MG2_UP | UC_CAP=1 | DETPre69-MG2 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MG3_UP | UC_CAP=1 | DETPre69-MG3 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MR2_UP | UC_CAP=1 | DETPre69-MR2 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MR3_UP | UC_CAP=1 | DETPre69-MR3 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MW2_UP | UC_CAP=1 | DETPre69-MW2 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MW3_UP | UC_CAP=1 | DETPre69-MW3 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre79-MG1_UP | UC_CAP=1 | DETPre79-MG1 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MG2_UP | UC_CAP=1 | DETPre79-MG2 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MG3_UP | UC_CAP=1 | DETPre79-MG3 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MR2_UP | UC_CAP=1 | DETPre79-MR2 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MR3_UP | UC_CAP=1 | DETPre79-MR3 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MW2_UP | UC_CAP=1 | DETPre79-MW2 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MW3_UP | UC_CAP=1 | DETPre79-MW3 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre89-MG1_UP | UC_CAP=1 | DETPre89-MG1 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MG2_UP | UC_CAP=1 | DETPre89-MG2 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MG3_UP | UC_CAP=1 | DETPre89-MG3 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MR2_UP | UC_CAP=1 | DETPre89-MR2 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MR3_UP | UC_CAP=1 | DETPre89-MR3 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MW2_UP | UC_CAP=1 | DETPre89-MW2 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MW3_UP | UC_CAP=1 | DETPre89-MW3 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre99-MG1_UP | UC_CAP=1 | DETPre99-MG1 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MG2_UP | UC_CAP=1 | DETPre99-MG2 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MG3_UP | UC_CAP=1 | DETPre99-MG3 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MR2_UP | UC_CAP=1 | DETPre99-MR2 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MR3_UP | UC_CAP=1 | DETPre99-MR3 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MW2_UP | UC_CAP=1 | DETPre99-MW2 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MW3_UP | UC_CAP=1 | DETPre99-MW3 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_FLTPre45-MG1_UP | UC_CAP=1 | FLTPre45-MG1 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MG2_UP | UC_CAP=1 | FLTPre45-MG2 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MG3_UP | UC_CAP=1 | FLTPre45-MG3 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MR2_UP | UC_CAP=1 | FLTPre45-MR2 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MR3_UP | UC_CAP=1 | FLTPre45-MR3 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MW2_UP | UC_CAP=1 | FLTPre45-MW2 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MW3_UP | UC_CAP=1 | FLTPre45-MW3 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre69-MG1_UP | UC_CAP=1 | FLTPre69-MG1 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MG2_UP | UC_CAP=1 | FLTPre69-MG2 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MG3_UP | UC_CAP=1 | FLTPre69-MG3 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MR2_UP | UC_CAP=1 | FLTPre69-MR2 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MR3_UP | UC_CAP=1 | FLTPre69-MR3 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MW2_UP | UC_CAP=1 | FLTPre69-MW2 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MW3_UP | UC_CAP=1 | FLTPre69-MW3 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre79-MG1_UP | UC_CAP=1 | FLTPre79-MG1 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MG2_UP | UC_CAP=1 | FLTPre79-MG2 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MG3_UP | UC_CAP=1 | FLTPre79-MG3 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MR2_UP | UC_CAP=1 | FLTPre79-MR2 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MR3_UP | UC_CAP=1 | FLTPre79-MR3 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MW2_UP | UC_CAP=1 | FLTPre79-MW2 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MW3_UP | UC_CAP=1 | FLTPre79-MW3 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre89-MG1_UP | UC_CAP=1 | FLTPre89-MG1 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MG2_UP | UC_CAP=1 | FLTPre89-MG2 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MG3_UP | UC_CAP=1 | FLTPre89-MG3 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MR2_UP | UC_CAP=1 | FLTPre89-MR2 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MR3_UP | UC_CAP=1 | FLTPre89-MR3 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MW2_UP | UC_CAP=1 | FLTPre89-MW2 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MW3_UP | UC_CAP=1 | FLTPre89-MW3 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre99-MG1_UP | UC_CAP=1 | FLTPre99-MG1 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MG2_UP | UC_CAP=1 | FLTPre99-MG2 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MG3_UP | UC_CAP=1 | FLTPre99-MG3 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MR2_UP | UC_CAP=1 | FLTPre99-MR2 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MR3_UP | UC_CAP=1 | FLTPre99-MR3 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MW2_UP | UC_CAP=1 | FLTPre99-MW2 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MW3_UP | UC_CAP=1 | FLTPre99-MW3 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_SDEPre45-MG1_UP | UC_CAP=1 | SDEPre45-MG1 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MG2_UP | UC_CAP=1 | SDEPre45-MG2 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MG3_UP | UC_CAP=1 | SDEPre45-MG3 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MR2_UP | UC_CAP=1 | SDEPre45-MR2 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MR3_UP | UC_CAP=1 | SDEPre45-MR3 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MW2_UP | UC_CAP=1 | SDEPre45-MW2 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MW3_UP | UC_CAP=1 | SDEPre45-MW3 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre69-MG1_UP | UC_CAP=1 | SDEPre69-MG1 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MG2_UP | UC_CAP=1 | SDEPre69-MG2 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MG3_UP | UC_CAP=1 | SDEPre69-MG3 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MR2_UP | UC_CAP=1 | SDEPre69-MR2 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MR3_UP | UC_CAP=1 | SDEPre69-MR3 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MW2_UP | UC_CAP=1 | SDEPre69-MW2 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MW3_UP | UC_CAP=1 | SDEPre69-MW3 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre79-MG1_UP | UC_CAP=1 | SDEPre79-MG1 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MG2_UP | UC_CAP=1 | SDEPre79-MG2 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MG3_UP | UC_CAP=1 | SDEPre79-MG3 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MR2_UP | UC_CAP=1 | SDEPre79-MR2 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MR3_UP | UC_CAP=1 | SDEPre79-MR3 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MW2_UP | UC_CAP=1 | SDEPre79-MW2 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MW3_UP | UC_CAP=1 | SDEPre79-MW3 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre89-MG1_UP | UC_CAP=1 | SDEPre89-MG1 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MG2_UP | UC_CAP=1 | SDEPre89-MG2 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MG3_UP | UC_CAP=1 | SDEPre89-MG3 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MR2_UP | UC_CAP=1 | SDEPre89-MR2 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MR3_UP | UC_CAP=1 | SDEPre89-MR3 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MW2_UP | UC_CAP=1 | SDEPre89-MW2 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MW3_UP | UC_CAP=1 | SDEPre89-MW3 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre99-MG1_UP | UC_CAP=1 | SDEPre99-MG1 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MG2_UP | UC_CAP=1 | SDEPre99-MG2 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MG3_UP | UC_CAP=1 | SDEPre99-MG3 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MR2_UP | UC_CAP=1 | SDEPre99-MR2 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MR3_UP | UC_CAP=1 | SDEPre99-MR3 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MW2_UP | UC_CAP=1 | SDEPre99-MW2 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MW3_UP | UC_CAP=1 | SDEPre99-MW3 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_DETPre09-MG1_UP | UC_CAP=1 | DETPre09-MG1 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MG2_UP | UC_CAP=1 | DETPre09-MG2 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MG3_UP | UC_CAP=1 | DETPre09-MG3 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MR2_UP | UC_CAP=1 | DETPre09-MR2 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MR3_UP | UC_CAP=1 | DETPre09-MR3 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MW2_UP | UC_CAP=1 | DETPre09-MW2 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MW3_UP | UC_CAP=1 | DETPre09-MW3 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_FLTPre09-MG1_UP | UC_CAP=1 | FLTPre09-MG1 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MG2_UP | UC_CAP=1 | FLTPre09-MG2 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MG3_UP | UC_CAP=1 | FLTPre09-MG3 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MR2_UP | UC_CAP=1 | FLTPre09-MR2 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MR3_UP | UC_CAP=1 | FLTPre09-MR3 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MW2_UP | UC_CAP=1 | FLTPre09-MW2 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MW3_UP | UC_CAP=1 | FLTPre09-MW3 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_SDEPre09-MG1_UP | UC_CAP=1 | SDEPre09-MG1 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MG2_UP | UC_CAP=1 | SDEPre09-MG2 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MG3_UP | UC_CAP=1 | SDEPre09-MG3 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MR2_UP | UC_CAP=1 | SDEPre09-MR2 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MR3_UP | UC_CAP=1 | SDEPre09-MR3 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MW2_UP | UC_CAP=1 | SDEPre09-MW2 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MW3_UP | UC_CAP=1 | SDEPre09-MW3 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+
+--- Reg-FINTIMES/SuppXLS/Scen_RegSum_Base.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  + NEW workbook (scenario 'RegSum_Base'): add it to every case right after SysSettings,
+    before the first SuppXLS scenario, so later scenarios still override it.
+  + sheet 'RegSum': gated tags (Reg mode only)
+      B2 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: R_S: AllRegions","~UC_Sets: R_S: AllRegions")
+      B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
+      B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   24 constraints:
+    UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
+    RS_ACT_EEHP_DistHeating_LO | UC_ACT=1 | EEHP_DistHeating |  | LO | 2010:61.19, 2011:52.88, 2012:63.22, 2013:55.95, 2014:59.75 | 1 (SysSettings Interpolation etc.!row14) | VT_FINTIMES_ELC.xlsx Dist Heat!J22; VT_FINTIMES_ELC.xlsx Dist Heat!J23; VT_FINTIMES_ELC.xlsx Dist Heat!J24; VT_FINTIMES_ELC.xlsx Dist Heat!J25; VT_FINTIMES_ELC.xlsx Dist Heat!J26
+    RS_ACT_MINCOLRSV1_UP | UC_ACT=1 | MINCOLRSV1 |  | UP | 2015:89.137, 2050:89.137 | 15 (SysSettings Interpolation etc.!row15) | VT_FINTIMES_SUP.xlsx Reserves!H4; VT_FINTIMES_SUP.xlsx Reserves!H5
+    RS_ACT_MINCOLRSV2_UP | UC_ACT=1 | MINCOLRSV2 |  | UP | 2015:25, 2050:25 | 15 (SysSettings Interpolation etc.!row15) | VT_FINTIMES_SUP.xlsx Reserves!H10; VT_FINTIMES_SUP.xlsx Reserves!H9
+    RS_ACT_MINCOLRSV3_UP | UC_ACT=1 | MINCOLRSV3 |  | UP | 2015:25, 2050:25 | 15 (SysSettings Interpolation etc.!row15) | VT_FINTIMES_SUP.xlsx Reserves!H14; VT_FINTIMES_SUP.xlsx Reserves!H15
+    RS_ACT_MINMPPWOO1_UP | UC_ACT=1 | MINMPPWOO1 |  | UP | 2005:60.2, 2010:60.2, 2020:67, 2030:73.8, 2040:73.2, 2050:73.2 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L210; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L211; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L212; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L213; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L214; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L215; VT_FINTIMES_SUP.xlsx Reserves!H49; VT_FINTIMES_SUP.xlsx Reserves!H50; VT_FINTIMES_SUP.xlsx Reserves!H51; VT_FINTIMES_SUP.xlsx Reserves!H52; VT_FINTIMES_SUP.xlsx Reserves!H53; VT_FINTIMES_SUP.xlsx Reserves!H54
+    RS_ACT_SSCDCOKE00_FX | UC_ACT=1 | SSCDCOKE00 |  | FX | 2010:30.7897, 2011:32.745, 2012:33.6326, 2013:33.6744, 2014:34.6039, 2015:34.6039 | 1 (table) | VT_FINTIMES_SUP.xlsx VEDA Tables!I49; VT_FINTIMES_SUP.xlsx VEDA Tables!I50; VT_FINTIMES_SUP.xlsx VEDA Tables!I51; VT_FINTIMES_SUP.xlsx VEDA Tables!I52; VT_FINTIMES_SUP.xlsx VEDA Tables!I53; VT_FINTIMES_SUP.xlsx VEDA Tables!I54
+    RS_ACT_SSCDCOKE00_LO | UC_ACT=1 | SSCDCOKE00 |  | LO | 2016:17.302, 2025:8.65098 | 1 (table) | VT_FINTIMES_SUP.xlsx VEDA Tables!I55; VT_FINTIMES_SUP.xlsx VEDA Tables!I57
+    RS_ACT_SSCDCOKE00_UP | UC_ACT=1 | SSCDCOKE00 |  | UP | 2016:34.6039, 2025:25, 2030:17 | 5 (table) | VT_FINTIMES_SUP.xlsx VEDA Tables!I56; VT_FINTIMES_SUP.xlsx VEDA Tables!I58; VT_FINTIMES_SUP.xlsx VEDA Tables!I59
+    RS_ACT_SSCDRFLX00_FX | UC_ACT=1 | SSCDRFLX00 |  | FX | 2010:438.924, 2011:470.542, 2012:456.607, 2013:483.616, 2014:475.18 | 1 (SysSettings Interpolation etc.!row14) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K42; VT_FINTIMES_SUP.xlsx Flexible Refinery!K43; VT_FINTIMES_SUP.xlsx Flexible Refinery!K44; VT_FINTIMES_SUP.xlsx Flexible Refinery!K45; VT_FINTIMES_SUP.xlsx Flexible Refinery!K46
+    RS_ACT_SSCDRFLX00_UP | UC_ACT=1 | SSCDRFLX00 |  | UP | 2015:483.616 | 15 (SysSettings Interpolation etc.!row15) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K47
+    RS_ACT_SSCDRFLX00_LO | UC_ACT=1 | SSCDRFLX00 |  | LO | 2020:338.531 | 1 (SysSettings Interpolation etc.!row22) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K48
+    RS_CAP_ENFI_LOVIISA-1_00_UP | UC_CAP=1 | ENFI_LOVIISA-1_00 |  | UP | 1977:0.496 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L7
+    RS_CAP_ENFI_LOVIISA-2_00_UP | UC_CAP=1 | ENFI_LOVIISA-2_00 |  | UP | 1980:0.496 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L8
+    RS_CAP_ENFI_OLKILUOTO-1_00_UP | UC_CAP=1 | ENFI_OLKILUOTO-1_00 |  | UP | 1978:0.88 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L9
+    RS_CAP_ENFI_OLKILUOTO-2_00_UP | UC_CAP=1 | ENFI_OLKILUOTO-2_00 |  | UP | 1980:0.88 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L10
+    RS_NCAP_ENFI_OLKILUOTO-3_FX | UC_NCAP=1 | ENFI_OLKILUOTO-3 |  | FX | 2023:1.6 | - (TIMES default) | SubRES_00_Nuc-EU.xlsx ELC_FI!M11
+    RS_CAP_ENFI_OLKILUOTO-4_UP | UC_CAP=1 | ENFI_OLKILUOTO-4 |  | UP | 2200:1.5 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L12
+    RS_CAP_ENFI_PYHA-YOKI_UP | UC_CAP=1 | ENFI_PYHA-YOKI |  | UP | 2200:1.5 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L13
+    RS_ACT_MINSNKAFF1_UP | UC_ACT=1 | MINSNKAFF1 |  | UP | 2010:14.3935, 2020:18.3193, 2030:6.54185, 2040:6.54185, 2050:32.7164 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!P122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S122; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G35; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G36
+    RS_ACT_MINSNKAFF2_UP | UC_ACT=1 | MINSNKAFF2 |  | UP | 2010:34.0226, 2030:26.171, 2040:26.171, 2050:26.171 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S123; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G38; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G40; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G41; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G42
+    RS_ACT_MINSNKAFF3_UP | UC_ACT=1 | MINSNKAFF3 |  | UP | 2010:9.16144, 2020:56.2713, 2030:22.2451 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O124; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!P124; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q124; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G44; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G45; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G46
+    RS_ACT_MINSNKAFF4_UP | UC_ACT=1 | MINSNKAFF4 |  | UP | 2040:64.1229, 2050:51.0357 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R125; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S125; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G53; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G54
+    RS_ACT_BLDGSLE85_LO | UC_ACT=1 | BLDGSLE85 |  | LO | BASE:0.12 | 1 (SysSettings Interpolation etc.!row14) | SubRES_22_TECHS_BIOREFINERIES.xlsx SUP_Blending!U50
+    RS_CAP_LNGREGAS_New_UP | UC_CAP=1 | LNGREGAS_New |  | UP | 2030:1500 | 5 (SysSettings Interpolation etc.!row12) | SubRes_40_TRADE-EXTRAEU_Trans.xlsx SUP!G20
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC_CO2Storage_300.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'UCStorage'!C18: '~UC_SETS: R_E: FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_SETS: R_E: FI","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: FI -> R_S: AllRegions in Reg mode)
+  ~ 'UCStorage'!F21: 'UC_RHSRTS'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS","UC_RHSTS")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC_ElcPot.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'Geoth'!B2: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'Geoth'!D7: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Geoth'!F8: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Geoth'!D16: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Geoth'!F17: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Geoth'!D26: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Geoth'!F27: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Geoth'!D33: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Geoth'!F34: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Hydro'!B3: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'Hydro'!D7: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Hydro'!F8: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Hydro'!D16: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Hydro'!F17: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Hydro'!D27: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Hydro'!F28: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Hydro'!D41: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Hydro'!F42: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Hydro'!D52: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Hydro'!F53: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Ocean'!B2: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'Ocean'!D6: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Ocean'!F7: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Ocean'!D14: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Ocean'!F15: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Ocean'!D33: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Ocean'!F34: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Solar'!B2: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'Solar'!D7: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Solar'!F8: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Solar'!D16: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Solar'!F17: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,F35,"UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Solar'!D25: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Solar'!F26: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+  ~ 'Solar'!D34: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Solar'!F35: 'UC_RHSRT~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP~0","UC_RHST~UP~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC_HeatPumps_MaxCAP.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'VDA_table'!B2: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'VDA_table'!E3: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'VDA_table'!G4: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC_HeatPumps_MinCAP_Lo.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'VDA_table'!B2: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'VDA_table'!E3: '~UC_T: UC_RHSRTS~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~LO","~UC_T: UC_RHSTS~LO")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'VDA_table'!G4: 'UC_RHSRTS~LO~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~LO~0","UC_RHSTS~LO~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC_REFScen16_data.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'Sheet1'!B4: '~UC_Sets: R_E: FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: FI","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: FI -> R_S: AllRegions in Reg mode)
+  ~ 'Sheet1'!G6: '~UC_T: UC_RHSRTS~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRTS~UP","~UC_T: UC_RHSTS~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'Sheet1'!J7: 'UC_RHSRTS~UP~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~UP~0","UC_RHSTS~UP~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'ELC Trade calib'!B3: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: AllRegions -> R_S: AllRegions in Reg mode)
+  ~ 'ELC Trade calib'!H6: '~UC_T: UC_RHSRT~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~LO","~UC_T: UC_RHST~LO")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'ELC Trade calib'!D8: 'TB*,GI*,EXPELC-*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"TB*,GI*,EXPELC-*","TB*,GI*,EXPELC-*,-TB_*_FI*_FI*")
+      (exclude internal links TB_<C>_FI*_FI* from national trade sums)
+  ~ 'ELC Trade calib'!D18: 'TB*,GI*,IMPELC-*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"TB*,GI*,IMPELC-*","TB*,GI*,IMPELC-*,-TB_*_FI*_FI*")
+      (exclude internal links TB_<C>_FI*_FI* from national trade sums)
+  ~ 'ELC Trade calib'!H30: '~UC_T: UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_T: UC_RHSRT~UP","~UC_T: UC_RHST~UP")
+      (RHS attribute in tag -> region-less in Reg mode)
+  ~ 'ELC Trade calib'!D32: 'TB*,GI*,EXPELC-*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"TB*,GI*,EXPELC-*","TB*,GI*,EXPELC-*,-TB_*_FI*_FI*")
+      (exclude internal links TB_<C>_FI*_FI* from national trade sums)
+  ~ 'ELC Trade calib'!D42: 'TB*,GI*,IMPELC-*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"TB*,GI*,IMPELC-*","TB*,GI*,IMPELC-*,-TB_*_FI*_FI*")
+      (exclude internal links TB_<C>_FI*_FI* from national trade sums)
+  ~ 'Calibration 2015-2050'!E5: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(D5="xx",D5="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!Z6: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(Y6="xx",Y6="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!Z7: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(Y7="xx",Y7="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!Z8: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(Y8="xx",Y8="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!AU5: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(AT5="xx",AT5="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!AU7: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(AT7="xx",AT7="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!AU8: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(AT8="xx",AT8="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!BP7: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(BO7="xx",BO7="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!BP8: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(BO8="xx",BO8="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!CJ7: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(CI7="xx",CI7="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  ~ 'Calibration 2015-2050'!CJ8: 'COM_BNDPRD'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(OR(CI8="xx",CI8="yy"),"\I:","COM_BNDPRD"),"\I:")
+      (switch off row in Reg mode (2 LO/FX value(s) now in RS_* UCs))
+  + sheet 'RegSum': gated tags (Reg mode only)
+      B2 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: R_S: AllRegions","~UC_Sets: R_S: AllRegions")
+      B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
+      B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   27 constraints:
+    UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
+    RS_PRD_RSDGAS_UP | UC_COMPRD=1 |  | RSDGAS | UP | 2010:2.10642, 2011:1.35975, 2012:1.46475, 2013:1.29465, 2014:1.26, 2015:1.15605, 2030:2.202 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BG7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BH7; Scen_ZATEMP_Calibration.xlsx Gas Calibration!F7; Scen_ZATEMP_Calibration.xlsx Gas Calibration!G7; Scen_ZATEMP_Calibration.xlsx Gas Calibration!H7; Scen_ZATEMP_Calibration.xlsx Gas Calibration!I7; Scen_ZATEMP_Calibration.xlsx Gas Calibration!J7
+    RS_PRD_COMGAS_UP | UC_COMPRD=1 |  | COMGAS | UP | 2010:1.6296, 2011:1.6296, 2012:1.4742, 2013:1.52775, 2014:1.28625, 2015:1.22745, 2030:2.338 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BG8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BH8; Scen_ZATEMP_Calibration.xlsx Gas Calibration!F8; Scen_ZATEMP_Calibration.xlsx Gas Calibration!G8; Scen_ZATEMP_Calibration.xlsx Gas Calibration!H8; Scen_ZATEMP_Calibration.xlsx Gas Calibration!I8; Scen_ZATEMP_Calibration.xlsx Gas Calibration!J8
+    RS_PRD_TRAGAS_UP | UC_COMPRD=1 |  | TRAGAS | UP | 2010:0.6426, 2011:0.4914, 2012:0.52185, 2013:0.40845, 2014:0.4242 | - (TIMES default) | Scen_ZATEMP_Calibration.xlsx Gas Calibration!F9; Scen_ZATEMP_Calibration.xlsx Gas Calibration!G9; Scen_ZATEMP_Calibration.xlsx Gas Calibration!H9; Scen_ZATEMP_Calibration.xlsx Gas Calibration!I9; Scen_ZATEMP_Calibration.xlsx Gas Calibration!J9
+    RS_FLO_INDHTH00_HETHTH_UP | UC_FLO=1 | INDHTH00 | HETHTH | UP | 2010:70.0497, 2011:65.0234, 2012:64.4112, 2013:61.2014, 2014:54.831 | - (TIMES default) | Scen_ZATEMP_Calibration.xlsx Heat Calibration!I7; Scen_ZATEMP_Calibration.xlsx Heat Calibration!J7; Scen_ZATEMP_Calibration.xlsx Heat Calibration!K7; Scen_ZATEMP_Calibration.xlsx Heat Calibration!L7; Scen_ZATEMP_Calibration.xlsx Heat Calibration!M7
+    RS_FLO_RSDHET00_HETHTH_UP | UC_FLO=1 | RSDHET00 | HETHTH | UP | 2010:76.5261, 2011:66.3726, 2012:72.9992, 2013:70.2629, 2014:68.7582 | - (TIMES default) | Scen_ZATEMP_Calibration.xlsx Heat Calibration!I8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!J8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!K8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!L8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!M8
+    RS_FLO_RSDHTH01_HETHTH_UP | UC_FLO=1 | RSDHTH01 | HETHTH | UP | 2010:76.5261, 2011:66.3726, 2012:72.9992, 2013:70.2629, 2014:68.7582 | - (TIMES default) | Scen_ZATEMP_Calibration.xlsx Heat Calibration!I8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!J8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!K8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!L8; Scen_ZATEMP_Calibration.xlsx Heat Calibration!M8
+    RS_FLO_COMHTH00_HETHTH_UP | UC_FLO=1 | COMHTH00 | HETHTH | UP | 2010:49.3668, 2011:43.3524, 2012:46.6651, 2013:44.4612, 2014:44.3877 | - (TIMES default) | Scen_ZATEMP_Calibration.xlsx Heat Calibration!I9; Scen_ZATEMP_Calibration.xlsx Heat Calibration!J9; Scen_ZATEMP_Calibration.xlsx Heat Calibration!K9; Scen_ZATEMP_Calibration.xlsx Heat Calibration!L9; Scen_ZATEMP_Calibration.xlsx Heat Calibration!M9
+    RS_PRD_INDFINSOLID_LO | UC_COMPRD=1 |  | INDFINSOLID | LO | 2015:21.2058, 2030:11.781 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!G5; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!H5
+    RS_PRD_INDFINSOLID_UP | UC_COMPRD=1 |  | INDFINSOLID | UP | 2015:24.7401, 2030:35.343 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!Q5; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!R5
+    RS_PRD_TRAFINOIL_LO | UC_COMPRD=1 |  | TRAFINOIL | LO | 2015:159.274, 2030:106.183 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AB6; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AC6
+    RS_PRD_RSDFINOIL_LO | UC_COMPRD=1 |  | RSDFINOIL | LO | 2015:14.4, 2030:9.6 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AB7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AC7
+    RS_PRD_COMFINOIL_LO | UC_COMPRD=1 |  | COMFINOIL | LO | 2015:10.08, 2030:6.72 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AB8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AC8
+    RS_PRD_TRAFINOIL_UP | UC_COMPRD=1 |  | TRAFINOIL | UP | 2015:194.668, 2030:265.457 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AL6; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AM6
+    RS_PRD_RSDFINOIL_UP | UC_COMPRD=1 |  | RSDFINOIL | UP | 2015:17.6, 2030:24 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AL7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AM7
+    RS_PRD_COMFINOIL_UP | UC_COMPRD=1 |  | COMFINOIL | UP | 2015:12.32, 2030:16.8 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AL8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AM8
+    RS_PRD_INDFINGAS_LO | UC_COMPRD=1 |  | INDFINGAS | LO | 2015:31.0574, 2030:16.346 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AW5; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AX5
+    RS_PRD_RSDGAS_LO | UC_COMPRD=1 |  | RSDGAS | LO | 2015:1.04595, 2030:0.5505 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AW7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AX7
+    RS_PRD_COMGAS_LO | UC_COMPRD=1 |  | COMGAS | LO | 2015:1.11055, 2030:0.5845 | 1 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AW8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!AX8
+    RS_PRD_INDFINGAS_UP | UC_COMPRD=1 |  | INDFINGAS | UP | 2015:34.3266, 2030:65.384 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BG5; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BH5
+    RS_PRD_RSDHET_LO | UC_COMPRD=1 |  | RSDHET | LO | 2015:63.45, 2030:35.25 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BR7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BS7
+    RS_PRD_COMHET_LO | UC_COMPRD=1 |  | COMHET | LO | 2015:40.77, 2030:22.65 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BR8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!BS8
+    RS_PRD_RSDHET_UP | UC_COMPRD=1 |  | RSDHET | UP | 2015:77.55, 2030:105.75 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CB7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CC7
+    RS_PRD_COMHET_UP | UC_COMPRD=1 |  | COMHET | UP | 2015:49.83, 2030:67.95 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CB8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CC8
+    RS_PRD_RSDBIO_LO | UC_COMPRD=1 |  | RSDBIO | LO | 2015:45.0333, 2030:47.5351 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CL7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CM7
+    RS_PRD_COMBIO_LO | UC_COMPRD=1 |  | COMBIO | LO | 2015:2.934, 2030:3.097 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CL8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CM8
+    RS_PRD_RSDBIO_UP | UC_COMPRD=1 |  | RSDBIO | UP | 2015:52.5389, 2030:75.0555 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CV7; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CW7
+    RS_PRD_COMBIO_UP | UC_COMPRD=1 |  | COMBIO | UP | 2015:3.423, 2030:4.89 | 5 (table) | Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CV8; Scen_ZATEMP_Calibration.xlsx Calibration 2015-2050!CW8
+
+--- Reg-FINTIMES/SuppXLS/Scen_ZIETASSUMPTIONS.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'INS'!C21: '~UC_Sets: R_E: FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: FI","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: FI -> R_S: AllRegions in Reg mode)
+  ~ 'INS'!L24: 'UC_RHSRT~UP'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~UP","UC_RHST~UP")
+      (RHS column -> region-less in Reg mode)
+  ~ 'INS'!M24: 'UC_RHSRT~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~0","UC_RHST~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Scen_ZUGROWTH_Yearly.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'GROWTHs 3y bio vs fossil'!B5: '~UC_Sets: R_E: FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: FI","~UC_Sets: R_S: AllRegions")
+      (UC_Sets R_E: FI -> R_S: AllRegions in Reg mode)
+  ~ 'GROWTHs 3y bio vs fossil'!Q8: 'UC_RHSRT'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT","UC_RHST")
+      (RHS column -> region-less in Reg mode)
+  ~ 'GROWTHs 3y bio vs fossil'!R8: 'UC_RHSRT~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~0","UC_RHST~0")
+      (RHS column -> region-less in Reg mode)
+
+--- Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx
+  ~ 'FI internal trades'!D4: 10
+      -> 0.0001
+      (ACTCOST on TB_* 10 -> 0.0001 (M EUR/PJ; 10 = 10 EUR/GJ = 36 EUR/MWh). Table is Reg-mode only (tag =IF(Region_selection!$B$8=Region_selection!$D$9,"~TFM_INS","TFM_INS")).)
+
+--- Reg-FINTIMES/VT_FINTIMES_ELC.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'Dist Heat'!C22: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Dist Heat'!C23: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Dist Heat'!C24: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Dist Heat'!C25: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Dist Heat'!C26: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+
+--- Reg-FINTIMES/VT_FINTIMES_SUP.xlsx
+  + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
+  ~ 'VEDA Tables'!G49: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G50: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G51: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G52: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G53: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G54: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G55: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'VEDA Tables'!G57: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!K42: 438.924
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,438.924,"")
+      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!K43: 470.542
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,470.542,"")
+      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!K44: 456.607
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,456.607,"")
+      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!K45: 483.616
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,483.616,"")
+      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!K46: 475.18
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,475.18,"")
+      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!K48: 338.53119999999996
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,$K$47*0.7,"")
+      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+
+NOTES:
+  - RS_ACT_MINSNKAFF1_UP 2010: 40330.0 overridden by 14.39348807840661 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32); later scenario wins
+  - RS_ACT_MINSNKAFF1_UP 2020: 51330.0 overridden by 18.319309275095744 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33); later scenario wins
+  - RS_ACT_MINSNKAFF1_UP 2030: 18330.0 overridden by 6.5418456850283455 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34); later scenario wins
+  - RS_ACT_MINSNKAFF1_UP 2040: 18330.0 overridden by 6.5418456850283455 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G35); later scenario wins
+  - RS_ACT_MINSNKAFF1_UP 2050: 91670.0 overridden by 32.71636628186298 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G36); later scenario wins
+  - RS_ACT_MINSNKAFF2_UP 2010: 95330.0 overridden by 34.022594061852274 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G38); later scenario wins
+  - RS_ACT_MINSNKAFF2_UP 2030: 73330.0 overridden by 26.170951668474007 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G40); later scenario wins
+  - RS_ACT_MINSNKAFF2_UP 2040: 73330.0 overridden by 26.170951668474007 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G41); later scenario wins
+  - RS_ACT_MINSNKAFF2_UP 2050: 73330.0 overridden by 26.170951668474007 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G42); later scenario wins
+  - RS_ACT_MINSNKAFF3_UP 2010: 25670.0 overridden by 9.161439101728185 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G44); later scenario wins
+  - RS_ACT_MINSNKAFF3_UP 2020: 157670.0 overridden by 56.27129346199777 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G45); later scenario wins
+  - RS_ACT_MINSNKAFF3_UP 2030: 62330.0 overridden by 22.245130471784876 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G46); later scenario wins
+  - RS_ACT_MINSNKAFF4_UP 2040: 179670.0 overridden by 64.12293585537604 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G53); later scenario wins
+  - RS_ACT_MINSNKAFF4_UP 2050: 143000.0 overridden by 51.03567555695872 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G54); later scenario wins
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H49: zero ACT_BND FX 2010 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H50: zero ACT_BND FX 2011 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H51: zero ACT_BND FX 2012 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H52: zero ACT_BND FX 2013 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H53: zero ACT_BND FX 2014 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H54: zero ACT_BND FX 2015 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H55: zero ACT_BND LO 2016 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx VEDA Tables!H57: zero ACT_BND LO 2025 duplicates a non-zero value in the same row; not copied
+  - wildcards expanded with Reg-FINTIMES\AppData\GAMSSAVE\baseline.gdx (2277 FI processes) - this GDX is older than the current files; re-check the expansions when a fresh Baseline-Sami GDX is pushed
+
+Non-zero bound values by class: {'SUM': 124, 'POT': 92, 'SKIP': 1, 'KEEP': 4, 'LINK': 236, 'NONBIND': 2}
+Edits: 104 cells in 17 workbooks; new RS_* constraints: 185; workbooks needing a Region_selection sheet: 17
+
