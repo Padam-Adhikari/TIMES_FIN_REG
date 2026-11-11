@@ -26,7 +26,7 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
       B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
       B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   8 constraints:
     UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
-    RS_ACT_MINBIOCRP41_UP | UC_ACT=1 | MINBIOCRP41 |  | UP | 2020:3.5, 2030:4.2, 2040:6, 2050:7.4 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L59; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L60; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L61; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L62
+    RS_ACT_MINBIOCRP41_UP | UC_ACT=1 | MINBIOCRP41 |  | UP | 2005:0, 2010:0, 2020:3.5, 2030:4.2, 2040:6, 2050:7.4 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L59; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L60; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L61; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L62
     RS_ACT_MINBIOGAS1_UP | UC_ACT=1 | MINBIOGAS1 |  | UP | 2005:0.9, 2010:0.9, 2020:0.9, 2030:2.1, 2040:5.4, 2050:6.5 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L81; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L82; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L83; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L84; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L85; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L86
     RS_ACT_MINBIOAGRW1_UP | UC_ACT=1 | MINBIOAGRW1 |  | UP | 2005:14.5, 2010:14.5, 2020:17, 2030:17.9, 2040:17.9, 2050:17.9 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L94; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L95; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L96; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L97; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L98; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L99
     RS_ACT_MINBIOWOO_UP | UC_ACT=1 | MINBIOWOO |  | UP | 2005:56, 2010:55.7, 2020:74.2, 2030:82.8, 2040:82.1, 2050:80.6 | 15 (SysSettings Interpolation etc.!row15) | Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L107; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L108; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L109; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L110; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L111; Scen_BIOPOT_BIOM16_ForestBAU.xlsx BIO!L112
@@ -78,132 +78,132 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
       B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
       B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   126 constraints:
     UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
-    RS_CAP_DETPre45-MG1_UP | UC_CAP=1 | DETPre45-MG1 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre45-MG2_UP | UC_CAP=1 | DETPre45-MG2 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre45-MG3_UP | UC_CAP=1 | DETPre45-MG3 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre45-MR2_UP | UC_CAP=1 | DETPre45-MR2 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre45-MR3_UP | UC_CAP=1 | DETPre45-MR3 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre45-MW2_UP | UC_CAP=1 | DETPre45-MW2 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre45-MW3_UP | UC_CAP=1 | DETPre45-MW3 |  | UP | 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
-    RS_CAP_DETPre69-MG1_UP | UC_CAP=1 | DETPre69-MG1 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre69-MG2_UP | UC_CAP=1 | DETPre69-MG2 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre69-MG3_UP | UC_CAP=1 | DETPre69-MG3 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre69-MR2_UP | UC_CAP=1 | DETPre69-MR2 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre69-MR3_UP | UC_CAP=1 | DETPre69-MR3 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre69-MW2_UP | UC_CAP=1 | DETPre69-MW2 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre69-MW3_UP | UC_CAP=1 | DETPre69-MW3 |  | UP | 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
-    RS_CAP_DETPre79-MG1_UP | UC_CAP=1 | DETPre79-MG1 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre79-MG2_UP | UC_CAP=1 | DETPre79-MG2 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre79-MG3_UP | UC_CAP=1 | DETPre79-MG3 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre79-MR2_UP | UC_CAP=1 | DETPre79-MR2 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre79-MR3_UP | UC_CAP=1 | DETPre79-MR3 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre79-MW2_UP | UC_CAP=1 | DETPre79-MW2 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre79-MW3_UP | UC_CAP=1 | DETPre79-MW3 |  | UP | 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
-    RS_CAP_DETPre89-MG1_UP | UC_CAP=1 | DETPre89-MG1 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre89-MG2_UP | UC_CAP=1 | DETPre89-MG2 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre89-MG3_UP | UC_CAP=1 | DETPre89-MG3 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre89-MR2_UP | UC_CAP=1 | DETPre89-MR2 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre89-MR3_UP | UC_CAP=1 | DETPre89-MR3 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre89-MW2_UP | UC_CAP=1 | DETPre89-MW2 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre89-MW3_UP | UC_CAP=1 | DETPre89-MW3 |  | UP | 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
-    RS_CAP_DETPre99-MG1_UP | UC_CAP=1 | DETPre99-MG1 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_DETPre99-MG2_UP | UC_CAP=1 | DETPre99-MG2 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_DETPre99-MG3_UP | UC_CAP=1 | DETPre99-MG3 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_DETPre99-MR2_UP | UC_CAP=1 | DETPre99-MR2 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_DETPre99-MR3_UP | UC_CAP=1 | DETPre99-MR3 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_DETPre99-MW2_UP | UC_CAP=1 | DETPre99-MW2 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_DETPre99-MW3_UP | UC_CAP=1 | DETPre99-MW3 |  | UP | 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
-    RS_CAP_FLTPre45-MG1_UP | UC_CAP=1 | FLTPre45-MG1 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre45-MG2_UP | UC_CAP=1 | FLTPre45-MG2 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre45-MG3_UP | UC_CAP=1 | FLTPre45-MG3 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre45-MR2_UP | UC_CAP=1 | FLTPre45-MR2 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre45-MR3_UP | UC_CAP=1 | FLTPre45-MR3 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre45-MW2_UP | UC_CAP=1 | FLTPre45-MW2 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre45-MW3_UP | UC_CAP=1 | FLTPre45-MW3 |  | UP | 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
-    RS_CAP_FLTPre69-MG1_UP | UC_CAP=1 | FLTPre69-MG1 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre69-MG2_UP | UC_CAP=1 | FLTPre69-MG2 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre69-MG3_UP | UC_CAP=1 | FLTPre69-MG3 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre69-MR2_UP | UC_CAP=1 | FLTPre69-MR2 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre69-MR3_UP | UC_CAP=1 | FLTPre69-MR3 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre69-MW2_UP | UC_CAP=1 | FLTPre69-MW2 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre69-MW3_UP | UC_CAP=1 | FLTPre69-MW3 |  | UP | 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
-    RS_CAP_FLTPre79-MG1_UP | UC_CAP=1 | FLTPre79-MG1 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre79-MG2_UP | UC_CAP=1 | FLTPre79-MG2 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre79-MG3_UP | UC_CAP=1 | FLTPre79-MG3 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre79-MR2_UP | UC_CAP=1 | FLTPre79-MR2 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre79-MR3_UP | UC_CAP=1 | FLTPre79-MR3 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre79-MW2_UP | UC_CAP=1 | FLTPre79-MW2 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre79-MW3_UP | UC_CAP=1 | FLTPre79-MW3 |  | UP | 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
-    RS_CAP_FLTPre89-MG1_UP | UC_CAP=1 | FLTPre89-MG1 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre89-MG2_UP | UC_CAP=1 | FLTPre89-MG2 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre89-MG3_UP | UC_CAP=1 | FLTPre89-MG3 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre89-MR2_UP | UC_CAP=1 | FLTPre89-MR2 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre89-MR3_UP | UC_CAP=1 | FLTPre89-MR3 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre89-MW2_UP | UC_CAP=1 | FLTPre89-MW2 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre89-MW3_UP | UC_CAP=1 | FLTPre89-MW3 |  | UP | 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
-    RS_CAP_FLTPre99-MG1_UP | UC_CAP=1 | FLTPre99-MG1 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_FLTPre99-MG2_UP | UC_CAP=1 | FLTPre99-MG2 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_FLTPre99-MG3_UP | UC_CAP=1 | FLTPre99-MG3 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_FLTPre99-MR2_UP | UC_CAP=1 | FLTPre99-MR2 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_FLTPre99-MR3_UP | UC_CAP=1 | FLTPre99-MR3 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_FLTPre99-MW2_UP | UC_CAP=1 | FLTPre99-MW2 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_FLTPre99-MW3_UP | UC_CAP=1 | FLTPre99-MW3 |  | UP | 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
-    RS_CAP_SDEPre45-MG1_UP | UC_CAP=1 | SDEPre45-MG1 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre45-MG2_UP | UC_CAP=1 | SDEPre45-MG2 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre45-MG3_UP | UC_CAP=1 | SDEPre45-MG3 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre45-MR2_UP | UC_CAP=1 | SDEPre45-MR2 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre45-MR3_UP | UC_CAP=1 | SDEPre45-MR3 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre45-MW2_UP | UC_CAP=1 | SDEPre45-MW2 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre45-MW3_UP | UC_CAP=1 | SDEPre45-MW3 |  | UP | 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
-    RS_CAP_SDEPre69-MG1_UP | UC_CAP=1 | SDEPre69-MG1 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre69-MG2_UP | UC_CAP=1 | SDEPre69-MG2 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre69-MG3_UP | UC_CAP=1 | SDEPre69-MG3 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre69-MR2_UP | UC_CAP=1 | SDEPre69-MR2 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre69-MR3_UP | UC_CAP=1 | SDEPre69-MR3 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre69-MW2_UP | UC_CAP=1 | SDEPre69-MW2 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre69-MW3_UP | UC_CAP=1 | SDEPre69-MW3 |  | UP | 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
-    RS_CAP_SDEPre79-MG1_UP | UC_CAP=1 | SDEPre79-MG1 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre79-MG2_UP | UC_CAP=1 | SDEPre79-MG2 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre79-MG3_UP | UC_CAP=1 | SDEPre79-MG3 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre79-MR2_UP | UC_CAP=1 | SDEPre79-MR2 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre79-MR3_UP | UC_CAP=1 | SDEPre79-MR3 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre79-MW2_UP | UC_CAP=1 | SDEPre79-MW2 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre79-MW3_UP | UC_CAP=1 | SDEPre79-MW3 |  | UP | 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
-    RS_CAP_SDEPre89-MG1_UP | UC_CAP=1 | SDEPre89-MG1 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre89-MG2_UP | UC_CAP=1 | SDEPre89-MG2 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre89-MG3_UP | UC_CAP=1 | SDEPre89-MG3 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre89-MR2_UP | UC_CAP=1 | SDEPre89-MR2 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre89-MR3_UP | UC_CAP=1 | SDEPre89-MR3 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre89-MW2_UP | UC_CAP=1 | SDEPre89-MW2 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre89-MW3_UP | UC_CAP=1 | SDEPre89-MW3 |  | UP | 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
-    RS_CAP_SDEPre99-MG1_UP | UC_CAP=1 | SDEPre99-MG1 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_SDEPre99-MG2_UP | UC_CAP=1 | SDEPre99-MG2 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_SDEPre99-MG3_UP | UC_CAP=1 | SDEPre99-MG3 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_SDEPre99-MR2_UP | UC_CAP=1 | SDEPre99-MR2 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_SDEPre99-MR3_UP | UC_CAP=1 | SDEPre99-MR3 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_SDEPre99-MW2_UP | UC_CAP=1 | SDEPre99-MW2 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_SDEPre99-MW3_UP | UC_CAP=1 | SDEPre99-MW3 |  | UP | 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
-    RS_CAP_DETPre09-MG1_UP | UC_CAP=1 | DETPre09-MG1 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_DETPre09-MG2_UP | UC_CAP=1 | DETPre09-MG2 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_DETPre09-MG3_UP | UC_CAP=1 | DETPre09-MG3 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_DETPre09-MR2_UP | UC_CAP=1 | DETPre09-MR2 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_DETPre09-MR3_UP | UC_CAP=1 | DETPre09-MR3 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_DETPre09-MW2_UP | UC_CAP=1 | DETPre09-MW2 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_DETPre09-MW3_UP | UC_CAP=1 | DETPre09-MW3 |  | UP | 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
-    RS_CAP_FLTPre09-MG1_UP | UC_CAP=1 | FLTPre09-MG1 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_FLTPre09-MG2_UP | UC_CAP=1 | FLTPre09-MG2 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_FLTPre09-MG3_UP | UC_CAP=1 | FLTPre09-MG3 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_FLTPre09-MR2_UP | UC_CAP=1 | FLTPre09-MR2 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_FLTPre09-MR3_UP | UC_CAP=1 | FLTPre09-MR3 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_FLTPre09-MW2_UP | UC_CAP=1 | FLTPre09-MW2 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_FLTPre09-MW3_UP | UC_CAP=1 | FLTPre09-MW3 |  | UP | 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
-    RS_CAP_SDEPre09-MG1_UP | UC_CAP=1 | SDEPre09-MG1 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
-    RS_CAP_SDEPre09-MG2_UP | UC_CAP=1 | SDEPre09-MG2 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
-    RS_CAP_SDEPre09-MG3_UP | UC_CAP=1 | SDEPre09-MG3 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
-    RS_CAP_SDEPre09-MR2_UP | UC_CAP=1 | SDEPre09-MR2 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
-    RS_CAP_SDEPre09-MR3_UP | UC_CAP=1 | SDEPre09-MR3 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
-    RS_CAP_SDEPre09-MW2_UP | UC_CAP=1 | SDEPre09-MW2 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
-    RS_CAP_SDEPre09-MW3_UP | UC_CAP=1 | SDEPre09-MW3 |  | UP | 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_DETPre45-MG1_UP | UC_CAP=1 | DETPre45-MG1 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MG2_UP | UC_CAP=1 | DETPre45-MG2 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MG3_UP | UC_CAP=1 | DETPre45-MG3 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MR2_UP | UC_CAP=1 | DETPre45-MR2 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MR3_UP | UC_CAP=1 | DETPre45-MR3 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MW2_UP | UC_CAP=1 | DETPre45-MW2 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre45-MW3_UP | UC_CAP=1 | DETPre45-MW3 |  | UP | 2015:0, 2060:111.65 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H60
+    RS_CAP_DETPre69-MG1_UP | UC_CAP=1 | DETPre69-MG1 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MG2_UP | UC_CAP=1 | DETPre69-MG2 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MG3_UP | UC_CAP=1 | DETPre69-MG3 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MR2_UP | UC_CAP=1 | DETPre69-MR2 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MR3_UP | UC_CAP=1 | DETPre69-MR3 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MW2_UP | UC_CAP=1 | DETPre69-MW2 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre69-MW3_UP | UC_CAP=1 | DETPre69-MW3 |  | UP | 2015:0, 2060:204.21 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H61
+    RS_CAP_DETPre79-MG1_UP | UC_CAP=1 | DETPre79-MG1 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MG2_UP | UC_CAP=1 | DETPre79-MG2 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MG3_UP | UC_CAP=1 | DETPre79-MG3 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MR2_UP | UC_CAP=1 | DETPre79-MR2 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MR3_UP | UC_CAP=1 | DETPre79-MR3 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MW2_UP | UC_CAP=1 | DETPre79-MW2 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre79-MW3_UP | UC_CAP=1 | DETPre79-MW3 |  | UP | 2015:0, 2060:162.213 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H62
+    RS_CAP_DETPre89-MG1_UP | UC_CAP=1 | DETPre89-MG1 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MG2_UP | UC_CAP=1 | DETPre89-MG2 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MG3_UP | UC_CAP=1 | DETPre89-MG3 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MR2_UP | UC_CAP=1 | DETPre89-MR2 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MR3_UP | UC_CAP=1 | DETPre89-MR3 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MW2_UP | UC_CAP=1 | DETPre89-MW2 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre89-MW3_UP | UC_CAP=1 | DETPre89-MW3 |  | UP | 2015:0, 2060:128.532 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H63
+    RS_CAP_DETPre99-MG1_UP | UC_CAP=1 | DETPre99-MG1 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MG2_UP | UC_CAP=1 | DETPre99-MG2 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MG3_UP | UC_CAP=1 | DETPre99-MG3 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MR2_UP | UC_CAP=1 | DETPre99-MR2 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MR3_UP | UC_CAP=1 | DETPre99-MR3 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MW2_UP | UC_CAP=1 | DETPre99-MW2 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_DETPre99-MW3_UP | UC_CAP=1 | DETPre99-MW3 |  | UP | 2015:0, 2060:93.8487 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H64
+    RS_CAP_FLTPre45-MG1_UP | UC_CAP=1 | FLTPre45-MG1 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MG2_UP | UC_CAP=1 | FLTPre45-MG2 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MG3_UP | UC_CAP=1 | FLTPre45-MG3 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MR2_UP | UC_CAP=1 | FLTPre45-MR2 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MR3_UP | UC_CAP=1 | FLTPre45-MR3 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MW2_UP | UC_CAP=1 | FLTPre45-MW2 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre45-MW3_UP | UC_CAP=1 | FLTPre45-MW3 |  | UP | 2015:0, 2060:156.198 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H65
+    RS_CAP_FLTPre69-MG1_UP | UC_CAP=1 | FLTPre69-MG1 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MG2_UP | UC_CAP=1 | FLTPre69-MG2 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MG3_UP | UC_CAP=1 | FLTPre69-MG3 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MR2_UP | UC_CAP=1 | FLTPre69-MR2 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MR3_UP | UC_CAP=1 | FLTPre69-MR3 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MW2_UP | UC_CAP=1 | FLTPre69-MW2 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre69-MW3_UP | UC_CAP=1 | FLTPre69-MW3 |  | UP | 2015:0, 2060:285.689 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H66
+    RS_CAP_FLTPre79-MG1_UP | UC_CAP=1 | FLTPre79-MG1 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MG2_UP | UC_CAP=1 | FLTPre79-MG2 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MG3_UP | UC_CAP=1 | FLTPre79-MG3 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MR2_UP | UC_CAP=1 | FLTPre79-MR2 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MR3_UP | UC_CAP=1 | FLTPre79-MR3 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MW2_UP | UC_CAP=1 | FLTPre79-MW2 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre79-MW3_UP | UC_CAP=1 | FLTPre79-MW3 |  | UP | 2015:0, 2060:226.935 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H67
+    RS_CAP_FLTPre89-MG1_UP | UC_CAP=1 | FLTPre89-MG1 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MG2_UP | UC_CAP=1 | FLTPre89-MG2 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MG3_UP | UC_CAP=1 | FLTPre89-MG3 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MR2_UP | UC_CAP=1 | FLTPre89-MR2 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MR3_UP | UC_CAP=1 | FLTPre89-MR3 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MW2_UP | UC_CAP=1 | FLTPre89-MW2 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre89-MW3_UP | UC_CAP=1 | FLTPre89-MW3 |  | UP | 2015:0, 2060:179.816 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H68
+    RS_CAP_FLTPre99-MG1_UP | UC_CAP=1 | FLTPre99-MG1 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MG2_UP | UC_CAP=1 | FLTPre99-MG2 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MG3_UP | UC_CAP=1 | FLTPre99-MG3 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MR2_UP | UC_CAP=1 | FLTPre99-MR2 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MR3_UP | UC_CAP=1 | FLTPre99-MR3 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MW2_UP | UC_CAP=1 | FLTPre99-MW2 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_FLTPre99-MW3_UP | UC_CAP=1 | FLTPre99-MW3 |  | UP | 2015:0, 2060:131.294 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H69
+    RS_CAP_SDEPre45-MG1_UP | UC_CAP=1 | SDEPre45-MG1 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MG2_UP | UC_CAP=1 | SDEPre45-MG2 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MG3_UP | UC_CAP=1 | SDEPre45-MG3 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MR2_UP | UC_CAP=1 | SDEPre45-MR2 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MR3_UP | UC_CAP=1 | SDEPre45-MR3 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MW2_UP | UC_CAP=1 | SDEPre45-MW2 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre45-MW3_UP | UC_CAP=1 | SDEPre45-MW3 |  | UP | 2015:0, 2060:84.3882 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H70
+    RS_CAP_SDEPre69-MG1_UP | UC_CAP=1 | SDEPre69-MG1 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MG2_UP | UC_CAP=1 | SDEPre69-MG2 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MG3_UP | UC_CAP=1 | SDEPre69-MG3 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MR2_UP | UC_CAP=1 | SDEPre69-MR2 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MR3_UP | UC_CAP=1 | SDEPre69-MR3 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MW2_UP | UC_CAP=1 | SDEPre69-MW2 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre69-MW3_UP | UC_CAP=1 | SDEPre69-MW3 |  | UP | 2015:0, 2060:154.347 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H71
+    RS_CAP_SDEPre79-MG1_UP | UC_CAP=1 | SDEPre79-MG1 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MG2_UP | UC_CAP=1 | SDEPre79-MG2 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MG3_UP | UC_CAP=1 | SDEPre79-MG3 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MR2_UP | UC_CAP=1 | SDEPre79-MR2 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MR3_UP | UC_CAP=1 | SDEPre79-MR3 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MW2_UP | UC_CAP=1 | SDEPre79-MW2 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre79-MW3_UP | UC_CAP=1 | SDEPre79-MW3 |  | UP | 2015:0, 2060:122.605 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H72
+    RS_CAP_SDEPre89-MG1_UP | UC_CAP=1 | SDEPre89-MG1 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MG2_UP | UC_CAP=1 | SDEPre89-MG2 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MG3_UP | UC_CAP=1 | SDEPre89-MG3 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MR2_UP | UC_CAP=1 | SDEPre89-MR2 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MR3_UP | UC_CAP=1 | SDEPre89-MR3 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MW2_UP | UC_CAP=1 | SDEPre89-MW2 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre89-MW3_UP | UC_CAP=1 | SDEPre89-MW3 |  | UP | 2015:0, 2060:97.1482 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H73
+    RS_CAP_SDEPre99-MG1_UP | UC_CAP=1 | SDEPre99-MG1 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MG2_UP | UC_CAP=1 | SDEPre99-MG2 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MG3_UP | UC_CAP=1 | SDEPre99-MG3 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MR2_UP | UC_CAP=1 | SDEPre99-MR2 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MR3_UP | UC_CAP=1 | SDEPre99-MR3 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MW2_UP | UC_CAP=1 | SDEPre99-MW2 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_SDEPre99-MW3_UP | UC_CAP=1 | SDEPre99-MW3 |  | UP | 2015:0, 2060:70.9333 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H74
+    RS_CAP_DETPre09-MG1_UP | UC_CAP=1 | DETPre09-MG1 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MG2_UP | UC_CAP=1 | DETPre09-MG2 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MG3_UP | UC_CAP=1 | DETPre09-MG3 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MR2_UP | UC_CAP=1 | DETPre09-MR2 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MR3_UP | UC_CAP=1 | DETPre09-MR3 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MW2_UP | UC_CAP=1 | DETPre09-MW2 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_DETPre09-MW3_UP | UC_CAP=1 | DETPre09-MW3 |  | UP | 2015:0, 2060:91.6667 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H75
+    RS_CAP_FLTPre09-MG1_UP | UC_CAP=1 | FLTPre09-MG1 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MG2_UP | UC_CAP=1 | FLTPre09-MG2 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MG3_UP | UC_CAP=1 | FLTPre09-MG3 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MR2_UP | UC_CAP=1 | FLTPre09-MR2 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MR3_UP | UC_CAP=1 | FLTPre09-MR3 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MW2_UP | UC_CAP=1 | FLTPre09-MW2 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_FLTPre09-MW3_UP | UC_CAP=1 | FLTPre09-MW3 |  | UP | 2015:0, 2060:128.241 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H76
+    RS_CAP_SDEPre09-MG1_UP | UC_CAP=1 | SDEPre09-MG1 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MG2_UP | UC_CAP=1 | SDEPre09-MG2 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MG3_UP | UC_CAP=1 | SDEPre09-MG3 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MR2_UP | UC_CAP=1 | SDEPre09-MR2 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MR3_UP | UC_CAP=1 | SDEPre09-MR3 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MW2_UP | UC_CAP=1 | SDEPre09-MW2 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
+    RS_CAP_SDEPre09-MW3_UP | UC_CAP=1 | SDEPre09-MW3 |  | UP | 2015:0, 2060:69.2841 | 15 (table) | Scen_NewHouses_and_retrofits.xlsx Retrofit control!H77
 
 --- Reg-FINTIMES/SuppXLS/Scen_RegSum_Base.xlsx
   + add sheet Region_selection (copy of Reg-FINTIMES/SuppXLS/Trades/ScenTrade_TradeParameters.xlsx Region_selection, B8 = FINTIMES)
@@ -212,7 +212,7 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
   + sheet 'RegSum': gated tags (Reg mode only)
       B2 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: R_S: AllRegions","~UC_Sets: R_S: AllRegions")
       B3 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_Sets: T_E:","~UC_Sets: T_E:")
-      B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   24 constraints:
+      B5 =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_T","~UC_T")   23 constraints:
     UC_N | coef | Pset_PN | Cset_CN | LimType | RHS by year (UC_RHST) | UC_RHST~0 (IE) | from
     RS_ACT_EEHP_DistHeating_LO | UC_ACT=1 | EEHP_DistHeating |  | LO | 2010:61.19, 2011:52.88, 2012:63.22, 2013:55.95, 2014:59.75 | 1 (SysSettings Interpolation etc.!row14) | VT_FINTIMES_ELC.xlsx Dist Heat!J22; VT_FINTIMES_ELC.xlsx Dist Heat!J23; VT_FINTIMES_ELC.xlsx Dist Heat!J24; VT_FINTIMES_ELC.xlsx Dist Heat!J25; VT_FINTIMES_ELC.xlsx Dist Heat!J26
     RS_ACT_MINCOLRSV1_UP | UC_ACT=1 | MINCOLRSV1 |  | UP | 2015:89.137, 2050:89.137 | 15 (SysSettings Interpolation etc.!row15) | VT_FINTIMES_SUP.xlsx Reserves!H4; VT_FINTIMES_SUP.xlsx Reserves!H5
@@ -224,7 +224,7 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
     RS_ACT_SSCDCOKE00_UP | UC_ACT=1 | SSCDCOKE00 |  | UP | 2016:34.6039, 2025:25, 2030:17 | 5 (table) | VT_FINTIMES_SUP.xlsx VEDA Tables!I56; VT_FINTIMES_SUP.xlsx VEDA Tables!I58; VT_FINTIMES_SUP.xlsx VEDA Tables!I59
     RS_ACT_SSCDRFLX00_FX | UC_ACT=1 | SSCDRFLX00 |  | FX | 2010:438.924, 2011:470.542, 2012:456.607, 2013:483.616, 2014:475.18 | 1 (SysSettings Interpolation etc.!row14) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K42; VT_FINTIMES_SUP.xlsx Flexible Refinery!K43; VT_FINTIMES_SUP.xlsx Flexible Refinery!K44; VT_FINTIMES_SUP.xlsx Flexible Refinery!K45; VT_FINTIMES_SUP.xlsx Flexible Refinery!K46
     RS_ACT_SSCDRFLX00_UP | UC_ACT=1 | SSCDRFLX00 |  | UP | 2015:483.616 | 15 (SysSettings Interpolation etc.!row15) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K47
-    RS_ACT_SSCDRFLX00_LO | UC_ACT=1 | SSCDRFLX00 |  | LO | 2020:338.531 | 1 (SysSettings Interpolation etc.!row22) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K48
+    RS_ACT_SSCDRFLX00_LO | UC_ACT=1 | SSCDRFLX00 |  | LO | 2020:338.531, 2030:0 | 1 (SysSettings Interpolation etc.!row22) | VT_FINTIMES_SUP.xlsx Flexible Refinery!K48
     RS_CAP_ENFI_LOVIISA-1_00_UP | UC_CAP=1 | ENFI_LOVIISA-1_00 |  | UP | 1977:0.496 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L7
     RS_CAP_ENFI_LOVIISA-2_00_UP | UC_CAP=1 | ENFI_LOVIISA-2_00 |  | UP | 1980:0.496 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L8
     RS_CAP_ENFI_OLKILUOTO-1_00_UP | UC_CAP=1 | ENFI_OLKILUOTO-1_00 |  | UP | 1978:0.88 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L9
@@ -232,11 +232,10 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
     RS_NCAP_ENFI_OLKILUOTO-3_FX | UC_NCAP=1 | ENFI_OLKILUOTO-3 |  | FX | 2023:1.6 | - (TIMES default) | SubRES_00_Nuc-EU.xlsx ELC_FI!M11
     RS_CAP_ENFI_OLKILUOTO-4_UP | UC_CAP=1 | ENFI_OLKILUOTO-4 |  | UP | 2200:1.5 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L12
     RS_CAP_ENFI_PYHA-YOKI_UP | UC_CAP=1 | ENFI_PYHA-YOKI |  | UP | 2200:1.5 | 5 (SysSettings Interpolation etc.!row12) | SubRES_00_Nuc-EU.xlsx ELC_FI!L13
-    RS_ACT_MINSNKAFF1_UP | UC_ACT=1 | MINSNKAFF1 |  | UP | 2010:14.3935, 2020:18.3193, 2030:6.54185, 2040:6.54185, 2050:32.7164 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!P122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S122; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G35; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G36
-    RS_ACT_MINSNKAFF2_UP | UC_ACT=1 | MINSNKAFF2 |  | UP | 2010:34.0226, 2030:26.171, 2040:26.171, 2050:26.171 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S123; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G38; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G40; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G41; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G42
-    RS_ACT_MINSNKAFF3_UP | UC_ACT=1 | MINSNKAFF3 |  | UP | 2010:9.16144, 2020:56.2713, 2030:22.2451 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O124; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!P124; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q124; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G44; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G45; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G46
-    RS_ACT_MINSNKAFF4_UP | UC_ACT=1 | MINSNKAFF4 |  | UP | 2040:64.1229, 2050:51.0357 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R125; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S125; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G53; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G54
-    RS_ACT_BLDGSLE85_LO | UC_ACT=1 | BLDGSLE85 |  | LO | BASE:0.12 | 1 (SysSettings Interpolation etc.!row14) | SubRES_22_TECHS_BIOREFINERIES.xlsx SUP_Blending!U50
+    RS_ACT_MINSNKAFF1_UP | UC_ACT=1 | MINSNKAFF1 |  | UP | 2005:0, 2010:14.3935, 2020:18.3193, 2030:6.54185, 2040:6.54185, 2050:32.7164 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!P122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R122; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S122; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G35; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G36
+    RS_ACT_MINSNKAFF2_UP | UC_ACT=1 | MINSNKAFF2 |  | UP | 2005:0, 2010:34.0226, 2020:0, 2030:26.171, 2040:26.171, 2050:26.171 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R123; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S123; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G38; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G40; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G41; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G42
+    RS_ACT_MINSNKAFF3_UP | UC_ACT=1 | MINSNKAFF3 |  | UP | 2005:0, 2010:9.16144, 2020:56.2713, 2030:22.2451, 2040:0, 2050:0 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!O124; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!P124; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!Q124; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G44; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G45; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G46
+    RS_ACT_MINSNKAFF4_UP | UC_ACT=1 | MINSNKAFF4 |  | UP | 2005:0, 2010:0, 2020:0, 2030:0, 2040:64.1229, 2050:51.0357 | 15 (SysSettings Interpolation etc.!row15) | SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!R125; SUBRES_10_TECHS_CHP_SUP_IND.xlsx SUP!S125; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G53; SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G54
     RS_CAP_LNGREGAS_New_UP | UC_CAP=1 | LNGREGAS_New |  | UP | 2030:1500 | 5 (SysSettings Interpolation etc.!row12) | SubRes_40_TRADE-EXTRAEU_Trans.xlsx SUP!G20
 
 --- Reg-FINTIMES/SuppXLS/Scen_UC_CO2Storage_300.xlsx
@@ -577,20 +576,33 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
       (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
 
 NOTES:
-  - RS_ACT_MINSNKAFF1_UP 2010: 40330.0 overridden by 14.39348807840661 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32); later scenario wins
-  - RS_ACT_MINSNKAFF1_UP 2020: 51330.0 overridden by 18.319309275095744 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33); later scenario wins
-  - RS_ACT_MINSNKAFF1_UP 2030: 18330.0 overridden by 6.5418456850283455 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34); later scenario wins
-  - RS_ACT_MINSNKAFF1_UP 2040: 18330.0 overridden by 6.5418456850283455 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G35); later scenario wins
-  - RS_ACT_MINSNKAFF1_UP 2050: 91670.0 overridden by 32.71636628186298 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G36); later scenario wins
-  - RS_ACT_MINSNKAFF2_UP 2010: 95330.0 overridden by 34.022594061852274 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G38); later scenario wins
-  - RS_ACT_MINSNKAFF2_UP 2030: 73330.0 overridden by 26.170951668474007 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G40); later scenario wins
-  - RS_ACT_MINSNKAFF2_UP 2040: 73330.0 overridden by 26.170951668474007 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G41); later scenario wins
-  - RS_ACT_MINSNKAFF2_UP 2050: 73330.0 overridden by 26.170951668474007 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G42); later scenario wins
-  - RS_ACT_MINSNKAFF3_UP 2010: 25670.0 overridden by 9.161439101728185 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G44); later scenario wins
-  - RS_ACT_MINSNKAFF3_UP 2020: 157670.0 overridden by 56.27129346199777 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G45); later scenario wins
-  - RS_ACT_MINSNKAFF3_UP 2030: 62330.0 overridden by 22.245130471784876 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G46); later scenario wins
-  - RS_ACT_MINSNKAFF4_UP 2040: 179670.0 overridden by 64.12293585537604 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G53); later scenario wins
-  - RS_ACT_MINSNKAFF4_UP 2050: 143000.0 overridden by 51.03567555695872 (Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G54); later scenario wins
+  - RS_ACT_SSCDCOKE00_FX 2010: 0 -> 30.7897 (VT_FINTIMES_SUP.xlsx VEDA Tables!I49, later value wins)
+  - RS_ACT_SSCDCOKE00_FX 2011: 0 -> 32.745 (VT_FINTIMES_SUP.xlsx VEDA Tables!I50, later value wins)
+  - RS_ACT_SSCDCOKE00_FX 2012: 0 -> 33.6326 (VT_FINTIMES_SUP.xlsx VEDA Tables!I51, later value wins)
+  - RS_ACT_SSCDCOKE00_FX 2013: 0 -> 33.6744 (VT_FINTIMES_SUP.xlsx VEDA Tables!I52, later value wins)
+  - RS_ACT_SSCDCOKE00_FX 2014: 0 -> 34.6039 (VT_FINTIMES_SUP.xlsx VEDA Tables!I53, later value wins)
+  - RS_ACT_SSCDCOKE00_FX 2015: 0 -> 34.6039 (VT_FINTIMES_SUP.xlsx VEDA Tables!I54, later value wins)
+  - RS_ACT_SSCDCOKE00_LO 2016: 0 -> 17.302 (VT_FINTIMES_SUP.xlsx VEDA Tables!I55, later value wins)
+  - RS_ACT_SSCDCOKE00_UP 2016: 0 -> 34.6039 (VT_FINTIMES_SUP.xlsx VEDA Tables!I56, later value wins)
+  - RS_ACT_SSCDCOKE00_LO 2025: 0 -> 8.65098 (VT_FINTIMES_SUP.xlsx VEDA Tables!I57, later value wins)
+  - RS_ACT_SSCDCOKE00_UP 2025: 0 -> 25 (VT_FINTIMES_SUP.xlsx VEDA Tables!I58, later value wins)
+  - RS_ACT_SSCDCOKE00_UP 2030: 0 -> 17 (VT_FINTIMES_SUP.xlsx VEDA Tables!I59, later value wins)
+  - RS_ACT_MINSNKAFF1_UP 2010: 40330 -> 14.3935 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32, later value wins)
+  - RS_ACT_MINSNKAFF1_UP 2020: 51330 -> 18.3193 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33, later value wins)
+  - RS_ACT_MINSNKAFF1_UP 2030: 18330 -> 6.54185 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34, later value wins)
+  - RS_ACT_MINSNKAFF1_UP 2040: 18330 -> 6.54185 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G35, later value wins)
+  - RS_ACT_MINSNKAFF1_UP 2050: 91670 -> 32.7164 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G36, later value wins)
+  - RS_ACT_MINSNKAFF2_UP 2010: 95330 -> 34.0226 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G38, later value wins)
+  - RS_ACT_MINSNKAFF2_UP 2030: 73330 -> 26.171 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G40, later value wins)
+  - RS_ACT_MINSNKAFF2_UP 2040: 73330 -> 26.171 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G41, later value wins)
+  - RS_ACT_MINSNKAFF2_UP 2050: 73330 -> 26.171 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G42, later value wins)
+  - RS_ACT_MINSNKAFF3_UP 2010: 25670 -> 9.16144 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G44, later value wins)
+  - RS_ACT_MINSNKAFF3_UP 2020: 157670 -> 56.2713 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G45, later value wins)
+  - RS_ACT_MINSNKAFF3_UP 2030: 62330 -> 22.2451 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G46, later value wins)
+  - RS_ACT_MINSNKAFF4_UP 2040: 179670 -> 64.1229 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G53, later value wins)
+  - RS_ACT_MINSNKAFF4_UP 2050: 143000 -> 51.0357 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G54, later value wins)
+  - RS_ACT_BLDGSLE85_LO 2010: 0.12 -> 0 (SubRES_22_TECHS_BIOREFINERIES.xlsx SUP_Blending!V50, later value wins)
+  - RS_ACT_BLDGSLE85_LO: dropped - every LO value is overridden to 0, so the bound does not exist in the single-region model either
   - VT_FINTIMES_SUP.xlsx VEDA Tables!H49: zero ACT_BND FX 2010 duplicates a non-zero value in the same row; not copied
   - VT_FINTIMES_SUP.xlsx VEDA Tables!H50: zero ACT_BND FX 2011 duplicates a non-zero value in the same row; not copied
   - VT_FINTIMES_SUP.xlsx VEDA Tables!H51: zero ACT_BND FX 2012 duplicates a non-zero value in the same row; not copied
@@ -602,5 +614,5 @@ NOTES:
   - wildcards expanded with Reg-FINTIMES\AppData\GAMSSAVE\baseline.gdx (2277 FI processes) - this GDX is older than the current files; re-check the expansions when a fresh Baseline-Sami GDX is pushed
 
 Non-zero bound values by class: {'SUM': 124, 'POT': 92, 'SKIP': 1, 'KEEP': 4, 'LINK': 236, 'NONBIND': 2}
-Edits: 104 cells in 17 workbooks; new RS_* constraints: 185; workbooks needing a Region_selection sheet: 17
+Edits: 104 cells in 17 workbooks; new RS_* constraints: 184; workbooks needing a Region_selection sheet: 17
 

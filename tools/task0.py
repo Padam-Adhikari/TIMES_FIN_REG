@@ -84,6 +84,7 @@ ID_COLS = {"techname", "techdesc", "commname", "commdesc", "comm-in", "comm-out"
            "pset: co", "pset: ci", "pset:pn", "cset: cn", "cset:cn", "cset:set", "unit",
            "sourcescen", "ts_filter", "value"}
 SENTINEL = 999999.0
+START_YEAR = "2010"   # SysSettings ~StartYear: VEDA puts a blank year here
 
 
 # --------------------------------------------------------------------------- helpers
@@ -650,16 +651,42 @@ def plan_bounds(scan, entries, ie_entries, plan, rules, topo):
                                       f"tables; using {code} (later source)")
                 if uc["ie"] is None or src == "table":
                     uc["ie"], uc["ie_src"] = code, src
-            y = e.year or "BASE"
-            if y in uc["rhs"] and uc["rhs"][y] != e.value:
-                plan.notes.append(f"{name} {y}: {uc['rhs'][y]} overridden by {e.value} "
-                                  f"({e.book} {e.sheet}!{e.coord()}); later scenario wins")
-            uc["rhs"][y] = e.value
             uc["srcs"].add(f"{os.path.basename(e.book)} {e.sheet}!{e.coord()}")
         # LO / FX must not stay on FI alone in Reg mode
         if e.lim in ("LO", "FX"):
             unit = source_unit(e)
             disable_units.setdefault(unit[:3], (unit, []))[1].append(e)
+    # RHS = the value VEDA ends up with: replay EVERY value of the same attribute / limit /
+    # item / year in scenario order (zeros and other classes included); last one wins.
+    # A blank year is VEDA's start year.
+    bykey = {(u["attr"], u["lim"], u["p"], u["c"]): u for u in ucs.values()}
+    for e in entries:
+        if e.attr not in UC_OF or e.lim == "N":
+            continue
+        y = e.year or START_YEAR
+        if e.attr in ("COM_BNDPRD", "COM_BNDNET"):
+            comm = cset_of(e.ident)
+            keys = [(e.attr, e.lim, None, c.strip()) for c in str(comm or "").split(",")]
+        elif e.attr == "FLO_BND":
+            cdef = e.ident.get("comm-out") or e.ident.get("comm-in") or cset_of(e.ident)
+            keys = [k for k in bykey if k[0] == "FLO_BND" and k[1] == e.lim and k[2] in (e.items or [])
+                    and vmatch(k[3], cdef)]
+        else:
+            keys = [(e.attr, e.lim, p, None) for p in (e.items or [])]
+        for k in keys:
+            u = bykey.get(k)
+            if u is None:
+                continue
+            if y in u["rhs"] and u["rhs"][y] != e.value:
+                plan.notes.append(f"{u['name']} {y}: {u['rhs'][y]:g} -> {e.value:g} "
+                                  f"({os.path.basename(e.book)} {e.sheet}!{e.coord()}, later value wins)")
+            u["rhs"][y] = e.value
+    for name in list(ucs):
+        u = ucs[name]
+        if u["lim"] == "LO" and all(v == 0 for v in u["rhs"].values()):
+            plan.notes.append(f"{name}: dropped - every LO value is overridden to 0, so the bound "
+                              "does not exist in the single-region model either")
+            del ucs[name]
     # source switches
     for (book, sheet, cell), (unit, es) in disable_units.items():
         kind, old, oldf, reg = unit[3], unit[4], unit[5], unit[6]

@@ -33,7 +33,7 @@ def _uc_rows(ucs):
     for u in ucs:
         first = True
         for y, v in sorted(u["rhs"].items()):
-            r = [u["name"], u["p"] or "", u["c"] or "", "" if y == "BASE" else int(y), u["lim"]]
+            r = [u["name"], u["p"] or "", u["c"] or "", int(y), u["lim"]]
             r += [1 if c == u["coef"] else "" for c in coefs]
             r += [v, (u["ie"] if (first and u["ie"] is not None) else ""),
                   (f"national {u['attr']} {u['lim']} (task 0) from " + "; ".join(sorted(u["srcs"])))[:250]
@@ -90,22 +90,34 @@ def apply_plan(plan, root, template_book, sel, sheet_name, log=print):
                     ws.name = "Region_selection"
                     if ws.range("B8").value != SINGLE or ws.range("D8").value != SINGLE:
                         raise RuntimeError("copied Region_selection sheet is not in FINTIMES mode")
-                # 1) verify every old value first (all-or-nothing per workbook)
+                # 1) verify every old value first (all-or-nothing per workbook); a cell that
+                #    already holds the planned switch (earlier apply) is left as it is
+                todo = []
                 for sheet, cell, old, new, why in plan.edits.get(book, []):
-                    cur = wb.sheets[sheet].range(cell).value
-                    if not _same(cur, old):
-                        raise RuntimeError(f"{sheet}!{cell} holds {cur!r}, dry run saw {old!r}")
+                    rng = wb.sheets[sheet].range(cell)
+                    done = (rng.formula == new) if (isinstance(new, str) and new.startswith("=")) \
+                        else _same(rng.value, new)
+                    if done:
+                        continue
+                    if not _same(rng.value, old):
+                        raise RuntimeError(f"{sheet}!{cell} holds {rng.value!r}, dry run saw {old!r}")
+                    todo.append((sheet, cell, new))
                 # 2) write switches
-                for sheet, cell, old, new, why in plan.edits.get(book, []):
+                for sheet, cell, new in todo:
                     rng = wb.sheets[sheet].range(cell)
                     if isinstance(new, str) and new.startswith("="):
                         rng.formula = new
                     else:
                         rng.value = new
-                # 3) Reg-only tables
+                log(f"  {book}: {len(todo)} cell(s) written, "
+                    f"{len(plan.edits.get(book, [])) - len(todo)} already in place")
+                # 3) Reg-only tables (a RegSum sheet written by this tool is regenerated)
                 if plan.new_tables.get(book) or plan.copies.get(book):
                     if sheet_name in [s.name for s in wb.sheets]:
-                        raise RuntimeError(f"sheet {sheet_name} already exists - not overwriting")
+                        old_ws = wb.sheets[sheet_name]
+                        if not str(old_ws.range("A1").value or "").startswith("Task 0 (tools/task0.py)"):
+                            raise RuntimeError(f"sheet {sheet_name} exists and was not made by this tool")
+                        old_ws.delete()
                     ws = wb.sheets.add(sheet_name, after=wb.sheets[-1])
                     ws.range("A1").value = ("Task 0 (tools/task0.py): national bounds as UC_R_SUM. "
                                             "Read by VEDA only when Region_selection!B8 = Reg-FINTIMES.")

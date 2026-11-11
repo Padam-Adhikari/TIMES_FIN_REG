@@ -223,7 +223,9 @@ RS_ACT_SSCDCOKE00_FX     SSCDCOKE00                            1
 - Coefficient 1 on the same variable: ACT_BND -> UC_ACT, CAP_BND -> UC_CAP,
   NCAP_BND -> UC_NCAP, FLO_BND(p,c) -> UC_FLO, COM_BNDPRD -> UC_COMPRD, COM_BNDNET -> UC_COMNET.
   All bounds found are ANNUAL, so the UC is annual (UC_RHST, no timeslice set).
-- RHS = the national value, at the same years, same LimType.
+- RHS = the national value VEDA ends up with: every value of the same attribute, limit, item and
+  year is replayed in scenario order (zeros and later overrides included, blank year = start year
+  2010), the last one wins; a LO whose final values are all 0 is dropped. Same years, same LimType.
 - Interpolation: the bound's explicit option is copied to `UC_RHST~0`: the table's own year-0
   value if there is one, else the SysSettings `~TFM_MIG` default (ACT_BND: 1, ACT_BND UP: 15,
   CAP_BND UP/LO: 5, NCAP_BND: 1, ...). Where neither exists the TIMES default applies, and it is
@@ -275,7 +277,7 @@ RS_ACT_SSCDCOKE00_FX     SSCDCOKE00                            1
 - `--verify`: all 104 switched cells give the intended text in Reg-FINTIMES mode and the old value
   in FINTIMES mode;
 - Reg-FINTIMES rescan: all converted UC_Sets read `R_S: AllRegions`, RHS attributes are
-  region-less (UC_RHST/UC_RHSTS only), the 185 `RS_*` constraints are active, and the only LO/FX
+  region-less (UC_RHST/UC_RHSTS only), all `RS_*` constraints are active, and the only LO/FX
   bounds still read from FI are the 101 external-trade bounds (Link rule).
 """
 

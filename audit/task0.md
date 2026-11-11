@@ -165,7 +165,7 @@ One line per table x attribute x limit x item. `Region` is the column the value 
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B82 `~TFM_INS` | ACT_BND | UP | IMPOILKER | FI | 2010: 30.0545, 2014: 19.0931, 2016: 25.3519, 2018: 21.1015, 2020: 31.0795, 2023: 21.4821 | H84, H85, H86, H87, H88, H89 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B82 `~TFM_INS` | ACT_BND | LO | IMPOILKER | FI | 2010: 24.5901, 2014: 15.6216, 2016: 20.7425, 2018: 17.2648, 2020: 25.4286, 2023: 17.5762 | H91, H92, H93, H94, H95, H96 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B100 `~TFM_INS` | ACT_BND | UP | IMPOILOTH | FI | 2010: 15.1185, 2012: 17.0947, 2014: 3.21965, 2016: 1.85057, 2018: 2.78004, 2020: 1.5533, 2020: 5.43865, 2023: 1.66635 | H102, H103, H104, H105, H106, H107, H108, H109 |
-| SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B100 `~TFM_INS` | ACT_BND | LO | IMPOILOTH | FI | 2010: 12.3697, 2012: 13.9866, 2014: 2.63426, 2016: 1.5141, 2018: 2.27457, 2020: 4.44981, 2020: 1.27088, 2023: 1.36337 | H111, H112, H113, H114, H115, H116, H117, H118 |
+| SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B100 `~TFM_INS` | ACT_BND | LO | IMPOILOTH | FI | 2010: 12.3697, 2012: 13.9866, 2014: 2.63426, 2016: 1.5141, 2018: 2.27457, 2020: 1.27088, 2020: 4.44981, 2023: 1.36337 | H111, H112, H113, H114, H115, H116, H117, H118 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | K101 `~TFM_INS` | ACT_BND | UP | IMPISOBUT | FI | 2010: 26.93 | Q103 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Exports fossil | B17 `~TFM_INS` | ACT_BND | UP | EXPOILGSL | FI | 2010: 100.232, 2012: 107.115, 2014: 135.539, 2016: 129.808, 2018: 130.419, 2020: 130.243, 2023: 126.944 | H21, H22, H23, H24, H25, H26, H27 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Exports fossil | B17 `~TFM_INS` | ACT_BND | LO | EXPOILGSL | FI | 2010: 82.008, 2012: 87.6396, 2014: 110.896, 2016: 106.206, 2018: 106.706, 2020: 106.562, 2023: 103.863 | H29, H30, H31, H32, H33, H34, H35 |
@@ -334,7 +334,9 @@ RS_ACT_SSCDCOKE00_FX     SSCDCOKE00                            1
 - Coefficient 1 on the same variable: ACT_BND -> UC_ACT, CAP_BND -> UC_CAP,
   NCAP_BND -> UC_NCAP, FLO_BND(p,c) -> UC_FLO, COM_BNDPRD -> UC_COMPRD, COM_BNDNET -> UC_COMNET.
   All bounds found are ANNUAL, so the UC is annual (UC_RHST, no timeslice set).
-- RHS = the national value, at the same years, same LimType.
+- RHS = the national value VEDA ends up with: every value of the same attribute, limit, item and
+  year is replayed in scenario order (zeros and later overrides included, blank year = start year
+  2010), the last one wins; a LO whose final values are all 0 is dropped. Same years, same LimType.
 - Interpolation: the bound's explicit option is copied to `UC_RHST~0`: the table's own year-0
   value if there is one, else the SysSettings `~TFM_MIG` default (ACT_BND: 1, ACT_BND UP: 15,
   CAP_BND UP/LO: 5, NCAP_BND: 1, ...). Where neither exists the TIMES default applies, and it is
@@ -386,13 +388,13 @@ RS_ACT_SSCDCOKE00_FX     SSCDCOKE00                            1
 - `--verify`: all 104 switched cells give the intended text in Reg-FINTIMES mode and the old value
   in FINTIMES mode;
 - Reg-FINTIMES rescan: all converted UC_Sets read `R_S: AllRegions`, RHS attributes are
-  region-less (UC_RHST/UC_RHSTS only), the 185 `RS_*` constraints are active, and the only LO/FX
+  region-less (UC_RHST/UC_RHSTS only), all `RS_*` constraints are active, and the only LO/FX
   bounds still read from FI are the 101 external-trade bounds (Link rule).
 
 ### 5.6 What the change does
 
 - Cell edits: 104 in 17 workbooks (all `=IF(Region_selection...)` switches; single-region values unchanged).
-- New `RS_*` constraints (Reg mode only): 185.
+- New `RS_*` constraints (Reg mode only): 184.
 - Workbooks that need a `Region_selection` sheet first (17): SubRES_TMPL/SubRES_00_Nuc-EU.xlsx, SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES.xlsx, SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx, SuppXLS/Scen_CO2target_NONETS_2030.xlsx, SuppXLS/Scen_Diversified_Cement.xlsx, SuppXLS/Scen_NewHouses_and_retrofits.xlsx, SuppXLS/Scen_RegSum_Base.xlsx, SuppXLS/Scen_UC_CO2Storage_300.xlsx, SuppXLS/Scen_UC_ElcPot.xlsx, SuppXLS/Scen_UC_HeatPumps_MaxCAP.xlsx, SuppXLS/Scen_UC_HeatPumps_MinCAP_Lo.xlsx, SuppXLS/Scen_UC_REFScen16_data.xlsx, SuppXLS/Scen_ZATEMP_Calibration.xlsx, SuppXLS/Scen_ZIETASSUMPTIONS.xlsx, SuppXLS/Scen_ZUGROWTH_Yearly.xlsx, VT_FINTIMES_ELC.xlsx, VT_FINTIMES_SUP.xlsx.
 
 ## 6. Related traps found during the audit (not task 0, recorded for the next tasks)

@@ -9,5 +9,5 @@ THREADS -1
 aggind 3
 Names 1
 eprhs 1.0e-8
-iis yes
+iis 1
 OPTCR 0.0001
