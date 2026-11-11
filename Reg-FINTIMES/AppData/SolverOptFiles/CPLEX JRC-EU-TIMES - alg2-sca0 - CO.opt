@@ -1,0 +1,12 @@
+scaind 0
+rerun yes
+lpmethod 4
+baralg 2
+barepcomp 1.0e-7
+barcrossalg 1
+barorder 0
+THREADS -1
+aggind 3
+Names 1
+eprhs 1.0e-8
+OPTCR 0.0001

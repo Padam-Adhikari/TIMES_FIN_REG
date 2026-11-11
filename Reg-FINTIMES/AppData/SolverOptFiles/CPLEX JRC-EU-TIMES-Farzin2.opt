@@ -1,0 +1,18 @@
+workmem 20000
+memoryemphasis 1
+scaind 0
+rerun yes
+iis yes
+lpmethod 4
+barcolnz 150
+predual -1
+barcrossalg 1
+baralg 3
+barepcomp 4.6e-08
+ppriind 3
+barorder 0
+THREADS 22
+aggind 4
+Names no
+decimals=8
+eprhs 1.0e-09

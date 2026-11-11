@@ -1,0 +1,11 @@
+scaind 0
+rerun yes
+iis yes
+lpmethod 4
+baralg 2
+barepcomp 1e-16
+barcrossalg -1
+barorder 0
+THREADS 30
+aggind 3
+Names no

@@ -1,0 +1,17 @@
+scaind -1
+rerun yes
+iis yes
+lpmethod 4
+THREADS 30
+predual -1
+barstartalg 1
+baralg 3
+barepcomp 1e-9
+barcrossalg 1
+ppriind 4
+barorder 0
+aggind 3
+Names no
+decimals=8
+eprhs 1.0e-09
+datacheck=2
