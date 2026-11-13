@@ -19,6 +19,17 @@ potentials 40,330 instead of 14.4, fixed since) and is expected to shrink after 
 Single-region mode: rescan of all 21 touched workbooks - every table reads exactly as before
 (ACTCOST differs only in a table that is off in single-region mode); no new table is active.
 
+## Second round (server run with Baseline-Sami, 13 Nov 16:35: optimal, -0.096 %)
+
+| # | Finding (evidence) | Fix (Reg mode only) |
+|---|---|---|
+| 4 | Parameter comparison single-FI vs regional-FI1D9 for the steel processes: 270 `FLO_BND UP 0` (industrial coal phase-out from 2030) missing in FI1D9 - `Scen_UC_LimitCOAL` / `INDCOA` writes them in a column headed `FI` | header `FI` -> `AllRegions` (zero bound = Copy rule). Not binding today (COREX unused) |
+| 5 | Net `INDSCO2N` (captured CO2) 1,703 kt/yr in FI1D9 from 2028, 0 in the single run; CO2 transport/storage costs lower | links FI<->FI1D9 for `INDSCO2N`, `GASBFT`, `GreenCert-FIN` (`ScenTrade__Trade_Links`, rows 19-21). Gap -0.096 % -> -0.025 % |
+
+Remaining -0.025 % and the FI-only emission aggregates (`INDCO2`, `CO2WOT`; reporting only) go to
+task 1. Also: the case Baseline-Reg must use the scenario group of its single-region reference
+(a run with group Baseline gave +1.1 % only because of a different demand file).
+
 ## Rules learned (now in CLAUDE.md)
 
 1. **Internal links and production/consumption sums.** `UC_COMPRD` / `UC_COMCON` / COM_BNDPRD
@@ -30,5 +41,4 @@ Single-region mode: rescan of all 21 touched workbooks - every table reads exact
 
 ## Not done here
 
-- The steel pilot misses the `GASBFT` link (top gas from FI1D9 cannot be used) - task 1.
 - The variable-RES module must be regionalised with the grid (tasks 2-3).

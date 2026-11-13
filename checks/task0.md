@@ -1,4 +1,4 @@
-# Run check: reg_sami2.gdx
+# Run check: baseline-reg.gdx
 
 Regions (3): FI, FI1B1, FI1D9
 
@@ -19,7 +19,7 @@ Reference: 1.52992e+06  ·  difference -1,467.1 (-0.0959%)
 ### NCAP_PASTI existing capacity by process: PASS (0 of 345 keys differ)
 
 
-### VAR_CAP installed capacity by year, process (result): DIFF (861 of 9752 keys differ)
+### VAR_CAP installed capacity by year, process (result): DIFF (853 of 9752 keys differ)
 
 | key | run | reference | difference |
 |---|---|---|---|
@@ -39,17 +39,17 @@ Reference: 1.52992e+06  ·  difference -1,467.1 (-0.0959%)
 | 2033 / TRA_Car_PIH_UpM_20pct | 197.305 | 138.255 | +59.0507 |
 | 2065 / COMBATS01 | 35.6942 | 0 | +35.6942 |
 | 2065 / RSDBATS01 | 14.2062 | 49.873 | -35.6668 |
-| 2050 / COMBATS01 | 0 | 35.5318 | -35.5318 |
-| 2048 / COMBATS01 | 5.21089 | 40.7424 | -35.5315 |
-| 2048 / RSDBATS01 | 35.4705 | 0 | +35.4705 |
-| 2050 / RSDBATS01 | 42.6932 | 7.30744 | +35.3858 |
 | 2063 / COMBATS01 | 28.2094 | 0 | +28.2094 |
 | 2060 / COMBATS01 | 28.2094 | 0 | +28.2094 |
 | 2063 / RSDBATS01 | 21.2441 | 49.4182 | -28.1741 |
 | 2060 / RSDBATS01 | 20.4078 | 48.5745 | -28.1667 |
-| 2045 / COMBATS01 | 15.11 | 38.6778 | -23.5678 |
+| 2068 / COMBATS01 | 22.0381 | 0 | +22.0381 |
+| 2068 / RSDBATS01 | 28.6374 | 50.6697 | -22.0323 |
+| 2010 / R_ES-SH-SD_GAS01 | 53.735 | 36.1154 | +17.6196 |
+| 2033 / R_ES-SH-FL_ELC01 | 480.528 | 464.622 | +15.9064 |
+| 2030 / R_ES-SH-FL_ELC01 | 480.528 | 464.622 | +15.9064 |
 
-… 836 more
+… 828 more
 
 ### Emissions (VAR_COMNET) by year, commodity (result): DIFF (141 of 225 keys differ)
 
@@ -119,3 +119,20 @@ Reference: 1.52992e+06  ·  difference -1,467.1 (-0.0959%)
 | FI1D9 | TB_MISSNT_FI_FI1D9 | MISSNT | 0 |
 
 ## Verdict: PASS
+
+## Explanation of the objective difference (Claude, 2026-11-13)
+
+Reference `baseline-new.gdx` (Baseline-Sami, region FI) vs `GAMS_WrkTIMES/GAMSSAVE/baseline-reg.gdx`
+(Baseline-Reg, scenario group Baseline-Sami, regions FI + FI1B1 + FI1D9). Both runs use the same 77
+scenario files. The regional run is 1,467 M EUR (0.096 %) cheaper:
+
+| Cause | Effect | Status |
+|---|---|---|
+| Captured CO2 `INDSCO2N` produced by the steel CCS routes in FI1D9 had no link to the FI hub, so it disappeared for free instead of entering CO2 transport/storage | -1,089 M EUR | fixed: links `TB_INDSCO2N/GASBFT/GreenCert-FIN_FI_FI1D9` (tools/reg_feasible.py) |
+| Remainder, spread thinly (equal-cost battery swap, small oil/electricity trade shifts) | -378 M EUR (-0.025 %) | to be traced in task 1 (steel pilot validation) |
+| Link cost ACTCOST 1e-4 on TB_* | < 1 M EUR | as designed |
+
+Tested by solving the server's DD files locally with the new links: objective 1,529,541.8 M EUR
+(-0.025 % vs reference), optimal, no dummy imports. Reporting gap noted for task 1: the emission
+aggregates `INDCO2` and `CO2WOT` are built in FI only (COM_AGG), so national reports of those two
+aggregates miss FI1D9; they are not used by any binding constraint.

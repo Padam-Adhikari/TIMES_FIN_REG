@@ -127,7 +127,8 @@ def apply_plan(plan, root, template_book, sel, sheet_name, log=print):
                     if isinstance(new, str) and new.startswith("{="):      # array formula
                         done = rng.formula == new[1:-1]
                     elif isinstance(new, str) and new.startswith("="):
-                        done = rng.formula == new
+                        # Excel reports newer functions without their _xlfn. prefix
+                        done = rng.formula.replace("_xlfn.", "") == new.replace("_xlfn.", "")
                     else:
                         done = _same(rng.value, new)
                     if done:

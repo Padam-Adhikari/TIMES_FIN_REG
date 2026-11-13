@@ -113,6 +113,10 @@ FI, to Sweden) by links - not modelled separately. Full region group: `Reg-FI`.
   coefficient, otherwise internal trade is counted twice. `UC_COMNET` needs none.
 - Modules written for one region but declared `AllRegions` (variable-RES `Scen_SepDb-ZIET_VAR*`)
   are restricted to the FI hub in Reg mode; rebuild them per region when their plants move.
+- After every move compare all parameters of the moved processes (single-run FI vs regional
+  run, new region) and link every commodity they produce or consume that has a partner on the
+  hub (the steel pilot missed INDSCO2N, GASBFT, GreenCert-FIN and an FI-only coal phase-out).
+- Compare a regional run only with the single-region run of the same scenario group.
 - Diagnose regional runs locally: the server's `GAMS_WrkTIMES` DD files solve here with TIMES
   v4.8.3 and CPLEX (`iis 1`, `names yes`); test every fix in the DD files before the workbooks.
 

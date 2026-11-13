@@ -64,7 +64,10 @@ def plan_var_module(plan):
         n = 0
         for (sheet, cell), v in sorted(vals.items()):
             if isinstance(v, str) and v.strip().upper().replace(" ", "") == "~UC_SETS:R_E:ALLREGIONS":
-                plan.edit(book, sheet, cell, v, gated(v, forms.get((sheet, cell)), '"~UC_Sets: R_E: FI"'),
+                f = forms.get((sheet, cell))
+                if f and SEL in f:          # already this tool's switch: rebuild it from the
+                    f = None                # single-region text instead of wrapping it again
+                plan.edit(book, sheet, cell, v, gated(v, f, '"~UC_Sets: R_E: FI"'),
                           "variable-RES module is a national identity: in Reg mode only the FI hub copy")
                 n += 1
         print(f"{book}: {n} UC_Sets lines -> R_E: FI in Reg mode")
@@ -110,7 +113,9 @@ def plan_coal_phaseout(plan):
            and _re.fullmatch(r"[A-Z]+" + str(hr), c[1])}
     assert "FLO_BND" in {vals.get((sh, f"{_re.match(r'[A-Z]+', hdr['Attribute']).group(0)}{hr + 1}"))}, hdr
     cell = hdr["FI"]
-    plan.edit(LIMITCOAL, sh, cell, "FI", gated("FI", forms.get((sh, cell)), '"AllRegions"'),
+    f = forms.get((sh, cell))
+    f = None if (f and SEL in f) else f      # already switched: rebuild, never wrap again
+    plan.edit(LIMITCOAL, sh, cell, "FI", gated("FI", f, '"AllRegions"'),
               "coal phase-out is a zero bound (Copy rule): every region, incl. moved plants")
     print(f"{LIMITCOAL} {sh}!{cell}: 'FI' -> 'AllRegions' in Reg mode")
 
@@ -128,7 +133,8 @@ def plan_links(plan):
     sh = "FI internal trades"
     last = max(r for r in range(4, 40) if vals.get((sh, f"M{r}")) is not None)
     free = all(vals.get((sh, f"{c}{r}")) is None for c in "ACDEFGHIM" for r in (19, 20, 21))
-    if last != 18 or not free:
+    done = [vals.get((sh, f"M{r}")) for r in (19, 20, 21)] == NEW_LINKS
+    if not done and (last != 18 or not free):
         sys.exit(f"{LINKS}: trade-link table not as expected (last commodity row {last}, rows 19-21 free {free})")
     plan.colours = getattr(plan, "colours", {})
     for i, com in enumerate(NEW_LINKS):
