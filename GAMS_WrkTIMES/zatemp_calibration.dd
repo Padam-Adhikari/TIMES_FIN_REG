@@ -1,0 +1,1806 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'zatemp_calibration'
+
+
+SET UNITS_COM
+
+/
+'UCU'
+/;
+
+SET COM_TMAP
+
+/
+'FI'.'NRG'.'RS_FLO_COMHTH00_HETHTH_UP-'
+'FI'.'NRG'.'RS_FLO_COMHTH00_HETHTH_UP_'
+'FI'.'NRG'.'RS_FLO_INDHTH00_HETHTH_UP-'
+'FI'.'NRG'.'RS_FLO_INDHTH00_HETHTH_UP_'
+'FI'.'NRG'.'RS_FLO_RSDHET00_HETHTH_UP-'
+'FI'.'NRG'.'RS_FLO_RSDHET00_HETHTH_UP_'
+'FI'.'NRG'.'RS_FLO_RSDHTH01_HETHTH_UP-'
+'FI'.'NRG'.'RS_FLO_RSDHTH01_HETHTH_UP_'
+'FI'.'NRG'.'RS_PRD_COMBIO_LO-'
+'FI'.'NRG'.'RS_PRD_COMBIO_LO_'
+'FI'.'NRG'.'RS_PRD_COMBIO_UP-'
+'FI'.'NRG'.'RS_PRD_COMBIO_UP_'
+'FI'.'NRG'.'RS_PRD_COMFINOIL_LO-'
+'FI'.'NRG'.'RS_PRD_COMFINOIL_LO_'
+'FI'.'NRG'.'RS_PRD_COMFINOIL_UP-'
+'FI'.'NRG'.'RS_PRD_COMFINOIL_UP_'
+'FI'.'NRG'.'RS_PRD_COMGAS_LO-'
+'FI'.'NRG'.'RS_PRD_COMGAS_LO_'
+'FI'.'NRG'.'RS_PRD_COMGAS_UP-'
+'FI'.'NRG'.'RS_PRD_COMGAS_UP_'
+'FI'.'NRG'.'RS_PRD_COMHET_LO-'
+'FI'.'NRG'.'RS_PRD_COMHET_LO_'
+'FI'.'NRG'.'RS_PRD_COMHET_UP-'
+'FI'.'NRG'.'RS_PRD_COMHET_UP_'
+'FI'.'NRG'.'RS_PRD_INDFINGAS_LO-'
+'FI'.'NRG'.'RS_PRD_INDFINGAS_LO_'
+'FI'.'NRG'.'RS_PRD_INDFINGAS_UP-'
+'FI'.'NRG'.'RS_PRD_INDFINGAS_UP_'
+'FI'.'NRG'.'RS_PRD_INDFINSOLID_LO-'
+'FI'.'NRG'.'RS_PRD_INDFINSOLID_LO_'
+'FI'.'NRG'.'RS_PRD_INDFINSOLID_UP-'
+'FI'.'NRG'.'RS_PRD_INDFINSOLID_UP_'
+'FI'.'NRG'.'RS_PRD_RSDBIO_LO-'
+'FI'.'NRG'.'RS_PRD_RSDBIO_LO_'
+'FI'.'NRG'.'RS_PRD_RSDBIO_UP-'
+'FI'.'NRG'.'RS_PRD_RSDBIO_UP_'
+'FI'.'NRG'.'RS_PRD_RSDFINOIL_LO-'
+'FI'.'NRG'.'RS_PRD_RSDFINOIL_LO_'
+'FI'.'NRG'.'RS_PRD_RSDFINOIL_UP-'
+'FI'.'NRG'.'RS_PRD_RSDFINOIL_UP_'
+'FI'.'NRG'.'RS_PRD_RSDGAS_LO-'
+'FI'.'NRG'.'RS_PRD_RSDGAS_LO_'
+'FI'.'NRG'.'RS_PRD_RSDGAS_UP-'
+'FI'.'NRG'.'RS_PRD_RSDGAS_UP_'
+'FI'.'NRG'.'RS_PRD_RSDHET_LO-'
+'FI'.'NRG'.'RS_PRD_RSDHET_LO_'
+'FI'.'NRG'.'RS_PRD_RSDHET_UP-'
+'FI'.'NRG'.'RS_PRD_RSDHET_UP_'
+'FI'.'NRG'.'RS_PRD_TRAFINOIL_LO-'
+'FI'.'NRG'.'RS_PRD_TRAFINOIL_LO_'
+'FI'.'NRG'.'RS_PRD_TRAFINOIL_UP-'
+'FI'.'NRG'.'RS_PRD_TRAFINOIL_UP_'
+'FI'.'NRG'.'RS_PRD_TRAGAS_UP-'
+'FI'.'NRG'.'RS_PRD_TRAGAS_UP_'
+'FI'.'NRG'.'UC_PriProdGrowthLim_COH-'
+'FI'.'NRG'.'UC_PriProdGrowthLim_COH_'
+'FI'.'NRG'.'UC_PriProdGrowthLim_COL-'
+'FI'.'NRG'.'UC_PriProdGrowthLim_COL_'
+'FI'.'NRG'.'UC_PriProdGrowthLim_GAS-'
+'FI'.'NRG'.'UC_PriProdGrowthLim_GAS_'
+'FI'.'NRG'.'UC_PriProdGrowthLim_OIL-'
+'FI'.'NRG'.'UC_PriProdGrowthLim_OIL_'
+'FI'.'NRG'.'UCE_Base-Exp-Calib-Max-'
+'FI'.'NRG'.'UCE_Base-Exp-Calib-Max_'
+'FI'.'NRG'.'UCE_Base-Exp-Calib-Min-'
+'FI'.'NRG'.'UCE_Base-Exp-Calib-Min_'
+'FI'.'NRG'.'UCE_Base-Imp-Calib-Max-'
+'FI'.'NRG'.'UCE_Base-Imp-Calib-Max_'
+'FI'.'NRG'.'UCE_Base-Imp-Calib-Min-'
+'FI'.'NRG'.'UCE_Base-Imp-Calib-Min_'
+'FI1B1'.'NRG'.'RS_FLO_COMHTH00_HETHTH_UP-'
+'FI1B1'.'NRG'.'RS_FLO_COMHTH00_HETHTH_UP_'
+'FI1B1'.'NRG'.'RS_FLO_INDHTH00_HETHTH_UP-'
+'FI1B1'.'NRG'.'RS_FLO_INDHTH00_HETHTH_UP_'
+'FI1B1'.'NRG'.'RS_FLO_RSDHET00_HETHTH_UP-'
+'FI1B1'.'NRG'.'RS_FLO_RSDHET00_HETHTH_UP_'
+'FI1B1'.'NRG'.'RS_FLO_RSDHTH01_HETHTH_UP-'
+'FI1B1'.'NRG'.'RS_FLO_RSDHTH01_HETHTH_UP_'
+'FI1B1'.'NRG'.'RS_PRD_COMBIO_LO-'
+'FI1B1'.'NRG'.'RS_PRD_COMBIO_LO_'
+'FI1B1'.'NRG'.'RS_PRD_COMBIO_UP-'
+'FI1B1'.'NRG'.'RS_PRD_COMBIO_UP_'
+'FI1B1'.'NRG'.'RS_PRD_COMFINOIL_LO-'
+'FI1B1'.'NRG'.'RS_PRD_COMFINOIL_LO_'
+'FI1B1'.'NRG'.'RS_PRD_COMFINOIL_UP-'
+'FI1B1'.'NRG'.'RS_PRD_COMFINOIL_UP_'
+'FI1B1'.'NRG'.'RS_PRD_COMGAS_LO-'
+'FI1B1'.'NRG'.'RS_PRD_COMGAS_LO_'
+'FI1B1'.'NRG'.'RS_PRD_COMGAS_UP-'
+'FI1B1'.'NRG'.'RS_PRD_COMGAS_UP_'
+'FI1B1'.'NRG'.'RS_PRD_COMHET_LO-'
+'FI1B1'.'NRG'.'RS_PRD_COMHET_LO_'
+'FI1B1'.'NRG'.'RS_PRD_COMHET_UP-'
+'FI1B1'.'NRG'.'RS_PRD_COMHET_UP_'
+'FI1B1'.'NRG'.'RS_PRD_INDFINGAS_LO-'
+'FI1B1'.'NRG'.'RS_PRD_INDFINGAS_LO_'
+'FI1B1'.'NRG'.'RS_PRD_INDFINGAS_UP-'
+'FI1B1'.'NRG'.'RS_PRD_INDFINGAS_UP_'
+'FI1B1'.'NRG'.'RS_PRD_INDFINSOLID_LO-'
+'FI1B1'.'NRG'.'RS_PRD_INDFINSOLID_LO_'
+'FI1B1'.'NRG'.'RS_PRD_INDFINSOLID_UP-'
+'FI1B1'.'NRG'.'RS_PRD_INDFINSOLID_UP_'
+'FI1B1'.'NRG'.'RS_PRD_RSDBIO_LO-'
+'FI1B1'.'NRG'.'RS_PRD_RSDBIO_LO_'
+'FI1B1'.'NRG'.'RS_PRD_RSDBIO_UP-'
+'FI1B1'.'NRG'.'RS_PRD_RSDBIO_UP_'
+'FI1B1'.'NRG'.'RS_PRD_RSDFINOIL_LO-'
+'FI1B1'.'NRG'.'RS_PRD_RSDFINOIL_LO_'
+'FI1B1'.'NRG'.'RS_PRD_RSDFINOIL_UP-'
+'FI1B1'.'NRG'.'RS_PRD_RSDFINOIL_UP_'
+'FI1B1'.'NRG'.'RS_PRD_RSDGAS_LO-'
+'FI1B1'.'NRG'.'RS_PRD_RSDGAS_LO_'
+'FI1B1'.'NRG'.'RS_PRD_RSDGAS_UP-'
+'FI1B1'.'NRG'.'RS_PRD_RSDGAS_UP_'
+'FI1B1'.'NRG'.'RS_PRD_RSDHET_LO-'
+'FI1B1'.'NRG'.'RS_PRD_RSDHET_LO_'
+'FI1B1'.'NRG'.'RS_PRD_RSDHET_UP-'
+'FI1B1'.'NRG'.'RS_PRD_RSDHET_UP_'
+'FI1B1'.'NRG'.'RS_PRD_TRAFINOIL_LO-'
+'FI1B1'.'NRG'.'RS_PRD_TRAFINOIL_LO_'
+'FI1B1'.'NRG'.'RS_PRD_TRAFINOIL_UP-'
+'FI1B1'.'NRG'.'RS_PRD_TRAFINOIL_UP_'
+'FI1B1'.'NRG'.'RS_PRD_TRAGAS_UP-'
+'FI1B1'.'NRG'.'RS_PRD_TRAGAS_UP_'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_COH-'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_COH_'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_COL-'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_COL_'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_GAS-'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_GAS_'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_OIL-'
+'FI1B1'.'NRG'.'UC_PriProdGrowthLim_OIL_'
+'FI1B1'.'NRG'.'UCE_Base-Exp-Calib-Max-'
+'FI1B1'.'NRG'.'UCE_Base-Exp-Calib-Max_'
+'FI1B1'.'NRG'.'UCE_Base-Exp-Calib-Min-'
+'FI1B1'.'NRG'.'UCE_Base-Exp-Calib-Min_'
+'FI1B1'.'NRG'.'UCE_Base-Imp-Calib-Max-'
+'FI1B1'.'NRG'.'UCE_Base-Imp-Calib-Max_'
+'FI1B1'.'NRG'.'UCE_Base-Imp-Calib-Min-'
+'FI1B1'.'NRG'.'UCE_Base-Imp-Calib-Min_'
+'FI1D9'.'NRG'.'RS_FLO_COMHTH00_HETHTH_UP-'
+'FI1D9'.'NRG'.'RS_FLO_COMHTH00_HETHTH_UP_'
+'FI1D9'.'NRG'.'RS_FLO_INDHTH00_HETHTH_UP-'
+'FI1D9'.'NRG'.'RS_FLO_INDHTH00_HETHTH_UP_'
+'FI1D9'.'NRG'.'RS_FLO_RSDHET00_HETHTH_UP-'
+'FI1D9'.'NRG'.'RS_FLO_RSDHET00_HETHTH_UP_'
+'FI1D9'.'NRG'.'RS_FLO_RSDHTH01_HETHTH_UP-'
+'FI1D9'.'NRG'.'RS_FLO_RSDHTH01_HETHTH_UP_'
+'FI1D9'.'NRG'.'RS_PRD_COMBIO_LO-'
+'FI1D9'.'NRG'.'RS_PRD_COMBIO_LO_'
+'FI1D9'.'NRG'.'RS_PRD_COMBIO_UP-'
+'FI1D9'.'NRG'.'RS_PRD_COMBIO_UP_'
+'FI1D9'.'NRG'.'RS_PRD_COMFINOIL_LO-'
+'FI1D9'.'NRG'.'RS_PRD_COMFINOIL_LO_'
+'FI1D9'.'NRG'.'RS_PRD_COMFINOIL_UP-'
+'FI1D9'.'NRG'.'RS_PRD_COMFINOIL_UP_'
+'FI1D9'.'NRG'.'RS_PRD_COMGAS_LO-'
+'FI1D9'.'NRG'.'RS_PRD_COMGAS_LO_'
+'FI1D9'.'NRG'.'RS_PRD_COMGAS_UP-'
+'FI1D9'.'NRG'.'RS_PRD_COMGAS_UP_'
+'FI1D9'.'NRG'.'RS_PRD_COMHET_LO-'
+'FI1D9'.'NRG'.'RS_PRD_COMHET_LO_'
+'FI1D9'.'NRG'.'RS_PRD_COMHET_UP-'
+'FI1D9'.'NRG'.'RS_PRD_COMHET_UP_'
+'FI1D9'.'NRG'.'RS_PRD_INDFINGAS_LO-'
+'FI1D9'.'NRG'.'RS_PRD_INDFINGAS_LO_'
+'FI1D9'.'NRG'.'RS_PRD_INDFINGAS_UP-'
+'FI1D9'.'NRG'.'RS_PRD_INDFINGAS_UP_'
+'FI1D9'.'NRG'.'RS_PRD_INDFINSOLID_LO-'
+'FI1D9'.'NRG'.'RS_PRD_INDFINSOLID_LO_'
+'FI1D9'.'NRG'.'RS_PRD_INDFINSOLID_UP-'
+'FI1D9'.'NRG'.'RS_PRD_INDFINSOLID_UP_'
+'FI1D9'.'NRG'.'RS_PRD_RSDBIO_LO-'
+'FI1D9'.'NRG'.'RS_PRD_RSDBIO_LO_'
+'FI1D9'.'NRG'.'RS_PRD_RSDBIO_UP-'
+'FI1D9'.'NRG'.'RS_PRD_RSDBIO_UP_'
+'FI1D9'.'NRG'.'RS_PRD_RSDFINOIL_LO-'
+'FI1D9'.'NRG'.'RS_PRD_RSDFINOIL_LO_'
+'FI1D9'.'NRG'.'RS_PRD_RSDFINOIL_UP-'
+'FI1D9'.'NRG'.'RS_PRD_RSDFINOIL_UP_'
+'FI1D9'.'NRG'.'RS_PRD_RSDGAS_LO-'
+'FI1D9'.'NRG'.'RS_PRD_RSDGAS_LO_'
+'FI1D9'.'NRG'.'RS_PRD_RSDGAS_UP-'
+'FI1D9'.'NRG'.'RS_PRD_RSDGAS_UP_'
+'FI1D9'.'NRG'.'RS_PRD_RSDHET_LO-'
+'FI1D9'.'NRG'.'RS_PRD_RSDHET_LO_'
+'FI1D9'.'NRG'.'RS_PRD_RSDHET_UP-'
+'FI1D9'.'NRG'.'RS_PRD_RSDHET_UP_'
+'FI1D9'.'NRG'.'RS_PRD_TRAFINOIL_LO-'
+'FI1D9'.'NRG'.'RS_PRD_TRAFINOIL_LO_'
+'FI1D9'.'NRG'.'RS_PRD_TRAFINOIL_UP-'
+'FI1D9'.'NRG'.'RS_PRD_TRAFINOIL_UP_'
+'FI1D9'.'NRG'.'RS_PRD_TRAGAS_UP-'
+'FI1D9'.'NRG'.'RS_PRD_TRAGAS_UP_'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_COH-'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_COH_'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_COL-'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_COL_'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_GAS-'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_GAS_'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_OIL-'
+'FI1D9'.'NRG'.'UC_PriProdGrowthLim_OIL_'
+'FI1D9'.'NRG'.'UCE_Base-Exp-Calib-Max-'
+'FI1D9'.'NRG'.'UCE_Base-Exp-Calib-Max_'
+'FI1D9'.'NRG'.'UCE_Base-Exp-Calib-Min-'
+'FI1D9'.'NRG'.'UCE_Base-Exp-Calib-Min_'
+'FI1D9'.'NRG'.'UCE_Base-Imp-Calib-Max-'
+'FI1D9'.'NRG'.'UCE_Base-Imp-Calib-Max_'
+'FI1D9'.'NRG'.'UCE_Base-Imp-Calib-Min-'
+'FI1D9'.'NRG'.'UCE_Base-Imp-Calib-Min_'
+/;
+
+SET COM_UNIT
+
+/
+'FI'.'RS_FLO_COMHTH00_HETHTH_UP-'.'UCU'
+'FI'.'RS_FLO_COMHTH00_HETHTH_UP_'.'UCU'
+'FI'.'RS_FLO_INDHTH00_HETHTH_UP-'.'UCU'
+'FI'.'RS_FLO_INDHTH00_HETHTH_UP_'.'UCU'
+'FI'.'RS_FLO_RSDHET00_HETHTH_UP-'.'UCU'
+'FI'.'RS_FLO_RSDHET00_HETHTH_UP_'.'UCU'
+'FI'.'RS_FLO_RSDHTH01_HETHTH_UP-'.'UCU'
+'FI'.'RS_FLO_RSDHTH01_HETHTH_UP_'.'UCU'
+'FI'.'RS_PRD_COMBIO_LO-'.'UCU'
+'FI'.'RS_PRD_COMBIO_LO_'.'UCU'
+'FI'.'RS_PRD_COMBIO_UP-'.'UCU'
+'FI'.'RS_PRD_COMBIO_UP_'.'UCU'
+'FI'.'RS_PRD_COMFINOIL_LO-'.'UCU'
+'FI'.'RS_PRD_COMFINOIL_LO_'.'UCU'
+'FI'.'RS_PRD_COMFINOIL_UP-'.'UCU'
+'FI'.'RS_PRD_COMFINOIL_UP_'.'UCU'
+'FI'.'RS_PRD_COMGAS_LO-'.'UCU'
+'FI'.'RS_PRD_COMGAS_LO_'.'UCU'
+'FI'.'RS_PRD_COMGAS_UP-'.'UCU'
+'FI'.'RS_PRD_COMGAS_UP_'.'UCU'
+'FI'.'RS_PRD_COMHET_LO-'.'UCU'
+'FI'.'RS_PRD_COMHET_LO_'.'UCU'
+'FI'.'RS_PRD_COMHET_UP-'.'UCU'
+'FI'.'RS_PRD_COMHET_UP_'.'UCU'
+'FI'.'RS_PRD_INDFINGAS_LO-'.'UCU'
+'FI'.'RS_PRD_INDFINGAS_LO_'.'UCU'
+'FI'.'RS_PRD_INDFINGAS_UP-'.'UCU'
+'FI'.'RS_PRD_INDFINGAS_UP_'.'UCU'
+'FI'.'RS_PRD_INDFINSOLID_LO-'.'UCU'
+'FI'.'RS_PRD_INDFINSOLID_LO_'.'UCU'
+'FI'.'RS_PRD_INDFINSOLID_UP-'.'UCU'
+'FI'.'RS_PRD_INDFINSOLID_UP_'.'UCU'
+'FI'.'RS_PRD_RSDBIO_LO-'.'UCU'
+'FI'.'RS_PRD_RSDBIO_LO_'.'UCU'
+'FI'.'RS_PRD_RSDBIO_UP-'.'UCU'
+'FI'.'RS_PRD_RSDBIO_UP_'.'UCU'
+'FI'.'RS_PRD_RSDFINOIL_LO-'.'UCU'
+'FI'.'RS_PRD_RSDFINOIL_LO_'.'UCU'
+'FI'.'RS_PRD_RSDFINOIL_UP-'.'UCU'
+'FI'.'RS_PRD_RSDFINOIL_UP_'.'UCU'
+'FI'.'RS_PRD_RSDGAS_LO-'.'UCU'
+'FI'.'RS_PRD_RSDGAS_LO_'.'UCU'
+'FI'.'RS_PRD_RSDGAS_UP-'.'UCU'
+'FI'.'RS_PRD_RSDGAS_UP_'.'UCU'
+'FI'.'RS_PRD_RSDHET_LO-'.'UCU'
+'FI'.'RS_PRD_RSDHET_LO_'.'UCU'
+'FI'.'RS_PRD_RSDHET_UP-'.'UCU'
+'FI'.'RS_PRD_RSDHET_UP_'.'UCU'
+'FI'.'RS_PRD_TRAFINOIL_LO-'.'UCU'
+'FI'.'RS_PRD_TRAFINOIL_LO_'.'UCU'
+'FI'.'RS_PRD_TRAFINOIL_UP-'.'UCU'
+'FI'.'RS_PRD_TRAFINOIL_UP_'.'UCU'
+'FI'.'RS_PRD_TRAGAS_UP-'.'UCU'
+'FI'.'RS_PRD_TRAGAS_UP_'.'UCU'
+'FI'.'UC_PriProdGrowthLim_COH-'.'UCU'
+'FI'.'UC_PriProdGrowthLim_COH_'.'UCU'
+'FI'.'UC_PriProdGrowthLim_COL-'.'UCU'
+'FI'.'UC_PriProdGrowthLim_COL_'.'UCU'
+'FI'.'UC_PriProdGrowthLim_GAS-'.'UCU'
+'FI'.'UC_PriProdGrowthLim_GAS_'.'UCU'
+'FI'.'UC_PriProdGrowthLim_OIL-'.'UCU'
+'FI'.'UC_PriProdGrowthLim_OIL_'.'UCU'
+'FI'.'UCE_Base-Exp-Calib-Max-'.'UCU'
+'FI'.'UCE_Base-Exp-Calib-Max_'.'UCU'
+'FI'.'UCE_Base-Exp-Calib-Min-'.'UCU'
+'FI'.'UCE_Base-Exp-Calib-Min_'.'UCU'
+'FI'.'UCE_Base-Imp-Calib-Max-'.'UCU'
+'FI'.'UCE_Base-Imp-Calib-Max_'.'UCU'
+'FI'.'UCE_Base-Imp-Calib-Min-'.'UCU'
+'FI'.'UCE_Base-Imp-Calib-Min_'.'UCU'
+'FI1B1'.'RS_FLO_COMHTH00_HETHTH_UP-'.'UCU'
+'FI1B1'.'RS_FLO_COMHTH00_HETHTH_UP_'.'UCU'
+'FI1B1'.'RS_FLO_INDHTH00_HETHTH_UP-'.'UCU'
+'FI1B1'.'RS_FLO_INDHTH00_HETHTH_UP_'.'UCU'
+'FI1B1'.'RS_FLO_RSDHET00_HETHTH_UP-'.'UCU'
+'FI1B1'.'RS_FLO_RSDHET00_HETHTH_UP_'.'UCU'
+'FI1B1'.'RS_FLO_RSDHTH01_HETHTH_UP-'.'UCU'
+'FI1B1'.'RS_FLO_RSDHTH01_HETHTH_UP_'.'UCU'
+'FI1B1'.'RS_PRD_COMBIO_LO-'.'UCU'
+'FI1B1'.'RS_PRD_COMBIO_LO_'.'UCU'
+'FI1B1'.'RS_PRD_COMBIO_UP-'.'UCU'
+'FI1B1'.'RS_PRD_COMBIO_UP_'.'UCU'
+'FI1B1'.'RS_PRD_COMFINOIL_LO-'.'UCU'
+'FI1B1'.'RS_PRD_COMFINOIL_LO_'.'UCU'
+'FI1B1'.'RS_PRD_COMFINOIL_UP-'.'UCU'
+'FI1B1'.'RS_PRD_COMFINOIL_UP_'.'UCU'
+'FI1B1'.'RS_PRD_COMGAS_LO-'.'UCU'
+'FI1B1'.'RS_PRD_COMGAS_LO_'.'UCU'
+'FI1B1'.'RS_PRD_COMGAS_UP-'.'UCU'
+'FI1B1'.'RS_PRD_COMGAS_UP_'.'UCU'
+'FI1B1'.'RS_PRD_COMHET_LO-'.'UCU'
+'FI1B1'.'RS_PRD_COMHET_LO_'.'UCU'
+'FI1B1'.'RS_PRD_COMHET_UP-'.'UCU'
+'FI1B1'.'RS_PRD_COMHET_UP_'.'UCU'
+'FI1B1'.'RS_PRD_INDFINGAS_LO-'.'UCU'
+'FI1B1'.'RS_PRD_INDFINGAS_LO_'.'UCU'
+'FI1B1'.'RS_PRD_INDFINGAS_UP-'.'UCU'
+'FI1B1'.'RS_PRD_INDFINGAS_UP_'.'UCU'
+'FI1B1'.'RS_PRD_INDFINSOLID_LO-'.'UCU'
+'FI1B1'.'RS_PRD_INDFINSOLID_LO_'.'UCU'
+'FI1B1'.'RS_PRD_INDFINSOLID_UP-'.'UCU'
+'FI1B1'.'RS_PRD_INDFINSOLID_UP_'.'UCU'
+'FI1B1'.'RS_PRD_RSDBIO_LO-'.'UCU'
+'FI1B1'.'RS_PRD_RSDBIO_LO_'.'UCU'
+'FI1B1'.'RS_PRD_RSDBIO_UP-'.'UCU'
+'FI1B1'.'RS_PRD_RSDBIO_UP_'.'UCU'
+'FI1B1'.'RS_PRD_RSDFINOIL_LO-'.'UCU'
+'FI1B1'.'RS_PRD_RSDFINOIL_LO_'.'UCU'
+'FI1B1'.'RS_PRD_RSDFINOIL_UP-'.'UCU'
+'FI1B1'.'RS_PRD_RSDFINOIL_UP_'.'UCU'
+'FI1B1'.'RS_PRD_RSDGAS_LO-'.'UCU'
+'FI1B1'.'RS_PRD_RSDGAS_LO_'.'UCU'
+'FI1B1'.'RS_PRD_RSDGAS_UP-'.'UCU'
+'FI1B1'.'RS_PRD_RSDGAS_UP_'.'UCU'
+'FI1B1'.'RS_PRD_RSDHET_LO-'.'UCU'
+'FI1B1'.'RS_PRD_RSDHET_LO_'.'UCU'
+'FI1B1'.'RS_PRD_RSDHET_UP-'.'UCU'
+'FI1B1'.'RS_PRD_RSDHET_UP_'.'UCU'
+'FI1B1'.'RS_PRD_TRAFINOIL_LO-'.'UCU'
+'FI1B1'.'RS_PRD_TRAFINOIL_LO_'.'UCU'
+'FI1B1'.'RS_PRD_TRAFINOIL_UP-'.'UCU'
+'FI1B1'.'RS_PRD_TRAFINOIL_UP_'.'UCU'
+'FI1B1'.'RS_PRD_TRAGAS_UP-'.'UCU'
+'FI1B1'.'RS_PRD_TRAGAS_UP_'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_COH-'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_COH_'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_COL-'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_COL_'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_GAS-'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_GAS_'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_OIL-'.'UCU'
+'FI1B1'.'UC_PriProdGrowthLim_OIL_'.'UCU'
+'FI1B1'.'UCE_Base-Exp-Calib-Max-'.'UCU'
+'FI1B1'.'UCE_Base-Exp-Calib-Max_'.'UCU'
+'FI1B1'.'UCE_Base-Exp-Calib-Min-'.'UCU'
+'FI1B1'.'UCE_Base-Exp-Calib-Min_'.'UCU'
+'FI1B1'.'UCE_Base-Imp-Calib-Max-'.'UCU'
+'FI1B1'.'UCE_Base-Imp-Calib-Max_'.'UCU'
+'FI1B1'.'UCE_Base-Imp-Calib-Min-'.'UCU'
+'FI1B1'.'UCE_Base-Imp-Calib-Min_'.'UCU'
+'FI1D9'.'RS_FLO_COMHTH00_HETHTH_UP-'.'UCU'
+'FI1D9'.'RS_FLO_COMHTH00_HETHTH_UP_'.'UCU'
+'FI1D9'.'RS_FLO_INDHTH00_HETHTH_UP-'.'UCU'
+'FI1D9'.'RS_FLO_INDHTH00_HETHTH_UP_'.'UCU'
+'FI1D9'.'RS_FLO_RSDHET00_HETHTH_UP-'.'UCU'
+'FI1D9'.'RS_FLO_RSDHET00_HETHTH_UP_'.'UCU'
+'FI1D9'.'RS_FLO_RSDHTH01_HETHTH_UP-'.'UCU'
+'FI1D9'.'RS_FLO_RSDHTH01_HETHTH_UP_'.'UCU'
+'FI1D9'.'RS_PRD_COMBIO_LO-'.'UCU'
+'FI1D9'.'RS_PRD_COMBIO_LO_'.'UCU'
+'FI1D9'.'RS_PRD_COMBIO_UP-'.'UCU'
+'FI1D9'.'RS_PRD_COMBIO_UP_'.'UCU'
+'FI1D9'.'RS_PRD_COMFINOIL_LO-'.'UCU'
+'FI1D9'.'RS_PRD_COMFINOIL_LO_'.'UCU'
+'FI1D9'.'RS_PRD_COMFINOIL_UP-'.'UCU'
+'FI1D9'.'RS_PRD_COMFINOIL_UP_'.'UCU'
+'FI1D9'.'RS_PRD_COMGAS_LO-'.'UCU'
+'FI1D9'.'RS_PRD_COMGAS_LO_'.'UCU'
+'FI1D9'.'RS_PRD_COMGAS_UP-'.'UCU'
+'FI1D9'.'RS_PRD_COMGAS_UP_'.'UCU'
+'FI1D9'.'RS_PRD_COMHET_LO-'.'UCU'
+'FI1D9'.'RS_PRD_COMHET_LO_'.'UCU'
+'FI1D9'.'RS_PRD_COMHET_UP-'.'UCU'
+'FI1D9'.'RS_PRD_COMHET_UP_'.'UCU'
+'FI1D9'.'RS_PRD_INDFINGAS_LO-'.'UCU'
+'FI1D9'.'RS_PRD_INDFINGAS_LO_'.'UCU'
+'FI1D9'.'RS_PRD_INDFINGAS_UP-'.'UCU'
+'FI1D9'.'RS_PRD_INDFINGAS_UP_'.'UCU'
+'FI1D9'.'RS_PRD_INDFINSOLID_LO-'.'UCU'
+'FI1D9'.'RS_PRD_INDFINSOLID_LO_'.'UCU'
+'FI1D9'.'RS_PRD_INDFINSOLID_UP-'.'UCU'
+'FI1D9'.'RS_PRD_INDFINSOLID_UP_'.'UCU'
+'FI1D9'.'RS_PRD_RSDBIO_LO-'.'UCU'
+'FI1D9'.'RS_PRD_RSDBIO_LO_'.'UCU'
+'FI1D9'.'RS_PRD_RSDBIO_UP-'.'UCU'
+'FI1D9'.'RS_PRD_RSDBIO_UP_'.'UCU'
+'FI1D9'.'RS_PRD_RSDFINOIL_LO-'.'UCU'
+'FI1D9'.'RS_PRD_RSDFINOIL_LO_'.'UCU'
+'FI1D9'.'RS_PRD_RSDFINOIL_UP-'.'UCU'
+'FI1D9'.'RS_PRD_RSDFINOIL_UP_'.'UCU'
+'FI1D9'.'RS_PRD_RSDGAS_LO-'.'UCU'
+'FI1D9'.'RS_PRD_RSDGAS_LO_'.'UCU'
+'FI1D9'.'RS_PRD_RSDGAS_UP-'.'UCU'
+'FI1D9'.'RS_PRD_RSDGAS_UP_'.'UCU'
+'FI1D9'.'RS_PRD_RSDHET_LO-'.'UCU'
+'FI1D9'.'RS_PRD_RSDHET_LO_'.'UCU'
+'FI1D9'.'RS_PRD_RSDHET_UP-'.'UCU'
+'FI1D9'.'RS_PRD_RSDHET_UP_'.'UCU'
+'FI1D9'.'RS_PRD_TRAFINOIL_LO-'.'UCU'
+'FI1D9'.'RS_PRD_TRAFINOIL_LO_'.'UCU'
+'FI1D9'.'RS_PRD_TRAFINOIL_UP-'.'UCU'
+'FI1D9'.'RS_PRD_TRAFINOIL_UP_'.'UCU'
+'FI1D9'.'RS_PRD_TRAGAS_UP-'.'UCU'
+'FI1D9'.'RS_PRD_TRAGAS_UP_'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_COH-'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_COH_'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_COL-'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_COL_'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_GAS-'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_GAS_'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_OIL-'.'UCU'
+'FI1D9'.'UC_PriProdGrowthLim_OIL_'.'UCU'
+'FI1D9'.'UCE_Base-Exp-Calib-Max-'.'UCU'
+'FI1D9'.'UCE_Base-Exp-Calib-Max_'.'UCU'
+'FI1D9'.'UCE_Base-Exp-Calib-Min-'.'UCU'
+'FI1D9'.'UCE_Base-Exp-Calib-Min_'.'UCU'
+'FI1D9'.'UCE_Base-Imp-Calib-Max-'.'UCU'
+'FI1D9'.'UCE_Base-Imp-Calib-Max_'.'UCU'
+'FI1D9'.'UCE_Base-Imp-Calib-Min-'.'UCU'
+'FI1D9'.'UCE_Base-Imp-Calib-Min_'.'UCU'
+/;
+
+SET TOP_IRE
+
+/
+'IMPEXP'.'RS_FLO_COMHTH00_HETHTH_UP-'.'FI'.'RS_FLO_COMHTH00_HETHTH_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_COMHTH00_HETHTH_UP_'.'FI'.'RS_FLO_COMHTH00_HETHTH_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_INDHTH00_HETHTH_UP-'.'FI'.'RS_FLO_INDHTH00_HETHTH_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_INDHTH00_HETHTH_UP_'.'FI'.'RS_FLO_INDHTH00_HETHTH_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_RSDHET00_HETHTH_UP-'.'FI'.'RS_FLO_RSDHET00_HETHTH_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_RSDHET00_HETHTH_UP_'.'FI'.'RS_FLO_RSDHET00_HETHTH_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_RSDHTH01_HETHTH_UP-'.'FI'.'RS_FLO_RSDHTH01_HETHTH_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_FLO_RSDHTH01_HETHTH_UP_'.'FI'.'RS_FLO_RSDHTH01_HETHTH_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMBIO_LO-'.'FI'.'RS_PRD_COMBIO_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMBIO_LO_'.'FI'.'RS_PRD_COMBIO_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMBIO_UP-'.'FI'.'RS_PRD_COMBIO_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMBIO_UP_'.'FI'.'RS_PRD_COMBIO_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMFINOIL_LO-'.'FI'.'RS_PRD_COMFINOIL_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMFINOIL_LO_'.'FI'.'RS_PRD_COMFINOIL_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMFINOIL_UP-'.'FI'.'RS_PRD_COMFINOIL_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMFINOIL_UP_'.'FI'.'RS_PRD_COMFINOIL_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMGAS_LO-'.'FI'.'RS_PRD_COMGAS_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMGAS_LO_'.'FI'.'RS_PRD_COMGAS_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMGAS_UP-'.'FI'.'RS_PRD_COMGAS_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMGAS_UP_'.'FI'.'RS_PRD_COMGAS_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMHET_LO-'.'FI'.'RS_PRD_COMHET_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMHET_LO_'.'FI'.'RS_PRD_COMHET_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMHET_UP-'.'FI'.'RS_PRD_COMHET_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_COMHET_UP_'.'FI'.'RS_PRD_COMHET_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINGAS_LO-'.'FI'.'RS_PRD_INDFINGAS_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINGAS_LO_'.'FI'.'RS_PRD_INDFINGAS_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINGAS_UP-'.'FI'.'RS_PRD_INDFINGAS_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINGAS_UP_'.'FI'.'RS_PRD_INDFINGAS_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINSOLID_LO-'.'FI'.'RS_PRD_INDFINSOLID_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINSOLID_LO_'.'FI'.'RS_PRD_INDFINSOLID_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINSOLID_UP-'.'FI'.'RS_PRD_INDFINSOLID_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_INDFINSOLID_UP_'.'FI'.'RS_PRD_INDFINSOLID_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDBIO_LO-'.'FI'.'RS_PRD_RSDBIO_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDBIO_LO_'.'FI'.'RS_PRD_RSDBIO_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDBIO_UP-'.'FI'.'RS_PRD_RSDBIO_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDBIO_UP_'.'FI'.'RS_PRD_RSDBIO_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDFINOIL_LO-'.'FI'.'RS_PRD_RSDFINOIL_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDFINOIL_LO_'.'FI'.'RS_PRD_RSDFINOIL_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDFINOIL_UP-'.'FI'.'RS_PRD_RSDFINOIL_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDFINOIL_UP_'.'FI'.'RS_PRD_RSDFINOIL_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDGAS_LO-'.'FI'.'RS_PRD_RSDGAS_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDGAS_LO_'.'FI'.'RS_PRD_RSDGAS_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDGAS_UP-'.'FI'.'RS_PRD_RSDGAS_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDGAS_UP_'.'FI'.'RS_PRD_RSDGAS_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDHET_LO-'.'FI'.'RS_PRD_RSDHET_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDHET_LO_'.'FI'.'RS_PRD_RSDHET_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDHET_UP-'.'FI'.'RS_PRD_RSDHET_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_RSDHET_UP_'.'FI'.'RS_PRD_RSDHET_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_TRAFINOIL_LO-'.'FI'.'RS_PRD_TRAFINOIL_LO-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_TRAFINOIL_LO_'.'FI'.'RS_PRD_TRAFINOIL_LO_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_TRAFINOIL_UP-'.'FI'.'RS_PRD_TRAFINOIL_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_TRAFINOIL_UP_'.'FI'.'RS_PRD_TRAFINOIL_UP_'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_TRAGAS_UP-'.'FI'.'RS_PRD_TRAGAS_UP-'.'IMPNRGZ'
+'IMPEXP'.'RS_PRD_TRAGAS_UP_'.'FI'.'RS_PRD_TRAGAS_UP_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COH-'.'FI'.'UC_PriProdGrowthLim_COH-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COH-'.'FI1B1'.'UC_PriProdGrowthLim_COH-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COH-'.'FI1D9'.'UC_PriProdGrowthLim_COH-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COH_'.'FI'.'UC_PriProdGrowthLim_COH_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COH_'.'FI1B1'.'UC_PriProdGrowthLim_COH_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COH_'.'FI1D9'.'UC_PriProdGrowthLim_COH_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COL-'.'FI'.'UC_PriProdGrowthLim_COL-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COL-'.'FI1B1'.'UC_PriProdGrowthLim_COL-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COL-'.'FI1D9'.'UC_PriProdGrowthLim_COL-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COL_'.'FI'.'UC_PriProdGrowthLim_COL_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COL_'.'FI1B1'.'UC_PriProdGrowthLim_COL_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_COL_'.'FI1D9'.'UC_PriProdGrowthLim_COL_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_GAS-'.'FI'.'UC_PriProdGrowthLim_GAS-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_GAS-'.'FI1B1'.'UC_PriProdGrowthLim_GAS-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_GAS-'.'FI1D9'.'UC_PriProdGrowthLim_GAS-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_GAS_'.'FI'.'UC_PriProdGrowthLim_GAS_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_GAS_'.'FI1B1'.'UC_PriProdGrowthLim_GAS_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_GAS_'.'FI1D9'.'UC_PriProdGrowthLim_GAS_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_OIL-'.'FI'.'UC_PriProdGrowthLim_OIL-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_OIL-'.'FI1B1'.'UC_PriProdGrowthLim_OIL-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_OIL-'.'FI1D9'.'UC_PriProdGrowthLim_OIL-'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_OIL_'.'FI'.'UC_PriProdGrowthLim_OIL_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_OIL_'.'FI1B1'.'UC_PriProdGrowthLim_OIL_'.'IMPNRGZ'
+'IMPEXP'.'UC_PriProdGrowthLim_OIL_'.'FI1D9'.'UC_PriProdGrowthLim_OIL_'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Exp-Calib-Max-'.'FI'.'UCE_Base-Exp-Calib-Max-'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Exp-Calib-Max_'.'FI'.'UCE_Base-Exp-Calib-Max_'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Exp-Calib-Min-'.'FI'.'UCE_Base-Exp-Calib-Min-'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Exp-Calib-Min_'.'FI'.'UCE_Base-Exp-Calib-Min_'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Imp-Calib-Max-'.'FI'.'UCE_Base-Imp-Calib-Max-'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Imp-Calib-Max_'.'FI'.'UCE_Base-Imp-Calib-Max_'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Imp-Calib-Min-'.'FI'.'UCE_Base-Imp-Calib-Min-'.'IMPNRGZ'
+'IMPEXP'.'UCE_Base-Imp-Calib-Min_'.'FI'.'UCE_Base-Imp-Calib-Min_'.'IMPNRGZ'
+/;
+
+SET COM_DESC
+
+/
+'FI'.'RS_FLO_COMHTH00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_COMHTH00_HETHTH_UP'
+'FI'.'RS_FLO_COMHTH00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_COMHTH00_HETHTH_UP'
+'FI'.'RS_FLO_INDHTH00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_INDHTH00_HETHTH_UP'
+'FI'.'RS_FLO_INDHTH00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_INDHTH00_HETHTH_UP'
+'FI'.'RS_FLO_RSDHET00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_RSDHET00_HETHTH_UP'
+'FI'.'RS_FLO_RSDHET00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_RSDHET00_HETHTH_UP'
+'FI'.'RS_FLO_RSDHTH01_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_RSDHTH01_HETHTH_UP'
+'FI'.'RS_FLO_RSDHTH01_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_RSDHTH01_HETHTH_UP'
+'FI'.'RS_PRD_COMBIO_LO-' 'Negative dummy var for UC: RS_PRD_COMBIO_LO'
+'FI'.'RS_PRD_COMBIO_LO_' 'Positive dummy var for UC: RS_PRD_COMBIO_LO'
+'FI'.'RS_PRD_COMBIO_UP-' 'Negative dummy var for UC: RS_PRD_COMBIO_UP'
+'FI'.'RS_PRD_COMBIO_UP_' 'Positive dummy var for UC: RS_PRD_COMBIO_UP'
+'FI'.'RS_PRD_COMFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_COMFINOIL_LO'
+'FI'.'RS_PRD_COMFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_COMFINOIL_LO'
+'FI'.'RS_PRD_COMFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_COMFINOIL_UP'
+'FI'.'RS_PRD_COMFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_COMFINOIL_UP'
+'FI'.'RS_PRD_COMGAS_LO-' 'Negative dummy var for UC: RS_PRD_COMGAS_LO'
+'FI'.'RS_PRD_COMGAS_LO_' 'Positive dummy var for UC: RS_PRD_COMGAS_LO'
+'FI'.'RS_PRD_COMGAS_UP-' 'Negative dummy var for UC: RS_PRD_COMGAS_UP'
+'FI'.'RS_PRD_COMGAS_UP_' 'Positive dummy var for UC: RS_PRD_COMGAS_UP'
+'FI'.'RS_PRD_COMHET_LO-' 'Negative dummy var for UC: RS_PRD_COMHET_LO'
+'FI'.'RS_PRD_COMHET_LO_' 'Positive dummy var for UC: RS_PRD_COMHET_LO'
+'FI'.'RS_PRD_COMHET_UP-' 'Negative dummy var for UC: RS_PRD_COMHET_UP'
+'FI'.'RS_PRD_COMHET_UP_' 'Positive dummy var for UC: RS_PRD_COMHET_UP'
+'FI'.'RS_PRD_INDFINGAS_LO-' 'Negative dummy var for UC: RS_PRD_INDFINGAS_LO'
+'FI'.'RS_PRD_INDFINGAS_LO_' 'Positive dummy var for UC: RS_PRD_INDFINGAS_LO'
+'FI'.'RS_PRD_INDFINGAS_UP-' 'Negative dummy var for UC: RS_PRD_INDFINGAS_UP'
+'FI'.'RS_PRD_INDFINGAS_UP_' 'Positive dummy var for UC: RS_PRD_INDFINGAS_UP'
+'FI'.'RS_PRD_INDFINSOLID_LO-' 'Negative dummy var for UC: RS_PRD_INDFINSOLID_LO'
+'FI'.'RS_PRD_INDFINSOLID_LO_' 'Positive dummy var for UC: RS_PRD_INDFINSOLID_LO'
+'FI'.'RS_PRD_INDFINSOLID_UP-' 'Negative dummy var for UC: RS_PRD_INDFINSOLID_UP'
+'FI'.'RS_PRD_INDFINSOLID_UP_' 'Positive dummy var for UC: RS_PRD_INDFINSOLID_UP'
+'FI'.'RS_PRD_RSDBIO_LO-' 'Negative dummy var for UC: RS_PRD_RSDBIO_LO'
+'FI'.'RS_PRD_RSDBIO_LO_' 'Positive dummy var for UC: RS_PRD_RSDBIO_LO'
+'FI'.'RS_PRD_RSDBIO_UP-' 'Negative dummy var for UC: RS_PRD_RSDBIO_UP'
+'FI'.'RS_PRD_RSDBIO_UP_' 'Positive dummy var for UC: RS_PRD_RSDBIO_UP'
+'FI'.'RS_PRD_RSDFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_RSDFINOIL_LO'
+'FI'.'RS_PRD_RSDFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_RSDFINOIL_LO'
+'FI'.'RS_PRD_RSDFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_RSDFINOIL_UP'
+'FI'.'RS_PRD_RSDFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_RSDFINOIL_UP'
+'FI'.'RS_PRD_RSDGAS_LO-' 'Negative dummy var for UC: RS_PRD_RSDGAS_LO'
+'FI'.'RS_PRD_RSDGAS_LO_' 'Positive dummy var for UC: RS_PRD_RSDGAS_LO'
+'FI'.'RS_PRD_RSDGAS_UP-' 'Negative dummy var for UC: RS_PRD_RSDGAS_UP'
+'FI'.'RS_PRD_RSDGAS_UP_' 'Positive dummy var for UC: RS_PRD_RSDGAS_UP'
+'FI'.'RS_PRD_RSDHET_LO-' 'Negative dummy var for UC: RS_PRD_RSDHET_LO'
+'FI'.'RS_PRD_RSDHET_LO_' 'Positive dummy var for UC: RS_PRD_RSDHET_LO'
+'FI'.'RS_PRD_RSDHET_UP-' 'Negative dummy var for UC: RS_PRD_RSDHET_UP'
+'FI'.'RS_PRD_RSDHET_UP_' 'Positive dummy var for UC: RS_PRD_RSDHET_UP'
+'FI'.'RS_PRD_TRAFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_TRAFINOIL_LO'
+'FI'.'RS_PRD_TRAFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_TRAFINOIL_LO'
+'FI'.'RS_PRD_TRAFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_TRAFINOIL_UP'
+'FI'.'RS_PRD_TRAFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_TRAFINOIL_UP'
+'FI'.'RS_PRD_TRAGAS_UP-' 'Negative dummy var for UC: RS_PRD_TRAGAS_UP'
+'FI'.'RS_PRD_TRAGAS_UP_' 'Positive dummy var for UC: RS_PRD_TRAGAS_UP'
+'FI'.'UC_PriProdGrowthLim_COH-' 'Negative dummy var for UC: UC_PriProdGrowthLim_COH'
+'FI'.'UC_PriProdGrowthLim_COH_' 'Positive dummy var for UC: UC_PriProdGrowthLim_COH'
+'FI'.'UC_PriProdGrowthLim_COL-' 'Negative dummy var for UC: UC_PriProdGrowthLim_COL'
+'FI'.'UC_PriProdGrowthLim_COL_' 'Positive dummy var for UC: UC_PriProdGrowthLim_COL'
+'FI'.'UC_PriProdGrowthLim_GAS-' 'Negative dummy var for UC: UC_PriProdGrowthLim_GAS'
+'FI'.'UC_PriProdGrowthLim_GAS_' 'Positive dummy var for UC: UC_PriProdGrowthLim_GAS'
+'FI'.'UC_PriProdGrowthLim_OIL-' 'Negative dummy var for UC: UC_PriProdGrowthLim_OIL'
+'FI'.'UC_PriProdGrowthLim_OIL_' 'Positive dummy var for UC: UC_PriProdGrowthLim_OIL'
+'FI'.'UCE_Base-Exp-Calib-Max-' 'Negative dummy var for UC: UCE_Base-Exp-Calib-Max'
+'FI'.'UCE_Base-Exp-Calib-Max_' 'Positive dummy var for UC: UCE_Base-Exp-Calib-Max'
+'FI'.'UCE_Base-Exp-Calib-Min-' 'Negative dummy var for UC: UCE_Base-Exp-Calib-Min'
+'FI'.'UCE_Base-Exp-Calib-Min_' 'Positive dummy var for UC: UCE_Base-Exp-Calib-Min'
+'FI'.'UCE_Base-Imp-Calib-Max-' 'Negative dummy var for UC: UCE_Base-Imp-Calib-Max'
+'FI'.'UCE_Base-Imp-Calib-Max_' 'Positive dummy var for UC: UCE_Base-Imp-Calib-Max'
+'FI'.'UCE_Base-Imp-Calib-Min-' 'Negative dummy var for UC: UCE_Base-Imp-Calib-Min'
+'FI'.'UCE_Base-Imp-Calib-Min_' 'Positive dummy var for UC: UCE_Base-Imp-Calib-Min'
+'FI1B1'.'RS_FLO_COMHTH00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_COMHTH00_HETHTH_UP'
+'FI1B1'.'RS_FLO_COMHTH00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_COMHTH00_HETHTH_UP'
+'FI1B1'.'RS_FLO_INDHTH00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_INDHTH00_HETHTH_UP'
+'FI1B1'.'RS_FLO_INDHTH00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_INDHTH00_HETHTH_UP'
+'FI1B1'.'RS_FLO_RSDHET00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_RSDHET00_HETHTH_UP'
+'FI1B1'.'RS_FLO_RSDHET00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_RSDHET00_HETHTH_UP'
+'FI1B1'.'RS_FLO_RSDHTH01_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_RSDHTH01_HETHTH_UP'
+'FI1B1'.'RS_FLO_RSDHTH01_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_RSDHTH01_HETHTH_UP'
+'FI1B1'.'RS_PRD_COMBIO_LO-' 'Negative dummy var for UC: RS_PRD_COMBIO_LO'
+'FI1B1'.'RS_PRD_COMBIO_LO_' 'Positive dummy var for UC: RS_PRD_COMBIO_LO'
+'FI1B1'.'RS_PRD_COMBIO_UP-' 'Negative dummy var for UC: RS_PRD_COMBIO_UP'
+'FI1B1'.'RS_PRD_COMBIO_UP_' 'Positive dummy var for UC: RS_PRD_COMBIO_UP'
+'FI1B1'.'RS_PRD_COMFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_COMFINOIL_LO'
+'FI1B1'.'RS_PRD_COMFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_COMFINOIL_LO'
+'FI1B1'.'RS_PRD_COMFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_COMFINOIL_UP'
+'FI1B1'.'RS_PRD_COMFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_COMFINOIL_UP'
+'FI1B1'.'RS_PRD_COMGAS_LO-' 'Negative dummy var for UC: RS_PRD_COMGAS_LO'
+'FI1B1'.'RS_PRD_COMGAS_LO_' 'Positive dummy var for UC: RS_PRD_COMGAS_LO'
+'FI1B1'.'RS_PRD_COMGAS_UP-' 'Negative dummy var for UC: RS_PRD_COMGAS_UP'
+'FI1B1'.'RS_PRD_COMGAS_UP_' 'Positive dummy var for UC: RS_PRD_COMGAS_UP'
+'FI1B1'.'RS_PRD_COMHET_LO-' 'Negative dummy var for UC: RS_PRD_COMHET_LO'
+'FI1B1'.'RS_PRD_COMHET_LO_' 'Positive dummy var for UC: RS_PRD_COMHET_LO'
+'FI1B1'.'RS_PRD_COMHET_UP-' 'Negative dummy var for UC: RS_PRD_COMHET_UP'
+'FI1B1'.'RS_PRD_COMHET_UP_' 'Positive dummy var for UC: RS_PRD_COMHET_UP'
+'FI1B1'.'RS_PRD_INDFINGAS_LO-' 'Negative dummy var for UC: RS_PRD_INDFINGAS_LO'
+'FI1B1'.'RS_PRD_INDFINGAS_LO_' 'Positive dummy var for UC: RS_PRD_INDFINGAS_LO'
+'FI1B1'.'RS_PRD_INDFINGAS_UP-' 'Negative dummy var for UC: RS_PRD_INDFINGAS_UP'
+'FI1B1'.'RS_PRD_INDFINGAS_UP_' 'Positive dummy var for UC: RS_PRD_INDFINGAS_UP'
+'FI1B1'.'RS_PRD_INDFINSOLID_LO-' 'Negative dummy var for UC: RS_PRD_INDFINSOLID_LO'
+'FI1B1'.'RS_PRD_INDFINSOLID_LO_' 'Positive dummy var for UC: RS_PRD_INDFINSOLID_LO'
+'FI1B1'.'RS_PRD_INDFINSOLID_UP-' 'Negative dummy var for UC: RS_PRD_INDFINSOLID_UP'
+'FI1B1'.'RS_PRD_INDFINSOLID_UP_' 'Positive dummy var for UC: RS_PRD_INDFINSOLID_UP'
+'FI1B1'.'RS_PRD_RSDBIO_LO-' 'Negative dummy var for UC: RS_PRD_RSDBIO_LO'
+'FI1B1'.'RS_PRD_RSDBIO_LO_' 'Positive dummy var for UC: RS_PRD_RSDBIO_LO'
+'FI1B1'.'RS_PRD_RSDBIO_UP-' 'Negative dummy var for UC: RS_PRD_RSDBIO_UP'
+'FI1B1'.'RS_PRD_RSDBIO_UP_' 'Positive dummy var for UC: RS_PRD_RSDBIO_UP'
+'FI1B1'.'RS_PRD_RSDFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_RSDFINOIL_LO'
+'FI1B1'.'RS_PRD_RSDFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_RSDFINOIL_LO'
+'FI1B1'.'RS_PRD_RSDFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_RSDFINOIL_UP'
+'FI1B1'.'RS_PRD_RSDFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_RSDFINOIL_UP'
+'FI1B1'.'RS_PRD_RSDGAS_LO-' 'Negative dummy var for UC: RS_PRD_RSDGAS_LO'
+'FI1B1'.'RS_PRD_RSDGAS_LO_' 'Positive dummy var for UC: RS_PRD_RSDGAS_LO'
+'FI1B1'.'RS_PRD_RSDGAS_UP-' 'Negative dummy var for UC: RS_PRD_RSDGAS_UP'
+'FI1B1'.'RS_PRD_RSDGAS_UP_' 'Positive dummy var for UC: RS_PRD_RSDGAS_UP'
+'FI1B1'.'RS_PRD_RSDHET_LO-' 'Negative dummy var for UC: RS_PRD_RSDHET_LO'
+'FI1B1'.'RS_PRD_RSDHET_LO_' 'Positive dummy var for UC: RS_PRD_RSDHET_LO'
+'FI1B1'.'RS_PRD_RSDHET_UP-' 'Negative dummy var for UC: RS_PRD_RSDHET_UP'
+'FI1B1'.'RS_PRD_RSDHET_UP_' 'Positive dummy var for UC: RS_PRD_RSDHET_UP'
+'FI1B1'.'RS_PRD_TRAFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_TRAFINOIL_LO'
+'FI1B1'.'RS_PRD_TRAFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_TRAFINOIL_LO'
+'FI1B1'.'RS_PRD_TRAFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_TRAFINOIL_UP'
+'FI1B1'.'RS_PRD_TRAFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_TRAFINOIL_UP'
+'FI1B1'.'RS_PRD_TRAGAS_UP-' 'Negative dummy var for UC: RS_PRD_TRAGAS_UP'
+'FI1B1'.'RS_PRD_TRAGAS_UP_' 'Positive dummy var for UC: RS_PRD_TRAGAS_UP'
+'FI1B1'.'UC_PriProdGrowthLim_COH-' 'Negative dummy var for UC: UC_PriProdGrowthLim_COH'
+'FI1B1'.'UC_PriProdGrowthLim_COH_' 'Positive dummy var for UC: UC_PriProdGrowthLim_COH'
+'FI1B1'.'UC_PriProdGrowthLim_COL-' 'Negative dummy var for UC: UC_PriProdGrowthLim_COL'
+'FI1B1'.'UC_PriProdGrowthLim_COL_' 'Positive dummy var for UC: UC_PriProdGrowthLim_COL'
+'FI1B1'.'UC_PriProdGrowthLim_GAS-' 'Negative dummy var for UC: UC_PriProdGrowthLim_GAS'
+'FI1B1'.'UC_PriProdGrowthLim_GAS_' 'Positive dummy var for UC: UC_PriProdGrowthLim_GAS'
+'FI1B1'.'UC_PriProdGrowthLim_OIL-' 'Negative dummy var for UC: UC_PriProdGrowthLim_OIL'
+'FI1B1'.'UC_PriProdGrowthLim_OIL_' 'Positive dummy var for UC: UC_PriProdGrowthLim_OIL'
+'FI1B1'.'UCE_Base-Exp-Calib-Max-' 'Negative dummy var for UC: UCE_Base-Exp-Calib-Max'
+'FI1B1'.'UCE_Base-Exp-Calib-Max_' 'Positive dummy var for UC: UCE_Base-Exp-Calib-Max'
+'FI1B1'.'UCE_Base-Exp-Calib-Min-' 'Negative dummy var for UC: UCE_Base-Exp-Calib-Min'
+'FI1B1'.'UCE_Base-Exp-Calib-Min_' 'Positive dummy var for UC: UCE_Base-Exp-Calib-Min'
+'FI1B1'.'UCE_Base-Imp-Calib-Max-' 'Negative dummy var for UC: UCE_Base-Imp-Calib-Max'
+'FI1B1'.'UCE_Base-Imp-Calib-Max_' 'Positive dummy var for UC: UCE_Base-Imp-Calib-Max'
+'FI1B1'.'UCE_Base-Imp-Calib-Min-' 'Negative dummy var for UC: UCE_Base-Imp-Calib-Min'
+'FI1B1'.'UCE_Base-Imp-Calib-Min_' 'Positive dummy var for UC: UCE_Base-Imp-Calib-Min'
+'FI1D9'.'RS_FLO_COMHTH00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_COMHTH00_HETHTH_UP'
+'FI1D9'.'RS_FLO_COMHTH00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_COMHTH00_HETHTH_UP'
+'FI1D9'.'RS_FLO_INDHTH00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_INDHTH00_HETHTH_UP'
+'FI1D9'.'RS_FLO_INDHTH00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_INDHTH00_HETHTH_UP'
+'FI1D9'.'RS_FLO_RSDHET00_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_RSDHET00_HETHTH_UP'
+'FI1D9'.'RS_FLO_RSDHET00_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_RSDHET00_HETHTH_UP'
+'FI1D9'.'RS_FLO_RSDHTH01_HETHTH_UP-' 'Negative dummy var for UC: RS_FLO_RSDHTH01_HETHTH_UP'
+'FI1D9'.'RS_FLO_RSDHTH01_HETHTH_UP_' 'Positive dummy var for UC: RS_FLO_RSDHTH01_HETHTH_UP'
+'FI1D9'.'RS_PRD_COMBIO_LO-' 'Negative dummy var for UC: RS_PRD_COMBIO_LO'
+'FI1D9'.'RS_PRD_COMBIO_LO_' 'Positive dummy var for UC: RS_PRD_COMBIO_LO'
+'FI1D9'.'RS_PRD_COMBIO_UP-' 'Negative dummy var for UC: RS_PRD_COMBIO_UP'
+'FI1D9'.'RS_PRD_COMBIO_UP_' 'Positive dummy var for UC: RS_PRD_COMBIO_UP'
+'FI1D9'.'RS_PRD_COMFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_COMFINOIL_LO'
+'FI1D9'.'RS_PRD_COMFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_COMFINOIL_LO'
+'FI1D9'.'RS_PRD_COMFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_COMFINOIL_UP'
+'FI1D9'.'RS_PRD_COMFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_COMFINOIL_UP'
+'FI1D9'.'RS_PRD_COMGAS_LO-' 'Negative dummy var for UC: RS_PRD_COMGAS_LO'
+'FI1D9'.'RS_PRD_COMGAS_LO_' 'Positive dummy var for UC: RS_PRD_COMGAS_LO'
+'FI1D9'.'RS_PRD_COMGAS_UP-' 'Negative dummy var for UC: RS_PRD_COMGAS_UP'
+'FI1D9'.'RS_PRD_COMGAS_UP_' 'Positive dummy var for UC: RS_PRD_COMGAS_UP'
+'FI1D9'.'RS_PRD_COMHET_LO-' 'Negative dummy var for UC: RS_PRD_COMHET_LO'
+'FI1D9'.'RS_PRD_COMHET_LO_' 'Positive dummy var for UC: RS_PRD_COMHET_LO'
+'FI1D9'.'RS_PRD_COMHET_UP-' 'Negative dummy var for UC: RS_PRD_COMHET_UP'
+'FI1D9'.'RS_PRD_COMHET_UP_' 'Positive dummy var for UC: RS_PRD_COMHET_UP'
+'FI1D9'.'RS_PRD_INDFINGAS_LO-' 'Negative dummy var for UC: RS_PRD_INDFINGAS_LO'
+'FI1D9'.'RS_PRD_INDFINGAS_LO_' 'Positive dummy var for UC: RS_PRD_INDFINGAS_LO'
+'FI1D9'.'RS_PRD_INDFINGAS_UP-' 'Negative dummy var for UC: RS_PRD_INDFINGAS_UP'
+'FI1D9'.'RS_PRD_INDFINGAS_UP_' 'Positive dummy var for UC: RS_PRD_INDFINGAS_UP'
+'FI1D9'.'RS_PRD_INDFINSOLID_LO-' 'Negative dummy var for UC: RS_PRD_INDFINSOLID_LO'
+'FI1D9'.'RS_PRD_INDFINSOLID_LO_' 'Positive dummy var for UC: RS_PRD_INDFINSOLID_LO'
+'FI1D9'.'RS_PRD_INDFINSOLID_UP-' 'Negative dummy var for UC: RS_PRD_INDFINSOLID_UP'
+'FI1D9'.'RS_PRD_INDFINSOLID_UP_' 'Positive dummy var for UC: RS_PRD_INDFINSOLID_UP'
+'FI1D9'.'RS_PRD_RSDBIO_LO-' 'Negative dummy var for UC: RS_PRD_RSDBIO_LO'
+'FI1D9'.'RS_PRD_RSDBIO_LO_' 'Positive dummy var for UC: RS_PRD_RSDBIO_LO'
+'FI1D9'.'RS_PRD_RSDBIO_UP-' 'Negative dummy var for UC: RS_PRD_RSDBIO_UP'
+'FI1D9'.'RS_PRD_RSDBIO_UP_' 'Positive dummy var for UC: RS_PRD_RSDBIO_UP'
+'FI1D9'.'RS_PRD_RSDFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_RSDFINOIL_LO'
+'FI1D9'.'RS_PRD_RSDFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_RSDFINOIL_LO'
+'FI1D9'.'RS_PRD_RSDFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_RSDFINOIL_UP'
+'FI1D9'.'RS_PRD_RSDFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_RSDFINOIL_UP'
+'FI1D9'.'RS_PRD_RSDGAS_LO-' 'Negative dummy var for UC: RS_PRD_RSDGAS_LO'
+'FI1D9'.'RS_PRD_RSDGAS_LO_' 'Positive dummy var for UC: RS_PRD_RSDGAS_LO'
+'FI1D9'.'RS_PRD_RSDGAS_UP-' 'Negative dummy var for UC: RS_PRD_RSDGAS_UP'
+'FI1D9'.'RS_PRD_RSDGAS_UP_' 'Positive dummy var for UC: RS_PRD_RSDGAS_UP'
+'FI1D9'.'RS_PRD_RSDHET_LO-' 'Negative dummy var for UC: RS_PRD_RSDHET_LO'
+'FI1D9'.'RS_PRD_RSDHET_LO_' 'Positive dummy var for UC: RS_PRD_RSDHET_LO'
+'FI1D9'.'RS_PRD_RSDHET_UP-' 'Negative dummy var for UC: RS_PRD_RSDHET_UP'
+'FI1D9'.'RS_PRD_RSDHET_UP_' 'Positive dummy var for UC: RS_PRD_RSDHET_UP'
+'FI1D9'.'RS_PRD_TRAFINOIL_LO-' 'Negative dummy var for UC: RS_PRD_TRAFINOIL_LO'
+'FI1D9'.'RS_PRD_TRAFINOIL_LO_' 'Positive dummy var for UC: RS_PRD_TRAFINOIL_LO'
+'FI1D9'.'RS_PRD_TRAFINOIL_UP-' 'Negative dummy var for UC: RS_PRD_TRAFINOIL_UP'
+'FI1D9'.'RS_PRD_TRAFINOIL_UP_' 'Positive dummy var for UC: RS_PRD_TRAFINOIL_UP'
+'FI1D9'.'RS_PRD_TRAGAS_UP-' 'Negative dummy var for UC: RS_PRD_TRAGAS_UP'
+'FI1D9'.'RS_PRD_TRAGAS_UP_' 'Positive dummy var for UC: RS_PRD_TRAGAS_UP'
+'FI1D9'.'UC_PriProdGrowthLim_COH-' 'Negative dummy var for UC: UC_PriProdGrowthLim_COH'
+'FI1D9'.'UC_PriProdGrowthLim_COH_' 'Positive dummy var for UC: UC_PriProdGrowthLim_COH'
+'FI1D9'.'UC_PriProdGrowthLim_COL-' 'Negative dummy var for UC: UC_PriProdGrowthLim_COL'
+'FI1D9'.'UC_PriProdGrowthLim_COL_' 'Positive dummy var for UC: UC_PriProdGrowthLim_COL'
+'FI1D9'.'UC_PriProdGrowthLim_GAS-' 'Negative dummy var for UC: UC_PriProdGrowthLim_GAS'
+'FI1D9'.'UC_PriProdGrowthLim_GAS_' 'Positive dummy var for UC: UC_PriProdGrowthLim_GAS'
+'FI1D9'.'UC_PriProdGrowthLim_OIL-' 'Negative dummy var for UC: UC_PriProdGrowthLim_OIL'
+'FI1D9'.'UC_PriProdGrowthLim_OIL_' 'Positive dummy var for UC: UC_PriProdGrowthLim_OIL'
+'FI1D9'.'UCE_Base-Exp-Calib-Max-' 'Negative dummy var for UC: UCE_Base-Exp-Calib-Max'
+'FI1D9'.'UCE_Base-Exp-Calib-Max_' 'Positive dummy var for UC: UCE_Base-Exp-Calib-Max'
+'FI1D9'.'UCE_Base-Exp-Calib-Min-' 'Negative dummy var for UC: UCE_Base-Exp-Calib-Min'
+'FI1D9'.'UCE_Base-Exp-Calib-Min_' 'Positive dummy var for UC: UCE_Base-Exp-Calib-Min'
+'FI1D9'.'UCE_Base-Imp-Calib-Max-' 'Negative dummy var for UC: UCE_Base-Imp-Calib-Max'
+'FI1D9'.'UCE_Base-Imp-Calib-Max_' 'Positive dummy var for UC: UCE_Base-Imp-Calib-Max'
+'FI1D9'.'UCE_Base-Imp-Calib-Min-' 'Negative dummy var for UC: UCE_Base-Imp-Calib-Min'
+'FI1D9'.'UCE_Base-Imp-Calib-Min_' 'Positive dummy var for UC: UCE_Base-Imp-Calib-Min'
+/;
+
+SET UC_R_EACH
+
+/
+'FI'.'UC_PriProdGrowthLim_COH'
+'FI'.'UC_PriProdGrowthLim_COL'
+'FI'.'UC_PriProdGrowthLim_GAS'
+'FI'.'UC_PriProdGrowthLim_OIL'
+'FI1B1'.'UC_PriProdGrowthLim_COH'
+'FI1B1'.'UC_PriProdGrowthLim_COL'
+'FI1B1'.'UC_PriProdGrowthLim_GAS'
+'FI1B1'.'UC_PriProdGrowthLim_OIL'
+'FI1D9'.'UC_PriProdGrowthLim_COH'
+'FI1D9'.'UC_PriProdGrowthLim_COL'
+'FI1D9'.'UC_PriProdGrowthLim_GAS'
+'FI1D9'.'UC_PriProdGrowthLim_OIL'
+/;
+
+SET UC_R_SUM
+
+/
+'FI'.'RS_FLO_COMHTH00_HETHTH_UP'
+'FI'.'RS_FLO_INDHTH00_HETHTH_UP'
+'FI'.'RS_FLO_RSDHET00_HETHTH_UP'
+'FI'.'RS_FLO_RSDHTH01_HETHTH_UP'
+'FI'.'RS_PRD_COMBIO_LO'
+'FI'.'RS_PRD_COMBIO_UP'
+'FI'.'RS_PRD_COMFINOIL_LO'
+'FI'.'RS_PRD_COMFINOIL_UP'
+'FI'.'RS_PRD_COMGAS_LO'
+'FI'.'RS_PRD_COMGAS_UP'
+'FI'.'RS_PRD_COMHET_LO'
+'FI'.'RS_PRD_COMHET_UP'
+'FI'.'RS_PRD_INDFINGAS_LO'
+'FI'.'RS_PRD_INDFINGAS_UP'
+'FI'.'RS_PRD_INDFINSOLID_LO'
+'FI'.'RS_PRD_INDFINSOLID_UP'
+'FI'.'RS_PRD_RSDBIO_LO'
+'FI'.'RS_PRD_RSDBIO_UP'
+'FI'.'RS_PRD_RSDFINOIL_LO'
+'FI'.'RS_PRD_RSDFINOIL_UP'
+'FI'.'RS_PRD_RSDGAS_LO'
+'FI'.'RS_PRD_RSDGAS_UP'
+'FI'.'RS_PRD_RSDHET_LO'
+'FI'.'RS_PRD_RSDHET_UP'
+'FI'.'RS_PRD_TRAFINOIL_LO'
+'FI'.'RS_PRD_TRAFINOIL_UP'
+'FI'.'RS_PRD_TRAGAS_UP'
+'FI'.'UCE_Base-Exp-Calib-Max'
+'FI'.'UCE_Base-Exp-Calib-Min'
+'FI'.'UCE_Base-Imp-Calib-Max'
+'FI'.'UCE_Base-Imp-Calib-Min'
+/;
+
+SET UC_ATTR
+
+/
+'FI'.'UC_PriProdGrowthLim_COH'.LHS.ACT.GROWTH
+'FI'.'UC_PriProdGrowthLim_COL'.LHS.ACT.GROWTH
+'FI'.'UC_PriProdGrowthLim_GAS'.LHS.ACT.GROWTH
+'FI'.'UC_PriProdGrowthLim_OIL'.LHS.ACT.GROWTH
+'FI1B1'.'UC_PriProdGrowthLim_COH'.LHS.ACT.GROWTH
+'FI1B1'.'UC_PriProdGrowthLim_COL'.LHS.ACT.GROWTH
+'FI1B1'.'UC_PriProdGrowthLim_GAS'.LHS.ACT.GROWTH
+'FI1B1'.'UC_PriProdGrowthLim_OIL'.LHS.ACT.GROWTH
+'FI1D9'.'UC_PriProdGrowthLim_COH'.LHS.ACT.GROWTH
+'FI1D9'.'UC_PriProdGrowthLim_COL'.LHS.ACT.GROWTH
+'FI1D9'.'UC_PriProdGrowthLim_GAS'.LHS.ACT.GROWTH
+'FI1D9'.'UC_PriProdGrowthLim_OIL'.LHS.ACT.GROWTH
+/;
+
+PARAMETER
+
+ACT_BND ' '/
+'FI'.0.'IMPOILFDS'.ANNUAL.UP 2
+/;
+
+PARAMETER
+
+ACT_COST ' '/
+'FI'.2010.'COMBIO00'.'EUR10' 4
+'FI'.2010.'COMBIO01'.'EUR10' 4
+/;
+
+PARAMETER
+
+COM_BNDPRD ' '/
+'FI'.0.'COMBIO'.ANNUAL.UP 5
+'FI'.0.'COMFINOIL'.ANNUAL.UP 5
+'FI'.0.'COMGAS'.ANNUAL.UP 5
+'FI'.0.'COMHET'.ANNUAL.UP 5
+'FI'.0.'INDFINGAS'.ANNUAL.UP 5
+'FI'.0.'INDFINSOLID'.ANNUAL.UP 5
+'FI'.0.'RSDBIO'.ANNUAL.UP 5
+'FI'.0.'RSDFINOIL'.ANNUAL.UP 5
+'FI'.0.'RSDGAS'.ANNUAL.UP 5
+'FI'.0.'RSDHET'.ANNUAL.UP 5
+'FI'.0.'TRAFINOIL'.ANNUAL.UP 5
+'FI'.2010.'COMGAS'.ANNUAL.UP 1.6296
+'FI'.2010.'RSDGAS'.ANNUAL.UP 2.1064155
+'FI'.2010.'TRAGAS'.ANNUAL.UP 0.6426
+'FI'.2011.'COMGAS'.ANNUAL.UP 1.6296
+'FI'.2011.'RSDGAS'.ANNUAL.UP 1.35975
+'FI'.2011.'TRAGAS'.ANNUAL.UP 0.4914
+'FI'.2012.'COMGAS'.ANNUAL.UP 1.4742
+'FI'.2012.'RSDGAS'.ANNUAL.UP 1.46475
+'FI'.2012.'TRAGAS'.ANNUAL.UP 0.52185
+'FI'.2013.'COMGAS'.ANNUAL.UP 1.52775
+'FI'.2013.'RSDGAS'.ANNUAL.UP 1.29465
+'FI'.2013.'TRAGAS'.ANNUAL.UP 0.40845
+'FI'.2014.'COMGAS'.ANNUAL.UP 1.28625
+'FI'.2014.'RSDGAS'.ANNUAL.UP 1.26
+'FI'.2014.'TRAGAS'.ANNUAL.UP 0.4242
+'FI'.2015.'COMBIO'.ANNUAL.UP 3.423
+'FI'.2015.'COMFINOIL'.ANNUAL.UP 12.32
+'FI'.2015.'COMGAS'.ANNUAL.UP 1.22745
+'FI'.2015.'COMHET'.ANNUAL.UP 49.83
+'FI'.2015.'INDFINGAS'.ANNUAL.UP 34.3266
+'FI'.2015.'INDFINSOLID'.ANNUAL.UP 24.7401
+'FI'.2015.'RSDBIO'.ANNUAL.UP 52.53885
+'FI'.2015.'RSDFINOIL'.ANNUAL.UP 17.6
+'FI'.2015.'RSDGAS'.ANNUAL.UP 1.15605
+'FI'.2015.'RSDHET'.ANNUAL.UP 77.55
+'FI'.2015.'TRAFINOIL'.ANNUAL.UP 194.6681
+'FI'.2030.'COMBIO'.ANNUAL.UP 4.89
+'FI'.2030.'COMFINOIL'.ANNUAL.UP 16.8
+'FI'.2030.'COMGAS'.ANNUAL.UP 2.338
+'FI'.2030.'COMHET'.ANNUAL.UP 67.95
+'FI'.2030.'INDFINGAS'.ANNUAL.UP 65.384
+'FI'.2030.'INDFINSOLID'.ANNUAL.UP 35.343
+'FI'.2030.'RSDBIO'.ANNUAL.UP 75.0555
+'FI'.2030.'RSDFINOIL'.ANNUAL.UP 24
+'FI'.2030.'RSDGAS'.ANNUAL.UP 2.202
+'FI'.2030.'RSDHET'.ANNUAL.UP 105.75
+'FI'.2030.'TRAFINOIL'.ANNUAL.UP 265.4565
+/;
+
+PARAMETER
+
+COM_PROJ ' '/
+'FI'.2015.'TAvi_Frt_Extra-EU' 0.050975174
+'FI'.2015.'TAvi_Frt_Intra-EU' 0.31460924
+'FI'.2015.'TAvi_Pas_Dom' 1.0729604
+'FI'.2015.'TAvi_Pas_Extra-EU' 10.5655666
+'FI'.2015.'TAvi_Pas_Intra-EU' 8.3643828
+'FI'.2015.'TBus' 8.96959959168
+'FI'.2015.'TCar' 61.041218606592
+'FI'.2015.'THDT' 40.3774911724893
+'FI'.2015.'TLCV' 2.24076999809589
+'FI'.2015.'TMop' 1.17155577133343
+'FI'.2015.'TMot' 2.18676384994245
+'FI'.2015.'TNav' 3.7570924
+/;
+
+PARAMETER
+
+FLO_BND ' '/
+'FI'.2010.'COMHTH00'.'HETHTH'.ANNUAL.UP 49.3668
+'FI'.2010.'INDHTH00'.'HETHTH'.ANNUAL.UP 70.0497
+'FI'.2010.'RSDHET00'.'HETHTH'.ANNUAL.UP 76.5261
+'FI'.2010.'RSDHTH01'.'HETHTH'.ANNUAL.UP 76.5261
+'FI'.2011.'COMHTH00'.'HETHTH'.ANNUAL.UP 43.3524
+'FI'.2011.'INDHTH00'.'HETHTH'.ANNUAL.UP 65.02335
+'FI'.2011.'RSDHET00'.'HETHTH'.ANNUAL.UP 66.3726
+'FI'.2011.'RSDHTH01'.'HETHTH'.ANNUAL.UP 66.3726
+'FI'.2012.'COMHTH00'.'HETHTH'.ANNUAL.UP 46.66515
+'FI'.2012.'INDHTH00'.'HETHTH'.ANNUAL.UP 64.4112
+'FI'.2012.'RSDHET00'.'HETHTH'.ANNUAL.UP 72.99915
+'FI'.2012.'RSDHTH01'.'HETHTH'.ANNUAL.UP 72.99915
+'FI'.2013.'COMHTH00'.'HETHTH'.ANNUAL.UP 44.4612
+'FI'.2013.'INDHTH00'.'HETHTH'.ANNUAL.UP 61.20135
+'FI'.2013.'RSDHET00'.'HETHTH'.ANNUAL.UP 70.26285
+'FI'.2013.'RSDHTH01'.'HETHTH'.ANNUAL.UP 70.26285
+'FI'.2014.'COMHTH00'.'HETHTH'.ANNUAL.UP 44.3877
+'FI'.2014.'INDHTH00'.'HETHTH'.ANNUAL.UP 54.831
+'FI'.2014.'RSDHET00'.'HETHTH'.ANNUAL.UP 68.7582
+'FI'.2014.'RSDHTH01'.'HETHTH'.ANNUAL.UP 68.7582
+/;
+
+PARAMETER
+
+FLO_DELIV ' '/
+'FI'.2010.'C_ES-SH-HO_ELC09'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-HO_GAS08'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-HO_OIL04'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-HR_ELC09'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-HR_GAS08'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-HR_OIL04'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-OF_ELC09'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-OF_GAS08'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-OF_OIL04'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SL_ELC09'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SL_GAS08'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SL_OIL04'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SR_ELC09'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SR_GAS08'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SR_OIL04'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SS_ELC09'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SS_GAS08'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-SH-SS_OIL04'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HO_ELC03'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HO_GAS02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HO_OIL02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HO_SOL'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HR_ELC03'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HR_GAS01'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HR_OIL01'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-HR_SOL'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-OF_ELC03'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-OF_GAS02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-OF_OIL02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-OF_SOL'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SL_ELC03'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SL_GAS02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SL_OIL02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SL_SOL'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SR_ELC03'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SR_GAS02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SR_OIL02'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SR_SOL'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SS_ELC03'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SS_GAS01'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SS_OIL01'.'COMSOL'.ANNUAL.'EUR10' 5
+'FI'.2010.'C_ES-WH-SS_SOL'.'COMSOL'.ANNUAL.'EUR10' 5
+/;
+
+PARAMETER
+
+NCAP_AF ' '/
+'FI'.2010.'EUHYDDAM00'.FP.UP 1
+'FI'.2010.'EUHYDDAM00'.RP.UP 1
+'FI'.2010.'EUHYDDAM00'.SP.UP 1
+'FI'.2010.'EUHYDDAM00'.WP.UP 1
+'FI'.2100.'EUHYDDAM00'.FP.UP 1
+'FI'.2100.'EUHYDDAM00'.RP.UP 1
+'FI'.2100.'EUHYDDAM00'.SP.UP 1
+'FI'.2100.'EUHYDDAM00'.WP.UP 1
+/;
+
+PARAMETER
+
+NCAP_AFA ' '/
+'FI'.2011.'C_ES-SH-HO_BIO01'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_ELC01'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC02'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC03'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC04'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC05'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC06'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC07'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC08'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_ELC09'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_GAS01'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_GAS02'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_GAS03'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_GAS04'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_GAS05'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_GAS06'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_GAS07'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_GAS08'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_HET01'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_LPG01'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_LPG02'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_LPG03'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_OIL01'.UP 0.15
+'FI'.2011.'C_ES-SH-HO_OIL02'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_OIL03'.UP 0.2
+'FI'.2011.'C_ES-SH-HO_OIL04'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_BIO01'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_ELC01'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC02'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC03'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC04'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC05'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC06'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC07'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC08'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_ELC09'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_GAS01'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_GAS02'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_GAS03'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_GAS04'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_GAS05'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_GAS06'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_GAS07'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_GAS08'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_HET01'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_LPG01'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_LPG02'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_LPG03'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_OIL01'.UP 0.15
+'FI'.2011.'C_ES-SH-HR_OIL02'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_OIL03'.UP 0.2
+'FI'.2011.'C_ES-SH-HR_OIL04'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_BIO01'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_ELC01'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC02'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC03'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC04'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC05'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC06'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC07'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC08'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_ELC09'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_GAS01'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_GAS02'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_GAS03'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_GAS04'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_GAS05'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_GAS06'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_GAS07'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_GAS08'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_HET01'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_LPG01'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_LPG02'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_LPG03'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_OIL01'.UP 0.15
+'FI'.2011.'C_ES-SH-OF_OIL02'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_OIL03'.UP 0.2
+'FI'.2011.'C_ES-SH-OF_OIL04'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_BIO01'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_ELC01'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC02'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC03'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC04'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC05'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC06'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC07'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC08'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_ELC09'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_GAS01'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_GAS02'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_GAS03'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_GAS04'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_GAS05'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_GAS06'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_GAS07'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_GAS08'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_HET01'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_LPG01'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_LPG02'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_LPG03'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_OIL01'.UP 0.15
+'FI'.2011.'C_ES-SH-SL_OIL02'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_OIL03'.UP 0.2
+'FI'.2011.'C_ES-SH-SL_OIL04'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_BIO01'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_ELC01'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC02'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC03'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC04'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC05'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC06'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC07'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC08'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_ELC09'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_GAS01'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_GAS02'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_GAS03'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_GAS04'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_GAS05'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_GAS06'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_GAS07'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_GAS08'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_HET01'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_LPG01'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_LPG02'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_LPG03'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_OIL01'.UP 0.15
+'FI'.2011.'C_ES-SH-SR_OIL02'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_OIL03'.UP 0.2
+'FI'.2011.'C_ES-SH-SR_OIL04'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_BIO01'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_ELC01'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC02'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC03'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC04'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC05'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC06'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC07'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC08'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_ELC09'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_GAS01'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_GAS02'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_GAS03'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_GAS04'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_GAS05'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_GAS06'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_GAS07'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_GAS08'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_HET01'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_LPG01'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_LPG02'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_LPG03'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_OIL01'.UP 0.15
+'FI'.2011.'C_ES-SH-SS_OIL02'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_OIL03'.UP 0.2
+'FI'.2011.'C_ES-SH-SS_OIL04'.UP 0.2
+'FI'.2011.'C_ES-SP-HO_GASPEM'.UP 0.15
+'FI'.2011.'C_ES-SP-HO_GASSOFC'.UP 0.15
+'FI'.2011.'C_ES-SP-HR_GASPEM'.UP 0.15
+'FI'.2011.'C_ES-SP-HR_GASSOFC'.UP 0.15
+'FI'.2011.'C_ES-SP-OF_GASPEM'.UP 0.15
+'FI'.2011.'C_ES-SP-OF_GASSOFC'.UP 0.15
+'FI'.2011.'C_ES-SP-SL_GASPEM'.UP 0.15
+'FI'.2011.'C_ES-SP-SL_GASSOFC'.UP 0.15
+'FI'.2011.'C_ES-SP-SR_GASPEM'.UP 0.15
+'FI'.2011.'C_ES-SP-SR_GASSOFC'.UP 0.15
+'FI'.2011.'C_ES-SP-SS_GASPEM'.UP 0.15
+'FI'.2011.'C_ES-SP-SS_GASSOFC'.UP 0.15
+'FI'.2011.'C_ES-WH-HO_BIO01'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_ELC01'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_ELC02'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_ELC03'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_GAS01'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_GAS02'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_GEO01'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_LPG01'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_OIL01'.UP 0.2
+'FI'.2011.'C_ES-WH-HO_OIL02'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_BIO01'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_ELC01'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_ELC02'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_ELC03'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_GAS01'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_GEO01'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_LPG01'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_OIL01'.UP 0.2
+'FI'.2011.'C_ES-WH-HR_WSE01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_BIO01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_ELC01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_ELC02'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_ELC03'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_GAS01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_GAS02'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_GEO01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_LPG01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_OIL01'.UP 0.2
+'FI'.2011.'C_ES-WH-OF_OIL02'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_BIO01'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_ELC01'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_ELC02'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_ELC03'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_GAS01'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_GAS02'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_GEO01'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_LPG01'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_OIL01'.UP 0.2
+'FI'.2011.'C_ES-WH-SL_OIL02'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_BIO01'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_ELC01'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_ELC02'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_ELC03'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_GAS01'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_GAS02'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_GEO01'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_LPG01'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_OIL01'.UP 0.2
+'FI'.2011.'C_ES-WH-SR_OIL02'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_BIO01'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_ELC01'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_ELC02'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_ELC03'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_GAS01'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_GEO01'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_LPG01'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_OIL01'.UP 0.2
+'FI'.2011.'C_ES-WH-SS_WSE01'.UP 0.2
+'FI'.2011.'IMPNRGZ'.UP 0.2
+'FI'.2011.'NRbldg_HoRest-MG1'.UP 0.15
+'FI'.2011.'NRbldg_HoRest-MG2'.UP 0.15
+'FI'.2011.'NRbldg_HoRest-MG3'.UP 0.15
+'FI'.2011.'NRbldg_HoRest-MR2'.UP 0.15
+'FI'.2011.'NRbldg_HoRest-MR3'.UP 0.15
+'FI'.2011.'NRbldg_HoRest-MW2'.UP 0.15
+'FI'.2011.'NRbldg_HoRest-MW3'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MG1'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MG2'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MG3'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MR2'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MR3'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MW2'.UP 0.15
+'FI'.2011.'NRbldg_Hosp-MW3'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MG1'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MG2'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MG3'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MR2'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MR3'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MW2'.UP 0.15
+'FI'.2011.'NRbldg_Offic-MW3'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MG1'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MG2'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MG3'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MR2'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MR3'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MW2'.UP 0.15
+'FI'.2011.'NRbldg_ShopL-MW3'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MG1'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MG2'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MG3'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MR2'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MR3'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MW2'.UP 0.15
+'FI'.2011.'NRbldg_ShopS-MW3'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MG1'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MG2'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MG3'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MR2'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MR3'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MW2'.UP 0.15
+'FI'.2011.'NRbldg_SpoRecr-MW3'.UP 0.15
+/;
+
+PARAMETER
+
+NCAP_BND ' '/
+'FI'.0.'AGRBIO00'.UP 0
+'FI'.0.'AGRCOA00'.UP 0
+'FI'.0.'AGRDST00'.UP 0
+'FI'.0.'AGRELC00'.UP 0
+'FI'.0.'AGRGAS00'.UP 0
+'FI'.0.'AGRGEO00'.UP 0
+'FI'.0.'AGRHET00'.UP 0
+'FI'.0.'AGRLPG00'.UP 0
+'FI'.0.'AGROIL00'.UP 0
+'FI'.0.'AGRSOL00'.UP 0
+'FI'.0.'C_ES-SH-HO_GEO'.UP 2
+'FI'.0.'C_ES-SH-HR_GEO'.UP 2
+'FI'.0.'C_ES-SH-OF_GEO'.UP 2
+'FI'.0.'C_ES-SH-SL_GEO'.UP 2
+'FI'.0.'C_ES-SH-SR_GEO'.UP 2
+'FI'.0.'C_ES-SH-SS_GEO'.UP 2
+'FI'.0.'C_ES-WH-HO_GEO01'.UP 2
+'FI'.0.'C_ES-WH-HR_GEO01'.UP 2
+'FI'.0.'C_ES-WH-OF_GEO01'.UP 2
+'FI'.0.'C_ES-WH-SL_GEO01'.UP 2
+'FI'.0.'C_ES-WH-SR_GEO01'.UP 2
+'FI'.0.'C_ES-WH-SS_GEO01'.UP 2
+'FI'.0.'CHPINDSTCOA201'.UP 2
+'FI'.0.'COMAHT00'.UP 0
+'FI'.0.'COMBIO00'.UP 0
+'FI'.0.'COMBIO01'.UP 2
+'FI'.0.'COMCOA00'.UP 0
+'FI'.0.'COMCOA01'.UP 2
+'FI'.0.'COMELC00'.UP 0
+'FI'.0.'COMGAS00'.UP 0
+'FI'.0.'COMGAS01'.UP 2
+'FI'.0.'COMGEO00'.UP 0
+'FI'.0.'COMGEO01'.UP 2
+'FI'.0.'COMGHT00'.UP 0
+'FI'.0.'COMHTH00'.UP 0
+'FI'.0.'COMHTH01'.UP 2
+'FI'.0.'COMLPG00'.UP 0
+'FI'.0.'COMLPG01'.UP 2
+'FI'.0.'COMOIL00'.UP 0
+'FI'.0.'COMOIL01'.UP 2
+'FI'.0.'COMSOL00'.UP 0
+'FI'.0.'COMSOL01'.UP 2
+'FI'.0.'ELCBFG01'.UP 2
+'FI'.0.'ELCBFT01'.UP 2
+'FI'.0.'ELCBGS00'.UP 0
+'FI'.0.'ELCBMT00'.UP 0
+'FI'.0.'ELCCOG01'.UP 2
+'FI'.0.'ELCCOH00'.UP 0
+'FI'.0.'ELCCOL00'.UP 0
+'FI'.0.'ELCCOP01'.UP 2
+'FI'.0.'ELCDST00'.UP 0
+'FI'.0.'ELCGAS00'.UP 0
+'FI'.0.'ELCGEO00'.UP 0
+'FI'.0.'ELCHFO00'.UP 0
+'FI'.0.'ELCHYD00'.UP 0
+'FI'.0.'ELCIIS01'.UP 2
+'FI'.0.'ELCMUN00'.UP 0
+'FI'.0.'ELCSLU00'.UP 0
+'FI'.0.'ELCSOL00'.UP 0
+'FI'.0.'ELCWIN00'.UP 0
+'FI'.0.'ELCWOO00'.UP 0
+'FI'.0.'INDBFG00'.UP 0
+'FI'.0.'INDBFT01'.UP 2
+'FI'.0.'INDBGS01'.UP 2
+'FI'.0.'INDBIO00'.UP 0
+'FI'.0.'INDCOA00'.UP 0
+'FI'.0.'INDCOB00'.UP 0
+'FI'.0.'INDCOG00'.UP 0
+'FI'.0.'INDCOK00'.UP 0
+'FI'.0.'INDCOL00'.UP 0
+'FI'.0.'INDCOP01'.UP 2
+'FI'.0.'INDELC00'.UP 0
+'FI'.0.'INDGAS00'.UP 0
+'FI'.0.'INDGEO00'.UP 0
+'FI'.0.'INDHFO00'.UP 0
+'FI'.0.'INDHTH00'.UP 0
+'FI'.0.'INDHYD00'.UP 0
+'FI'.0.'INDIIS01'.UP 2
+'FI'.0.'INDLFO00'.UP 0
+'FI'.0.'INDLPG00'.UP 0
+'FI'.0.'INDMUN00'.UP 0
+'FI'.0.'INDNAP00'.UP 0
+'FI'.0.'INDNEU00'.UP 0
+'FI'.0.'INDRFG00'.UP 0
+'FI'.0.'INDSLU00'.UP 0
+'FI'.0.'INDSOL00'.UP 0
+'FI'.0.'INDWIN00'.UP 0
+'FI'.0.'RSDAHT00'.UP 0
+'FI'.0.'RSDBIO00'.UP 0
+'FI'.0.'RSDBIO01'.UP 2
+'FI'.0.'RSDCOA00'.UP 0
+'FI'.0.'RSDCOA01'.UP 2
+'FI'.0.'RSDELC00'.UP 0
+'FI'.0.'RSDGAS00'.UP 0
+'FI'.0.'RSDGAS01'.UP 2
+'FI'.0.'RSDGEO00'.UP 0
+'FI'.0.'RSDGEO01'.UP 2
+'FI'.0.'RSDGHT00'.UP 0
+'FI'.0.'RSDHET00'.UP 0
+'FI'.0.'RSDHTH01'.UP 2
+'FI'.0.'RSDLPG00'.UP 0
+'FI'.0.'RSDLPG01'.UP 2
+'FI'.0.'RSDOIL00'.UP 0
+'FI'.0.'RSDOIL01'.UP 2
+'FI'.0.'RSDSOL00'.UP 0
+'FI'.0.'RSDSOL01'.UP 2
+'FI'.0.'SUPBIO00'.UP 0
+'FI'.0.'SUPCOA00'.UP 0
+'FI'.0.'SUPCRD00'.UP 0
+'FI'.0.'SUPELC00'.UP 0
+'FI'.0.'SUPGAS00'.UP 0
+'FI'.0.'SUPHTH00'.UP 0
+'FI'.0.'SUPREFHTH00'.UP 0
+'FI'.0.'SUPRPG00'.UP 0
+'FI'.0.'SUPRPP00'.UP 0
+/;
+
+PARAMETER
+
+NCAP_COST ' '/
+'FI'.2010.'COMHTH00'.'EUR10' 400
+'FI'.2010.'COMHTH01'.'EUR10' 400
+'FI'.2010.'RSDHET00'.'EUR10' 400
+'FI'.2010.'RSDHTH01'.'EUR10' 400
+/;
+
+PARAMETER
+
+NCAP_START ' '/
+'FI'.'C_ES-SH-HO_ELC09' 2015
+'FI'.'C_ES-SH-HO_GAS08' 2015
+'FI'.'C_ES-SH-HO_OIL04' 2015
+'FI'.'C_ES-SH-HR_ELC09' 2015
+'FI'.'C_ES-SH-HR_GAS08' 2015
+'FI'.'C_ES-SH-HR_OIL04' 2015
+'FI'.'C_ES-SH-OF_ELC09' 2015
+'FI'.'C_ES-SH-OF_GAS08' 2015
+'FI'.'C_ES-SH-OF_OIL04' 2015
+'FI'.'C_ES-SH-SL_ELC09' 2015
+'FI'.'C_ES-SH-SL_GAS08' 2015
+'FI'.'C_ES-SH-SL_OIL04' 2015
+'FI'.'C_ES-SH-SR_ELC09' 2015
+'FI'.'C_ES-SH-SR_GAS08' 2015
+'FI'.'C_ES-SH-SR_OIL04' 2015
+'FI'.'C_ES-SH-SS_ELC09' 2015
+'FI'.'C_ES-SH-SS_GAS08' 2015
+'FI'.'C_ES-SH-SS_OIL04' 2015
+'FI'.'C_ES-WH-HO_ELC03' 2015
+'FI'.'C_ES-WH-HO_GAS02' 2015
+'FI'.'C_ES-WH-HO_OIL02' 2015
+'FI'.'C_ES-WH-HR_ELC03' 2015
+'FI'.'C_ES-WH-HR_GAS01' 2015
+'FI'.'C_ES-WH-HR_OIL01' 2015
+'FI'.'C_ES-WH-OF_ELC03' 2015
+'FI'.'C_ES-WH-OF_GAS02' 2015
+'FI'.'C_ES-WH-OF_OIL02' 2015
+'FI'.'C_ES-WH-SL_ELC03' 2015
+'FI'.'C_ES-WH-SL_GAS02' 2015
+'FI'.'C_ES-WH-SL_OIL02' 2015
+'FI'.'C_ES-WH-SR_ELC03' 2015
+'FI'.'C_ES-WH-SR_GAS02' 2015
+'FI'.'C_ES-WH-SR_OIL02' 2015
+'FI'.'C_ES-WH-SS_ELC03' 2015
+'FI'.'C_ES-WH-SS_GAS01' 2015
+'FI'.'C_ES-WH-SS_OIL01' 2015
+/;
+
+PARAMETER
+
+UC_ACT ' '/
+'UC_PriProdGrowthLim_COH'.LHS.'FI'.2010.'SPRICOH100'.ANNUAL 1.05
+'UC_PriProdGrowthLim_COH'.RHS.'FI'.2010.'SPRICOH100'.ANNUAL 1
+'UC_PriProdGrowthLim_COL'.LHS.'FI'.2010.'SPRICOL100'.ANNUAL 1.05
+'UC_PriProdGrowthLim_COL'.RHS.'FI'.2010.'SPRICOL100'.ANNUAL 1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI'.2010.'SPRIGAS100'.ANNUAL 1.05
+'UC_PriProdGrowthLim_GAS'.RHS.'FI'.2010.'SPRIGAS100'.ANNUAL 1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI'.2010.'SPRIOIL100'.ANNUAL 1.05
+'UC_PriProdGrowthLim_OIL'.RHS.'FI'.2010.'SPRIOIL100'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_COMPRD ' '/
+'RS_PRD_COMBIO_LO'.LHS.'FI'.2015.'COMBIO'.ANNUAL 1
+'RS_PRD_COMBIO_LO'.LHS.'FI'.2030.'COMBIO'.ANNUAL 1
+'RS_PRD_COMBIO_UP'.LHS.'FI'.2015.'COMBIO'.ANNUAL 1
+'RS_PRD_COMBIO_UP'.LHS.'FI'.2030.'COMBIO'.ANNUAL 1
+'RS_PRD_COMFINOIL_LO'.LHS.'FI'.2015.'COMFINOIL'.ANNUAL 1
+'RS_PRD_COMFINOIL_LO'.LHS.'FI'.2030.'COMFINOIL'.ANNUAL 1
+'RS_PRD_COMFINOIL_UP'.LHS.'FI'.2015.'COMFINOIL'.ANNUAL 1
+'RS_PRD_COMFINOIL_UP'.LHS.'FI'.2030.'COMFINOIL'.ANNUAL 1
+'RS_PRD_COMGAS_LO'.LHS.'FI'.2015.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_LO'.LHS.'FI'.2030.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2010.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2011.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2012.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2013.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2014.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2015.'COMGAS'.ANNUAL 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2030.'COMGAS'.ANNUAL 1
+'RS_PRD_COMHET_LO'.LHS.'FI'.2015.'COMHET'.ANNUAL 1
+'RS_PRD_COMHET_LO'.LHS.'FI'.2030.'COMHET'.ANNUAL 1
+'RS_PRD_COMHET_UP'.LHS.'FI'.2015.'COMHET'.ANNUAL 1
+'RS_PRD_COMHET_UP'.LHS.'FI'.2030.'COMHET'.ANNUAL 1
+'RS_PRD_INDFINGAS_LO'.LHS.'FI'.2015.'INDFINGAS'.ANNUAL 1
+'RS_PRD_INDFINGAS_LO'.LHS.'FI'.2030.'INDFINGAS'.ANNUAL 1
+'RS_PRD_INDFINGAS_UP'.LHS.'FI'.2015.'INDFINGAS'.ANNUAL 1
+'RS_PRD_INDFINGAS_UP'.LHS.'FI'.2030.'INDFINGAS'.ANNUAL 1
+'RS_PRD_INDFINSOLID_LO'.LHS.'FI'.2015.'INDFINSOLID'.ANNUAL 1
+'RS_PRD_INDFINSOLID_LO'.LHS.'FI'.2030.'INDFINSOLID'.ANNUAL 1
+'RS_PRD_INDFINSOLID_UP'.LHS.'FI'.2015.'INDFINSOLID'.ANNUAL 1
+'RS_PRD_INDFINSOLID_UP'.LHS.'FI'.2030.'INDFINSOLID'.ANNUAL 1
+'RS_PRD_RSDBIO_LO'.LHS.'FI'.2015.'RSDBIO'.ANNUAL 1
+'RS_PRD_RSDBIO_LO'.LHS.'FI'.2030.'RSDBIO'.ANNUAL 1
+'RS_PRD_RSDBIO_UP'.LHS.'FI'.2015.'RSDBIO'.ANNUAL 1
+'RS_PRD_RSDBIO_UP'.LHS.'FI'.2030.'RSDBIO'.ANNUAL 1
+'RS_PRD_RSDFINOIL_LO'.LHS.'FI'.2015.'RSDFINOIL'.ANNUAL 1
+'RS_PRD_RSDFINOIL_LO'.LHS.'FI'.2030.'RSDFINOIL'.ANNUAL 1
+'RS_PRD_RSDFINOIL_UP'.LHS.'FI'.2015.'RSDFINOIL'.ANNUAL 1
+'RS_PRD_RSDFINOIL_UP'.LHS.'FI'.2030.'RSDFINOIL'.ANNUAL 1
+'RS_PRD_RSDGAS_LO'.LHS.'FI'.2015.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_LO'.LHS.'FI'.2030.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2010.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2011.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2012.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2013.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2014.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2015.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2030.'RSDGAS'.ANNUAL 1
+'RS_PRD_RSDHET_LO'.LHS.'FI'.2015.'RSDHET'.ANNUAL 1
+'RS_PRD_RSDHET_LO'.LHS.'FI'.2030.'RSDHET'.ANNUAL 1
+'RS_PRD_RSDHET_UP'.LHS.'FI'.2015.'RSDHET'.ANNUAL 1
+'RS_PRD_RSDHET_UP'.LHS.'FI'.2030.'RSDHET'.ANNUAL 1
+'RS_PRD_TRAFINOIL_LO'.LHS.'FI'.2015.'TRAFINOIL'.ANNUAL 1
+'RS_PRD_TRAFINOIL_LO'.LHS.'FI'.2030.'TRAFINOIL'.ANNUAL 1
+'RS_PRD_TRAFINOIL_UP'.LHS.'FI'.2015.'TRAFINOIL'.ANNUAL 1
+'RS_PRD_TRAFINOIL_UP'.LHS.'FI'.2030.'TRAFINOIL'.ANNUAL 1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2010.'TRAGAS'.ANNUAL 1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2011.'TRAGAS'.ANNUAL 1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2012.'TRAGAS'.ANNUAL 1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2013.'TRAGAS'.ANNUAL 1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2014.'TRAGAS'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_FLO ' '/
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2010.'COMHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2011.'COMHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2012.'COMHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2013.'COMHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2014.'COMHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2010.'INDHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2011.'INDHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2012.'INDHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2013.'INDHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2014.'INDHTH00'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2010.'RSDHET00'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2011.'RSDHET00'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2012.'RSDHET00'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2013.'RSDHET00'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2014.'RSDHET00'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2010.'RSDHTH01'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2011.'RSDHTH01'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2012.'RSDHTH01'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2013.'RSDHTH01'.'HETHTH'.ANNUAL 1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2014.'RSDHTH01'.'HETHTH'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_IRE ' '/
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_COMHTH00_HETHTH_UP-'.ANNUAL.IMP -1
+'RS_FLO_COMHTH00_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_COMHTH00_HETHTH_UP_'.ANNUAL.IMP 1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_INDHTH00_HETHTH_UP-'.ANNUAL.IMP -1
+'RS_FLO_INDHTH00_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_INDHTH00_HETHTH_UP_'.ANNUAL.IMP 1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_RSDHET00_HETHTH_UP-'.ANNUAL.IMP -1
+'RS_FLO_RSDHET00_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_RSDHET00_HETHTH_UP_'.ANNUAL.IMP 1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_RSDHTH01_HETHTH_UP-'.ANNUAL.IMP -1
+'RS_FLO_RSDHTH01_HETHTH_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_FLO_RSDHTH01_HETHTH_UP_'.ANNUAL.IMP 1
+'RS_PRD_COMBIO_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMBIO_LO-'.ANNUAL.IMP -1
+'RS_PRD_COMBIO_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMBIO_LO_'.ANNUAL.IMP 1
+'RS_PRD_COMBIO_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMBIO_UP-'.ANNUAL.IMP -1
+'RS_PRD_COMBIO_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMBIO_UP_'.ANNUAL.IMP 1
+'RS_PRD_COMFINOIL_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMFINOIL_LO-'.ANNUAL.IMP -1
+'RS_PRD_COMFINOIL_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMFINOIL_LO_'.ANNUAL.IMP 1
+'RS_PRD_COMFINOIL_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMFINOIL_UP-'.ANNUAL.IMP -1
+'RS_PRD_COMFINOIL_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMFINOIL_UP_'.ANNUAL.IMP 1
+'RS_PRD_COMGAS_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMGAS_LO-'.ANNUAL.IMP -1
+'RS_PRD_COMGAS_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMGAS_LO_'.ANNUAL.IMP 1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMGAS_UP-'.ANNUAL.IMP -1
+'RS_PRD_COMGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMGAS_UP_'.ANNUAL.IMP 1
+'RS_PRD_COMHET_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMHET_LO-'.ANNUAL.IMP -1
+'RS_PRD_COMHET_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMHET_LO_'.ANNUAL.IMP 1
+'RS_PRD_COMHET_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMHET_UP-'.ANNUAL.IMP -1
+'RS_PRD_COMHET_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_COMHET_UP_'.ANNUAL.IMP 1
+'RS_PRD_INDFINGAS_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINGAS_LO-'.ANNUAL.IMP -1
+'RS_PRD_INDFINGAS_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINGAS_LO_'.ANNUAL.IMP 1
+'RS_PRD_INDFINGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINGAS_UP-'.ANNUAL.IMP -1
+'RS_PRD_INDFINGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINGAS_UP_'.ANNUAL.IMP 1
+'RS_PRD_INDFINSOLID_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINSOLID_LO-'.ANNUAL.IMP -1
+'RS_PRD_INDFINSOLID_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINSOLID_LO_'.ANNUAL.IMP 1
+'RS_PRD_INDFINSOLID_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINSOLID_UP-'.ANNUAL.IMP -1
+'RS_PRD_INDFINSOLID_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_INDFINSOLID_UP_'.ANNUAL.IMP 1
+'RS_PRD_RSDBIO_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDBIO_LO-'.ANNUAL.IMP -1
+'RS_PRD_RSDBIO_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDBIO_LO_'.ANNUAL.IMP 1
+'RS_PRD_RSDBIO_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDBIO_UP-'.ANNUAL.IMP -1
+'RS_PRD_RSDBIO_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDBIO_UP_'.ANNUAL.IMP 1
+'RS_PRD_RSDFINOIL_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDFINOIL_LO-'.ANNUAL.IMP -1
+'RS_PRD_RSDFINOIL_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDFINOIL_LO_'.ANNUAL.IMP 1
+'RS_PRD_RSDFINOIL_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDFINOIL_UP-'.ANNUAL.IMP -1
+'RS_PRD_RSDFINOIL_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDFINOIL_UP_'.ANNUAL.IMP 1
+'RS_PRD_RSDGAS_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDGAS_LO-'.ANNUAL.IMP -1
+'RS_PRD_RSDGAS_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDGAS_LO_'.ANNUAL.IMP 1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDGAS_UP-'.ANNUAL.IMP -1
+'RS_PRD_RSDGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDGAS_UP_'.ANNUAL.IMP 1
+'RS_PRD_RSDHET_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDHET_LO-'.ANNUAL.IMP -1
+'RS_PRD_RSDHET_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDHET_LO_'.ANNUAL.IMP 1
+'RS_PRD_RSDHET_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDHET_UP-'.ANNUAL.IMP -1
+'RS_PRD_RSDHET_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_RSDHET_UP_'.ANNUAL.IMP 1
+'RS_PRD_TRAFINOIL_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_TRAFINOIL_LO-'.ANNUAL.IMP -1
+'RS_PRD_TRAFINOIL_LO'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_TRAFINOIL_LO_'.ANNUAL.IMP 1
+'RS_PRD_TRAFINOIL_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_TRAFINOIL_UP-'.ANNUAL.IMP -1
+'RS_PRD_TRAFINOIL_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_TRAFINOIL_UP_'.ANNUAL.IMP 1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_TRAGAS_UP-'.ANNUAL.IMP -1
+'RS_PRD_TRAGAS_UP'.LHS.'FI'.2010.'IMPNRGZ'.'RS_PRD_TRAGAS_UP_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_COH'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COH-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_COH'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COH_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_COH'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COH-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_COH'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COH_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_COH'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COH-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_COH'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COH_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_COL'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COL-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_COL'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COL_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_COL'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COL-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_COL'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COL_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_COL'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COL-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_COL'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_COL_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_GAS-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_GAS_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_GAS-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_GAS_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_GAS-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_GAS'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_GAS_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_OIL-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_OIL_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_OIL-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_OIL_'.ANNUAL.IMP 1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_OIL-'.ANNUAL.IMP -1
+'UC_PriProdGrowthLim_OIL'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PriProdGrowthLim_OIL_'.ANNUAL.IMP 1
+'UCE_Base-Exp-Calib-Max'.LHS.'FI'.2010.'EXPELC-fromFI'.'ELCHIG'.ANNUAL.EXP 1
+'UCE_Base-Exp-Calib-Max'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Exp-Calib-Max-'.ANNUAL.IMP -1
+'UCE_Base-Exp-Calib-Max'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Exp-Calib-Max_'.ANNUAL.IMP 1
+'UCE_Base-Exp-Calib-Min'.LHS.'FI'.2010.'EXPELC-fromFI'.'ELCHIG'.ANNUAL.EXP 1
+'UCE_Base-Exp-Calib-Min'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Exp-Calib-Min-'.ANNUAL.IMP -1
+'UCE_Base-Exp-Calib-Min'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Exp-Calib-Min_'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Max'.LHS.'FI'.2010.'IMPELC-EetoFI'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Max'.LHS.'FI'.2010.'IMPELC-NOtoFI'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Max'.LHS.'FI'.2010.'IMPELC-RU'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Max'.LHS.'FI'.2010.'IMPELC-SEtoFI'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Max'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Imp-Calib-Max-'.ANNUAL.IMP -1
+'UCE_Base-Imp-Calib-Max'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Imp-Calib-Max_'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Min'.LHS.'FI'.2010.'IMPELC-EetoFI'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Min'.LHS.'FI'.2010.'IMPELC-NOtoFI'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Min'.LHS.'FI'.2010.'IMPELC-RU'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Min'.LHS.'FI'.2010.'IMPELC-SEtoFI'.'ELCHIG'.ANNUAL.IMP 1
+'UCE_Base-Imp-Calib-Min'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Imp-Calib-Min-'.ANNUAL.IMP -1
+'UCE_Base-Imp-Calib-Min'.LHS.'FI'.2010.'IMPNRGZ'.'UCE_Base-Imp-Calib-Min_'.ANNUAL.IMP 1
+/;
+
+PARAMETER
+
+UC_RHSRT ' '/
+'FI'.'UC_PriProdGrowthLim_COH'.0.LO 5
+'FI'.'UC_PriProdGrowthLim_COH'.2010.LO 0
+'FI'.'UC_PriProdGrowthLim_COL'.0.LO 5
+'FI'.'UC_PriProdGrowthLim_COL'.2010.LO 0
+'FI'.'UC_PriProdGrowthLim_GAS'.0.LO 5
+'FI'.'UC_PriProdGrowthLim_GAS'.2010.LO 0
+'FI'.'UC_PriProdGrowthLim_OIL'.0.LO 5
+'FI'.'UC_PriProdGrowthLim_OIL'.2010.LO 0
+'FI1B1'.'UC_PriProdGrowthLim_COH'.0.LO 5
+'FI1B1'.'UC_PriProdGrowthLim_COH'.2010.LO 0
+'FI1B1'.'UC_PriProdGrowthLim_COL'.0.LO 5
+'FI1B1'.'UC_PriProdGrowthLim_COL'.2010.LO 0
+'FI1B1'.'UC_PriProdGrowthLim_GAS'.0.LO 5
+'FI1B1'.'UC_PriProdGrowthLim_GAS'.2010.LO 0
+'FI1B1'.'UC_PriProdGrowthLim_OIL'.0.LO 5
+'FI1B1'.'UC_PriProdGrowthLim_OIL'.2010.LO 0
+'FI1D9'.'UC_PriProdGrowthLim_COH'.0.LO 5
+'FI1D9'.'UC_PriProdGrowthLim_COH'.2010.LO 0
+'FI1D9'.'UC_PriProdGrowthLim_COL'.0.LO 5
+'FI1D9'.'UC_PriProdGrowthLim_COL'.2010.LO 0
+'FI1D9'.'UC_PriProdGrowthLim_GAS'.0.LO 5
+'FI1D9'.'UC_PriProdGrowthLim_GAS'.2010.LO 0
+'FI1D9'.'UC_PriProdGrowthLim_OIL'.0.LO 5
+'FI1D9'.'UC_PriProdGrowthLim_OIL'.2010.LO 0
+/;
+
+PARAMETER
+
+UC_RHST ' '/
+'RS_FLO_COMHTH00_HETHTH_UP'.2010.UP 49.3668
+'RS_FLO_COMHTH00_HETHTH_UP'.2011.UP 43.3524
+'RS_FLO_COMHTH00_HETHTH_UP'.2012.UP 46.66515
+'RS_FLO_COMHTH00_HETHTH_UP'.2013.UP 44.4612
+'RS_FLO_COMHTH00_HETHTH_UP'.2014.UP 44.3877
+'RS_FLO_INDHTH00_HETHTH_UP'.2010.UP 70.0497
+'RS_FLO_INDHTH00_HETHTH_UP'.2011.UP 65.02335
+'RS_FLO_INDHTH00_HETHTH_UP'.2012.UP 64.4112
+'RS_FLO_INDHTH00_HETHTH_UP'.2013.UP 61.20135
+'RS_FLO_INDHTH00_HETHTH_UP'.2014.UP 54.831
+'RS_FLO_RSDHET00_HETHTH_UP'.2010.UP 76.5261
+'RS_FLO_RSDHET00_HETHTH_UP'.2011.UP 66.3726
+'RS_FLO_RSDHET00_HETHTH_UP'.2012.UP 72.99915
+'RS_FLO_RSDHET00_HETHTH_UP'.2013.UP 70.26285
+'RS_FLO_RSDHET00_HETHTH_UP'.2014.UP 68.7582
+'RS_FLO_RSDHTH01_HETHTH_UP'.2010.UP 76.5261
+'RS_FLO_RSDHTH01_HETHTH_UP'.2011.UP 66.3726
+'RS_FLO_RSDHTH01_HETHTH_UP'.2012.UP 72.99915
+'RS_FLO_RSDHTH01_HETHTH_UP'.2013.UP 70.26285
+'RS_FLO_RSDHTH01_HETHTH_UP'.2014.UP 68.7582
+'RS_PRD_COMBIO_LO'.0.LO 5
+'RS_PRD_COMBIO_LO'.2015.LO 2.934
+'RS_PRD_COMBIO_LO'.2030.LO 3.097
+'RS_PRD_COMBIO_UP'.0.UP 5
+'RS_PRD_COMBIO_UP'.2015.UP 3.423
+'RS_PRD_COMBIO_UP'.2030.UP 4.89
+'RS_PRD_COMFINOIL_LO'.0.LO 1
+'RS_PRD_COMFINOIL_LO'.2015.LO 10.08
+'RS_PRD_COMFINOIL_LO'.2030.LO 6.72
+'RS_PRD_COMFINOIL_UP'.0.UP 5
+'RS_PRD_COMFINOIL_UP'.2015.UP 12.32
+'RS_PRD_COMFINOIL_UP'.2030.UP 16.8
+'RS_PRD_COMGAS_LO'.0.LO 1
+'RS_PRD_COMGAS_LO'.2015.LO 1.11055
+'RS_PRD_COMGAS_LO'.2030.LO 0.5845
+'RS_PRD_COMGAS_UP'.0.UP 5
+'RS_PRD_COMGAS_UP'.2010.UP 1.6296
+'RS_PRD_COMGAS_UP'.2011.UP 1.6296
+'RS_PRD_COMGAS_UP'.2012.UP 1.4742
+'RS_PRD_COMGAS_UP'.2013.UP 1.52775
+'RS_PRD_COMGAS_UP'.2014.UP 1.28625
+'RS_PRD_COMGAS_UP'.2015.UP 1.22745
+'RS_PRD_COMGAS_UP'.2030.UP 2.338
+'RS_PRD_COMHET_LO'.0.LO 5
+'RS_PRD_COMHET_LO'.2015.LO 40.77
+'RS_PRD_COMHET_LO'.2030.LO 22.65
+'RS_PRD_COMHET_UP'.0.UP 5
+'RS_PRD_COMHET_UP'.2015.UP 49.83
+'RS_PRD_COMHET_UP'.2030.UP 67.95
+'RS_PRD_INDFINGAS_LO'.0.LO 1
+'RS_PRD_INDFINGAS_LO'.2015.LO 31.0574
+'RS_PRD_INDFINGAS_LO'.2030.LO 16.346
+'RS_PRD_INDFINGAS_UP'.0.UP 5
+'RS_PRD_INDFINGAS_UP'.2015.UP 34.3266
+'RS_PRD_INDFINGAS_UP'.2030.UP 65.384
+'RS_PRD_INDFINSOLID_LO'.0.LO 1
+'RS_PRD_INDFINSOLID_LO'.2015.LO 21.2058
+'RS_PRD_INDFINSOLID_LO'.2030.LO 11.781
+'RS_PRD_INDFINSOLID_UP'.0.UP 5
+'RS_PRD_INDFINSOLID_UP'.2015.UP 24.7401
+'RS_PRD_INDFINSOLID_UP'.2030.UP 35.343
+'RS_PRD_RSDBIO_LO'.0.LO 5
+'RS_PRD_RSDBIO_LO'.2015.LO 45.0333
+'RS_PRD_RSDBIO_LO'.2030.LO 47.53515
+'RS_PRD_RSDBIO_UP'.0.UP 5
+'RS_PRD_RSDBIO_UP'.2015.UP 52.53885
+'RS_PRD_RSDBIO_UP'.2030.UP 75.0555
+'RS_PRD_RSDFINOIL_LO'.0.LO 1
+'RS_PRD_RSDFINOIL_LO'.2015.LO 14.4
+'RS_PRD_RSDFINOIL_LO'.2030.LO 9.6
+'RS_PRD_RSDFINOIL_UP'.0.UP 5
+'RS_PRD_RSDFINOIL_UP'.2015.UP 17.6
+'RS_PRD_RSDFINOIL_UP'.2030.UP 24
+'RS_PRD_RSDGAS_LO'.0.LO 1
+'RS_PRD_RSDGAS_LO'.2015.LO 1.04595
+'RS_PRD_RSDGAS_LO'.2030.LO 0.5505
+'RS_PRD_RSDGAS_UP'.0.UP 5
+'RS_PRD_RSDGAS_UP'.2010.UP 2.1064155
+'RS_PRD_RSDGAS_UP'.2011.UP 1.35975
+'RS_PRD_RSDGAS_UP'.2012.UP 1.46475
+'RS_PRD_RSDGAS_UP'.2013.UP 1.29465
+'RS_PRD_RSDGAS_UP'.2014.UP 1.26
+'RS_PRD_RSDGAS_UP'.2015.UP 1.15605
+'RS_PRD_RSDGAS_UP'.2030.UP 2.202
+'RS_PRD_RSDHET_LO'.0.LO 5
+'RS_PRD_RSDHET_LO'.2015.LO 63.45
+'RS_PRD_RSDHET_LO'.2030.LO 35.25
+'RS_PRD_RSDHET_UP'.0.UP 5
+'RS_PRD_RSDHET_UP'.2015.UP 77.55
+'RS_PRD_RSDHET_UP'.2030.UP 105.75
+'RS_PRD_TRAFINOIL_LO'.0.LO 1
+'RS_PRD_TRAFINOIL_LO'.2015.LO 159.2739
+'RS_PRD_TRAFINOIL_LO'.2030.LO 106.1826
+'RS_PRD_TRAFINOIL_UP'.0.UP 5
+'RS_PRD_TRAFINOIL_UP'.2015.UP 194.6681
+'RS_PRD_TRAFINOIL_UP'.2030.UP 265.4565
+'RS_PRD_TRAGAS_UP'.2010.UP 0.6426
+'RS_PRD_TRAGAS_UP'.2011.UP 0.4914
+'RS_PRD_TRAGAS_UP'.2012.UP 0.52185
+'RS_PRD_TRAGAS_UP'.2013.UP 0.40845
+'RS_PRD_TRAGAS_UP'.2014.UP 0.4242
+'UCE_Base-Exp-Calib-Max'.0.UP 5
+'UCE_Base-Exp-Calib-Max'.2010.UP 18.737838
+'UCE_Base-Exp-Calib-Max'.2011.UP 13.660164
+'UCE_Base-Exp-Calib-Max'.2012.UP 5.907195
+'UCE_Base-Exp-Calib-Max'.2013.UP 6.736716
+'UCE_Base-Exp-Calib-Max'.2014.UP 13.125105
+'UCE_Base-Exp-Calib-Max'.2016.UP 11.343969
+'UCE_Base-Exp-Calib-Max'.2020.UP 23.95197
+'UCE_Base-Exp-Calib-Max'.2021.UP 24.145884
+'UCE_Base-Exp-Calib-Min'.0.LO 1
+'UCE_Base-Exp-Calib-Min'.2010.LO 17.84556
+'UCE_Base-Exp-Calib-Min'.2011.LO 13.00968
+'UCE_Base-Exp-Calib-Min'.2012.LO 5.6259
+'UCE_Base-Exp-Calib-Min'.2013.LO 6.41592
+'UCE_Base-Exp-Calib-Min'.2014.LO 12.5001
+'UCE_Base-Exp-Calib-Min'.2016.LO 10.80378
+'UCE_Base-Exp-Calib-Min'.2020.LO 22.8114
+'UCE_Base-Exp-Calib-Min'.2021.LO 22.99608
+'UCE_Base-Imp-Calib-Max'.0.UP 5
+'UCE_Base-Imp-Calib-Max'.2010.UP 56.446929
+'UCE_Base-Imp-Calib-Max'.2011.UP 63.402696
+'UCE_Base-Imp-Calib-Max'.2012.UP 68.548599
+'UCE_Base-Imp-Calib-Max'.2013.UP 63.169281
+'UCE_Base-Imp-Calib-Max'.2014.UP 77.644602
+'UCE_Base-Imp-Calib-Max'.2016.UP 79.39701
+'UCE_Base-Imp-Calib-Max'.2020.UP 78.190434
+'UCE_Base-Imp-Calib-Max'.2021.UP 87.950772
+'UCE_Base-Imp-Calib-Min'.0.LO 1
+'UCE_Base-Imp-Calib-Min'.2010.LO 53.75898
+'UCE_Base-Imp-Calib-Min'.2011.LO 60.38352
+'UCE_Base-Imp-Calib-Min'.2012.LO 65.28438
+'UCE_Base-Imp-Calib-Min'.2013.LO 60.16122
+'UCE_Base-Imp-Calib-Min'.2014.LO 73.94724
+'UCE_Base-Imp-Calib-Min'.2016.LO 75.6162
+'UCE_Base-Imp-Calib-Min'.2020.LO 74.46708
+'UCE_Base-Imp-Calib-Min'.2021.LO 83.76264
+/;
+
+

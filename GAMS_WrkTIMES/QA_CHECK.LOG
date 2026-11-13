@@ -1,0 +1,377 @@
+              ****** TIMES -- VERSION 4.8.3 -- Restart (v4.8)  ******
+              **************   QUALITY ASSURANCE LOG   **************
+
+ *** Delayed Process but PASTInvestment
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Dis_Exe_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Dis_LoM_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Dis_Sma_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Dis_UpM_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Elc_LoM_10
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Gas_Exe_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Gas_LoM_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Gas_Sma_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_Gas_UpM_01
+ *01 WARNING       - Delay is ignored:   R=FI           P=TRA_Car_PIH_LoM_80pct
+
+ *** FLO_EMIS with no members of source group in process - ignored
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_DRY CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_DRY CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_DRY CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_DRY CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_DRY CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_DRY CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_FIN CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_FIN CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_FIN CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_FIN CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_FIN CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_E_FIN CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_DRY CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_DRY CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_DRY CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_DRY CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_DRY CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_DRY CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_FIN CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_FIN CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_FIN CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_FIN CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_FIN CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_E_FIN CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFINPRO00  CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFINPRO00  CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFINPRO00  CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFINPRO00  CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFINPRO00  CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFINPRO00  CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_CAPTURED CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_CAPTURED CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_CAPTURED CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_CAPTURED CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_CAPTURED CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_CAPTURED CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_EMIS   CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_EMIS   CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_EMIS   CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_EMIS   CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_EMIS   CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_EMIS   CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDBIO COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDCOA COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDGAS COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDSLU COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF_FIN CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF_FIN CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF_FIN CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF_FIN CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF_FIN CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_BYF_FIN CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEA CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEA CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEA CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEA CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEA CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEA CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEM CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEM CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEM CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEM CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEM CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_MEM CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_NH3 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_NH3 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_NH3 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_NH3 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_NH3 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCS_NH3 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDBIO COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDCOA COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDGAS COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDSLU COM=ICMGENCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC_FIN CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC_FIN CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC_FIN CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC_FIN CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC_FIN CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_CCSC_FIN CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY1 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY1 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY1 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY1 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY1 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY1 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY2 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY2 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY2 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY2 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY2 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_GEN_DUMMY2 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_ICM    CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_ICM    CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_ICM    CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_ICM    CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_ICM    CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_ICM    CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEA CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEA CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEA CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEA CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEA CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEA CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEM CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEM CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEM CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEM CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEM CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_MEM CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_NH3 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_NH3 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_NH3 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_NH3 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_NH3 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CCS_NH3 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CLY CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CLY CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CLY CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CLY CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CLY CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_CLY CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY1 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY1 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY1 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY1 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY1 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY1 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY2 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY2 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY2 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY2 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY2 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_DUMMY2 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_FIN_LC3 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_FIN_LC3 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_FIN_LC3 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_FIN_LC3 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_FIN_LC3 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_FIN_LC3 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_DRY CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_DRY CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_DRY CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_DRY CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_DRY CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_DRY CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_FIN CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_FIN CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_FIN CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_FIN CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_FIN CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_LAPP_N_FIN CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEA CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEA CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEA CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEA CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEA CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEA CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEM CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEM CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEM CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEM CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEM CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_MEM CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_NH3 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_NH3 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_NH3 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_NH3 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_NH3 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CCS_NH3 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CLY CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CLY CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CLY CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CLY CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CLY CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_CLY CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY1 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY1 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY1 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY1 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY1 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY1 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY2 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY2 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY2 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY2 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY2 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_DUMMY2 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_FIN_LC3 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_FIN_LC3 CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_FIN_LC3 CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_FIN_LC3 CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_FIN_LC3 CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_FIN_LC3 CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_DRY CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_DRY CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_DRY CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_DRY CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_DRY CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_DRY CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_FIN CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_FIN CG=INDCOA COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_FIN CG=INDHFO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_FIN CG=INDGAS COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_FIN CG=INDMUN COM=INDCO2N
+ *01 WARNING       -     R=FI           P=ICMFI_PARA_N_FIN CG=INDSLU COM=INDCO2N
+ *01 WARNING       -     R=FI           P=CHPINDCSGAS15 CG=INDBIO COM=BGNSCO2N
+ *01 WARNING       -     R=FI           P=CHPINDCSGAS15 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=CHPINDISCOA15 CG=INDBIO COM=BGNSCO2N
+ *01 WARNING       -     R=FI           P=CHPINDISCOA15 CG=INDBIO COM=INDCO2N
+ *01 WARNING       -     R=FI           P=SGASH2RCC01  CG=GASP2GB COM=BGNSCO2N
+ *01 WARNING       -     R=FI           P=SNK_DAC_GAS  CG=GASNAT COM=SUPSCO2N
+ *01 WARNING       -     R=FI           P=SNK_DAC_GAS  CG=GASP2G COM=SUPSCO2N
+ *01 WARNING       -     R=FI           P=SNK_DAC_GAS_LowAF CG=GASNAT COM=SUPSCO2N
+ *01 WARNING       -     R=FI           P=SNK_DAC_GAS_LowAF CG=GASP2G COM=SUPSCO2N
+
+ *** Defective sum of FX and UP FLO_SHAREs in Group
+ *07 SEVERE ERROR  -     R=FI           P=EEHP_DistHeating V=2013 CG=EEHP_DistHeating_NRGI SUM=0.98848 (Auto-relaxed)
+
+
+ *** Commodity in CG of process P but not in topology
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre09-Cei CG=Bldg_DETPre09-Cei
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre09-Wal CG=Bldg_DETPre09-Wal
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre09-Win CG=Bldg_DETPre09-Win
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre79-Cei CG=Bldg_DETPre79-Cei
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre79-Wal CG=Bldg_DETPre79-Wal
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre79-Win CG=Bldg_DETPre79-Win
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre89-Cei CG=Bldg_DETPre89-Cei
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre89-Wal CG=Bldg_DETPre89-Wal
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre89-Win CG=Bldg_DETPre89-Win
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre99-Cei CG=Bldg_DETPre99-Cei
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre99-Wal CG=Bldg_DETPre99-Wal
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH     C=Bldg_DETPre99-Win CG=Bldg_DETPre99-Win
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH-70  C=Bldg_DETPre45-Cei CG=Bldg_DETPre45-Cei
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH-70  C=Bldg_DETPre45-Wal CG=Bldg_DETPre45-Wal
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH-70  C=Bldg_DETPre45-Win CG=Bldg_DETPre45-Win
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH-70  C=Bldg_DETPre69-Cei CG=Bldg_DETPre69-Cei
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH-70  C=Bldg_DETPre69-Wal CG=Bldg_DETPre69-Wal
+ *10 SEVERE WARNING  -   R=FI           P=Rdw_DetH-70  C=Bldg_DETPre69-Win CG=Bldg_DETPre69-Win
+
+ *** FLO_SUM Commodity Not in CG1 - parameter ignored
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre09-Cei C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre09-Wal C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre09-Win C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre79-Cei C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre79-Wal C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre79-Win C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre89-Cei C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre89-Wal C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre89-Win C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre99-Cei C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre99-Wal C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre99-Win C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG1=Bldg_DETPre45-Cei C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG1=Bldg_DETPre45-Wal C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG1=Bldg_DETPre45-Win C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG1=Bldg_DETPre69-Cei C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG1=Bldg_DETPre69-Wal C=R_DetH
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG1=Bldg_DETPre69-Win C=R_DetH
+
+ *** RPC in TOP not found in any ACTFLO/FLO_SHAR/FLO_FUNC/FLO_SUM
+ *01 WARNING       -     R=FI           P=IISDRIEAF01  C=INDCOP       IO=IN
+ *01 WARNING       -     R=FI           P=IISDRISPN01  C=INDCOP       IO=IN
+ *01 WARNING       -     R=FI           P=IISDRISPNCS01 C=INDCOP       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=IISHTH       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDBFG       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDCOA       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDCOK       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDHFO       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDCOG       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDGAS       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDLFO       IO=IN
+ *01 WARNING       -     R=FI           P=IISFINPRO01  C=INDLPG       IO=IN
+ *01 WARNING       -     R=FI           P=P_COMBATS01  C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_COMBATS02  C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_COMBATS03  C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTBATS101 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTBATS102 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTBATS103 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTBATS201 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTBATS202 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTCAESS101 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTCAESS102 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_ESTCAESS201 C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_RSDBATS01  C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_RSDBATS02  C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_RSDBATS03  C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_STH2SDT    C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=P_STH2SGT    C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC03 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC04 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC05 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC06 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC07 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC08 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HR_ELC03 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HR_ELC04 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HR_ELC05 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HR_ELC06 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HR_ELC07 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-HR_ELC08 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-OF_ELC03 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-OF_ELC04 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-OF_ELC05 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-OF_ELC06 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-OF_ELC07 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-OF_ELC08 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SL_ELC03 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SL_ELC04 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SL_ELC05 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SL_ELC06 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SL_ELC07 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SL_ELC08 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SR_ELC03 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SR_ELC04 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SR_ELC05 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SR_ELC06 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SR_ELC07 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SR_ELC08 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SS_ELC03 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SS_ELC04 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SS_ELC05 C=COMAHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SS_ELC06 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SS_ELC07 C=COMGHT       IO=IN
+ *01 WARNING       -     R=FI           P=C_ES-SH-SS_ELC08 C=COMGHT       IO=IN
+
+ *** Empty Group in FLO_SUM/FLO_FUNC/FLO_SHAR
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre09-Cei
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre09-Wal
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre09-Win
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre79-Cei
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre79-Wal
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre79-Win
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre89-Cei
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre89-Wal
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre89-Win
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre99-Cei
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre99-Wal
+ *01 WARNING       -     R=FI           P=Rdw_DetH     CG=Bldg_DETPre99-Win
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG=Bldg_DETPre45-Cei
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG=Bldg_DETPre45-Wal
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG=Bldg_DETPre45-Win
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG=Bldg_DETPre69-Cei
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG=Bldg_DETPre69-Wal
+ *01 WARNING       -     R=FI           P=Rdw_DetH-70  CG=Bldg_DETPre69-Win
+ *01 WARNING       -     R=FI           P=R_ES-SH-DH-70_ELC06 CG=RSDAHT
+ *01 WARNING       -     R=FI           P=R_ES-SH-DH_ELC06 CG=RSDAHT
+ *01 WARNING       -     R=FI           P=R_ES-SH-FL_ELC06 CG=RSDAHT
+ *01 WARNING       -     R=FI           P=R_ES-SH-SD_ELC06 CG=RSDAHT

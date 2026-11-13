@@ -1,0 +1,104 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'emisuc_v1point'
+
+
+SET UNITS_COM
+
+/
+'UCU'
+/;
+
+SET COM_TMAP
+
+/
+'FI'.'NRG'.'CO2TargetAllSectors2030FI-'
+'FI'.'NRG'.'CO2TargetAllSectors2030FI_'
+'FI1B1'.'NRG'.'CO2TargetAllSectors2030FI-'
+'FI1B1'.'NRG'.'CO2TargetAllSectors2030FI_'
+'FI1D9'.'NRG'.'CO2TargetAllSectors2030FI-'
+'FI1D9'.'NRG'.'CO2TargetAllSectors2030FI_'
+/;
+
+SET COM_UNIT
+
+/
+'FI'.'CO2TargetAllSectors2030FI-'.'UCU'
+'FI'.'CO2TargetAllSectors2030FI_'.'UCU'
+'FI1B1'.'CO2TargetAllSectors2030FI-'.'UCU'
+'FI1B1'.'CO2TargetAllSectors2030FI_'.'UCU'
+'FI1D9'.'CO2TargetAllSectors2030FI-'.'UCU'
+'FI1D9'.'CO2TargetAllSectors2030FI_'.'UCU'
+/;
+
+SET TOP_IRE
+
+/
+'IMPEXP'.'CO2TargetAllSectors2030FI-'.'FI'.'CO2TargetAllSectors2030FI-'.'IMPNRGZ'
+'IMPEXP'.'CO2TargetAllSectors2030FI-'.'FI1B1'.'CO2TargetAllSectors2030FI-'.'IMPNRGZ'
+'IMPEXP'.'CO2TargetAllSectors2030FI-'.'FI1D9'.'CO2TargetAllSectors2030FI-'.'IMPNRGZ'
+'IMPEXP'.'CO2TargetAllSectors2030FI_'.'FI'.'CO2TargetAllSectors2030FI_'.'IMPNRGZ'
+'IMPEXP'.'CO2TargetAllSectors2030FI_'.'FI1B1'.'CO2TargetAllSectors2030FI_'.'IMPNRGZ'
+'IMPEXP'.'CO2TargetAllSectors2030FI_'.'FI1D9'.'CO2TargetAllSectors2030FI_'.'IMPNRGZ'
+/;
+
+SET COM_DESC
+
+/
+'FI'.'CO2TargetAllSectors2030FI-' 'Negative dummy var for UC: CO2TargetAllSectors2030FI'
+'FI'.'CO2TargetAllSectors2030FI_' 'Positive dummy var for UC: CO2TargetAllSectors2030FI'
+'FI1B1'.'CO2TargetAllSectors2030FI-' 'Negative dummy var for UC: CO2TargetAllSectors2030FI'
+'FI1B1'.'CO2TargetAllSectors2030FI_' 'Positive dummy var for UC: CO2TargetAllSectors2030FI'
+'FI1D9'.'CO2TargetAllSectors2030FI-' 'Negative dummy var for UC: CO2TargetAllSectors2030FI'
+'FI1D9'.'CO2TargetAllSectors2030FI_' 'Positive dummy var for UC: CO2TargetAllSectors2030FI'
+/;
+
+SET UC_R_SUM
+
+/
+'FI'.'CO2TargetAllSectors2030FI'
+'FI1B1'.'CO2TargetAllSectors2030FI'
+'FI1D9'.'CO2TargetAllSectors2030FI'
+/;
+
+PARAMETER
+
+UC_COMNET ' '/
+'CO2TargetAllSectors2030FI'.LHS.'FI'.2010.'TOTCO2'.ANNUAL 1
+'CO2TargetAllSectors2030FI'.LHS.'FI1B1'.2010.'TOTCO2'.ANNUAL 1
+'CO2TargetAllSectors2030FI'.LHS.'FI1D9'.2010.'TOTCO2'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_IRE ' '/
+'CO2TargetAllSectors2030FI'.LHS.'FI'.2010.'IMPNRGZ'.'CO2TargetAllSectors2030FI-'.ANNUAL.IMP -1
+'CO2TargetAllSectors2030FI'.LHS.'FI'.2010.'IMPNRGZ'.'CO2TargetAllSectors2030FI_'.ANNUAL.IMP 1
+'CO2TargetAllSectors2030FI'.LHS.'FI1B1'.2010.'IMPNRGZ'.'CO2TargetAllSectors2030FI-'.ANNUAL.IMP -1
+'CO2TargetAllSectors2030FI'.LHS.'FI1B1'.2010.'IMPNRGZ'.'CO2TargetAllSectors2030FI_'.ANNUAL.IMP 1
+'CO2TargetAllSectors2030FI'.LHS.'FI1D9'.2010.'IMPNRGZ'.'CO2TargetAllSectors2030FI-'.ANNUAL.IMP -1
+'CO2TargetAllSectors2030FI'.LHS.'FI1D9'.2010.'IMPNRGZ'.'CO2TargetAllSectors2030FI_'.ANNUAL.IMP 1
+/;
+
+PARAMETER
+
+UC_RHSTS ' '/
+'CO2TargetAllSectors2030FI'.0.ANNUAL.UP 5
+'CO2TargetAllSectors2030FI'.2010.ANNUAL.UP 64081.0066496962
+'CO2TargetAllSectors2030FI'.2012.ANNUAL.UP 54240.04
+'CO2TargetAllSectors2030FI'.2016.ANNUAL.UP 46229
+'CO2TargetAllSectors2030FI'.2020.ANNUAL.UP 40967
+'CO2TargetAllSectors2030FI'.2023.ANNUAL.UP 31846.522
+'CO2TargetAllSectors2030FI'.2025.ANNUAL.UP 27627
+'CO2TargetAllSectors2030FI'.2029.ANNUAL.UP 27627
+'CO2TargetAllSectors2030FI'.2030.ANNUAL.UP 22765.7312
+'CO2TargetAllSectors2030FI'.2039.ANNUAL.UP 22765.7312
+'CO2TargetAllSectors2030FI'.2040.ANNUAL.UP 11382.8656
+'CO2TargetAllSectors2030FI'.2049.ANNUAL.UP 11382.8656
+'CO2TargetAllSectors2030FI'.2050.ANNUAL.UP 5691.4328
+'CO2TargetAllSectors2030FI'.2060.ANNUAL.UP 5691.4328
+/;
+
+

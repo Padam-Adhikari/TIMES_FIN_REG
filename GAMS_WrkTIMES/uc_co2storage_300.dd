@@ -1,0 +1,102 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'uc_co2storage_300'
+
+
+SET UNITS_COM
+
+/
+'UCU'
+/;
+
+SET COM_TMAP
+
+/
+'FI'.'NRG'.'CO2_Max_Stor_MS-'
+'FI'.'NRG'.'CO2_Max_Stor_MS_'
+'FI1B1'.'NRG'.'CO2_Max_Stor_MS-'
+'FI1B1'.'NRG'.'CO2_Max_Stor_MS_'
+'FI1D9'.'NRG'.'CO2_Max_Stor_MS-'
+'FI1D9'.'NRG'.'CO2_Max_Stor_MS_'
+/;
+
+SET COM_UNIT
+
+/
+'FI'.'CO2_Max_Stor_MS-'.'UCU'
+'FI'.'CO2_Max_Stor_MS_'.'UCU'
+'FI1B1'.'CO2_Max_Stor_MS-'.'UCU'
+'FI1B1'.'CO2_Max_Stor_MS_'.'UCU'
+'FI1D9'.'CO2_Max_Stor_MS-'.'UCU'
+'FI1D9'.'CO2_Max_Stor_MS_'.'UCU'
+/;
+
+SET TOP_IRE
+
+/
+'IMPEXP'.'CO2_Max_Stor_MS-'.'FI'.'CO2_Max_Stor_MS-'.'IMPNRGZ'
+'IMPEXP'.'CO2_Max_Stor_MS_'.'FI'.'CO2_Max_Stor_MS_'.'IMPNRGZ'
+/;
+
+SET COM_DESC
+
+/
+'FI'.'CO2_Max_Stor_MS-' 'Negative dummy var for UC: CO2_Max_Stor_MS'
+'FI'.'CO2_Max_Stor_MS_' 'Positive dummy var for UC: CO2_Max_Stor_MS'
+'FI1B1'.'CO2_Max_Stor_MS-' 'Negative dummy var for UC: CO2_Max_Stor_MS'
+'FI1B1'.'CO2_Max_Stor_MS_' 'Positive dummy var for UC: CO2_Max_Stor_MS'
+'FI1D9'.'CO2_Max_Stor_MS-' 'Negative dummy var for UC: CO2_Max_Stor_MS'
+'FI1D9'.'CO2_Max_Stor_MS_' 'Positive dummy var for UC: CO2_Max_Stor_MS'
+/;
+
+SET UC_R_SUM
+
+/
+'FI'.'CO2_Max_Stor_MS'
+/;
+
+PARAMETER
+
+UC_ACT ' '/
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKAFF1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKAFF2'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKAFF3'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKAFF4'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKCB11'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKCB21'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKCB31'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDGF1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDGO1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDOF1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDOGF1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDOGO1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDOO1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDSAOF1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKDSAON1'.ANNUAL 1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'MINSNKEOR1'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_IRE ' '/
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'IMPNRGZ'.'CO2_Max_Stor_MS-'.ANNUAL.IMP -1
+'CO2_Max_Stor_MS'.LHS.'FI'.2010.'IMPNRGZ'.'CO2_Max_Stor_MS_'.ANNUAL.IMP 1
+/;
+
+PARAMETER
+
+UC_RHSTS ' '/
+'CO2_Max_Stor_MS'.0.ANNUAL.UP 5
+'CO2_Max_Stor_MS'.2010.ANNUAL.UP 0
+'CO2_Max_Stor_MS'.2035.ANNUAL.UP 0
+'CO2_Max_Stor_MS'.2040.ANNUAL.UP 15000
+'CO2_Max_Stor_MS'.2045.ANNUAL.UP 20000
+'CO2_Max_Stor_MS'.2050.ANNUAL.UP 40000
+'CO2_Max_Stor_MS'.2060.ANNUAL.UP 40000
+'CO2_Max_Stor_MS'.2075.ANNUAL.UP 40000
+'CO2_Max_Stor_MS'.2100.ANNUAL.UP 40000
+/;
+
+

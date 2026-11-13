@@ -1,0 +1,298 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'power_from_jrc-idees-2015'
+
+
+PARAMETER
+
+ACT_EFF ' '/
+'FI'.2010.'ECHP_biomass_thermal'.'ACT'.ANNUAL 0.329553870731241
+'FI'.2010.'ECHP_coal_thermal'.'ACT'.ANNUAL 0.29060306102818
+'FI'.2010.'ECHP_HFO_thermal'.'ACT'.ANNUAL 0.370691416347462
+'FI'.2010.'ECHP_LFO_thermal'.'ACT'.ANNUAL 0.252783457483447
+'FI'.2010.'ECHP_lignite_thermal'.'ACT'.ANNUAL 0.237573800143682
+'FI'.2010.'ECHP_naturalgas_CCGT'.'ACT'.ANNUAL 0.393529814250756
+'FI'.2010.'ECHP_naturalgas_OCGT'.'ACT'.ANNUAL 0.393529814250756
+'FI'.2010.'ECHP_naturalgas_thermal'.'ACT'.ANNUAL 0.393529814250756
+'FI'.2010.'EEPP_biomass_CCGT'.'ACT'.ANNUAL 0.336938586806418
+'FI'.2010.'EEPP_biomass_thermal'.'ACT'.ANNUAL 0.336938586806418
+'FI'.2010.'EEPP_coal_CCGT'.'ACT'.ANNUAL 0.407001119538094
+'FI'.2010.'EEPP_coal_thermal'.'ACT'.ANNUAL 0.407001119538094
+'FI'.2010.'EEPP_HFO_thermal'.'ACT'.ANNUAL 0.351988119234936
+'FI'.2010.'EEPP_LFO_thermal'.'ACT'.ANNUAL 0.278599913424814
+'FI'.2010.'EEPP_lignite_thermal'.'ACT'.ANNUAL 0.374623452133855
+'FI'.2010.'EEPP_naturalgas_CCGT'.'ACT'.ANNUAL 0.406692660015572
+'FI'.2010.'EEPP_naturalgas_OCGT'.'ACT'.ANNUAL 0.406692660015572
+'FI'.2010.'EEPP_naturalgas_thermal'.'ACT'.ANNUAL 0.406692660015572
+/;
+
+PARAMETER
+
+NCAP_AFA ' '/
+'FI'.0.'ECHP_coal_thermal'.FX 1
+'FI'.0.'ECHP_HFO_thermal'.FX 1
+'FI'.0.'ECHP_LFO_thermal'.FX 1
+'FI'.0.'ECHP_lignite_thermal'.FX 1
+'FI'.0.'EEPP_coal_CCGT'.FX 1
+'FI'.0.'EEPP_coal_thermal'.FX 1
+'FI'.0.'EEPP_HFO_thermal'.FX 1
+'FI'.0.'EEPP_LFO_thermal'.FX 1
+'FI'.0.'EEPP_lignite_thermal'.FX 1
+'FI'.0.'ENFI_LOVIISA-1_00'.UP 3
+'FI'.0.'ENFI_LOVIISA-2_00'.UP 3
+'FI'.0.'ENFI_OLKILUOTO-1_00'.UP 3
+'FI'.0.'ENFI_OLKILUOTO-2_00'.UP 3
+'FI'.0.'EUHYDDAM00'.UP 3
+'FI'.0.'EUHYDRUN00'.UP 3
+'FI'.2010.'ECHP_biomass_thermal'.FX 0.569624057297306
+'FI'.2010.'ECHP_coal_thermal'.FX 0.4
+'FI'.2010.'ECHP_HFO_thermal'.FX 0.257336122829771
+'FI'.2010.'ECHP_LFO_thermal'.FX 0.016036974565286
+'FI'.2010.'ECHP_lignite_thermal'.FX 0.488217468707243
+'FI'.2010.'ECHP_naturalgas_CCGT'.FX 0.588975184107375
+'FI'.2010.'ECHP_naturalgas_OCGT'.FX 0.588975184107375
+'FI'.2010.'ECHP_naturalgas_thermal'.FX 0.588975184107375
+'FI'.2010.'EEPP_biomass_CCGT'.FX 0.9
+'FI'.2010.'EEPP_biomass_thermal'.FX 0.9
+'FI'.2010.'EEPP_coal_CCGT'.FX 0.567113477699171
+'FI'.2010.'EEPP_coal_thermal'.FX 0.567113477699171
+'FI'.2010.'EEPP_HFO_thermal'.FX 0.271544242948567
+'FI'.2010.'EEPP_LFO_thermal'.FX 0.00462039180740509
+'FI'.2010.'EEPP_lignite_thermal'.FX 0.56070147807377
+'FI'.2010.'EEPP_naturalgas_CCGT'.FX 0.0792585147622768
+'FI'.2010.'EEPP_naturalgas_OCGT'.FX 0.0792585147622768
+'FI'.2010.'EEPP_naturalgas_thermal'.FX 0.0792585147622768
+'FI'.2010.'ENFI_LOVIISA-1_00'.UP 0.92739533755891
+'FI'.2010.'ENFI_LOVIISA-2_00'.UP 0.92739533755891
+'FI'.2010.'ENFI_OLKILUOTO-1_00'.UP 0.92739533755891
+'FI'.2010.'ENFI_OLKILUOTO-2_00'.UP 0.92739533755891
+'FI'.2010.'EUHYDDAM00'.UP 0.55
+'FI'.2010.'EUHYDRUN00'.UP 0.55
+'FI'.2015.'ECHP_coal_thermal'.FX 0.285
+'FI'.2015.'ECHP_HFO_thermal'.FX 0.15
+'FI'.2015.'ECHP_LFO_thermal'.FX 0.1
+'FI'.2015.'ECHP_lignite_thermal'.FX 0.2
+'FI'.2015.'EEPP_coal_CCGT'.FX 0.005
+'FI'.2015.'EEPP_coal_thermal'.FX 0.005
+'FI'.2015.'EEPP_HFO_thermal'.FX 0.07
+'FI'.2015.'EEPP_LFO_thermal'.FX 0
+'FI'.2015.'EEPP_lignite_thermal'.FX 0.001
+/;
+
+PARAMETER
+
+NCAP_CHPR ' '/
+'FI'.2010.'ECHP_biomass_thermal'.FX 1.31810574053058
+'FI'.2010.'ECHP_coal_thermal'.FX 1.78492891168537
+'FI'.2010.'ECHP_HFO_thermal'.FX 1.12860914214127
+'FI'.2010.'ECHP_LFO_thermal'.FX 2.22731721603784
+'FI'.2010.'ECHP_lignite_thermal'.FX 2.07804007803925
+'FI'.2010.'ECHP_naturalgas_CCGT'.FX 1.12352182806061
+'FI'.2010.'ECHP_naturalgas_OCGT'.FX 1.12352182806061
+'FI'.2010.'ECHP_naturalgas_thermal'.FX 1.12352182806061
+/;
+
+PARAMETER
+
+NCAP_PASTI ' '/
+'FI'.0.'ECHP_biomass_thermal' 1
+'FI'.0.'ECHP_coal_thermal' 1
+'FI'.0.'ECHP_HFO_thermal' 1
+'FI'.0.'ECHP_LFO_thermal' 1
+'FI'.0.'ECHP_lignite_thermal' 1
+'FI'.0.'ECHP_naturalgas_CCGT' 1
+'FI'.0.'ECHP_naturalgas_OCGT' 1
+'FI'.0.'ECHP_naturalgas_thermal' 1
+'FI'.0.'EEPP_biomass_CCGT' 1
+'FI'.0.'EEPP_biomass_thermal' 1
+'FI'.0.'EEPP_coal_CCGT' 1
+'FI'.0.'EEPP_coal_thermal' 1
+'FI'.0.'EEPP_CSP' 1
+'FI'.0.'EEPP_geothermal' 1
+'FI'.0.'EEPP_HFO_thermal' 1
+'FI'.0.'EEPP_LFO_thermal' 1
+'FI'.0.'EEPP_lignite_thermal' 1
+'FI'.0.'EEPP_naturalgas_CCGT' 1
+'FI'.0.'EEPP_naturalgas_OCGT' 1
+'FI'.0.'EEPP_naturalgas_thermal' 1
+'FI'.0.'EEPP_OCE' 1
+'FI'.0.'EEPP_PV' 1
+'FI'.0.'EEPP_windOFF' 1
+'FI'.0.'EEPP_windON' 1
+'FI'.1970.'ECHP_naturalgas_CCGT' 0.3490035
+'FI'.1970.'ECHP_naturalgas_OCGT' 0.13195575
+'FI'.1970.'ECHP_naturalgas_thermal' 0.0776
+'FI'.1970.'EEPP_naturalgas_CCGT' 0.038625
+'FI'.1970.'EEPP_naturalgas_OCGT' 0.0094
+'FI'.1970.'EEPP_naturalgas_thermal' 0.09583125
+'FI'.1980.'ECHP_naturalgas_CCGT' 0.3490035
+'FI'.1980.'ECHP_naturalgas_OCGT' 0.13195575
+'FI'.1980.'ECHP_naturalgas_thermal' 0.0776
+'FI'.1980.'EEPP_naturalgas_CCGT' 0.038625
+'FI'.1980.'EEPP_naturalgas_OCGT' 0.0094
+'FI'.1980.'EEPP_naturalgas_thermal' 0.09583125
+'FI'.1990.'ECHP_naturalgas_CCGT' 0.3490035
+'FI'.1990.'ECHP_naturalgas_OCGT' 0.13195575
+'FI'.1990.'ECHP_naturalgas_thermal' 0.0776
+'FI'.1990.'EEPP_naturalgas_CCGT' 0.038625
+'FI'.1990.'EEPP_naturalgas_OCGT' 0.0094
+'FI'.1990.'EEPP_naturalgas_thermal' 0.09583125
+'FI'.2000.'ECHP_biomass_thermal' 1.55966
+'FI'.2000.'ECHP_naturalgas_CCGT' 0.3490035
+'FI'.2000.'ECHP_naturalgas_OCGT' 0.13195575
+'FI'.2000.'ECHP_naturalgas_thermal' 0.0776
+'FI'.2000.'EEPP_biomass_thermal' 0.0065
+'FI'.2000.'EEPP_naturalgas_CCGT' 0.038625
+'FI'.2000.'EEPP_naturalgas_OCGT' 0.0094
+'FI'.2000.'EEPP_naturalgas_thermal' 0.09583125
+'FI'.2010.'ECHP_biomass_thermal' 0.1606
+'FI'.2010.'ECHP_coal_thermal' 1.448
+'FI'.2010.'ECHP_HFO_thermal' 0.29
+'FI'.2010.'ECHP_LFO_thermal' 0.04
+'FI'.2010.'ECHP_lignite_thermal' 0.943
+'FI'.2010.'ECHP_naturalgas_OCGT' 0.000215
+'FI'.2010.'EEPP_biomass_thermal' 0.2669
+'FI'.2010.'EEPP_coal_thermal' 2.112
+'FI'.2010.'EEPP_HFO_thermal' 0.25
+'FI'.2010.'EEPP_LFO_thermal' 0.572
+'FI'.2010.'EEPP_lignite_thermal' 0.481
+'FI'.2010.'EEPP_windOFF' 0.026
+'FI'.2015.'ECHP_biomass_thermal' 0.2822
+'FI'.2015.'ECHP_naturalgas_CCGT' 0.225
+'FI'.2015.'ECHP_naturalgas_thermal' 0.12
+'FI'.2015.'EEPP_biomass_thermal' 0.0729
+'FI'.2015.'EEPP_naturalgas_thermal' 0.02
+'FI'.2015.'EEPP_PV' 0.0571428571428571
+'FI'.2015.'EEPP_windOFF' 0.003
+'FI'.2015.'EEPP_windON' 0.457142857142857
+'FI'.2016.'EEPP_PV' 0.0571428571428571
+'FI'.2016.'EEPP_windON' 0.457142857142857
+'FI'.2017.'EEPP_PV' 0.0571428571428571
+'FI'.2017.'EEPP_windON' 0.457142857142857
+'FI'.2018.'EEPP_PV' 0.0571428571428571
+'FI'.2018.'EEPP_windOFF' 0.1101
+'FI'.2018.'EEPP_windON' 0.457142857142857
+'FI'.2019.'EEPP_PV' 0.0571428571428571
+'FI'.2019.'EEPP_windON' 0.457142857142857
+'FI'.2020.'EEPP_biomass_thermal' 0.014
+'FI'.2020.'EEPP_PV' 0.0571428571428571
+'FI'.2020.'EEPP_windON' 0.457142857142857
+'FI'.2021.'EEPP_PV' 0.0571428571428571
+'FI'.2021.'EEPP_windON' 0.457142857142857
+'FI'.2022.'EEPP_PV' 0.266666666666667
+'FI'.2022.'EEPP_windON' 1.76666666666667
+'FI'.2023.'ECHP_coal_thermal' 1.4
+'FI'.2023.'EEPP_PV' 0.266666666666667
+'FI'.2023.'EEPP_windON' 1.76666666666667
+'FI'.2024.'EEPP_PV' 0.266666666666667
+'FI'.2024.'EEPP_windON' 1.76666666666667
+/;
+
+PARAMETER
+
+RCAP_BND ' '/
+'FI'.0.'ECHP_biomass_thermal'.FX 1
+'FI'.0.'ECHP_biomass_thermal'.LO 1
+'FI'.0.'ECHP_coal_thermal'.FX 1
+'FI'.0.'ECHP_coal_thermal'.LO 1
+'FI'.0.'ECHP_HFO_thermal'.FX 1
+'FI'.0.'ECHP_HFO_thermal'.LO 1
+'FI'.0.'ECHP_LFO_thermal'.FX 1
+'FI'.0.'ECHP_LFO_thermal'.LO 1
+'FI'.0.'ECHP_lignite_thermal'.FX 1
+'FI'.0.'ECHP_lignite_thermal'.LO 1
+'FI'.0.'ECHP_naturalgas_CCGT'.FX 1
+'FI'.0.'ECHP_naturalgas_CCGT'.LO 1
+'FI'.0.'ECHP_naturalgas_OCGT'.FX 1
+'FI'.0.'ECHP_naturalgas_OCGT'.LO 1
+'FI'.0.'ECHP_naturalgas_thermal'.FX 1
+'FI'.0.'ECHP_naturalgas_thermal'.LO 1
+'FI'.0.'ECHP_PV'.FX 1
+'FI'.0.'ECHP_PV'.LO 1
+'FI'.0.'EEPP_biomass_CCGT'.FX 1
+'FI'.0.'EEPP_biomass_CCGT'.LO 1
+'FI'.0.'EEPP_biomass_thermal'.FX 1
+'FI'.0.'EEPP_biomass_thermal'.LO 1
+'FI'.0.'EEPP_coal_CCGT'.FX 1
+'FI'.0.'EEPP_coal_CCGT'.LO 1
+'FI'.0.'EEPP_coal_thermal'.FX 1
+'FI'.0.'EEPP_coal_thermal'.LO 1
+'FI'.0.'EEPP_CSP'.FX 1
+'FI'.0.'EEPP_CSP'.LO 1
+'FI'.0.'EEPP_geothermal'.FX 1
+'FI'.0.'EEPP_geothermal'.LO 1
+'FI'.0.'EEPP_HFO_thermal'.FX 1
+'FI'.0.'EEPP_HFO_thermal'.LO 1
+'FI'.0.'EEPP_LFO_thermal'.FX 1
+'FI'.0.'EEPP_LFO_thermal'.LO 1
+'FI'.0.'EEPP_lignite_thermal'.FX 1
+'FI'.0.'EEPP_lignite_thermal'.LO 1
+'FI'.0.'EEPP_naturalgas_CCGT'.FX 1
+'FI'.0.'EEPP_naturalgas_CCGT'.LO 1
+'FI'.0.'EEPP_naturalgas_OCGT'.FX 1
+'FI'.0.'EEPP_naturalgas_OCGT'.LO 1
+'FI'.0.'EEPP_naturalgas_thermal'.FX 1
+'FI'.0.'EEPP_naturalgas_thermal'.LO 1
+'FI'.0.'EEPP_OCE'.FX 1
+'FI'.0.'EEPP_OCE'.LO 1
+'FI'.0.'EEPP_PV'.FX 1
+'FI'.0.'EEPP_PV'.LO 1
+'FI'.0.'EEPP_windOFF'.FX 1
+'FI'.0.'EEPP_windOFF'.LO 1
+'FI'.0.'EEPP_windON'.FX 1
+'FI'.0.'EEPP_windON'.LO 1
+'FI'.2000.'ECHP_biomass_thermal'.FX 0
+'FI'.2000.'ECHP_coal_thermal'.LO 0
+'FI'.2000.'ECHP_HFO_thermal'.LO 0
+'FI'.2000.'ECHP_LFO_thermal'.LO 0
+'FI'.2000.'ECHP_lignite_thermal'.LO 0
+'FI'.2000.'ECHP_naturalgas_CCGT'.LO 0
+'FI'.2000.'ECHP_naturalgas_OCGT'.LO 0
+'FI'.2000.'ECHP_naturalgas_thermal'.LO 0
+'FI'.2000.'ECHP_PV'.FX 0
+'FI'.2000.'EEPP_biomass_CCGT'.FX 0
+'FI'.2000.'EEPP_biomass_thermal'.FX 0
+'FI'.2000.'EEPP_coal_CCGT'.LO 0
+'FI'.2000.'EEPP_coal_thermal'.LO 0
+'FI'.2000.'EEPP_CSP'.FX 0
+'FI'.2000.'EEPP_geothermal'.LO 0
+'FI'.2000.'EEPP_HFO_thermal'.LO 0
+'FI'.2000.'EEPP_LFO_thermal'.LO 0
+'FI'.2000.'EEPP_lignite_thermal'.LO 0
+'FI'.2000.'EEPP_naturalgas_CCGT'.LO 0
+'FI'.2000.'EEPP_naturalgas_OCGT'.LO 0
+'FI'.2000.'EEPP_naturalgas_thermal'.LO 0
+'FI'.2000.'EEPP_OCE'.LO 0
+'FI'.2000.'EEPP_PV'.FX 0
+'FI'.2000.'EEPP_windOFF'.FX 0
+'FI'.2000.'EEPP_windON'.FX 0
+'FI'.2020.'ECHP_HFO_thermal'.LO 0
+'FI'.2020.'ECHP_LFO_thermal'.LO 0
+'FI'.2020.'ECHP_naturalgas_CCGT'.LO 0
+'FI'.2020.'ECHP_naturalgas_OCGT'.LO 0
+'FI'.2020.'ECHP_naturalgas_thermal'.LO 0
+'FI'.2020.'EEPP_geothermal'.LO 0
+'FI'.2020.'EEPP_HFO_thermal'.LO 0
+'FI'.2020.'EEPP_LFO_thermal'.LO 0
+'FI'.2020.'EEPP_naturalgas_CCGT'.LO 0
+'FI'.2020.'EEPP_naturalgas_OCGT'.LO 0
+'FI'.2020.'EEPP_naturalgas_thermal'.LO 0
+'FI'.2020.'EEPP_OCE'.LO 0
+'FI'.2030.'ECHP_biomass_thermal'.FX 0
+'FI'.2030.'ECHP_coal_thermal'.LO 0
+'FI'.2030.'ECHP_lignite_thermal'.LO 0
+'FI'.2030.'ECHP_PV'.FX 0
+'FI'.2030.'EEPP_biomass_CCGT'.FX 0
+'FI'.2030.'EEPP_biomass_thermal'.FX 0
+'FI'.2030.'EEPP_coal_CCGT'.LO 0
+'FI'.2030.'EEPP_coal_thermal'.LO 0
+'FI'.2030.'EEPP_CSP'.FX 0
+'FI'.2030.'EEPP_lignite_thermal'.LO 0
+'FI'.2030.'EEPP_PV'.FX 0
+'FI'.2030.'EEPP_windOFF'.FX 0
+'FI'.2030.'EEPP_windON'.FX 0
+/;
+
+

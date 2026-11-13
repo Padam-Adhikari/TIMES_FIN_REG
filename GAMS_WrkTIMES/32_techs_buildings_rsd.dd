@@ -1,0 +1,1648 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME '32_techs_buildings_rsd'
+
+
+SET UNITS_CAP
+
+/
+'000DWELLINGS'
+'000UNITS'
+/;
+
+SET UNITS_ACT
+
+/
+'000UNITS'
+'PJ'
+/;
+
+SET COM_GMAP
+
+/
+'FI'.'DETPre09-MG1_NRGI'.'Bldg_DETPre09-Win'
+'FI'.'DETPre09-MG2_NRGI'.'Bldg_DETPre09-Win'
+'FI'.'DETPre09-MG3_NRGI'.'Bldg_DETPre09-Win'
+'FI'.'DETPre09-MR2_NRGI'.'Bldg_DETPre09-Cei'
+'FI'.'DETPre09-MR3_NRGI'.'Bldg_DETPre09-Cei'
+'FI'.'DETPre09-MW2_NRGI'.'Bldg_DETPre09-Wal'
+'FI'.'DETPre09-MW3_NRGI'.'Bldg_DETPre09-Wal'
+'FI'.'DETPre45-MG1_NRGI'.'Bldg_DETPre45-Win'
+'FI'.'DETPre45-MG2_NRGI'.'Bldg_DETPre45-Win'
+'FI'.'DETPre45-MG3_NRGI'.'Bldg_DETPre45-Win'
+'FI'.'DETPre45-MR2_NRGI'.'Bldg_DETPre45-Cei'
+'FI'.'DETPre45-MR3_NRGI'.'Bldg_DETPre45-Cei'
+'FI'.'DETPre45-MW2_NRGI'.'Bldg_DETPre45-Wal'
+'FI'.'DETPre45-MW3_NRGI'.'Bldg_DETPre45-Wal'
+'FI'.'DETPre69-MG1_NRGI'.'Bldg_DETPre69-Win'
+'FI'.'DETPre69-MG2_NRGI'.'Bldg_DETPre69-Win'
+'FI'.'DETPre69-MG3_NRGI'.'Bldg_DETPre69-Win'
+'FI'.'DETPre69-MR2_NRGI'.'Bldg_DETPre69-Cei'
+'FI'.'DETPre69-MR3_NRGI'.'Bldg_DETPre69-Cei'
+'FI'.'DETPre69-MW2_NRGI'.'Bldg_DETPre69-Wal'
+'FI'.'DETPre69-MW3_NRGI'.'Bldg_DETPre69-Wal'
+'FI'.'DETPre79-MG1_NRGI'.'Bldg_DETPre79-Win'
+'FI'.'DETPre79-MG2_NRGI'.'Bldg_DETPre79-Win'
+'FI'.'DETPre79-MG3_NRGI'.'Bldg_DETPre79-Win'
+'FI'.'DETPre79-MR2_NRGI'.'Bldg_DETPre79-Cei'
+'FI'.'DETPre79-MR3_NRGI'.'Bldg_DETPre79-Cei'
+'FI'.'DETPre79-MW2_NRGI'.'Bldg_DETPre79-Wal'
+'FI'.'DETPre79-MW3_NRGI'.'Bldg_DETPre79-Wal'
+'FI'.'DETPre89-MG1_NRGI'.'Bldg_DETPre89-Win'
+'FI'.'DETPre89-MG2_NRGI'.'Bldg_DETPre89-Win'
+'FI'.'DETPre89-MG3_NRGI'.'Bldg_DETPre89-Win'
+'FI'.'DETPre89-MR2_NRGI'.'Bldg_DETPre89-Cei'
+'FI'.'DETPre89-MR3_NRGI'.'Bldg_DETPre89-Cei'
+'FI'.'DETPre89-MW2_NRGI'.'Bldg_DETPre89-Wal'
+'FI'.'DETPre89-MW3_NRGI'.'Bldg_DETPre89-Wal'
+'FI'.'DETPre99-MG1_NRGI'.'Bldg_DETPre99-Win'
+'FI'.'DETPre99-MG2_NRGI'.'Bldg_DETPre99-Win'
+'FI'.'DETPre99-MG3_NRGI'.'Bldg_DETPre99-Win'
+'FI'.'DETPre99-MR2_NRGI'.'Bldg_DETPre99-Cei'
+'FI'.'DETPre99-MR3_NRGI'.'Bldg_DETPre99-Cei'
+'FI'.'DETPre99-MW2_NRGI'.'Bldg_DETPre99-Wal'
+'FI'.'DETPre99-MW3_NRGI'.'Bldg_DETPre99-Wal'
+'FI'.'FLTPre09-MG1_NRGI'.'Bldg_FLTPre09-Win'
+'FI'.'FLTPre09-MG2_NRGI'.'Bldg_FLTPre09-Win'
+'FI'.'FLTPre09-MG3_NRGI'.'Bldg_FLTPre09-Win'
+'FI'.'FLTPre09-MR2_NRGI'.'Bldg_FLTPre09-Cei'
+'FI'.'FLTPre09-MR3_NRGI'.'Bldg_FLTPre09-Cei'
+'FI'.'FLTPre09-MW2_NRGI'.'Bldg_FLTPre09-Wal'
+'FI'.'FLTPre09-MW3_NRGI'.'Bldg_FLTPre09-Wal'
+'FI'.'FLTPre45-MG1_NRGI'.'Bldg_FLTPre45-Win'
+'FI'.'FLTPre45-MG2_NRGI'.'Bldg_FLTPre45-Win'
+'FI'.'FLTPre45-MG3_NRGI'.'Bldg_FLTPre45-Win'
+'FI'.'FLTPre45-MR2_NRGI'.'Bldg_FLTPre45-Cei'
+'FI'.'FLTPre45-MR3_NRGI'.'Bldg_FLTPre45-Cei'
+'FI'.'FLTPre45-MW2_NRGI'.'Bldg_FLTPre45-Wal'
+'FI'.'FLTPre45-MW3_NRGI'.'Bldg_FLTPre45-Wal'
+'FI'.'FLTPre69-MG1_NRGI'.'Bldg_FLTPre69-Win'
+'FI'.'FLTPre69-MG2_NRGI'.'Bldg_FLTPre69-Win'
+'FI'.'FLTPre69-MG3_NRGI'.'Bldg_FLTPre69-Win'
+'FI'.'FLTPre69-MR2_NRGI'.'Bldg_FLTPre69-Cei'
+'FI'.'FLTPre69-MR3_NRGI'.'Bldg_FLTPre69-Cei'
+'FI'.'FLTPre69-MW2_NRGI'.'Bldg_FLTPre69-Wal'
+'FI'.'FLTPre69-MW3_NRGI'.'Bldg_FLTPre69-Wal'
+'FI'.'FLTPre79-MG1_NRGI'.'Bldg_FLTPre79-Win'
+'FI'.'FLTPre79-MG2_NRGI'.'Bldg_FLTPre79-Win'
+'FI'.'FLTPre79-MG3_NRGI'.'Bldg_FLTPre79-Win'
+'FI'.'FLTPre79-MR2_NRGI'.'Bldg_FLTPre79-Cei'
+'FI'.'FLTPre79-MR3_NRGI'.'Bldg_FLTPre79-Cei'
+'FI'.'FLTPre79-MW2_NRGI'.'Bldg_FLTPre79-Wal'
+'FI'.'FLTPre79-MW3_NRGI'.'Bldg_FLTPre79-Wal'
+'FI'.'FLTPre89-MG1_NRGI'.'Bldg_FLTPre89-Win'
+'FI'.'FLTPre89-MG2_NRGI'.'Bldg_FLTPre89-Win'
+'FI'.'FLTPre89-MG3_NRGI'.'Bldg_FLTPre89-Win'
+'FI'.'FLTPre89-MR2_NRGI'.'Bldg_FLTPre89-Cei'
+'FI'.'FLTPre89-MR3_NRGI'.'Bldg_FLTPre89-Cei'
+'FI'.'FLTPre89-MW2_NRGI'.'Bldg_FLTPre89-Wal'
+'FI'.'FLTPre89-MW3_NRGI'.'Bldg_FLTPre89-Wal'
+'FI'.'FLTPre99-MG1_NRGI'.'Bldg_FLTPre99-Win'
+'FI'.'FLTPre99-MG2_NRGI'.'Bldg_FLTPre99-Win'
+'FI'.'FLTPre99-MG3_NRGI'.'Bldg_FLTPre99-Win'
+'FI'.'FLTPre99-MR2_NRGI'.'Bldg_FLTPre99-Cei'
+'FI'.'FLTPre99-MR3_NRGI'.'Bldg_FLTPre99-Cei'
+'FI'.'FLTPre99-MW2_NRGI'.'Bldg_FLTPre99-Wal'
+'FI'.'FLTPre99-MW3_NRGI'.'Bldg_FLTPre99-Wal'
+'FI'.'Rdw_DetH-New_NRGI'.'R_ES-DH-Cook'
+'FI'.'Rdw_DetH-New_NRGI'.'R_ES-DH-SpCool'
+'FI'.'Rdw_DetH-New_NRGI'.'R_ES-DH-SpHeat-I'
+'FI'.'Rdw_DetH-New_NRGI'.'R_ES-DH-WatHeat'
+'FI'.'Rdw_Flat-New_NRGI'.'R_ES-FL-Cook'
+'FI'.'Rdw_Flat-New_NRGI'.'R_ES-FL-SpCool'
+'FI'.'Rdw_Flat-New_NRGI'.'R_ES-FL-SpHeat-I'
+'FI'.'Rdw_Flat-New_NRGI'.'R_ES-FL-WatHeat'
+'FI'.'Rdw_SDetH-New_NRGI'.'R_ES-SD-Cook'
+'FI'.'Rdw_SDetH-New_NRGI'.'R_ES-SD-SpCool'
+'FI'.'Rdw_SDetH-New_NRGI'.'R_ES-SD-SpHeat-I'
+'FI'.'Rdw_SDetH-New_NRGI'.'R_ES-SD-WatHeat'
+'FI'.'SDEPre09-MG1_NRGI'.'Bldg_SDEPre09-Win'
+'FI'.'SDEPre09-MG2_NRGI'.'Bldg_SDEPre09-Win'
+'FI'.'SDEPre09-MG3_NRGI'.'Bldg_SDEPre09-Win'
+'FI'.'SDEPre09-MR2_NRGI'.'Bldg_SDEPre09-Cei'
+'FI'.'SDEPre09-MR3_NRGI'.'Bldg_SDEPre09-Cei'
+'FI'.'SDEPre09-MW2_NRGI'.'Bldg_SDEPre09-Wal'
+'FI'.'SDEPre09-MW3_NRGI'.'Bldg_SDEPre09-Wal'
+'FI'.'SDEPre45-MG1_NRGI'.'Bldg_SDEPre45-Win'
+'FI'.'SDEPre45-MG2_NRGI'.'Bldg_SDEPre45-Win'
+'FI'.'SDEPre45-MG3_NRGI'.'Bldg_SDEPre45-Win'
+'FI'.'SDEPre45-MR2_NRGI'.'Bldg_SDEPre45-Cei'
+'FI'.'SDEPre45-MR3_NRGI'.'Bldg_SDEPre45-Cei'
+'FI'.'SDEPre45-MW2_NRGI'.'Bldg_SDEPre45-Wal'
+'FI'.'SDEPre45-MW3_NRGI'.'Bldg_SDEPre45-Wal'
+'FI'.'SDEPre69-MG1_NRGI'.'Bldg_SDEPre69-Win'
+'FI'.'SDEPre69-MG2_NRGI'.'Bldg_SDEPre69-Win'
+'FI'.'SDEPre69-MG3_NRGI'.'Bldg_SDEPre69-Win'
+'FI'.'SDEPre69-MR2_NRGI'.'Bldg_SDEPre69-Cei'
+'FI'.'SDEPre69-MR3_NRGI'.'Bldg_SDEPre69-Cei'
+'FI'.'SDEPre69-MW2_NRGI'.'Bldg_SDEPre69-Wal'
+'FI'.'SDEPre69-MW3_NRGI'.'Bldg_SDEPre69-Wal'
+'FI'.'SDEPre79-MG1_NRGI'.'Bldg_SDEPre79-Win'
+'FI'.'SDEPre79-MG2_NRGI'.'Bldg_SDEPre79-Win'
+'FI'.'SDEPre79-MG3_NRGI'.'Bldg_SDEPre79-Win'
+'FI'.'SDEPre79-MR2_NRGI'.'Bldg_SDEPre79-Cei'
+'FI'.'SDEPre79-MR3_NRGI'.'Bldg_SDEPre79-Cei'
+'FI'.'SDEPre79-MW2_NRGI'.'Bldg_SDEPre79-Wal'
+'FI'.'SDEPre79-MW3_NRGI'.'Bldg_SDEPre79-Wal'
+'FI'.'SDEPre89-MG1_NRGI'.'Bldg_SDEPre89-Win'
+'FI'.'SDEPre89-MG2_NRGI'.'Bldg_SDEPre89-Win'
+'FI'.'SDEPre89-MG3_NRGI'.'Bldg_SDEPre89-Win'
+'FI'.'SDEPre89-MR2_NRGI'.'Bldg_SDEPre89-Cei'
+'FI'.'SDEPre89-MR3_NRGI'.'Bldg_SDEPre89-Cei'
+'FI'.'SDEPre89-MW2_NRGI'.'Bldg_SDEPre89-Wal'
+'FI'.'SDEPre89-MW3_NRGI'.'Bldg_SDEPre89-Wal'
+'FI'.'SDEPre99-MG1_NRGI'.'Bldg_SDEPre99-Win'
+'FI'.'SDEPre99-MG2_NRGI'.'Bldg_SDEPre99-Win'
+'FI'.'SDEPre99-MG3_NRGI'.'Bldg_SDEPre99-Win'
+'FI'.'SDEPre99-MR2_NRGI'.'Bldg_SDEPre99-Cei'
+'FI'.'SDEPre99-MR3_NRGI'.'Bldg_SDEPre99-Cei'
+'FI'.'SDEPre99-MW2_NRGI'.'Bldg_SDEPre99-Wal'
+'FI'.'SDEPre99-MW3_NRGI'.'Bldg_SDEPre99-Wal'
+/;
+
+SET PRC
+
+/
+'DETPre09-MG1'
+'DETPre09-MG2'
+'DETPre09-MG3'
+'DETPre09-MR2'
+'DETPre09-MR3'
+'DETPre09-MW2'
+'DETPre09-MW3'
+'DETPre45-MG1'
+'DETPre45-MG2'
+'DETPre45-MG3'
+'DETPre45-MR2'
+'DETPre45-MR3'
+'DETPre45-MW2'
+'DETPre45-MW3'
+'DETPre69-MG1'
+'DETPre69-MG2'
+'DETPre69-MG3'
+'DETPre69-MR2'
+'DETPre69-MR3'
+'DETPre69-MW2'
+'DETPre69-MW3'
+'DETPre79-MG1'
+'DETPre79-MG2'
+'DETPre79-MG3'
+'DETPre79-MR2'
+'DETPre79-MR3'
+'DETPre79-MW2'
+'DETPre79-MW3'
+'DETPre89-MG1'
+'DETPre89-MG2'
+'DETPre89-MG3'
+'DETPre89-MR2'
+'DETPre89-MR3'
+'DETPre89-MW2'
+'DETPre89-MW3'
+'DETPre99-MG1'
+'DETPre99-MG2'
+'DETPre99-MG3'
+'DETPre99-MR2'
+'DETPre99-MR3'
+'DETPre99-MW2'
+'DETPre99-MW3'
+'FLTPre09-MG1'
+'FLTPre09-MG2'
+'FLTPre09-MG3'
+'FLTPre09-MR2'
+'FLTPre09-MR3'
+'FLTPre09-MW2'
+'FLTPre09-MW3'
+'FLTPre45-MG1'
+'FLTPre45-MG2'
+'FLTPre45-MG3'
+'FLTPre45-MR2'
+'FLTPre45-MR3'
+'FLTPre45-MW2'
+'FLTPre45-MW3'
+'FLTPre69-MG1'
+'FLTPre69-MG2'
+'FLTPre69-MG3'
+'FLTPre69-MR2'
+'FLTPre69-MR3'
+'FLTPre69-MW2'
+'FLTPre69-MW3'
+'FLTPre79-MG1'
+'FLTPre79-MG2'
+'FLTPre79-MG3'
+'FLTPre79-MR2'
+'FLTPre79-MR3'
+'FLTPre79-MW2'
+'FLTPre79-MW3'
+'FLTPre89-MG1'
+'FLTPre89-MG2'
+'FLTPre89-MG3'
+'FLTPre89-MR2'
+'FLTPre89-MR3'
+'FLTPre89-MW2'
+'FLTPre89-MW3'
+'FLTPre99-MG1'
+'FLTPre99-MG2'
+'FLTPre99-MG3'
+'FLTPre99-MR2'
+'FLTPre99-MR3'
+'FLTPre99-MW2'
+'FLTPre99-MW3'
+'Rdw_DetH-New'
+'Rdw_Flat-New'
+'Rdw_SDetH-New'
+'SDEPre09-MG1'
+'SDEPre09-MG2'
+'SDEPre09-MG3'
+'SDEPre09-MR2'
+'SDEPre09-MR3'
+'SDEPre09-MW2'
+'SDEPre09-MW3'
+'SDEPre45-MG1'
+'SDEPre45-MG2'
+'SDEPre45-MG3'
+'SDEPre45-MR2'
+'SDEPre45-MR3'
+'SDEPre45-MW2'
+'SDEPre45-MW3'
+'SDEPre69-MG1'
+'SDEPre69-MG2'
+'SDEPre69-MG3'
+'SDEPre69-MR2'
+'SDEPre69-MR3'
+'SDEPre69-MW2'
+'SDEPre69-MW3'
+'SDEPre79-MG1'
+'SDEPre79-MG2'
+'SDEPre79-MG3'
+'SDEPre79-MR2'
+'SDEPre79-MR3'
+'SDEPre79-MW2'
+'SDEPre79-MW3'
+'SDEPre89-MG1'
+'SDEPre89-MG2'
+'SDEPre89-MG3'
+'SDEPre89-MR2'
+'SDEPre89-MR3'
+'SDEPre89-MW2'
+'SDEPre89-MW3'
+'SDEPre99-MG1'
+'SDEPre99-MG2'
+'SDEPre99-MG3'
+'SDEPre99-MR2'
+'SDEPre99-MR3'
+'SDEPre99-MW2'
+'SDEPre99-MW3'
+/;
+
+SET PRC_MAP
+
+/
+'FI'.'DMD'.'Rdw_DetH-New'
+'FI'.'DMD'.'Rdw_Flat-New'
+'FI'.'DMD'.'Rdw_SDetH-New'
+'FI'.'PRE'.'DETPre09-MG1'
+'FI'.'PRE'.'DETPre09-MG2'
+'FI'.'PRE'.'DETPre09-MG3'
+'FI'.'PRE'.'DETPre09-MR2'
+'FI'.'PRE'.'DETPre09-MR3'
+'FI'.'PRE'.'DETPre09-MW2'
+'FI'.'PRE'.'DETPre09-MW3'
+'FI'.'PRE'.'DETPre45-MG1'
+'FI'.'PRE'.'DETPre45-MG2'
+'FI'.'PRE'.'DETPre45-MG3'
+'FI'.'PRE'.'DETPre45-MR2'
+'FI'.'PRE'.'DETPre45-MR3'
+'FI'.'PRE'.'DETPre45-MW2'
+'FI'.'PRE'.'DETPre45-MW3'
+'FI'.'PRE'.'DETPre69-MG1'
+'FI'.'PRE'.'DETPre69-MG2'
+'FI'.'PRE'.'DETPre69-MG3'
+'FI'.'PRE'.'DETPre69-MR2'
+'FI'.'PRE'.'DETPre69-MR3'
+'FI'.'PRE'.'DETPre69-MW2'
+'FI'.'PRE'.'DETPre69-MW3'
+'FI'.'PRE'.'DETPre79-MG1'
+'FI'.'PRE'.'DETPre79-MG2'
+'FI'.'PRE'.'DETPre79-MG3'
+'FI'.'PRE'.'DETPre79-MR2'
+'FI'.'PRE'.'DETPre79-MR3'
+'FI'.'PRE'.'DETPre79-MW2'
+'FI'.'PRE'.'DETPre79-MW3'
+'FI'.'PRE'.'DETPre89-MG1'
+'FI'.'PRE'.'DETPre89-MG2'
+'FI'.'PRE'.'DETPre89-MG3'
+'FI'.'PRE'.'DETPre89-MR2'
+'FI'.'PRE'.'DETPre89-MR3'
+'FI'.'PRE'.'DETPre89-MW2'
+'FI'.'PRE'.'DETPre89-MW3'
+'FI'.'PRE'.'DETPre99-MG1'
+'FI'.'PRE'.'DETPre99-MG2'
+'FI'.'PRE'.'DETPre99-MG3'
+'FI'.'PRE'.'DETPre99-MR2'
+'FI'.'PRE'.'DETPre99-MR3'
+'FI'.'PRE'.'DETPre99-MW2'
+'FI'.'PRE'.'DETPre99-MW3'
+'FI'.'PRE'.'FLTPre09-MG1'
+'FI'.'PRE'.'FLTPre09-MG2'
+'FI'.'PRE'.'FLTPre09-MG3'
+'FI'.'PRE'.'FLTPre09-MR2'
+'FI'.'PRE'.'FLTPre09-MR3'
+'FI'.'PRE'.'FLTPre09-MW2'
+'FI'.'PRE'.'FLTPre09-MW3'
+'FI'.'PRE'.'FLTPre45-MG1'
+'FI'.'PRE'.'FLTPre45-MG2'
+'FI'.'PRE'.'FLTPre45-MG3'
+'FI'.'PRE'.'FLTPre45-MR2'
+'FI'.'PRE'.'FLTPre45-MR3'
+'FI'.'PRE'.'FLTPre45-MW2'
+'FI'.'PRE'.'FLTPre45-MW3'
+'FI'.'PRE'.'FLTPre69-MG1'
+'FI'.'PRE'.'FLTPre69-MG2'
+'FI'.'PRE'.'FLTPre69-MG3'
+'FI'.'PRE'.'FLTPre69-MR2'
+'FI'.'PRE'.'FLTPre69-MR3'
+'FI'.'PRE'.'FLTPre69-MW2'
+'FI'.'PRE'.'FLTPre69-MW3'
+'FI'.'PRE'.'FLTPre79-MG1'
+'FI'.'PRE'.'FLTPre79-MG2'
+'FI'.'PRE'.'FLTPre79-MG3'
+'FI'.'PRE'.'FLTPre79-MR2'
+'FI'.'PRE'.'FLTPre79-MR3'
+'FI'.'PRE'.'FLTPre79-MW2'
+'FI'.'PRE'.'FLTPre79-MW3'
+'FI'.'PRE'.'FLTPre89-MG1'
+'FI'.'PRE'.'FLTPre89-MG2'
+'FI'.'PRE'.'FLTPre89-MG3'
+'FI'.'PRE'.'FLTPre89-MR2'
+'FI'.'PRE'.'FLTPre89-MR3'
+'FI'.'PRE'.'FLTPre89-MW2'
+'FI'.'PRE'.'FLTPre89-MW3'
+'FI'.'PRE'.'FLTPre99-MG1'
+'FI'.'PRE'.'FLTPre99-MG2'
+'FI'.'PRE'.'FLTPre99-MG3'
+'FI'.'PRE'.'FLTPre99-MR2'
+'FI'.'PRE'.'FLTPre99-MR3'
+'FI'.'PRE'.'FLTPre99-MW2'
+'FI'.'PRE'.'FLTPre99-MW3'
+'FI'.'PRE'.'SDEPre09-MG1'
+'FI'.'PRE'.'SDEPre09-MG2'
+'FI'.'PRE'.'SDEPre09-MG3'
+'FI'.'PRE'.'SDEPre09-MR2'
+'FI'.'PRE'.'SDEPre09-MR3'
+'FI'.'PRE'.'SDEPre09-MW2'
+'FI'.'PRE'.'SDEPre09-MW3'
+'FI'.'PRE'.'SDEPre45-MG1'
+'FI'.'PRE'.'SDEPre45-MG2'
+'FI'.'PRE'.'SDEPre45-MG3'
+'FI'.'PRE'.'SDEPre45-MR2'
+'FI'.'PRE'.'SDEPre45-MR3'
+'FI'.'PRE'.'SDEPre45-MW2'
+'FI'.'PRE'.'SDEPre45-MW3'
+'FI'.'PRE'.'SDEPre69-MG1'
+'FI'.'PRE'.'SDEPre69-MG2'
+'FI'.'PRE'.'SDEPre69-MG3'
+'FI'.'PRE'.'SDEPre69-MR2'
+'FI'.'PRE'.'SDEPre69-MR3'
+'FI'.'PRE'.'SDEPre69-MW2'
+'FI'.'PRE'.'SDEPre69-MW3'
+'FI'.'PRE'.'SDEPre79-MG1'
+'FI'.'PRE'.'SDEPre79-MG2'
+'FI'.'PRE'.'SDEPre79-MG3'
+'FI'.'PRE'.'SDEPre79-MR2'
+'FI'.'PRE'.'SDEPre79-MR3'
+'FI'.'PRE'.'SDEPre79-MW2'
+'FI'.'PRE'.'SDEPre79-MW3'
+'FI'.'PRE'.'SDEPre89-MG1'
+'FI'.'PRE'.'SDEPre89-MG2'
+'FI'.'PRE'.'SDEPre89-MG3'
+'FI'.'PRE'.'SDEPre89-MR2'
+'FI'.'PRE'.'SDEPre89-MR3'
+'FI'.'PRE'.'SDEPre89-MW2'
+'FI'.'PRE'.'SDEPre89-MW3'
+'FI'.'PRE'.'SDEPre99-MG1'
+'FI'.'PRE'.'SDEPre99-MG2'
+'FI'.'PRE'.'SDEPre99-MG3'
+'FI'.'PRE'.'SDEPre99-MR2'
+'FI'.'PRE'.'SDEPre99-MR3'
+'FI'.'PRE'.'SDEPre99-MW2'
+'FI'.'PRE'.'SDEPre99-MW3'
+/;
+
+SET PRC_TSL
+
+/
+'FI'.'DETPre09-MG1'.ANNUAL
+'FI'.'DETPre09-MG2'.ANNUAL
+'FI'.'DETPre09-MG3'.ANNUAL
+'FI'.'DETPre09-MR2'.ANNUAL
+'FI'.'DETPre09-MR3'.ANNUAL
+'FI'.'DETPre09-MW2'.ANNUAL
+'FI'.'DETPre09-MW3'.ANNUAL
+'FI'.'DETPre45-MG1'.ANNUAL
+'FI'.'DETPre45-MG2'.ANNUAL
+'FI'.'DETPre45-MG3'.ANNUAL
+'FI'.'DETPre45-MR2'.ANNUAL
+'FI'.'DETPre45-MR3'.ANNUAL
+'FI'.'DETPre45-MW2'.ANNUAL
+'FI'.'DETPre45-MW3'.ANNUAL
+'FI'.'DETPre69-MG1'.ANNUAL
+'FI'.'DETPre69-MG2'.ANNUAL
+'FI'.'DETPre69-MG3'.ANNUAL
+'FI'.'DETPre69-MR2'.ANNUAL
+'FI'.'DETPre69-MR3'.ANNUAL
+'FI'.'DETPre69-MW2'.ANNUAL
+'FI'.'DETPre69-MW3'.ANNUAL
+'FI'.'DETPre79-MG1'.ANNUAL
+'FI'.'DETPre79-MG2'.ANNUAL
+'FI'.'DETPre79-MG3'.ANNUAL
+'FI'.'DETPre79-MR2'.ANNUAL
+'FI'.'DETPre79-MR3'.ANNUAL
+'FI'.'DETPre79-MW2'.ANNUAL
+'FI'.'DETPre79-MW3'.ANNUAL
+'FI'.'DETPre89-MG1'.ANNUAL
+'FI'.'DETPre89-MG2'.ANNUAL
+'FI'.'DETPre89-MG3'.ANNUAL
+'FI'.'DETPre89-MR2'.ANNUAL
+'FI'.'DETPre89-MR3'.ANNUAL
+'FI'.'DETPre89-MW2'.ANNUAL
+'FI'.'DETPre89-MW3'.ANNUAL
+'FI'.'DETPre99-MG1'.ANNUAL
+'FI'.'DETPre99-MG2'.ANNUAL
+'FI'.'DETPre99-MG3'.ANNUAL
+'FI'.'DETPre99-MR2'.ANNUAL
+'FI'.'DETPre99-MR3'.ANNUAL
+'FI'.'DETPre99-MW2'.ANNUAL
+'FI'.'DETPre99-MW3'.ANNUAL
+'FI'.'FLTPre09-MG1'.ANNUAL
+'FI'.'FLTPre09-MG2'.ANNUAL
+'FI'.'FLTPre09-MG3'.ANNUAL
+'FI'.'FLTPre09-MR2'.ANNUAL
+'FI'.'FLTPre09-MR3'.ANNUAL
+'FI'.'FLTPre09-MW2'.ANNUAL
+'FI'.'FLTPre09-MW3'.ANNUAL
+'FI'.'FLTPre45-MG1'.ANNUAL
+'FI'.'FLTPre45-MG2'.ANNUAL
+'FI'.'FLTPre45-MG3'.ANNUAL
+'FI'.'FLTPre45-MR2'.ANNUAL
+'FI'.'FLTPre45-MR3'.ANNUAL
+'FI'.'FLTPre45-MW2'.ANNUAL
+'FI'.'FLTPre45-MW3'.ANNUAL
+'FI'.'FLTPre69-MG1'.ANNUAL
+'FI'.'FLTPre69-MG2'.ANNUAL
+'FI'.'FLTPre69-MG3'.ANNUAL
+'FI'.'FLTPre69-MR2'.ANNUAL
+'FI'.'FLTPre69-MR3'.ANNUAL
+'FI'.'FLTPre69-MW2'.ANNUAL
+'FI'.'FLTPre69-MW3'.ANNUAL
+'FI'.'FLTPre79-MG1'.ANNUAL
+'FI'.'FLTPre79-MG2'.ANNUAL
+'FI'.'FLTPre79-MG3'.ANNUAL
+'FI'.'FLTPre79-MR2'.ANNUAL
+'FI'.'FLTPre79-MR3'.ANNUAL
+'FI'.'FLTPre79-MW2'.ANNUAL
+'FI'.'FLTPre79-MW3'.ANNUAL
+'FI'.'FLTPre89-MG1'.ANNUAL
+'FI'.'FLTPre89-MG2'.ANNUAL
+'FI'.'FLTPre89-MG3'.ANNUAL
+'FI'.'FLTPre89-MR2'.ANNUAL
+'FI'.'FLTPre89-MR3'.ANNUAL
+'FI'.'FLTPre89-MW2'.ANNUAL
+'FI'.'FLTPre89-MW3'.ANNUAL
+'FI'.'FLTPre99-MG1'.ANNUAL
+'FI'.'FLTPre99-MG2'.ANNUAL
+'FI'.'FLTPre99-MG3'.ANNUAL
+'FI'.'FLTPre99-MR2'.ANNUAL
+'FI'.'FLTPre99-MR3'.ANNUAL
+'FI'.'FLTPre99-MW2'.ANNUAL
+'FI'.'FLTPre99-MW3'.ANNUAL
+'FI'.'Rdw_DetH-New'.ANNUAL
+'FI'.'Rdw_Flat-New'.ANNUAL
+'FI'.'Rdw_SDetH-New'.ANNUAL
+'FI'.'SDEPre09-MG1'.ANNUAL
+'FI'.'SDEPre09-MG2'.ANNUAL
+'FI'.'SDEPre09-MG3'.ANNUAL
+'FI'.'SDEPre09-MR2'.ANNUAL
+'FI'.'SDEPre09-MR3'.ANNUAL
+'FI'.'SDEPre09-MW2'.ANNUAL
+'FI'.'SDEPre09-MW3'.ANNUAL
+'FI'.'SDEPre45-MG1'.ANNUAL
+'FI'.'SDEPre45-MG2'.ANNUAL
+'FI'.'SDEPre45-MG3'.ANNUAL
+'FI'.'SDEPre45-MR2'.ANNUAL
+'FI'.'SDEPre45-MR3'.ANNUAL
+'FI'.'SDEPre45-MW2'.ANNUAL
+'FI'.'SDEPre45-MW3'.ANNUAL
+'FI'.'SDEPre69-MG1'.ANNUAL
+'FI'.'SDEPre69-MG2'.ANNUAL
+'FI'.'SDEPre69-MG3'.ANNUAL
+'FI'.'SDEPre69-MR2'.ANNUAL
+'FI'.'SDEPre69-MR3'.ANNUAL
+'FI'.'SDEPre69-MW2'.ANNUAL
+'FI'.'SDEPre69-MW3'.ANNUAL
+'FI'.'SDEPre79-MG1'.ANNUAL
+'FI'.'SDEPre79-MG2'.ANNUAL
+'FI'.'SDEPre79-MG3'.ANNUAL
+'FI'.'SDEPre79-MR2'.ANNUAL
+'FI'.'SDEPre79-MR3'.ANNUAL
+'FI'.'SDEPre79-MW2'.ANNUAL
+'FI'.'SDEPre79-MW3'.ANNUAL
+'FI'.'SDEPre89-MG1'.ANNUAL
+'FI'.'SDEPre89-MG2'.ANNUAL
+'FI'.'SDEPre89-MG3'.ANNUAL
+'FI'.'SDEPre89-MR2'.ANNUAL
+'FI'.'SDEPre89-MR3'.ANNUAL
+'FI'.'SDEPre89-MW2'.ANNUAL
+'FI'.'SDEPre89-MW3'.ANNUAL
+'FI'.'SDEPre99-MG1'.ANNUAL
+'FI'.'SDEPre99-MG2'.ANNUAL
+'FI'.'SDEPre99-MG3'.ANNUAL
+'FI'.'SDEPre99-MR2'.ANNUAL
+'FI'.'SDEPre99-MR3'.ANNUAL
+'FI'.'SDEPre99-MW2'.ANNUAL
+'FI'.'SDEPre99-MW3'.ANNUAL
+/;
+
+SET PRC_ACTUNT
+
+/
+'FI'.'DETPre09-MG1'.'DETPre09-MG1_NRGI'.'PJ'
+'FI'.'DETPre09-MG2'.'DETPre09-MG2_NRGI'.'PJ'
+'FI'.'DETPre09-MG3'.'DETPre09-MG3_NRGI'.'PJ'
+'FI'.'DETPre09-MR2'.'DETPre09-MR2_NRGI'.'PJ'
+'FI'.'DETPre09-MR3'.'DETPre09-MR3_NRGI'.'PJ'
+'FI'.'DETPre09-MW2'.'DETPre09-MW2_NRGI'.'PJ'
+'FI'.'DETPre09-MW3'.'DETPre09-MW3_NRGI'.'PJ'
+'FI'.'DETPre45-MG1'.'DETPre45-MG1_NRGI'.'PJ'
+'FI'.'DETPre45-MG2'.'DETPre45-MG2_NRGI'.'PJ'
+'FI'.'DETPre45-MG3'.'DETPre45-MG3_NRGI'.'PJ'
+'FI'.'DETPre45-MR2'.'DETPre45-MR2_NRGI'.'PJ'
+'FI'.'DETPre45-MR3'.'DETPre45-MR3_NRGI'.'PJ'
+'FI'.'DETPre45-MW2'.'DETPre45-MW2_NRGI'.'PJ'
+'FI'.'DETPre45-MW3'.'DETPre45-MW3_NRGI'.'PJ'
+'FI'.'DETPre69-MG1'.'DETPre69-MG1_NRGI'.'PJ'
+'FI'.'DETPre69-MG2'.'DETPre69-MG2_NRGI'.'PJ'
+'FI'.'DETPre69-MG3'.'DETPre69-MG3_NRGI'.'PJ'
+'FI'.'DETPre69-MR2'.'DETPre69-MR2_NRGI'.'PJ'
+'FI'.'DETPre69-MR3'.'DETPre69-MR3_NRGI'.'PJ'
+'FI'.'DETPre69-MW2'.'DETPre69-MW2_NRGI'.'PJ'
+'FI'.'DETPre69-MW3'.'DETPre69-MW3_NRGI'.'PJ'
+'FI'.'DETPre79-MG1'.'DETPre79-MG1_NRGI'.'PJ'
+'FI'.'DETPre79-MG2'.'DETPre79-MG2_NRGI'.'PJ'
+'FI'.'DETPre79-MG3'.'DETPre79-MG3_NRGI'.'PJ'
+'FI'.'DETPre79-MR2'.'DETPre79-MR2_NRGI'.'PJ'
+'FI'.'DETPre79-MR3'.'DETPre79-MR3_NRGI'.'PJ'
+'FI'.'DETPre79-MW2'.'DETPre79-MW2_NRGI'.'PJ'
+'FI'.'DETPre79-MW3'.'DETPre79-MW3_NRGI'.'PJ'
+'FI'.'DETPre89-MG1'.'DETPre89-MG1_NRGI'.'PJ'
+'FI'.'DETPre89-MG2'.'DETPre89-MG2_NRGI'.'PJ'
+'FI'.'DETPre89-MG3'.'DETPre89-MG3_NRGI'.'PJ'
+'FI'.'DETPre89-MR2'.'DETPre89-MR2_NRGI'.'PJ'
+'FI'.'DETPre89-MR3'.'DETPre89-MR3_NRGI'.'PJ'
+'FI'.'DETPre89-MW2'.'DETPre89-MW2_NRGI'.'PJ'
+'FI'.'DETPre89-MW3'.'DETPre89-MW3_NRGI'.'PJ'
+'FI'.'DETPre99-MG1'.'DETPre99-MG1_NRGI'.'PJ'
+'FI'.'DETPre99-MG2'.'DETPre99-MG2_NRGI'.'PJ'
+'FI'.'DETPre99-MG3'.'DETPre99-MG3_NRGI'.'PJ'
+'FI'.'DETPre99-MR2'.'DETPre99-MR2_NRGI'.'PJ'
+'FI'.'DETPre99-MR3'.'DETPre99-MR3_NRGI'.'PJ'
+'FI'.'DETPre99-MW2'.'DETPre99-MW2_NRGI'.'PJ'
+'FI'.'DETPre99-MW3'.'DETPre99-MW3_NRGI'.'PJ'
+'FI'.'FLTPre09-MG1'.'FLTPre09-MG1_NRGI'.'PJ'
+'FI'.'FLTPre09-MG2'.'FLTPre09-MG2_NRGI'.'PJ'
+'FI'.'FLTPre09-MG3'.'FLTPre09-MG3_NRGI'.'PJ'
+'FI'.'FLTPre09-MR2'.'FLTPre09-MR2_NRGI'.'PJ'
+'FI'.'FLTPre09-MR3'.'FLTPre09-MR3_NRGI'.'PJ'
+'FI'.'FLTPre09-MW2'.'FLTPre09-MW2_NRGI'.'PJ'
+'FI'.'FLTPre09-MW3'.'FLTPre09-MW3_NRGI'.'PJ'
+'FI'.'FLTPre45-MG1'.'FLTPre45-MG1_NRGI'.'PJ'
+'FI'.'FLTPre45-MG2'.'FLTPre45-MG2_NRGI'.'PJ'
+'FI'.'FLTPre45-MG3'.'FLTPre45-MG3_NRGI'.'PJ'
+'FI'.'FLTPre45-MR2'.'FLTPre45-MR2_NRGI'.'PJ'
+'FI'.'FLTPre45-MR3'.'FLTPre45-MR3_NRGI'.'PJ'
+'FI'.'FLTPre45-MW2'.'FLTPre45-MW2_NRGI'.'PJ'
+'FI'.'FLTPre45-MW3'.'FLTPre45-MW3_NRGI'.'PJ'
+'FI'.'FLTPre69-MG1'.'FLTPre69-MG1_NRGI'.'PJ'
+'FI'.'FLTPre69-MG2'.'FLTPre69-MG2_NRGI'.'PJ'
+'FI'.'FLTPre69-MG3'.'FLTPre69-MG3_NRGI'.'PJ'
+'FI'.'FLTPre69-MR2'.'FLTPre69-MR2_NRGI'.'PJ'
+'FI'.'FLTPre69-MR3'.'FLTPre69-MR3_NRGI'.'PJ'
+'FI'.'FLTPre69-MW2'.'FLTPre69-MW2_NRGI'.'PJ'
+'FI'.'FLTPre69-MW3'.'FLTPre69-MW3_NRGI'.'PJ'
+'FI'.'FLTPre79-MG1'.'FLTPre79-MG1_NRGI'.'PJ'
+'FI'.'FLTPre79-MG2'.'FLTPre79-MG2_NRGI'.'PJ'
+'FI'.'FLTPre79-MG3'.'FLTPre79-MG3_NRGI'.'PJ'
+'FI'.'FLTPre79-MR2'.'FLTPre79-MR2_NRGI'.'PJ'
+'FI'.'FLTPre79-MR3'.'FLTPre79-MR3_NRGI'.'PJ'
+'FI'.'FLTPre79-MW2'.'FLTPre79-MW2_NRGI'.'PJ'
+'FI'.'FLTPre79-MW3'.'FLTPre79-MW3_NRGI'.'PJ'
+'FI'.'FLTPre89-MG1'.'FLTPre89-MG1_NRGI'.'PJ'
+'FI'.'FLTPre89-MG2'.'FLTPre89-MG2_NRGI'.'PJ'
+'FI'.'FLTPre89-MG3'.'FLTPre89-MG3_NRGI'.'PJ'
+'FI'.'FLTPre89-MR2'.'FLTPre89-MR2_NRGI'.'PJ'
+'FI'.'FLTPre89-MR3'.'FLTPre89-MR3_NRGI'.'PJ'
+'FI'.'FLTPre89-MW2'.'FLTPre89-MW2_NRGI'.'PJ'
+'FI'.'FLTPre89-MW3'.'FLTPre89-MW3_NRGI'.'PJ'
+'FI'.'FLTPre99-MG1'.'FLTPre99-MG1_NRGI'.'PJ'
+'FI'.'FLTPre99-MG2'.'FLTPre99-MG2_NRGI'.'PJ'
+'FI'.'FLTPre99-MG3'.'FLTPre99-MG3_NRGI'.'PJ'
+'FI'.'FLTPre99-MR2'.'FLTPre99-MR2_NRGI'.'PJ'
+'FI'.'FLTPre99-MR3'.'FLTPre99-MR3_NRGI'.'PJ'
+'FI'.'FLTPre99-MW2'.'FLTPre99-MW2_NRGI'.'PJ'
+'FI'.'FLTPre99-MW3'.'FLTPre99-MW3_NRGI'.'PJ'
+'FI'.'Rdw_DetH-New'.'R_DetH'.'000UNITS'
+'FI'.'Rdw_Flat-New'.'R_Flat'.'000UNITS'
+'FI'.'Rdw_SDetH-New'.'R_SDetH'.'000UNITS'
+'FI'.'SDEPre09-MG1'.'SDEPre09-MG1_NRGI'.'PJ'
+'FI'.'SDEPre09-MG2'.'SDEPre09-MG2_NRGI'.'PJ'
+'FI'.'SDEPre09-MG3'.'SDEPre09-MG3_NRGI'.'PJ'
+'FI'.'SDEPre09-MR2'.'SDEPre09-MR2_NRGI'.'PJ'
+'FI'.'SDEPre09-MR3'.'SDEPre09-MR3_NRGI'.'PJ'
+'FI'.'SDEPre09-MW2'.'SDEPre09-MW2_NRGI'.'PJ'
+'FI'.'SDEPre09-MW3'.'SDEPre09-MW3_NRGI'.'PJ'
+'FI'.'SDEPre45-MG1'.'SDEPre45-MG1_NRGI'.'PJ'
+'FI'.'SDEPre45-MG2'.'SDEPre45-MG2_NRGI'.'PJ'
+'FI'.'SDEPre45-MG3'.'SDEPre45-MG3_NRGI'.'PJ'
+'FI'.'SDEPre45-MR2'.'SDEPre45-MR2_NRGI'.'PJ'
+'FI'.'SDEPre45-MR3'.'SDEPre45-MR3_NRGI'.'PJ'
+'FI'.'SDEPre45-MW2'.'SDEPre45-MW2_NRGI'.'PJ'
+'FI'.'SDEPre45-MW3'.'SDEPre45-MW3_NRGI'.'PJ'
+'FI'.'SDEPre69-MG1'.'SDEPre69-MG1_NRGI'.'PJ'
+'FI'.'SDEPre69-MG2'.'SDEPre69-MG2_NRGI'.'PJ'
+'FI'.'SDEPre69-MG3'.'SDEPre69-MG3_NRGI'.'PJ'
+'FI'.'SDEPre69-MR2'.'SDEPre69-MR2_NRGI'.'PJ'
+'FI'.'SDEPre69-MR3'.'SDEPre69-MR3_NRGI'.'PJ'
+'FI'.'SDEPre69-MW2'.'SDEPre69-MW2_NRGI'.'PJ'
+'FI'.'SDEPre69-MW3'.'SDEPre69-MW3_NRGI'.'PJ'
+'FI'.'SDEPre79-MG1'.'SDEPre79-MG1_NRGI'.'PJ'
+'FI'.'SDEPre79-MG2'.'SDEPre79-MG2_NRGI'.'PJ'
+'FI'.'SDEPre79-MG3'.'SDEPre79-MG3_NRGI'.'PJ'
+'FI'.'SDEPre79-MR2'.'SDEPre79-MR2_NRGI'.'PJ'
+'FI'.'SDEPre79-MR3'.'SDEPre79-MR3_NRGI'.'PJ'
+'FI'.'SDEPre79-MW2'.'SDEPre79-MW2_NRGI'.'PJ'
+'FI'.'SDEPre79-MW3'.'SDEPre79-MW3_NRGI'.'PJ'
+'FI'.'SDEPre89-MG1'.'SDEPre89-MG1_NRGI'.'PJ'
+'FI'.'SDEPre89-MG2'.'SDEPre89-MG2_NRGI'.'PJ'
+'FI'.'SDEPre89-MG3'.'SDEPre89-MG3_NRGI'.'PJ'
+'FI'.'SDEPre89-MR2'.'SDEPre89-MR2_NRGI'.'PJ'
+'FI'.'SDEPre89-MR3'.'SDEPre89-MR3_NRGI'.'PJ'
+'FI'.'SDEPre89-MW2'.'SDEPre89-MW2_NRGI'.'PJ'
+'FI'.'SDEPre89-MW3'.'SDEPre89-MW3_NRGI'.'PJ'
+'FI'.'SDEPre99-MG1'.'SDEPre99-MG1_NRGI'.'PJ'
+'FI'.'SDEPre99-MG2'.'SDEPre99-MG2_NRGI'.'PJ'
+'FI'.'SDEPre99-MG3'.'SDEPre99-MG3_NRGI'.'PJ'
+'FI'.'SDEPre99-MR2'.'SDEPre99-MR2_NRGI'.'PJ'
+'FI'.'SDEPre99-MR3'.'SDEPre99-MR3_NRGI'.'PJ'
+'FI'.'SDEPre99-MW2'.'SDEPre99-MW2_NRGI'.'PJ'
+'FI'.'SDEPre99-MW3'.'SDEPre99-MW3_NRGI'.'PJ'
+/;
+
+SET TOP
+
+/
+'FI'.'DETPre09-MG1'.'Bldg_DETPre09-Win'.IN
+'FI'.'DETPre09-MG1'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre09-MG2'.'Bldg_DETPre09-Win'.IN
+'FI'.'DETPre09-MG2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre09-MG3'.'Bldg_DETPre09-Win'.IN
+'FI'.'DETPre09-MG3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre09-MR2'.'Bldg_DETPre09-Cei'.IN
+'FI'.'DETPre09-MR2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre09-MR3'.'Bldg_DETPre09-Cei'.IN
+'FI'.'DETPre09-MR3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre09-MW2'.'Bldg_DETPre09-Wal'.IN
+'FI'.'DETPre09-MW2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre09-MW3'.'Bldg_DETPre09-Wal'.IN
+'FI'.'DETPre09-MW3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre45-MG1'.'Bldg_DETPre45-Win'.IN
+'FI'.'DETPre45-MG1'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre45-MG2'.'Bldg_DETPre45-Win'.IN
+'FI'.'DETPre45-MG2'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre45-MG3'.'Bldg_DETPre45-Win'.IN
+'FI'.'DETPre45-MG3'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre45-MR2'.'Bldg_DETPre45-Cei'.IN
+'FI'.'DETPre45-MR2'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre45-MR3'.'Bldg_DETPre45-Cei'.IN
+'FI'.'DETPre45-MR3'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre45-MW2'.'Bldg_DETPre45-Wal'.IN
+'FI'.'DETPre45-MW2'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre45-MW3'.'Bldg_DETPre45-Wal'.IN
+'FI'.'DETPre45-MW3'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MG1'.'Bldg_DETPre69-Win'.IN
+'FI'.'DETPre69-MG1'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MG2'.'Bldg_DETPre69-Win'.IN
+'FI'.'DETPre69-MG2'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MG3'.'Bldg_DETPre69-Win'.IN
+'FI'.'DETPre69-MG3'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MR2'.'Bldg_DETPre69-Cei'.IN
+'FI'.'DETPre69-MR2'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MR3'.'Bldg_DETPre69-Cei'.IN
+'FI'.'DETPre69-MR3'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MW2'.'Bldg_DETPre69-Wal'.IN
+'FI'.'DETPre69-MW2'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre69-MW3'.'Bldg_DETPre69-Wal'.IN
+'FI'.'DETPre69-MW3'.'R_ES-DH-SpHeat-I'.OUT
+'FI'.'DETPre79-MG1'.'Bldg_DETPre79-Win'.IN
+'FI'.'DETPre79-MG1'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre79-MG2'.'Bldg_DETPre79-Win'.IN
+'FI'.'DETPre79-MG2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre79-MG3'.'Bldg_DETPre79-Win'.IN
+'FI'.'DETPre79-MG3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre79-MR2'.'Bldg_DETPre79-Cei'.IN
+'FI'.'DETPre79-MR2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre79-MR3'.'Bldg_DETPre79-Cei'.IN
+'FI'.'DETPre79-MR3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre79-MW2'.'Bldg_DETPre79-Wal'.IN
+'FI'.'DETPre79-MW2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre79-MW3'.'Bldg_DETPre79-Wal'.IN
+'FI'.'DETPre79-MW3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MG1'.'Bldg_DETPre89-Win'.IN
+'FI'.'DETPre89-MG1'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MG2'.'Bldg_DETPre89-Win'.IN
+'FI'.'DETPre89-MG2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MG3'.'Bldg_DETPre89-Win'.IN
+'FI'.'DETPre89-MG3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MR2'.'Bldg_DETPre89-Cei'.IN
+'FI'.'DETPre89-MR2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MR3'.'Bldg_DETPre89-Cei'.IN
+'FI'.'DETPre89-MR3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MW2'.'Bldg_DETPre89-Wal'.IN
+'FI'.'DETPre89-MW2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre89-MW3'.'Bldg_DETPre89-Wal'.IN
+'FI'.'DETPre89-MW3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MG1'.'Bldg_DETPre99-Win'.IN
+'FI'.'DETPre99-MG1'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MG2'.'Bldg_DETPre99-Win'.IN
+'FI'.'DETPre99-MG2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MG3'.'Bldg_DETPre99-Win'.IN
+'FI'.'DETPre99-MG3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MR2'.'Bldg_DETPre99-Cei'.IN
+'FI'.'DETPre99-MR2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MR3'.'Bldg_DETPre99-Cei'.IN
+'FI'.'DETPre99-MR3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MW2'.'Bldg_DETPre99-Wal'.IN
+'FI'.'DETPre99-MW2'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'DETPre99-MW3'.'Bldg_DETPre99-Wal'.IN
+'FI'.'DETPre99-MW3'.'R_ES-DH-70-SpHeat-I'.OUT
+'FI'.'FLTPre09-MG1'.'Bldg_FLTPre09-Win'.IN
+'FI'.'FLTPre09-MG1'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre09-MG2'.'Bldg_FLTPre09-Win'.IN
+'FI'.'FLTPre09-MG2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre09-MG3'.'Bldg_FLTPre09-Win'.IN
+'FI'.'FLTPre09-MG3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre09-MR2'.'Bldg_FLTPre09-Cei'.IN
+'FI'.'FLTPre09-MR2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre09-MR3'.'Bldg_FLTPre09-Cei'.IN
+'FI'.'FLTPre09-MR3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre09-MW2'.'Bldg_FLTPre09-Wal'.IN
+'FI'.'FLTPre09-MW2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre09-MW3'.'Bldg_FLTPre09-Wal'.IN
+'FI'.'FLTPre09-MW3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MG1'.'Bldg_FLTPre45-Win'.IN
+'FI'.'FLTPre45-MG1'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MG2'.'Bldg_FLTPre45-Win'.IN
+'FI'.'FLTPre45-MG2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MG3'.'Bldg_FLTPre45-Win'.IN
+'FI'.'FLTPre45-MG3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MR2'.'Bldg_FLTPre45-Cei'.IN
+'FI'.'FLTPre45-MR2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MR3'.'Bldg_FLTPre45-Cei'.IN
+'FI'.'FLTPre45-MR3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MW2'.'Bldg_FLTPre45-Wal'.IN
+'FI'.'FLTPre45-MW2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre45-MW3'.'Bldg_FLTPre45-Wal'.IN
+'FI'.'FLTPre45-MW3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MG1'.'Bldg_FLTPre69-Win'.IN
+'FI'.'FLTPre69-MG1'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MG2'.'Bldg_FLTPre69-Win'.IN
+'FI'.'FLTPre69-MG2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MG3'.'Bldg_FLTPre69-Win'.IN
+'FI'.'FLTPre69-MG3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MR2'.'Bldg_FLTPre69-Cei'.IN
+'FI'.'FLTPre69-MR2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MR3'.'Bldg_FLTPre69-Cei'.IN
+'FI'.'FLTPre69-MR3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MW2'.'Bldg_FLTPre69-Wal'.IN
+'FI'.'FLTPre69-MW2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre69-MW3'.'Bldg_FLTPre69-Wal'.IN
+'FI'.'FLTPre69-MW3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MG1'.'Bldg_FLTPre79-Win'.IN
+'FI'.'FLTPre79-MG1'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MG2'.'Bldg_FLTPre79-Win'.IN
+'FI'.'FLTPre79-MG2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MG3'.'Bldg_FLTPre79-Win'.IN
+'FI'.'FLTPre79-MG3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MR2'.'Bldg_FLTPre79-Cei'.IN
+'FI'.'FLTPre79-MR2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MR3'.'Bldg_FLTPre79-Cei'.IN
+'FI'.'FLTPre79-MR3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MW2'.'Bldg_FLTPre79-Wal'.IN
+'FI'.'FLTPre79-MW2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre79-MW3'.'Bldg_FLTPre79-Wal'.IN
+'FI'.'FLTPre79-MW3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MG1'.'Bldg_FLTPre89-Win'.IN
+'FI'.'FLTPre89-MG1'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MG2'.'Bldg_FLTPre89-Win'.IN
+'FI'.'FLTPre89-MG2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MG3'.'Bldg_FLTPre89-Win'.IN
+'FI'.'FLTPre89-MG3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MR2'.'Bldg_FLTPre89-Cei'.IN
+'FI'.'FLTPre89-MR2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MR3'.'Bldg_FLTPre89-Cei'.IN
+'FI'.'FLTPre89-MR3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MW2'.'Bldg_FLTPre89-Wal'.IN
+'FI'.'FLTPre89-MW2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre89-MW3'.'Bldg_FLTPre89-Wal'.IN
+'FI'.'FLTPre89-MW3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MG1'.'Bldg_FLTPre99-Win'.IN
+'FI'.'FLTPre99-MG1'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MG2'.'Bldg_FLTPre99-Win'.IN
+'FI'.'FLTPre99-MG2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MG3'.'Bldg_FLTPre99-Win'.IN
+'FI'.'FLTPre99-MG3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MR2'.'Bldg_FLTPre99-Cei'.IN
+'FI'.'FLTPre99-MR2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MR3'.'Bldg_FLTPre99-Cei'.IN
+'FI'.'FLTPre99-MR3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MW2'.'Bldg_FLTPre99-Wal'.IN
+'FI'.'FLTPre99-MW2'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'FLTPre99-MW3'.'Bldg_FLTPre99-Wal'.IN
+'FI'.'FLTPre99-MW3'.'R_ES-FL-SpHeat-I'.OUT
+'FI'.'Rdw_DetH-New'.'R_DetH'.OUT
+'FI'.'Rdw_DetH-New'.'R_ES-DH-Cook'.IN
+'FI'.'Rdw_DetH-New'.'R_ES-DH-SpCool'.IN
+'FI'.'Rdw_DetH-New'.'R_ES-DH-SpHeat-I'.IN
+'FI'.'Rdw_DetH-New'.'R_ES-DH-WatHeat'.IN
+'FI'.'Rdw_Flat-New'.'R_ES-FL-Cook'.IN
+'FI'.'Rdw_Flat-New'.'R_ES-FL-SpCool'.IN
+'FI'.'Rdw_Flat-New'.'R_ES-FL-SpHeat-I'.IN
+'FI'.'Rdw_Flat-New'.'R_ES-FL-WatHeat'.IN
+'FI'.'Rdw_Flat-New'.'R_Flat'.OUT
+'FI'.'Rdw_SDetH-New'.'R_ES-SD-Cook'.IN
+'FI'.'Rdw_SDetH-New'.'R_ES-SD-SpCool'.IN
+'FI'.'Rdw_SDetH-New'.'R_ES-SD-SpHeat-I'.IN
+'FI'.'Rdw_SDetH-New'.'R_ES-SD-WatHeat'.IN
+'FI'.'Rdw_SDetH-New'.'R_SDetH'.OUT
+'FI'.'SDEPre09-MG1'.'Bldg_SDEPre09-Win'.IN
+'FI'.'SDEPre09-MG1'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre09-MG2'.'Bldg_SDEPre09-Win'.IN
+'FI'.'SDEPre09-MG2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre09-MG3'.'Bldg_SDEPre09-Win'.IN
+'FI'.'SDEPre09-MG3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre09-MR2'.'Bldg_SDEPre09-Cei'.IN
+'FI'.'SDEPre09-MR2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre09-MR3'.'Bldg_SDEPre09-Cei'.IN
+'FI'.'SDEPre09-MR3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre09-MW2'.'Bldg_SDEPre09-Wal'.IN
+'FI'.'SDEPre09-MW2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre09-MW3'.'Bldg_SDEPre09-Wal'.IN
+'FI'.'SDEPre09-MW3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MG1'.'Bldg_SDEPre45-Win'.IN
+'FI'.'SDEPre45-MG1'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MG2'.'Bldg_SDEPre45-Win'.IN
+'FI'.'SDEPre45-MG2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MG3'.'Bldg_SDEPre45-Win'.IN
+'FI'.'SDEPre45-MG3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MR2'.'Bldg_SDEPre45-Cei'.IN
+'FI'.'SDEPre45-MR2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MR3'.'Bldg_SDEPre45-Cei'.IN
+'FI'.'SDEPre45-MR3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MW2'.'Bldg_SDEPre45-Wal'.IN
+'FI'.'SDEPre45-MW2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre45-MW3'.'Bldg_SDEPre45-Wal'.IN
+'FI'.'SDEPre45-MW3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MG1'.'Bldg_SDEPre69-Win'.IN
+'FI'.'SDEPre69-MG1'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MG2'.'Bldg_SDEPre69-Win'.IN
+'FI'.'SDEPre69-MG2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MG3'.'Bldg_SDEPre69-Win'.IN
+'FI'.'SDEPre69-MG3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MR2'.'Bldg_SDEPre69-Cei'.IN
+'FI'.'SDEPre69-MR2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MR3'.'Bldg_SDEPre69-Cei'.IN
+'FI'.'SDEPre69-MR3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MW2'.'Bldg_SDEPre69-Wal'.IN
+'FI'.'SDEPre69-MW2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre69-MW3'.'Bldg_SDEPre69-Wal'.IN
+'FI'.'SDEPre69-MW3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MG1'.'Bldg_SDEPre79-Win'.IN
+'FI'.'SDEPre79-MG1'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MG2'.'Bldg_SDEPre79-Win'.IN
+'FI'.'SDEPre79-MG2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MG3'.'Bldg_SDEPre79-Win'.IN
+'FI'.'SDEPre79-MG3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MR2'.'Bldg_SDEPre79-Cei'.IN
+'FI'.'SDEPre79-MR2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MR3'.'Bldg_SDEPre79-Cei'.IN
+'FI'.'SDEPre79-MR3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MW2'.'Bldg_SDEPre79-Wal'.IN
+'FI'.'SDEPre79-MW2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre79-MW3'.'Bldg_SDEPre79-Wal'.IN
+'FI'.'SDEPre79-MW3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MG1'.'Bldg_SDEPre89-Win'.IN
+'FI'.'SDEPre89-MG1'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MG2'.'Bldg_SDEPre89-Win'.IN
+'FI'.'SDEPre89-MG2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MG3'.'Bldg_SDEPre89-Win'.IN
+'FI'.'SDEPre89-MG3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MR2'.'Bldg_SDEPre89-Cei'.IN
+'FI'.'SDEPre89-MR2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MR3'.'Bldg_SDEPre89-Cei'.IN
+'FI'.'SDEPre89-MR3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MW2'.'Bldg_SDEPre89-Wal'.IN
+'FI'.'SDEPre89-MW2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre89-MW3'.'Bldg_SDEPre89-Wal'.IN
+'FI'.'SDEPre89-MW3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MG1'.'Bldg_SDEPre99-Win'.IN
+'FI'.'SDEPre99-MG1'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MG2'.'Bldg_SDEPre99-Win'.IN
+'FI'.'SDEPre99-MG2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MG3'.'Bldg_SDEPre99-Win'.IN
+'FI'.'SDEPre99-MG3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MR2'.'Bldg_SDEPre99-Cei'.IN
+'FI'.'SDEPre99-MR2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MR3'.'Bldg_SDEPre99-Cei'.IN
+'FI'.'SDEPre99-MR3'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MW2'.'Bldg_SDEPre99-Wal'.IN
+'FI'.'SDEPre99-MW2'.'R_ES-SD-SpHeat-I'.OUT
+'FI'.'SDEPre99-MW3'.'Bldg_SDEPre99-Wal'.IN
+'FI'.'SDEPre99-MW3'.'R_ES-SD-SpHeat-I'.OUT
+/;
+
+SET PRC_VINT
+
+/
+'FI'.'Rdw_DetH-New'
+'FI'.'Rdw_Flat-New'
+'FI'.'Rdw_SDetH-New'
+/;
+
+SET PRC_DESC
+
+/
+'FI'.'DETPre09-MG1' 'Window replacement: Double glass with air cavity (16mm) - DETPre09'
+'FI'.'DETPre09-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - DETPre09'
+'FI'.'DETPre09-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - DETPre09'
+'FI'.'DETPre09-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - DETPre09'
+'FI'.'DETPre09-MR3' 'Isolate below the last concrete slab (10cm) - DETPre09'
+'FI'.'DETPre09-MW2' 'External insulation (10 cm - EIFS System)  - DETPre09'
+'FI'.'DETPre09-MW3' 'Internal insulation (5cm) - DETPre09'
+'FI'.'DETPre45-MG1' 'Window replacement: Double glass with air cavity (16mm) - DETPre45'
+'FI'.'DETPre45-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - DETPre45'
+'FI'.'DETPre45-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - DETPre45'
+'FI'.'DETPre45-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - DETPre45'
+'FI'.'DETPre45-MR3' 'Isolate below the last concrete slab (10cm) - DETPre45'
+'FI'.'DETPre45-MW2' 'External insulation (10 cm - EIFS System)  - DETPre45'
+'FI'.'DETPre45-MW3' 'Internal insulation (5cm) - DETPre45'
+'FI'.'DETPre69-MG1' 'Window replacement: Double glass with air cavity (16mm) - DETPre69'
+'FI'.'DETPre69-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - DETPre69'
+'FI'.'DETPre69-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - DETPre69'
+'FI'.'DETPre69-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - DETPre69'
+'FI'.'DETPre69-MR3' 'Isolate below the last concrete slab (10cm) - DETPre69'
+'FI'.'DETPre69-MW2' 'External insulation (10 cm - EIFS System)  - DETPre69'
+'FI'.'DETPre69-MW3' 'Internal insulation (5cm) - DETPre69'
+'FI'.'DETPre79-MG1' 'Window replacement: Double glass with air cavity (16mm) - DETPre79'
+'FI'.'DETPre79-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - DETPre79'
+'FI'.'DETPre79-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - DETPre79'
+'FI'.'DETPre79-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - DETPre79'
+'FI'.'DETPre79-MR3' 'Isolate below the last concrete slab (10cm) - DETPre79'
+'FI'.'DETPre79-MW2' 'External insulation (10 cm - EIFS System)  - DETPre79'
+'FI'.'DETPre79-MW3' 'Internal insulation (5cm) - DETPre79'
+'FI'.'DETPre89-MG1' 'Window replacement: Double glass with air cavity (16mm) - DETPre89'
+'FI'.'DETPre89-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - DETPre89'
+'FI'.'DETPre89-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - DETPre89'
+'FI'.'DETPre89-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - DETPre89'
+'FI'.'DETPre89-MR3' 'Isolate below the last concrete slab (10cm) - DETPre89'
+'FI'.'DETPre89-MW2' 'External insulation (10 cm - EIFS System)  - DETPre89'
+'FI'.'DETPre89-MW3' 'Internal insulation (5cm) - DETPre89'
+'FI'.'DETPre99-MG1' 'Window replacement: Double glass with air cavity (16mm) - DETPre99'
+'FI'.'DETPre99-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - DETPre99'
+'FI'.'DETPre99-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - DETPre99'
+'FI'.'DETPre99-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - DETPre99'
+'FI'.'DETPre99-MR3' 'Isolate below the last concrete slab (10cm) - DETPre99'
+'FI'.'DETPre99-MW2' 'External insulation (10 cm - EIFS System)  - DETPre99'
+'FI'.'DETPre99-MW3' 'Internal insulation (5cm) - DETPre99'
+'FI'.'FLTPre09-MG1' 'Window replacement: Double glass with air cavity (16mm) - FLTPre09'
+'FI'.'FLTPre09-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - FLTPre09'
+'FI'.'FLTPre09-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - FLTPre09'
+'FI'.'FLTPre09-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - FLTPre09'
+'FI'.'FLTPre09-MR3' 'Isolate below the last concrete slab (10cm) - FLTPre09'
+'FI'.'FLTPre09-MW2' 'External insulation (10 cm - EIFS System)  - FLTPre09'
+'FI'.'FLTPre09-MW3' 'Internal insulation (5cm) - FLTPre09'
+'FI'.'FLTPre45-MG1' 'Window replacement: Double glass with air cavity (16mm) - FLTPre45'
+'FI'.'FLTPre45-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - FLTPre45'
+'FI'.'FLTPre45-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - FLTPre45'
+'FI'.'FLTPre45-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - FLTPre45'
+'FI'.'FLTPre45-MR3' 'Isolate below the last concrete slab (10cm) - FLTPre45'
+'FI'.'FLTPre45-MW2' 'External insulation (10 cm - EIFS System)  - FLTPre45'
+'FI'.'FLTPre45-MW3' 'Internal insulation (5cm) - FLTPre45'
+'FI'.'FLTPre69-MG1' 'Window replacement: Double glass with air cavity (16mm) - FLTPre69'
+'FI'.'FLTPre69-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - FLTPre69'
+'FI'.'FLTPre69-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - FLTPre69'
+'FI'.'FLTPre69-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - FLTPre69'
+'FI'.'FLTPre69-MR3' 'Isolate below the last concrete slab (10cm) - FLTPre69'
+'FI'.'FLTPre69-MW2' 'External insulation (10 cm - EIFS System)  - FLTPre69'
+'FI'.'FLTPre69-MW3' 'Internal insulation (5cm) - FLTPre69'
+'FI'.'FLTPre79-MG1' 'Window replacement: Double glass with air cavity (16mm) - FLTPre79'
+'FI'.'FLTPre79-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - FLTPre79'
+'FI'.'FLTPre79-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - FLTPre79'
+'FI'.'FLTPre79-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - FLTPre79'
+'FI'.'FLTPre79-MR3' 'Isolate below the last concrete slab (10cm) - FLTPre79'
+'FI'.'FLTPre79-MW2' 'External insulation (10 cm - EIFS System)  - FLTPre79'
+'FI'.'FLTPre79-MW3' 'Internal insulation (5cm) - FLTPre79'
+'FI'.'FLTPre89-MG1' 'Window replacement: Double glass with air cavity (16mm) - FLTPre89'
+'FI'.'FLTPre89-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - FLTPre89'
+'FI'.'FLTPre89-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - FLTPre89'
+'FI'.'FLTPre89-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - FLTPre89'
+'FI'.'FLTPre89-MR3' 'Isolate below the last concrete slab (10cm) - FLTPre89'
+'FI'.'FLTPre89-MW2' 'External insulation (10 cm - EIFS System)  - FLTPre89'
+'FI'.'FLTPre89-MW3' 'Internal insulation (5cm) - FLTPre89'
+'FI'.'FLTPre99-MG1' 'Window replacement: Double glass with air cavity (16mm) - FLTPre99'
+'FI'.'FLTPre99-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - FLTPre99'
+'FI'.'FLTPre99-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - FLTPre99'
+'FI'.'FLTPre99-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - FLTPre99'
+'FI'.'FLTPre99-MR3' 'Isolate below the last concrete slab (10cm) - FLTPre99'
+'FI'.'FLTPre99-MW2' 'External insulation (10 cm - EIFS System)  - FLTPre99'
+'FI'.'FLTPre99-MW3' 'Internal insulation (5cm) - FLTPre99'
+'FI'.'Rdw_DetH-New' 'Residential Dwelling - Detached house - NEW'
+'FI'.'Rdw_Flat-New' 'Residential Dwelling - Flat - NEW'
+'FI'.'Rdw_SDetH-New' 'Residential Dwelling - Semi-detached house - NEW'
+'FI'.'SDEPre09-MG1' 'Window replacement: Double glass with air cavity (16mm) - SDEPre09'
+'FI'.'SDEPre09-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - SDEPre09'
+'FI'.'SDEPre09-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - SDEPre09'
+'FI'.'SDEPre09-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - SDEPre09'
+'FI'.'SDEPre09-MR3' 'Isolate below the last concrete slab (10cm) - SDEPre09'
+'FI'.'SDEPre09-MW2' 'External insulation (10 cm - EIFS System)  - SDEPre09'
+'FI'.'SDEPre09-MW3' 'Internal insulation (5cm) - SDEPre09'
+'FI'.'SDEPre45-MG1' 'Window replacement: Double glass with air cavity (16mm) - SDEPre45'
+'FI'.'SDEPre45-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - SDEPre45'
+'FI'.'SDEPre45-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - SDEPre45'
+'FI'.'SDEPre45-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - SDEPre45'
+'FI'.'SDEPre45-MR3' 'Isolate below the last concrete slab (10cm) - SDEPre45'
+'FI'.'SDEPre45-MW2' 'External insulation (10 cm - EIFS System)  - SDEPre45'
+'FI'.'SDEPre45-MW3' 'Internal insulation (5cm) - SDEPre45'
+'FI'.'SDEPre69-MG1' 'Window replacement: Double glass with air cavity (16mm) - SDEPre69'
+'FI'.'SDEPre69-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - SDEPre69'
+'FI'.'SDEPre69-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - SDEPre69'
+'FI'.'SDEPre69-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - SDEPre69'
+'FI'.'SDEPre69-MR3' 'Isolate below the last concrete slab (10cm) - SDEPre69'
+'FI'.'SDEPre69-MW2' 'External insulation (10 cm - EIFS System)  - SDEPre69'
+'FI'.'SDEPre69-MW3' 'Internal insulation (5cm) - SDEPre69'
+'FI'.'SDEPre79-MG1' 'Window replacement: Double glass with air cavity (16mm) - SDEPre79'
+'FI'.'SDEPre79-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - SDEPre79'
+'FI'.'SDEPre79-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - SDEPre79'
+'FI'.'SDEPre79-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - SDEPre79'
+'FI'.'SDEPre79-MR3' 'Isolate below the last concrete slab (10cm) - SDEPre79'
+'FI'.'SDEPre79-MW2' 'External insulation (10 cm - EIFS System)  - SDEPre79'
+'FI'.'SDEPre79-MW3' 'Internal insulation (5cm) - SDEPre79'
+'FI'.'SDEPre89-MG1' 'Window replacement: Double glass with air cavity (16mm) - SDEPre89'
+'FI'.'SDEPre89-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - SDEPre89'
+'FI'.'SDEPre89-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - SDEPre89'
+'FI'.'SDEPre89-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - SDEPre89'
+'FI'.'SDEPre89-MR3' 'Isolate below the last concrete slab (10cm) - SDEPre89'
+'FI'.'SDEPre89-MW2' 'External insulation (10 cm - EIFS System)  - SDEPre89'
+'FI'.'SDEPre89-MW3' 'Internal insulation (5cm) - SDEPre89'
+'FI'.'SDEPre99-MG1' 'Window replacement: Double glass with air cavity (16mm) - SDEPre99'
+'FI'.'SDEPre99-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - SDEPre99'
+'FI'.'SDEPre99-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - SDEPre99'
+'FI'.'SDEPre99-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - SDEPre99'
+'FI'.'SDEPre99-MR3' 'Isolate below the last concrete slab (10cm) - SDEPre99'
+'FI'.'SDEPre99-MW2' 'External insulation (10 cm - EIFS System)  - SDEPre99'
+'FI'.'SDEPre99-MW3' 'Internal insulation (5cm) - SDEPre99'
+/;
+
+PARAMETER
+
+NCAP_COST ' '/
+'FI'.2010.'DETPre09-MG1'.'EUR10' 10.5
+'FI'.2010.'DETPre09-MG2'.'EUR10' 12
+'FI'.2010.'DETPre09-MG3'.'EUR10' 15
+'FI'.2010.'DETPre09-MR2'.'EUR10' 3.1828125
+'FI'.2010.'DETPre09-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'DETPre09-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'DETPre09-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'DETPre45-MG1'.'EUR10' 10.5
+'FI'.2010.'DETPre45-MG2'.'EUR10' 12
+'FI'.2010.'DETPre45-MG3'.'EUR10' 15
+'FI'.2010.'DETPre45-MR2'.'EUR10' 3.1828125
+'FI'.2010.'DETPre45-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'DETPre45-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'DETPre45-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'DETPre69-MG1'.'EUR10' 10.5
+'FI'.2010.'DETPre69-MG2'.'EUR10' 12
+'FI'.2010.'DETPre69-MG3'.'EUR10' 15
+'FI'.2010.'DETPre69-MR2'.'EUR10' 3.1828125
+'FI'.2010.'DETPre69-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'DETPre69-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'DETPre69-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'DETPre79-MG1'.'EUR10' 10.5
+'FI'.2010.'DETPre79-MG2'.'EUR10' 12
+'FI'.2010.'DETPre79-MG3'.'EUR10' 15
+'FI'.2010.'DETPre79-MR2'.'EUR10' 3.1828125
+'FI'.2010.'DETPre79-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'DETPre79-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'DETPre79-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'DETPre89-MG1'.'EUR10' 10.5
+'FI'.2010.'DETPre89-MG2'.'EUR10' 12
+'FI'.2010.'DETPre89-MG3'.'EUR10' 15
+'FI'.2010.'DETPre89-MR2'.'EUR10' 3.1828125
+'FI'.2010.'DETPre89-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'DETPre89-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'DETPre89-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'DETPre99-MG1'.'EUR10' 10.5
+'FI'.2010.'DETPre99-MG2'.'EUR10' 12
+'FI'.2010.'DETPre99-MG3'.'EUR10' 15
+'FI'.2010.'DETPre99-MR2'.'EUR10' 3.1828125
+'FI'.2010.'DETPre99-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'DETPre99-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'DETPre99-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'FLTPre09-MG1'.'EUR10' 2.52
+'FI'.2010.'FLTPre09-MG2'.'EUR10' 2.88
+'FI'.2010.'FLTPre09-MG3'.'EUR10' 3.6
+'FI'.2010.'FLTPre09-MR2'.'EUR10' 0.42
+'FI'.2010.'FLTPre09-MR3'.'EUR10' 0.267272727272727
+'FI'.2010.'FLTPre09-MW2'.'EUR10' 1.72771134000824
+'FI'.2010.'FLTPre09-MW3'.'EUR10' 1.48089543429278
+'FI'.2010.'FLTPre45-MG1'.'EUR10' 2.52
+'FI'.2010.'FLTPre45-MG2'.'EUR10' 2.88
+'FI'.2010.'FLTPre45-MG3'.'EUR10' 3.6
+'FI'.2010.'FLTPre45-MR2'.'EUR10' 0.42
+'FI'.2010.'FLTPre45-MR3'.'EUR10' 0.267272727272727
+'FI'.2010.'FLTPre45-MW2'.'EUR10' 1.72771134000824
+'FI'.2010.'FLTPre45-MW3'.'EUR10' 1.48089543429278
+'FI'.2010.'FLTPre69-MG1'.'EUR10' 2.52
+'FI'.2010.'FLTPre69-MG2'.'EUR10' 2.88
+'FI'.2010.'FLTPre69-MG3'.'EUR10' 3.6
+'FI'.2010.'FLTPre69-MR2'.'EUR10' 0.42
+'FI'.2010.'FLTPre69-MR3'.'EUR10' 0.267272727272727
+'FI'.2010.'FLTPre69-MW2'.'EUR10' 1.72771134000824
+'FI'.2010.'FLTPre69-MW3'.'EUR10' 1.48089543429278
+'FI'.2010.'FLTPre79-MG1'.'EUR10' 2.52
+'FI'.2010.'FLTPre79-MG2'.'EUR10' 2.88
+'FI'.2010.'FLTPre79-MG3'.'EUR10' 3.6
+'FI'.2010.'FLTPre79-MR2'.'EUR10' 0.42
+'FI'.2010.'FLTPre79-MR3'.'EUR10' 0.267272727272727
+'FI'.2010.'FLTPre79-MW2'.'EUR10' 1.72771134000824
+'FI'.2010.'FLTPre79-MW3'.'EUR10' 1.48089543429278
+'FI'.2010.'FLTPre89-MG1'.'EUR10' 2.52
+'FI'.2010.'FLTPre89-MG2'.'EUR10' 2.88
+'FI'.2010.'FLTPre89-MG3'.'EUR10' 3.6
+'FI'.2010.'FLTPre89-MR2'.'EUR10' 0.42
+'FI'.2010.'FLTPre89-MR3'.'EUR10' 0.267272727272727
+'FI'.2010.'FLTPre89-MW2'.'EUR10' 1.72771134000824
+'FI'.2010.'FLTPre89-MW3'.'EUR10' 1.48089543429278
+'FI'.2010.'FLTPre99-MG1'.'EUR10' 2.52
+'FI'.2010.'FLTPre99-MG2'.'EUR10' 2.88
+'FI'.2010.'FLTPre99-MG3'.'EUR10' 3.6
+'FI'.2010.'FLTPre99-MR2'.'EUR10' 0.42
+'FI'.2010.'FLTPre99-MR3'.'EUR10' 0.267272727272727
+'FI'.2010.'FLTPre99-MW2'.'EUR10' 1.72771134000824
+'FI'.2010.'FLTPre99-MW3'.'EUR10' 1.48089543429278
+'FI'.2010.'Rdw_DetH-New'.'EUR10' 400
+'FI'.2010.'Rdw_Flat-New'.'EUR10' 250
+'FI'.2010.'Rdw_SDetH-New'.'EUR10' 300
+'FI'.2010.'SDEPre09-MG1'.'EUR10' 3.15
+'FI'.2010.'SDEPre09-MG2'.'EUR10' 3.6
+'FI'.2010.'SDEPre09-MG3'.'EUR10' 4.5
+'FI'.2010.'SDEPre09-MR2'.'EUR10' 2.33503102719831
+'FI'.2010.'SDEPre09-MR3'.'EUR10' 1.48592883548983
+'FI'.2010.'SDEPre09-MW2'.'EUR10' 4.79620282232114
+'FI'.2010.'SDEPre09-MW3'.'EUR10' 4.11103099056098
+'FI'.2010.'SDEPre45-MG1'.'EUR10' 3.15
+'FI'.2010.'SDEPre45-MG2'.'EUR10' 3.6
+'FI'.2010.'SDEPre45-MG3'.'EUR10' 4.5
+'FI'.2010.'SDEPre45-MR2'.'EUR10' 2.33503102719831
+'FI'.2010.'SDEPre45-MR3'.'EUR10' 1.48592883548983
+'FI'.2010.'SDEPre45-MW2'.'EUR10' 4.79620282232114
+'FI'.2010.'SDEPre45-MW3'.'EUR10' 4.11103099056098
+'FI'.2010.'SDEPre69-MG1'.'EUR10' 3.15
+'FI'.2010.'SDEPre69-MG2'.'EUR10' 3.6
+'FI'.2010.'SDEPre69-MG3'.'EUR10' 4.5
+'FI'.2010.'SDEPre69-MR2'.'EUR10' 2.33503102719831
+'FI'.2010.'SDEPre69-MR3'.'EUR10' 1.48592883548983
+'FI'.2010.'SDEPre69-MW2'.'EUR10' 4.79620282232114
+'FI'.2010.'SDEPre69-MW3'.'EUR10' 4.11103099056098
+'FI'.2010.'SDEPre79-MG1'.'EUR10' 3.15
+'FI'.2010.'SDEPre79-MG2'.'EUR10' 3.6
+'FI'.2010.'SDEPre79-MG3'.'EUR10' 4.5
+'FI'.2010.'SDEPre79-MR2'.'EUR10' 2.33503102719831
+'FI'.2010.'SDEPre79-MR3'.'EUR10' 1.48592883548983
+'FI'.2010.'SDEPre79-MW2'.'EUR10' 4.79620282232114
+'FI'.2010.'SDEPre79-MW3'.'EUR10' 4.11103099056098
+'FI'.2010.'SDEPre89-MG1'.'EUR10' 3.15
+'FI'.2010.'SDEPre89-MG2'.'EUR10' 3.6
+'FI'.2010.'SDEPre89-MG3'.'EUR10' 4.5
+'FI'.2010.'SDEPre89-MR2'.'EUR10' 2.33503102719831
+'FI'.2010.'SDEPre89-MR3'.'EUR10' 1.48592883548983
+'FI'.2010.'SDEPre89-MW2'.'EUR10' 4.79620282232114
+'FI'.2010.'SDEPre89-MW3'.'EUR10' 4.11103099056098
+'FI'.2010.'SDEPre99-MG1'.'EUR10' 3.15
+'FI'.2010.'SDEPre99-MG2'.'EUR10' 3.6
+'FI'.2010.'SDEPre99-MG3'.'EUR10' 4.5
+'FI'.2010.'SDEPre99-MR2'.'EUR10' 2.33503102719831
+'FI'.2010.'SDEPre99-MR3'.'EUR10' 1.48592883548983
+'FI'.2010.'SDEPre99-MW2'.'EUR10' 4.79620282232114
+'FI'.2010.'SDEPre99-MW3'.'EUR10' 4.11103099056098
+/;
+
+PARAMETER
+
+NCAP_START ' '/
+'FI'.'DETPre09-MG1' 2020
+'FI'.'DETPre09-MG2' 2020
+'FI'.'DETPre09-MG3' 2020
+'FI'.'DETPre09-MR2' 2020
+'FI'.'DETPre09-MR3' 2020
+'FI'.'DETPre09-MW2' 2020
+'FI'.'DETPre09-MW3' 2020
+'FI'.'DETPre45-MG1' 2020
+'FI'.'DETPre45-MG2' 2020
+'FI'.'DETPre45-MG3' 2020
+'FI'.'DETPre45-MR2' 2020
+'FI'.'DETPre45-MR3' 2020
+'FI'.'DETPre45-MW2' 2020
+'FI'.'DETPre45-MW3' 2020
+'FI'.'DETPre69-MG1' 2020
+'FI'.'DETPre69-MG2' 2020
+'FI'.'DETPre69-MG3' 2020
+'FI'.'DETPre69-MR2' 2020
+'FI'.'DETPre69-MR3' 2020
+'FI'.'DETPre69-MW2' 2020
+'FI'.'DETPre69-MW3' 2020
+'FI'.'DETPre79-MG1' 2020
+'FI'.'DETPre79-MG2' 2020
+'FI'.'DETPre79-MG3' 2020
+'FI'.'DETPre79-MR2' 2020
+'FI'.'DETPre79-MR3' 2020
+'FI'.'DETPre79-MW2' 2020
+'FI'.'DETPre79-MW3' 2020
+'FI'.'DETPre89-MG1' 2020
+'FI'.'DETPre89-MG2' 2020
+'FI'.'DETPre89-MG3' 2020
+'FI'.'DETPre89-MR2' 2020
+'FI'.'DETPre89-MR3' 2020
+'FI'.'DETPre89-MW2' 2020
+'FI'.'DETPre89-MW3' 2020
+'FI'.'DETPre99-MG1' 2020
+'FI'.'DETPre99-MG2' 2020
+'FI'.'DETPre99-MG3' 2020
+'FI'.'DETPre99-MR2' 2020
+'FI'.'DETPre99-MR3' 2020
+'FI'.'DETPre99-MW2' 2020
+'FI'.'DETPre99-MW3' 2020
+'FI'.'FLTPre09-MG1' 2020
+'FI'.'FLTPre09-MG2' 2020
+'FI'.'FLTPre09-MG3' 2020
+'FI'.'FLTPre09-MR2' 2020
+'FI'.'FLTPre09-MR3' 2020
+'FI'.'FLTPre09-MW2' 2020
+'FI'.'FLTPre09-MW3' 2020
+'FI'.'FLTPre45-MG1' 2020
+'FI'.'FLTPre45-MG2' 2020
+'FI'.'FLTPre45-MG3' 2020
+'FI'.'FLTPre45-MR2' 2020
+'FI'.'FLTPre45-MR3' 2020
+'FI'.'FLTPre45-MW2' 2020
+'FI'.'FLTPre45-MW3' 2020
+'FI'.'FLTPre69-MG1' 2020
+'FI'.'FLTPre69-MG2' 2020
+'FI'.'FLTPre69-MG3' 2020
+'FI'.'FLTPre69-MR2' 2020
+'FI'.'FLTPre69-MR3' 2020
+'FI'.'FLTPre69-MW2' 2020
+'FI'.'FLTPre69-MW3' 2020
+'FI'.'FLTPre79-MG1' 2020
+'FI'.'FLTPre79-MG2' 2020
+'FI'.'FLTPre79-MG3' 2020
+'FI'.'FLTPre79-MR2' 2020
+'FI'.'FLTPre79-MR3' 2020
+'FI'.'FLTPre79-MW2' 2020
+'FI'.'FLTPre79-MW3' 2020
+'FI'.'FLTPre89-MG1' 2020
+'FI'.'FLTPre89-MG2' 2020
+'FI'.'FLTPre89-MG3' 2020
+'FI'.'FLTPre89-MR2' 2020
+'FI'.'FLTPre89-MR3' 2020
+'FI'.'FLTPre89-MW2' 2020
+'FI'.'FLTPre89-MW3' 2020
+'FI'.'FLTPre99-MG1' 2020
+'FI'.'FLTPre99-MG2' 2020
+'FI'.'FLTPre99-MG3' 2020
+'FI'.'FLTPre99-MR2' 2020
+'FI'.'FLTPre99-MR3' 2020
+'FI'.'FLTPre99-MW2' 2020
+'FI'.'FLTPre99-MW3' 2020
+'FI'.'Rdw_DetH-New' 2011
+'FI'.'Rdw_Flat-New' 2011
+'FI'.'Rdw_SDetH-New' 2011
+'FI'.'SDEPre09-MG1' 2020
+'FI'.'SDEPre09-MG2' 2020
+'FI'.'SDEPre09-MG3' 2020
+'FI'.'SDEPre09-MR2' 2020
+'FI'.'SDEPre09-MR3' 2020
+'FI'.'SDEPre09-MW2' 2020
+'FI'.'SDEPre09-MW3' 2020
+'FI'.'SDEPre45-MG1' 2020
+'FI'.'SDEPre45-MG2' 2020
+'FI'.'SDEPre45-MG3' 2020
+'FI'.'SDEPre45-MR2' 2020
+'FI'.'SDEPre45-MR3' 2020
+'FI'.'SDEPre45-MW2' 2020
+'FI'.'SDEPre45-MW3' 2020
+'FI'.'SDEPre69-MG1' 2020
+'FI'.'SDEPre69-MG2' 2020
+'FI'.'SDEPre69-MG3' 2020
+'FI'.'SDEPre69-MR2' 2020
+'FI'.'SDEPre69-MR3' 2020
+'FI'.'SDEPre69-MW2' 2020
+'FI'.'SDEPre69-MW3' 2020
+'FI'.'SDEPre79-MG1' 2020
+'FI'.'SDEPre79-MG2' 2020
+'FI'.'SDEPre79-MG3' 2020
+'FI'.'SDEPre79-MR2' 2020
+'FI'.'SDEPre79-MR3' 2020
+'FI'.'SDEPre79-MW2' 2020
+'FI'.'SDEPre79-MW3' 2020
+'FI'.'SDEPre89-MG1' 2020
+'FI'.'SDEPre89-MG2' 2020
+'FI'.'SDEPre89-MG3' 2020
+'FI'.'SDEPre89-MR2' 2020
+'FI'.'SDEPre89-MR3' 2020
+'FI'.'SDEPre89-MW2' 2020
+'FI'.'SDEPre89-MW3' 2020
+'FI'.'SDEPre99-MG1' 2020
+'FI'.'SDEPre99-MG2' 2020
+'FI'.'SDEPre99-MG3' 2020
+'FI'.'SDEPre99-MR2' 2020
+'FI'.'SDEPre99-MR3' 2020
+'FI'.'SDEPre99-MW2' 2020
+'FI'.'SDEPre99-MW3' 2020
+/;
+
+PARAMETER
+
+NCAP_TLIFE ' '/
+'FI'.2010.'DETPre09-MG1' 30
+'FI'.2010.'DETPre09-MG2' 30
+'FI'.2010.'DETPre09-MG3' 30
+'FI'.2010.'DETPre09-MR2' 30
+'FI'.2010.'DETPre09-MR3' 30
+'FI'.2010.'DETPre09-MW2' 30
+'FI'.2010.'DETPre09-MW3' 30
+'FI'.2010.'DETPre45-MG1' 30
+'FI'.2010.'DETPre45-MG2' 30
+'FI'.2010.'DETPre45-MG3' 30
+'FI'.2010.'DETPre45-MR2' 30
+'FI'.2010.'DETPre45-MR3' 30
+'FI'.2010.'DETPre45-MW2' 30
+'FI'.2010.'DETPre45-MW3' 30
+'FI'.2010.'DETPre69-MG1' 30
+'FI'.2010.'DETPre69-MG2' 30
+'FI'.2010.'DETPre69-MG3' 30
+'FI'.2010.'DETPre69-MR2' 30
+'FI'.2010.'DETPre69-MR3' 30
+'FI'.2010.'DETPre69-MW2' 30
+'FI'.2010.'DETPre69-MW3' 30
+'FI'.2010.'DETPre79-MG1' 30
+'FI'.2010.'DETPre79-MG2' 30
+'FI'.2010.'DETPre79-MG3' 30
+'FI'.2010.'DETPre79-MR2' 30
+'FI'.2010.'DETPre79-MR3' 30
+'FI'.2010.'DETPre79-MW2' 30
+'FI'.2010.'DETPre79-MW3' 30
+'FI'.2010.'DETPre89-MG1' 30
+'FI'.2010.'DETPre89-MG2' 30
+'FI'.2010.'DETPre89-MG3' 30
+'FI'.2010.'DETPre89-MR2' 30
+'FI'.2010.'DETPre89-MR3' 30
+'FI'.2010.'DETPre89-MW2' 30
+'FI'.2010.'DETPre89-MW3' 30
+'FI'.2010.'DETPre99-MG1' 30
+'FI'.2010.'DETPre99-MG2' 30
+'FI'.2010.'DETPre99-MG3' 30
+'FI'.2010.'DETPre99-MR2' 30
+'FI'.2010.'DETPre99-MR3' 30
+'FI'.2010.'DETPre99-MW2' 30
+'FI'.2010.'DETPre99-MW3' 30
+'FI'.2010.'FLTPre09-MG1' 30
+'FI'.2010.'FLTPre09-MG2' 30
+'FI'.2010.'FLTPre09-MG3' 30
+'FI'.2010.'FLTPre09-MR2' 30
+'FI'.2010.'FLTPre09-MR3' 30
+'FI'.2010.'FLTPre09-MW2' 30
+'FI'.2010.'FLTPre09-MW3' 30
+'FI'.2010.'FLTPre45-MG1' 30
+'FI'.2010.'FLTPre45-MG2' 30
+'FI'.2010.'FLTPre45-MG3' 30
+'FI'.2010.'FLTPre45-MR2' 30
+'FI'.2010.'FLTPre45-MR3' 30
+'FI'.2010.'FLTPre45-MW2' 30
+'FI'.2010.'FLTPre45-MW3' 30
+'FI'.2010.'FLTPre69-MG1' 30
+'FI'.2010.'FLTPre69-MG2' 30
+'FI'.2010.'FLTPre69-MG3' 30
+'FI'.2010.'FLTPre69-MR2' 30
+'FI'.2010.'FLTPre69-MR3' 30
+'FI'.2010.'FLTPre69-MW2' 30
+'FI'.2010.'FLTPre69-MW3' 30
+'FI'.2010.'FLTPre79-MG1' 30
+'FI'.2010.'FLTPre79-MG2' 30
+'FI'.2010.'FLTPre79-MG3' 30
+'FI'.2010.'FLTPre79-MR2' 30
+'FI'.2010.'FLTPre79-MR3' 30
+'FI'.2010.'FLTPre79-MW2' 30
+'FI'.2010.'FLTPre79-MW3' 30
+'FI'.2010.'FLTPre89-MG1' 30
+'FI'.2010.'FLTPre89-MG2' 30
+'FI'.2010.'FLTPre89-MG3' 30
+'FI'.2010.'FLTPre89-MR2' 30
+'FI'.2010.'FLTPre89-MR3' 30
+'FI'.2010.'FLTPre89-MW2' 30
+'FI'.2010.'FLTPre89-MW3' 30
+'FI'.2010.'FLTPre99-MG1' 30
+'FI'.2010.'FLTPre99-MG2' 30
+'FI'.2010.'FLTPre99-MG3' 30
+'FI'.2010.'FLTPre99-MR2' 30
+'FI'.2010.'FLTPre99-MR3' 30
+'FI'.2010.'FLTPre99-MW2' 30
+'FI'.2010.'FLTPre99-MW3' 30
+'FI'.2010.'Rdw_DetH-New' 100
+'FI'.2010.'Rdw_Flat-New' 100
+'FI'.2010.'Rdw_SDetH-New' 100
+'FI'.2010.'SDEPre09-MG1' 30
+'FI'.2010.'SDEPre09-MG2' 30
+'FI'.2010.'SDEPre09-MG3' 30
+'FI'.2010.'SDEPre09-MR2' 30
+'FI'.2010.'SDEPre09-MR3' 30
+'FI'.2010.'SDEPre09-MW2' 30
+'FI'.2010.'SDEPre09-MW3' 30
+'FI'.2010.'SDEPre45-MG1' 30
+'FI'.2010.'SDEPre45-MG2' 30
+'FI'.2010.'SDEPre45-MG3' 30
+'FI'.2010.'SDEPre45-MR2' 30
+'FI'.2010.'SDEPre45-MR3' 30
+'FI'.2010.'SDEPre45-MW2' 30
+'FI'.2010.'SDEPre45-MW3' 30
+'FI'.2010.'SDEPre69-MG1' 30
+'FI'.2010.'SDEPre69-MG2' 30
+'FI'.2010.'SDEPre69-MG3' 30
+'FI'.2010.'SDEPre69-MR2' 30
+'FI'.2010.'SDEPre69-MR3' 30
+'FI'.2010.'SDEPre69-MW2' 30
+'FI'.2010.'SDEPre69-MW3' 30
+'FI'.2010.'SDEPre79-MG1' 30
+'FI'.2010.'SDEPre79-MG2' 30
+'FI'.2010.'SDEPre79-MG3' 30
+'FI'.2010.'SDEPre79-MR2' 30
+'FI'.2010.'SDEPre79-MR3' 30
+'FI'.2010.'SDEPre79-MW2' 30
+'FI'.2010.'SDEPre79-MW3' 30
+'FI'.2010.'SDEPre89-MG1' 30
+'FI'.2010.'SDEPre89-MG2' 30
+'FI'.2010.'SDEPre89-MG3' 30
+'FI'.2010.'SDEPre89-MR2' 30
+'FI'.2010.'SDEPre89-MR3' 30
+'FI'.2010.'SDEPre89-MW2' 30
+'FI'.2010.'SDEPre89-MW3' 30
+'FI'.2010.'SDEPre99-MG1' 30
+'FI'.2010.'SDEPre99-MG2' 30
+'FI'.2010.'SDEPre99-MG3' 30
+'FI'.2010.'SDEPre99-MR2' 30
+'FI'.2010.'SDEPre99-MR3' 30
+'FI'.2010.'SDEPre99-MW2' 30
+'FI'.2010.'SDEPre99-MW3' 30
+/;
+
+PARAMETER
+
+VDA_FLOP ' '/
+'FI'.2010.'DETPre09-MG1'.'R_ES-DH-70-SpHeat-I'.ANNUAL -0.0132614573020779
+'FI'.2010.'DETPre09-MG2'.'R_ES-DH-70-SpHeat-I'.ANNUAL -0.00225181155834741
+'FI'.2010.'DETPre09-MG3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00979717809788911
+'FI'.2010.'DETPre09-MR2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00174576544254495
+'FI'.2010.'DETPre09-MR3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00134342023374271
+'FI'.2010.'DETPre09-MW2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00612667503636041
+'FI'.2010.'DETPre09-MW3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00379724066923912
+'FI'.2010.'DETPre45-MG1'.'R_ES-DH-SpHeat-I'.ANNUAL -0.00504219242620424
+'FI'.2010.'DETPre45-MG2'.'R_ES-DH-SpHeat-I'.ANNUAL 0.00509583659831416
+'FI'.2010.'DETPre45-MG3'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0159923435145223
+'FI'.2010.'DETPre45-MR2'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0051906420393076
+'FI'.2010.'DETPre45-MR3'.'R_ES-DH-SpHeat-I'.ANNUAL 0.00432148018441288
+'FI'.2010.'DETPre45-MW2'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0195037427774062
+'FI'.2010.'DETPre45-MW3'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0138382093347725
+'FI'.2010.'DETPre69-MG1'.'R_ES-DH-SpHeat-I'.ANNUAL -0.0051157371980836
+'FI'.2010.'DETPre69-MG2'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0051755449052477
+'FI'.2010.'DETPre69-MG3'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0162644621430059
+'FI'.2010.'DETPre69-MR2'.'R_ES-DH-SpHeat-I'.ANNUAL 0.00490290722777488
+'FI'.2010.'DETPre69-MR3'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0040608070739246
+'FI'.2010.'DETPre69-MW2'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0179633259156789
+'FI'.2010.'DETPre69-MW3'.'R_ES-DH-SpHeat-I'.ANNUAL 0.0125932737577747
+'FI'.2010.'DETPre79-MG1'.'R_ES-DH-70-SpHeat-I'.ANNUAL -0.00685813183324677
+'FI'.2010.'DETPre79-MG2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00374536844640727
+'FI'.2010.'DETPre79-MG3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.0152383023487469
+'FI'.2010.'DETPre79-MR2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00342890449176709
+'FI'.2010.'DETPre79-MR3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00276376087055382
+'FI'.2010.'DETPre79-MW2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.0115308701434921
+'FI'.2010.'DETPre79-MW3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.0076592160730016
+'FI'.2010.'DETPre89-MG1'.'R_ES-DH-70-SpHeat-I'.ANNUAL -0.0103282666472142
+'FI'.2010.'DETPre89-MG2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.000552888665209092
+'FI'.2010.'DETPre89-MG3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.0124216005239977
+'FI'.2010.'DETPre89-MR2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00242345755030371
+'FI'.2010.'DETPre89-MR3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00190479387510446
+'FI'.2010.'DETPre89-MW2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00693138579229357
+'FI'.2010.'DETPre89-MW3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00435638478043711
+'FI'.2010.'DETPre99-MG1'.'R_ES-DH-70-SpHeat-I'.ANNUAL -0.0103480553305287
+'FI'.2010.'DETPre99-MG2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.000554065135356573
+'FI'.2010.'DETPre99-MG3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.0124518928399985
+'FI'.2010.'DETPre99-MR2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.0023454971581868
+'FI'.2010.'DETPre99-MR3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00183950923324199
+'FI'.2010.'DETPre99-MW2'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00675252492217425
+'FI'.2010.'DETPre99-MW3'.'R_ES-DH-70-SpHeat-I'.ANNUAL 0.00423271763921495
+'FI'.2010.'FLTPre09-MG1'.'R_ES-FL-SpHeat-I'.ANNUAL -0.0029610405283595
+'FI'.2010.'FLTPre09-MG2'.'R_ES-FL-SpHeat-I'.ANNUAL -0.000504704468753875
+'FI'.2010.'FLTPre09-MG3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00220904935346392
+'FI'.2010.'FLTPre09-MR2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000215112482172833
+'FI'.2010.'FLTPre09-MR3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000165576778178272
+'FI'.2010.'FLTPre09-MW2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00108090047832618
+'FI'.2010.'FLTPre09-MW3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000670027611279745
+'FI'.2010.'FLTPre45-MG1'.'R_ES-FL-SpHeat-I'.ANNUAL -0.00113677790728857
+'FI'.2010.'FLTPre45-MG2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.0011523352889152
+'FI'.2010.'FLTPre45-MG3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00363086321788638
+'FI'.2010.'FLTPre45-MR2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000643290308062752
+'FI'.2010.'FLTPre45-MR3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000535725148869322
+'FI'.2010.'FLTPre45-MW2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00346500611289735
+'FI'.2010.'FLTPre45-MW3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00245828220052543
+'FI'.2010.'FLTPre69-MG1'.'R_ES-FL-SpHeat-I'.ANNUAL -0.00114977980380101
+'FI'.2010.'FLTPre69-MG2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.0011667388164867
+'FI'.2010.'FLTPre69-MG3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00368159702663966
+'FI'.2010.'FLTPre69-MR2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00060567401329179
+'FI'.2010.'FLTPre69-MR3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000501802962862852
+'FI'.2010.'FLTPre69-MW2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00317993462024952
+'FI'.2010.'FLTPre69-MW3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00222947981122534
+'FI'.2010.'FLTPre79-MG1'.'R_ES-FL-SpHeat-I'.ANNUAL -0.00153689087497515
+'FI'.2010.'FLTPre79-MG2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000842138713589703
+'FI'.2010.'FLTPre79-MG3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00344278176376792
+'FI'.2010.'FLTPre79-MR2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000422727097013288
+'FI'.2010.'FLTPre79-MR3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00034082837958436
+'FI'.2010.'FLTPre79-MW2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00203621099168543
+'FI'.2010.'FLTPre79-MW3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00135272924906597
+'FI'.2010.'FLTPre89-MG1'.'R_ES-FL-SpHeat-I'.ANNUAL -0.00231010074958066
+'FI'.2010.'FLTPre89-MG2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000124125369612815
+'FI'.2010.'FLTPre89-MG3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00280460039195118
+'FI'.2010.'FLTPre89-MR2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000298693395204077
+'FI'.2010.'FLTPre89-MR3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000234834353742099
+'FI'.2010.'FLTPre89-MW2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00122352304515914
+'FI'.2010.'FLTPre89-MW3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000769085118222879
+'FI'.2010.'FLTPre99-MG1'.'R_ES-FL-SpHeat-I'.ANNUAL -0.00231361749283144
+'FI'.2010.'FLTPre99-MG2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00012433998732669
+'FI'.2010.'FLTPre99-MG3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00281037457542945
+'FI'.2010.'FLTPre99-MR2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000288975944295181
+'FI'.2010.'FLTPre99-MR3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000226699746031685
+'FI'.2010.'FLTPre99-MW2'.'R_ES-FL-SpHeat-I'.ANNUAL 0.00119144740587311
+'FI'.2010.'FLTPre99-MW3'.'R_ES-FL-SpHeat-I'.ANNUAL 0.000746944618318981
+'FI'.2010.'SDEPre09-MG1'.'R_ES-SD-SpHeat-I'.ANNUAL -0.00400320264984528
+'FI'.2010.'SDEPre09-MG2'.'R_ES-SD-SpHeat-I'.ANNUAL -0.000675201869386908
+'FI'.2010.'SDEPre09-MG3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00291005535507033
+'FI'.2010.'SDEPre09-MR2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00128023468637114
+'FI'.2010.'SDEPre09-MR3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.000984791838209395
+'FI'.2010.'SDEPre09-MW2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00320740819527785
+'FI'.2010.'SDEPre09-MW3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.0019871981520961
+'FI'.2010.'SDEPre45-MG1'.'R_ES-SD-SpHeat-I'.ANNUAL -0.00149773917819628
+'FI'.2010.'SDEPre45-MG2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00150689518773223
+'FI'.2010.'SDEPre45-MG3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00470310155019358
+'FI'.2010.'SDEPre45-MR2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00377114257265458
+'FI'.2010.'SDEPre45-MR3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00313839020320642
+'FI'.2010.'SDEPre45-MW2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.0101015525907037
+'FI'.2010.'SDEPre45-MW3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00716682872419219
+'FI'.2010.'SDEPre69-MG1'.'R_ES-SD-SpHeat-I'.ANNUAL -0.0015266549132784
+'FI'.2010.'SDEPre69-MG2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00153720270197862
+'FI'.2010.'SDEPre69-MG3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00480218786559463
+'FI'.2010.'SDEPre69-MR2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00357931974958705
+'FI'.2010.'SDEPre69-MR3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00296315238193341
+'FI'.2010.'SDEPre69-MW2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00935250765776442
+'FI'.2010.'SDEPre69-MW3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00655471545788689
+'FI'.2010.'SDEPre79-MG1'.'R_ES-SD-SpHeat-I'.ANNUAL -0.00205678679509879
+'FI'.2010.'SDEPre79-MG2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00111709584124398
+'FI'.2010.'SDEPre79-MG3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.0045124648068449
+'FI'.2010.'SDEPre79-MR2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.0025120065379397
+'FI'.2010.'SDEPre79-MR3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00202376717412966
+'FI'.2010.'SDEPre79-MW2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00602748783169968
+'FI'.2010.'SDEPre79-MW3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00400209881716845
+'FI'.2010.'SDEPre89-MG1'.'R_ES-SD-SpHeat-I'.ANNUAL -0.00310851243990928
+'FI'.2010.'SDEPre89-MG2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.000165351476596116
+'FI'.2010.'SDEPre89-MG3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00368278450594502
+'FI'.2010.'SDEPre89-MR2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00177666829678885
+'FI'.2010.'SDEPre89-MR3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00139580008310467
+'FI'.2010.'SDEPre89-MW2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00362602774015951
+'FI'.2010.'SDEPre89-MW3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00227820995412366
+'FI'.2010.'SDEPre99-MG1'.'R_ES-SD-SpHeat-I'.ANNUAL -0.00311656856728076
+'FI'.2010.'SDEPre99-MG2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.000165809347136915
+'FI'.2010.'SDEPre99-MG3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.0036938216853843
+'FI'.2010.'SDEPre99-MR2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00172058313562763
+'FI'.2010.'SDEPre99-MR3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00134880014910569
+'FI'.2010.'SDEPre99-MW2'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00353486754428934
+'FI'.2010.'SDEPre99-MW3'.'R_ES-SD-SpHeat-I'.ANNUAL 0.00221500885123894
+/;
+
+

@@ -1,0 +1,818 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'tra_scenarios'
+
+
+SET UNITS_COM
+
+/
+'UCU'
+/;
+
+SET COM_TMAP
+
+/
+'FI'.'NRG'.'UC_DieselMAX_Cars-'
+'FI'.'NRG'.'UC_DieselMAX_Cars_'
+'FI'.'NRG'.'UC_DieselMIN_Cars-'
+'FI'.'NRG'.'UC_DieselMIN_Cars_'
+'FI'.'NRG'.'UC_StorageCap_TRABAT_Battery-'
+'FI'.'NRG'.'UC_StorageCap_TRABAT_Battery_'
+'FI'.'NRG'.'UC_TRABat_DischLimit-'
+'FI'.'NRG'.'UC_TRABat_DischLimit_'
+'FI'.'NRG'.'UC_TraBat_LinkingTo_Evs_PiH-'
+'FI'.'NRG'.'UC_TraBat_LinkingTo_Evs_PiH_'
+'FI'.'NRG'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'
+'FI'.'NRG'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'
+'FI1B1'.'NRG'.'UC_DieselMAX_Cars-'
+'FI1B1'.'NRG'.'UC_DieselMAX_Cars_'
+'FI1B1'.'NRG'.'UC_DieselMIN_Cars-'
+'FI1B1'.'NRG'.'UC_DieselMIN_Cars_'
+'FI1B1'.'NRG'.'UC_StorageCap_TRABAT_Battery-'
+'FI1B1'.'NRG'.'UC_StorageCap_TRABAT_Battery_'
+'FI1B1'.'NRG'.'UC_TRABat_DischLimit-'
+'FI1B1'.'NRG'.'UC_TRABat_DischLimit_'
+'FI1B1'.'NRG'.'UC_TraBat_LinkingTo_Evs_PiH-'
+'FI1B1'.'NRG'.'UC_TraBat_LinkingTo_Evs_PiH_'
+'FI1B1'.'NRG'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'
+'FI1B1'.'NRG'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'
+'FI1D9'.'NRG'.'UC_DieselMAX_Cars-'
+'FI1D9'.'NRG'.'UC_DieselMAX_Cars_'
+'FI1D9'.'NRG'.'UC_DieselMIN_Cars-'
+'FI1D9'.'NRG'.'UC_DieselMIN_Cars_'
+'FI1D9'.'NRG'.'UC_StorageCap_TRABAT_Battery-'
+'FI1D9'.'NRG'.'UC_StorageCap_TRABAT_Battery_'
+'FI1D9'.'NRG'.'UC_TRABat_DischLimit-'
+'FI1D9'.'NRG'.'UC_TRABat_DischLimit_'
+'FI1D9'.'NRG'.'UC_TraBat_LinkingTo_Evs_PiH-'
+'FI1D9'.'NRG'.'UC_TraBat_LinkingTo_Evs_PiH_'
+'FI1D9'.'NRG'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'
+'FI1D9'.'NRG'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'
+/;
+
+SET COM_UNIT
+
+/
+'FI'.'UC_DieselMAX_Cars-'.'UCU'
+'FI'.'UC_DieselMAX_Cars_'.'UCU'
+'FI'.'UC_DieselMIN_Cars-'.'UCU'
+'FI'.'UC_DieselMIN_Cars_'.'UCU'
+'FI'.'UC_StorageCap_TRABAT_Battery-'.'UCU'
+'FI'.'UC_StorageCap_TRABAT_Battery_'.'UCU'
+'FI'.'UC_TRABat_DischLimit-'.'UCU'
+'FI'.'UC_TRABat_DischLimit_'.'UCU'
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH-'.'UCU'
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH_'.'UCU'
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'UCU'
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'UCU'
+'FI1B1'.'UC_DieselMAX_Cars-'.'UCU'
+'FI1B1'.'UC_DieselMAX_Cars_'.'UCU'
+'FI1B1'.'UC_DieselMIN_Cars-'.'UCU'
+'FI1B1'.'UC_DieselMIN_Cars_'.'UCU'
+'FI1B1'.'UC_StorageCap_TRABAT_Battery-'.'UCU'
+'FI1B1'.'UC_StorageCap_TRABAT_Battery_'.'UCU'
+'FI1B1'.'UC_TRABat_DischLimit-'.'UCU'
+'FI1B1'.'UC_TRABat_DischLimit_'.'UCU'
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH-'.'UCU'
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH_'.'UCU'
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'UCU'
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'UCU'
+'FI1D9'.'UC_DieselMAX_Cars-'.'UCU'
+'FI1D9'.'UC_DieselMAX_Cars_'.'UCU'
+'FI1D9'.'UC_DieselMIN_Cars-'.'UCU'
+'FI1D9'.'UC_DieselMIN_Cars_'.'UCU'
+'FI1D9'.'UC_StorageCap_TRABAT_Battery-'.'UCU'
+'FI1D9'.'UC_StorageCap_TRABAT_Battery_'.'UCU'
+'FI1D9'.'UC_TRABat_DischLimit-'.'UCU'
+'FI1D9'.'UC_TRABat_DischLimit_'.'UCU'
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH-'.'UCU'
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH_'.'UCU'
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'UCU'
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'UCU'
+/;
+
+SET TOP_IRE
+
+/
+'IMPEXP'.'UC_DieselMAX_Cars-'.'FI'.'UC_DieselMAX_Cars-'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMAX_Cars-'.'FI1B1'.'UC_DieselMAX_Cars-'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMAX_Cars-'.'FI1D9'.'UC_DieselMAX_Cars-'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMAX_Cars_'.'FI'.'UC_DieselMAX_Cars_'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMAX_Cars_'.'FI1B1'.'UC_DieselMAX_Cars_'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMAX_Cars_'.'FI1D9'.'UC_DieselMAX_Cars_'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMIN_Cars-'.'FI'.'UC_DieselMIN_Cars-'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMIN_Cars-'.'FI1B1'.'UC_DieselMIN_Cars-'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMIN_Cars-'.'FI1D9'.'UC_DieselMIN_Cars-'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMIN_Cars_'.'FI'.'UC_DieselMIN_Cars_'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMIN_Cars_'.'FI1B1'.'UC_DieselMIN_Cars_'.'IMPNRGZ'
+'IMPEXP'.'UC_DieselMIN_Cars_'.'FI1D9'.'UC_DieselMIN_Cars_'.'IMPNRGZ'
+'IMPEXP'.'UC_StorageCap_TRABAT_Battery-'.'FI'.'UC_StorageCap_TRABAT_Battery-'.'IMPNRGZ'
+'IMPEXP'.'UC_StorageCap_TRABAT_Battery-'.'FI1B1'.'UC_StorageCap_TRABAT_Battery-'.'IMPNRGZ'
+'IMPEXP'.'UC_StorageCap_TRABAT_Battery-'.'FI1D9'.'UC_StorageCap_TRABAT_Battery-'.'IMPNRGZ'
+'IMPEXP'.'UC_StorageCap_TRABAT_Battery_'.'FI'.'UC_StorageCap_TRABAT_Battery_'.'IMPNRGZ'
+'IMPEXP'.'UC_StorageCap_TRABAT_Battery_'.'FI1B1'.'UC_StorageCap_TRABAT_Battery_'.'IMPNRGZ'
+'IMPEXP'.'UC_StorageCap_TRABAT_Battery_'.'FI1D9'.'UC_StorageCap_TRABAT_Battery_'.'IMPNRGZ'
+'IMPEXP'.'UC_TRABat_DischLimit-'.'FI'.'UC_TRABat_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_TRABat_DischLimit-'.'FI1B1'.'UC_TRABat_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_TRABat_DischLimit-'.'FI1D9'.'UC_TRABat_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_TRABat_DischLimit_'.'FI'.'UC_TRABat_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_TRABat_DischLimit_'.'FI1B1'.'UC_TRABat_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_TRABat_DischLimit_'.'FI1D9'.'UC_TRABat_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBat_LinkingTo_Evs_PiH-'.'FI'.'UC_TraBat_LinkingTo_Evs_PiH-'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBat_LinkingTo_Evs_PiH-'.'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH-'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBat_LinkingTo_Evs_PiH-'.'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH-'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBat_LinkingTo_Evs_PiH_'.'FI'.'UC_TraBat_LinkingTo_Evs_PiH_'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBat_LinkingTo_Evs_PiH_'.'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH_'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBat_LinkingTo_Evs_PiH_'.'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH_'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'IMPNRGZ'
+'IMPEXP'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.'IMPNRGZ'
+/;
+
+SET COM_DESC
+
+/
+'FI'.'UC_DieselMAX_Cars-' 'Negative dummy var for UC: UC_DieselMAX_Cars'
+'FI'.'UC_DieselMAX_Cars_' 'Positive dummy var for UC: UC_DieselMAX_Cars'
+'FI'.'UC_DieselMIN_Cars-' 'Negative dummy var for UC: UC_DieselMIN_Cars'
+'FI'.'UC_DieselMIN_Cars_' 'Positive dummy var for UC: UC_DieselMIN_Cars'
+'FI'.'UC_StorageCap_TRABAT_Battery-' 'Negative dummy var for UC: UC_StorageCap_TRABAT_Battery'
+'FI'.'UC_StorageCap_TRABAT_Battery_' 'Positive dummy var for UC: UC_StorageCap_TRABAT_Battery'
+'FI'.'UC_TRABat_DischLimit-' 'Negative dummy var for UC: UC_TRABat_DischLimit'
+'FI'.'UC_TRABat_DischLimit_' 'Positive dummy var for UC: UC_TRABat_DischLimit'
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH-' 'Negative dummy var for UC: UC_TraBat_LinkingTo_Evs_PiH'
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH_' 'Positive dummy var for UC: UC_TraBat_LinkingTo_Evs_PiH'
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH-' 'Negative dummy var for UC: UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH_' 'Positive dummy var for UC: UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI1B1'.'UC_DieselMAX_Cars-' 'Negative dummy var for UC: UC_DieselMAX_Cars'
+'FI1B1'.'UC_DieselMAX_Cars_' 'Positive dummy var for UC: UC_DieselMAX_Cars'
+'FI1B1'.'UC_DieselMIN_Cars-' 'Negative dummy var for UC: UC_DieselMIN_Cars'
+'FI1B1'.'UC_DieselMIN_Cars_' 'Positive dummy var for UC: UC_DieselMIN_Cars'
+'FI1B1'.'UC_StorageCap_TRABAT_Battery-' 'Negative dummy var for UC: UC_StorageCap_TRABAT_Battery'
+'FI1B1'.'UC_StorageCap_TRABAT_Battery_' 'Positive dummy var for UC: UC_StorageCap_TRABAT_Battery'
+'FI1B1'.'UC_TRABat_DischLimit-' 'Negative dummy var for UC: UC_TRABat_DischLimit'
+'FI1B1'.'UC_TRABat_DischLimit_' 'Positive dummy var for UC: UC_TRABat_DischLimit'
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH-' 'Negative dummy var for UC: UC_TraBat_LinkingTo_Evs_PiH'
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH_' 'Positive dummy var for UC: UC_TraBat_LinkingTo_Evs_PiH'
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH-' 'Negative dummy var for UC: UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH_' 'Positive dummy var for UC: UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI1D9'.'UC_DieselMAX_Cars-' 'Negative dummy var for UC: UC_DieselMAX_Cars'
+'FI1D9'.'UC_DieselMAX_Cars_' 'Positive dummy var for UC: UC_DieselMAX_Cars'
+'FI1D9'.'UC_DieselMIN_Cars-' 'Negative dummy var for UC: UC_DieselMIN_Cars'
+'FI1D9'.'UC_DieselMIN_Cars_' 'Positive dummy var for UC: UC_DieselMIN_Cars'
+'FI1D9'.'UC_StorageCap_TRABAT_Battery-' 'Negative dummy var for UC: UC_StorageCap_TRABAT_Battery'
+'FI1D9'.'UC_StorageCap_TRABAT_Battery_' 'Positive dummy var for UC: UC_StorageCap_TRABAT_Battery'
+'FI1D9'.'UC_TRABat_DischLimit-' 'Negative dummy var for UC: UC_TRABat_DischLimit'
+'FI1D9'.'UC_TRABat_DischLimit_' 'Positive dummy var for UC: UC_TRABat_DischLimit'
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH-' 'Negative dummy var for UC: UC_TraBat_LinkingTo_Evs_PiH'
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH_' 'Positive dummy var for UC: UC_TraBat_LinkingTo_Evs_PiH'
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH-' 'Negative dummy var for UC: UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH_' 'Positive dummy var for UC: UC_TraBatChgStn_LnkTo_Evs_PiH'
+/;
+
+SET UC_R_EACH
+
+/
+'FI'.'UC_DieselMAX_Cars'
+'FI'.'UC_DieselMIN_Cars'
+'FI'.'UC_StorageCap_TRABAT_Battery'
+'FI'.'UC_TRABat_DischLimit'
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH'
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI1B1'.'UC_DieselMAX_Cars'
+'FI1B1'.'UC_DieselMIN_Cars'
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'
+'FI1B1'.'UC_TRABat_DischLimit'
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH'
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH'
+'FI1D9'.'UC_DieselMAX_Cars'
+'FI1D9'.'UC_DieselMIN_Cars'
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'
+'FI1D9'.'UC_TRABat_DischLimit'
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH'
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH'
+/;
+
+PARAMETER
+
+UC_ACT ' '/
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.FD -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.FN -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.FP -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.RD -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.RN -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.RP -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.SD -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.SN -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.SP -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.WD -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.WN -7.40740740740741
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'P_TRABAT'.WP -7.40740740740741
+/;
+
+PARAMETER
+
+UC_CAP ' '/
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2011.'TRABAT_Battery' 1
+'UC_TRABat_DischLimit'.LHS.'FI'.2011.'P_TRABAT' 1
+'UC_TRABat_DischLimit'.LHS.'FI'.2011.'TRABAT_Battery' -1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_Exe_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_Lom' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_LoM_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_Sma_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_UpM_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Exe_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Exe_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_LoM_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_LoM_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Sma_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Sma_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_UpM_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_UpM_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2011.'TRABAT_Battery' 1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_Exe_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_Lom' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_LoM_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_Sma_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_UpM_10' -0.003
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Exe_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Exe_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_LoM_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_LoM_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Sma_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Sma_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_UpM_20pct' -0.001
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_UpM_80pct' -0.002
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2050.'TRABAT_Battery' 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_Exe_10' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_Lom' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_LoM_10' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_Sma_10' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_Elc_UpM_10' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Exe_20pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Exe_80pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_LoM_20pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_LoM_80pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Sma_20pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_Sma_80pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_UpM_20pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRA_Car_PIH_UpM_80pct' -0.003
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2011.'TRABAT_ChgStn' 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_Elc_Exe_10' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_Elc_Lom' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_Elc_LoM_10' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_Elc_Sma_10' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_Elc_UpM_10' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_Exe_20pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_Exe_80pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_LoM_20pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_LoM_80pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_Sma_20pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_Sma_80pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_UpM_20pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRA_Car_PIH_UpM_80pct' -0.0057
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2015.'TRABAT_ChgStn' 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_Elc_Exe_10' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_Elc_Lom' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_Elc_LoM_10' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_Elc_Sma_10' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_Elc_UpM_10' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_Exe_20pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_Exe_80pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_LoM_20pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_LoM_80pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_Sma_20pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_Sma_80pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_UpM_20pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRA_Car_PIH_UpM_80pct' -0.0025
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2020.'TRABAT_ChgStn' 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_Elc_Exe_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_Elc_Lom' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_Elc_LoM_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_Elc_Sma_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_Elc_UpM_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_Exe_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_Exe_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_LoM_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_LoM_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_Sma_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_Sma_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_UpM_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRA_Car_PIH_UpM_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2025.'TRABAT_ChgStn' 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_Exe_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_Lom' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_LoM_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_Sma_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_Elc_UpM_10' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Exe_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Exe_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_LoM_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_LoM_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Sma_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_Sma_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_UpM_20pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRA_Car_PIH_UpM_80pct' -0.0012
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2050.'TRABAT_ChgStn' 1
+/;
+
+PARAMETER
+
+UC_IRE ' '/
+'UC_DieselMAX_Cars'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DieselMAX_Cars-'.ANNUAL.IMP -1
+'UC_DieselMAX_Cars'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DieselMAX_Cars_'.ANNUAL.IMP 1
+'UC_DieselMAX_Cars'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DieselMAX_Cars-'.ANNUAL.IMP -1
+'UC_DieselMAX_Cars'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DieselMAX_Cars_'.ANNUAL.IMP 1
+'UC_DieselMAX_Cars'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DieselMAX_Cars-'.ANNUAL.IMP -1
+'UC_DieselMAX_Cars'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DieselMAX_Cars_'.ANNUAL.IMP 1
+'UC_DieselMIN_Cars'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DieselMIN_Cars-'.ANNUAL.IMP -1
+'UC_DieselMIN_Cars'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DieselMIN_Cars_'.ANNUAL.IMP 1
+'UC_DieselMIN_Cars'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DieselMIN_Cars-'.ANNUAL.IMP -1
+'UC_DieselMIN_Cars'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DieselMIN_Cars_'.ANNUAL.IMP 1
+'UC_DieselMIN_Cars'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DieselMIN_Cars-'.ANNUAL.IMP -1
+'UC_DieselMIN_Cars'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DieselMIN_Cars_'.ANNUAL.IMP 1
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2010.'IMPNRGZ'.'UC_StorageCap_TRABAT_Battery-'.ANNUAL.IMP -1
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI'.2010.'IMPNRGZ'.'UC_StorageCap_TRABAT_Battery_'.ANNUAL.IMP 1
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_StorageCap_TRABAT_Battery-'.ANNUAL.IMP -1
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_StorageCap_TRABAT_Battery_'.ANNUAL.IMP 1
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_StorageCap_TRABAT_Battery-'.ANNUAL.IMP -1
+'UC_StorageCap_TRABAT_Battery'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_StorageCap_TRABAT_Battery_'.ANNUAL.IMP 1
+'UC_TRABat_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_TRABat_DischLimit-'.ANNUAL.IMP -1
+'UC_TRABat_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_TRABat_DischLimit_'.ANNUAL.IMP 1
+'UC_TRABat_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_TRABat_DischLimit-'.ANNUAL.IMP -1
+'UC_TRABat_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_TRABat_DischLimit_'.ANNUAL.IMP 1
+'UC_TRABat_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_TRABat_DischLimit-'.ANNUAL.IMP -1
+'UC_TRABat_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_TRABat_DischLimit_'.ANNUAL.IMP 1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2010.'IMPNRGZ'.'UC_TraBat_LinkingTo_Evs_PiH-'.ANNUAL.IMP -1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI'.2010.'IMPNRGZ'.'UC_TraBat_LinkingTo_Evs_PiH_'.ANNUAL.IMP 1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_TraBat_LinkingTo_Evs_PiH-'.ANNUAL.IMP -1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_TraBat_LinkingTo_Evs_PiH_'.ANNUAL.IMP 1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_TraBat_LinkingTo_Evs_PiH-'.ANNUAL.IMP -1
+'UC_TraBat_LinkingTo_Evs_PiH'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_TraBat_LinkingTo_Evs_PiH_'.ANNUAL.IMP 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2010.'IMPNRGZ'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.ANNUAL.IMP -1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI'.2010.'IMPNRGZ'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.ANNUAL.IMP 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.ANNUAL.IMP -1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.ANNUAL.IMP 1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_TraBatChgStn_LnkTo_Evs_PiH-'.ANNUAL.IMP -1
+'UC_TraBatChgStn_LnkTo_Evs_PiH'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_TraBatChgStn_LnkTo_Evs_PiH_'.ANNUAL.IMP 1
+/;
+
+PARAMETER
+
+UC_NCAP ' '/
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_01' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_11' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_21' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_31' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_41' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_51' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_61' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_71' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_81' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_91' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_01' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_11' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_21' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_31' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_41' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_51' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_61' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_71' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_81' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_91' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_01' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_11' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_21' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_31' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_41' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_51' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_61' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_71' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_81' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_91' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_01' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_11' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_21' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_31' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_41' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_51' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_61' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_71' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_81' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_91' 0.65
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_01' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_11' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_21' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_31' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_41' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_51' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_61' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_71' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_81' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_91' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Exe_20pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Exe_80pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_LoM_20pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_LoM_80pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Sma_20pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Sma_80pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_UpM_20pct' -0.35
+'UC_DieselMAX_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_UpM_80pct' -0.35
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Exe_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_LoM_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_Sma_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Cng_UpM_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_01' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_11' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_21' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_31' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_41' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_51' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_61' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_71' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_81' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Exe_91' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_01' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_11' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_21' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_31' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_41' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_51' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_61' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_71' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_81' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_LoM_91' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_01' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_11' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_21' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_31' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_41' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_51' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_61' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_71' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_81' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_Sma_91' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_01' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_11' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_21' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_31' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_41' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_51' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_61' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_71' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_81' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Dis_UpM_91' 0.9
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Exe_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_LoM_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_Sma_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Gas_UpM_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Exe_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_LoM_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_Sma_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_01' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_11' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_21' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_31' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_41' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_51' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_61' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_71' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_81' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_Lpg_UpM_91' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Exe_20pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Exe_80pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_LoM_20pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_LoM_80pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Sma_20pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_Sma_80pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_UpM_20pct' -0.1
+'UC_DieselMIN_Cars'.LHS.'FI'.2025.'TRA_Car_PIH_UpM_80pct' -0.1
+/;
+
+PARAMETER
+
+UC_RHSRT ' '/
+'FI'.'UC_DieselMAX_Cars'.0.UP 5
+'FI'.'UC_DieselMAX_Cars'.2025.UP 0
+'FI'.'UC_DieselMIN_Cars'.0.LO 5
+'FI'.'UC_DieselMIN_Cars'.2025.LO 0
+'FI1B1'.'UC_DieselMAX_Cars'.0.UP 5
+'FI1B1'.'UC_DieselMAX_Cars'.2025.UP 0
+'FI1B1'.'UC_DieselMIN_Cars'.0.LO 5
+'FI1B1'.'UC_DieselMIN_Cars'.2025.LO 0
+'FI1D9'.'UC_DieselMAX_Cars'.0.UP 5
+'FI1D9'.'UC_DieselMAX_Cars'.2025.UP 0
+'FI1D9'.'UC_DieselMIN_Cars'.0.LO 5
+'FI1D9'.'UC_DieselMIN_Cars'.2025.LO 0
+/;
+
+PARAMETER
+
+UC_RHSRTS ' '/
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.FD.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.FN.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.FP.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.RD.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.RN.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.RP.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.SD.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.SN.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.SP.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.WD.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.WN.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.0.WP.LO 5
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.FD.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.FN.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.FP.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.RD.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.RN.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.RP.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.SD.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.SN.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.SP.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.WD.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.WN.LO 0
+'FI'.'UC_StorageCap_TRABAT_Battery'.2011.WP.LO 0
+'FI'.'UC_TRABat_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_TRABat_DischLimit'.2011.ANNUAL.FX 0
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH'.0.ANNUAL.FX 5
+'FI'.'UC_TraBat_LinkingTo_Evs_PiH'.2011.ANNUAL.FX 0
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH'.0.ANNUAL.UP 5
+'FI'.'UC_TraBatChgStn_LnkTo_Evs_PiH'.2011.ANNUAL.UP 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.FD.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.FN.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.FP.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.RD.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.RN.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.RP.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.SD.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.SN.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.SP.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.WD.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.WN.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.0.WP.LO 5
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.FD.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.FN.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.FP.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.RD.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.RN.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.RP.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.SD.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.SN.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.SP.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.WD.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.WN.LO 0
+'FI1B1'.'UC_StorageCap_TRABAT_Battery'.2011.WP.LO 0
+'FI1B1'.'UC_TRABat_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_TRABat_DischLimit'.2011.ANNUAL.FX 0
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH'.0.ANNUAL.FX 5
+'FI1B1'.'UC_TraBat_LinkingTo_Evs_PiH'.2011.ANNUAL.FX 0
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH'.0.ANNUAL.UP 5
+'FI1B1'.'UC_TraBatChgStn_LnkTo_Evs_PiH'.2011.ANNUAL.UP 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.FD.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.FN.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.FP.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.RD.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.RN.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.RP.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.SD.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.SN.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.SP.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.WD.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.WN.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.0.WP.LO 5
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.FD.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.FN.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.FP.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.RD.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.RN.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.RP.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.SD.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.SN.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.SP.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.WD.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.WN.LO 0
+'FI1D9'.'UC_StorageCap_TRABAT_Battery'.2011.WP.LO 0
+'FI1D9'.'UC_TRABat_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_TRABat_DischLimit'.2011.ANNUAL.FX 0
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH'.0.ANNUAL.FX 5
+'FI1D9'.'UC_TraBat_LinkingTo_Evs_PiH'.2011.ANNUAL.FX 0
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH'.0.ANNUAL.UP 5
+'FI1D9'.'UC_TraBatChgStn_LnkTo_Evs_PiH'.2011.ANNUAL.UP 0
+/;
+
+

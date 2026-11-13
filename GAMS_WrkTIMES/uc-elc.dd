@@ -1,0 +1,1000 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'uc-elc'
+
+
+SET UNITS_COM
+
+/
+'UCU'
+/;
+
+SET COM_TMAP
+
+/
+'FI'.'NRG'.'UC_BIOETH_Imp_Growth-'
+'FI'.'NRG'.'UC_BIOETH_Imp_Growth_'
+'FI'.'NRG'.'UC_BIOOIL_Imp_Growth-'
+'FI'.'NRG'.'UC_BIOOIL_Imp_Growth_'
+'FI'.'NRG'.'UC_BIOWOO_Imp_Growth-'
+'FI'.'NRG'.'UC_BIOWOO_Imp_Growth_'
+'FI'.'NRG'.'UC_ELC_Exp_Growth-'
+'FI'.'NRG'.'UC_ELC_Exp_Growth_'
+'FI'.'NRG'.'UC_ELC_Imp_Growth-'
+'FI'.'NRG'.'UC_ELC_Imp_Growth_'
+'FI'.'NRG'.'UC_EMHV_Imp_Growth-'
+'FI'.'NRG'.'UC_EMHV_Imp_Growth_'
+'FI'.'NRG'.'UC_NonDecrDESTECImp-'
+'FI'.'NRG'.'UC_NonDecrDESTECImp_'
+'FI'.'NRG'.'UC_NonDecrSolCAP-'
+'FI'.'NRG'.'UC_NonDecrSolCAP_'
+'FI'.'NRG'.'UC_NonDecrWinOFFCAP-'
+'FI'.'NRG'.'UC_NonDecrWinOFFCAP_'
+'FI'.'NRG'.'UC_NonDecrWinONCAP-'
+'FI'.'NRG'.'UC_NonDecrWinONCAP_'
+'FI'.'NRG'.'UC_OILDST_Exp_Growth-'
+'FI'.'NRG'.'UC_OILDST_Exp_Growth_'
+'FI'.'NRG'.'UC_OILDST_Imp_Growth-'
+'FI'.'NRG'.'UC_OILDST_Imp_Growth_'
+'FI'.'NRG'.'UC_OILGSL_Exp_Growth-'
+'FI'.'NRG'.'UC_OILGSL_Exp_Growth_'
+'FI'.'NRG'.'UC_OILGSL_Imp_Growth-'
+'FI'.'NRG'.'UC_OILGSL_Imp_Growth_'
+'FI'.'NRG'.'UC_OILHFO_Exp_Growth-'
+'FI'.'NRG'.'UC_OILHFO_Exp_Growth_'
+'FI'.'NRG'.'UC_OILHFO_Imp_Growth-'
+'FI'.'NRG'.'UC_OILHFO_Imp_Growth_'
+'FI'.'NRG'.'UC_OILKER_Exp_Growth-'
+'FI'.'NRG'.'UC_OILKER_Exp_Growth_'
+'FI'.'NRG'.'UC_OILKER_Imp_Growth-'
+'FI'.'NRG'.'UC_OILKER_Imp_Growth_'
+'FI'.'NRG'.'UC_OILLPG_Exp_Growth-'
+'FI'.'NRG'.'UC_OILLPG_Exp_Growth_'
+'FI'.'NRG'.'UC_OILLPG_Imp_Growth-'
+'FI'.'NRG'.'UC_OILLPG_Imp_Growth_'
+'FI'.'NRG'.'UC_OILNAP_Exp_Growth-'
+'FI'.'NRG'.'UC_OILNAP_Exp_Growth_'
+'FI'.'NRG'.'UC_OILNAP_Imp_Growth-'
+'FI'.'NRG'.'UC_OILNAP_Imp_Growth_'
+'FI'.'NRG'.'UC_OILNEU_Exp_Growth-'
+'FI'.'NRG'.'UC_OILNEU_Exp_Growth_'
+'FI'.'NRG'.'UC_OILNEU_Imp_Growth-'
+'FI'.'NRG'.'UC_OILNEU_Imp_Growth_'
+'FI'.'NRG'.'UC_OILOTH_Exp_Growth-'
+'FI'.'NRG'.'UC_OILOTH_Exp_Growth_'
+'FI'.'NRG'.'UC_OILOTH_Imp_Growth-'
+'FI'.'NRG'.'UC_OILOTH_Imp_Growth_'
+'FI'.'NRG'.'UC_OILRFG_Exp_Growth-'
+'FI'.'NRG'.'UC_OILRFG_Exp_Growth_'
+'FI'.'NRG'.'UC_OILRFG_Imp_Growth-'
+'FI'.'NRG'.'UC_OILRFG_Imp_Growth_'
+'FI'.'NRG'.'UELC_UpShare-CoalELC-'
+'FI'.'NRG'.'UELC_UpShare-CoalELC_'
+'FI1B1'.'NRG'.'UC_BIOETH_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_BIOETH_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_BIOOIL_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_BIOOIL_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_BIOWOO_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_BIOWOO_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_ELC_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_ELC_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_ELC_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_ELC_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_EMHV_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_EMHV_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_NonDecrDESTECImp-'
+'FI1B1'.'NRG'.'UC_NonDecrDESTECImp_'
+'FI1B1'.'NRG'.'UC_NonDecrSolCAP-'
+'FI1B1'.'NRG'.'UC_NonDecrSolCAP_'
+'FI1B1'.'NRG'.'UC_NonDecrWinOFFCAP-'
+'FI1B1'.'NRG'.'UC_NonDecrWinOFFCAP_'
+'FI1B1'.'NRG'.'UC_NonDecrWinONCAP-'
+'FI1B1'.'NRG'.'UC_NonDecrWinONCAP_'
+'FI1B1'.'NRG'.'UC_OILDST_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILDST_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILDST_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILDST_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILGSL_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILGSL_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILGSL_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILGSL_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILHFO_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILHFO_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILHFO_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILHFO_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILKER_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILKER_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILKER_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILKER_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILLPG_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILLPG_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILLPG_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILLPG_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILNAP_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILNAP_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILNAP_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILNAP_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILNEU_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILNEU_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILNEU_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILNEU_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILOTH_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILOTH_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILOTH_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILOTH_Imp_Growth_'
+'FI1B1'.'NRG'.'UC_OILRFG_Exp_Growth-'
+'FI1B1'.'NRG'.'UC_OILRFG_Exp_Growth_'
+'FI1B1'.'NRG'.'UC_OILRFG_Imp_Growth-'
+'FI1B1'.'NRG'.'UC_OILRFG_Imp_Growth_'
+'FI1B1'.'NRG'.'UELC_UpShare-CoalELC-'
+'FI1B1'.'NRG'.'UELC_UpShare-CoalELC_'
+'FI1D9'.'NRG'.'UC_BIOETH_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_BIOETH_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_BIOOIL_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_BIOOIL_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_BIOWOO_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_BIOWOO_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_ELC_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_ELC_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_ELC_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_ELC_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_EMHV_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_EMHV_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_NonDecrDESTECImp-'
+'FI1D9'.'NRG'.'UC_NonDecrDESTECImp_'
+'FI1D9'.'NRG'.'UC_NonDecrSolCAP-'
+'FI1D9'.'NRG'.'UC_NonDecrSolCAP_'
+'FI1D9'.'NRG'.'UC_NonDecrWinOFFCAP-'
+'FI1D9'.'NRG'.'UC_NonDecrWinOFFCAP_'
+'FI1D9'.'NRG'.'UC_NonDecrWinONCAP-'
+'FI1D9'.'NRG'.'UC_NonDecrWinONCAP_'
+'FI1D9'.'NRG'.'UC_OILDST_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILDST_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILDST_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILDST_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILGSL_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILGSL_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILGSL_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILGSL_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILHFO_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILHFO_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILHFO_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILHFO_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILKER_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILKER_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILKER_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILKER_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILLPG_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILLPG_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILLPG_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILLPG_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILNAP_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILNAP_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILNAP_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILNAP_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILNEU_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILNEU_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILNEU_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILNEU_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILOTH_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILOTH_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILOTH_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILOTH_Imp_Growth_'
+'FI1D9'.'NRG'.'UC_OILRFG_Exp_Growth-'
+'FI1D9'.'NRG'.'UC_OILRFG_Exp_Growth_'
+'FI1D9'.'NRG'.'UC_OILRFG_Imp_Growth-'
+'FI1D9'.'NRG'.'UC_OILRFG_Imp_Growth_'
+'FI1D9'.'NRG'.'UELC_UpShare-CoalELC-'
+'FI1D9'.'NRG'.'UELC_UpShare-CoalELC_'
+/;
+
+SET COM_UNIT
+
+/
+'FI'.'UC_BIOETH_Imp_Growth-'.'UCU'
+'FI'.'UC_BIOETH_Imp_Growth_'.'UCU'
+'FI'.'UC_BIOOIL_Imp_Growth-'.'UCU'
+'FI'.'UC_BIOOIL_Imp_Growth_'.'UCU'
+'FI'.'UC_BIOWOO_Imp_Growth-'.'UCU'
+'FI'.'UC_BIOWOO_Imp_Growth_'.'UCU'
+'FI'.'UC_ELC_Exp_Growth-'.'UCU'
+'FI'.'UC_ELC_Exp_Growth_'.'UCU'
+'FI'.'UC_ELC_Imp_Growth-'.'UCU'
+'FI'.'UC_ELC_Imp_Growth_'.'UCU'
+'FI'.'UC_EMHV_Imp_Growth-'.'UCU'
+'FI'.'UC_EMHV_Imp_Growth_'.'UCU'
+'FI'.'UC_NonDecrDESTECImp-'.'UCU'
+'FI'.'UC_NonDecrDESTECImp_'.'UCU'
+'FI'.'UC_NonDecrSolCAP-'.'UCU'
+'FI'.'UC_NonDecrSolCAP_'.'UCU'
+'FI'.'UC_NonDecrWinOFFCAP-'.'UCU'
+'FI'.'UC_NonDecrWinOFFCAP_'.'UCU'
+'FI'.'UC_NonDecrWinONCAP-'.'UCU'
+'FI'.'UC_NonDecrWinONCAP_'.'UCU'
+'FI'.'UC_OILDST_Exp_Growth-'.'UCU'
+'FI'.'UC_OILDST_Exp_Growth_'.'UCU'
+'FI'.'UC_OILDST_Imp_Growth-'.'UCU'
+'FI'.'UC_OILDST_Imp_Growth_'.'UCU'
+'FI'.'UC_OILGSL_Exp_Growth-'.'UCU'
+'FI'.'UC_OILGSL_Exp_Growth_'.'UCU'
+'FI'.'UC_OILGSL_Imp_Growth-'.'UCU'
+'FI'.'UC_OILGSL_Imp_Growth_'.'UCU'
+'FI'.'UC_OILHFO_Exp_Growth-'.'UCU'
+'FI'.'UC_OILHFO_Exp_Growth_'.'UCU'
+'FI'.'UC_OILHFO_Imp_Growth-'.'UCU'
+'FI'.'UC_OILHFO_Imp_Growth_'.'UCU'
+'FI'.'UC_OILKER_Exp_Growth-'.'UCU'
+'FI'.'UC_OILKER_Exp_Growth_'.'UCU'
+'FI'.'UC_OILKER_Imp_Growth-'.'UCU'
+'FI'.'UC_OILKER_Imp_Growth_'.'UCU'
+'FI'.'UC_OILLPG_Exp_Growth-'.'UCU'
+'FI'.'UC_OILLPG_Exp_Growth_'.'UCU'
+'FI'.'UC_OILLPG_Imp_Growth-'.'UCU'
+'FI'.'UC_OILLPG_Imp_Growth_'.'UCU'
+'FI'.'UC_OILNAP_Exp_Growth-'.'UCU'
+'FI'.'UC_OILNAP_Exp_Growth_'.'UCU'
+'FI'.'UC_OILNAP_Imp_Growth-'.'UCU'
+'FI'.'UC_OILNAP_Imp_Growth_'.'UCU'
+'FI'.'UC_OILNEU_Exp_Growth-'.'UCU'
+'FI'.'UC_OILNEU_Exp_Growth_'.'UCU'
+'FI'.'UC_OILNEU_Imp_Growth-'.'UCU'
+'FI'.'UC_OILNEU_Imp_Growth_'.'UCU'
+'FI'.'UC_OILOTH_Exp_Growth-'.'UCU'
+'FI'.'UC_OILOTH_Exp_Growth_'.'UCU'
+'FI'.'UC_OILOTH_Imp_Growth-'.'UCU'
+'FI'.'UC_OILOTH_Imp_Growth_'.'UCU'
+'FI'.'UC_OILRFG_Exp_Growth-'.'UCU'
+'FI'.'UC_OILRFG_Exp_Growth_'.'UCU'
+'FI'.'UC_OILRFG_Imp_Growth-'.'UCU'
+'FI'.'UC_OILRFG_Imp_Growth_'.'UCU'
+'FI'.'UELC_UpShare-CoalELC-'.'UCU'
+'FI'.'UELC_UpShare-CoalELC_'.'UCU'
+'FI1B1'.'UC_BIOETH_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_BIOETH_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_BIOOIL_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_BIOOIL_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_BIOWOO_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_BIOWOO_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_ELC_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_ELC_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_ELC_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_ELC_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_EMHV_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_EMHV_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_NonDecrDESTECImp-'.'UCU'
+'FI1B1'.'UC_NonDecrDESTECImp_'.'UCU'
+'FI1B1'.'UC_NonDecrSolCAP-'.'UCU'
+'FI1B1'.'UC_NonDecrSolCAP_'.'UCU'
+'FI1B1'.'UC_NonDecrWinOFFCAP-'.'UCU'
+'FI1B1'.'UC_NonDecrWinOFFCAP_'.'UCU'
+'FI1B1'.'UC_NonDecrWinONCAP-'.'UCU'
+'FI1B1'.'UC_NonDecrWinONCAP_'.'UCU'
+'FI1B1'.'UC_OILDST_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILDST_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILDST_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILDST_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILGSL_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILGSL_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILGSL_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILGSL_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILHFO_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILHFO_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILHFO_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILHFO_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILKER_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILKER_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILKER_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILKER_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILLPG_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILLPG_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILLPG_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILLPG_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILNAP_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILNAP_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILNAP_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILNAP_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILNEU_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILNEU_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILNEU_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILNEU_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILOTH_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILOTH_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILOTH_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILOTH_Imp_Growth_'.'UCU'
+'FI1B1'.'UC_OILRFG_Exp_Growth-'.'UCU'
+'FI1B1'.'UC_OILRFG_Exp_Growth_'.'UCU'
+'FI1B1'.'UC_OILRFG_Imp_Growth-'.'UCU'
+'FI1B1'.'UC_OILRFG_Imp_Growth_'.'UCU'
+'FI1B1'.'UELC_UpShare-CoalELC-'.'UCU'
+'FI1B1'.'UELC_UpShare-CoalELC_'.'UCU'
+'FI1D9'.'UC_BIOETH_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_BIOETH_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_BIOOIL_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_BIOOIL_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_BIOWOO_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_BIOWOO_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_ELC_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_ELC_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_ELC_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_ELC_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_EMHV_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_EMHV_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_NonDecrDESTECImp-'.'UCU'
+'FI1D9'.'UC_NonDecrDESTECImp_'.'UCU'
+'FI1D9'.'UC_NonDecrSolCAP-'.'UCU'
+'FI1D9'.'UC_NonDecrSolCAP_'.'UCU'
+'FI1D9'.'UC_NonDecrWinOFFCAP-'.'UCU'
+'FI1D9'.'UC_NonDecrWinOFFCAP_'.'UCU'
+'FI1D9'.'UC_NonDecrWinONCAP-'.'UCU'
+'FI1D9'.'UC_NonDecrWinONCAP_'.'UCU'
+'FI1D9'.'UC_OILDST_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILDST_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILDST_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILDST_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILGSL_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILGSL_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILGSL_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILGSL_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILHFO_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILHFO_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILHFO_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILHFO_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILKER_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILKER_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILKER_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILKER_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILLPG_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILLPG_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILLPG_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILLPG_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILNAP_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILNAP_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILNAP_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILNAP_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILNEU_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILNEU_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILNEU_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILNEU_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILOTH_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILOTH_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILOTH_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILOTH_Imp_Growth_'.'UCU'
+'FI1D9'.'UC_OILRFG_Exp_Growth-'.'UCU'
+'FI1D9'.'UC_OILRFG_Exp_Growth_'.'UCU'
+'FI1D9'.'UC_OILRFG_Imp_Growth-'.'UCU'
+'FI1D9'.'UC_OILRFG_Imp_Growth_'.'UCU'
+'FI1D9'.'UELC_UpShare-CoalELC-'.'UCU'
+'FI1D9'.'UELC_UpShare-CoalELC_'.'UCU'
+/;
+
+SET TOP_IRE
+
+/
+'IMPEXP'.'UC_BIOETH_Imp_Growth-'.'FI'.'UC_BIOETH_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_BIOETH_Imp_Growth_'.'FI'.'UC_BIOETH_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_BIOOIL_Imp_Growth-'.'FI'.'UC_BIOOIL_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_BIOOIL_Imp_Growth_'.'FI'.'UC_BIOOIL_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_BIOWOO_Imp_Growth-'.'FI'.'UC_BIOWOO_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_BIOWOO_Imp_Growth_'.'FI'.'UC_BIOWOO_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_ELC_Exp_Growth-'.'FI'.'UC_ELC_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_ELC_Exp_Growth_'.'FI'.'UC_ELC_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_ELC_Imp_Growth-'.'FI'.'UC_ELC_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_ELC_Imp_Growth_'.'FI'.'UC_ELC_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_EMHV_Imp_Growth-'.'FI'.'UC_EMHV_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_EMHV_Imp_Growth_'.'FI'.'UC_EMHV_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrDESTECImp-'.'FI'.'UC_NonDecrDESTECImp-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrDESTECImp-'.'FI1B1'.'UC_NonDecrDESTECImp-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrDESTECImp-'.'FI1D9'.'UC_NonDecrDESTECImp-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrDESTECImp_'.'FI'.'UC_NonDecrDESTECImp_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrDESTECImp_'.'FI1B1'.'UC_NonDecrDESTECImp_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrDESTECImp_'.'FI1D9'.'UC_NonDecrDESTECImp_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrSolCAP-'.'FI'.'UC_NonDecrSolCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrSolCAP-'.'FI1B1'.'UC_NonDecrSolCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrSolCAP-'.'FI1D9'.'UC_NonDecrSolCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrSolCAP_'.'FI'.'UC_NonDecrSolCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrSolCAP_'.'FI1B1'.'UC_NonDecrSolCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrSolCAP_'.'FI1D9'.'UC_NonDecrSolCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinOFFCAP-'.'FI'.'UC_NonDecrWinOFFCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinOFFCAP-'.'FI1B1'.'UC_NonDecrWinOFFCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinOFFCAP-'.'FI1D9'.'UC_NonDecrWinOFFCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinOFFCAP_'.'FI'.'UC_NonDecrWinOFFCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinOFFCAP_'.'FI1B1'.'UC_NonDecrWinOFFCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinOFFCAP_'.'FI1D9'.'UC_NonDecrWinOFFCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinONCAP-'.'FI'.'UC_NonDecrWinONCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinONCAP-'.'FI1B1'.'UC_NonDecrWinONCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinONCAP-'.'FI1D9'.'UC_NonDecrWinONCAP-'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinONCAP_'.'FI'.'UC_NonDecrWinONCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinONCAP_'.'FI1B1'.'UC_NonDecrWinONCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_NonDecrWinONCAP_'.'FI1D9'.'UC_NonDecrWinONCAP_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILDST_Exp_Growth-'.'FI'.'UC_OILDST_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILDST_Exp_Growth_'.'FI'.'UC_OILDST_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILDST_Imp_Growth-'.'FI'.'UC_OILDST_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILDST_Imp_Growth_'.'FI'.'UC_OILDST_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILGSL_Exp_Growth-'.'FI'.'UC_OILGSL_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILGSL_Exp_Growth_'.'FI'.'UC_OILGSL_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILGSL_Imp_Growth-'.'FI'.'UC_OILGSL_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILGSL_Imp_Growth_'.'FI'.'UC_OILGSL_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILHFO_Exp_Growth-'.'FI'.'UC_OILHFO_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILHFO_Exp_Growth_'.'FI'.'UC_OILHFO_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILHFO_Imp_Growth-'.'FI'.'UC_OILHFO_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILHFO_Imp_Growth_'.'FI'.'UC_OILHFO_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILKER_Exp_Growth-'.'FI'.'UC_OILKER_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILKER_Exp_Growth_'.'FI'.'UC_OILKER_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILKER_Imp_Growth-'.'FI'.'UC_OILKER_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILKER_Imp_Growth_'.'FI'.'UC_OILKER_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILLPG_Exp_Growth-'.'FI'.'UC_OILLPG_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILLPG_Exp_Growth_'.'FI'.'UC_OILLPG_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILLPG_Imp_Growth-'.'FI'.'UC_OILLPG_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILLPG_Imp_Growth_'.'FI'.'UC_OILLPG_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNAP_Exp_Growth-'.'FI'.'UC_OILNAP_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNAP_Exp_Growth_'.'FI'.'UC_OILNAP_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNAP_Imp_Growth-'.'FI'.'UC_OILNAP_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNAP_Imp_Growth_'.'FI'.'UC_OILNAP_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNEU_Exp_Growth-'.'FI'.'UC_OILNEU_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNEU_Exp_Growth_'.'FI'.'UC_OILNEU_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNEU_Imp_Growth-'.'FI'.'UC_OILNEU_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILNEU_Imp_Growth_'.'FI'.'UC_OILNEU_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILOTH_Exp_Growth-'.'FI'.'UC_OILOTH_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILOTH_Exp_Growth_'.'FI'.'UC_OILOTH_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILOTH_Imp_Growth-'.'FI'.'UC_OILOTH_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILOTH_Imp_Growth_'.'FI'.'UC_OILOTH_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILRFG_Exp_Growth-'.'FI'.'UC_OILRFG_Exp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILRFG_Exp_Growth_'.'FI'.'UC_OILRFG_Exp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UC_OILRFG_Imp_Growth-'.'FI'.'UC_OILRFG_Imp_Growth-'.'IMPNRGZ'
+'IMPEXP'.'UC_OILRFG_Imp_Growth_'.'FI'.'UC_OILRFG_Imp_Growth_'.'IMPNRGZ'
+'IMPEXP'.'UELC_UpShare-CoalELC-'.'FI'.'UELC_UpShare-CoalELC-'.'IMPNRGZ'
+'IMPEXP'.'UELC_UpShare-CoalELC-'.'FI1B1'.'UELC_UpShare-CoalELC-'.'IMPNRGZ'
+'IMPEXP'.'UELC_UpShare-CoalELC-'.'FI1D9'.'UELC_UpShare-CoalELC-'.'IMPNRGZ'
+'IMPEXP'.'UELC_UpShare-CoalELC_'.'FI'.'UELC_UpShare-CoalELC_'.'IMPNRGZ'
+'IMPEXP'.'UELC_UpShare-CoalELC_'.'FI1B1'.'UELC_UpShare-CoalELC_'.'IMPNRGZ'
+'IMPEXP'.'UELC_UpShare-CoalELC_'.'FI1D9'.'UELC_UpShare-CoalELC_'.'IMPNRGZ'
+/;
+
+SET COM_DESC
+
+/
+'FI'.'UC_BIOETH_Imp_Growth-' 'Negative dummy var for UC: UC_BIOETH_Imp_Growth'
+'FI'.'UC_BIOETH_Imp_Growth_' 'Positive dummy var for UC: UC_BIOETH_Imp_Growth'
+'FI'.'UC_BIOOIL_Imp_Growth-' 'Negative dummy var for UC: UC_BIOOIL_Imp_Growth'
+'FI'.'UC_BIOOIL_Imp_Growth_' 'Positive dummy var for UC: UC_BIOOIL_Imp_Growth'
+'FI'.'UC_BIOWOO_Imp_Growth-' 'Negative dummy var for UC: UC_BIOWOO_Imp_Growth'
+'FI'.'UC_BIOWOO_Imp_Growth_' 'Positive dummy var for UC: UC_BIOWOO_Imp_Growth'
+'FI'.'UC_ELC_Exp_Growth-' 'Negative dummy var for UC: UC_ELC_Exp_Growth'
+'FI'.'UC_ELC_Exp_Growth_' 'Positive dummy var for UC: UC_ELC_Exp_Growth'
+'FI'.'UC_ELC_Imp_Growth-' 'Negative dummy var for UC: UC_ELC_Imp_Growth'
+'FI'.'UC_ELC_Imp_Growth_' 'Positive dummy var for UC: UC_ELC_Imp_Growth'
+'FI'.'UC_EMHV_Imp_Growth-' 'Negative dummy var for UC: UC_EMHV_Imp_Growth'
+'FI'.'UC_EMHV_Imp_Growth_' 'Positive dummy var for UC: UC_EMHV_Imp_Growth'
+'FI'.'UC_NonDecrDESTECImp-' 'Negative dummy var for UC: UC_NonDecrDESTECImp'
+'FI'.'UC_NonDecrDESTECImp_' 'Positive dummy var for UC: UC_NonDecrDESTECImp'
+'FI'.'UC_NonDecrSolCAP-' 'Negative dummy var for UC: UC_NonDecrSolCAP'
+'FI'.'UC_NonDecrSolCAP_' 'Positive dummy var for UC: UC_NonDecrSolCAP'
+'FI'.'UC_NonDecrWinOFFCAP-' 'Negative dummy var for UC: UC_NonDecrWinOFFCAP'
+'FI'.'UC_NonDecrWinOFFCAP_' 'Positive dummy var for UC: UC_NonDecrWinOFFCAP'
+'FI'.'UC_NonDecrWinONCAP-' 'Negative dummy var for UC: UC_NonDecrWinONCAP'
+'FI'.'UC_NonDecrWinONCAP_' 'Positive dummy var for UC: UC_NonDecrWinONCAP'
+'FI'.'UC_OILDST_Exp_Growth-' 'Negative dummy var for UC: UC_OILDST_Exp_Growth'
+'FI'.'UC_OILDST_Exp_Growth_' 'Positive dummy var for UC: UC_OILDST_Exp_Growth'
+'FI'.'UC_OILDST_Imp_Growth-' 'Negative dummy var for UC: UC_OILDST_Imp_Growth'
+'FI'.'UC_OILDST_Imp_Growth_' 'Positive dummy var for UC: UC_OILDST_Imp_Growth'
+'FI'.'UC_OILGSL_Exp_Growth-' 'Negative dummy var for UC: UC_OILGSL_Exp_Growth'
+'FI'.'UC_OILGSL_Exp_Growth_' 'Positive dummy var for UC: UC_OILGSL_Exp_Growth'
+'FI'.'UC_OILGSL_Imp_Growth-' 'Negative dummy var for UC: UC_OILGSL_Imp_Growth'
+'FI'.'UC_OILGSL_Imp_Growth_' 'Positive dummy var for UC: UC_OILGSL_Imp_Growth'
+'FI'.'UC_OILHFO_Exp_Growth-' 'Negative dummy var for UC: UC_OILHFO_Exp_Growth'
+'FI'.'UC_OILHFO_Exp_Growth_' 'Positive dummy var for UC: UC_OILHFO_Exp_Growth'
+'FI'.'UC_OILHFO_Imp_Growth-' 'Negative dummy var for UC: UC_OILHFO_Imp_Growth'
+'FI'.'UC_OILHFO_Imp_Growth_' 'Positive dummy var for UC: UC_OILHFO_Imp_Growth'
+'FI'.'UC_OILKER_Exp_Growth-' 'Negative dummy var for UC: UC_OILKER_Exp_Growth'
+'FI'.'UC_OILKER_Exp_Growth_' 'Positive dummy var for UC: UC_OILKER_Exp_Growth'
+'FI'.'UC_OILKER_Imp_Growth-' 'Negative dummy var for UC: UC_OILKER_Imp_Growth'
+'FI'.'UC_OILKER_Imp_Growth_' 'Positive dummy var for UC: UC_OILKER_Imp_Growth'
+'FI'.'UC_OILLPG_Exp_Growth-' 'Negative dummy var for UC: UC_OILLPG_Exp_Growth'
+'FI'.'UC_OILLPG_Exp_Growth_' 'Positive dummy var for UC: UC_OILLPG_Exp_Growth'
+'FI'.'UC_OILLPG_Imp_Growth-' 'Negative dummy var for UC: UC_OILLPG_Imp_Growth'
+'FI'.'UC_OILLPG_Imp_Growth_' 'Positive dummy var for UC: UC_OILLPG_Imp_Growth'
+'FI'.'UC_OILNAP_Exp_Growth-' 'Negative dummy var for UC: UC_OILNAP_Exp_Growth'
+'FI'.'UC_OILNAP_Exp_Growth_' 'Positive dummy var for UC: UC_OILNAP_Exp_Growth'
+'FI'.'UC_OILNAP_Imp_Growth-' 'Negative dummy var for UC: UC_OILNAP_Imp_Growth'
+'FI'.'UC_OILNAP_Imp_Growth_' 'Positive dummy var for UC: UC_OILNAP_Imp_Growth'
+'FI'.'UC_OILNEU_Exp_Growth-' 'Negative dummy var for UC: UC_OILNEU_Exp_Growth'
+'FI'.'UC_OILNEU_Exp_Growth_' 'Positive dummy var for UC: UC_OILNEU_Exp_Growth'
+'FI'.'UC_OILNEU_Imp_Growth-' 'Negative dummy var for UC: UC_OILNEU_Imp_Growth'
+'FI'.'UC_OILNEU_Imp_Growth_' 'Positive dummy var for UC: UC_OILNEU_Imp_Growth'
+'FI'.'UC_OILOTH_Exp_Growth-' 'Negative dummy var for UC: UC_OILOTH_Exp_Growth'
+'FI'.'UC_OILOTH_Exp_Growth_' 'Positive dummy var for UC: UC_OILOTH_Exp_Growth'
+'FI'.'UC_OILOTH_Imp_Growth-' 'Negative dummy var for UC: UC_OILOTH_Imp_Growth'
+'FI'.'UC_OILOTH_Imp_Growth_' 'Positive dummy var for UC: UC_OILOTH_Imp_Growth'
+'FI'.'UC_OILRFG_Exp_Growth-' 'Negative dummy var for UC: UC_OILRFG_Exp_Growth'
+'FI'.'UC_OILRFG_Exp_Growth_' 'Positive dummy var for UC: UC_OILRFG_Exp_Growth'
+'FI'.'UC_OILRFG_Imp_Growth-' 'Negative dummy var for UC: UC_OILRFG_Imp_Growth'
+'FI'.'UC_OILRFG_Imp_Growth_' 'Positive dummy var for UC: UC_OILRFG_Imp_Growth'
+'FI'.'UELC_UpShare-CoalELC-' 'Negative dummy var for UC: UELC_UpShare-CoalELC'
+'FI'.'UELC_UpShare-CoalELC_' 'Positive dummy var for UC: UELC_UpShare-CoalELC'
+'FI1B1'.'UC_BIOETH_Imp_Growth-' 'Negative dummy var for UC: UC_BIOETH_Imp_Growth'
+'FI1B1'.'UC_BIOETH_Imp_Growth_' 'Positive dummy var for UC: UC_BIOETH_Imp_Growth'
+'FI1B1'.'UC_BIOOIL_Imp_Growth-' 'Negative dummy var for UC: UC_BIOOIL_Imp_Growth'
+'FI1B1'.'UC_BIOOIL_Imp_Growth_' 'Positive dummy var for UC: UC_BIOOIL_Imp_Growth'
+'FI1B1'.'UC_BIOWOO_Imp_Growth-' 'Negative dummy var for UC: UC_BIOWOO_Imp_Growth'
+'FI1B1'.'UC_BIOWOO_Imp_Growth_' 'Positive dummy var for UC: UC_BIOWOO_Imp_Growth'
+'FI1B1'.'UC_ELC_Exp_Growth-' 'Negative dummy var for UC: UC_ELC_Exp_Growth'
+'FI1B1'.'UC_ELC_Exp_Growth_' 'Positive dummy var for UC: UC_ELC_Exp_Growth'
+'FI1B1'.'UC_ELC_Imp_Growth-' 'Negative dummy var for UC: UC_ELC_Imp_Growth'
+'FI1B1'.'UC_ELC_Imp_Growth_' 'Positive dummy var for UC: UC_ELC_Imp_Growth'
+'FI1B1'.'UC_EMHV_Imp_Growth-' 'Negative dummy var for UC: UC_EMHV_Imp_Growth'
+'FI1B1'.'UC_EMHV_Imp_Growth_' 'Positive dummy var for UC: UC_EMHV_Imp_Growth'
+'FI1B1'.'UC_NonDecrDESTECImp-' 'Negative dummy var for UC: UC_NonDecrDESTECImp'
+'FI1B1'.'UC_NonDecrDESTECImp_' 'Positive dummy var for UC: UC_NonDecrDESTECImp'
+'FI1B1'.'UC_NonDecrSolCAP-' 'Negative dummy var for UC: UC_NonDecrSolCAP'
+'FI1B1'.'UC_NonDecrSolCAP_' 'Positive dummy var for UC: UC_NonDecrSolCAP'
+'FI1B1'.'UC_NonDecrWinOFFCAP-' 'Negative dummy var for UC: UC_NonDecrWinOFFCAP'
+'FI1B1'.'UC_NonDecrWinOFFCAP_' 'Positive dummy var for UC: UC_NonDecrWinOFFCAP'
+'FI1B1'.'UC_NonDecrWinONCAP-' 'Negative dummy var for UC: UC_NonDecrWinONCAP'
+'FI1B1'.'UC_NonDecrWinONCAP_' 'Positive dummy var for UC: UC_NonDecrWinONCAP'
+'FI1B1'.'UC_OILDST_Exp_Growth-' 'Negative dummy var for UC: UC_OILDST_Exp_Growth'
+'FI1B1'.'UC_OILDST_Exp_Growth_' 'Positive dummy var for UC: UC_OILDST_Exp_Growth'
+'FI1B1'.'UC_OILDST_Imp_Growth-' 'Negative dummy var for UC: UC_OILDST_Imp_Growth'
+'FI1B1'.'UC_OILDST_Imp_Growth_' 'Positive dummy var for UC: UC_OILDST_Imp_Growth'
+'FI1B1'.'UC_OILGSL_Exp_Growth-' 'Negative dummy var for UC: UC_OILGSL_Exp_Growth'
+'FI1B1'.'UC_OILGSL_Exp_Growth_' 'Positive dummy var for UC: UC_OILGSL_Exp_Growth'
+'FI1B1'.'UC_OILGSL_Imp_Growth-' 'Negative dummy var for UC: UC_OILGSL_Imp_Growth'
+'FI1B1'.'UC_OILGSL_Imp_Growth_' 'Positive dummy var for UC: UC_OILGSL_Imp_Growth'
+'FI1B1'.'UC_OILHFO_Exp_Growth-' 'Negative dummy var for UC: UC_OILHFO_Exp_Growth'
+'FI1B1'.'UC_OILHFO_Exp_Growth_' 'Positive dummy var for UC: UC_OILHFO_Exp_Growth'
+'FI1B1'.'UC_OILHFO_Imp_Growth-' 'Negative dummy var for UC: UC_OILHFO_Imp_Growth'
+'FI1B1'.'UC_OILHFO_Imp_Growth_' 'Positive dummy var for UC: UC_OILHFO_Imp_Growth'
+'FI1B1'.'UC_OILKER_Exp_Growth-' 'Negative dummy var for UC: UC_OILKER_Exp_Growth'
+'FI1B1'.'UC_OILKER_Exp_Growth_' 'Positive dummy var for UC: UC_OILKER_Exp_Growth'
+'FI1B1'.'UC_OILKER_Imp_Growth-' 'Negative dummy var for UC: UC_OILKER_Imp_Growth'
+'FI1B1'.'UC_OILKER_Imp_Growth_' 'Positive dummy var for UC: UC_OILKER_Imp_Growth'
+'FI1B1'.'UC_OILLPG_Exp_Growth-' 'Negative dummy var for UC: UC_OILLPG_Exp_Growth'
+'FI1B1'.'UC_OILLPG_Exp_Growth_' 'Positive dummy var for UC: UC_OILLPG_Exp_Growth'
+'FI1B1'.'UC_OILLPG_Imp_Growth-' 'Negative dummy var for UC: UC_OILLPG_Imp_Growth'
+'FI1B1'.'UC_OILLPG_Imp_Growth_' 'Positive dummy var for UC: UC_OILLPG_Imp_Growth'
+'FI1B1'.'UC_OILNAP_Exp_Growth-' 'Negative dummy var for UC: UC_OILNAP_Exp_Growth'
+'FI1B1'.'UC_OILNAP_Exp_Growth_' 'Positive dummy var for UC: UC_OILNAP_Exp_Growth'
+'FI1B1'.'UC_OILNAP_Imp_Growth-' 'Negative dummy var for UC: UC_OILNAP_Imp_Growth'
+'FI1B1'.'UC_OILNAP_Imp_Growth_' 'Positive dummy var for UC: UC_OILNAP_Imp_Growth'
+'FI1B1'.'UC_OILNEU_Exp_Growth-' 'Negative dummy var for UC: UC_OILNEU_Exp_Growth'
+'FI1B1'.'UC_OILNEU_Exp_Growth_' 'Positive dummy var for UC: UC_OILNEU_Exp_Growth'
+'FI1B1'.'UC_OILNEU_Imp_Growth-' 'Negative dummy var for UC: UC_OILNEU_Imp_Growth'
+'FI1B1'.'UC_OILNEU_Imp_Growth_' 'Positive dummy var for UC: UC_OILNEU_Imp_Growth'
+'FI1B1'.'UC_OILOTH_Exp_Growth-' 'Negative dummy var for UC: UC_OILOTH_Exp_Growth'
+'FI1B1'.'UC_OILOTH_Exp_Growth_' 'Positive dummy var for UC: UC_OILOTH_Exp_Growth'
+'FI1B1'.'UC_OILOTH_Imp_Growth-' 'Negative dummy var for UC: UC_OILOTH_Imp_Growth'
+'FI1B1'.'UC_OILOTH_Imp_Growth_' 'Positive dummy var for UC: UC_OILOTH_Imp_Growth'
+'FI1B1'.'UC_OILRFG_Exp_Growth-' 'Negative dummy var for UC: UC_OILRFG_Exp_Growth'
+'FI1B1'.'UC_OILRFG_Exp_Growth_' 'Positive dummy var for UC: UC_OILRFG_Exp_Growth'
+'FI1B1'.'UC_OILRFG_Imp_Growth-' 'Negative dummy var for UC: UC_OILRFG_Imp_Growth'
+'FI1B1'.'UC_OILRFG_Imp_Growth_' 'Positive dummy var for UC: UC_OILRFG_Imp_Growth'
+'FI1B1'.'UELC_UpShare-CoalELC-' 'Negative dummy var for UC: UELC_UpShare-CoalELC'
+'FI1B1'.'UELC_UpShare-CoalELC_' 'Positive dummy var for UC: UELC_UpShare-CoalELC'
+'FI1D9'.'UC_BIOETH_Imp_Growth-' 'Negative dummy var for UC: UC_BIOETH_Imp_Growth'
+'FI1D9'.'UC_BIOETH_Imp_Growth_' 'Positive dummy var for UC: UC_BIOETH_Imp_Growth'
+'FI1D9'.'UC_BIOOIL_Imp_Growth-' 'Negative dummy var for UC: UC_BIOOIL_Imp_Growth'
+'FI1D9'.'UC_BIOOIL_Imp_Growth_' 'Positive dummy var for UC: UC_BIOOIL_Imp_Growth'
+'FI1D9'.'UC_BIOWOO_Imp_Growth-' 'Negative dummy var for UC: UC_BIOWOO_Imp_Growth'
+'FI1D9'.'UC_BIOWOO_Imp_Growth_' 'Positive dummy var for UC: UC_BIOWOO_Imp_Growth'
+'FI1D9'.'UC_ELC_Exp_Growth-' 'Negative dummy var for UC: UC_ELC_Exp_Growth'
+'FI1D9'.'UC_ELC_Exp_Growth_' 'Positive dummy var for UC: UC_ELC_Exp_Growth'
+'FI1D9'.'UC_ELC_Imp_Growth-' 'Negative dummy var for UC: UC_ELC_Imp_Growth'
+'FI1D9'.'UC_ELC_Imp_Growth_' 'Positive dummy var for UC: UC_ELC_Imp_Growth'
+'FI1D9'.'UC_EMHV_Imp_Growth-' 'Negative dummy var for UC: UC_EMHV_Imp_Growth'
+'FI1D9'.'UC_EMHV_Imp_Growth_' 'Positive dummy var for UC: UC_EMHV_Imp_Growth'
+'FI1D9'.'UC_NonDecrDESTECImp-' 'Negative dummy var for UC: UC_NonDecrDESTECImp'
+'FI1D9'.'UC_NonDecrDESTECImp_' 'Positive dummy var for UC: UC_NonDecrDESTECImp'
+'FI1D9'.'UC_NonDecrSolCAP-' 'Negative dummy var for UC: UC_NonDecrSolCAP'
+'FI1D9'.'UC_NonDecrSolCAP_' 'Positive dummy var for UC: UC_NonDecrSolCAP'
+'FI1D9'.'UC_NonDecrWinOFFCAP-' 'Negative dummy var for UC: UC_NonDecrWinOFFCAP'
+'FI1D9'.'UC_NonDecrWinOFFCAP_' 'Positive dummy var for UC: UC_NonDecrWinOFFCAP'
+'FI1D9'.'UC_NonDecrWinONCAP-' 'Negative dummy var for UC: UC_NonDecrWinONCAP'
+'FI1D9'.'UC_NonDecrWinONCAP_' 'Positive dummy var for UC: UC_NonDecrWinONCAP'
+'FI1D9'.'UC_OILDST_Exp_Growth-' 'Negative dummy var for UC: UC_OILDST_Exp_Growth'
+'FI1D9'.'UC_OILDST_Exp_Growth_' 'Positive dummy var for UC: UC_OILDST_Exp_Growth'
+'FI1D9'.'UC_OILDST_Imp_Growth-' 'Negative dummy var for UC: UC_OILDST_Imp_Growth'
+'FI1D9'.'UC_OILDST_Imp_Growth_' 'Positive dummy var for UC: UC_OILDST_Imp_Growth'
+'FI1D9'.'UC_OILGSL_Exp_Growth-' 'Negative dummy var for UC: UC_OILGSL_Exp_Growth'
+'FI1D9'.'UC_OILGSL_Exp_Growth_' 'Positive dummy var for UC: UC_OILGSL_Exp_Growth'
+'FI1D9'.'UC_OILGSL_Imp_Growth-' 'Negative dummy var for UC: UC_OILGSL_Imp_Growth'
+'FI1D9'.'UC_OILGSL_Imp_Growth_' 'Positive dummy var for UC: UC_OILGSL_Imp_Growth'
+'FI1D9'.'UC_OILHFO_Exp_Growth-' 'Negative dummy var for UC: UC_OILHFO_Exp_Growth'
+'FI1D9'.'UC_OILHFO_Exp_Growth_' 'Positive dummy var for UC: UC_OILHFO_Exp_Growth'
+'FI1D9'.'UC_OILHFO_Imp_Growth-' 'Negative dummy var for UC: UC_OILHFO_Imp_Growth'
+'FI1D9'.'UC_OILHFO_Imp_Growth_' 'Positive dummy var for UC: UC_OILHFO_Imp_Growth'
+'FI1D9'.'UC_OILKER_Exp_Growth-' 'Negative dummy var for UC: UC_OILKER_Exp_Growth'
+'FI1D9'.'UC_OILKER_Exp_Growth_' 'Positive dummy var for UC: UC_OILKER_Exp_Growth'
+'FI1D9'.'UC_OILKER_Imp_Growth-' 'Negative dummy var for UC: UC_OILKER_Imp_Growth'
+'FI1D9'.'UC_OILKER_Imp_Growth_' 'Positive dummy var for UC: UC_OILKER_Imp_Growth'
+'FI1D9'.'UC_OILLPG_Exp_Growth-' 'Negative dummy var for UC: UC_OILLPG_Exp_Growth'
+'FI1D9'.'UC_OILLPG_Exp_Growth_' 'Positive dummy var for UC: UC_OILLPG_Exp_Growth'
+'FI1D9'.'UC_OILLPG_Imp_Growth-' 'Negative dummy var for UC: UC_OILLPG_Imp_Growth'
+'FI1D9'.'UC_OILLPG_Imp_Growth_' 'Positive dummy var for UC: UC_OILLPG_Imp_Growth'
+'FI1D9'.'UC_OILNAP_Exp_Growth-' 'Negative dummy var for UC: UC_OILNAP_Exp_Growth'
+'FI1D9'.'UC_OILNAP_Exp_Growth_' 'Positive dummy var for UC: UC_OILNAP_Exp_Growth'
+'FI1D9'.'UC_OILNAP_Imp_Growth-' 'Negative dummy var for UC: UC_OILNAP_Imp_Growth'
+'FI1D9'.'UC_OILNAP_Imp_Growth_' 'Positive dummy var for UC: UC_OILNAP_Imp_Growth'
+'FI1D9'.'UC_OILNEU_Exp_Growth-' 'Negative dummy var for UC: UC_OILNEU_Exp_Growth'
+'FI1D9'.'UC_OILNEU_Exp_Growth_' 'Positive dummy var for UC: UC_OILNEU_Exp_Growth'
+'FI1D9'.'UC_OILNEU_Imp_Growth-' 'Negative dummy var for UC: UC_OILNEU_Imp_Growth'
+'FI1D9'.'UC_OILNEU_Imp_Growth_' 'Positive dummy var for UC: UC_OILNEU_Imp_Growth'
+'FI1D9'.'UC_OILOTH_Exp_Growth-' 'Negative dummy var for UC: UC_OILOTH_Exp_Growth'
+'FI1D9'.'UC_OILOTH_Exp_Growth_' 'Positive dummy var for UC: UC_OILOTH_Exp_Growth'
+'FI1D9'.'UC_OILOTH_Imp_Growth-' 'Negative dummy var for UC: UC_OILOTH_Imp_Growth'
+'FI1D9'.'UC_OILOTH_Imp_Growth_' 'Positive dummy var for UC: UC_OILOTH_Imp_Growth'
+'FI1D9'.'UC_OILRFG_Exp_Growth-' 'Negative dummy var for UC: UC_OILRFG_Exp_Growth'
+'FI1D9'.'UC_OILRFG_Exp_Growth_' 'Positive dummy var for UC: UC_OILRFG_Exp_Growth'
+'FI1D9'.'UC_OILRFG_Imp_Growth-' 'Negative dummy var for UC: UC_OILRFG_Imp_Growth'
+'FI1D9'.'UC_OILRFG_Imp_Growth_' 'Positive dummy var for UC: UC_OILRFG_Imp_Growth'
+'FI1D9'.'UELC_UpShare-CoalELC-' 'Negative dummy var for UC: UELC_UpShare-CoalELC'
+'FI1D9'.'UELC_UpShare-CoalELC_' 'Positive dummy var for UC: UELC_UpShare-CoalELC'
+/;
+
+SET UC_R_EACH
+
+/
+'FI'.'UC_BIOETH_Imp_Growth'
+'FI'.'UC_BIOOIL_Imp_Growth'
+'FI'.'UC_BIOWOO_Imp_Growth'
+'FI'.'UC_ELC_Exp_Growth'
+'FI'.'UC_ELC_Imp_Growth'
+'FI'.'UC_EMHV_Imp_Growth'
+'FI'.'UC_NonDecrDESTECImp'
+'FI'.'UC_NonDecrSolCAP'
+'FI'.'UC_NonDecrWinOFFCAP'
+'FI'.'UC_NonDecrWinONCAP'
+'FI'.'UC_OILDST_Exp_Growth'
+'FI'.'UC_OILDST_Imp_Growth'
+'FI'.'UC_OILGSL_Exp_Growth'
+'FI'.'UC_OILGSL_Imp_Growth'
+'FI'.'UC_OILHFO_Exp_Growth'
+'FI'.'UC_OILHFO_Imp_Growth'
+'FI'.'UC_OILKER_Exp_Growth'
+'FI'.'UC_OILKER_Imp_Growth'
+'FI'.'UC_OILLPG_Exp_Growth'
+'FI'.'UC_OILLPG_Imp_Growth'
+'FI'.'UC_OILNAP_Exp_Growth'
+'FI'.'UC_OILNAP_Imp_Growth'
+'FI'.'UC_OILNEU_Exp_Growth'
+'FI'.'UC_OILNEU_Imp_Growth'
+'FI'.'UC_OILOTH_Exp_Growth'
+'FI'.'UC_OILOTH_Imp_Growth'
+'FI'.'UC_OILRFG_Exp_Growth'
+'FI'.'UC_OILRFG_Imp_Growth'
+'FI'.'UELC_UpShare-CoalELC'
+'FI1B1'.'UC_NonDecrDESTECImp'
+'FI1B1'.'UC_NonDecrSolCAP'
+'FI1B1'.'UC_NonDecrWinOFFCAP'
+'FI1B1'.'UC_NonDecrWinONCAP'
+'FI1B1'.'UELC_UpShare-CoalELC'
+'FI1D9'.'UC_NonDecrDESTECImp'
+'FI1D9'.'UC_NonDecrSolCAP'
+'FI1D9'.'UC_NonDecrWinOFFCAP'
+'FI1D9'.'UC_NonDecrWinONCAP'
+'FI1D9'.'UELC_UpShare-CoalELC'
+/;
+
+SET UC_ATTR
+
+/
+'FI'.'UC_BIOETH_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_BIOOIL_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_BIOWOO_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_ELC_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_ELC_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_EMHV_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_NonDecrDESTECImp'.LHS.ACT.GROWTH
+'FI'.'UC_NonDecrSolCAP'.LHS.CAP.GROWTH
+'FI'.'UC_NonDecrWinOFFCAP'.LHS.CAP.GROWTH
+'FI'.'UC_NonDecrWinONCAP'.LHS.CAP.GROWTH
+'FI'.'UC_OILDST_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILDST_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILGSL_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILGSL_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILHFO_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILHFO_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILKER_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILKER_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILLPG_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILLPG_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILNAP_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILNAP_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILNEU_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILNEU_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILOTH_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILOTH_Imp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILRFG_Exp_Growth'.LHS.ACT.GROWTH
+'FI'.'UC_OILRFG_Imp_Growth'.LHS.ACT.GROWTH
+'FI1B1'.'UC_NonDecrDESTECImp'.LHS.ACT.GROWTH
+'FI1B1'.'UC_NonDecrSolCAP'.LHS.CAP.GROWTH
+'FI1B1'.'UC_NonDecrWinOFFCAP'.LHS.CAP.GROWTH
+'FI1B1'.'UC_NonDecrWinONCAP'.LHS.CAP.GROWTH
+'FI1D9'.'UC_NonDecrDESTECImp'.LHS.ACT.GROWTH
+'FI1D9'.'UC_NonDecrSolCAP'.LHS.CAP.GROWTH
+'FI1D9'.'UC_NonDecrWinOFFCAP'.LHS.CAP.GROWTH
+'FI1D9'.'UC_NonDecrWinONCAP'.LHS.CAP.GROWTH
+/;
+
+PARAMETER
+
+UC_ACT ' '/
+'UC_BIOETH_Imp_Growth'.LHS.'FI'.2025.'IMPBIOETH'.ANNUAL 1
+'UC_BIOETH_Imp_Growth'.RHS.'FI'.2025.'IMPBIOETH'.ANNUAL 1
+'UC_BIOOIL_Imp_Growth'.LHS.'FI'.2025.'IMPBIOOIL'.ANNUAL 1
+'UC_BIOOIL_Imp_Growth'.RHS.'FI'.2025.'IMPBIOOIL'.ANNUAL 1
+'UC_BIOWOO_Imp_Growth'.LHS.'FI'.2025.'IMPBIOWOO'.ANNUAL 1
+'UC_BIOWOO_Imp_Growth'.RHS.'FI'.2025.'IMPBIOWOO'.ANNUAL 1
+'UC_ELC_Exp_Growth'.LHS.'FI'.2025.'EXPELC-fromFI'.ANNUAL 1
+'UC_ELC_Exp_Growth'.RHS.'FI'.2025.'EXPELC-fromFI'.ANNUAL 1
+'UC_ELC_Imp_Growth'.LHS.'FI'.2025.'IMPELC-EetoFI'.ANNUAL 1
+'UC_ELC_Imp_Growth'.LHS.'FI'.2025.'IMPELC-NOtoFI'.ANNUAL 1
+'UC_ELC_Imp_Growth'.LHS.'FI'.2025.'IMPELC-SEtoFI'.ANNUAL 1
+'UC_ELC_Imp_Growth'.RHS.'FI'.2025.'IMPELC-EetoFI'.ANNUAL 1
+'UC_ELC_Imp_Growth'.RHS.'FI'.2025.'IMPELC-NOtoFI'.ANNUAL 1
+'UC_ELC_Imp_Growth'.RHS.'FI'.2025.'IMPELC-SEtoFI'.ANNUAL 1
+'UC_EMHV_Imp_Growth'.LHS.'FI'.2025.'IMPBIOEMHV'.ANNUAL 1
+'UC_EMHV_Imp_Growth'.RHS.'FI'.2025.'IMPBIOEMHV'.ANNUAL 1
+'UC_OILDST_Exp_Growth'.LHS.'FI'.2025.'EXPOILDST'.ANNUAL 1
+'UC_OILDST_Exp_Growth'.RHS.'FI'.2025.'EXPOILDST'.ANNUAL 1
+'UC_OILDST_Imp_Growth'.LHS.'FI'.2025.'IMPOILDST'.ANNUAL 1
+'UC_OILDST_Imp_Growth'.RHS.'FI'.2025.'IMPOILDST'.ANNUAL 1
+'UC_OILGSL_Exp_Growth'.LHS.'FI'.2025.'EXPOILGSL'.ANNUAL 1
+'UC_OILGSL_Exp_Growth'.RHS.'FI'.2025.'EXPOILGSL'.ANNUAL 1
+'UC_OILGSL_Imp_Growth'.LHS.'FI'.2025.'IMPOILGSL'.ANNUAL 1
+'UC_OILGSL_Imp_Growth'.RHS.'FI'.2025.'IMPOILGSL'.ANNUAL 1
+'UC_OILHFO_Exp_Growth'.LHS.'FI'.2025.'EXPOILHFO'.ANNUAL 1
+'UC_OILHFO_Exp_Growth'.RHS.'FI'.2025.'EXPOILHFO'.ANNUAL 1
+'UC_OILHFO_Imp_Growth'.LHS.'FI'.2025.'IMPOILHFO'.ANNUAL 1
+'UC_OILHFO_Imp_Growth'.RHS.'FI'.2025.'IMPOILHFO'.ANNUAL 1
+'UC_OILKER_Exp_Growth'.LHS.'FI'.2025.'EXPOILKER'.ANNUAL 1
+'UC_OILKER_Exp_Growth'.RHS.'FI'.2025.'EXPOILKER'.ANNUAL 1
+'UC_OILKER_Imp_Growth'.LHS.'FI'.2025.'IMPOILKER'.ANNUAL 1
+'UC_OILKER_Imp_Growth'.RHS.'FI'.2025.'IMPOILKER'.ANNUAL 1
+'UC_OILLPG_Exp_Growth'.LHS.'FI'.2025.'EXPOILLPG'.ANNUAL 1
+'UC_OILLPG_Exp_Growth'.RHS.'FI'.2025.'EXPOILLPG'.ANNUAL 1
+'UC_OILLPG_Imp_Growth'.LHS.'FI'.2025.'IMPOILLPG'.ANNUAL 1
+'UC_OILLPG_Imp_Growth'.RHS.'FI'.2025.'IMPOILLPG'.ANNUAL 1
+'UC_OILNAP_Exp_Growth'.LHS.'FI'.2025.'EXPOILNAP'.ANNUAL 1
+'UC_OILNAP_Exp_Growth'.RHS.'FI'.2025.'EXPOILNAP'.ANNUAL 1
+'UC_OILNAP_Imp_Growth'.LHS.'FI'.2025.'IMPOILNAP'.ANNUAL 1
+'UC_OILNAP_Imp_Growth'.RHS.'FI'.2025.'IMPOILNAP'.ANNUAL 1
+'UC_OILNEU_Exp_Growth'.LHS.'FI'.2025.'EXPOILNEU'.ANNUAL 1
+'UC_OILNEU_Exp_Growth'.RHS.'FI'.2025.'EXPOILNEU'.ANNUAL 1
+'UC_OILNEU_Imp_Growth'.LHS.'FI'.2025.'IMPOILNEU'.ANNUAL 1
+'UC_OILNEU_Imp_Growth'.RHS.'FI'.2025.'IMPOILNEU'.ANNUAL 1
+'UC_OILOTH_Exp_Growth'.LHS.'FI'.2025.'EXPOILOTH'.ANNUAL 1
+'UC_OILOTH_Exp_Growth'.RHS.'FI'.2025.'EXPOILOTH'.ANNUAL 1
+'UC_OILOTH_Imp_Growth'.LHS.'FI'.2025.'IMPOILOTH'.ANNUAL 1
+'UC_OILOTH_Imp_Growth'.RHS.'FI'.2025.'IMPOILOTH'.ANNUAL 1
+'UC_OILRFG_Exp_Growth'.LHS.'FI'.2025.'EXPOILRFG'.ANNUAL 1
+'UC_OILRFG_Exp_Growth'.RHS.'FI'.2025.'EXPOILRFG'.ANNUAL 1
+'UC_OILRFG_Imp_Growth'.LHS.'FI'.2025.'IMPOILRFG'.ANNUAL 1
+'UC_OILRFG_Imp_Growth'.RHS.'FI'.2025.'IMPOILRFG'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_CAP ' '/
+'UC_NonDecrSolCAP'.LHS.'FI'.2017.'EEPP_CSP' 1
+'UC_NonDecrSolCAP'.LHS.'FI'.2017.'EEPP_PV' 1
+'UC_NonDecrSolCAP'.LHS.'FI'.2017.'EUPVSOLL101' 1
+'UC_NonDecrSolCAP'.LHS.'FI'.2017.'EUPVSOLL201' 1
+'UC_NonDecrSolCAP'.LHS.'FI'.2017.'EUPVSOLS101' 1
+'UC_NonDecrSolCAP'.LHS.'FI'.2017.'EUPVSOLS201' 1
+'UC_NonDecrSolCAP'.RHS.'FI'.2017.'EEPP_CSP' 1
+'UC_NonDecrSolCAP'.RHS.'FI'.2017.'EEPP_PV' 1
+'UC_NonDecrSolCAP'.RHS.'FI'.2017.'EUPVSOLL101' 1
+'UC_NonDecrSolCAP'.RHS.'FI'.2017.'EUPVSOLL201' 1
+'UC_NonDecrSolCAP'.RHS.'FI'.2017.'EUPVSOLS101' 1
+'UC_NonDecrSolCAP'.RHS.'FI'.2017.'EUPVSOLS201' 1
+'UC_NonDecrWinOFFCAP'.LHS.'FI'.2017.'EEPP_windOFF' 1
+'UC_NonDecrWinOFFCAP'.LHS.'FI'.2017.'EUWINOFH01' 1
+'UC_NonDecrWinOFFCAP'.LHS.'FI'.2017.'EUWINOFV01' 1
+'UC_NonDecrWinOFFCAP'.RHS.'FI'.2017.'EEPP_windOFF' 1
+'UC_NonDecrWinOFFCAP'.RHS.'FI'.2017.'EUWINOFH01' 1
+'UC_NonDecrWinOFFCAP'.RHS.'FI'.2017.'EUWINOFV01' 1
+'UC_NonDecrWinONCAP'.LHS.'FI'.2017.'EEPP_windON' 1
+'UC_NonDecrWinONCAP'.LHS.'FI'.2017.'EUWINONH01' 1
+'UC_NonDecrWinONCAP'.LHS.'FI'.2017.'EUWINONL01' 1
+'UC_NonDecrWinONCAP'.LHS.'FI'.2017.'EUWINONM01' 1
+'UC_NonDecrWinONCAP'.RHS.'FI'.2017.'EEPP_windON' 1
+'UC_NonDecrWinONCAP'.RHS.'FI'.2017.'EUWINONH01' 1
+'UC_NonDecrWinONCAP'.RHS.'FI'.2017.'EUWINONL01' 1
+'UC_NonDecrWinONCAP'.RHS.'FI'.2017.'EUWINONM01' 1
+/;
+
+PARAMETER
+
+UC_COMPRD ' '/
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'ELCHIG'.ANNUAL -0.12340480359888
+/;
+
+PARAMETER
+
+UC_FLO ' '/
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EEPP_coal_CCGT'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EEPP_coal_thermal'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EEPP_lignite_thermal'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUFBCOH15'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUFBCOL01'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUIGCCCOH15'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUIGCCCOL01'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUSTCOHcon01'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUSTCOHsup01'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUSTCOLcon01'.'ELCHIG'.ANNUAL 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2012.'EUSTCOLsup01'.'ELCHIG'.ANNUAL 1
+/;
+
+PARAMETER
+
+UC_IRE ' '/
+'UC_BIOETH_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BIOETH_Imp_Growth-'.ANNUAL.IMP -1
+'UC_BIOETH_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BIOETH_Imp_Growth_'.ANNUAL.IMP 1
+'UC_BIOOIL_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BIOOIL_Imp_Growth-'.ANNUAL.IMP -1
+'UC_BIOOIL_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BIOOIL_Imp_Growth_'.ANNUAL.IMP 1
+'UC_BIOWOO_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BIOWOO_Imp_Growth-'.ANNUAL.IMP -1
+'UC_BIOWOO_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BIOWOO_Imp_Growth_'.ANNUAL.IMP 1
+'UC_ELC_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_ELC_Exp_Growth-'.ANNUAL.IMP -1
+'UC_ELC_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_ELC_Exp_Growth_'.ANNUAL.IMP 1
+'UC_ELC_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_ELC_Imp_Growth-'.ANNUAL.IMP -1
+'UC_ELC_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_ELC_Imp_Growth_'.ANNUAL.IMP 1
+'UC_EMHV_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_EMHV_Imp_Growth-'.ANNUAL.IMP -1
+'UC_EMHV_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_EMHV_Imp_Growth_'.ANNUAL.IMP 1
+'UC_NonDecrDESTECImp'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrDESTECImp-'.ANNUAL.IMP -1
+'UC_NonDecrDESTECImp'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrDESTECImp_'.ANNUAL.IMP 1
+'UC_NonDecrDESTECImp'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrDESTECImp-'.ANNUAL.IMP -1
+'UC_NonDecrDESTECImp'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrDESTECImp_'.ANNUAL.IMP 1
+'UC_NonDecrDESTECImp'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrDESTECImp-'.ANNUAL.IMP -1
+'UC_NonDecrDESTECImp'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrDESTECImp_'.ANNUAL.IMP 1
+'UC_NonDecrSolCAP'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrSolCAP-'.ANNUAL.IMP -1
+'UC_NonDecrSolCAP'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrSolCAP_'.ANNUAL.IMP 1
+'UC_NonDecrSolCAP'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrSolCAP-'.ANNUAL.IMP -1
+'UC_NonDecrSolCAP'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrSolCAP_'.ANNUAL.IMP 1
+'UC_NonDecrSolCAP'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrSolCAP-'.ANNUAL.IMP -1
+'UC_NonDecrSolCAP'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrSolCAP_'.ANNUAL.IMP 1
+'UC_NonDecrWinOFFCAP'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrWinOFFCAP-'.ANNUAL.IMP -1
+'UC_NonDecrWinOFFCAP'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrWinOFFCAP_'.ANNUAL.IMP 1
+'UC_NonDecrWinOFFCAP'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrWinOFFCAP-'.ANNUAL.IMP -1
+'UC_NonDecrWinOFFCAP'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrWinOFFCAP_'.ANNUAL.IMP 1
+'UC_NonDecrWinOFFCAP'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrWinOFFCAP-'.ANNUAL.IMP -1
+'UC_NonDecrWinOFFCAP'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrWinOFFCAP_'.ANNUAL.IMP 1
+'UC_NonDecrWinONCAP'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrWinONCAP-'.ANNUAL.IMP -1
+'UC_NonDecrWinONCAP'.LHS.'FI'.2010.'IMPNRGZ'.'UC_NonDecrWinONCAP_'.ANNUAL.IMP 1
+'UC_NonDecrWinONCAP'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrWinONCAP-'.ANNUAL.IMP -1
+'UC_NonDecrWinONCAP'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_NonDecrWinONCAP_'.ANNUAL.IMP 1
+'UC_NonDecrWinONCAP'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrWinONCAP-'.ANNUAL.IMP -1
+'UC_NonDecrWinONCAP'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_NonDecrWinONCAP_'.ANNUAL.IMP 1
+'UC_OILDST_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILDST_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILDST_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILDST_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILDST_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILDST_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILDST_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILDST_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILGSL_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILGSL_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILGSL_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILGSL_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILGSL_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILGSL_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILGSL_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILGSL_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILHFO_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILHFO_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILHFO_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILHFO_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILHFO_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILHFO_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILHFO_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILHFO_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILKER_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILKER_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILKER_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILKER_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILKER_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILKER_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILKER_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILKER_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILLPG_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILLPG_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILLPG_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILLPG_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILLPG_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILLPG_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILLPG_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILLPG_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILNAP_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNAP_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILNAP_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNAP_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILNAP_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNAP_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILNAP_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNAP_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILNEU_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNEU_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILNEU_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNEU_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILNEU_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNEU_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILNEU_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILNEU_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILOTH_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILOTH_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILOTH_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILOTH_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILOTH_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILOTH_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILOTH_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILOTH_Imp_Growth_'.ANNUAL.IMP 1
+'UC_OILRFG_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILRFG_Exp_Growth-'.ANNUAL.IMP -1
+'UC_OILRFG_Exp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILRFG_Exp_Growth_'.ANNUAL.IMP 1
+'UC_OILRFG_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILRFG_Imp_Growth-'.ANNUAL.IMP -1
+'UC_OILRFG_Imp_Growth'.LHS.'FI'.2010.'IMPNRGZ'.'UC_OILRFG_Imp_Growth_'.ANNUAL.IMP 1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2010.'IMPNRGZ'.'UELC_UpShare-CoalELC-'.ANNUAL.IMP -1
+'UELC_UpShare-CoalELC'.LHS.'FI'.2010.'IMPNRGZ'.'UELC_UpShare-CoalELC_'.ANNUAL.IMP 1
+'UELC_UpShare-CoalELC'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UELC_UpShare-CoalELC-'.ANNUAL.IMP -1
+'UELC_UpShare-CoalELC'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UELC_UpShare-CoalELC_'.ANNUAL.IMP 1
+'UELC_UpShare-CoalELC'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UELC_UpShare-CoalELC-'.ANNUAL.IMP -1
+'UELC_UpShare-CoalELC'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UELC_UpShare-CoalELC_'.ANNUAL.IMP 1
+/;
+
+PARAMETER
+
+UC_RHSRT ' '/
+'FI'.'UC_BIOETH_Imp_Growth'.0.LO 5
+'FI'.'UC_BIOETH_Imp_Growth'.2025.LO 0
+'FI'.'UC_BIOOIL_Imp_Growth'.0.LO 5
+'FI'.'UC_BIOOIL_Imp_Growth'.2025.LO 0
+'FI'.'UC_BIOWOO_Imp_Growth'.0.LO 5
+'FI'.'UC_BIOWOO_Imp_Growth'.2025.LO 0
+'FI'.'UC_ELC_Exp_Growth'.0.LO 5
+'FI'.'UC_ELC_Exp_Growth'.2025.LO 0
+'FI'.'UC_ELC_Imp_Growth'.0.LO 5
+'FI'.'UC_ELC_Imp_Growth'.2025.LO 0
+'FI'.'UC_EMHV_Imp_Growth'.0.LO 5
+'FI'.'UC_EMHV_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILDST_Exp_Growth'.0.LO 5
+'FI'.'UC_OILDST_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILDST_Imp_Growth'.0.LO 5
+'FI'.'UC_OILDST_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILGSL_Exp_Growth'.0.LO 5
+'FI'.'UC_OILGSL_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILGSL_Imp_Growth'.0.LO 5
+'FI'.'UC_OILGSL_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILHFO_Exp_Growth'.0.LO 5
+'FI'.'UC_OILHFO_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILHFO_Imp_Growth'.0.LO 5
+'FI'.'UC_OILHFO_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILKER_Exp_Growth'.0.LO 5
+'FI'.'UC_OILKER_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILKER_Imp_Growth'.0.LO 5
+'FI'.'UC_OILKER_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILLPG_Exp_Growth'.0.LO 5
+'FI'.'UC_OILLPG_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILLPG_Imp_Growth'.0.LO 5
+'FI'.'UC_OILLPG_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILNAP_Exp_Growth'.0.LO 5
+'FI'.'UC_OILNAP_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILNAP_Imp_Growth'.0.LO 5
+'FI'.'UC_OILNAP_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILNEU_Exp_Growth'.0.LO 5
+'FI'.'UC_OILNEU_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILNEU_Imp_Growth'.0.LO 5
+'FI'.'UC_OILNEU_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILOTH_Exp_Growth'.0.LO 5
+'FI'.'UC_OILOTH_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILOTH_Imp_Growth'.0.LO 5
+'FI'.'UC_OILOTH_Imp_Growth'.2025.LO 0
+'FI'.'UC_OILRFG_Exp_Growth'.0.LO 5
+'FI'.'UC_OILRFG_Exp_Growth'.2025.LO 0
+'FI'.'UC_OILRFG_Imp_Growth'.0.LO 5
+'FI'.'UC_OILRFG_Imp_Growth'.2025.LO 0
+/;
+
+PARAMETER
+
+UC_RHSRTS ' '/
+'FI'.'UC_NonDecrDESTECImp'.0.ANNUAL.UP 5
+'FI'.'UC_NonDecrDESTECImp'.2017.ANNUAL.UP 0
+'FI'.'UC_NonDecrSolCAP'.0.ANNUAL.UP 5
+'FI'.'UC_NonDecrSolCAP'.2017.ANNUAL.UP 0
+'FI'.'UC_NonDecrWinOFFCAP'.0.ANNUAL.UP 5
+'FI'.'UC_NonDecrWinOFFCAP'.2017.ANNUAL.UP 0
+'FI'.'UC_NonDecrWinONCAP'.0.ANNUAL.UP 5
+'FI'.'UC_NonDecrWinONCAP'.2017.ANNUAL.UP 0
+'FI'.'UELC_UpShare-CoalELC'.0.ANNUAL.UP 15
+'FI'.'UELC_UpShare-CoalELC'.2012.ANNUAL.UP 0
+'FI1B1'.'UC_NonDecrDESTECImp'.0.ANNUAL.UP 5
+'FI1B1'.'UC_NonDecrDESTECImp'.2017.ANNUAL.UP 0
+'FI1B1'.'UC_NonDecrSolCAP'.0.ANNUAL.UP 5
+'FI1B1'.'UC_NonDecrSolCAP'.2017.ANNUAL.UP 0
+'FI1B1'.'UC_NonDecrWinOFFCAP'.0.ANNUAL.UP 5
+'FI1B1'.'UC_NonDecrWinOFFCAP'.2017.ANNUAL.UP 0
+'FI1B1'.'UC_NonDecrWinONCAP'.0.ANNUAL.UP 5
+'FI1B1'.'UC_NonDecrWinONCAP'.2017.ANNUAL.UP 0
+'FI1B1'.'UELC_UpShare-CoalELC'.0.ANNUAL.UP 15
+'FI1B1'.'UELC_UpShare-CoalELC'.2012.ANNUAL.UP 0
+'FI1D9'.'UC_NonDecrDESTECImp'.0.ANNUAL.UP 5
+'FI1D9'.'UC_NonDecrDESTECImp'.2017.ANNUAL.UP 0
+'FI1D9'.'UC_NonDecrSolCAP'.0.ANNUAL.UP 5
+'FI1D9'.'UC_NonDecrSolCAP'.2017.ANNUAL.UP 0
+'FI1D9'.'UC_NonDecrWinOFFCAP'.0.ANNUAL.UP 5
+'FI1D9'.'UC_NonDecrWinOFFCAP'.2017.ANNUAL.UP 0
+'FI1D9'.'UC_NonDecrWinONCAP'.0.ANNUAL.UP 5
+'FI1D9'.'UC_NonDecrWinONCAP'.2017.ANNUAL.UP 0
+'FI1D9'.'UELC_UpShare-CoalELC'.0.ANNUAL.UP 15
+'FI1D9'.'UELC_UpShare-CoalELC'.2012.ANNUAL.UP 0
+/;
+
+

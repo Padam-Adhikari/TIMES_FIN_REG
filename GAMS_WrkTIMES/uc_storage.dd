@@ -1,0 +1,870 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME 'uc_storage'
+
+
+SET UNITS_COM
+
+/
+'UCU'
+/;
+
+SET COM_TMAP
+
+/
+'FI'.'NRG'.'UC_ACAES-STG_DischLimit-'
+'FI'.'NRG'.'UC_ACAES-STG_DischLimit_'
+'FI'.'NRG'.'UC_Batt1-STG_DischLimit-'
+'FI'.'NRG'.'UC_Batt1-STG_DischLimit_'
+'FI'.'NRG'.'UC_Batt1-STS_DischLimit-'
+'FI'.'NRG'.'UC_Batt1-STS_DischLimit_'
+'FI'.'NRG'.'UC_Batt2-STG_DischLimit-'
+'FI'.'NRG'.'UC_Batt2-STG_DischLimit_'
+'FI'.'NRG'.'UC_Batt2-STS_DischLimit-'
+'FI'.'NRG'.'UC_Batt2-STS_DischLimit_'
+'FI'.'NRG'.'UC_Batt3-STG_DischLimit-'
+'FI'.'NRG'.'UC_Batt3-STG_DischLimit_'
+'FI'.'NRG'.'UC_COMBatt1_DischLimit-'
+'FI'.'NRG'.'UC_COMBatt1_DischLimit_'
+'FI'.'NRG'.'UC_COMBatt2_DischLimit-'
+'FI'.'NRG'.'UC_COMBatt2_DischLimit_'
+'FI'.'NRG'.'UC_COMBatt3_DischLimit-'
+'FI'.'NRG'.'UC_COMBatt3_DischLimit_'
+'FI'.'NRG'.'UC_DCAES-STG_DischLimit-'
+'FI'.'NRG'.'UC_DCAES-STG_DischLimit_'
+'FI'.'NRG'.'UC_DCAES-STS_DischLimit-'
+'FI'.'NRG'.'UC_DCAES-STS_DischLimit_'
+'FI'.'NRG'.'UC_DCAES00-STG_DischLimit-'
+'FI'.'NRG'.'UC_DCAES00-STG_DischLimit_'
+'FI'.'NRG'.'UC_PHS-STG_DischLimit-'
+'FI'.'NRG'.'UC_PHS-STG_DischLimit_'
+'FI'.'NRG'.'UC_PHS-STS_DischLimit-'
+'FI'.'NRG'.'UC_PHS-STS_DischLimit_'
+'FI'.'NRG'.'UC_RSDBatt1_DischLimit-'
+'FI'.'NRG'.'UC_RSDBatt1_DischLimit_'
+'FI'.'NRG'.'UC_RSDBatt2_DischLimit-'
+'FI'.'NRG'.'UC_RSDBatt2_DischLimit_'
+'FI'.'NRG'.'UC_RSDBatt3_DischLimit-'
+'FI'.'NRG'.'UC_RSDBatt3_DischLimit_'
+'FI1B1'.'NRG'.'UC_ACAES-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_ACAES-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_Batt1-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_Batt1-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_Batt1-STS_DischLimit-'
+'FI1B1'.'NRG'.'UC_Batt1-STS_DischLimit_'
+'FI1B1'.'NRG'.'UC_Batt2-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_Batt2-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_Batt2-STS_DischLimit-'
+'FI1B1'.'NRG'.'UC_Batt2-STS_DischLimit_'
+'FI1B1'.'NRG'.'UC_Batt3-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_Batt3-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_COMBatt1_DischLimit-'
+'FI1B1'.'NRG'.'UC_COMBatt1_DischLimit_'
+'FI1B1'.'NRG'.'UC_COMBatt2_DischLimit-'
+'FI1B1'.'NRG'.'UC_COMBatt2_DischLimit_'
+'FI1B1'.'NRG'.'UC_COMBatt3_DischLimit-'
+'FI1B1'.'NRG'.'UC_COMBatt3_DischLimit_'
+'FI1B1'.'NRG'.'UC_DCAES-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_DCAES-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_DCAES-STS_DischLimit-'
+'FI1B1'.'NRG'.'UC_DCAES-STS_DischLimit_'
+'FI1B1'.'NRG'.'UC_DCAES00-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_DCAES00-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_PHS-STG_DischLimit-'
+'FI1B1'.'NRG'.'UC_PHS-STG_DischLimit_'
+'FI1B1'.'NRG'.'UC_PHS-STS_DischLimit-'
+'FI1B1'.'NRG'.'UC_PHS-STS_DischLimit_'
+'FI1B1'.'NRG'.'UC_RSDBatt1_DischLimit-'
+'FI1B1'.'NRG'.'UC_RSDBatt1_DischLimit_'
+'FI1B1'.'NRG'.'UC_RSDBatt2_DischLimit-'
+'FI1B1'.'NRG'.'UC_RSDBatt2_DischLimit_'
+'FI1B1'.'NRG'.'UC_RSDBatt3_DischLimit-'
+'FI1B1'.'NRG'.'UC_RSDBatt3_DischLimit_'
+'FI1D9'.'NRG'.'UC_ACAES-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_ACAES-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_Batt1-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_Batt1-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_Batt1-STS_DischLimit-'
+'FI1D9'.'NRG'.'UC_Batt1-STS_DischLimit_'
+'FI1D9'.'NRG'.'UC_Batt2-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_Batt2-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_Batt2-STS_DischLimit-'
+'FI1D9'.'NRG'.'UC_Batt2-STS_DischLimit_'
+'FI1D9'.'NRG'.'UC_Batt3-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_Batt3-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_COMBatt1_DischLimit-'
+'FI1D9'.'NRG'.'UC_COMBatt1_DischLimit_'
+'FI1D9'.'NRG'.'UC_COMBatt2_DischLimit-'
+'FI1D9'.'NRG'.'UC_COMBatt2_DischLimit_'
+'FI1D9'.'NRG'.'UC_COMBatt3_DischLimit-'
+'FI1D9'.'NRG'.'UC_COMBatt3_DischLimit_'
+'FI1D9'.'NRG'.'UC_DCAES-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_DCAES-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_DCAES-STS_DischLimit-'
+'FI1D9'.'NRG'.'UC_DCAES-STS_DischLimit_'
+'FI1D9'.'NRG'.'UC_DCAES00-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_DCAES00-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_PHS-STG_DischLimit-'
+'FI1D9'.'NRG'.'UC_PHS-STG_DischLimit_'
+'FI1D9'.'NRG'.'UC_PHS-STS_DischLimit-'
+'FI1D9'.'NRG'.'UC_PHS-STS_DischLimit_'
+'FI1D9'.'NRG'.'UC_RSDBatt1_DischLimit-'
+'FI1D9'.'NRG'.'UC_RSDBatt1_DischLimit_'
+'FI1D9'.'NRG'.'UC_RSDBatt2_DischLimit-'
+'FI1D9'.'NRG'.'UC_RSDBatt2_DischLimit_'
+'FI1D9'.'NRG'.'UC_RSDBatt3_DischLimit-'
+'FI1D9'.'NRG'.'UC_RSDBatt3_DischLimit_'
+/;
+
+SET COM_UNIT
+
+/
+'FI'.'UC_ACAES-STG_DischLimit-'.'UCU'
+'FI'.'UC_ACAES-STG_DischLimit_'.'UCU'
+'FI'.'UC_Batt1-STG_DischLimit-'.'UCU'
+'FI'.'UC_Batt1-STG_DischLimit_'.'UCU'
+'FI'.'UC_Batt1-STS_DischLimit-'.'UCU'
+'FI'.'UC_Batt1-STS_DischLimit_'.'UCU'
+'FI'.'UC_Batt2-STG_DischLimit-'.'UCU'
+'FI'.'UC_Batt2-STG_DischLimit_'.'UCU'
+'FI'.'UC_Batt2-STS_DischLimit-'.'UCU'
+'FI'.'UC_Batt2-STS_DischLimit_'.'UCU'
+'FI'.'UC_Batt3-STG_DischLimit-'.'UCU'
+'FI'.'UC_Batt3-STG_DischLimit_'.'UCU'
+'FI'.'UC_COMBatt1_DischLimit-'.'UCU'
+'FI'.'UC_COMBatt1_DischLimit_'.'UCU'
+'FI'.'UC_COMBatt2_DischLimit-'.'UCU'
+'FI'.'UC_COMBatt2_DischLimit_'.'UCU'
+'FI'.'UC_COMBatt3_DischLimit-'.'UCU'
+'FI'.'UC_COMBatt3_DischLimit_'.'UCU'
+'FI'.'UC_DCAES-STG_DischLimit-'.'UCU'
+'FI'.'UC_DCAES-STG_DischLimit_'.'UCU'
+'FI'.'UC_DCAES-STS_DischLimit-'.'UCU'
+'FI'.'UC_DCAES-STS_DischLimit_'.'UCU'
+'FI'.'UC_DCAES00-STG_DischLimit-'.'UCU'
+'FI'.'UC_DCAES00-STG_DischLimit_'.'UCU'
+'FI'.'UC_PHS-STG_DischLimit-'.'UCU'
+'FI'.'UC_PHS-STG_DischLimit_'.'UCU'
+'FI'.'UC_PHS-STS_DischLimit-'.'UCU'
+'FI'.'UC_PHS-STS_DischLimit_'.'UCU'
+'FI'.'UC_RSDBatt1_DischLimit-'.'UCU'
+'FI'.'UC_RSDBatt1_DischLimit_'.'UCU'
+'FI'.'UC_RSDBatt2_DischLimit-'.'UCU'
+'FI'.'UC_RSDBatt2_DischLimit_'.'UCU'
+'FI'.'UC_RSDBatt3_DischLimit-'.'UCU'
+'FI'.'UC_RSDBatt3_DischLimit_'.'UCU'
+'FI1B1'.'UC_ACAES-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_ACAES-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_Batt1-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_Batt1-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_Batt1-STS_DischLimit-'.'UCU'
+'FI1B1'.'UC_Batt1-STS_DischLimit_'.'UCU'
+'FI1B1'.'UC_Batt2-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_Batt2-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_Batt2-STS_DischLimit-'.'UCU'
+'FI1B1'.'UC_Batt2-STS_DischLimit_'.'UCU'
+'FI1B1'.'UC_Batt3-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_Batt3-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_COMBatt1_DischLimit-'.'UCU'
+'FI1B1'.'UC_COMBatt1_DischLimit_'.'UCU'
+'FI1B1'.'UC_COMBatt2_DischLimit-'.'UCU'
+'FI1B1'.'UC_COMBatt2_DischLimit_'.'UCU'
+'FI1B1'.'UC_COMBatt3_DischLimit-'.'UCU'
+'FI1B1'.'UC_COMBatt3_DischLimit_'.'UCU'
+'FI1B1'.'UC_DCAES-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_DCAES-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_DCAES-STS_DischLimit-'.'UCU'
+'FI1B1'.'UC_DCAES-STS_DischLimit_'.'UCU'
+'FI1B1'.'UC_DCAES00-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_DCAES00-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_PHS-STG_DischLimit-'.'UCU'
+'FI1B1'.'UC_PHS-STG_DischLimit_'.'UCU'
+'FI1B1'.'UC_PHS-STS_DischLimit-'.'UCU'
+'FI1B1'.'UC_PHS-STS_DischLimit_'.'UCU'
+'FI1B1'.'UC_RSDBatt1_DischLimit-'.'UCU'
+'FI1B1'.'UC_RSDBatt1_DischLimit_'.'UCU'
+'FI1B1'.'UC_RSDBatt2_DischLimit-'.'UCU'
+'FI1B1'.'UC_RSDBatt2_DischLimit_'.'UCU'
+'FI1B1'.'UC_RSDBatt3_DischLimit-'.'UCU'
+'FI1B1'.'UC_RSDBatt3_DischLimit_'.'UCU'
+'FI1D9'.'UC_ACAES-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_ACAES-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_Batt1-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_Batt1-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_Batt1-STS_DischLimit-'.'UCU'
+'FI1D9'.'UC_Batt1-STS_DischLimit_'.'UCU'
+'FI1D9'.'UC_Batt2-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_Batt2-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_Batt2-STS_DischLimit-'.'UCU'
+'FI1D9'.'UC_Batt2-STS_DischLimit_'.'UCU'
+'FI1D9'.'UC_Batt3-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_Batt3-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_COMBatt1_DischLimit-'.'UCU'
+'FI1D9'.'UC_COMBatt1_DischLimit_'.'UCU'
+'FI1D9'.'UC_COMBatt2_DischLimit-'.'UCU'
+'FI1D9'.'UC_COMBatt2_DischLimit_'.'UCU'
+'FI1D9'.'UC_COMBatt3_DischLimit-'.'UCU'
+'FI1D9'.'UC_COMBatt3_DischLimit_'.'UCU'
+'FI1D9'.'UC_DCAES-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_DCAES-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_DCAES-STS_DischLimit-'.'UCU'
+'FI1D9'.'UC_DCAES-STS_DischLimit_'.'UCU'
+'FI1D9'.'UC_DCAES00-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_DCAES00-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_PHS-STG_DischLimit-'.'UCU'
+'FI1D9'.'UC_PHS-STG_DischLimit_'.'UCU'
+'FI1D9'.'UC_PHS-STS_DischLimit-'.'UCU'
+'FI1D9'.'UC_PHS-STS_DischLimit_'.'UCU'
+'FI1D9'.'UC_RSDBatt1_DischLimit-'.'UCU'
+'FI1D9'.'UC_RSDBatt1_DischLimit_'.'UCU'
+'FI1D9'.'UC_RSDBatt2_DischLimit-'.'UCU'
+'FI1D9'.'UC_RSDBatt2_DischLimit_'.'UCU'
+'FI1D9'.'UC_RSDBatt3_DischLimit-'.'UCU'
+'FI1D9'.'UC_RSDBatt3_DischLimit_'.'UCU'
+/;
+
+SET TOP_IRE
+
+/
+'IMPEXP'.'UC_ACAES-STG_DischLimit-'.'FI'.'UC_ACAES-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_ACAES-STG_DischLimit-'.'FI1B1'.'UC_ACAES-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_ACAES-STG_DischLimit-'.'FI1D9'.'UC_ACAES-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_ACAES-STG_DischLimit_'.'FI'.'UC_ACAES-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_ACAES-STG_DischLimit_'.'FI1B1'.'UC_ACAES-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_ACAES-STG_DischLimit_'.'FI1D9'.'UC_ACAES-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STG_DischLimit-'.'FI'.'UC_Batt1-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STG_DischLimit-'.'FI1B1'.'UC_Batt1-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STG_DischLimit-'.'FI1D9'.'UC_Batt1-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STG_DischLimit_'.'FI'.'UC_Batt1-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STG_DischLimit_'.'FI1B1'.'UC_Batt1-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STG_DischLimit_'.'FI1D9'.'UC_Batt1-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STS_DischLimit-'.'FI'.'UC_Batt1-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STS_DischLimit-'.'FI1B1'.'UC_Batt1-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STS_DischLimit-'.'FI1D9'.'UC_Batt1-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STS_DischLimit_'.'FI'.'UC_Batt1-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STS_DischLimit_'.'FI1B1'.'UC_Batt1-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt1-STS_DischLimit_'.'FI1D9'.'UC_Batt1-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STG_DischLimit-'.'FI'.'UC_Batt2-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STG_DischLimit-'.'FI1B1'.'UC_Batt2-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STG_DischLimit-'.'FI1D9'.'UC_Batt2-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STG_DischLimit_'.'FI'.'UC_Batt2-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STG_DischLimit_'.'FI1B1'.'UC_Batt2-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STG_DischLimit_'.'FI1D9'.'UC_Batt2-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STS_DischLimit-'.'FI'.'UC_Batt2-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STS_DischLimit-'.'FI1B1'.'UC_Batt2-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STS_DischLimit-'.'FI1D9'.'UC_Batt2-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STS_DischLimit_'.'FI'.'UC_Batt2-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STS_DischLimit_'.'FI1B1'.'UC_Batt2-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt2-STS_DischLimit_'.'FI1D9'.'UC_Batt2-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt3-STG_DischLimit-'.'FI'.'UC_Batt3-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt3-STG_DischLimit-'.'FI1B1'.'UC_Batt3-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt3-STG_DischLimit-'.'FI1D9'.'UC_Batt3-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt3-STG_DischLimit_'.'FI'.'UC_Batt3-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt3-STG_DischLimit_'.'FI1B1'.'UC_Batt3-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_Batt3-STG_DischLimit_'.'FI1D9'.'UC_Batt3-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt1_DischLimit-'.'FI'.'UC_COMBatt1_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt1_DischLimit-'.'FI1B1'.'UC_COMBatt1_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt1_DischLimit-'.'FI1D9'.'UC_COMBatt1_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt1_DischLimit_'.'FI'.'UC_COMBatt1_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt1_DischLimit_'.'FI1B1'.'UC_COMBatt1_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt1_DischLimit_'.'FI1D9'.'UC_COMBatt1_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt2_DischLimit-'.'FI'.'UC_COMBatt2_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt2_DischLimit-'.'FI1B1'.'UC_COMBatt2_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt2_DischLimit-'.'FI1D9'.'UC_COMBatt2_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt2_DischLimit_'.'FI'.'UC_COMBatt2_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt2_DischLimit_'.'FI1B1'.'UC_COMBatt2_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt2_DischLimit_'.'FI1D9'.'UC_COMBatt2_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt3_DischLimit-'.'FI'.'UC_COMBatt3_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt3_DischLimit-'.'FI1B1'.'UC_COMBatt3_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt3_DischLimit-'.'FI1D9'.'UC_COMBatt3_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt3_DischLimit_'.'FI'.'UC_COMBatt3_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt3_DischLimit_'.'FI1B1'.'UC_COMBatt3_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_COMBatt3_DischLimit_'.'FI1D9'.'UC_COMBatt3_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STG_DischLimit-'.'FI'.'UC_DCAES-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STG_DischLimit-'.'FI1B1'.'UC_DCAES-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STG_DischLimit-'.'FI1D9'.'UC_DCAES-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STG_DischLimit_'.'FI'.'UC_DCAES-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STG_DischLimit_'.'FI1B1'.'UC_DCAES-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STG_DischLimit_'.'FI1D9'.'UC_DCAES-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STS_DischLimit-'.'FI'.'UC_DCAES-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STS_DischLimit-'.'FI1B1'.'UC_DCAES-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STS_DischLimit-'.'FI1D9'.'UC_DCAES-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STS_DischLimit_'.'FI'.'UC_DCAES-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STS_DischLimit_'.'FI1B1'.'UC_DCAES-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES-STS_DischLimit_'.'FI1D9'.'UC_DCAES-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES00-STG_DischLimit-'.'FI'.'UC_DCAES00-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES00-STG_DischLimit-'.'FI1B1'.'UC_DCAES00-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES00-STG_DischLimit-'.'FI1D9'.'UC_DCAES00-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES00-STG_DischLimit_'.'FI'.'UC_DCAES00-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES00-STG_DischLimit_'.'FI1B1'.'UC_DCAES00-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_DCAES00-STG_DischLimit_'.'FI1D9'.'UC_DCAES00-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STG_DischLimit-'.'FI'.'UC_PHS-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STG_DischLimit-'.'FI1B1'.'UC_PHS-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STG_DischLimit-'.'FI1D9'.'UC_PHS-STG_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STG_DischLimit_'.'FI'.'UC_PHS-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STG_DischLimit_'.'FI1B1'.'UC_PHS-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STG_DischLimit_'.'FI1D9'.'UC_PHS-STG_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STS_DischLimit-'.'FI'.'UC_PHS-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STS_DischLimit-'.'FI1B1'.'UC_PHS-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STS_DischLimit-'.'FI1D9'.'UC_PHS-STS_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STS_DischLimit_'.'FI'.'UC_PHS-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STS_DischLimit_'.'FI1B1'.'UC_PHS-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_PHS-STS_DischLimit_'.'FI1D9'.'UC_PHS-STS_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt1_DischLimit-'.'FI'.'UC_RSDBatt1_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt1_DischLimit-'.'FI1B1'.'UC_RSDBatt1_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt1_DischLimit-'.'FI1D9'.'UC_RSDBatt1_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt1_DischLimit_'.'FI'.'UC_RSDBatt1_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt1_DischLimit_'.'FI1B1'.'UC_RSDBatt1_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt1_DischLimit_'.'FI1D9'.'UC_RSDBatt1_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt2_DischLimit-'.'FI'.'UC_RSDBatt2_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt2_DischLimit-'.'FI1B1'.'UC_RSDBatt2_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt2_DischLimit-'.'FI1D9'.'UC_RSDBatt2_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt2_DischLimit_'.'FI'.'UC_RSDBatt2_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt2_DischLimit_'.'FI1B1'.'UC_RSDBatt2_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt2_DischLimit_'.'FI1D9'.'UC_RSDBatt2_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt3_DischLimit-'.'FI'.'UC_RSDBatt3_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt3_DischLimit-'.'FI1B1'.'UC_RSDBatt3_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt3_DischLimit-'.'FI1D9'.'UC_RSDBatt3_DischLimit-'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt3_DischLimit_'.'FI'.'UC_RSDBatt3_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt3_DischLimit_'.'FI1B1'.'UC_RSDBatt3_DischLimit_'.'IMPNRGZ'
+'IMPEXP'.'UC_RSDBatt3_DischLimit_'.'FI1D9'.'UC_RSDBatt3_DischLimit_'.'IMPNRGZ'
+/;
+
+SET COM_DESC
+
+/
+'FI'.'UC_ACAES-STG_DischLimit-' 'Negative dummy var for UC: UC_ACAES-STG_DischLimit'
+'FI'.'UC_ACAES-STG_DischLimit_' 'Positive dummy var for UC: UC_ACAES-STG_DischLimit'
+'FI'.'UC_Batt1-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt1-STG_DischLimit'
+'FI'.'UC_Batt1-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt1-STG_DischLimit'
+'FI'.'UC_Batt1-STS_DischLimit-' 'Negative dummy var for UC: UC_Batt1-STS_DischLimit'
+'FI'.'UC_Batt1-STS_DischLimit_' 'Positive dummy var for UC: UC_Batt1-STS_DischLimit'
+'FI'.'UC_Batt2-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt2-STG_DischLimit'
+'FI'.'UC_Batt2-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt2-STG_DischLimit'
+'FI'.'UC_Batt2-STS_DischLimit-' 'Negative dummy var for UC: UC_Batt2-STS_DischLimit'
+'FI'.'UC_Batt2-STS_DischLimit_' 'Positive dummy var for UC: UC_Batt2-STS_DischLimit'
+'FI'.'UC_Batt3-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt3-STG_DischLimit'
+'FI'.'UC_Batt3-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt3-STG_DischLimit'
+'FI'.'UC_COMBatt1_DischLimit-' 'Negative dummy var for UC: UC_COMBatt1_DischLimit'
+'FI'.'UC_COMBatt1_DischLimit_' 'Positive dummy var for UC: UC_COMBatt1_DischLimit'
+'FI'.'UC_COMBatt2_DischLimit-' 'Negative dummy var for UC: UC_COMBatt2_DischLimit'
+'FI'.'UC_COMBatt2_DischLimit_' 'Positive dummy var for UC: UC_COMBatt2_DischLimit'
+'FI'.'UC_COMBatt3_DischLimit-' 'Negative dummy var for UC: UC_COMBatt3_DischLimit'
+'FI'.'UC_COMBatt3_DischLimit_' 'Positive dummy var for UC: UC_COMBatt3_DischLimit'
+'FI'.'UC_DCAES-STG_DischLimit-' 'Negative dummy var for UC: UC_DCAES-STG_DischLimit'
+'FI'.'UC_DCAES-STG_DischLimit_' 'Positive dummy var for UC: UC_DCAES-STG_DischLimit'
+'FI'.'UC_DCAES-STS_DischLimit-' 'Negative dummy var for UC: UC_DCAES-STS_DischLimit'
+'FI'.'UC_DCAES-STS_DischLimit_' 'Positive dummy var for UC: UC_DCAES-STS_DischLimit'
+'FI'.'UC_DCAES00-STG_DischLimit-' 'Negative dummy var for UC: UC_DCAES00-STG_DischLimit'
+'FI'.'UC_DCAES00-STG_DischLimit_' 'Positive dummy var for UC: UC_DCAES00-STG_DischLimit'
+'FI'.'UC_PHS-STG_DischLimit-' 'Negative dummy var for UC: UC_PHS-STG_DischLimit'
+'FI'.'UC_PHS-STG_DischLimit_' 'Positive dummy var for UC: UC_PHS-STG_DischLimit'
+'FI'.'UC_PHS-STS_DischLimit-' 'Negative dummy var for UC: UC_PHS-STS_DischLimit'
+'FI'.'UC_PHS-STS_DischLimit_' 'Positive dummy var for UC: UC_PHS-STS_DischLimit'
+'FI'.'UC_RSDBatt1_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt1_DischLimit'
+'FI'.'UC_RSDBatt1_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt1_DischLimit'
+'FI'.'UC_RSDBatt2_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt2_DischLimit'
+'FI'.'UC_RSDBatt2_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt2_DischLimit'
+'FI'.'UC_RSDBatt3_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt3_DischLimit'
+'FI'.'UC_RSDBatt3_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt3_DischLimit'
+'FI1B1'.'UC_ACAES-STG_DischLimit-' 'Negative dummy var for UC: UC_ACAES-STG_DischLimit'
+'FI1B1'.'UC_ACAES-STG_DischLimit_' 'Positive dummy var for UC: UC_ACAES-STG_DischLimit'
+'FI1B1'.'UC_Batt1-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt1-STG_DischLimit'
+'FI1B1'.'UC_Batt1-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt1-STG_DischLimit'
+'FI1B1'.'UC_Batt1-STS_DischLimit-' 'Negative dummy var for UC: UC_Batt1-STS_DischLimit'
+'FI1B1'.'UC_Batt1-STS_DischLimit_' 'Positive dummy var for UC: UC_Batt1-STS_DischLimit'
+'FI1B1'.'UC_Batt2-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt2-STG_DischLimit'
+'FI1B1'.'UC_Batt2-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt2-STG_DischLimit'
+'FI1B1'.'UC_Batt2-STS_DischLimit-' 'Negative dummy var for UC: UC_Batt2-STS_DischLimit'
+'FI1B1'.'UC_Batt2-STS_DischLimit_' 'Positive dummy var for UC: UC_Batt2-STS_DischLimit'
+'FI1B1'.'UC_Batt3-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt3-STG_DischLimit'
+'FI1B1'.'UC_Batt3-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt3-STG_DischLimit'
+'FI1B1'.'UC_COMBatt1_DischLimit-' 'Negative dummy var for UC: UC_COMBatt1_DischLimit'
+'FI1B1'.'UC_COMBatt1_DischLimit_' 'Positive dummy var for UC: UC_COMBatt1_DischLimit'
+'FI1B1'.'UC_COMBatt2_DischLimit-' 'Negative dummy var for UC: UC_COMBatt2_DischLimit'
+'FI1B1'.'UC_COMBatt2_DischLimit_' 'Positive dummy var for UC: UC_COMBatt2_DischLimit'
+'FI1B1'.'UC_COMBatt3_DischLimit-' 'Negative dummy var for UC: UC_COMBatt3_DischLimit'
+'FI1B1'.'UC_COMBatt3_DischLimit_' 'Positive dummy var for UC: UC_COMBatt3_DischLimit'
+'FI1B1'.'UC_DCAES-STG_DischLimit-' 'Negative dummy var for UC: UC_DCAES-STG_DischLimit'
+'FI1B1'.'UC_DCAES-STG_DischLimit_' 'Positive dummy var for UC: UC_DCAES-STG_DischLimit'
+'FI1B1'.'UC_DCAES-STS_DischLimit-' 'Negative dummy var for UC: UC_DCAES-STS_DischLimit'
+'FI1B1'.'UC_DCAES-STS_DischLimit_' 'Positive dummy var for UC: UC_DCAES-STS_DischLimit'
+'FI1B1'.'UC_DCAES00-STG_DischLimit-' 'Negative dummy var for UC: UC_DCAES00-STG_DischLimit'
+'FI1B1'.'UC_DCAES00-STG_DischLimit_' 'Positive dummy var for UC: UC_DCAES00-STG_DischLimit'
+'FI1B1'.'UC_PHS-STG_DischLimit-' 'Negative dummy var for UC: UC_PHS-STG_DischLimit'
+'FI1B1'.'UC_PHS-STG_DischLimit_' 'Positive dummy var for UC: UC_PHS-STG_DischLimit'
+'FI1B1'.'UC_PHS-STS_DischLimit-' 'Negative dummy var for UC: UC_PHS-STS_DischLimit'
+'FI1B1'.'UC_PHS-STS_DischLimit_' 'Positive dummy var for UC: UC_PHS-STS_DischLimit'
+'FI1B1'.'UC_RSDBatt1_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt1_DischLimit'
+'FI1B1'.'UC_RSDBatt1_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt1_DischLimit'
+'FI1B1'.'UC_RSDBatt2_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt2_DischLimit'
+'FI1B1'.'UC_RSDBatt2_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt2_DischLimit'
+'FI1B1'.'UC_RSDBatt3_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt3_DischLimit'
+'FI1B1'.'UC_RSDBatt3_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt3_DischLimit'
+'FI1D9'.'UC_ACAES-STG_DischLimit-' 'Negative dummy var for UC: UC_ACAES-STG_DischLimit'
+'FI1D9'.'UC_ACAES-STG_DischLimit_' 'Positive dummy var for UC: UC_ACAES-STG_DischLimit'
+'FI1D9'.'UC_Batt1-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt1-STG_DischLimit'
+'FI1D9'.'UC_Batt1-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt1-STG_DischLimit'
+'FI1D9'.'UC_Batt1-STS_DischLimit-' 'Negative dummy var for UC: UC_Batt1-STS_DischLimit'
+'FI1D9'.'UC_Batt1-STS_DischLimit_' 'Positive dummy var for UC: UC_Batt1-STS_DischLimit'
+'FI1D9'.'UC_Batt2-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt2-STG_DischLimit'
+'FI1D9'.'UC_Batt2-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt2-STG_DischLimit'
+'FI1D9'.'UC_Batt2-STS_DischLimit-' 'Negative dummy var for UC: UC_Batt2-STS_DischLimit'
+'FI1D9'.'UC_Batt2-STS_DischLimit_' 'Positive dummy var for UC: UC_Batt2-STS_DischLimit'
+'FI1D9'.'UC_Batt3-STG_DischLimit-' 'Negative dummy var for UC: UC_Batt3-STG_DischLimit'
+'FI1D9'.'UC_Batt3-STG_DischLimit_' 'Positive dummy var for UC: UC_Batt3-STG_DischLimit'
+'FI1D9'.'UC_COMBatt1_DischLimit-' 'Negative dummy var for UC: UC_COMBatt1_DischLimit'
+'FI1D9'.'UC_COMBatt1_DischLimit_' 'Positive dummy var for UC: UC_COMBatt1_DischLimit'
+'FI1D9'.'UC_COMBatt2_DischLimit-' 'Negative dummy var for UC: UC_COMBatt2_DischLimit'
+'FI1D9'.'UC_COMBatt2_DischLimit_' 'Positive dummy var for UC: UC_COMBatt2_DischLimit'
+'FI1D9'.'UC_COMBatt3_DischLimit-' 'Negative dummy var for UC: UC_COMBatt3_DischLimit'
+'FI1D9'.'UC_COMBatt3_DischLimit_' 'Positive dummy var for UC: UC_COMBatt3_DischLimit'
+'FI1D9'.'UC_DCAES-STG_DischLimit-' 'Negative dummy var for UC: UC_DCAES-STG_DischLimit'
+'FI1D9'.'UC_DCAES-STG_DischLimit_' 'Positive dummy var for UC: UC_DCAES-STG_DischLimit'
+'FI1D9'.'UC_DCAES-STS_DischLimit-' 'Negative dummy var for UC: UC_DCAES-STS_DischLimit'
+'FI1D9'.'UC_DCAES-STS_DischLimit_' 'Positive dummy var for UC: UC_DCAES-STS_DischLimit'
+'FI1D9'.'UC_DCAES00-STG_DischLimit-' 'Negative dummy var for UC: UC_DCAES00-STG_DischLimit'
+'FI1D9'.'UC_DCAES00-STG_DischLimit_' 'Positive dummy var for UC: UC_DCAES00-STG_DischLimit'
+'FI1D9'.'UC_PHS-STG_DischLimit-' 'Negative dummy var for UC: UC_PHS-STG_DischLimit'
+'FI1D9'.'UC_PHS-STG_DischLimit_' 'Positive dummy var for UC: UC_PHS-STG_DischLimit'
+'FI1D9'.'UC_PHS-STS_DischLimit-' 'Negative dummy var for UC: UC_PHS-STS_DischLimit'
+'FI1D9'.'UC_PHS-STS_DischLimit_' 'Positive dummy var for UC: UC_PHS-STS_DischLimit'
+'FI1D9'.'UC_RSDBatt1_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt1_DischLimit'
+'FI1D9'.'UC_RSDBatt1_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt1_DischLimit'
+'FI1D9'.'UC_RSDBatt2_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt2_DischLimit'
+'FI1D9'.'UC_RSDBatt2_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt2_DischLimit'
+'FI1D9'.'UC_RSDBatt3_DischLimit-' 'Negative dummy var for UC: UC_RSDBatt3_DischLimit'
+'FI1D9'.'UC_RSDBatt3_DischLimit_' 'Positive dummy var for UC: UC_RSDBatt3_DischLimit'
+/;
+
+SET UC_R_EACH
+
+/
+'FI'.'UC_ACAES-STG_DischLimit'
+'FI'.'UC_Batt1-STG_DischLimit'
+'FI'.'UC_Batt1-STS_DischLimit'
+'FI'.'UC_Batt2-STG_DischLimit'
+'FI'.'UC_Batt2-STS_DischLimit'
+'FI'.'UC_Batt3-STG_DischLimit'
+'FI'.'UC_COMBatt1_DischLimit'
+'FI'.'UC_COMBatt2_DischLimit'
+'FI'.'UC_COMBatt3_DischLimit'
+'FI'.'UC_DCAES-STG_DischLimit'
+'FI'.'UC_DCAES-STS_DischLimit'
+'FI'.'UC_DCAES00-STG_DischLimit'
+'FI'.'UC_PHS-STG_DischLimit'
+'FI'.'UC_PHS-STS_DischLimit'
+'FI'.'UC_RSDBatt1_DischLimit'
+'FI'.'UC_RSDBatt2_DischLimit'
+'FI'.'UC_RSDBatt3_DischLimit'
+'FI1B1'.'UC_ACAES-STG_DischLimit'
+'FI1B1'.'UC_Batt1-STG_DischLimit'
+'FI1B1'.'UC_Batt1-STS_DischLimit'
+'FI1B1'.'UC_Batt2-STG_DischLimit'
+'FI1B1'.'UC_Batt2-STS_DischLimit'
+'FI1B1'.'UC_Batt3-STG_DischLimit'
+'FI1B1'.'UC_COMBatt1_DischLimit'
+'FI1B1'.'UC_COMBatt2_DischLimit'
+'FI1B1'.'UC_COMBatt3_DischLimit'
+'FI1B1'.'UC_DCAES-STG_DischLimit'
+'FI1B1'.'UC_DCAES-STS_DischLimit'
+'FI1B1'.'UC_DCAES00-STG_DischLimit'
+'FI1B1'.'UC_PHS-STG_DischLimit'
+'FI1B1'.'UC_PHS-STS_DischLimit'
+'FI1B1'.'UC_RSDBatt1_DischLimit'
+'FI1B1'.'UC_RSDBatt2_DischLimit'
+'FI1B1'.'UC_RSDBatt3_DischLimit'
+'FI1D9'.'UC_ACAES-STG_DischLimit'
+'FI1D9'.'UC_Batt1-STG_DischLimit'
+'FI1D9'.'UC_Batt1-STS_DischLimit'
+'FI1D9'.'UC_Batt2-STG_DischLimit'
+'FI1D9'.'UC_Batt2-STS_DischLimit'
+'FI1D9'.'UC_Batt3-STG_DischLimit'
+'FI1D9'.'UC_COMBatt1_DischLimit'
+'FI1D9'.'UC_COMBatt2_DischLimit'
+'FI1D9'.'UC_COMBatt3_DischLimit'
+'FI1D9'.'UC_DCAES-STG_DischLimit'
+'FI1D9'.'UC_DCAES-STS_DischLimit'
+'FI1D9'.'UC_DCAES00-STG_DischLimit'
+'FI1D9'.'UC_PHS-STG_DischLimit'
+'FI1D9'.'UC_PHS-STS_DischLimit'
+'FI1D9'.'UC_RSDBatt1_DischLimit'
+'FI1D9'.'UC_RSDBatt2_DischLimit'
+'FI1D9'.'UC_RSDBatt3_DischLimit'
+/;
+
+PARAMETER
+
+NCAP_BND ' '/
+'FI'.2010.'P_ESTHYDPS101'.FX 0
+/;
+
+PARAMETER
+
+STG_EFF ' '/
+'FI'.2010.'P_ESTHYDPS101' 0.75
+/;
+
+PARAMETER
+
+STGOUT_BND ' '/
+'FI'.0.'COMBATS01'.'COMELC'.WP.UP 5
+'FI'.0.'COMBATS01'.'ELCHIG'.WP.UP 5
+'FI'.0.'COMBATS01'.'RSDELC'.WP.UP 5
+'FI'.0.'COMBATS02'.'COMELC'.WP.UP 5
+'FI'.0.'COMBATS02'.'ELCHIG'.WP.UP 5
+'FI'.0.'COMBATS02'.'RSDELC'.WP.UP 5
+'FI'.0.'COMBATS03'.'COMELC'.WP.UP 5
+'FI'.0.'COMBATS03'.'ELCHIG'.WP.UP 5
+'FI'.0.'COMBATS03'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTBATS101'.'COMELC'.WP.UP 5
+'FI'.0.'ESTBATS101'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTBATS101'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTBATS102'.'COMELC'.WP.UP 5
+'FI'.0.'ESTBATS102'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTBATS102'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTBATS103'.'COMELC'.WP.UP 5
+'FI'.0.'ESTBATS103'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTBATS103'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTBATS201'.'COMELC'.WP.UP 5
+'FI'.0.'ESTBATS201'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTBATS201'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTBATS202'.'COMELC'.WP.UP 5
+'FI'.0.'ESTBATS202'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTBATS202'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTCAESS00'.'COMELC'.WP.UP 5
+'FI'.0.'ESTCAESS00'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTCAESS00'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTCAESS101'.'COMELC'.WP.UP 5
+'FI'.0.'ESTCAESS101'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTCAESS101'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTCAESS102'.'COMELC'.WP.UP 5
+'FI'.0.'ESTCAESS102'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTCAESS102'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTCAESS201'.'COMELC'.WP.UP 5
+'FI'.0.'ESTCAESS201'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTCAESS201'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTHYDPS101'.'COMELC'.WP.UP 5
+'FI'.0.'ESTHYDPS101'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTHYDPS101'.'RSDELC'.WP.UP 5
+'FI'.0.'ESTHYDPS201'.'COMELC'.WP.UP 5
+'FI'.0.'ESTHYDPS201'.'ELCHIG'.WP.UP 5
+'FI'.0.'ESTHYDPS201'.'RSDELC'.WP.UP 5
+'FI'.0.'RSDBATS01'.'COMELC'.WP.UP 5
+'FI'.0.'RSDBATS01'.'ELCHIG'.WP.UP 5
+'FI'.0.'RSDBATS01'.'RSDELC'.WP.UP 5
+'FI'.0.'RSDBATS02'.'COMELC'.WP.UP 5
+'FI'.0.'RSDBATS02'.'ELCHIG'.WP.UP 5
+'FI'.0.'RSDBATS02'.'RSDELC'.WP.UP 5
+'FI'.0.'RSDBATS03'.'COMELC'.WP.UP 5
+'FI'.0.'RSDBATS03'.'ELCHIG'.WP.UP 5
+'FI'.0.'RSDBATS03'.'RSDELC'.WP.UP 5
+'FI'.2010.'COMBATS01'.'COMELC'.WP.UP 0
+'FI'.2010.'COMBATS01'.'ELCHIG'.WP.UP 0
+'FI'.2010.'COMBATS01'.'RSDELC'.WP.UP 0
+'FI'.2010.'COMBATS02'.'COMELC'.WP.UP 0
+'FI'.2010.'COMBATS02'.'ELCHIG'.WP.UP 0
+'FI'.2010.'COMBATS02'.'RSDELC'.WP.UP 0
+'FI'.2010.'COMBATS03'.'COMELC'.WP.UP 0
+'FI'.2010.'COMBATS03'.'ELCHIG'.WP.UP 0
+'FI'.2010.'COMBATS03'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTBATS101'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTBATS101'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTBATS101'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTBATS102'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTBATS102'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTBATS102'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTBATS103'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTBATS103'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTBATS103'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTBATS201'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTBATS201'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTBATS201'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTBATS202'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTBATS202'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTBATS202'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTCAESS00'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTCAESS00'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTCAESS00'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTCAESS101'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTCAESS101'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTCAESS101'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTCAESS102'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTCAESS102'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTCAESS102'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTCAESS201'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTCAESS201'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTCAESS201'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTHYDPS101'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTHYDPS101'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTHYDPS101'.'RSDELC'.WP.UP 0
+'FI'.2010.'ESTHYDPS201'.'COMELC'.WP.UP 0
+'FI'.2010.'ESTHYDPS201'.'ELCHIG'.WP.UP 0
+'FI'.2010.'ESTHYDPS201'.'RSDELC'.WP.UP 0
+'FI'.2010.'RSDBATS01'.'COMELC'.WP.UP 0
+'FI'.2010.'RSDBATS01'.'ELCHIG'.WP.UP 0
+'FI'.2010.'RSDBATS01'.'RSDELC'.WP.UP 0
+'FI'.2010.'RSDBATS02'.'COMELC'.WP.UP 0
+'FI'.2010.'RSDBATS02'.'ELCHIG'.WP.UP 0
+'FI'.2010.'RSDBATS02'.'RSDELC'.WP.UP 0
+'FI'.2010.'RSDBATS03'.'COMELC'.WP.UP 0
+'FI'.2010.'RSDBATS03'.'ELCHIG'.WP.UP 0
+'FI'.2010.'RSDBATS03'.'RSDELC'.WP.UP 0
+/;
+
+PARAMETER
+
+UC_CAP ' '/
+'UC_ACAES-STG_DischLimit'.LHS.'FI'.2010.'ESTCAESS102' -0.25
+'UC_ACAES-STG_DischLimit'.LHS.'FI'.2010.'P_ESTCAESS102' 1
+'UC_Batt1-STG_DischLimit'.LHS.'FI'.2010.'ESTBATS101' -0.25
+'UC_Batt1-STG_DischLimit'.LHS.'FI'.2010.'P_ESTBATS101' 1
+'UC_Batt1-STS_DischLimit'.LHS.'FI'.2010.'ESTBATS201' -0.25
+'UC_Batt1-STS_DischLimit'.LHS.'FI'.2010.'P_ESTBATS201' 1
+'UC_Batt2-STG_DischLimit'.LHS.'FI'.2010.'ESTBATS102' -1
+'UC_Batt2-STG_DischLimit'.LHS.'FI'.2010.'P_ESTBATS102' 1
+'UC_Batt2-STS_DischLimit'.LHS.'FI'.2010.'ESTBATS202' -1
+'UC_Batt2-STS_DischLimit'.LHS.'FI'.2010.'P_ESTBATS202' 1
+'UC_Batt3-STG_DischLimit'.LHS.'FI'.2010.'ESTBATS103' -0.25
+'UC_Batt3-STG_DischLimit'.LHS.'FI'.2010.'P_ESTBATS103' 1
+'UC_COMBatt1_DischLimit'.LHS.'FI'.2010.'COMBATS01' -0.25
+'UC_COMBatt1_DischLimit'.LHS.'FI'.2010.'P_COMBATS01' 1
+'UC_COMBatt2_DischLimit'.LHS.'FI'.2010.'COMBATS02' -1
+'UC_COMBatt2_DischLimit'.LHS.'FI'.2010.'P_COMBATS02' 1
+'UC_COMBatt3_DischLimit'.LHS.'FI'.2010.'COMBATS03' -0.25
+'UC_COMBatt3_DischLimit'.LHS.'FI'.2010.'P_COMBATS03' 1
+'UC_DCAES-STG_DischLimit'.LHS.'FI'.2010.'ESTCAESS101' -0.25
+'UC_DCAES-STG_DischLimit'.LHS.'FI'.2010.'P_ESTCAESS101' 1
+'UC_DCAES-STS_DischLimit'.LHS.'FI'.2010.'ESTCAESS201' -0.25
+'UC_DCAES-STS_DischLimit'.LHS.'FI'.2010.'P_ESTCAESS201' 1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI'.2010.'ESTCAESS00' -0.333333333333333
+'UC_DCAES00-STG_DischLimit'.LHS.'FI'.2010.'P_ESTCAESS00' 1
+'UC_PHS-STG_DischLimit'.LHS.'FI'.2010.'ESTHYDPS101' -0.166666666666667
+'UC_PHS-STG_DischLimit'.LHS.'FI'.2010.'P_ESTHYDPS101' 1
+'UC_PHS-STS_DischLimit'.LHS.'FI'.2010.'ESTHYDPS201' -0.166666666666667
+'UC_PHS-STS_DischLimit'.LHS.'FI'.2010.'P_ESTHYDPS201' 1
+'UC_RSDBatt1_DischLimit'.LHS.'FI'.2010.'P_RSDBATS01' 1
+'UC_RSDBatt1_DischLimit'.LHS.'FI'.2010.'RSDBATS01' -0.25
+'UC_RSDBatt2_DischLimit'.LHS.'FI'.2010.'P_RSDBATS02' 1
+'UC_RSDBatt2_DischLimit'.LHS.'FI'.2010.'RSDBATS02' -1
+'UC_RSDBatt3_DischLimit'.LHS.'FI'.2010.'P_RSDBATS03' 1
+'UC_RSDBatt3_DischLimit'.LHS.'FI'.2010.'RSDBATS03' -0.25
+/;
+
+PARAMETER
+
+UC_IRE ' '/
+'UC_ACAES-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_ACAES-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_ACAES-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_ACAES-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_ACAES-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_ACAES-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_ACAES-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_ACAES-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_ACAES-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_ACAES-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_ACAES-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_ACAES-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt1-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt1-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt1-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt1-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt1-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt1-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt1-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt1-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt1-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt1-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt1-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt1-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt1-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt1-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt1-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt1-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt1-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt1-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt1-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt1-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt1-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt1-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt1-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt1-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt2-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt2-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt2-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt2-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt2-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt2-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt2-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt2-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt2-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt2-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt2-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt2-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt2-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt2-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt2-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt2-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt2-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt2-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt2-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt2-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt2-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt2-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt2-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt2-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt3-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt3-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt3-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Batt3-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt3-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt3-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt3-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Batt3-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_Batt3-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt3-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_Batt3-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Batt3-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt1_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_COMBatt1_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt1_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_COMBatt1_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt1_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_COMBatt1_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt1_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_COMBatt1_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt1_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_COMBatt1_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt1_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_COMBatt1_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt2_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_COMBatt2_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt2_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_COMBatt2_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt2_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_COMBatt2_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt2_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_COMBatt2_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt2_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_COMBatt2_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt2_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_COMBatt2_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt3_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_COMBatt3_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt3_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_COMBatt3_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt3_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_COMBatt3_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt3_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_COMBatt3_DischLimit_'.ANNUAL.IMP 1
+'UC_COMBatt3_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_COMBatt3_DischLimit-'.ANNUAL.IMP -1
+'UC_COMBatt3_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_COMBatt3_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DCAES-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DCAES-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DCAES-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DCAES-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DCAES-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DCAES-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DCAES-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DCAES-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DCAES-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DCAES-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DCAES-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DCAES-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DCAES00-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_DCAES00-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DCAES00-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_DCAES00-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DCAES00-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_DCAES00-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_DCAES00-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_PHS-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PHS-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_PHS-STG_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PHS-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_PHS-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PHS-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_PHS-STG_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PHS-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_PHS-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PHS-STG_DischLimit-'.ANNUAL.IMP -1
+'UC_PHS-STG_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PHS-STG_DischLimit_'.ANNUAL.IMP 1
+'UC_PHS-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PHS-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_PHS-STS_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_PHS-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_PHS-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PHS-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_PHS-STS_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_PHS-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_PHS-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PHS-STS_DischLimit-'.ANNUAL.IMP -1
+'UC_PHS-STS_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_PHS-STS_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt1_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_RSDBatt1_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt1_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_RSDBatt1_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt1_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_RSDBatt1_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt1_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_RSDBatt1_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt1_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_RSDBatt1_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt1_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_RSDBatt1_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt2_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_RSDBatt2_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt2_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_RSDBatt2_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt2_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_RSDBatt2_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt2_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_RSDBatt2_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt2_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_RSDBatt2_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt2_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_RSDBatt2_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt3_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_RSDBatt3_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt3_DischLimit'.LHS.'FI'.2010.'IMPNRGZ'.'UC_RSDBatt3_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt3_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_RSDBatt3_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt3_DischLimit'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_RSDBatt3_DischLimit_'.ANNUAL.IMP 1
+'UC_RSDBatt3_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_RSDBatt3_DischLimit-'.ANNUAL.IMP -1
+'UC_RSDBatt3_DischLimit'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_RSDBatt3_DischLimit_'.ANNUAL.IMP 1
+/;
+
+PARAMETER
+
+UC_RHSRTS ' '/
+'FI'.'UC_ACAES-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_ACAES-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_Batt1-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_Batt1-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_Batt1-STS_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_Batt1-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_Batt2-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_Batt2-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_Batt2-STS_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_Batt2-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_Batt3-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_Batt3-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_COMBatt1_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_COMBatt1_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_COMBatt2_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_COMBatt2_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_COMBatt3_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_COMBatt3_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_DCAES-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_DCAES-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_DCAES-STS_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_DCAES-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_DCAES00-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_DCAES00-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_PHS-STG_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_PHS-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_PHS-STS_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_PHS-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_RSDBatt1_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_RSDBatt1_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_RSDBatt2_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_RSDBatt2_DischLimit'.2010.ANNUAL.FX 0
+'FI'.'UC_RSDBatt3_DischLimit'.0.ANNUAL.FX 5
+'FI'.'UC_RSDBatt3_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_ACAES-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_ACAES-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_Batt1-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_Batt1-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_Batt1-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_Batt1-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_Batt2-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_Batt2-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_Batt2-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_Batt2-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_Batt3-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_Batt3-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_COMBatt1_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_COMBatt1_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_COMBatt2_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_COMBatt2_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_COMBatt3_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_COMBatt3_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_DCAES-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_DCAES-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_DCAES-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_DCAES-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_DCAES00-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_DCAES00-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_PHS-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_PHS-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_PHS-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_PHS-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_RSDBatt1_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_RSDBatt1_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_RSDBatt2_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_RSDBatt2_DischLimit'.2010.ANNUAL.FX 0
+'FI1B1'.'UC_RSDBatt3_DischLimit'.0.ANNUAL.FX 5
+'FI1B1'.'UC_RSDBatt3_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_ACAES-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_ACAES-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_Batt1-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_Batt1-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_Batt1-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_Batt1-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_Batt2-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_Batt2-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_Batt2-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_Batt2-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_Batt3-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_Batt3-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_COMBatt1_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_COMBatt1_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_COMBatt2_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_COMBatt2_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_COMBatt3_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_COMBatt3_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_DCAES-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_DCAES-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_DCAES-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_DCAES-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_DCAES00-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_DCAES00-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_PHS-STG_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_PHS-STG_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_PHS-STS_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_PHS-STS_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_RSDBatt1_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_RSDBatt1_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_RSDBatt2_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_RSDBatt2_DischLimit'.2010.ANNUAL.FX 0
+'FI1D9'.'UC_RSDBatt3_DischLimit'.0.ANNUAL.FX 5
+'FI1D9'.'UC_RSDBatt3_DischLimit'.2010.ANNUAL.FX 0
+/;
+
+

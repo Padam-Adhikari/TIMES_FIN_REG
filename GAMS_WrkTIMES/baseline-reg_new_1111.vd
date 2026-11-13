@@ -1,0 +1,14 @@
+*  GDX2VEDAversion- 2005-10-07
+*         ImportID- Scenario:baseline-reg_new_1111
+*       VEDAFlavor- TIMES
+*       Dimensions- Attribute;Commodity;Process;Period;Region;Vintage;TimeSlice;UserConstraint;PV
+* ParentDimensions- Commodity: Region; Process: Region; UserConstraint: Region
+*      SetsAllowed- Commodity;Process;UserConstraint
+*        FieldSize- Attribute:63;Commodity:63;Process:63;Period:63;Region:63;Vintage:63;TimeSlice:63;UserConstraint:63;PV:20
+*       NotIndexed- PV
+*         ValueDim- PV
+*  DefaultValueDim- PV
+*   FieldSeparator- ,
+*        TextDelim- "
+
+"ObjZ","-","-","-","-","-","-","-",0

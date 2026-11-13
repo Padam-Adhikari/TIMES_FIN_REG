@@ -1,0 +1,490 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME '21_techs_other'
+
+
+SET UNITS_CAP
+
+/
+'MEURO'
+'PJ'
+'PJ-A'
+'PJA'
+/;
+
+SET UNITS_ACT
+
+/
+'MEURO'
+'PJ'
+/;
+
+SET COM_GMAP
+
+/
+'FI'.'GENCOALCONVERTOR_NRGO'.'COABRO'
+'FI'.'GENCOALCONVERTOR_NRGO'.'COALIG'
+'FI'.'GENOILCONVERTOR_NRGO'.'OILFDS'
+'FI'.'GENOILCONVERTOR_NRGO'.'OILNEU'
+'FI'.'GENOILCONVERTOR_NRGO'.'OILOTH'
+'FI'.'GENOILCONVERTOR_NRGO'.'OILRFG'
+'FI'.'SUP2INDHTH_NRGI'.'REFHTH'
+'FI'.'SUP2INDHTH_NRGI'.'SUPHTH'
+/;
+
+SET PRC
+
+/
+'DUMBIO1'
+'DUMBIO2'
+'DUMELCNR'
+'DUMELCR'
+'FeedInTariffBiog'
+'FeedInTariffBiogCHP'
+'FeedInTariffBiom'
+'FeedInTariffBiomCHP'
+'FeedInTariffGeo'
+'FeedInTariffLaHyd'
+'FeedInTariffOce'
+'FeedInTariffPV'
+'FeedInTariffSmHyd'
+'FeedInTariffSolTh'
+'FeedInTariffWaste'
+'FeedInTariffWindN'
+'FeedInTariffWindO'
+'GENCOALCONVERTOR'
+'GENOILCONVERTOR'
+'NGASFRSTOR'
+'NGASTOR-FI'
+'NGASTOSTOR'
+'Penalty_RenELCQuota'
+'RENInvSubsidyBiog'
+'RENInvSubsidyBiom'
+'RENInvSubsidyGeo'
+'RENInvSubsidyLaHyd'
+'RENInvSubsidyOce'
+'RENInvSubsidyPV'
+'RENInvSubsidySmHyd'
+'RENInvSubsidySolTh'
+'RENInvSubsidyWaste'
+'RENInvSubsidyWind'
+'SUP2INDHTH'
+/;
+
+SET PRC_MAP
+
+/
+'FI'.'IRE'.'DUMBIO1'
+'FI'.'IRE'.'DUMBIO2'
+'FI'.'IRE'.'DUMELCNR'
+'FI'.'IRE'.'DUMELCR'
+'FI'.'IRE'.'FeedInTariffBiog'
+'FI'.'IRE'.'FeedInTariffBiogCHP'
+'FI'.'IRE'.'FeedInTariffBiom'
+'FI'.'IRE'.'FeedInTariffBiomCHP'
+'FI'.'IRE'.'FeedInTariffGeo'
+'FI'.'IRE'.'FeedInTariffLaHyd'
+'FI'.'IRE'.'FeedInTariffOce'
+'FI'.'IRE'.'FeedInTariffPV'
+'FI'.'IRE'.'FeedInTariffSmHyd'
+'FI'.'IRE'.'FeedInTariffSolTh'
+'FI'.'IRE'.'FeedInTariffWaste'
+'FI'.'IRE'.'FeedInTariffWindN'
+'FI'.'IRE'.'FeedInTariffWindO'
+'FI'.'IRE'.'RENInvSubsidyBiog'
+'FI'.'IRE'.'RENInvSubsidyBiom'
+'FI'.'IRE'.'RENInvSubsidyGeo'
+'FI'.'IRE'.'RENInvSubsidyLaHyd'
+'FI'.'IRE'.'RENInvSubsidyOce'
+'FI'.'IRE'.'RENInvSubsidyPV'
+'FI'.'IRE'.'RENInvSubsidySmHyd'
+'FI'.'IRE'.'RENInvSubsidySolTh'
+'FI'.'IRE'.'RENInvSubsidyWaste'
+'FI'.'IRE'.'RENInvSubsidyWind'
+'FI'.'PRE'.'GENCOALCONVERTOR'
+'FI'.'PRE'.'GENOILCONVERTOR'
+'FI'.'PRE'.'NGASFRSTOR'
+'FI'.'PRE'.'NGASTOSTOR'
+'FI'.'PRE'.'Penalty_RenELCQuota'
+'FI'.'PRE'.'SUP2INDHTH'
+'FI'.'STG'.'NGASTOR-FI'
+/;
+
+SET PRC_TSL
+
+/
+'FI'.'DUMBIO1'.ANNUAL
+'FI'.'DUMBIO2'.ANNUAL
+'FI'.'DUMELCNR'.ANNUAL
+'FI'.'DUMELCR'.ANNUAL
+'FI'.'FeedInTariffBiog'.ANNUAL
+'FI'.'FeedInTariffBiogCHP'.ANNUAL
+'FI'.'FeedInTariffBiom'.ANNUAL
+'FI'.'FeedInTariffBiomCHP'.ANNUAL
+'FI'.'FeedInTariffGeo'.ANNUAL
+'FI'.'FeedInTariffLaHyd'.ANNUAL
+'FI'.'FeedInTariffOce'.ANNUAL
+'FI'.'FeedInTariffPV'.ANNUAL
+'FI'.'FeedInTariffSmHyd'.ANNUAL
+'FI'.'FeedInTariffSolTh'.ANNUAL
+'FI'.'FeedInTariffWaste'.ANNUAL
+'FI'.'FeedInTariffWindN'.ANNUAL
+'FI'.'FeedInTariffWindO'.ANNUAL
+'FI'.'GENCOALCONVERTOR'.ANNUAL
+'FI'.'GENOILCONVERTOR'.ANNUAL
+'FI'.'NGASFRSTOR'.SEASON
+'FI'.'NGASTOR-FI'.SEASON
+'FI'.'NGASTOSTOR'.SEASON
+'FI'.'Penalty_RenELCQuota'.ANNUAL
+'FI'.'RENInvSubsidyBiog'.ANNUAL
+'FI'.'RENInvSubsidyBiom'.ANNUAL
+'FI'.'RENInvSubsidyGeo'.ANNUAL
+'FI'.'RENInvSubsidyLaHyd'.ANNUAL
+'FI'.'RENInvSubsidyOce'.ANNUAL
+'FI'.'RENInvSubsidyPV'.ANNUAL
+'FI'.'RENInvSubsidySmHyd'.ANNUAL
+'FI'.'RENInvSubsidySolTh'.ANNUAL
+'FI'.'RENInvSubsidyWaste'.ANNUAL
+'FI'.'RENInvSubsidyWind'.ANNUAL
+'FI'.'SUP2INDHTH'.ANNUAL
+/;
+
+SET PRC_ACTUNT
+
+/
+'FI'.'DUMBIO1'.'DUMBioFuelConstr'.'PJ'
+'FI'.'DUMBIO2'.'DUMBioFuelConstr'.'PJ'
+'FI'.'DUMELCNR'.'DUMBioFuelConstr'.'PJ'
+'FI'.'DUMELCR'.'DUMBioFuelConstr'.'PJ'
+'FI'.'FeedInTariffBiog'.'SUBS-REN_FeedInBiog'.'MEURO'
+'FI'.'FeedInTariffBiogCHP'.'SUBS-REN_FeedInBiogCHP'.'MEURO'
+'FI'.'FeedInTariffBiom'.'SUBS-REN_FeedInBiom'.'MEURO'
+'FI'.'FeedInTariffBiomCHP'.'SUBS-REN_FeedInBiomCHP'.'MEURO'
+'FI'.'FeedInTariffGeo'.'SUBS-REN_FeedInGeo'.'MEURO'
+'FI'.'FeedInTariffLaHyd'.'SUBS-REN_FeedInLaHyd'.'MEURO'
+'FI'.'FeedInTariffOce'.'SUBS-REN_FeedInOce'.'MEURO'
+'FI'.'FeedInTariffPV'.'SUBS-REN_FeedInPV'.'MEURO'
+'FI'.'FeedInTariffSmHyd'.'SUBS-REN_FeedInSmHyd'.'MEURO'
+'FI'.'FeedInTariffSolTh'.'SUBS-REN_FeedInSolTh'.'MEURO'
+'FI'.'FeedInTariffWaste'.'SUBS-REN_FeedInWaste'.'MEURO'
+'FI'.'FeedInTariffWindN'.'SUBS-REN_FeedInWindN'.'MEURO'
+'FI'.'FeedInTariffWindO'.'SUBS-REN_FeedInWindO'.'MEURO'
+'FI'.'GENCOALCONVERTOR'.'GENCOALCONVERTOR_NRGO'.'PJ'
+'FI'.'GENOILCONVERTOR'.'GENOILCONVERTOR_NRGO'.'PJ'
+'FI'.'NGASFRSTOR'.'GASNAT'.'PJ'
+'FI'.'NGASTOR-FI'.'GAS2ST'.'PJ'
+'FI'.'NGASTOSTOR'.'GAS2ST'.'PJ'
+'FI'.'Penalty_RenELCQuota'.'Penalty_REQ'.'PJ'
+'FI'.'RENInvSubsidyBiog'.'SUBS-REN_INVBiog'.'MEURO'
+'FI'.'RENInvSubsidyBiom'.'SUBS-REN_INVBiom'.'MEURO'
+'FI'.'RENInvSubsidyGeo'.'SUBS-REN_INVGeo'.'MEURO'
+'FI'.'RENInvSubsidyLaHyd'.'SUBS-REN_INVLaHyd'.'MEURO'
+'FI'.'RENInvSubsidyOce'.'SUBS-REN_INVOce'.'MEURO'
+'FI'.'RENInvSubsidyPV'.'SUBS-REN_INVPV'.'MEURO'
+'FI'.'RENInvSubsidySmHyd'.'SUBS-REN_INVSmHyd'.'MEURO'
+'FI'.'RENInvSubsidySolTh'.'SUBS-REN_INVSolTh'.'MEURO'
+'FI'.'RENInvSubsidyWaste'.'SUBS-REN_INVWaste'.'MEURO'
+'FI'.'RENInvSubsidyWind'.'SUBS-REN_INVWind'.'MEURO'
+'FI'.'SUP2INDHTH'.'INDHTH'.'PJ'
+/;
+
+SET TOP
+
+/
+'FI'.'DUMBIO1'.'DUMBioFuelConstr'.OUT
+'FI'.'DUMBIO2'.'DUMBioFuelConstr'.OUT
+'FI'.'DUMELCNR'.'DUMBioFuelConstr'.OUT
+'FI'.'DUMELCR'.'DUMBioFuelConstr'.OUT
+'FI'.'FeedInTariffBiog'.'SUBS-REN_FeedInBiog'.IN
+'FI'.'FeedInTariffBiogCHP'.'SUBS-REN_FeedInBiogCHP'.IN
+'FI'.'FeedInTariffBiom'.'SUBS-REN_FeedInBiom'.IN
+'FI'.'FeedInTariffBiomCHP'.'SUBS-REN_FeedInBiomCHP'.IN
+'FI'.'FeedInTariffGeo'.'SUBS-REN_FeedInGeo'.IN
+'FI'.'FeedInTariffLaHyd'.'SUBS-REN_FeedInLaHyd'.IN
+'FI'.'FeedInTariffOce'.'SUBS-REN_FeedInOce'.IN
+'FI'.'FeedInTariffPV'.'SUBS-REN_FeedInPV'.IN
+'FI'.'FeedInTariffSmHyd'.'SUBS-REN_FeedInSmHyd'.IN
+'FI'.'FeedInTariffSolTh'.'SUBS-REN_FeedInSolTh'.IN
+'FI'.'FeedInTariffWaste'.'SUBS-REN_FeedInWaste'.IN
+'FI'.'FeedInTariffWindN'.'SUBS-REN_FeedInWindN'.IN
+'FI'.'FeedInTariffWindO'.'SUBS-REN_FeedInWindO'.IN
+'FI'.'GENCOALCONVERTOR'.'COABRO'.OUT
+'FI'.'GENCOALCONVERTOR'.'COAHAR'.IN
+'FI'.'GENCOALCONVERTOR'.'COALIG'.OUT
+'FI'.'GENOILCONVERTOR'.'OILCRD'.IN
+'FI'.'GENOILCONVERTOR'.'OILFDS'.OUT
+'FI'.'GENOILCONVERTOR'.'OILNEU'.OUT
+'FI'.'GENOILCONVERTOR'.'OILOTH'.OUT
+'FI'.'GENOILCONVERTOR'.'OILRFG'.OUT
+'FI'.'NGASFRSTOR'.'GAS2ST'.IN
+'FI'.'NGASFRSTOR'.'GASNAT'.OUT
+'FI'.'NGASTOR-FI'.'GAS2ST'.IN
+'FI'.'NGASTOR-FI'.'GAS2ST'.OUT
+'FI'.'NGASTOSTOR'.'GAS2ST'.OUT
+'FI'.'NGASTOSTOR'.'GASNAT'.IN
+'FI'.'Penalty_RenELCQuota'.'Penalty_REQ'.OUT
+'FI'.'RENInvSubsidyBiog'.'SUBS-REN_INVBiog'.IN
+'FI'.'RENInvSubsidyBiom'.'SUBS-REN_INVBiom'.IN
+'FI'.'RENInvSubsidyGeo'.'SUBS-REN_INVGeo'.IN
+'FI'.'RENInvSubsidyLaHyd'.'SUBS-REN_INVLaHyd'.IN
+'FI'.'RENInvSubsidyOce'.'SUBS-REN_INVOce'.IN
+'FI'.'RENInvSubsidyPV'.'SUBS-REN_INVPV'.IN
+'FI'.'RENInvSubsidySmHyd'.'SUBS-REN_INVSmHyd'.IN
+'FI'.'RENInvSubsidySolTh'.'SUBS-REN_INVSolTh'.IN
+'FI'.'RENInvSubsidyWaste'.'SUBS-REN_INVWaste'.IN
+'FI'.'RENInvSubsidyWind'.'SUBS-REN_INVWind'.IN
+'FI'.'SUP2INDHTH'.'INDHTH'.OUT
+'FI'.'SUP2INDHTH'.'REFHTH'.IN
+'FI'.'SUP2INDHTH'.'SUPHTH'.IN
+/;
+
+SET TOP_IRE
+
+/
+'FI'.'SUBS-REN_FeedInBiog'.'IMPEXP'.'SUBS-REN_FeedInBiog'.'FeedInTariffBiog'
+'FI'.'SUBS-REN_FeedInBiogCHP'.'IMPEXP'.'SUBS-REN_FeedInBiogCHP'.'FeedInTariffBiogCHP'
+'FI'.'SUBS-REN_FeedInBiom'.'IMPEXP'.'SUBS-REN_FeedInBiom'.'FeedInTariffBiom'
+'FI'.'SUBS-REN_FeedInBiomCHP'.'IMPEXP'.'SUBS-REN_FeedInBiomCHP'.'FeedInTariffBiomCHP'
+'FI'.'SUBS-REN_FeedInGeo'.'IMPEXP'.'SUBS-REN_FeedInGeo'.'FeedInTariffGeo'
+'FI'.'SUBS-REN_FeedInLaHyd'.'IMPEXP'.'SUBS-REN_FeedInLaHyd'.'FeedInTariffLaHyd'
+'FI'.'SUBS-REN_FeedInOce'.'IMPEXP'.'SUBS-REN_FeedInOce'.'FeedInTariffOce'
+'FI'.'SUBS-REN_FeedInPV'.'IMPEXP'.'SUBS-REN_FeedInPV'.'FeedInTariffPV'
+'FI'.'SUBS-REN_FeedInSmHyd'.'IMPEXP'.'SUBS-REN_FeedInSmHyd'.'FeedInTariffSmHyd'
+'FI'.'SUBS-REN_FeedInSolTh'.'IMPEXP'.'SUBS-REN_FeedInSolTh'.'FeedInTariffSolTh'
+'FI'.'SUBS-REN_FeedInWaste'.'IMPEXP'.'SUBS-REN_FeedInWaste'.'FeedInTariffWaste'
+'FI'.'SUBS-REN_FeedInWindN'.'IMPEXP'.'SUBS-REN_FeedInWindN'.'FeedInTariffWindN'
+'FI'.'SUBS-REN_FeedInWindO'.'IMPEXP'.'SUBS-REN_FeedInWindO'.'FeedInTariffWindO'
+'FI'.'SUBS-REN_INVBiog'.'IMPEXP'.'SUBS-REN_INVBiog'.'RENInvSubsidyBiog'
+'FI'.'SUBS-REN_INVBiom'.'IMPEXP'.'SUBS-REN_INVBiom'.'RENInvSubsidyBiom'
+'FI'.'SUBS-REN_INVGeo'.'IMPEXP'.'SUBS-REN_INVGeo'.'RENInvSubsidyGeo'
+'FI'.'SUBS-REN_INVLaHyd'.'IMPEXP'.'SUBS-REN_INVLaHyd'.'RENInvSubsidyLaHyd'
+'FI'.'SUBS-REN_INVOce'.'IMPEXP'.'SUBS-REN_INVOce'.'RENInvSubsidyOce'
+'FI'.'SUBS-REN_INVPV'.'IMPEXP'.'SUBS-REN_INVPV'.'RENInvSubsidyPV'
+'FI'.'SUBS-REN_INVSmHyd'.'IMPEXP'.'SUBS-REN_INVSmHyd'.'RENInvSubsidySmHyd'
+'FI'.'SUBS-REN_INVSolTh'.'IMPEXP'.'SUBS-REN_INVSolTh'.'RENInvSubsidySolTh'
+'FI'.'SUBS-REN_INVWaste'.'IMPEXP'.'SUBS-REN_INVWaste'.'RENInvSubsidyWaste'
+'FI'.'SUBS-REN_INVWind'.'IMPEXP'.'SUBS-REN_INVWind'.'RENInvSubsidyWind'
+'IMPEXP'.'DUMBioFuelConstr'.'FI'.'DUMBioFuelConstr'.'DUMBIO1'
+'IMPEXP'.'DUMBioFuelConstr'.'FI'.'DUMBioFuelConstr'.'DUMBIO2'
+'IMPEXP'.'DUMBioFuelConstr'.'FI'.'DUMBioFuelConstr'.'DUMELCNR'
+'IMPEXP'.'DUMBioFuelConstr'.'FI'.'DUMBioFuelConstr'.'DUMELCR'
+/;
+
+SET PRC_DESC
+
+/
+'FI'.'DUMBIO1' 'Dummy Technology for Bio fuel first generation TRA sector'
+'FI'.'DUMBIO2' 'Dummy Technology for Bio fuel second generation TRA sector'
+'FI'.'DUMELCNR' 'Dummy Technology for ELC Renewable TRA non-road'
+'FI'.'DUMELCR' 'Dummy Technology for ELC Renewable TRA road'
+'FI'.'FeedInTariffBiog' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffBiogCHP' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffBiom' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffBiomCHP' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffGeo' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffLaHyd' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffOce' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffPV' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffSmHyd' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffSolTh' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffWaste' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffWindN' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'FeedInTariffWindO' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'GENCOALCONVERTOR' 'Converting HAR to LIG and BRO'
+'FI'.'GENOILCONVERTOR' 'Converting CRD to OTH and NEU'
+'FI'.'NGASFRSTOR' 'Dry Gas from Storage'
+'FI'.'NGASTOR-FI' 'LNG Storage'
+'FI'.'NGASTOSTOR' 'Dry Gas to Storage'
+'FI'.'Penalty_RenELCQuota' 'Penalty for not meeting the Renewable ELC production target under Quota system'
+'FI'.'RENInvSubsidyBiog' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyBiom' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyGeo' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyLaHyd' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyOce' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyPV' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidySmHyd' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidySolTh' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyWaste' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'RENInvSubsidyWind' 'Accounting for Feed-in Tariffs for REN ELC'
+'FI'.'SUP2INDHTH' 'Mapping SUP and REF HTH to INDHTH'
+/;
+
+PARAMETER
+
+ACT_COST ' '/
+'FI'.2010.'GENCOALCONVERTOR'.'EUR10' 0.01
+'FI'.2010.'GENOILCONVERTOR'.'EUR10' 0.01
+'FI'.2010.'SUP2INDHTH'.'EUR10' 0.1
+/;
+
+PARAMETER
+
+ACT_EFF ' '/
+'FI'.2010.'GENCOALCONVERTOR'.'ACT'.ANNUAL 1
+'FI'.2010.'GENOILCONVERTOR'.'ACT'.ANNUAL 1
+'FI'.2010.'NGASFRSTOR'.'ACT'.ANNUAL 1
+'FI'.2010.'NGASTOSTOR'.'ACT'.ANNUAL 1
+'FI'.2010.'SUP2INDHTH'.'ACT'.ANNUAL 1
+/;
+
+PARAMETER
+
+COM_AGG ' '/
+'FI'.2010.'AGRCO2N'.'TOTCO2' 1
+'FI'.2010.'COMCO2N'.'TOTCO2' 1
+'FI'.2010.'COMLPG'.'COMFINOIL' 1
+'FI'.2010.'COMOIL'.'COMFINOIL' 1
+'FI'.2010.'ELCCO2I'.'TOTCO2' 1
+'FI'.2010.'ELCCO2N'.'TOTCO2' 1
+'FI'.2010.'ELCCO2P'.'TOTCO2' 1
+'FI'.2010.'ICMFICO2'.'INDCO2' 1
+'FI'.2010.'ICMFICO2'.'TOTCO2' 1
+'FI'.2010.'INDBFG'.'INDFINGAS' 1
+'FI'.2010.'INDBFT'.'INDFINGAS' 1
+'FI'.2010.'INDCO2N'.'INDCO2' 1
+'FI'.2010.'INDCO2N'.'TOTCO2' 1
+'FI'.2010.'INDCO2P'.'ETSCO2' 1
+'FI'.2010.'INDCO2P'.'INDCO2' 1
+'FI'.2010.'INDCO2P'.'TOTCO2' 1
+'FI'.2010.'INDCOA'.'INDFINSOLID' 1
+'FI'.2010.'INDCOB'.'INDFINSOLID' 1
+'FI'.2010.'INDCOG'.'INDFINGAS' 1
+'FI'.2010.'INDCOK'.'INDFINSOLID' 1
+'FI'.2010.'INDCOL'.'INDFINSOLID' 1
+'FI'.2010.'INDCOP'.'INDFINGAS' 1
+'FI'.2010.'INDGAS'.'INDFINGAS' 1
+'FI'.2010.'INDHFO'.'INDFINOIL' 1
+'FI'.2010.'INDIIS'.'INDFINGAS' 1
+'FI'.2010.'INDLFO'.'INDFINOIL' 1
+'FI'.2010.'INDLPG'.'INDFINOIL' 1
+'FI'.2010.'INDNAP'.'INDFINOIL' 1
+'FI'.2010.'INDRFG'.'INDFINOIL' 1
+'FI'.2010.'INDSCO2P'.'ETSCO2' 1
+'FI'.2010.'RSDCO2N'.'TOTCO2' 1
+'FI'.2010.'RSDLPG'.'RSDFINOIL' 1
+'FI'.2010.'RSDOIL'.'RSDFINOIL' 1
+'FI'.2010.'SE_TRACO2N'.'CO2WOT' -1
+'FI'.2010.'SE_TRACO2N'.'TOTCO2' 1
+'FI'.2010.'SUPCO2N'.'TOTCO2' 1
+'FI'.2010.'SUPCO2P'.'TOTCO2' 1
+'FI'.2010.'TOTCO2'.'CO2WOT' 1
+'FI'.2010.'TRADST'.'TRAFINOIL' 1
+'FI'.2010.'TRAGSLE85'.'TRAFINOIL' 1
+'FI'.2010.'TRAGSLSP95'.'TRAFINOIL' 1
+'FI'.2010.'TRAGSLSP95E10'.'TRAFINOIL' 1
+'FI'.2010.'TRAJTK'.'TRAFINOIL' 1
+'FI'.2010.'TRALPG'.'TRAFINOIL' 1
+'FI1B1'.2010.'AGRCO2N'.'TOTCO2' 1
+'FI1B1'.2010.'COMCO2N'.'TOTCO2' 1
+'FI1B1'.2010.'ELCCO2I'.'TOTCO2' 1
+'FI1B1'.2010.'ELCCO2N'.'TOTCO2' 1
+'FI1B1'.2010.'ELCCO2P'.'TOTCO2' 1
+'FI1B1'.2010.'ICMFICO2'.'TOTCO2' 1
+'FI1B1'.2010.'INDCO2N'.'TOTCO2' 1
+'FI1B1'.2010.'INDCO2P'.'ETSCO2' 1
+'FI1B1'.2010.'INDCO2P'.'TOTCO2' 1
+'FI1B1'.2010.'RSDCO2N'.'TOTCO2' 1
+'FI1B1'.2010.'SE_TRACO2N'.'TOTCO2' 1
+'FI1B1'.2010.'SUPCO2N'.'TOTCO2' 1
+'FI1B1'.2010.'SUPCO2P'.'TOTCO2' 1
+'FI1D9'.2010.'AGRCO2N'.'TOTCO2' 1
+'FI1D9'.2010.'COMCO2N'.'TOTCO2' 1
+'FI1D9'.2010.'ELCCO2I'.'TOTCO2' 1
+'FI1D9'.2010.'ELCCO2N'.'TOTCO2' 1
+'FI1D9'.2010.'ELCCO2P'.'TOTCO2' 1
+'FI1D9'.2010.'ICMFICO2'.'TOTCO2' 1
+'FI1D9'.2010.'INDCO2N'.'TOTCO2' 1
+'FI1D9'.2010.'INDCO2P'.'ETSCO2' 1
+'FI1D9'.2010.'INDCO2P'.'TOTCO2' 1
+'FI1D9'.2010.'RSDCO2N'.'TOTCO2' 1
+'FI1D9'.2010.'SE_TRACO2N'.'TOTCO2' 1
+'FI1D9'.2010.'SUPCO2N'.'TOTCO2' 1
+'FI1D9'.2010.'SUPCO2P'.'TOTCO2' 1
+/;
+
+PARAMETER
+
+IRE_PRICE ' '/
+'FI'.2010.'FeedInTariffBiog'.'SUBS-REN_FeedInBiog'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffBiogCHP'.'SUBS-REN_FeedInBiogCHP'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffBiom'.'SUBS-REN_FeedInBiom'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffBiomCHP'.'SUBS-REN_FeedInBiomCHP'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffGeo'.'SUBS-REN_FeedInGeo'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffLaHyd'.'SUBS-REN_FeedInLaHyd'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffOce'.'SUBS-REN_FeedInOce'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffPV'.'SUBS-REN_FeedInPV'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffSmHyd'.'SUBS-REN_FeedInSmHyd'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffSolTh'.'SUBS-REN_FeedInSolTh'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffWaste'.'SUBS-REN_FeedInWaste'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffWindN'.'SUBS-REN_FeedInWindN'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'FeedInTariffWindO'.'SUBS-REN_FeedInWindO'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyBiog'.'SUBS-REN_INVBiog'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyBiom'.'SUBS-REN_INVBiom'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyGeo'.'SUBS-REN_INVGeo'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyLaHyd'.'SUBS-REN_INVLaHyd'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyOce'.'SUBS-REN_INVOce'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyPV'.'SUBS-REN_INVPV'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidySmHyd'.'SUBS-REN_INVSmHyd'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidySolTh'.'SUBS-REN_INVSolTh'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyWaste'.'SUBS-REN_INVWaste'.ANNUAL.'FI'.EXP.'EUR10' 1
+'FI'.2010.'RENInvSubsidyWind'.'SUBS-REN_INVWind'.ANNUAL.'FI'.EXP.'EUR10' 1
+/;
+
+PARAMETER
+
+NCAP_COST ' '/
+'FI'.2010.'NGASTOR-FI'.'EUR10' 50
+/;
+
+PARAMETER
+
+NCAP_START ' '/
+'FI'.'FeedInTariffBiog' 2010
+'FI'.'FeedInTariffBiogCHP' 2010
+'FI'.'FeedInTariffBiom' 2010
+'FI'.'FeedInTariffBiomCHP' 2010
+'FI'.'FeedInTariffGeo' 2010
+'FI'.'FeedInTariffLaHyd' 2010
+'FI'.'FeedInTariffOce' 2010
+'FI'.'FeedInTariffPV' 2010
+'FI'.'FeedInTariffSmHyd' 2010
+'FI'.'FeedInTariffSolTh' 2010
+'FI'.'FeedInTariffWaste' 2010
+'FI'.'FeedInTariffWindN' 2010
+'FI'.'FeedInTariffWindO' 2010
+'FI'.'Penalty_RenELCQuota' 2010
+'FI'.'RENInvSubsidyBiog' 2010
+'FI'.'RENInvSubsidyBiom' 2010
+'FI'.'RENInvSubsidyGeo' 2010
+'FI'.'RENInvSubsidyLaHyd' 2010
+'FI'.'RENInvSubsidyOce' 2010
+'FI'.'RENInvSubsidyPV' 2010
+'FI'.'RENInvSubsidySmHyd' 2010
+'FI'.'RENInvSubsidySolTh' 2010
+'FI'.'RENInvSubsidyWaste' 2010
+'FI'.'RENInvSubsidyWind' 2010
+'FI'.'SUP2INDHTH' 2100
+/;
+
+PARAMETER
+
+NCAP_TLIFE ' '/
+'FI'.2010.'NGASTOR-FI' 50
+/;
+
+PARAMETER
+
+PRC_RESID ' '/
+'FI'.2010.'NGASTOR-FI' 0
+'FI'.2050.'NGASTOR-FI' 0
+/;
+
+PARAMETER
+
+STG_EFF ' '/
+'FI'.2010.'NGASTOR-FI' 0.98
+/;
+
+

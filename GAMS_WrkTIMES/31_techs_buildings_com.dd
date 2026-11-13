@@ -1,0 +1,579 @@
+$ONEMPTY
+$ONEPS
+$ONWARNING
+$SET RUN_NAME 'BASELINE-REG_NEW'
+$SET SCENARIO_NAME '31_techs_buildings_com'
+
+
+SET UNITS_CAP
+
+/
+'MM2-Y'
+/;
+
+SET UNITS_ACT
+
+/
+'PJ'
+/;
+
+SET COM_GMAP
+
+/
+'FI'.'NRbldg_HoRest-MG1_NRGI'.'Bldg_HoRest-Win'
+'FI'.'NRbldg_HoRest-MG2_NRGI'.'Bldg_HoRest-Win'
+'FI'.'NRbldg_HoRest-MG3_NRGI'.'Bldg_HoRest-Win'
+'FI'.'NRbldg_HoRest-MR2_NRGI'.'Bldg_HoRest-Cei'
+'FI'.'NRbldg_HoRest-MR3_NRGI'.'Bldg_HoRest-Cei'
+'FI'.'NRbldg_HoRest-MW2_NRGI'.'Bldg_HoRest-Wal'
+'FI'.'NRbldg_HoRest-MW3_NRGI'.'Bldg_HoRest-Wal'
+'FI'.'NRbldg_Hosp-MG1_NRGI'.'Bldg_Hosp-Win'
+'FI'.'NRbldg_Hosp-MG2_NRGI'.'Bldg_Hosp-Win'
+'FI'.'NRbldg_Hosp-MG3_NRGI'.'Bldg_Hosp-Win'
+'FI'.'NRbldg_Hosp-MR2_NRGI'.'Bldg_Hosp-Cei'
+'FI'.'NRbldg_Hosp-MR3_NRGI'.'Bldg_Hosp-Cei'
+'FI'.'NRbldg_Hosp-MW2_NRGI'.'Bldg_Hosp-Wal'
+'FI'.'NRbldg_Hosp-MW3_NRGI'.'Bldg_Hosp-Wal'
+'FI'.'NRbldg_Offic-MG1_NRGI'.'Bldg_Offic-Win'
+'FI'.'NRbldg_Offic-MG2_NRGI'.'Bldg_Offic-Win'
+'FI'.'NRbldg_Offic-MG3_NRGI'.'Bldg_Offic-Win'
+'FI'.'NRbldg_Offic-MR2_NRGI'.'Bldg_Offic-Cei'
+'FI'.'NRbldg_Offic-MR3_NRGI'.'Bldg_Offic-Cei'
+'FI'.'NRbldg_Offic-MW2_NRGI'.'Bldg_Offic-Wal'
+'FI'.'NRbldg_Offic-MW3_NRGI'.'Bldg_Offic-Wal'
+'FI'.'NRbldg_ShopL-MG1_NRGI'.'Bldg_ShopL-Win'
+'FI'.'NRbldg_ShopL-MG2_NRGI'.'Bldg_ShopL-Win'
+'FI'.'NRbldg_ShopL-MG3_NRGI'.'Bldg_ShopL-Win'
+'FI'.'NRbldg_ShopL-MR2_NRGI'.'Bldg_ShopL-Cei'
+'FI'.'NRbldg_ShopL-MR3_NRGI'.'Bldg_ShopL-Cei'
+'FI'.'NRbldg_ShopL-MW2_NRGI'.'Bldg_ShopL-Wal'
+'FI'.'NRbldg_ShopL-MW3_NRGI'.'Bldg_ShopL-Wal'
+'FI'.'NRbldg_ShopS-MG1_NRGI'.'Bldg_ShopS-Win'
+'FI'.'NRbldg_ShopS-MG2_NRGI'.'Bldg_ShopS-Win'
+'FI'.'NRbldg_ShopS-MG3_NRGI'.'Bldg_ShopS-Win'
+'FI'.'NRbldg_ShopS-MR2_NRGI'.'Bldg_ShopS-Cei'
+'FI'.'NRbldg_ShopS-MR3_NRGI'.'Bldg_ShopS-Cei'
+'FI'.'NRbldg_ShopS-MW2_NRGI'.'Bldg_ShopS-Wal'
+'FI'.'NRbldg_ShopS-MW3_NRGI'.'Bldg_ShopS-Wal'
+'FI'.'NRbldg_SpoRecr-MG1_NRGI'.'Bldg_SpoRecr-Win'
+'FI'.'NRbldg_SpoRecr-MG2_NRGI'.'Bldg_SpoRecr-Win'
+'FI'.'NRbldg_SpoRecr-MG3_NRGI'.'Bldg_SpoRecr-Win'
+'FI'.'NRbldg_SpoRecr-MR2_NRGI'.'Bldg_SpoRecr-Cei'
+'FI'.'NRbldg_SpoRecr-MR3_NRGI'.'Bldg_SpoRecr-Cei'
+'FI'.'NRbldg_SpoRecr-MW2_NRGI'.'Bldg_SpoRecr-Wal'
+'FI'.'NRbldg_SpoRecr-MW3_NRGI'.'Bldg_SpoRecr-Wal'
+/;
+
+SET PRC
+
+/
+'NRbldg_HoRest-MG1'
+'NRbldg_HoRest-MG2'
+'NRbldg_HoRest-MG3'
+'NRbldg_HoRest-MR2'
+'NRbldg_HoRest-MR3'
+'NRbldg_HoRest-MW2'
+'NRbldg_HoRest-MW3'
+'NRbldg_Hosp-MG1'
+'NRbldg_Hosp-MG2'
+'NRbldg_Hosp-MG3'
+'NRbldg_Hosp-MR2'
+'NRbldg_Hosp-MR3'
+'NRbldg_Hosp-MW2'
+'NRbldg_Hosp-MW3'
+'NRbldg_Offic-MG1'
+'NRbldg_Offic-MG2'
+'NRbldg_Offic-MG3'
+'NRbldg_Offic-MR2'
+'NRbldg_Offic-MR3'
+'NRbldg_Offic-MW2'
+'NRbldg_Offic-MW3'
+'NRbldg_ShopL-MG1'
+'NRbldg_ShopL-MG2'
+'NRbldg_ShopL-MG3'
+'NRbldg_ShopL-MR2'
+'NRbldg_ShopL-MR3'
+'NRbldg_ShopL-MW2'
+'NRbldg_ShopL-MW3'
+'NRbldg_ShopS-MG1'
+'NRbldg_ShopS-MG2'
+'NRbldg_ShopS-MG3'
+'NRbldg_ShopS-MR2'
+'NRbldg_ShopS-MR3'
+'NRbldg_ShopS-MW2'
+'NRbldg_ShopS-MW3'
+'NRbldg_SpoRecr-MG1'
+'NRbldg_SpoRecr-MG2'
+'NRbldg_SpoRecr-MG3'
+'NRbldg_SpoRecr-MR2'
+'NRbldg_SpoRecr-MR3'
+'NRbldg_SpoRecr-MW2'
+'NRbldg_SpoRecr-MW3'
+/;
+
+SET PRC_MAP
+
+/
+'FI'.'PRE'.'NRbldg_HoRest-MG1'
+'FI'.'PRE'.'NRbldg_HoRest-MG2'
+'FI'.'PRE'.'NRbldg_HoRest-MG3'
+'FI'.'PRE'.'NRbldg_HoRest-MR2'
+'FI'.'PRE'.'NRbldg_HoRest-MR3'
+'FI'.'PRE'.'NRbldg_HoRest-MW2'
+'FI'.'PRE'.'NRbldg_HoRest-MW3'
+'FI'.'PRE'.'NRbldg_Hosp-MG1'
+'FI'.'PRE'.'NRbldg_Hosp-MG2'
+'FI'.'PRE'.'NRbldg_Hosp-MG3'
+'FI'.'PRE'.'NRbldg_Hosp-MR2'
+'FI'.'PRE'.'NRbldg_Hosp-MR3'
+'FI'.'PRE'.'NRbldg_Hosp-MW2'
+'FI'.'PRE'.'NRbldg_Hosp-MW3'
+'FI'.'PRE'.'NRbldg_Offic-MG1'
+'FI'.'PRE'.'NRbldg_Offic-MG2'
+'FI'.'PRE'.'NRbldg_Offic-MG3'
+'FI'.'PRE'.'NRbldg_Offic-MR2'
+'FI'.'PRE'.'NRbldg_Offic-MR3'
+'FI'.'PRE'.'NRbldg_Offic-MW2'
+'FI'.'PRE'.'NRbldg_Offic-MW3'
+'FI'.'PRE'.'NRbldg_ShopL-MG1'
+'FI'.'PRE'.'NRbldg_ShopL-MG2'
+'FI'.'PRE'.'NRbldg_ShopL-MG3'
+'FI'.'PRE'.'NRbldg_ShopL-MR2'
+'FI'.'PRE'.'NRbldg_ShopL-MR3'
+'FI'.'PRE'.'NRbldg_ShopL-MW2'
+'FI'.'PRE'.'NRbldg_ShopL-MW3'
+'FI'.'PRE'.'NRbldg_ShopS-MG1'
+'FI'.'PRE'.'NRbldg_ShopS-MG2'
+'FI'.'PRE'.'NRbldg_ShopS-MG3'
+'FI'.'PRE'.'NRbldg_ShopS-MR2'
+'FI'.'PRE'.'NRbldg_ShopS-MR3'
+'FI'.'PRE'.'NRbldg_ShopS-MW2'
+'FI'.'PRE'.'NRbldg_ShopS-MW3'
+'FI'.'PRE'.'NRbldg_SpoRecr-MG1'
+'FI'.'PRE'.'NRbldg_SpoRecr-MG2'
+'FI'.'PRE'.'NRbldg_SpoRecr-MG3'
+'FI'.'PRE'.'NRbldg_SpoRecr-MR2'
+'FI'.'PRE'.'NRbldg_SpoRecr-MR3'
+'FI'.'PRE'.'NRbldg_SpoRecr-MW2'
+'FI'.'PRE'.'NRbldg_SpoRecr-MW3'
+/;
+
+SET PRC_TSL
+
+/
+'FI'.'NRbldg_HoRest-MG1'.ANNUAL
+'FI'.'NRbldg_HoRest-MG2'.ANNUAL
+'FI'.'NRbldg_HoRest-MG3'.ANNUAL
+'FI'.'NRbldg_HoRest-MR2'.ANNUAL
+'FI'.'NRbldg_HoRest-MR3'.ANNUAL
+'FI'.'NRbldg_HoRest-MW2'.ANNUAL
+'FI'.'NRbldg_HoRest-MW3'.ANNUAL
+'FI'.'NRbldg_Hosp-MG1'.ANNUAL
+'FI'.'NRbldg_Hosp-MG2'.ANNUAL
+'FI'.'NRbldg_Hosp-MG3'.ANNUAL
+'FI'.'NRbldg_Hosp-MR2'.ANNUAL
+'FI'.'NRbldg_Hosp-MR3'.ANNUAL
+'FI'.'NRbldg_Hosp-MW2'.ANNUAL
+'FI'.'NRbldg_Hosp-MW3'.ANNUAL
+'FI'.'NRbldg_Offic-MG1'.ANNUAL
+'FI'.'NRbldg_Offic-MG2'.ANNUAL
+'FI'.'NRbldg_Offic-MG3'.ANNUAL
+'FI'.'NRbldg_Offic-MR2'.ANNUAL
+'FI'.'NRbldg_Offic-MR3'.ANNUAL
+'FI'.'NRbldg_Offic-MW2'.ANNUAL
+'FI'.'NRbldg_Offic-MW3'.ANNUAL
+'FI'.'NRbldg_ShopL-MG1'.ANNUAL
+'FI'.'NRbldg_ShopL-MG2'.ANNUAL
+'FI'.'NRbldg_ShopL-MG3'.ANNUAL
+'FI'.'NRbldg_ShopL-MR2'.ANNUAL
+'FI'.'NRbldg_ShopL-MR3'.ANNUAL
+'FI'.'NRbldg_ShopL-MW2'.ANNUAL
+'FI'.'NRbldg_ShopL-MW3'.ANNUAL
+'FI'.'NRbldg_ShopS-MG1'.ANNUAL
+'FI'.'NRbldg_ShopS-MG2'.ANNUAL
+'FI'.'NRbldg_ShopS-MG3'.ANNUAL
+'FI'.'NRbldg_ShopS-MR2'.ANNUAL
+'FI'.'NRbldg_ShopS-MR3'.ANNUAL
+'FI'.'NRbldg_ShopS-MW2'.ANNUAL
+'FI'.'NRbldg_ShopS-MW3'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MG1'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MG2'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MG3'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MR2'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MR3'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MW2'.ANNUAL
+'FI'.'NRbldg_SpoRecr-MW3'.ANNUAL
+/;
+
+SET PRC_ACTUNT
+
+/
+'FI'.'NRbldg_HoRest-MG1'.'NRbldg_HoRest-MG1_NRGI'.'PJ'
+'FI'.'NRbldg_HoRest-MG2'.'NRbldg_HoRest-MG2_NRGI'.'PJ'
+'FI'.'NRbldg_HoRest-MG3'.'NRbldg_HoRest-MG3_NRGI'.'PJ'
+'FI'.'NRbldg_HoRest-MR2'.'NRbldg_HoRest-MR2_NRGI'.'PJ'
+'FI'.'NRbldg_HoRest-MR3'.'NRbldg_HoRest-MR3_NRGI'.'PJ'
+'FI'.'NRbldg_HoRest-MW2'.'NRbldg_HoRest-MW2_NRGI'.'PJ'
+'FI'.'NRbldg_HoRest-MW3'.'NRbldg_HoRest-MW3_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MG1'.'NRbldg_Hosp-MG1_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MG2'.'NRbldg_Hosp-MG2_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MG3'.'NRbldg_Hosp-MG3_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MR2'.'NRbldg_Hosp-MR2_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MR3'.'NRbldg_Hosp-MR3_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MW2'.'NRbldg_Hosp-MW2_NRGI'.'PJ'
+'FI'.'NRbldg_Hosp-MW3'.'NRbldg_Hosp-MW3_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MG1'.'NRbldg_Offic-MG1_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MG2'.'NRbldg_Offic-MG2_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MG3'.'NRbldg_Offic-MG3_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MR2'.'NRbldg_Offic-MR2_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MR3'.'NRbldg_Offic-MR3_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MW2'.'NRbldg_Offic-MW2_NRGI'.'PJ'
+'FI'.'NRbldg_Offic-MW3'.'NRbldg_Offic-MW3_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MG1'.'NRbldg_ShopL-MG1_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MG2'.'NRbldg_ShopL-MG2_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MG3'.'NRbldg_ShopL-MG3_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MR2'.'NRbldg_ShopL-MR2_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MR3'.'NRbldg_ShopL-MR3_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MW2'.'NRbldg_ShopL-MW2_NRGI'.'PJ'
+'FI'.'NRbldg_ShopL-MW3'.'NRbldg_ShopL-MW3_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MG1'.'NRbldg_ShopS-MG1_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MG2'.'NRbldg_ShopS-MG2_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MG3'.'NRbldg_ShopS-MG3_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MR2'.'NRbldg_ShopS-MR2_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MR3'.'NRbldg_ShopS-MR3_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MW2'.'NRbldg_ShopS-MW2_NRGI'.'PJ'
+'FI'.'NRbldg_ShopS-MW3'.'NRbldg_ShopS-MW3_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MG1'.'NRbldg_SpoRecr-MG1_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MG2'.'NRbldg_SpoRecr-MG2_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MG3'.'NRbldg_SpoRecr-MG3_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MR2'.'NRbldg_SpoRecr-MR2_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MR3'.'NRbldg_SpoRecr-MR3_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MW2'.'NRbldg_SpoRecr-MW2_NRGI'.'PJ'
+'FI'.'NRbldg_SpoRecr-MW3'.'NRbldg_SpoRecr-MW3_NRGI'.'PJ'
+/;
+
+SET TOP
+
+/
+'FI'.'NRbldg_HoRest-MG1'.'Bldg_HoRest-Win'.IN
+'FI'.'NRbldg_HoRest-MG1'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_HoRest-MG2'.'Bldg_HoRest-Win'.IN
+'FI'.'NRbldg_HoRest-MG2'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_HoRest-MG3'.'Bldg_HoRest-Win'.IN
+'FI'.'NRbldg_HoRest-MG3'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_HoRest-MR2'.'Bldg_HoRest-Cei'.IN
+'FI'.'NRbldg_HoRest-MR2'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_HoRest-MR3'.'Bldg_HoRest-Cei'.IN
+'FI'.'NRbldg_HoRest-MR3'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_HoRest-MW2'.'Bldg_HoRest-Wal'.IN
+'FI'.'NRbldg_HoRest-MW2'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_HoRest-MW3'.'Bldg_HoRest-Wal'.IN
+'FI'.'NRbldg_HoRest-MW3'.'NR_ES-HR-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MG1'.'Bldg_Hosp-Win'.IN
+'FI'.'NRbldg_Hosp-MG1'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MG2'.'Bldg_Hosp-Win'.IN
+'FI'.'NRbldg_Hosp-MG2'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MG3'.'Bldg_Hosp-Win'.IN
+'FI'.'NRbldg_Hosp-MG3'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MR2'.'Bldg_Hosp-Cei'.IN
+'FI'.'NRbldg_Hosp-MR2'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MR3'.'Bldg_Hosp-Cei'.IN
+'FI'.'NRbldg_Hosp-MR3'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MW2'.'Bldg_Hosp-Wal'.IN
+'FI'.'NRbldg_Hosp-MW2'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Hosp-MW3'.'Bldg_Hosp-Wal'.IN
+'FI'.'NRbldg_Hosp-MW3'.'NR_ES-HO-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MG1'.'Bldg_Offic-Win'.IN
+'FI'.'NRbldg_Offic-MG1'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MG2'.'Bldg_Offic-Win'.IN
+'FI'.'NRbldg_Offic-MG2'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MG3'.'Bldg_Offic-Win'.IN
+'FI'.'NRbldg_Offic-MG3'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MR2'.'Bldg_Offic-Cei'.IN
+'FI'.'NRbldg_Offic-MR2'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MR3'.'Bldg_Offic-Cei'.IN
+'FI'.'NRbldg_Offic-MR3'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MW2'.'Bldg_Offic-Wal'.IN
+'FI'.'NRbldg_Offic-MW2'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_Offic-MW3'.'Bldg_Offic-Wal'.IN
+'FI'.'NRbldg_Offic-MW3'.'NR_ES-OF-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MG1'.'Bldg_ShopL-Win'.IN
+'FI'.'NRbldg_ShopL-MG1'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MG2'.'Bldg_ShopL-Win'.IN
+'FI'.'NRbldg_ShopL-MG2'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MG3'.'Bldg_ShopL-Win'.IN
+'FI'.'NRbldg_ShopL-MG3'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MR2'.'Bldg_ShopL-Cei'.IN
+'FI'.'NRbldg_ShopL-MR2'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MR3'.'Bldg_ShopL-Cei'.IN
+'FI'.'NRbldg_ShopL-MR3'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MW2'.'Bldg_ShopL-Wal'.IN
+'FI'.'NRbldg_ShopL-MW2'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopL-MW3'.'Bldg_ShopL-Wal'.IN
+'FI'.'NRbldg_ShopL-MW3'.'NR_ES-SL-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MG1'.'Bldg_ShopS-Win'.IN
+'FI'.'NRbldg_ShopS-MG1'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MG2'.'Bldg_ShopS-Win'.IN
+'FI'.'NRbldg_ShopS-MG2'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MG3'.'Bldg_ShopS-Win'.IN
+'FI'.'NRbldg_ShopS-MG3'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MR2'.'Bldg_ShopS-Cei'.IN
+'FI'.'NRbldg_ShopS-MR2'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MR3'.'Bldg_ShopS-Cei'.IN
+'FI'.'NRbldg_ShopS-MR3'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MW2'.'Bldg_ShopS-Wal'.IN
+'FI'.'NRbldg_ShopS-MW2'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_ShopS-MW3'.'Bldg_ShopS-Wal'.IN
+'FI'.'NRbldg_ShopS-MW3'.'NR_ES-SS-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MG1'.'Bldg_SpoRecr-Win'.IN
+'FI'.'NRbldg_SpoRecr-MG1'.'NR_ES-SR-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MG2'.'Bldg_SpoRecr-Win'.IN
+'FI'.'NRbldg_SpoRecr-MG2'.'NR_ES-SR-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MG3'.'Bldg_SpoRecr-Win'.IN
+'FI'.'NRbldg_SpoRecr-MG3'.'NR_ES-SR-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MR2'.'Bldg_SpoRecr-Cei'.IN
+'FI'.'NRbldg_SpoRecr-MR2'.'NR_ES-SR-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MR3'.'Bldg_SpoRecr-Cei'.IN
+'FI'.'NRbldg_SpoRecr-MR3'.'NR_ES-SR-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MW2'.'Bldg_SpoRecr-Wal'.IN
+'FI'.'NRbldg_SpoRecr-MW2'.'NR_ES-SR-SpHeat'.OUT
+'FI'.'NRbldg_SpoRecr-MW3'.'Bldg_SpoRecr-Wal'.IN
+'FI'.'NRbldg_SpoRecr-MW3'.'NR_ES-SR-SpHeat'.OUT
+/;
+
+SET PRC_DESC
+
+/
+'FI'.'NRbldg_HoRest-MG1' 'Window replacement: Double glass with air cavity (16mm) - NRbldg_HoRest'
+'FI'.'NRbldg_HoRest-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - NRbldg_HoRest'
+'FI'.'NRbldg_HoRest-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - NRbldg_HoRest'
+'FI'.'NRbldg_HoRest-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - NRbldg_HoRest'
+'FI'.'NRbldg_HoRest-MR3' 'Isolate below the last concrete slab (10cm) - NRbldg_HoRest'
+'FI'.'NRbldg_HoRest-MW2' 'External insulation (10 cm - EIFS System)  - NRbldg_HoRest'
+'FI'.'NRbldg_HoRest-MW3' 'Internal insulation (5cm) - NRbldg_HoRest'
+'FI'.'NRbldg_Hosp-MG1' 'Window replacement: Double glass with air cavity (16mm) - NRbldg_Hosp'
+'FI'.'NRbldg_Hosp-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - NRbldg_Hosp'
+'FI'.'NRbldg_Hosp-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - NRbldg_Hosp'
+'FI'.'NRbldg_Hosp-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - NRbldg_Hosp'
+'FI'.'NRbldg_Hosp-MR3' 'Isolate below the last concrete slab (10cm) - NRbldg_Hosp'
+'FI'.'NRbldg_Hosp-MW2' 'External insulation (10 cm - EIFS System)  - NRbldg_Hosp'
+'FI'.'NRbldg_Hosp-MW3' 'Internal insulation (5cm) - NRbldg_Hosp'
+'FI'.'NRbldg_Offic-MG1' 'Window replacement: Double glass with air cavity (16mm) - NRbldg_Offic'
+'FI'.'NRbldg_Offic-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - NRbldg_Offic'
+'FI'.'NRbldg_Offic-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - NRbldg_Offic'
+'FI'.'NRbldg_Offic-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - NRbldg_Offic'
+'FI'.'NRbldg_Offic-MR3' 'Isolate below the last concrete slab (10cm) - NRbldg_Offic'
+'FI'.'NRbldg_Offic-MW2' 'External insulation (10 cm - EIFS System)  - NRbldg_Offic'
+'FI'.'NRbldg_Offic-MW3' 'Internal insulation (5cm) - NRbldg_Offic'
+'FI'.'NRbldg_ShopL-MG1' 'Window replacement: Double glass with air cavity (16mm) - NRbldg_ShopL'
+'FI'.'NRbldg_ShopL-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - NRbldg_ShopL'
+'FI'.'NRbldg_ShopL-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - NRbldg_ShopL'
+'FI'.'NRbldg_ShopL-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - NRbldg_ShopL'
+'FI'.'NRbldg_ShopL-MR3' 'Isolate below the last concrete slab (10cm) - NRbldg_ShopL'
+'FI'.'NRbldg_ShopL-MW2' 'External insulation (10 cm - EIFS System)  - NRbldg_ShopL'
+'FI'.'NRbldg_ShopL-MW3' 'Internal insulation (5cm) - NRbldg_ShopL'
+'FI'.'NRbldg_ShopS-MG1' 'Window replacement: Double glass with air cavity (16mm) - NRbldg_ShopS'
+'FI'.'NRbldg_ShopS-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - NRbldg_ShopS'
+'FI'.'NRbldg_ShopS-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - NRbldg_ShopS'
+'FI'.'NRbldg_ShopS-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - NRbldg_ShopS'
+'FI'.'NRbldg_ShopS-MR3' 'Isolate below the last concrete slab (10cm) - NRbldg_ShopS'
+'FI'.'NRbldg_ShopS-MW2' 'External insulation (10 cm - EIFS System)  - NRbldg_ShopS'
+'FI'.'NRbldg_ShopS-MW3' 'Internal insulation (5cm) - NRbldg_ShopS'
+'FI'.'NRbldg_SpoRecr-MG1' 'Window replacement: Double glass with air cavity (16mm) - NRbldg_SpoRecr'
+'FI'.'NRbldg_SpoRecr-MG2' 'Window replacement: Triple glass with argon cavity (16mm) - NRbldg_SpoRecr'
+'FI'.'NRbldg_SpoRecr-MG3' 'Window replacement: Triple glass with argon cavity (18mm) - NRbldg_SpoRecr'
+'FI'.'NRbldg_SpoRecr-MR2' 'Thermal insulation layer (15 cm) over the last slab in contact with unconditioned space (attic) - NRbldg_SpoRecr'
+'FI'.'NRbldg_SpoRecr-MR3' 'Isolate below the last concrete slab (10cm) - NRbldg_SpoRecr'
+'FI'.'NRbldg_SpoRecr-MW2' 'External insulation (10 cm - EIFS System)  - NRbldg_SpoRecr'
+'FI'.'NRbldg_SpoRecr-MW3' 'Internal insulation (5cm) - NRbldg_SpoRecr'
+/;
+
+PARAMETER
+
+NCAP_COST ' '/
+'FI'.2010.'NRbldg_HoRest-MG1'.'EUR10' 10.5
+'FI'.2010.'NRbldg_HoRest-MG2'.'EUR10' 12
+'FI'.2010.'NRbldg_HoRest-MG3'.'EUR10' 15
+'FI'.2010.'NRbldg_HoRest-MR2'.'EUR10' 3.1828125
+'FI'.2010.'NRbldg_HoRest-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'NRbldg_HoRest-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_HoRest-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'NRbldg_Hosp-MG1'.'EUR10' 10.5
+'FI'.2010.'NRbldg_Hosp-MG2'.'EUR10' 12
+'FI'.2010.'NRbldg_Hosp-MG3'.'EUR10' 15
+'FI'.2010.'NRbldg_Hosp-MR2'.'EUR10' 3.1828125
+'FI'.2010.'NRbldg_Hosp-MR3'.'EUR10' 2.02542613636364
+'FI'.2010.'NRbldg_Hosp-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_Hosp-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'NRbldg_Offic-MG1'.'EUR10' 15
+'FI'.2010.'NRbldg_Offic-MG2'.'EUR10' 3.1828125
+'FI'.2010.'NRbldg_Offic-MG3'.'EUR10' 2.02542613636364
+'FI'.2010.'NRbldg_Offic-MR2'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_Offic-MR3'.'EUR10' 7.84344690143846
+'FI'.2010.'NRbldg_Offic-MW2'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_Offic-MW3'.'EUR10' 7.84344690143846
+'FI'.2010.'NRbldg_ShopL-MG1'.'EUR10' 15
+'FI'.2010.'NRbldg_ShopL-MG2'.'EUR10' 3.1828125
+'FI'.2010.'NRbldg_ShopL-MG3'.'EUR10' 2.02542613636364
+'FI'.2010.'NRbldg_ShopL-MR2'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_ShopL-MR3'.'EUR10' 7.84344690143846
+'FI'.2010.'NRbldg_ShopL-MW2'.'EUR10' 10.5
+'FI'.2010.'NRbldg_ShopL-MW3'.'EUR10' 12
+'FI'.2010.'NRbldg_ShopS-MG1'.'EUR10' 15
+'FI'.2010.'NRbldg_ShopS-MG2'.'EUR10' 3.1828125
+'FI'.2010.'NRbldg_ShopS-MG3'.'EUR10' 2.02542613636364
+'FI'.2010.'NRbldg_ShopS-MR2'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_ShopS-MR3'.'EUR10' 7.84344690143846
+'FI'.2010.'NRbldg_ShopS-MW2'.'EUR10' 10.5
+'FI'.2010.'NRbldg_ShopS-MW3'.'EUR10' 12
+'FI'.2010.'NRbldg_SpoRecr-MG1'.'EUR10' 10.5
+'FI'.2010.'NRbldg_SpoRecr-MG2'.'EUR10' 12
+'FI'.2010.'NRbldg_SpoRecr-MG3'.'EUR10' 15
+'FI'.2010.'NRbldg_SpoRecr-MR2'.'EUR10' 3.1828125
+'FI'.2010.'NRbldg_SpoRecr-MR3'.'EUR10' 9.15068805167821
+'FI'.2010.'NRbldg_SpoRecr-MW2'.'EUR10' 10.5
+'FI'.2010.'NRbldg_SpoRecr-MW3'.'EUR10' 12
+/;
+
+PARAMETER
+
+NCAP_START ' '/
+'FI'.'NRbldg_HoRest-MG1' 2020
+'FI'.'NRbldg_HoRest-MG2' 2020
+'FI'.'NRbldg_HoRest-MG3' 2020
+'FI'.'NRbldg_HoRest-MR2' 2020
+'FI'.'NRbldg_HoRest-MR3' 2020
+'FI'.'NRbldg_HoRest-MW2' 2020
+'FI'.'NRbldg_HoRest-MW3' 2020
+'FI'.'NRbldg_Hosp-MG1' 2020
+'FI'.'NRbldg_Hosp-MG2' 2020
+'FI'.'NRbldg_Hosp-MG3' 2020
+'FI'.'NRbldg_Hosp-MR2' 2020
+'FI'.'NRbldg_Hosp-MR3' 2020
+'FI'.'NRbldg_Hosp-MW2' 2020
+'FI'.'NRbldg_Hosp-MW3' 2020
+'FI'.'NRbldg_Offic-MG1' 2020
+'FI'.'NRbldg_Offic-MG2' 2020
+'FI'.'NRbldg_Offic-MG3' 2020
+'FI'.'NRbldg_Offic-MR2' 2020
+'FI'.'NRbldg_Offic-MR3' 2020
+'FI'.'NRbldg_Offic-MW2' 2020
+'FI'.'NRbldg_Offic-MW3' 2020
+'FI'.'NRbldg_ShopL-MG1' 2020
+'FI'.'NRbldg_ShopL-MG2' 2020
+'FI'.'NRbldg_ShopL-MG3' 2020
+'FI'.'NRbldg_ShopL-MR2' 2020
+'FI'.'NRbldg_ShopL-MR3' 2020
+'FI'.'NRbldg_ShopL-MW2' 2020
+'FI'.'NRbldg_ShopL-MW3' 2020
+'FI'.'NRbldg_ShopS-MG1' 2020
+'FI'.'NRbldg_ShopS-MG2' 2020
+'FI'.'NRbldg_ShopS-MG3' 2020
+'FI'.'NRbldg_ShopS-MR2' 2020
+'FI'.'NRbldg_ShopS-MR3' 2020
+'FI'.'NRbldg_ShopS-MW2' 2020
+'FI'.'NRbldg_ShopS-MW3' 2020
+'FI'.'NRbldg_SpoRecr-MG1' 2020
+'FI'.'NRbldg_SpoRecr-MG2' 2020
+'FI'.'NRbldg_SpoRecr-MG3' 2020
+'FI'.'NRbldg_SpoRecr-MR2' 2020
+'FI'.'NRbldg_SpoRecr-MR3' 2020
+'FI'.'NRbldg_SpoRecr-MW2' 2020
+'FI'.'NRbldg_SpoRecr-MW3' 2020
+/;
+
+PARAMETER
+
+NCAP_TLIFE ' '/
+'FI'.2010.'NRbldg_HoRest-MG1' 30
+'FI'.2010.'NRbldg_HoRest-MG2' 30
+'FI'.2010.'NRbldg_HoRest-MG3' 30
+'FI'.2010.'NRbldg_HoRest-MR2' 30
+'FI'.2010.'NRbldg_HoRest-MR3' 30
+'FI'.2010.'NRbldg_HoRest-MW2' 30
+'FI'.2010.'NRbldg_HoRest-MW3' 30
+'FI'.2010.'NRbldg_Hosp-MG1' 30
+'FI'.2010.'NRbldg_Hosp-MG2' 30
+'FI'.2010.'NRbldg_Hosp-MG3' 30
+'FI'.2010.'NRbldg_Hosp-MR2' 30
+'FI'.2010.'NRbldg_Hosp-MR3' 30
+'FI'.2010.'NRbldg_Hosp-MW2' 30
+'FI'.2010.'NRbldg_Hosp-MW3' 30
+'FI'.2010.'NRbldg_Offic-MG1' 30
+'FI'.2010.'NRbldg_Offic-MG2' 30
+'FI'.2010.'NRbldg_Offic-MG3' 30
+'FI'.2010.'NRbldg_Offic-MR2' 30
+'FI'.2010.'NRbldg_Offic-MR3' 30
+'FI'.2010.'NRbldg_Offic-MW2' 30
+'FI'.2010.'NRbldg_Offic-MW3' 30
+'FI'.2010.'NRbldg_ShopL-MG1' 30
+'FI'.2010.'NRbldg_ShopL-MG2' 30
+'FI'.2010.'NRbldg_ShopL-MG3' 30
+'FI'.2010.'NRbldg_ShopL-MR2' 30
+'FI'.2010.'NRbldg_ShopL-MR3' 30
+'FI'.2010.'NRbldg_ShopL-MW2' 30
+'FI'.2010.'NRbldg_ShopL-MW3' 30
+'FI'.2010.'NRbldg_ShopS-MG1' 30
+'FI'.2010.'NRbldg_ShopS-MG2' 30
+'FI'.2010.'NRbldg_ShopS-MG3' 30
+'FI'.2010.'NRbldg_ShopS-MR2' 30
+'FI'.2010.'NRbldg_ShopS-MR3' 30
+'FI'.2010.'NRbldg_ShopS-MW2' 30
+'FI'.2010.'NRbldg_ShopS-MW3' 30
+'FI'.2010.'NRbldg_SpoRecr-MG1' 30
+'FI'.2010.'NRbldg_SpoRecr-MG2' 30
+'FI'.2010.'NRbldg_SpoRecr-MG3' 30
+'FI'.2010.'NRbldg_SpoRecr-MR2' 30
+'FI'.2010.'NRbldg_SpoRecr-MR3' 30
+'FI'.2010.'NRbldg_SpoRecr-MW2' 30
+'FI'.2010.'NRbldg_SpoRecr-MW3' 30
+/;
+
+PARAMETER
+
+VDA_FLOP ' '/
+'FI'.2010.'NRbldg_HoRest-MG1'.'NR_ES-HR-SpHeat'.ANNUAL -0.00231010074958066
+'FI'.2010.'NRbldg_HoRest-MG2'.'NR_ES-HR-SpHeat'.ANNUAL 0.000124125369612815
+'FI'.2010.'NRbldg_HoRest-MG3'.'NR_ES-HR-SpHeat'.ANNUAL 0.00280460039195118
+'FI'.2010.'NRbldg_HoRest-MR2'.'NR_ES-HR-SpHeat'.ANNUAL 0.000234834353742099
+'FI'.2010.'NRbldg_HoRest-MR3'.'NR_ES-HR-SpHeat'.ANNUAL 0.000298693395204077
+'FI'.2010.'NRbldg_HoRest-MW2'.'NR_ES-HR-SpHeat'.ANNUAL 0.000769085118222879
+'FI'.2010.'NRbldg_HoRest-MW3'.'NR_ES-HR-SpHeat'.ANNUAL 0.00122352304515914
+'FI'.2010.'NRbldg_Hosp-MG1'.'NR_ES-HO-SpHeat'.ANNUAL -0.00231010074958066
+'FI'.2010.'NRbldg_Hosp-MG2'.'NR_ES-HO-SpHeat'.ANNUAL 0.000124125369612815
+'FI'.2010.'NRbldg_Hosp-MG3'.'NR_ES-HO-SpHeat'.ANNUAL 0.00280460039195118
+'FI'.2010.'NRbldg_Hosp-MR2'.'NR_ES-HO-SpHeat'.ANNUAL 0.000234834353742099
+'FI'.2010.'NRbldg_Hosp-MR3'.'NR_ES-HO-SpHeat'.ANNUAL 0.000298693395204077
+'FI'.2010.'NRbldg_Hosp-MW2'.'NR_ES-HO-SpHeat'.ANNUAL 0.000769085118222879
+'FI'.2010.'NRbldg_Hosp-MW3'.'NR_ES-HO-SpHeat'.ANNUAL 0.00122352304515914
+'FI'.2010.'NRbldg_Offic-MG1'.'NR_ES-OF-SpHeat'.ANNUAL -0.00231010074958066
+'FI'.2010.'NRbldg_Offic-MG2'.'NR_ES-OF-SpHeat'.ANNUAL 0.000124125369612815
+'FI'.2010.'NRbldg_Offic-MG3'.'NR_ES-OF-SpHeat'.ANNUAL 0.00280460039195118
+'FI'.2010.'NRbldg_Offic-MR2'.'NR_ES-OF-SpHeat'.ANNUAL 0.000234834353742099
+'FI'.2010.'NRbldg_Offic-MR3'.'NR_ES-OF-SpHeat'.ANNUAL 0.000298693395204077
+'FI'.2010.'NRbldg_Offic-MW2'.'NR_ES-OF-SpHeat'.ANNUAL 0.000769085118222879
+'FI'.2010.'NRbldg_Offic-MW3'.'NR_ES-OF-SpHeat'.ANNUAL 0.00122352304515914
+'FI'.2010.'NRbldg_ShopL-MG1'.'NR_ES-SL-SpHeat'.ANNUAL -0.00231010074958066
+'FI'.2010.'NRbldg_ShopL-MG2'.'NR_ES-SL-SpHeat'.ANNUAL 0.000124125369612815
+'FI'.2010.'NRbldg_ShopL-MG3'.'NR_ES-SL-SpHeat'.ANNUAL 0.00280460039195118
+'FI'.2010.'NRbldg_ShopL-MR2'.'NR_ES-SL-SpHeat'.ANNUAL 0.000234834353742099
+'FI'.2010.'NRbldg_ShopL-MR3'.'NR_ES-SL-SpHeat'.ANNUAL 0.000298693395204077
+'FI'.2010.'NRbldg_ShopL-MW2'.'NR_ES-SL-SpHeat'.ANNUAL 0.000769085118222879
+'FI'.2010.'NRbldg_ShopL-MW3'.'NR_ES-SL-SpHeat'.ANNUAL 0.00122352304515914
+'FI'.2010.'NRbldg_ShopS-MG1'.'NR_ES-SS-SpHeat'.ANNUAL -0.00231010074958066
+'FI'.2010.'NRbldg_ShopS-MG2'.'NR_ES-SS-SpHeat'.ANNUAL 0.000124125369612815
+'FI'.2010.'NRbldg_ShopS-MG3'.'NR_ES-SS-SpHeat'.ANNUAL 0.00280460039195118
+'FI'.2010.'NRbldg_ShopS-MR2'.'NR_ES-SS-SpHeat'.ANNUAL 0.000234834353742099
+'FI'.2010.'NRbldg_ShopS-MR3'.'NR_ES-SS-SpHeat'.ANNUAL 0.000298693395204077
+'FI'.2010.'NRbldg_ShopS-MW2'.'NR_ES-SS-SpHeat'.ANNUAL 0.000769085118222879
+'FI'.2010.'NRbldg_ShopS-MW3'.'NR_ES-SS-SpHeat'.ANNUAL 0.00122352304515914
+'FI'.2010.'NRbldg_SpoRecr-MG1'.'NR_ES-SR-SpHeat'.ANNUAL -0.00231010074958066
+'FI'.2010.'NRbldg_SpoRecr-MG2'.'NR_ES-SR-SpHeat'.ANNUAL 0.000124125369612815
+'FI'.2010.'NRbldg_SpoRecr-MG3'.'NR_ES-SR-SpHeat'.ANNUAL 0.00280460039195118
+'FI'.2010.'NRbldg_SpoRecr-MR2'.'NR_ES-SR-SpHeat'.ANNUAL 0.000234834353742099
+'FI'.2010.'NRbldg_SpoRecr-MR3'.'NR_ES-SR-SpHeat'.ANNUAL 0.000298693395204077
+'FI'.2010.'NRbldg_SpoRecr-MW2'.'NR_ES-SR-SpHeat'.ANNUAL 0.000769085118222879
+'FI'.2010.'NRbldg_SpoRecr-MW3'.'NR_ES-SR-SpHeat'.ANNUAL 0.00122352304515914
+/;
+
+
