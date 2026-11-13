@@ -1,0 +1,380 @@
+query,municipality,region,display
+"Ahvenkoski, Finland",Kemi-Tornion seutukunta,Lappi,"Ahvenkoski, Tornio, Kemi-Tornion seutukunta, Lappi, Manner-Suomi, 95500, Suomi / Finland"
+"Aittokoski, Finland",Pielisen Karjalan seutukunta,Pohjois-Karjala,"Aittokoski, Lieksa, Pielisen Karjalan seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Ajos Wind Oy, Finland",,,
+"AK1, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Vink Finland, 17, Toppila, Koskela, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 90520, Suomi / Finland"
+"Alholma AK 1, Finland",Jakobstadsregionen,Österbotten,"Alholmen, Jakobstad, Jakobstadsregionen, Österbotten, Manner-Suomi, Suomi / Finland"
+"AK2, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Vink Finland, 17, Toppila, Koskela, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 90520, Suomi / Finland"
+"Alholma AK 2, Finland",Jakobstadsregionen,Österbotten,"Alholmen, Jakobstad, Jakobstadsregionen, Österbotten, Manner-Suomi, Suomi / Finland"
+"Anjalankoski, Finland",Kouvolan seutukunta,Kymenlaakso,"Ankkapurha, Anjala, Anjalankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 46910, Suomi / Finland"
+"Anjalankoski, G1, Finland",Kouvolan seutukunta,Kymenlaakso,"Stora Enso Anjalankoski Mill Power Station, Tehtaanmäki, Inkeroinen, Anjalankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, Suomi / Finland"
+"Annankangas T1-T10, Finland",,,
+"Billnäs, Pohja, Finland",Raseborgs ekonomiska region,Uusimaa,"Billnäs, Pojo, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10330, Suomi / Finland"
+"Billnäs, Finland",Raseborgs ekonomiska region,Uusimaa,"Billnäs, Pojo, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10330, Suomi / Finland"
+"Björkfors, Finland",Jakobstadsregionen,Österbotten,"Björkfors kraftverk, Björkforsvägen, Heide, Lappfors, Pedersöre, Jakobstadsregionen, Österbotten, Manner-Suomi, 68840, Suomi / Finland"
+"Björknäs kraftvärmeverk, Finland",,,
+"Energia-Tietola, Finland",,,
+"Finlayson ve, Finland",Tampereen seutukunta,Pirkanmaa,"Finlayson, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, Suomi / Finland"
+"Haapajärven Savinevan Tuulivoima, Finland",,,
+"Haapajärven Savinevan Tuulivoimala, Finland",,,
+"haapakoski, Finland",Pieksämäen seutukunta,Etelä-Savo,"Haapakoski, Kuivalantie, Haapakoski, Pieksämäki, Pieksämäen seutukunta, Etelä-Savo, Manner-Suomi, 77520, Suomi / Finland"
+"Haapakoski, Finland",Pieksämäen seutukunta,Etelä-Savo,"Haapakoski, Kuivalantie, Haapakoski, Pieksämäki, Pieksämäen seutukunta, Etelä-Savo, Manner-Suomi, 77520, Suomi / Finland"
+"Haapaniemen voimalaitos, Finland",Kuopion seutukunta,Pohjois-Savo,"Haapaniemen voimalaitos, Haapaniemi, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, Suomi / Finland"
+"Haapaniemi, Finland",Jyväskylän seutukunta,Keski-Suomi,"Haapaniemi, Vaajakoski-Jyskä, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, Manner-Suomi, 40820, Suomi / Finland"
+"Hailikari, Finland",Pyhtää,Kymenlaakso,"Hailikari, Pyhtää, Kotkan–Haminan seutukunta, Kymenlaakso, Manner-Suomi, Suomi / Finland"
+"Halmekangas 1, Finland",,,
+"Halmekangas, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Halmekangas I, Ouluntie, Kankari, Vaala, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Hankilanneva, Finland",,,
+"Hankilannevan tuulipuisto, Finland",,,
+"Harabacka, Finland",Helsingin seutukunta,Uusimaa,"Harabacka, Kirkkonummi, Helsingin seutukunta, Uusimaa, Manner-Suomi, 02390, Suomi / Finland"
+"Hattar kraftverk, Finland",,,
+"Hattarfors, Finland",,,
+"Haukineva Windfarm, Finland",,,
+"Nurmo / Hirvikoski, Finland",,,
+"Hirvikoski, Finland",Loimaan seutukunta,Varsinais-Suomi,"Hirvikoski, Loimaa, Loimaan seutukunta, Varsinais-Suomi, Manner-Suomi, 32210, Suomi / Finland"
+"Hoikankangas, Kajaanin sähkölaitos, Finland",,,
+"Hovinsaari, Finland",Kouvolan seutukunta,Kymenlaakso,"Hovinsaari, Valkealan suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, Suomi / Finland"
+"Hyötyvoimalaitos, Finland",Tampereen seutukunta,Pirkanmaa,"Tammervoiman hyötyvoimalaitos, 1, Taraste, Nurmi, Pohjoinen suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 33680, Suomi / Finland"
+"Ii, Kuivaniemi tuulivoima, Finland",,,
+"Ii, Kuivaniemi tv, Finland",,,
+"Ii Olhava, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Olhava, Ii, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Ii, Olhava tv, Finland",,,
+"Viinamäki Ii, Finland",Järviseudun seutukunta,Etelä-Pohjanmaa,"Viinamäki, Lappajärvi, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-Suomi, 62660, Suomi / Finland"
+"Ii, Viinamäki, Finland",Järviseudun seutukunta,Etelä-Pohjanmaa,"Viinamäki, Lappajärvi, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-Suomi, 62660, Suomi / Finland"
+"Illevaara, Finland",,,
+"Inkeroinen, Finland",Kouvolan seutukunta,Kymenlaakso,"Inkeroinen, 8, Asematie, Tehtaanmäki, Inkeroinen, Anjalankosken suuralue, Inkeroinen, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 46900, Suomi / Finland"
+"Inkeroinen ve, Finland",Kouvolan seutukunta,Kymenlaakso,"Inkeroinen, Anjalankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, Suomi / Finland"
+"isohaara, Finland",Kemi-Tornion seutukunta,Lappi,"Isohaara, Torniontie, Lautiosaari, Keminmaa, Kemi-Tornion seutukunta, Lappi, Manner-Suomi, 94400, Suomi / Finland"
+"Isohaara, Finland",Kemi-Tornion seutukunta,Lappi,"Isohaara, Torniontie, Lautiosaari, Keminmaa, Kemi-Tornion seutukunta, Lappi, Manner-Suomi, 94400, Suomi / Finland"
+"Ii, Pohjois Pohjanmaa, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Ii, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Isokangas, Ii, Finland",Luoteis-Pirkanmaan seutukunta,Pirkanmaa,"Isokangas, Parkano, Luoteis-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, Suomi / Finland"
+"Västervik, Finland",Vaasan seutukunta,Österbotten,"Västervikin kylä, Vaasa, Vaasan seutukunta, Österbotten, Manner-Suomi, Suomi / Finland"
+"Isokeidas, Finland",Pohjois-Satakunnan seutukunta,Satakunta,"Isokeidas, Pansiankulma, Kankaanpää, Pohjois-Satakunnan seutukunta, Satakunta, Manner-Suomi, Suomi / Finland"
+"Isonevan tuulipuisto, Finland",,,
+"Jeppo Windfarm, Finland",,,
+"Jokelan tuulipuisto 1, Finland",,,
+"Jokelan tuulipuisto 2, Finland",,,
+"Jokelan tuulipuisto 3, Finland",,,
+"Metsä Fibre Joutsenon tehdas, Finland",,,
+"Joutseno, Finland",Lappeenrannan seutukunta,Etelä-Karjala,"Joutseno, Lappeenranta, Lappeenrannan seutukunta, Etelä-Karjala, Manner-Suomi, 54100, Suomi / Finland"
+"Juankoski, Juankoskentie 7A, Finland",,,
+"Juankoski, Finland",Kuopion seutukunta,Pohjois-Savo,"Juankoski, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, 73500, Suomi / Finland"
+"jumisko, Finland",Itä-Lapin seutukunta,Lappi,"Jumisko, Posio, Itä-Lapin seutukunta, Lappi, Manner-Suomi, 97870, Suomi / Finland"
+"Jumisko, Finland",Itä-Lapin seutukunta,Lappi,"Jumisko, Posio, Itä-Lapin seutukunta, Lappi, Manner-Suomi, 97870, Suomi / Finland"
+"Juotas, Finland",Rovaniemen seutukunta,Lappi,"Cafe Juotas, 17, Opinkuja, Juotasniemi, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 97650, Suomi / Finland"
+"Jylhämä, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Jylhämä, Vaala, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91790, Suomi / Finland"
+"Jäkäläkangas, Finland",Sisä-Savon seutukunta,Pohjois-Savo,"Jäkäläkangas, P, Pieksämäentie, Suonenjoki, Sisä-Savon seutukunta, Pohjois-Savo, Manner-Suomi, Suomi / Finland"
+"Jämsänkosken tehtaan voimalaitos, Finland",,,
+"Jämsänkoski bv, Finland",,,
+"Koskisen Oy, Järvelän levyteollisuus, Finland",,,
+"Järvelän vaneritehdas, Finland",,,
+"Kaaranneskoski, Finland",Torniolaakson seutukunta,Lappi,"Kaaranneskoski, Pello, Torniolaakson seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kaarni, Finland",Tunturi-Lapin seutukunta,Lappi,"Käärni, 9, Maahisentie, Karpaasinkangas, Äkäslompolo, Kolari, Tunturi-Lapin seutukunta, Lappi, Manner-Suomi, 95979, Suomi / Finland"
+"Kaihua I ja II, Finland",,,
+"Kaihua, Finland",Rovaniemen seutukunta,Lappi,"Kaihua, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kaipola VP3, Finland",,,
+"Kaipola, Finland",Jämsän seutukunta,Keski-Suomi,"Kaipola, Jämsä, Jämsän seutukunta, Keski-Suomi, Manner-Suomi, 42220, Suomi / Finland"
+"Kaitfors, Finland",Jakobstadsregionen,Österbotten,"Kaitfors kraftverk, 188, Nedervetil, Kronoby, Jakobstadsregionen, Österbotten, Manner-Suomi, Suomi / Finland"
+"Kallioinen, Finland",Itä-Lapin seutukunta,Lappi,"Kallioinen, Posio, Itä-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kaltimo, Finland",Joensuun seutukunta,Pohjois-Karjala,"Kaltimo, Voimalaitoksentie, Eno, Joensuu, Joensuun seutukunta, Pohjois-Karjala, Manner-Suomi, 81200, Suomi / Finland"
+"Kankaanpäänmäki, Finland",,,
+"Kantti, Finland",Kuopion seutukunta,Pohjois-Savo,"Kantti, 1, Museokatu, Vahtivuori, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, 70100, Suomi / Finland"
+"Kantvik, Finland",Helsingin seutukunta,Uusimaa,"Kantvik, Kirkkonummi, Helsingin seutukunta, Uusimaa, Manner-Suomi, 02460, Suomi / Finland"
+"Karhunnevankankaan tuulipuisto, Finland",,,
+"Karhusaaren tuulivoimapuisto, Finland",,,
+"Juankoski, Pohjolantie 10, Finland",,,
+"Karjalankoski, Finland",Kehys-Kainuun seutukunta,Kainuu,"Karjalankoski, Suomussalmi, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, 89770, Suomi / Finland"
+"Katerma, Finland",Kehys-Kainuun seutukunta,Kainuu,"Katerma, Kuhmo, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, Suomi / Finland"
+"Kattilakoski, Finland",Keuruun seutukunta,Keski-Suomi,"Kattilakoski, Valkeajärvi, Keuruu, Keuruun seutukunta, Keski-Suomi, Manner-Suomi, Suomi / Finland"
+"Kaukanen, Finland",Saarijärvi-Viitasaaren seutukunta,Keski-Suomi,"Kaukanen, Kinnula, Saarijärvi-Viitasaaren seutukunta, Keski-Suomi, Manner-Suomi, Suomi / Finland"
+"Kaukopää, Finland",Imatran seutukunta,Etelä-Karjala,"Kaukopää, Vuoksenniska, Imatra, Imatran seutukunta, Etelä-Karjala, Manner-Suomi, 55800, Suomi / Finland"
+"Kauttuan voimalaitos, Finland",Rauman seutukunta,Satakunta,"Kauttuan voimalaitos, Kauttua, Eura, Rauman seutukunta, Satakunta, Manner-Suomi, Suomi / Finland"
+"Kauttua, Finland",Rauman seutukunta,Satakunta,"Kauttua, Eura, Rauman seutukunta, Satakunta, Manner-Suomi, 27500, Suomi / Finland"
+"Kavo, Finland",Kajaanin seutukunta,Kainuu,"Kavo Kajaani Kainuun Voima Oy Power Station, Purola, Kajaani, Kajaanin seutukunta, Kainuu, Manner-Suomi, Suomi / Finland"
+"Keljonrannantie 276, Finland",Jyväskylän seutukunta,Keski-Suomi,"276, Keljonrannantie, Keljonkangas, Keljo, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, Manner-Suomi, 40530, Suomi / Finland"
+"Keljonlahti, Finland",Jyväskylän seutukunta,Keski-Suomi,"Keljonlahti, Keljonkangas, Keljo, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, Manner-Suomi, 40530, Suomi / Finland"
+"Kellosaari, Finland",Kouvolan seutukunta,Kymenlaakso,"Kellosaari, Anjala, Anjalankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, Suomi / Finland"
+"Keltti, Finland",Kouvolan seutukunta,Kymenlaakso,"Keltti, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45740, Suomi / Finland"
+"Kelukoski, Finland",Pohjois-Lapin seutukunta,Lappi,"Kelukoski, Sodankylä, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, 99600, Suomi / Finland"
+"Keso, Finland",Tampereen seutukunta,Pirkanmaa,"Keso, Kangasala, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 36270, Suomi / Finland"
+"kierikki, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Kierikki, Pahkalantie, Yli-Ii, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91200, Suomi / Finland"
+"Kierikki, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Kierikki, Pahkalantie, Yli-Ii, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91200, Suomi / Finland"
+"Killinkoski, Finland",Ylä-Pirkanmaan seutukunta,Pirkanmaa,"Killinkoski, Virrat, Ylä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 34980, Suomi / Finland"
+"Kirakkaköngäs, Finland",Pohjois-Lapin seutukunta,Lappi,"Kirakkaköngäs, Inarijärventie, Inari, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kirkkokallio, Finland",Sastamala,Pirkanmaa,"Kirkkokallio, Sastamala, Lounais-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 38510, Suomi / Finland"
+"Kirkniemi, Kirkniemen voimalaitos, Finland",,,
+"Kirkniemi, Finland",Helsingin seutukunta,Uusimaa,"Kirkniemi, Kirkniementie, Kukkumäki, Brotorp, Lohja, Helsingin seutukunta, Uusimaa, Manner-Suomi, 08800, Suomi / Finland"
+"Kivivaara-Peuravaaran tuulivoimapuisto 1, Finland",,,
+"Kivivaara-Peuravaara, Finland",,,
+"Kivivaara-Peuravaara 2A, Finland",,,
+"Kivivaara-Peuravaaran tuulivoimapuisto 3, Finland",,,
+"Klåsarö, Finland",Pyhtää,Kymenlaakso,"Loosari, Kangas, Pyhtää, Kotkan–Haminan seutukunta, Kymenlaakso, Manner-Suomi, 49270, Suomi / Finland"
+"Koirakari, Finland",Koillismaan seutukunta,Pohjois-Pohjanmaa,"Koirakari, Kuusamo, Koillismaan seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Koivukoski 1 ja 2, Finland",,,
+"Koivukoski 3, Finland",Kuopion seutukunta,Pohjois-Savo,"Koivukoski, Juankoski, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, 73500, Suomi / Finland"
+"Kokkoneva, Finland",Kaustisen seutukunta,Keski-Pohjanmaa,"Kokkoneva P, Kokkolantie, Perho, Kaustisen seutukunta, Keski-Pohjanmaa, Manner-Suomi, 69950, Suomi / Finland"
+"Kokkonevan tuulipuisto, Finland",,,
+"Kokkosniva, Finland",Itä-Lapin seutukunta,Lappi,"Kokkosniva, Pelkosenniemi, Itä-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kooninkallio, Finland",,,
+"Korpilevonmäki, Finland",,,
+"Korpileivonmäki, Finland",,,
+"Korvenmäen ekovoimalaitos, Finland",,,
+"Koskensaaren voimalaitos, Finland",,,
+"Koskensaari, Finland",Loviisan seutukunta,Uusimaa,"Koskensaari, Ruotsinpyhtää, Loviisa, Loviisan seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Koskenvarren vesivoimalaitos, Finland",,,
+"Koskenvarsi, Finland",,,
+"Vaneritehtaankatu 1 Suolahti, Finland",Äänekosken seutukunta,Keski-Suomi,"Vaneritehtaankatu, Suolahti, Äänekoski, Äänekosken seutukunta, Keski-Suomi, Manner-Suomi, 44200, Suomi / Finland"
+"Kumpuniemi, Finland",Kuopion seutukunta,Pohjois-Savo,"Kumpuniemi, Nilsiä, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, Suomi / Finland"
+"Kuolavaara-Keulakkopää, Finland",,,
+"Kuolavaara-Keulakkopään tuulipuisto, Finland",,,
+"Kurittukoski, Finland",Pohjois-Lapin seutukunta,Lappi,"Kurittukoski, Peurasuvanto, Sodankylä, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kurkiaska, Finland",Pohjois-Lapin seutukunta,Lappi,"Kurkiaska, Aska, Sodankylä, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Kuuronkallion tuulipuisto, Finland",,,
+"Kuusankoski, Finland",Kouvolan seutukunta,Kymenlaakso,"Kuusankoski, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45700, Suomi / Finland"
+"Kuusankoski bv, Finland",,,
+"Kuusankoski ve, Finland",Kouvolan seutukunta,Kymenlaakso,"Kuusankoski, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45700, Suomi / Finland"
+"Kytölä, Finland",Lahden seutukunta,Päijät-Häme,"Kytölä, Lahti, Lahden seutukunta, Päijät-Häme, Manner-Suomi, 15230, Suomi / Finland"
+"Käenkoski, Finland",Joensuun seutukunta,Pohjois-Karjala,"Käenkoski, Ilomantsi, Joensuun seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Lakiakangas 2, Finland",Suupohjan seutukunta,Etelä-Pohjanmaa,"Lakiakangas, Isojoki, Suupohjan seutukunta, Etelä-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Lakiakangas 3, Finland",Suupohjan seutukunta,Etelä-Pohjanmaa,"Lakiakangas, Isojoki, Suupohjan seutukunta, Etelä-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Leipiö 2, Finland",,,
+"Leppikoski, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Leppikoski, Pudasjärvi, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Lieksankoski, Finland",,,
+"Lielahti, Finland",Tampereen seutukunta,Pirkanmaa,"Lielahti, Luoteinen suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, Suomi / Finland"
+"Liesoja, Ii, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Liesoja, Ii, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Limakko, Finland",Kehys-Kainuun seutukunta,Kainuu,"Limakko, Suomussalmi, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, Suomi / Finland"
+"Lindö Gård, Finland",,,
+"Lohjan aurinkovoimala, Finland",,,
+"Louhukangas, Finland",,,
+"LW Jouttikallio, Finland",,,
+"LW Koskenkylä, Finland",,,
+"Halmeen metsätie 29, Finland",Suupohjan seutukunta,Etelä-Pohjanmaa,"Halmeen metsätie, Kauhajoki, Suupohjan seutukunta, Etelä-Pohjanmaa, Manner-Suomi, 61980, Suomi / Finland"
+"LW Mustaisneva 6, Finland",,,
+"Norrpiggvägen, Finland",,,
+"LW Pensala, Finland",,,
+"Långfors, Finland",Porin seutukunta,Satakunta,"Lankoski, Merikarvia, Porin seutukunta, Satakunta, Manner-Suomi, Suomi / Finland"
+"Långmossa / Maalahden kunta, Finland",,,
+"Långmossa, Finland",Vaasan seutukunta,Österbotten,"Långmossavägen, Övermalax, Malax, Vaasan seutukunta, Österbotten, Manner-Suomi, 66140, Suomi / Finland"
+"maalismaa, Finland",,,
+"Maalismaa, Finland",,,
+"Oulaisten tuulipuisto / Maaselänkangas, Finland",,,
+"Maaselänkangas, Finland",,,
+"Mankala, Finland",Iitti,Päijät-Häme,"Mankala, Iitti, Lahden seutukunta, Päijät-Häme, Manner-Suomi, Suomi / Finland"
+"Martinlaakso, Finland",Helsingin seutukunta,Uusimaa,"Martinlaakso, Myyrmäen suuralue, Vantaa, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Matarakoski, Finland",Pohjois-Lapin seutukunta,Lappi,"Matarakoski, Kersilö, Sodankylä, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, 99660, Suomi / Finland"
+"melo, Finland",Tampereen seutukunta,Pirkanmaa,"Melo, Siuronvaltatie, Korvola, Haavisto-Harjuniitty, Keskustaajama, Nokia, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 37140, Suomi / Finland"
+"Melo, Finland",Tampereen seutukunta,Pirkanmaa,"Melo, Siuronvaltatie, Korvola, Haavisto-Harjuniitty, Keskustaajama, Nokia, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 37140, Suomi / Finland"
+"Mertaniemi 2, Finland",Lappeenrannan seutukunta,Etelä-Karjala,"Mertaniemi 2, 9, Mertaniemenkatu, Suolahti, Lappeenranta, Lappeenrannan seutukunta, Etelä-Karjala, Manner-Suomi, 53920, Suomi / Finland"
+"Mertaniemi 1 ja 2, Finland",,,
+"Metsälamminkangas / Vaalan kunta, Finland",,,
+"Metsälamminkankaan tuulipuisto, Finland",,,
+"Metsälän tuulivoimapuisto, Finland",,,
+"Montta, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Montta th P, Kieksintie, Muhos, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91500, Suomi / Finland"
+"Muntila, Finland",Vakka-Suomen seutukunta,Varsinais-Suomi,"Muntila, Lokalahti, Uusikaupunki, Vakka-Suomen seutukunta, Varsinais-Suomi, Manner-Suomi, Suomi / Finland"
+"Murtotuulen tuulipuisto, Finland",,,
+"Tuulivoimalat, Finland",,,
+"Mussalon tuulivoimalat, Finland",,,
+"Mustaisneva 1-5 ja 7-9, Finland",,,
+"Mustio, Mustion Ruukinkatu 7, 10360 Mustio, Finland",,,
+"Mustio, Finland",Raseborgs ekonomiska region,Uusimaa,"Svartå, Eskilsgränd, Karis, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10360, Suomi / Finland"
+"Myllykangas, Finland",Järviseudun seutukunta,Etelä-Pohjanmaa,"Myllykangas, Kirkonmäki, Soini, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-Suomi, 63800, Suomi / Finland"
+"Myllykangas 3, Finland",Järviseudun seutukunta,Etelä-Pohjanmaa,"Myllykangas, Kirkonmäki, Soini, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-Suomi, 63800, Suomi / Finland"
+"Myllykosken vesivoimalaitos 1, Finland",,,
+"Myllykosken vesivoimalaitos 2, Finland",,,
+"Mäkipää Diesel, Finland",,,
+"Tehtaankatu 20 Mänttä, Finland",Ylä-Pirkanmaan seutukunta,Pirkanmaa,"20, Tehtaankatu, Asemankulma, Mänttä, Mänttä-Vilppula, Ylä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 35800, Suomi / Finland"
+"Mänttä lä, Finland",,,
+"Mäntänkoskentie 15 Mänttä, Finland",Ylä-Pirkanmaan seutukunta,Pirkanmaa,"Mäntänkoskentie, Metsä Tissue Mäntän tehdas, Rusinniemi, Mänttä, Mänttä-Vilppula, Ylä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 35800, Suomi / Finland"
+"Mänttä ve, Finland",Ylä-Pirkanmaan seutukunta,Pirkanmaa,"Mänttä, Mänttä-Vilppula, Ylä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 35800, Suomi / Finland"
+"Möksy, Finland",Järviseudun seutukunta,Etelä-Pohjanmaa,"Möksy, Alajärvi, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Nahkakallio, Finland",Raahen seutukunta,Pohjois-Pohjanmaa,"Nahkakallio, Raahe, Raahen seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 92230, Suomi / Finland"
+"Naistenlahti 1, Finland",Savonlinnan seutukunta,Etelä-Savo,"Naistenlahti, Savonlinna, Savonlinnan seutukunta, Etelä-Savo, Manner-Suomi, Suomi / Finland"
+"Naistenlahti 3, Finland",Savonlinnan seutukunta,Etelä-Savo,"Naistenlahti, Savonlinna, Savonlinnan seutukunta, Etelä-Savo, Manner-Suomi, Suomi / Finland"
+"Nikkarinkaarto T1-T10, Finland",,,
+"Nikkarinkaarto, Finland",,,
+"Nikkilän voimalaitos, Finland",,,
+"Nikkilä, Finland",Helsingin seutukunta,Uusimaa,"Nikkilä, Herrala, Sipoo, Helsingin seutukunta, Uusimaa, Manner-Suomi, 04130, Suomi / Finland"
+"Norrskogen, Finland",Vaasan seutukunta,Österbotten,"Norrskogen, Gerbyn kylä, Gerby, Vaasa, Vaasan seutukunta, Österbotten, Manner-Suomi, 65230, Suomi / Finland"
+"Norrskogenin tuulipuisto, Finland",,,
+"Nuojua, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Nuojua, Vaala, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91790, Suomi / Finland"
+"Nuolivaaran tuulipuisto, Finland",,,
+"Nurmijärven aurinkovoimala, Finland",,,
+"Atrian teollisuusalue, Finland",Seinäjoen seutukunta,Etelä-Pohjanmaa,"Atrian Aurinko, Huumo, Ruuhikosken suuralue, Seinäjoki, Seinäjoen seutukunta, Etelä-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Nurmon Aurinko, Finland",,,
+"Nyby, Finland",Lahden seutukunta,Päijät-Häme,"Uusikylä, Nastolan suuralue, Lahti, Lahden seutukunta, Päijät-Häme, Manner-Suomi, Suomi / Finland"
+"Nyby-Ii, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Nyby, Ii, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Ossauskoski, Finland",Kemi-Tornion seutukunta,Lappi,"Ossauskoski, Itäpuolentie, Suukoski, Tervola, Kemi-Tornion seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Oulunsalo, Riutunkari T1-T4, Finland",,,
+"Oulunsalo Riutunkari tv, Finland",,,
+"pahkakoski, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Pahkakoski, Pahkala, Yli-Ii, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Pahkakoski, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Pahkakoski, Pahkala, Yli-Ii, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Pahkakoski, Ii, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Pahkakoski, Pahkala, Yli-Ii, Oulu, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Pajukoski 1A, Finland",Pielisen Karjalan seutukunta,Pohjois-Karjala,"Pajukoski, Nurmes, Pielisen Karjalan seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Pajukoski 1 A, Finland",Pielisen Karjalan seutukunta,Pohjois-Karjala,"Pajukoski, Nurmes, Pielisen Karjalan seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Pajukosken tuulipuisto 1 B, Finland",,,
+"Pajukoski 1 B, Finland",Pielisen Karjalan seutukunta,Pohjois-Karjala,"Pajukoski, Nurmes, Pielisen Karjalan seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Pajuperänkangas, Finland",,,
+"Palma, Finland",Kokkolan seutukunta,Keski-Pohjanmaa,"Palma, Kvikant, Kokkola, Kokkolan seutukunta, Keski-Pohjanmaa, Manner-Suomi, 67900, Suomi / Finland"
+"Palokangas, Ii, Finland",Jyväskylän seutukunta,Keski-Suomi,"Palokangas, Seppälänkangas, Lohikoski-Seppälänkangas, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, Manner-Suomi, 40340, Suomi / Finland"
+"Pamilon vesivoimalaitos, Finland",Joensuun seutukunta,Pohjois-Karjala,"Pamilon vesivoimalaitos, Palovaara, Joensuu, Joensuun seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Pamilo, Finland",Joensuun seutukunta,Pohjois-Karjala,"Pamilo, E, Palovaarantie, Palovaara, Joensuu, Joensuun seutukunta, Pohjois-Karjala, Manner-Suomi, Suomi / Finland"
+"Pankakoski, Finland",Pielisen Karjalan seutukunta,Pohjois-Karjala,"Pankakoski, Lieksa, Pielisen Karjalan seutukunta, Pohjois-Karjala, Manner-Suomi, 81700, Suomi / Finland"
+"Parantala, Hammarenintie 1, 44190 Parantala, Finland",,,
+"Parantalankoski, Finland",,,
+"Parhalahti, Finland",Raahen seutukunta,Pohjois-Pohjanmaa,"Parhalahti, Pyhäjoki, Raahen seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 86100, Suomi / Finland"
+"Parhalahden tuulipuisto, Finland",,,
+"Paskoonharju 1, Finland",,,
+"Paskoonharju 2, Finland",,,
+"Patala, Finland",Salon seutukunta,Varsinais-Suomi,"Patala, Inkereen muu alue, Perttelin suuralue, Salo, Salon seutukunta, Varsinais-Suomi, Manner-Suomi, 25190, Suomi / Finland"
+"Patalankoski, Finland",,,
+"Peltokoski, Hållsnäsintie 7, 10360 Mustio, Finland",,,
+"Peltokoski, Finland",Kaustisen seutukunta,Keski-Pohjanmaa,"Peltokoski E, Haukilahdentie, Veteli, Kaustisen seutukunta, Keski-Pohjanmaa, Manner-Suomi, 69850, Suomi / Finland"
+"Permantokoski, Finland",Rovaniemen seutukunta,Lappi,"Permantokoski, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 97610, Suomi / Finland"
+"Petäjäskoski, Finland",Rovaniemen seutukunta,Lappi,"Petäjäskoski, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 97160, Suomi / Finland"
+"Pirttikoski, Finland",Rovaniemen seutukunta,Lappi,"Pirttikoski, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 97635, Suomi / Finland"
+"Pirttiselkä, Finland",Pieksämäen seutukunta,Etelä-Savo,"Pirttiselkä, Pieksämäki, Pieksämäen seutukunta, Etelä-Savo, Manner-Suomi, Suomi / Finland"
+"Polusjärven tuulipuisto, Pyhäjoku, Finland",,,
+"Polusjärven tuulipuisto, Finland",,,
+"Ponsivuori, Finland",,,
+"Tahkoluodon syväsatama Tuulivoimala 10, Finland",,,
+"Porituuli, Finland",,,
+"Portimokoski, Finland",Torniolaakson seutukunta,Lappi,"Portimokosken voimalaitos, Haapakoski, Ylitornio, Torniolaakson seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Porttipahta, Finland",,Lappi,"Porttipahdan tekojärvi, Lappi, Manner-Suomi, Suomi / Finland"
+"Posion Energia Oy, Finland",,,
+"Pursiala 1, Finland",Mikkelin seutukunta,Etelä-Savo,"Pursiala, Mikkeli, Mikkelin seutukunta, Etelä-Savo, Manner-Suomi, 50160, Suomi / Finland"
+"Pursiala 2, Finland",Mikkelin seutukunta,Etelä-Savo,"Pursiala, Mikkeli, Mikkelin seutukunta, Etelä-Savo, Manner-Suomi, 50160, Suomi / Finland"
+"Puulaakson Energia Oy  Hongantie 93, Finland",,,
+"Puulaakso, Finland",,,
+"Puuska 2, Finland",Helsingin seutukunta,Uusimaa,"2, Puuskakuja, Jollas, Laajasalo, Kaakkoinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, 00850, Suomi / Finland"
+"Pyhäkoski, Finland",Mikkelin seutukunta,Etelä-Savo,"Pyhäkoski, Mäntyharju, Mikkelin seutukunta, Etelä-Savo, Manner-Suomi, 52720, Suomi / Finland"
+"Pyhänkoski, Finland",Ylivieskan seutukunta,Pohjois-Pohjanmaa,"Pyhänkoski, Merijärvi, Ylivieskan seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Pälli, Finland",Oulun seutukunta,Pohjois-Pohjanmaa,"Pälli, Muhos, Oulun seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"raasakka, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Raasakka, Ii, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91110, Suomi / Finland"
+"Raasakka, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Raasakka, Ii, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91110, Suomi / Finland"
+"Ratiperä, Finland",Pohjois-Satakunnan seutukunta,Satakunta,"Ratiperä, Jämijärvi, Pohjois-Satakunnan seutukunta, Satakunta, Manner-Suomi, Suomi / Finland"
+"Rauhalahti, Finland",Kuopion seutukunta,Pohjois-Savo,"Rauhalahti, Kuopio, Kuopion seutukunta, Pohjois-Savo, Manner-Suomi, 70700, Suomi / Finland"
+"Renko, Finland",Hämeenlinnan seutukunta,Kanta-Häme,"Renko, Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Manner-Suomi, 14300, Suomi / Finland"
+"Rengon saha, Finland",Hämeenlinnan seutukunta,Kanta-Häme,"Metsä Fibre, Rengon saha, 50, Sahantie, Renko, Kuittila, Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Manner-Suomi, 14300, Suomi / Finland"
+"Ribäcken / Maalahden kunta, Finland",,,
+"Ribäcken, Finland",Vaasan seutukunta,Österbotten,"Ribäcken, Malax, Vaasan seutukunta, Österbotten, Manner-Suomi, 66140, Suomi / Finland"
+"Riikinvoima, Finland",,,
+"Ristiina, Finland",Mikkelin seutukunta,Etelä-Savo,"Ristiina, Mikkeli, Mikkelin seutukunta, Etelä-Savo, Manner-Suomi, 52300, Suomi / Finland"
+"Ruda Solpark Oy, Finland",,,
+"Ruda Solpark, Finland",,,
+"Valkeala, Finland",Kouvolan seutukunta,Kymenlaakso,"Valkeala, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45370, Suomi / Finland"
+"Ruusutarhat, Finland",,,
+"Tornion Tehtaat Röyttä, Finland",,,
+"Röyttä, Tornion tehtaat, 11 generaattoria, Finland",,,
+"Saarenkylän tuulivoimapuisto, Finland",,,
+"Saarenkylän tuulipuisto, Finland",,,
+"Sallila (Vampulan kunnassa), Finland",,,
+"Sallila, Finland",Porin seutukunta,Satakunta,"Sallila, Huittinen, Porin seutukunta, Satakunta, Manner-Suomi, 32610, Suomi / Finland"
+"Santavuori 1, Finland",Helsingin seutukunta,Uusimaa,"Santavuorentie, Pohjois-Haaga, Haaga, Läntinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, 00400, Suomi / Finland"
+"Savela, Finland",Jyväskylän seutukunta,Keski-Suomi,"Savela, Kypärämäki-Kortepohja, Jyväskylä, Jyväskylän seutukunta, Keski-Suomi, Manner-Suomi, Suomi / Finland"
+"Savion voimalaitos, Finland",,,
+"Savio, Finland",Helsingin seutukunta,Uusimaa,"Savio, Saviontie, Koivikko, Savio, Kerava, Helsingin seutukunta, Uusimaa, Manner-Suomi, 04260, Suomi / Finland"
+"Seitakorva, Finland",Itä-Lapin seutukunta,Lappi,"Seitakorva, Kemijärvi, Itä-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Seitenoikea, Finland",Kajaanin seutukunta,Kainuu,"Seitenoikea, Ristijärvi, Kajaanin seutukunta, Kainuu, Manner-Suomi, Suomi / Finland"
+"Valkeala / Siikakoski, Finland",,,
+"Siikakoski, Finland",Kouvolan seutukunta,Kymenlaakso,"Siikakoski, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 47850, Suomi / Finland"
+"Simpele, Finland",Imatran seutukunta,Etelä-Karjala,"Simpele, Karjalantie, Matomäki, Simpele, Rautjärvi, Imatran seutukunta, Etelä-Karjala, Manner-Suomi, 56800, Suomi / Finland"
+"Sodankylän varuskunta, Finland",Pohjois-Lapin seutukunta,Lappi,"Sodankylän varuskunta, Siilastie, Siilastie, Sodankylä, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, 99600, Suomi / Finland"
+"Soininkoski, Finland",Kuusiokuntien seutukunta,Etelä-Pohjanmaa,"Soininkoski, Tastulanmäki, Alavus, Kuusiokuntien seutukunta, Etelä-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Stadsforsens Kraftverk, Finland",Jakobstadsregionen,Österbotten,"Stadsforsens kraftverk, Nykarleby, Jakobstadsregionen, Österbotten, Manner-Suomi, Suomi / Finland"
+"Pulkkilantie 128, 58700, Finland",Savonlinnan seutukunta,Etelä-Savo,"Pulkkilantie, Sulkava, Savonlinnan seutukunta, Etelä-Savo, Manner-Suomi, 58700, Suomi / Finland"
+"Sulkavan aurinkovoimala, Finland",,,
+"Suomenojan voimalaitos, Finland",,,
+"Lampelankatu 24, Suosiola, Finland",Rovaniemen seutukunta,Lappi,"24, Lampelankatu, Santamäki, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 96320, Suomi / Finland"
+"Suosiola, Finland",Rovaniemen seutukunta,Lappi,"Suosiola, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 96320, Suomi / Finland"
+"Luomankyläntie 591, Luomankylä, Finland",Luoteis-Pirkanmaan seutukunta,Pirkanmaa,"Luomankyläntie, Vatajankylä, Parkano, Luoteis-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 39750, Suomi / Finland"
+"Sysimylly, Finland",,,
+"Sänkiahon 110/ 20 kV sähköasema, Finland",,,
+"Sänkiaho, Finland",Järviseudun seutukunta,Etelä-Pohjanmaa,"Sänkiaho, Pekkola, Alajärvi, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-Suomi, 62900, Suomi / Finland"
+"Tahkoluoto T1-T10, Finland",,,
+"Tainionkoski, Finland",Imatran seutukunta,Etelä-Karjala,"Tainionkoski, Mansikkala, Imatra, Imatran seutukunta, Etelä-Karjala, Manner-Suomi, 55400, Suomi / Finland"
+"Takanebacken tuulipuisto, Finland",,,
+"Tammerkoski, Finland",Tampereen seutukunta,Pirkanmaa,"Tammerkoski, Finlayson, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 33210, Suomi / Finland"
+"Tammervoima / Hyötyvoimankuja 1, Finland",,,
+"Tammervoima, Finland",,,
+"Tampella ve, Finland",Tampereen seutukunta,Pirkanmaa,"Tampella, Keskustan suuralue, Tampere, Tampereen seutukunta, Pirkanmaa, Manner-Suomi, 33180, Suomi / Finland"
+"Tervakoski, Finland",Janakkala,Kanta-Häme,"Tervakoski, Janakkala, Hämeenlinnan seutukunta, Kanta-Häme, Manner-Suomi, 12400, Suomi / Finland"
+"Tervasaari vesi, Finland",,,
+"Tervasaari VP, Finland",,,
+"Tervasaari vp, Finland",,,
+"Tohkojan tuulipuisto 1, Finland",,,
+"Tohkoja 1, Finland",,,
+"Tohkojan tuulipuisto 2, Finland",,,
+"Tohkoja 2, Finland",,,
+"Tohkojan tuulipuisto 3, Finland",,,
+"Tohkoja 3, Finland",,,
+"Tohkojan tuulipuisto 4, Finland",,,
+"Tohkoja 4, Finland",,,
+"Tohkojan tuulipuisto 6, Finland",,,
+"Tohkojan tuulipuisto 5, Finland",,,
+"Tohkoja 5, Finland",,,
+"Tolkkinen, Finland",Porvoon seutukunta,Uusimaa,"Tolkkinen, Porvoo, Porvoon seutukunta, Uusimaa, Manner-Suomi, 06750, Suomi / Finland"
+"Tolkkinen 1, Finland",Porvoon seutukunta,Uusimaa,"1, Högsteninkuja, Mustijoki, Tolkkinen, Porvoo, Porvoon seutukunta, Uusimaa, Manner-Suomi, 06750, Suomi / Finland"
+"Tolkkinen, Biolaitos, Finland",,,
+"Topinojan Biokaasulaitos, Finland",Turun seutukunta,Varsinais-Suomi,"Topinojan biokaasulaitos, 16, Metsämäki, Maaria-Paattinen, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20380, Suomi / Finland"
+"Torkkola, Finland",Vaasan seutukunta,Österbotten,"Torkkola, Vaasa, Vaasan seutukunta, Österbotten, Manner-Suomi, 66510, Suomi / Finland"
+"Torkkolan tuulipuisto, Finland",,,
+"Merjärvi, Finland",,,
+"Tuulipuisto Ristiveto tv, Finland",,,
+"Tyrvää, Finland",Sastamala,Pirkanmaa,"Tyrvään Pyhän Olavin kirkko, 50, Kallialan kirkkotie, Ruoksamo, Rautajoki, Sastamala, Lounais-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 38210, Suomi / Finland"
+"Uimaharjun voimalaitos, Finland",,,
+"Uimaharju 2 + 1 vp/lv, Finland",,,
+"Pulkkila / Uljua, Finland",,,
+"Uljua, Finland",Haapaveden-Siikalatvan seutukunta,Pohjois-Pohjanmaa,"Uljua, Ouluntie, Jylhänranta, Siikalatva, Haapaveden-Siikalatvan seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 92610, Suomi / Finland"
+"Utanen, Finland",Oulunkaaren seutukunta,Pohjois-Pohjanmaa,"Utanen, Utajärvi, Oulunkaaren seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 91600, Suomi / Finland"
+"Vaajakoski, Jyväskylän mlk, Finland",,,
+"Vaaja, Finland",Helsingin seutukunta,Uusimaa,"Vaajapolku, Kontula, Mellunkylä, Itäinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, 00950, Suomi / Finland"
+"Vajukoski, Finland",Pohjois-Lapin seutukunta,Lappi,"Vajukoski, Sodankylä, Pohjois-Lapin seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Valajaskoski, Finland",Rovaniemen seutukunta,Lappi,"Valajaskoski, Häkinvaara, Rautiosaari, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, Suomi / Finland"
+"Vanaja kt, Finland",,,
+"Vanaja kt 1, Finland",Hämeenlinnan seutukunta,Kanta-Häme,"Vanaja, Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Manner-Suomi, Suomi / Finland"
+"Vantaan Jätevoimala, Finland",Helsingin seutukunta,Uusimaa,"Vantaan Energian jätevoimala, Ojanko, Hakunilan suuralue, Vantaa, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Vantaan jätevoimala, Finland",Helsingin seutukunta,Uusimaa,"Vantaan Energian jätevoimala, Ojanko, Hakunilan suuralue, Vantaa, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Vanttauskoski, Finland",Rovaniemen seutukunta,Lappi,"Vanttauskoski, Rovaniemi, Rovaniemen seutukunta, Lappi, Manner-Suomi, 97625, Suomi / Finland"
+"Varessäikkä, Finland",Raahen seutukunta,Pohjois-Pohjanmaa,"Varessäikkä, Varessäikäntie, Siikajoki, Raahen seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Varissaari, Finland",Kotkan–Haminan seutukunta,Kymenlaakso,"Varissaari, Katariina, Kotka, Kotkan–Haminan seutukunta, Kymenlaakso, Manner-Suomi, Suomi / Finland"
+"Vartinoja 1, Finland",,,
+"Vatajankoski, Finland",Pohjois-Satakunnan seutukunta,Satakunta,"Vatajankoski, Honkajoki, Kankaanpää, Pohjois-Satakunnan seutukunta, Satakunta, Manner-Suomi, Suomi / Finland"
+"Veitsiluoto, Finland",Kemi-Tornion seutukunta,Lappi,"Veitsiluoto, Kemi, Kemi-Tornion seutukunta, Lappi, Manner-Suomi, 94720, Suomi / Finland"
+"Verhonkulma / Marttilan kunta, Finland",,,
+"Verhonkulma, Finland",Hämeenlinnan seutukunta,Kanta-Häme,"Verhonkulma, Kalvola, Numminmäki, Hämeenlinna, Hämeenlinnan seutukunta, Kanta-Häme, Manner-Suomi, 14500, Suomi / Finland"
+"Valkeala / Verla, Finland",,,
+"Verla 1 ja 2, Finland",,,
+"Vihreäsaari retrofit, Finland",,,
+"Viikinmäen jätevedenpuhdistamo, Finland",Helsingin seutukunta,Uusimaa,"Viikinmäen jätevedenpuhdistamo, 24, Hernepellontie, Viikinmäki, Viikki, Koillinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, 00710, Suomi / Finland"
+"Viikinmäki, Finland",Helsingin seutukunta,Uusimaa,"Viikinmäki, Viikki, Koillinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Vilppula, Finland",Ylä-Pirkanmaan seutukunta,Pirkanmaa,"Vilppula, Keskuskatu, Ajostaipale, Vilppula, Mänttä-Vilppula, Ylä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 35700, Suomi / Finland"
+"Vilppulan saha, Finland",Ylä-Pirkanmaan seutukunta,Pirkanmaa,"Metsä Fibre, Vilppulan saha, 16, Ajostaipale, Vilppula, Mänttä-Vilppula, Ylä-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 35700, Suomi / Finland"
+"Voikkaa 1, Finland",Kouvolan seutukunta,Kymenlaakso,"Luonto- ja eräkeskus, 1, Keskusaukio, Pappilanpelto, Kuusankoski, Kuusankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45910, Suomi / Finland"
+"Voikkaa ve 1, Finland",,,
+"Voikkaa 2, Finland",Kouvolan seutukunta,Kymenlaakso,"Voikkaa, Kuusankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45910, Suomi / Finland"
+"Voikkaa ve 2, Finland",Kouvolan seutukunta,Kymenlaakso,"Voikkaa, Kuusankosken suuralue, Kouvola, Kouvolan seutukunta, Kymenlaakso, Manner-Suomi, 45910, Suomi / Finland"
+"Vuolenkosken vesivoimalaitos, Finland",,,
+"Vuosaari A-voimalaitos, Finland",,,
+"Vuosaari A, Finland",Helsingin seutukunta,Uusimaa,"Vuosaari, Itäinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Vuosaari B-voimalaitos, Finland",,,
+"Vuosaari B, Finland",Helsingin seutukunta,Uusimaa,"Vuosaari, Itäinen suurpiiri, Helsinki, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Värnå 1, Värnå 2, Finland",,,
+"Värnå, Finland",Turun seutukunta,Varsinais-Suomi,"Varnankatu, Suikkila, Pitkämäki, Länsikeskus, Turku, Turun seutukunta, Varsinais-Suomi, Manner-Suomi, 20250, Suomi / Finland"
+"Waskiluoto Validation Center, Finland",,,
+"Energiatie 37, 66530 Koivulahti, Finland",Vaasan seutukunta,Österbotten,"Energivägen, Stormossen, Kvevlax-Vallvik, Koivulahti, Korsholm, Vaasan seutukunta, Österbotten, Manner-Suomi, 65370, Suomi / Finland"
+"Westenergy jätteenpolttolaitos, Finland",,,
+"Wärtsilä Engine Laboratory, Finland",,,
+"Wärtsilä tehdas, Finland",,,
+"Åminnefors, Pohja, Finland",Raseborgs ekonomiska region,Uusimaa,"Åminnefors Ateljéer, Valsverksvägen, Stålbacka, Pojo, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10470, Suomi / Finland"
+"Åminnefors, Finland",Raseborgs ekonomiska region,Uusimaa,"Åminnefors, Raseborg, Raseborgs ekonomiska region, Uusimaa, Manner-Suomi, 10330, Suomi / Finland"
+"Äetsä, Finland",Sastamala,Pirkanmaa,"Äetsä, Sastamala, Lounais-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi, 32740, Suomi / Finland"
+"Ämmä, Finland",Ylivieskan seutukunta,Pohjois-Pohjanmaa,"Ämmä, Kalajoki, Ylivieskan seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suomi / Finland"
+"Ämmäkoski, Finland",Pielisen Karjalan seutukunta,Pohjois-Karjala,"Ämmäkoski, Lieksa, Pielisen Karjalan seutukunta, Pohjois-Karjala, Manner-Suomi, 81750, Suomi / Finland"
+"Ämmässuon jätteenkäsittelykeskus CHP1, Finland",,,
+"Ämmässuo, Finland",Helsingin seutukunta,Uusimaa,"Ämmässuo, Vanha-Espoo, Espoo, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Ämmässuon jätteenkäsittelykeskus CHP2, Finland",,,
+"Ämmässuo 2, Finland",Helsingin seutukunta,Uusimaa,"Ämmässuo, Vanha-Espoo, Espoo, Helsingin seutukunta, Uusimaa, Manner-Suomi, Suomi / Finland"
+"Oulunsalo, Riutunkari T1-T6, Finland",,,
+"Summa tv, Finland",,,
+"Tyrinselkä, Finland",,,
+"Ykspihlaja Wind Oy, Finland",,,
