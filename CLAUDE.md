@@ -76,7 +76,7 @@ Traps found in the audit of the Baseline-Sami case (968 tables in 99 workbooks):
 2. Write `tools/<task>.py`; run the dry run; show Jack the summary.
 3. Apply, commit, push the branch.
 4. Jack runs on the server: (a) single-region `Baseline`, (b) the regional case, and pushes the GDX files.
-5. Run `python tools/check_run.py <regional>.gdx --ref <single-region>.gdx --out checks/<task>.md`.
+5. Run `python check_run.py <regional>.gdx --ref <single-region>.gdx --out checks/<task>.md`.
    - Dummy imports must be zero; COM_PROJ and NCAP_PASTI totals must be conserved (hard checks).
    - Single-region run must equal the previous single-region run (regression).
    - Explain any objective change (link costs, regional limits).
@@ -105,6 +105,16 @@ FI, to Sweden) by links - not modelled separately. Full region group: `Reg-FI`.
 7. Fix every constraint that only sees FI (zero-RHS shares with FI-only coefficients:
    `UC-IIS`, `RCUC-*`, `UC_CO2_Cars`, ...) and every `AllRegions` national quantity.
 8. FI becomes a pure hub; external links get their home regions; run the full group `Reg-FI`.
+
+## Rules learned from solving the regional case (audit/reg_feasible.md)
+- TIMES counts imports as production and exports as consumption. Any national (`R_S`) UC term
+  `UC_COMPRD`/`UC_COMCON` (or a national COM_BNDPRD) on a commodity that crosses an internal
+  `TB_*` link needs a `UC_IRE-I`/`UC_IRE-E` correction on those links with the opposite
+  coefficient, otherwise internal trade is counted twice. `UC_COMNET` needs none.
+- Modules written for one region but declared `AllRegions` (variable-RES `Scen_SepDb-ZIET_VAR*`)
+  are restricted to the FI hub in Reg mode; rebuild them per region when their plants move.
+- Diagnose regional runs locally: the server's `GAMS_WrkTIMES` DD files solve here with TIMES
+  v4.8.3 and CPLEX (`iis 1`, `names yes`); test every fix in the DD files before the workbooks.
 
 ## Regional keys
 `tools/regional_keys.py` fetches every key from its public source (Statistics Finland PxWeb,

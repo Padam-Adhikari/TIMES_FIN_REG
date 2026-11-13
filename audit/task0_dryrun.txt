@@ -556,24 +556,24 @@ Case scanned: Baseline-Sami (100 workbooks).  Formula used for every switch:
   ~ 'VEDA Tables'!G57: 'ACT_BND'
       -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
       (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
-  ~ 'Flexible Refinery'!K42: 438.924
-      -> =IF(Region_selection!$B$8=Region_selection!$D$8,438.924,"")
-      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
-  ~ 'Flexible Refinery'!K43: 470.542
-      -> =IF(Region_selection!$B$8=Region_selection!$D$8,470.542,"")
-      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
-  ~ 'Flexible Refinery'!K44: 456.607
-      -> =IF(Region_selection!$B$8=Region_selection!$D$8,456.607,"")
-      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
-  ~ 'Flexible Refinery'!K45: 483.616
-      -> =IF(Region_selection!$B$8=Region_selection!$D$8,483.616,"")
-      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
-  ~ 'Flexible Refinery'!K46: 475.18
-      -> =IF(Region_selection!$B$8=Region_selection!$D$8,475.18,"")
-      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
-  ~ 'Flexible Refinery'!K48: 338.53119999999996
-      -> =IF(Region_selection!$B$8=Region_selection!$D$8,$K$47*0.7,"")
-      (switch off cell in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!D42: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!D43: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!D44: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!D45: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!D46: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
+  ~ 'Flexible Refinery'!D48: 'ACT_BND'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"ACT_BND","\I:")
+      (switch off row in Reg mode (1 LO/FX value(s) now in RS_* UCs))
 
 NOTES:
   - RS_ACT_SSCDCOKE00_FX 2010: 0 -> 30.7897 (VT_FINTIMES_SUP.xlsx VEDA Tables!I49, later value wins)
@@ -587,6 +587,13 @@ NOTES:
   - RS_ACT_SSCDCOKE00_LO 2025: 0 -> 8.65098 (VT_FINTIMES_SUP.xlsx VEDA Tables!I57, later value wins)
   - RS_ACT_SSCDCOKE00_UP 2025: 0 -> 25 (VT_FINTIMES_SUP.xlsx VEDA Tables!I58, later value wins)
   - RS_ACT_SSCDCOKE00_UP 2030: 0 -> 17 (VT_FINTIMES_SUP.xlsx VEDA Tables!I59, later value wins)
+  - RS_ACT_SSCDRFLX00_FX 2010: 0 -> 438.924 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K42, later value wins)
+  - RS_ACT_SSCDRFLX00_FX 2011: 0 -> 470.542 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K43, later value wins)
+  - RS_ACT_SSCDRFLX00_FX 2012: 0 -> 456.607 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K44, later value wins)
+  - RS_ACT_SSCDRFLX00_FX 2013: 0 -> 483.616 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K45, later value wins)
+  - RS_ACT_SSCDRFLX00_FX 2014: 0 -> 475.18 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K46, later value wins)
+  - RS_ACT_SSCDRFLX00_UP 2015: 0 -> 483.616 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K47, later value wins)
+  - RS_ACT_SSCDRFLX00_LO 2020: 0 -> 338.531 (VT_FINTIMES_SUP.xlsx Flexible Refinery!K48, later value wins)
   - RS_ACT_MINSNKAFF1_UP 2010: 40330 -> 14.3935 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G32, later value wins)
   - RS_ACT_MINSNKAFF1_UP 2020: 51330 -> 18.3193 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G33, later value wins)
   - RS_ACT_MINSNKAFF1_UP 2030: 18330 -> 6.54185 (SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx CO2_Storage_Potential!G34, later value wins)
@@ -611,6 +618,12 @@ NOTES:
   - VT_FINTIMES_SUP.xlsx VEDA Tables!H54: zero ACT_BND FX 2015 duplicates a non-zero value in the same row; not copied
   - VT_FINTIMES_SUP.xlsx VEDA Tables!H55: zero ACT_BND LO 2016 duplicates a non-zero value in the same row; not copied
   - VT_FINTIMES_SUP.xlsx VEDA Tables!H57: zero ACT_BND LO 2025 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx Flexible Refinery!H42: zero ACT_BND FX 2010 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx Flexible Refinery!H43: zero ACT_BND FX 2011 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx Flexible Refinery!H44: zero ACT_BND FX 2012 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx Flexible Refinery!H45: zero ACT_BND FX 2013 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx Flexible Refinery!H46: zero ACT_BND FX 2014 duplicates a non-zero value in the same row; not copied
+  - VT_FINTIMES_SUP.xlsx Flexible Refinery!J48: zero ACT_BND LO 2020 duplicates a non-zero value in the same row; not copied
   - wildcards expanded with Reg-FINTIMES\AppData\GAMSSAVE\baseline.gdx (2277 FI processes) - this GDX is older than the current files; re-check the expansions when a fresh Baseline-Sami GDX is pushed
 
 Non-zero bound values by class: {'SUM': 124, 'POT': 92, 'SKIP': 1, 'KEEP': 4, 'LINK': 236, 'NONBIND': 2}

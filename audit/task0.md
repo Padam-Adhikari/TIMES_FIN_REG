@@ -1,6 +1,6 @@
 # Task 0 audit: internal link cost, national bounds, non-zero-RHS user constraints
 
-Case: **Baseline-Sami** | generated 2026-11-11 by `tools/task0.py --write-audit` (read-only) |
+Case: **Baseline-Sami** | generated 2026-11-13 by `tools/task0.py --write-audit` (read-only) |
 100 workbooks, 1010 tagged tables (incl. `~UC_Sets` lines and disabled tags).
 
 Method: every workbook of the case (from `AppData/Cases.json` + `Groups.json`: BASE `VT_*`,
@@ -164,7 +164,7 @@ One line per table x attribute x limit x item. `Region` is the column the value 
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | V81 `~TFM_INS` | ACT_BND | LO | IMPOILDST | FI | 2010: 64.0272, 2012: 82.604, 2014: 76.3113, 2016: 67.8193, 2018: 54.6994, 2020: 67.5213, 2023: 65.2159 | AB91, AB92, AB93, AB94, AB95, AB96, AB97 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B82 `~TFM_INS` | ACT_BND | UP | IMPOILKER | FI | 2010: 30.0545, 2014: 19.0931, 2016: 25.3519, 2018: 21.1015, 2020: 31.0795, 2023: 21.4821 | H84, H85, H86, H87, H88, H89 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B82 `~TFM_INS` | ACT_BND | LO | IMPOILKER | FI | 2010: 24.5901, 2014: 15.6216, 2016: 20.7425, 2018: 17.2648, 2020: 25.4286, 2023: 17.5762 | H91, H92, H93, H94, H95, H96 |
-| SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B100 `~TFM_INS` | ACT_BND | UP | IMPOILOTH | FI | 2010: 15.1185, 2012: 17.0947, 2014: 3.21965, 2016: 1.85057, 2018: 2.78004, 2020: 1.5533, 2020: 5.43865, 2023: 1.66635 | H102, H103, H104, H105, H106, H107, H108, H109 |
+| SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B100 `~TFM_INS` | ACT_BND | UP | IMPOILOTH | FI | 2010: 15.1185, 2012: 17.0947, 2014: 3.21965, 2016: 1.85057, 2018: 2.78004, 2020: 5.43865, 2020: 1.5533, 2023: 1.66635 | H102, H103, H104, H105, H106, H107, H108, H109 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | B100 `~TFM_INS` | ACT_BND | LO | IMPOILOTH | FI | 2010: 12.3697, 2012: 13.9866, 2014: 2.63426, 2016: 1.5141, 2018: 2.27457, 2020: 1.27088, 2020: 4.44981, 2023: 1.36337 | H111, H112, H113, H114, H115, H116, H117, H118 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Imports (bio & fossil) | K101 `~TFM_INS` | ACT_BND | UP | IMPISOBUT | FI | 2010: 26.93 | Q103 |
 | SuppXLS/Scen_BIOPOT_BIOM16_ForestBAU.xlsx | BAU Exports fossil | B17 `~TFM_INS` | ACT_BND | UP | EXPOILGSL | FI | 2010: 100.232, 2012: 107.115, 2014: 135.539, 2016: 129.808, 2018: 130.419, 2020: 130.243, 2023: 126.944 | H21, H22, H23, H24, H25, H26, H27 |

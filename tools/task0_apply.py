@@ -9,10 +9,39 @@ Called by `tools/task0.py --apply`. Safety rules:
     equal the old values (the switch is transparent in single-region mode).
 """
 import os
+import re
 import shutil
 import tempfile
 
 SINGLE = "FINTIMES"
+# Colour convention (CLAUDE.md): fill colours for every cell a tool writes
+BLUE = "#DDEBF7"     # Region_selection switch formula
+ORANGE = "#FCE4D6"   # value computed from a regional key
+GREEN = "#E2EFDA"    # new Reg-only table / sheet
+YELLOW = "#FFF2CC"   # needs a decision or better data
+LEGEND = [("Colour legend (cells written by tools/*.py)", None),
+          ("Region switch: single-region value kept, regional value added", BLUE),
+          ("Value split with a regional key (see audit/keys.md)", ORANGE),
+          ("New table used only in Reg-FINTIMES mode", GREEN),
+          ("Needs a decision or better data (see audit/)", YELLOW)]
+
+
+def write_legend(wb, log=print):
+    """Legend on Region_selection (B30:C34), only into empty cells."""
+    if "Region_selection" not in [s.name for s in wb.sheets]:
+        return
+    ws = wb.sheets["Region_selection"]
+    rng = ws.range("B30:C34")
+    vals = rng.value
+    flat = [v for row in vals for v in (row if isinstance(row, list) else [row])]
+    if any(v not in (None, "") for v in flat) and ws.range("B30").value != LEGEND[0][0]:
+        log("  legend skipped: Region_selection!B30:C34 not empty")
+        return
+    for i, (text, colour) in enumerate(LEGEND):
+        ws.range(f"C{30 + i}").value = text
+        if colour:
+            ws.range(f"B{30 + i}").color = colour
+    ws.range("C30").api.Font.Bold = True
 
 
 def _same(a, b):
@@ -111,6 +140,33 @@ def apply_plan(plan, root, template_book, sel, sheet_name, log=print):
                         rng.value = new
                 log(f"  {book}: {len(todo)} cell(s) written, "
                     f"{len(plan.edits.get(book, [])) - len(todo)} already in place")
+                # 2b) undo cell blanks written by an earlier version of the plan
+                planned = {(s, c) for s, c, *_ in plan.edits.get(book, [])}
+                blank = re.compile(r'^=IF\(' + re.escape(sel) + r',(.*),""\)$')
+                for ws_ in wb.sheets:
+                    if ws_.name in ("Region_selection", sheet_name):
+                        continue
+                    ur = ws_.used_range
+                    forms = ur.formula
+                    if not isinstance(forms, (list, tuple)):
+                        forms = ((forms,),)
+                    elif forms and not isinstance(forms[0], (list, tuple)):
+                        forms = (forms,)
+                    for i, row in enumerate(forms):
+                        for j, f in enumerate(row):
+                            m = blank.match(f) if isinstance(f, str) else None
+                            if not m:
+                                continue
+                            cell = ur[i, j]
+                            addr = cell.get_address(False, False)
+                            if (ws_.name, addr) in planned:
+                                continue
+                            inner = m.group(1)
+                            try:
+                                cell.value = float(inner)
+                            except ValueError:
+                                cell.formula = "=" + inner if not inner.startswith('"') else inner[1:-1].replace('""', '"')
+                            log(f"  restored {ws_.name}!{addr} (blank from an earlier plan) -> {inner}")
                 # 3) Reg-only tables (a RegSum sheet written by this tool is regenerated)
                 if plan.new_tables.get(book) or plan.copies.get(book):
                     if sheet_name in [s.name for s in wb.sheets]:
@@ -128,11 +184,18 @@ def apply_plan(plan, root, template_book, sel, sheet_name, log=print):
                         ws.range(f"B{r+3}").formula = f'=IF({sel},"UC_T","~UC_T")'
                         hdr, rows = _uc_rows(plan.new_tables[book])
                         ws.range(f"B{r+4}").value = [hdr] + rows
+                        ws.range(f"B{r}").resize(5 + len(rows), len(hdr)).color = GREEN
                         r = r + 6 + len(rows) + 2
                     if plan.copies.get(book):
                         ws.range(f"B{r}").formula = f'=IF({sel},"TFM_INS","~TFM_INS")'
                         hdr, rows = _copy_rows(plan.copies[book])
                         ws.range(f"B{r+1}").value = [hdr] + rows
+                        ws.range(f"B{r}").resize(2 + len(rows), len(hdr)).color = GREEN
+                # colours: every switched / written cell (idempotent)
+                colours = getattr(plan, "colours", {})
+                for sheet, cell, old, new, why in plan.edits.get(book, []):
+                    wb.sheets[sheet].range(cell).color = colours.get((book, sheet, cell), BLUE)
+                write_legend(wb, log)
                 app.calculate()
                 # 4) single-region transparency check before saving
                 for sheet, cell, old, new, why in plan.edits.get(book, []):

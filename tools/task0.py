@@ -322,13 +322,16 @@ def extract(scan):
                         continue
                     a, lim, year, reg, other = split_hdr(h)
                     hu = str(h).strip().upper()
-                    if hu in REGIONS or hu == ALLREG or re.fullmatch(r"\d{4}|0", hu):
-                        # value column: attribute from the row or the tag
+                    first = hu.split("~")[0]
+                    if first in REGIONS or first == ALLREG or first in LIMS or re.fullmatch(r"\d{4}|0", first):
+                        # value column (region / limit type / year, possibly combined with
+                        # '~'): the attribute comes from the row or the tag
+                        parts = [p for p in hu.split("~") if p]
                         a = row_attr or tag_attr
                         src = "row" if row_attr else "tag"
-                        reg = hu if (hu in REGIONS or hu == ALLREG) else row_reg
-                        year = hu if re.fullmatch(r"\d{4}|0", hu) else row_year
-                        lim = row_lim or tag_lim
+                        reg = next((p for p in parts if p in REGIONS or p == ALLREG), row_reg)
+                        year = next((p for p in parts if re.fullmatch(r"\d{4}|0", p)), row_year)
+                        lim = next((p for p in parts if p in LIMS), None) or row_lim or tag_lim
                     else:
                         src = "col"
                         lim = lim or row_lim or tag_lim
@@ -746,9 +749,12 @@ def source_unit(e):
     if e.src == "row":
         k = next(i for i, h in enumerate(hdr) if norm_hdr(h) in ("attribute", "attrib"))
         r = next(r for r in t["rows"] if r["row"] == e.row)
+        def value_col(h):     # region / limit type / year (alone or with ~): row attribute
+            first = str(h).strip().upper().split("~")[0]
+            return first in REGIONS or first == ALLREG or first in LIMS or re.fullmatch(r"\d{4}|0", first)
         other = [h for i, h in enumerate(hdr) if i != k and r["cells"][i] is not None
                  and split_hdr(h)[0] not in BOUNDS and norm_hdr(h) not in ID_COLS
-                 and str(h).upper() not in REGIONS | {ALLREG} and not re.fullmatch(r"\d{4}|0", str(h))]
+                 and not value_col(h)]
         # a row that carries a TechName for the rows below must stay readable
         ti = next((i for i, h in enumerate(hdr) if norm_hdr(h) == "techname"), None)
         nxt = next((x for x in t["rows"] if x["row"] > e.row), None)
