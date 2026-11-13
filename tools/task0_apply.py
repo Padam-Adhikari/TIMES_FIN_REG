@@ -124,8 +124,12 @@ def apply_plan(plan, root, template_book, sel, sheet_name, log=print):
                 todo = []
                 for sheet, cell, old, new, why in plan.edits.get(book, []):
                     rng = wb.sheets[sheet].range(cell)
-                    done = (rng.formula == new) if (isinstance(new, str) and new.startswith("=")) \
-                        else _same(rng.value, new)
+                    if isinstance(new, str) and new.startswith("{="):      # array formula
+                        done = rng.formula == new[1:-1]
+                    elif isinstance(new, str) and new.startswith("="):
+                        done = rng.formula == new
+                    else:
+                        done = _same(rng.value, new)
                     if done:
                         continue
                     if not _same(rng.value, old):
@@ -134,7 +138,9 @@ def apply_plan(plan, root, template_book, sel, sheet_name, log=print):
                 # 2) write switches
                 for sheet, cell, new in todo:
                     rng = wb.sheets[sheet].range(cell)
-                    if isinstance(new, str) and new.startswith("="):
+                    if isinstance(new, str) and new.startswith("{="):
+                        rng.formula_array = new[1:-1]
+                    elif isinstance(new, str) and new.startswith("="):
                         rng.formula = new
                     else:
                         rng.value = new

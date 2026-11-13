@@ -94,11 +94,12 @@ $BATINCLUDE 41_trade-elc-extraeu.dd
 $BATINCLUDE syssettings.dd
 $BATINCLUDE power_from_jrc-idees-2015.dd
 $BATINCLUDE rsdretfitsetup.dd
+$BATINCLUDE tradeparameters.dd
 $BATINCLUDE bau-general.dd
 $BATINCLUDE biopot_biom16_forestbau.dd
 $BATINCLUDE bunk_fuels_share.dd
 $BATINCLUDE co2target_nonets_2030.dd
-$BATINCLUDE demand_com-fr.dd
+$BATINCLUDE demand_com-fr_sami.dd
 $BATINCLUDE enuc40_tlife.dd
 $BATINCLUDE fuelprices_ref2016.dd
 $BATINCLUDE fuelprices-deliv.dd
@@ -112,9 +113,9 @@ $BATINCLUDE diversified_cement.dd
 $BATINCLUDE refineries_lim.dd
 $BATINCLUDE emisuc_v1point.dd
 $BATINCLUDE sepdb-ziet_var.dd
+$BATINCLUDE regsum_base.dd
 $BATINCLUDE sepdb-ziet_var_stor.dd
 $BATINCLUDE sepdb-zietassumptions_drate.dd
-$BATINCLUDE regsum_base.dd
 $BATINCLUDE tra_co2_target.dd
 $BATINCLUDE tra_scenarios.dd
 $BATINCLUDE tra_evphev_newsalesbase.dd

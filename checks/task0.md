@@ -1,0 +1,121 @@
+# Run check: reg_sami2.gdx
+
+Regions (3): FI, FI1B1, FI1D9
+
+## 1. Dummy imports: PASS
+
+
+## 2. Objective
+
+Run: 1.52845e+06
+
+Reference: 1.52992e+06  ·  difference -1,467.1 (-0.0959%)
+
+## 3. National totals (sum over regions vs reference)
+
+### COM_PROJ demand by year, commodity: PASS (0 of 1375 keys differ)
+
+
+### NCAP_PASTI existing capacity by process: PASS (0 of 345 keys differ)
+
+
+### VAR_CAP installed capacity by year, process (result): DIFF (861 of 9752 keys differ)
+
+| key | run | reference | difference |
+|---|---|---|---|
+| 2045 / TRA_Car_PIH_LoM_20pct | 514.584 | 588.162 | -73.578 |
+| 2043 / TRA_Car_PIH_LoM_20pct | 441.986 | 514.28 | -72.294 |
+| 2040 / TRA_Car_PIH_LoM_20pct | 441.986 | 514.28 | -72.294 |
+| 2035 / TRA_Car_Elc_LoM_10 | 162.32 | 97.8483 | +64.4715 |
+| 2048 / TRA_Car_Elc_LoM_10 | 210.286 | 147.684 | +62.6021 |
+| 2045 / TRA_Car_Elc_LoM_10 | 210.286 | 147.684 | +62.6021 |
+| 2043 / TRA_Car_Elc_LoM_10 | 210.286 | 147.684 | +62.6021 |
+| 2040 / TRA_Car_Elc_LoM_10 | 210.286 | 147.684 | +62.6021 |
+| 2038 / TRA_Car_Elc_LoM_10 | 262.106 | 199.504 | +62.6021 |
+| 2038 / TRA_Car_PIH_LoM_20pct | 148.197 | 210.515 | -62.3181 |
+| 2035 / TRA_Car_PIH_LoM_20pct | 148.197 | 210.515 | -62.3181 |
+| 2033 / TRA_Car_PIH_LoM_20pct | 148.197 | 210.515 | -62.3181 |
+| 2048 / TRA_Car_PIH_LoM_20pct | 559.823 | 622.079 | -62.2563 |
+| 2033 / TRA_Car_PIH_UpM_20pct | 197.305 | 138.255 | +59.0507 |
+| 2065 / COMBATS01 | 35.6942 | 0 | +35.6942 |
+| 2065 / RSDBATS01 | 14.2062 | 49.873 | -35.6668 |
+| 2050 / COMBATS01 | 0 | 35.5318 | -35.5318 |
+| 2048 / COMBATS01 | 5.21089 | 40.7424 | -35.5315 |
+| 2048 / RSDBATS01 | 35.4705 | 0 | +35.4705 |
+| 2050 / RSDBATS01 | 42.6932 | 7.30744 | +35.3858 |
+| 2063 / COMBATS01 | 28.2094 | 0 | +28.2094 |
+| 2060 / COMBATS01 | 28.2094 | 0 | +28.2094 |
+| 2063 / RSDBATS01 | 21.2441 | 49.4182 | -28.1741 |
+| 2060 / RSDBATS01 | 20.4078 | 48.5745 | -28.1667 |
+| 2045 / COMBATS01 | 15.11 | 38.6778 | -23.5678 |
+
+… 836 more
+
+### Emissions (VAR_COMNET) by year, commodity (result): DIFF (141 of 225 keys differ)
+
+| key | run | reference | difference |
+|---|---|---|---|
+| 2030 / ETSCO2 | 10901.2 | 9981.64 | +919.559 |
+| 2025 / INDCO2N | 5088.09 | 5671.98 | -583.885 |
+| 2025 / ELCCO2N | 4200.29 | 3632.63 | +567.667 |
+| 2045 / SUPCO2N | -3149.68 | -3656.11 | +506.426 |
+| 2033 / TOTCO2 | 18826.4 | 19256.2 | -429.812 |
+| 2045 / TOTCO2 | 9257.67 | 8872.84 | +384.83 |
+| 2035 / ETSCO2 | 8894.54 | 8541.37 | +353.167 |
+| 2033 / ETSCO2 | 8660.23 | 8391.32 | +268.915 |
+| 2033 / ELCCO2N | 3600.9 | 3849.42 | -248.522 |
+| 2048 / TOTCO2 | 7461.74 | 7221.3 | +240.437 |
+| 2048 / SUPCO2N | -4684.69 | -4890.09 | +205.402 |
+| 2038 / ELCCO2N | 3106.38 | 3292.7 | -186.324 |
+| 2013 / ELCCO2N | 16898 | 16714.4 | +183.639 |
+| 2043 / TOTCO2 | 10078.3 | 9896.56 | +181.781 |
+| 2030 / ELCCO2N | 3765.36 | 3585.41 | +179.954 |
+| 2040 / SUPCO2N | -1854.2 | -2017.7 | +163.503 |
+| 2013 / INDCO2N | 11485.8 | 11647.9 | -162.166 |
+| 2030 / INDCO2N | 5712.4 | 5869.15 | -156.745 |
+| 2038 / SUPCO2N | -1061.78 | -1214.79 | +153.009 |
+| 2058 / INDCO2N | 3045.44 | 2893.74 | +151.706 |
+| 2035 / ELCCO2N | 3328.84 | 3478.97 | -150.135 |
+| 2038 / TOTCO2 | 14695.5 | 14844.5 | -149.042 |
+| 2060 / SUPCO2N | -4868.21 | -4720.71 | -147.504 |
+| 2048 / INDCO2N | 3213.71 | 3067.55 | +146.166 |
+| 2053 / ETSCO2 | 11216.6 | 11361.3 | -144.704 |
+
+… 116 more
+
+## 4. Internal trade (exports on TB_* links, summed over years)
+
+| from region | link | commodity | flow |
+|---|---|---|---|
+| FI | TB_INDCOK_FI_FI1D9 | INDCOK | 311.265 |
+| FI | TB_INDCOA_FI_FI1D9 | INDCOA | 274.298 |
+| FI | TB_MISSNT_FI_FI1D9 | MISSNT | 82.8165 |
+| FI1D9 | TB_MISRIR_FI_FI1D9 | MISRIR | 53.9632 |
+| FI | TB_INDBIO_FI_FI1D9 | INDBIO | 25.4776 |
+| FI | TB_MISOXY_FI_FI1D9 | MISOXY | 23.77 |
+| FI | TB_INDELC_FI_FI1D9 | INDELC | 13.3684 |
+| FI | TB_INDBFG_FI_FI1D9 | INDBFG | 10.7742 |
+| FI1D9 | TB_INDBFG_FI_FI1D9 | INDBFG | 10.6869 |
+| FI1D9 | TB_MISBFS_FI_FI1D9 | MISBFS | 6.31495 |
+| FI | TB_MISPLT_FI_FI1D9 | MISPLT | 2.3894 |
+| FI | TB_INDHFO_FI_FI1D9 | INDHFO | 0.000527507 |
+| FI | TB_GASBFG_FI_FI1D9 | GASBFG | 0 |
+| FI | TB_GASCOP_FI_FI1D9 | GASCOP | 0 |
+| FI | TB_GASIIS_FI_FI1D9 | GASIIS | 0 |
+| FI | TB_IISHTH_FI_FI1D9 | IISHTH | 0 |
+| FI | TB_MISBFS_FI_FI1D9 | MISBFS | 0 |
+| FI | TB_MISRIR_FI_FI1D9 | MISRIR | 0 |
+| FI1D9 | TB_GASBFG_FI_FI1D9 | GASBFG | 0 |
+| FI1D9 | TB_GASCOP_FI_FI1D9 | GASCOP | 0 |
+| FI1D9 | TB_GASIIS_FI_FI1D9 | GASIIS | 0 |
+| FI1D9 | TB_IISHTH_FI_FI1D9 | IISHTH | 0 |
+| FI1D9 | TB_INDBIO_FI_FI1D9 | INDBIO | 0 |
+| FI1D9 | TB_INDCOA_FI_FI1D9 | INDCOA | 0 |
+| FI1D9 | TB_INDCOK_FI_FI1D9 | INDCOK | 0 |
+| FI1D9 | TB_INDELC_FI_FI1D9 | INDELC | 0 |
+| FI1D9 | TB_INDHFO_FI_FI1D9 | INDHFO | 0 |
+| FI1D9 | TB_MISOXY_FI_FI1D9 | MISOXY | 0 |
+| FI1D9 | TB_MISPLT_FI_FI1D9 | MISPLT | 0 |
+| FI1D9 | TB_MISSNT_FI_FI1D9 | MISSNT | 0 |
+
+## Verdict: PASS

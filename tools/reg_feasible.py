@@ -92,6 +92,58 @@ def plan_misrir(plan):
     print(f"{UCIND} {sh}: 9 correction rows (15-23) + header K5")
 
 
+LIMITCOAL = "Reg-FINTIMES/SuppXLS/Scen_UC_LimitCOAL.xlsx"
+
+
+def plan_coal_phaseout(plan):
+    """Industrial coal phase-out (FLO_BND UP 0 from 2030 on INDCO* inputs of PRE/ELE/HPL
+    processes) is written in a column headed 'FI', so the COREX plant moved to FI1D9
+    escaped it (regional run 0.1 % cheaper). Zero bound = Copy rule: every region."""
+    vals, forms = read_cells(LIMITCOAL)
+    sh = "INDCOA"
+    tag = [k for k, v in vals.items() if k[0] == sh and isinstance(v, str) and v.strip().upper() == "~TFM_INS"]
+    assert len(tag) == 1, tag
+    import re as _re
+    col = _re.match(r"[A-Z]+", tag[0][1]).group(0)
+    hr = int(tag[0][1][len(col):]) + 1
+    hdr = {v: c[1] for c, v in vals.items() if c[0] == sh and c[1].endswith(str(hr))
+           and _re.fullmatch(r"[A-Z]+" + str(hr), c[1])}
+    assert "FLO_BND" in {vals.get((sh, f"{_re.match(r'[A-Z]+', hdr['Attribute']).group(0)}{hr + 1}"))}, hdr
+    cell = hdr["FI"]
+    plan.edit(LIMITCOAL, sh, cell, "FI", gated("FI", forms.get((sh, cell)), '"AllRegions"'),
+              "coal phase-out is a zero bound (Copy rule): every region, incl. moved plants")
+    print(f"{LIMITCOAL} {sh}!{cell}: 'FI' -> 'AllRegions' in Reg mode")
+
+
+LINKS = "Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx"
+NEW_LINKS = ["INDSCO2N", "GASBFT", "GreenCert-FIN"]
+
+
+def plan_links(plan):
+    """Steel pilot gaps: commodities produced in FI1D9 whose consumers are only on the FI hub.
+    INDSCO2N (captured CO2) vanished for free instead of entering CO2 transport/storage
+    (regional run 0.1 % cheaper); GASBFT (top gas) and GreenCert-FIN (certificates) unused.
+    The TradeLinks_DINS table builds region x commodity rows from the lists in L and M."""
+    vals, forms = read_cells(LINKS)
+    sh = "FI internal trades"
+    last = max(r for r in range(4, 40) if vals.get((sh, f"M{r}")) is not None)
+    free = all(vals.get((sh, f"{c}{r}")) is None for c in "ACDEFGHIM" for r in (19, 20, 21))
+    if last != 18 or not free:
+        sys.exit(f"{LINKS}: trade-link table not as expected (last commodity row {last}, rows 19-21 free {free})")
+    plan.colours = getattr(plan, "colours", {})
+    for i, com in enumerate(NEW_LINKS):
+        r = 19 + i
+        cells = [("M", com), ("A", f"=A{r-1}+1"), ("C", "FI"),
+                 ("D", f"{{=INDEX($L$4:$L$1048576,1+MOD(A{r}-1,COUNTA($L$4:$L$1048576)),0)}}"),
+                 ("E", f"{{=INDEX($M$4:$M$1048576,1+QUOTIENT(A{r}-1,COUNTA($L$4:$L$22)),0)}}"),
+                 ("F", f"=E{r}"), ("G", f"=F{r}"),
+                 ("H", f'=_xlfn.TEXTJOIN("_",TRUE,"TB",E{r},C{r},D{r})'), ("I", "B")]
+        for col, v in cells:
+            plan.edit(LINKS, sh, f"{col}{r}", None, v, f"new internal link TB_{com}_FI_FI1D9 (steel pilot gap)")
+            plan.colours[(LINKS, sh, f"{col}{r}")] = "#E2EFDA"
+    print(f"{LINKS}: links for {NEW_LINKS} (rows 19-21)")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true")
@@ -99,6 +151,8 @@ def main():
     plan = Plan()
     plan_var_module(plan)
     plan_misrir(plan)
+    plan_coal_phaseout(plan)
+    plan_links(plan)
     for b, eds in plan.edits.items():
         print(f"--- {b}")
         for sheet, cell, old, new, why in eds:
