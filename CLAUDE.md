@@ -61,6 +61,14 @@ Traps found in the audit of the Baseline-Sami case (968 tables in 99 workbooks):
 - Keep formulas and the `Region_selection` switch working; prefer adding the regional value
   through the existing IF pattern or a new `~TFM_INS`/`~TFM_DINS` table over overwriting values.
 - One git branch per task (`reg/<task>`); small commits; never commit to `main`.
+- **Colour every cell a tool writes** (fill colour, so changes can be reviewed in Excel later):
+  | Colour | Meaning |
+  |---|---|
+  | light blue `#DDEBF7` | `Region_selection` switch formula (single value kept, regional value added) |
+  | light orange `#FCE4D6` | value computed from a regional key (split; check against `audit/keys.md`) |
+  | light green `#E2EFDA` | new Reg-only table or sheet (e.g. `RegSum`, new `~TFM_AVA`, new links) |
+  | light yellow `#FFF2CC` | value that still needs a decision or better data (listed in `audit/<task>.md`) |
+  Each touched workbook gets the legend on its `Region_selection` sheet.
 
 ## Work loop (per task)
 1. Read-only audit of the tables the task touches → write `audit/<task>.md` (file, sheet, cell,
@@ -74,25 +82,42 @@ Traps found in the audit of the Baseline-Sami case (968 tables in 99 workbooks):
    - Explain any objective change (link costs, regional limits).
 6. Fix on the same branch until checks pass; then Jack merges.
 
-## Task list (in order; do not start the next before the current one passes)
-0. Fix the internal link cost; convert national bounds and non-zero-RHS UCs to `UC_R_SUM`.
-1. Validate the steel pilot (FI vs FI+FI1D9).
-2. Power and CHP plants, hydro and existing wind to their regions (plant register from Jack);
-   links region↔FI hub (copper plate). Pass: objective ≈ single-region run.
-3. Grid between neighbouring regions with real capacities; reV wind classes per region
-   (Jack's four-file template: SubRES_WindreV, its _Trans, Scen_ExclSV{n}_BV{n} with CAP_BND only,
-   Scen_LegacyWind_Off).
-4. Other single sites: Porvoo refinery (FI1B1), pulp and paper, chemicals, cement — like steel.
-5. Spread demand (residential, services, transport, agriculture, district heat) with shares
-   from `FIR_Keys.xlsx`.
-6. FI becomes a pure hub: no demand or plants left in FI.
+## Target: a fully regional model
+All 19 regions carry their own plants, demand, stocks and resources, linked by real
+transmission/transport links; FI is only the national hub (national constraints, trade with
+other countries). Åland (FI200) is a normal region **connected** to the mainland (and, through
+FI, to Sweden) by links - not modelled separately. Full region group: `Reg-FI`.
 
-## Decisions that belong to Jack (ask, never guess)
-Regional shares and their sources; plant locations; home regions of external links; which bounds
-are physically regional; link capacities and costs; whether Åland is modelled separately.
+## Task list (in order; do not start the next before the current one passes)
+0. Fix the internal link cost; convert national bounds and non-zero-RHS UCs to `UC_R_SUM`;
+   make the regional case (Reg-FI-Copy) solve.
+1. Validate the steel pilot (FI vs FI+FI1D9); add the missing links (e.g. GASBFT).
+2. Power and CHP plants, nuclear, hydro, existing wind/solar to their sites (Energy Authority
+   power plant register); links region<->FI hub. Pass: objective ~ single-region run.
+3. Grid between neighbouring regions with real capacities (Fingrid), Åland links; reV/ENSPRESO
+   wind and solar per region.
+4. Other single sites: Porvoo refinery (FI1B1), pulp and paper, chemicals, cement, LNG terminals
+   (EU ETS / E-PRTR facility registers) - like steel.
+5. Spread demand and stocks: residential and services buildings, district heat, transport,
+   agriculture, with keys from `data/keys/` (`tools/regional_keys.py`).
+6. Resources: biomass, peat, waste, CO2 storage split by region (Luke, GTK); the task-0 national
+   sums of `MIN*` potentials are replaced by the Split rule.
+7. Fix every constraint that only sees FI (zero-RHS shares with FI-only coefficients:
+   `UC-IIS`, `RCUC-*`, `UC_CO2_Cars`, ...) and every `AllRegions` national quantity.
+8. FI becomes a pure hub; external links get their home regions; run the full group `Reg-FI`.
+
+## Regional keys
+`tools/regional_keys.py` fetches every key from its public source (Statistics Finland PxWeb,
+Traficom, Luke, Energy Authority, ...), maps it to NUTS-3, checks that the 19 shares sum to
+exactly 1 and that the regional total equals the national figure, and writes `data/keys/*.csv`
+plus `audit/keys.md` (source, table, values, checks). Model scripts read only these files.
+
+## Decisions to confirm with Jack/Padam (ask when the data do not settle them)
+Plant locations not in public registers; home regions of external links; which bounds are
+physically regional; link capacities and costs where Fingrid data are missing.
 
 ## Tools
-- `tools/check_run.py` — checks a solved GDX against a reference (needs gdxdump: GAMS on PATH or
+- `check_run.py` (repo root) — checks a solved GDX against a reference (needs gdxdump: GAMS on PATH or
   `pip install gamspy_base`).
 - xl2times can give a quick headless DD check, but VEDA is authoritative: xl2times skips
   `~COMAGG_R1C2`, `~PRCCOMEMI`, `~TFM_TOPINS`, `~TFM_UPD-N` and formula-bearing `~TFM_INS`.
