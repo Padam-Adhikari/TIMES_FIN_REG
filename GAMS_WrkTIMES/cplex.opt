@@ -1,0 +1,12 @@
+scaind 0
+iis yes
+lpmethod 4
+baralg 0
+barepcomp 1e-10
+barcrossalg 1
+barorder 0
+THREADS -1
+aggind 3
+Names no
+eprhs 1.0e-7
+OPTCR 0.00085

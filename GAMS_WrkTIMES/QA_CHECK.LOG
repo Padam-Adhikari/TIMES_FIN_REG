@@ -315,6 +315,7 @@
  *01 WARNING       -     R=FI           P=P_RSDBATS03  C=DUMSTOR      IO=IN
  *01 WARNING       -     R=FI           P=P_STH2SDT    C=DUMSTOR      IO=IN
  *01 WARNING       -     R=FI           P=P_STH2SGT    C=DUMSTOR      IO=IN
+ *01 WARNING       -     R=FI           P=S_CCUS_EMISMeOH C=ELCHIG       IO=IN
  *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC03 C=COMAHT       IO=IN
  *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC04 C=COMAHT       IO=IN
  *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC05 C=COMAHT       IO=IN
