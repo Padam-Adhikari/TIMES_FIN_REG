@@ -65,8 +65,8 @@ def plan_var_module(plan):
         for (sheet, cell), v in sorted(vals.items()):
             if isinstance(v, str) and v.strip().upper().replace(" ", "") == "~UC_SETS:R_E:ALLREGIONS":
                 f = forms.get((sheet, cell))
-                if f and SEL in f:          # already this tool's switch: rebuild it from the
-                    f = None                # single-region text instead of wrapping it again
+                if f and SEL in f:          # already switched (here, or by task3_power.py, which
+                    continue                # makes the system balances R_S and UC_VARU_* R_E AllRegions)
                 plan.edit(book, sheet, cell, v, gated(v, f, '"~UC_Sets: R_E: FI"'),
                           "variable-RES module is a national identity: in Reg mode only the FI hub copy")
                 n += 1
