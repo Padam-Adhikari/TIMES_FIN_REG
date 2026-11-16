@@ -16,6 +16,44 @@ SET COM_TMAP
 /
 'FI'.'NRG'.'AU_NUC_CAPLifeExt-'
 'FI'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI196'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI196'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI198'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI198'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI199'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI199'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI19A'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI19A'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI19B'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI19B'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1B1'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1B1'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1C1'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1C1'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1C2'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1C2'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1C5'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1C5'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1C6'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1C6'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1C7'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1C7'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1D5'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1D5'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1D7'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1D7'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1D8'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1D8'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1D9'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1D9'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1DA'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1DA'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1DB'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1DB'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI1DC'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI1DC'.'NRG'.'AU_NUC_CAPLifeExt_'
+'FI200'.'NRG'.'AU_NUC_CAPLifeExt-'
+'FI200'.'NRG'.'AU_NUC_CAPLifeExt_'
 /;
 
 SET COM_UNIT
@@ -23,13 +61,55 @@ SET COM_UNIT
 /
 'FI'.'AU_NUC_CAPLifeExt-'.'UCU'
 'FI'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI196'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI196'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI198'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI198'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI199'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI199'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI19A'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI19A'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI19B'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI19B'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1B1'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1B1'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1C1'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1C1'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1C2'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1C2'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1C5'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1C5'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1C6'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1C6'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1C7'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1C7'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1D5'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1D5'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1D7'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1D7'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1D8'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1D8'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1D9'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1D9'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1DA'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1DA'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1DB'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1DB'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI1DC'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI1DC'.'AU_NUC_CAPLifeExt_'.'UCU'
+'FI200'.'AU_NUC_CAPLifeExt-'.'UCU'
+'FI200'.'AU_NUC_CAPLifeExt_'.'UCU'
 /;
 
 SET TOP_IRE
 
 /
 'IMPEXP'.'AU_NUC_CAPLifeExt-'.'FI'.'AU_NUC_CAPLifeExt-'.'IMPNRGZ'
+'IMPEXP'.'AU_NUC_CAPLifeExt-'.'FI196'.'AU_NUC_CAPLifeExt-'.'IMPNRGZ'
+'IMPEXP'.'AU_NUC_CAPLifeExt-'.'FI1B1'.'AU_NUC_CAPLifeExt-'.'IMPNRGZ'
 'IMPEXP'.'AU_NUC_CAPLifeExt_'.'FI'.'AU_NUC_CAPLifeExt_'.'IMPNRGZ'
+'IMPEXP'.'AU_NUC_CAPLifeExt_'.'FI196'.'AU_NUC_CAPLifeExt_'.'IMPNRGZ'
+'IMPEXP'.'AU_NUC_CAPLifeExt_'.'FI1B1'.'AU_NUC_CAPLifeExt_'.'IMPNRGZ'
 /;
 
 SET COM_DESC
@@ -37,12 +117,52 @@ SET COM_DESC
 /
 'FI'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
 'FI'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI196'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI196'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI198'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI198'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI199'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI199'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI19A'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI19A'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI19B'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI19B'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1B1'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1B1'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C1'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C1'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C2'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C2'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C5'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C5'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C6'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C6'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C7'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1C7'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D5'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D5'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D7'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D7'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D8'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D8'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D9'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1D9'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1DA'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1DA'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1DB'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1DB'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1DC'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI1DC'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
+'FI200'.'AU_NUC_CAPLifeExt-' 'Negative dummy var for UC: AU_NUC_CAPLifeExt'
+'FI200'.'AU_NUC_CAPLifeExt_' 'Positive dummy var for UC: AU_NUC_CAPLifeExt'
 /;
 
-SET UC_R_EACH
+SET UC_R_SUM
 
 /
 'FI'.'AU_NUC_CAPLifeExt'
+'FI196'.'AU_NUC_CAPLifeExt'
+'FI1B1'.'AU_NUC_CAPLifeExt'
 /;
 
 PARAMETER
@@ -108,16 +228,18 @@ NCAP_START ' '/
 'FI'.'S_CCUS_P2GU_LowAF' 2028
 'FI'.'SBIOH2GC01' 2033
 'FI'.'SBIOH2GCC01' 2033
+'FI'.'TB_INDSCO2N_FI_FI1D9' 2028
+'FI1D9'.'TB_INDSCO2N_FI_FI1D9' 2028
 /;
 
 PARAMETER
 
 UC_CAP ' '/
-'AU_NUC_CAPLifeExt'.LHS.'FI'.2019.'ENFI_LOVIISA-1_00' 1
-'AU_NUC_CAPLifeExt'.LHS.'FI'.2019.'ENFI_LOVIISA-2_00' 1
-'AU_NUC_CAPLifeExt'.LHS.'FI'.2019.'ENFI_OLKILUOTO-1_00' 1
-'AU_NUC_CAPLifeExt'.LHS.'FI'.2019.'ENFI_OLKILUOTO-2_00' 1
 'AU_NUC_CAPLifeExt'.LHS.'FI'.2019.'EUNUCLifeExt' 1
+'AU_NUC_CAPLifeExt'.LHS.'FI196'.2019.'ENFI_OLKILUOTO-1_00' 1
+'AU_NUC_CAPLifeExt'.LHS.'FI196'.2019.'ENFI_OLKILUOTO-2_00' 1
+'AU_NUC_CAPLifeExt'.LHS.'FI1B1'.2019.'ENFI_LOVIISA-1_00' 1
+'AU_NUC_CAPLifeExt'.LHS.'FI1B1'.2019.'ENFI_LOVIISA-2_00' 1
 /;
 
 PARAMETER
@@ -125,17 +247,21 @@ PARAMETER
 UC_IRE ' '/
 'AU_NUC_CAPLifeExt'.LHS.'FI'.2010.'IMPNRGZ'.'AU_NUC_CAPLifeExt-'.ANNUAL.IMP -1
 'AU_NUC_CAPLifeExt'.LHS.'FI'.2010.'IMPNRGZ'.'AU_NUC_CAPLifeExt_'.ANNUAL.IMP 1
+'AU_NUC_CAPLifeExt'.LHS.'FI196'.2010.'IMPNRGZ'.'AU_NUC_CAPLifeExt-'.ANNUAL.IMP -1
+'AU_NUC_CAPLifeExt'.LHS.'FI196'.2010.'IMPNRGZ'.'AU_NUC_CAPLifeExt_'.ANNUAL.IMP 1
+'AU_NUC_CAPLifeExt'.LHS.'FI1B1'.2010.'IMPNRGZ'.'AU_NUC_CAPLifeExt-'.ANNUAL.IMP -1
+'AU_NUC_CAPLifeExt'.LHS.'FI1B1'.2010.'IMPNRGZ'.'AU_NUC_CAPLifeExt_'.ANNUAL.IMP 1
 /;
 
 PARAMETER
 
-UC_RHSRT ' '/
-'FI'.'AU_NUC_CAPLifeExt'.0.UP 5
-'FI'.'AU_NUC_CAPLifeExt'.2019.UP 2.902
-'FI'.'AU_NUC_CAPLifeExt'.2022.UP 2.902
-'FI'.'AU_NUC_CAPLifeExt'.2023.UP 3.022
-'FI'.'AU_NUC_CAPLifeExt'.2050.UP 3.022
-'FI'.'AU_NUC_CAPLifeExt'.2060.UP 3.022
+UC_RHST ' '/
+'AU_NUC_CAPLifeExt'.0.UP 5
+'AU_NUC_CAPLifeExt'.2019.UP 2.902
+'AU_NUC_CAPLifeExt'.2022.UP 2.902
+'AU_NUC_CAPLifeExt'.2023.UP 3.022
+'AU_NUC_CAPLifeExt'.2050.UP 3.022
+'AU_NUC_CAPLifeExt'.2060.UP 3.022
 /;
 
 

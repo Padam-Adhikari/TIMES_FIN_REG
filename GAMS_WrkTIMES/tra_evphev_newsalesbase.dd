@@ -26,6 +26,234 @@ SET COM_TMAP
 'FI'.'NRG'.'UC_Trucks_EV_InSales_'
 'FI'.'NRG'.'UC_Trucks_EV_pre2028-'
 'FI'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI196'.'NRG'.'UC_BUS_EV_InSales-'
+'FI196'.'NRG'.'UC_BUS_EV_InSales_'
+'FI196'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI196'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI196'.'NRG'.'UC_EVPHEV_InSales-'
+'FI196'.'NRG'.'UC_EVPHEV_InSales_'
+'FI196'.'NRG'.'UC_transport_H2_pre2028-'
+'FI196'.'NRG'.'UC_transport_H2_pre2028_'
+'FI196'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI196'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI196'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI196'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI198'.'NRG'.'UC_BUS_EV_InSales-'
+'FI198'.'NRG'.'UC_BUS_EV_InSales_'
+'FI198'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI198'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI198'.'NRG'.'UC_EVPHEV_InSales-'
+'FI198'.'NRG'.'UC_EVPHEV_InSales_'
+'FI198'.'NRG'.'UC_transport_H2_pre2028-'
+'FI198'.'NRG'.'UC_transport_H2_pre2028_'
+'FI198'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI198'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI198'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI198'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI199'.'NRG'.'UC_BUS_EV_InSales-'
+'FI199'.'NRG'.'UC_BUS_EV_InSales_'
+'FI199'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI199'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI199'.'NRG'.'UC_EVPHEV_InSales-'
+'FI199'.'NRG'.'UC_EVPHEV_InSales_'
+'FI199'.'NRG'.'UC_transport_H2_pre2028-'
+'FI199'.'NRG'.'UC_transport_H2_pre2028_'
+'FI199'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI199'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI199'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI199'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI19A'.'NRG'.'UC_BUS_EV_InSales-'
+'FI19A'.'NRG'.'UC_BUS_EV_InSales_'
+'FI19A'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI19A'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI19A'.'NRG'.'UC_EVPHEV_InSales-'
+'FI19A'.'NRG'.'UC_EVPHEV_InSales_'
+'FI19A'.'NRG'.'UC_transport_H2_pre2028-'
+'FI19A'.'NRG'.'UC_transport_H2_pre2028_'
+'FI19A'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI19A'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI19A'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI19A'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI19B'.'NRG'.'UC_BUS_EV_InSales-'
+'FI19B'.'NRG'.'UC_BUS_EV_InSales_'
+'FI19B'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI19B'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI19B'.'NRG'.'UC_EVPHEV_InSales-'
+'FI19B'.'NRG'.'UC_EVPHEV_InSales_'
+'FI19B'.'NRG'.'UC_transport_H2_pre2028-'
+'FI19B'.'NRG'.'UC_transport_H2_pre2028_'
+'FI19B'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI19B'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI19B'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI19B'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1B1'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1B1'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1B1'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1B1'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1B1'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1B1'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1B1'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1B1'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1B1'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1B1'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1B1'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1B1'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1C1'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1C1'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1C1'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1C1'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1C1'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1C1'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1C1'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1C1'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1C1'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1C1'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1C1'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1C1'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1C2'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1C2'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1C2'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1C2'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1C2'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1C2'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1C2'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1C2'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1C2'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1C2'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1C2'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1C2'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1C5'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1C5'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1C5'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1C5'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1C5'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1C5'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1C5'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1C5'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1C5'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1C5'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1C5'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1C5'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1C6'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1C6'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1C6'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1C6'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1C6'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1C6'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1C6'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1C6'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1C6'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1C6'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1C6'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1C6'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1C7'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1C7'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1C7'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1C7'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1C7'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1C7'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1C7'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1C7'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1C7'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1C7'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1C7'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1C7'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1D5'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1D5'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1D5'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1D5'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1D5'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1D5'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1D5'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1D5'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1D5'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1D5'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1D5'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1D5'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1D7'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1D7'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1D7'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1D7'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1D7'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1D7'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1D7'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1D7'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1D7'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1D7'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1D7'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1D7'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1D8'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1D8'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1D8'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1D8'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1D8'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1D8'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1D8'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1D8'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1D8'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1D8'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1D8'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1D8'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1D9'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1D9'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1D9'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1D9'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1D9'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1D9'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1D9'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1D9'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1D9'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1D9'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1D9'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1D9'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1DA'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1DA'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1DA'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1DA'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1DA'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1DA'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1DA'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1DA'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1DA'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1DA'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1DA'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1DA'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1DB'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1DB'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1DB'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1DB'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1DB'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1DB'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1DB'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1DB'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1DB'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1DB'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1DB'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1DB'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI1DC'.'NRG'.'UC_BUS_EV_InSales-'
+'FI1DC'.'NRG'.'UC_BUS_EV_InSales_'
+'FI1DC'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI1DC'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI1DC'.'NRG'.'UC_EVPHEV_InSales-'
+'FI1DC'.'NRG'.'UC_EVPHEV_InSales_'
+'FI1DC'.'NRG'.'UC_transport_H2_pre2028-'
+'FI1DC'.'NRG'.'UC_transport_H2_pre2028_'
+'FI1DC'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI1DC'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI1DC'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI1DC'.'NRG'.'UC_Trucks_EV_pre2028_'
+'FI200'.'NRG'.'UC_BUS_EV_InSales-'
+'FI200'.'NRG'.'UC_BUS_EV_InSales_'
+'FI200'.'NRG'.'UC_cars_EVPHEV_pre2028-'
+'FI200'.'NRG'.'UC_cars_EVPHEV_pre2028_'
+'FI200'.'NRG'.'UC_EVPHEV_InSales-'
+'FI200'.'NRG'.'UC_EVPHEV_InSales_'
+'FI200'.'NRG'.'UC_transport_H2_pre2028-'
+'FI200'.'NRG'.'UC_transport_H2_pre2028_'
+'FI200'.'NRG'.'UC_Trucks_EV_InSales-'
+'FI200'.'NRG'.'UC_Trucks_EV_InSales_'
+'FI200'.'NRG'.'UC_Trucks_EV_pre2028-'
+'FI200'.'NRG'.'UC_Trucks_EV_pre2028_'
 /;
 
 SET COM_UNIT
@@ -43,23 +271,479 @@ SET COM_UNIT
 'FI'.'UC_Trucks_EV_InSales_'.'UCU'
 'FI'.'UC_Trucks_EV_pre2028-'.'UCU'
 'FI'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI196'.'UC_BUS_EV_InSales-'.'UCU'
+'FI196'.'UC_BUS_EV_InSales_'.'UCU'
+'FI196'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI196'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI196'.'UC_EVPHEV_InSales-'.'UCU'
+'FI196'.'UC_EVPHEV_InSales_'.'UCU'
+'FI196'.'UC_transport_H2_pre2028-'.'UCU'
+'FI196'.'UC_transport_H2_pre2028_'.'UCU'
+'FI196'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI196'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI196'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI196'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI198'.'UC_BUS_EV_InSales-'.'UCU'
+'FI198'.'UC_BUS_EV_InSales_'.'UCU'
+'FI198'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI198'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI198'.'UC_EVPHEV_InSales-'.'UCU'
+'FI198'.'UC_EVPHEV_InSales_'.'UCU'
+'FI198'.'UC_transport_H2_pre2028-'.'UCU'
+'FI198'.'UC_transport_H2_pre2028_'.'UCU'
+'FI198'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI198'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI198'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI198'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI199'.'UC_BUS_EV_InSales-'.'UCU'
+'FI199'.'UC_BUS_EV_InSales_'.'UCU'
+'FI199'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI199'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI199'.'UC_EVPHEV_InSales-'.'UCU'
+'FI199'.'UC_EVPHEV_InSales_'.'UCU'
+'FI199'.'UC_transport_H2_pre2028-'.'UCU'
+'FI199'.'UC_transport_H2_pre2028_'.'UCU'
+'FI199'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI199'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI199'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI199'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI19A'.'UC_BUS_EV_InSales-'.'UCU'
+'FI19A'.'UC_BUS_EV_InSales_'.'UCU'
+'FI19A'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI19A'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI19A'.'UC_EVPHEV_InSales-'.'UCU'
+'FI19A'.'UC_EVPHEV_InSales_'.'UCU'
+'FI19A'.'UC_transport_H2_pre2028-'.'UCU'
+'FI19A'.'UC_transport_H2_pre2028_'.'UCU'
+'FI19A'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI19A'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI19A'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI19A'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI19B'.'UC_BUS_EV_InSales-'.'UCU'
+'FI19B'.'UC_BUS_EV_InSales_'.'UCU'
+'FI19B'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI19B'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI19B'.'UC_EVPHEV_InSales-'.'UCU'
+'FI19B'.'UC_EVPHEV_InSales_'.'UCU'
+'FI19B'.'UC_transport_H2_pre2028-'.'UCU'
+'FI19B'.'UC_transport_H2_pre2028_'.'UCU'
+'FI19B'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI19B'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI19B'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI19B'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1B1'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1B1'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1B1'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1B1'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1B1'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1B1'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1B1'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1B1'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1B1'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1B1'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1B1'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1B1'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1C1'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1C1'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1C1'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1C1'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1C1'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1C1'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1C1'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1C1'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1C1'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1C1'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1C1'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1C1'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1C2'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1C2'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1C2'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1C2'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1C2'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1C2'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1C2'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1C2'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1C2'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1C2'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1C2'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1C2'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1C5'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1C5'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1C5'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1C5'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1C5'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1C5'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1C5'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1C5'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1C5'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1C5'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1C5'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1C5'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1C6'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1C6'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1C6'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1C6'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1C6'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1C6'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1C6'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1C6'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1C6'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1C6'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1C6'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1C6'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1C7'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1C7'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1C7'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1C7'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1C7'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1C7'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1C7'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1C7'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1C7'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1C7'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1C7'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1C7'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1D5'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1D5'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1D5'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1D5'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1D5'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1D5'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1D5'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1D5'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1D5'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1D5'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1D5'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1D5'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1D7'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1D7'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1D7'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1D7'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1D7'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1D7'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1D7'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1D7'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1D7'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1D7'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1D7'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1D7'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1D8'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1D8'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1D8'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1D8'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1D8'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1D8'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1D8'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1D8'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1D8'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1D8'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1D8'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1D8'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1D9'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1D9'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1D9'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1D9'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1D9'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1D9'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1D9'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1D9'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1D9'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1D9'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1D9'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1D9'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1DA'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1DA'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1DA'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1DA'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1DA'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1DA'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1DA'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1DA'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1DA'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1DA'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1DA'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1DA'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1DB'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1DB'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1DB'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1DB'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1DB'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1DB'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1DB'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1DB'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1DB'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1DB'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1DB'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1DB'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI1DC'.'UC_BUS_EV_InSales-'.'UCU'
+'FI1DC'.'UC_BUS_EV_InSales_'.'UCU'
+'FI1DC'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI1DC'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI1DC'.'UC_EVPHEV_InSales-'.'UCU'
+'FI1DC'.'UC_EVPHEV_InSales_'.'UCU'
+'FI1DC'.'UC_transport_H2_pre2028-'.'UCU'
+'FI1DC'.'UC_transport_H2_pre2028_'.'UCU'
+'FI1DC'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI1DC'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI1DC'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI1DC'.'UC_Trucks_EV_pre2028_'.'UCU'
+'FI200'.'UC_BUS_EV_InSales-'.'UCU'
+'FI200'.'UC_BUS_EV_InSales_'.'UCU'
+'FI200'.'UC_cars_EVPHEV_pre2028-'.'UCU'
+'FI200'.'UC_cars_EVPHEV_pre2028_'.'UCU'
+'FI200'.'UC_EVPHEV_InSales-'.'UCU'
+'FI200'.'UC_EVPHEV_InSales_'.'UCU'
+'FI200'.'UC_transport_H2_pre2028-'.'UCU'
+'FI200'.'UC_transport_H2_pre2028_'.'UCU'
+'FI200'.'UC_Trucks_EV_InSales-'.'UCU'
+'FI200'.'UC_Trucks_EV_InSales_'.'UCU'
+'FI200'.'UC_Trucks_EV_pre2028-'.'UCU'
+'FI200'.'UC_Trucks_EV_pre2028_'.'UCU'
 /;
 
 SET TOP_IRE
 
 /
 'IMPEXP'.'UC_BUS_EV_InSales-'.'FI'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI196'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI198'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI199'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI19A'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI19B'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1B1'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1C1'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1C2'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1C5'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1C6'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1C7'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1D5'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1D7'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1D8'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1D9'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1DA'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1DB'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI1DC'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales-'.'FI200'.'UC_BUS_EV_InSales-'.'IMPNRGZ'
 'IMPEXP'.'UC_BUS_EV_InSales_'.'FI'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI196'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI198'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI199'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI19A'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI19B'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1B1'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1C1'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1C2'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1C5'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1C6'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1C7'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1D5'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1D7'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1D8'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1D9'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1DA'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1DB'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI1DC'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_BUS_EV_InSales_'.'FI200'.'UC_BUS_EV_InSales_'.'IMPNRGZ'
 'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI196'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI198'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI199'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI19A'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI19B'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1B1'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1C1'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1C2'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1C5'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1C6'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1C7'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1D5'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1D7'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1D8'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1D9'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1DA'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1DB'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI1DC'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028-'.'FI200'.'UC_cars_EVPHEV_pre2028-'.'IMPNRGZ'
 'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI196'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI198'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI199'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI19A'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI19B'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1B1'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1C1'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1C2'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1C5'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1C6'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1C7'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1D5'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1D7'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1D8'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1D9'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1DA'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1DB'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI1DC'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_cars_EVPHEV_pre2028_'.'FI200'.'UC_cars_EVPHEV_pre2028_'.'IMPNRGZ'
 'IMPEXP'.'UC_EVPHEV_InSales-'.'FI'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI196'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI198'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI199'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI19A'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI19B'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1B1'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1C1'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1C2'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1C5'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1C6'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1C7'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1D5'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1D7'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1D8'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1D9'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1DA'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1DB'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI1DC'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales-'.'FI200'.'UC_EVPHEV_InSales-'.'IMPNRGZ'
 'IMPEXP'.'UC_EVPHEV_InSales_'.'FI'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI196'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI198'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI199'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI19A'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI19B'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1B1'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1C1'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1C2'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1C5'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1C6'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1C7'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1D5'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1D7'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1D8'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1D9'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1DA'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1DB'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI1DC'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_EVPHEV_InSales_'.'FI200'.'UC_EVPHEV_InSales_'.'IMPNRGZ'
 'IMPEXP'.'UC_transport_H2_pre2028-'.'FI'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI196'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI198'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI199'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI19A'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI19B'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1B1'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1C1'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1C2'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1C5'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1C6'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1C7'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1D5'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1D7'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1D8'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1D9'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1DA'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1DB'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI1DC'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028-'.'FI200'.'UC_transport_H2_pre2028-'.'IMPNRGZ'
 'IMPEXP'.'UC_transport_H2_pre2028_'.'FI'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI196'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI198'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI199'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI19A'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI19B'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1B1'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1C1'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1C2'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1C5'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1C6'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1C7'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1D5'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1D7'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1D8'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1D9'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1DA'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1DB'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI1DC'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_transport_H2_pre2028_'.'FI200'.'UC_transport_H2_pre2028_'.'IMPNRGZ'
 'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI196'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI198'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI199'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI19A'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI19B'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1B1'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1C1'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1C2'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1C5'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1C6'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1C7'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1D5'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1D7'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1D8'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1D9'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1DA'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1DB'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI1DC'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales-'.'FI200'.'UC_Trucks_EV_InSales-'.'IMPNRGZ'
 'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI196'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI198'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI199'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI19A'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI19B'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1B1'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1C1'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1C2'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1C5'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1C6'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1C7'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1D5'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1D7'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1D8'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1D9'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1DA'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1DB'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI1DC'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_InSales_'.'FI200'.'UC_Trucks_EV_InSales_'.'IMPNRGZ'
 'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI196'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI198'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI199'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI19A'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI19B'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1B1'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1C1'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1C2'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1C5'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1C6'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1C7'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1D5'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1D7'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1D8'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1D9'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1DA'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1DB'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI1DC'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028-'.'FI200'.'UC_Trucks_EV_pre2028-'.'IMPNRGZ'
 'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI196'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI198'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI199'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI19A'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI19B'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1B1'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1C1'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1C2'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1C5'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1C6'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1C7'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1D5'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1D7'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1D8'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1D9'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1DA'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1DB'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI1DC'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
+'IMPEXP'.'UC_Trucks_EV_pre2028_'.'FI200'.'UC_Trucks_EV_pre2028_'.'IMPNRGZ'
 /;
 
 SET COM_DESC
@@ -77,6 +761,234 @@ SET COM_DESC
 'FI'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
 'FI'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
 'FI'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI196'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI196'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI196'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI196'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI196'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI196'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI196'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI196'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI196'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI196'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI196'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI196'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI198'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI198'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI198'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI198'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI198'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI198'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI198'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI198'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI198'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI198'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI198'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI198'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI199'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI199'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI199'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI199'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI199'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI199'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI199'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI199'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI199'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI199'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI199'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI199'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI19A'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI19A'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI19A'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI19A'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI19A'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI19A'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI19A'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI19A'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI19A'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI19A'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI19A'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI19A'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI19B'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI19B'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI19B'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI19B'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI19B'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI19B'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI19B'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI19B'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI19B'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI19B'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI19B'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI19B'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1B1'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1B1'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1B1'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1B1'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1B1'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1B1'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1B1'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1B1'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1B1'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1B1'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1B1'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1B1'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C1'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1C1'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1C1'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C1'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C1'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1C1'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1C1'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1C1'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1C1'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C1'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C1'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C1'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C2'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1C2'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1C2'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C2'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C2'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1C2'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1C2'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1C2'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1C2'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C2'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C2'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C2'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C5'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1C5'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1C5'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C5'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C5'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1C5'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1C5'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1C5'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1C5'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C5'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C5'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C5'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C6'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1C6'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1C6'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C6'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C6'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1C6'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1C6'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1C6'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1C6'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C6'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C6'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C6'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C7'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1C7'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1C7'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C7'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1C7'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1C7'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1C7'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1C7'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1C7'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C7'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1C7'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1C7'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D5'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1D5'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1D5'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D5'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D5'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1D5'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1D5'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1D5'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1D5'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D5'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D5'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D5'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D7'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1D7'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1D7'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D7'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D7'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1D7'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1D7'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1D7'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1D7'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D7'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D7'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D7'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D8'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1D8'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1D8'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D8'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D8'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1D8'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1D8'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1D8'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1D8'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D8'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D8'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D8'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D9'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1D9'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1D9'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D9'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1D9'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1D9'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1D9'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1D9'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1D9'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D9'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1D9'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1D9'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1DA'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1DA'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1DA'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1DA'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1DA'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1DA'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1DA'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1DA'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1DA'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1DA'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1DA'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1DA'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1DB'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1DB'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1DB'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1DB'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1DB'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1DB'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1DB'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1DB'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1DB'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1DB'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1DB'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1DB'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1DC'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI1DC'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI1DC'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1DC'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI1DC'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI1DC'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI1DC'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI1DC'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI1DC'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI1DC'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI1DC'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI1DC'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
+'FI200'.'UC_BUS_EV_InSales-' 'Negative dummy var for UC: UC_BUS_EV_InSales'
+'FI200'.'UC_BUS_EV_InSales_' 'Positive dummy var for UC: UC_BUS_EV_InSales'
+'FI200'.'UC_cars_EVPHEV_pre2028-' 'Negative dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI200'.'UC_cars_EVPHEV_pre2028_' 'Positive dummy var for UC: UC_cars_EVPHEV_pre2028'
+'FI200'.'UC_EVPHEV_InSales-' 'Negative dummy var for UC: UC_EVPHEV_InSales'
+'FI200'.'UC_EVPHEV_InSales_' 'Positive dummy var for UC: UC_EVPHEV_InSales'
+'FI200'.'UC_transport_H2_pre2028-' 'Negative dummy var for UC: UC_transport_H2_pre2028'
+'FI200'.'UC_transport_H2_pre2028_' 'Positive dummy var for UC: UC_transport_H2_pre2028'
+'FI200'.'UC_Trucks_EV_InSales-' 'Negative dummy var for UC: UC_Trucks_EV_InSales'
+'FI200'.'UC_Trucks_EV_InSales_' 'Positive dummy var for UC: UC_Trucks_EV_InSales'
+'FI200'.'UC_Trucks_EV_pre2028-' 'Negative dummy var for UC: UC_Trucks_EV_pre2028'
+'FI200'.'UC_Trucks_EV_pre2028_' 'Positive dummy var for UC: UC_Trucks_EV_pre2028'
 /;
 
 SET UC_R_EACH
@@ -88,6 +1000,120 @@ SET UC_R_EACH
 'FI'.'UC_transport_H2_pre2028'
 'FI'.'UC_Trucks_EV_InSales'
 'FI'.'UC_Trucks_EV_pre2028'
+'FI196'.'UC_BUS_EV_InSales'
+'FI196'.'UC_cars_EVPHEV_pre2028'
+'FI196'.'UC_EVPHEV_InSales'
+'FI196'.'UC_transport_H2_pre2028'
+'FI196'.'UC_Trucks_EV_InSales'
+'FI196'.'UC_Trucks_EV_pre2028'
+'FI198'.'UC_BUS_EV_InSales'
+'FI198'.'UC_cars_EVPHEV_pre2028'
+'FI198'.'UC_EVPHEV_InSales'
+'FI198'.'UC_transport_H2_pre2028'
+'FI198'.'UC_Trucks_EV_InSales'
+'FI198'.'UC_Trucks_EV_pre2028'
+'FI199'.'UC_BUS_EV_InSales'
+'FI199'.'UC_cars_EVPHEV_pre2028'
+'FI199'.'UC_EVPHEV_InSales'
+'FI199'.'UC_transport_H2_pre2028'
+'FI199'.'UC_Trucks_EV_InSales'
+'FI199'.'UC_Trucks_EV_pre2028'
+'FI19A'.'UC_BUS_EV_InSales'
+'FI19A'.'UC_cars_EVPHEV_pre2028'
+'FI19A'.'UC_EVPHEV_InSales'
+'FI19A'.'UC_transport_H2_pre2028'
+'FI19A'.'UC_Trucks_EV_InSales'
+'FI19A'.'UC_Trucks_EV_pre2028'
+'FI19B'.'UC_BUS_EV_InSales'
+'FI19B'.'UC_cars_EVPHEV_pre2028'
+'FI19B'.'UC_EVPHEV_InSales'
+'FI19B'.'UC_transport_H2_pre2028'
+'FI19B'.'UC_Trucks_EV_InSales'
+'FI19B'.'UC_Trucks_EV_pre2028'
+'FI1B1'.'UC_BUS_EV_InSales'
+'FI1B1'.'UC_cars_EVPHEV_pre2028'
+'FI1B1'.'UC_EVPHEV_InSales'
+'FI1B1'.'UC_transport_H2_pre2028'
+'FI1B1'.'UC_Trucks_EV_InSales'
+'FI1B1'.'UC_Trucks_EV_pre2028'
+'FI1C1'.'UC_BUS_EV_InSales'
+'FI1C1'.'UC_cars_EVPHEV_pre2028'
+'FI1C1'.'UC_EVPHEV_InSales'
+'FI1C1'.'UC_transport_H2_pre2028'
+'FI1C1'.'UC_Trucks_EV_InSales'
+'FI1C1'.'UC_Trucks_EV_pre2028'
+'FI1C2'.'UC_BUS_EV_InSales'
+'FI1C2'.'UC_cars_EVPHEV_pre2028'
+'FI1C2'.'UC_EVPHEV_InSales'
+'FI1C2'.'UC_transport_H2_pre2028'
+'FI1C2'.'UC_Trucks_EV_InSales'
+'FI1C2'.'UC_Trucks_EV_pre2028'
+'FI1C5'.'UC_BUS_EV_InSales'
+'FI1C5'.'UC_cars_EVPHEV_pre2028'
+'FI1C5'.'UC_EVPHEV_InSales'
+'FI1C5'.'UC_transport_H2_pre2028'
+'FI1C5'.'UC_Trucks_EV_InSales'
+'FI1C5'.'UC_Trucks_EV_pre2028'
+'FI1C6'.'UC_BUS_EV_InSales'
+'FI1C6'.'UC_cars_EVPHEV_pre2028'
+'FI1C6'.'UC_EVPHEV_InSales'
+'FI1C6'.'UC_transport_H2_pre2028'
+'FI1C6'.'UC_Trucks_EV_InSales'
+'FI1C6'.'UC_Trucks_EV_pre2028'
+'FI1C7'.'UC_BUS_EV_InSales'
+'FI1C7'.'UC_cars_EVPHEV_pre2028'
+'FI1C7'.'UC_EVPHEV_InSales'
+'FI1C7'.'UC_transport_H2_pre2028'
+'FI1C7'.'UC_Trucks_EV_InSales'
+'FI1C7'.'UC_Trucks_EV_pre2028'
+'FI1D5'.'UC_BUS_EV_InSales'
+'FI1D5'.'UC_cars_EVPHEV_pre2028'
+'FI1D5'.'UC_EVPHEV_InSales'
+'FI1D5'.'UC_transport_H2_pre2028'
+'FI1D5'.'UC_Trucks_EV_InSales'
+'FI1D5'.'UC_Trucks_EV_pre2028'
+'FI1D7'.'UC_BUS_EV_InSales'
+'FI1D7'.'UC_cars_EVPHEV_pre2028'
+'FI1D7'.'UC_EVPHEV_InSales'
+'FI1D7'.'UC_transport_H2_pre2028'
+'FI1D7'.'UC_Trucks_EV_InSales'
+'FI1D7'.'UC_Trucks_EV_pre2028'
+'FI1D8'.'UC_BUS_EV_InSales'
+'FI1D8'.'UC_cars_EVPHEV_pre2028'
+'FI1D8'.'UC_EVPHEV_InSales'
+'FI1D8'.'UC_transport_H2_pre2028'
+'FI1D8'.'UC_Trucks_EV_InSales'
+'FI1D8'.'UC_Trucks_EV_pre2028'
+'FI1D9'.'UC_BUS_EV_InSales'
+'FI1D9'.'UC_cars_EVPHEV_pre2028'
+'FI1D9'.'UC_EVPHEV_InSales'
+'FI1D9'.'UC_transport_H2_pre2028'
+'FI1D9'.'UC_Trucks_EV_InSales'
+'FI1D9'.'UC_Trucks_EV_pre2028'
+'FI1DA'.'UC_BUS_EV_InSales'
+'FI1DA'.'UC_cars_EVPHEV_pre2028'
+'FI1DA'.'UC_EVPHEV_InSales'
+'FI1DA'.'UC_transport_H2_pre2028'
+'FI1DA'.'UC_Trucks_EV_InSales'
+'FI1DA'.'UC_Trucks_EV_pre2028'
+'FI1DB'.'UC_BUS_EV_InSales'
+'FI1DB'.'UC_cars_EVPHEV_pre2028'
+'FI1DB'.'UC_EVPHEV_InSales'
+'FI1DB'.'UC_transport_H2_pre2028'
+'FI1DB'.'UC_Trucks_EV_InSales'
+'FI1DB'.'UC_Trucks_EV_pre2028'
+'FI1DC'.'UC_BUS_EV_InSales'
+'FI1DC'.'UC_cars_EVPHEV_pre2028'
+'FI1DC'.'UC_EVPHEV_InSales'
+'FI1DC'.'UC_transport_H2_pre2028'
+'FI1DC'.'UC_Trucks_EV_InSales'
+'FI1DC'.'UC_Trucks_EV_pre2028'
+'FI200'.'UC_BUS_EV_InSales'
+'FI200'.'UC_cars_EVPHEV_pre2028'
+'FI200'.'UC_EVPHEV_InSales'
+'FI200'.'UC_transport_H2_pre2028'
+'FI200'.'UC_Trucks_EV_InSales'
+'FI200'.'UC_Trucks_EV_pre2028'
 /;
 
 PARAMETER
@@ -95,16 +1121,244 @@ PARAMETER
 UC_IRE ' '/
 'UC_BUS_EV_InSales'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
 'UC_BUS_EV_InSales'.LHS.'FI'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
+'UC_BUS_EV_InSales'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales-'.ANNUAL.IMP -1
+'UC_BUS_EV_InSales'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_BUS_EV_InSales_'.ANNUAL.IMP 1
 'UC_cars_EVPHEV_pre2028'.LHS.'FI'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
 'UC_cars_EVPHEV_pre2028'.LHS.'FI'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028-'.ANNUAL.IMP -1
+'UC_cars_EVPHEV_pre2028'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_cars_EVPHEV_pre2028_'.ANNUAL.IMP 1
 'UC_EVPHEV_InSales'.LHS.'FI'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
 'UC_EVPHEV_InSales'.LHS.'FI'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
+'UC_EVPHEV_InSales'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales-'.ANNUAL.IMP -1
+'UC_EVPHEV_InSales'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_EVPHEV_InSales_'.ANNUAL.IMP 1
 'UC_transport_H2_pre2028'.LHS.'FI'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
 'UC_transport_H2_pre2028'.LHS.'FI'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
+'UC_transport_H2_pre2028'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028-'.ANNUAL.IMP -1
+'UC_transport_H2_pre2028'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_transport_H2_pre2028_'.ANNUAL.IMP 1
 'UC_Trucks_EV_InSales'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
 'UC_Trucks_EV_InSales'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
+'UC_Trucks_EV_InSales'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales-'.ANNUAL.IMP -1
+'UC_Trucks_EV_InSales'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_Trucks_EV_InSales_'.ANNUAL.IMP 1
 'UC_Trucks_EV_pre2028'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
 'UC_Trucks_EV_pre2028'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C2'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C5'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D8'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
+'UC_Trucks_EV_pre2028'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028-'.ANNUAL.IMP -1
+'UC_Trucks_EV_pre2028'.LHS.'FI200'.2010.'IMPNRGZ'.'UC_Trucks_EV_pre2028_'.ANNUAL.IMP 1
 /;
 
 PARAMETER
@@ -1272,6 +2526,291 @@ UC_RHSRT ' '/
 'FI'.'UC_Trucks_EV_pre2028'.0.FX 1
 'FI'.'UC_Trucks_EV_pre2028'.2010.FX 0
 'FI'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI196'.'UC_BUS_EV_InSales'.0.UP 5
+'FI196'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI196'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI196'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI196'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI196'.'UC_EVPHEV_InSales'.0.UP 5
+'FI196'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI196'.'UC_transport_H2_pre2028'.0.FX 1
+'FI196'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI196'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI196'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI196'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI196'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI196'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI196'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI198'.'UC_BUS_EV_InSales'.0.UP 5
+'FI198'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI198'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI198'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI198'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI198'.'UC_EVPHEV_InSales'.0.UP 5
+'FI198'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI198'.'UC_transport_H2_pre2028'.0.FX 1
+'FI198'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI198'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI198'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI198'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI198'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI198'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI198'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI199'.'UC_BUS_EV_InSales'.0.UP 5
+'FI199'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI199'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI199'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI199'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI199'.'UC_EVPHEV_InSales'.0.UP 5
+'FI199'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI199'.'UC_transport_H2_pre2028'.0.FX 1
+'FI199'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI199'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI199'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI199'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI199'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI199'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI199'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI19A'.'UC_BUS_EV_InSales'.0.UP 5
+'FI19A'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI19A'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI19A'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI19A'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI19A'.'UC_EVPHEV_InSales'.0.UP 5
+'FI19A'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI19A'.'UC_transport_H2_pre2028'.0.FX 1
+'FI19A'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI19A'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI19A'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI19A'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI19A'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI19A'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI19A'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI19B'.'UC_BUS_EV_InSales'.0.UP 5
+'FI19B'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI19B'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI19B'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI19B'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI19B'.'UC_EVPHEV_InSales'.0.UP 5
+'FI19B'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI19B'.'UC_transport_H2_pre2028'.0.FX 1
+'FI19B'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI19B'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI19B'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI19B'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI19B'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI19B'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI19B'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1B1'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1B1'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1B1'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1B1'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1B1'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1B1'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1B1'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1B1'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1B1'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1B1'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1B1'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1B1'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1B1'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1B1'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1B1'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1C1'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1C1'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1C1'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1C1'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1C1'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1C1'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1C1'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1C1'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1C1'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1C1'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1C1'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1C1'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1C1'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1C1'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1C1'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1C2'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1C2'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1C2'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1C2'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1C2'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1C2'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1C2'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1C2'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1C2'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1C2'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1C2'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1C2'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1C2'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1C2'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1C2'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1C5'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1C5'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1C5'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1C5'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1C5'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1C5'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1C5'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1C5'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1C5'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1C5'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1C5'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1C5'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1C5'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1C5'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1C5'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1C6'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1C6'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1C6'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1C6'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1C6'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1C6'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1C6'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1C6'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1C6'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1C6'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1C6'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1C6'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1C6'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1C6'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1C6'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1C7'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1C7'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1C7'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1C7'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1C7'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1C7'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1C7'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1C7'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1C7'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1C7'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1C7'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1C7'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1C7'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1C7'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1C7'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1D5'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1D5'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1D5'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1D5'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1D5'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1D5'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1D5'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1D5'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1D5'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1D5'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1D5'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1D5'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1D5'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1D5'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1D5'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1D7'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1D7'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1D7'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1D7'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1D7'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1D7'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1D7'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1D7'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1D7'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1D7'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1D7'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1D7'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1D7'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1D7'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1D7'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1D8'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1D8'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1D8'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1D8'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1D8'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1D8'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1D8'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1D8'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1D8'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1D8'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1D8'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1D8'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1D8'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1D8'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1D8'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1D9'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1D9'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1D9'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1D9'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1D9'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1D9'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1D9'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1D9'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1D9'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1D9'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1D9'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1D9'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1D9'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1D9'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1D9'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1DA'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1DA'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1DA'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1DA'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1DA'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1DA'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1DA'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1DA'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1DA'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1DA'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1DA'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1DA'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1DA'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1DA'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1DA'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1DB'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1DB'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1DB'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1DB'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1DB'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1DB'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1DB'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1DB'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1DB'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1DB'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1DB'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1DB'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1DB'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1DB'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1DB'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI1DC'.'UC_BUS_EV_InSales'.0.UP 5
+'FI1DC'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI1DC'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI1DC'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI1DC'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI1DC'.'UC_EVPHEV_InSales'.0.UP 5
+'FI1DC'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI1DC'.'UC_transport_H2_pre2028'.0.FX 1
+'FI1DC'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI1DC'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI1DC'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI1DC'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI1DC'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI1DC'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI1DC'.'UC_Trucks_EV_pre2028'.2027.FX 0
+'FI200'.'UC_BUS_EV_InSales'.0.UP 5
+'FI200'.'UC_BUS_EV_InSales'.2025.UP 0
+'FI200'.'UC_cars_EVPHEV_pre2028'.0.FX 1
+'FI200'.'UC_cars_EVPHEV_pre2028'.2010.FX 0
+'FI200'.'UC_cars_EVPHEV_pre2028'.2027.FX 0
+'FI200'.'UC_EVPHEV_InSales'.0.UP 5
+'FI200'.'UC_EVPHEV_InSales'.2028.UP 0
+'FI200'.'UC_transport_H2_pre2028'.0.FX 1
+'FI200'.'UC_transport_H2_pre2028'.2010.FX 0
+'FI200'.'UC_transport_H2_pre2028'.2027.FX 0
+'FI200'.'UC_Trucks_EV_InSales'.0.UP 5
+'FI200'.'UC_Trucks_EV_InSales'.2028.UP 0
+'FI200'.'UC_Trucks_EV_pre2028'.0.FX 1
+'FI200'.'UC_Trucks_EV_pre2028'.2010.FX 0
+'FI200'.'UC_Trucks_EV_pre2028'.2027.FX 0
 /;
 
 
