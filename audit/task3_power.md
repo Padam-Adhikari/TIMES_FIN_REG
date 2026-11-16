@@ -131,6 +131,30 @@ no dummy imports, COM_PROJ and NCAP_PASTI conserved. Without those UC terms the 
 UC_VARI_MINDISP for regional plants and `UC_R_SUM` with all regions in the next DD files. `check_run.py` now ignores year 0 of NCAP_PASTI
 (interpolation code, was counted once per region).
 
+## 7. Second server run (2026-11-16, baseline-sami, FI + 19): optimal, +0.68 % -> fixed
+
+Same scenarios as the single-region run; feasible, no dummy imports, COM_PROJ / NCAP_PASTI conserved,
+but 1,540,391.6 vs 1,529,919.9 M EUR (+10,472, +0.68 %). Found by diffing VEDA's DD files with the
+validated emulation and testing each candidate on the server's own DD files (`tools/audit_run.py`,
+`tools/regional_scan.py`; reports `audit/run_baseline-sami.md`, `audit/run_t3ie_local.md`,
+`audit/regional_scan_baseline-sami.md`):
+
+| Finding | Effect | Fix (`tools/task3_vedafix.py`) | Local test on server DDs |
+|---|---|---|---|
+| Grid losses COM_IE on ELCHIG (~3.2 %) and HETHTH (~7.9 %) in an AllRegions column; with the commodities now in the regions, regional power/heat lost twice (region + hub) | main cost driver | `--step lossemis`: Scen_ZUseTrnEff_From_Eurostat Sheet3 D17:D22, D42 empty in Reg mode (losses once, on the hub) | together with the next row: **1,529,551.0** (-0.024 % vs single = same gap as the empty-region skeleton) |
+| ETS / non-ETS emission factors by fuel input (Scen_ZUESR) also hit the internal links (fuel exported from the hub): CO2 counted on the link and at the plant; steel-pilot links produced NETSCO2 | tighter CO2 targets | `--step lossemis`: Pset_PN of rows 5-18, 49-65, 67-72 get `-TB_*` (Reg mode) | (as above) |
+| ELCHIG / HETHTH PeakTS in every region -> 36 regional peak equations | none measurable (1,540,391.86 without them) | `--step peak`: hub row FI with PeakTS, Reg-only rows V78:AD79 without | 1,540,391.9 |
+
+Also checked and found consistent: CO2 is counted in the region where emitted (regional COM_BNDNET
+makes the net free, so nothing crosses the ENV links) and every national CO2 target
+(CO2TargetAllSectors2030FI, CO2TargetESR2030, cementCO2, U_MAXTotalCUMCO2*) has terms in all 20 regions;
+GreenCert-* are accounting only. Surplus penalties COM_TAXNET (HETHTH, IIS/MIS commodities) apply in
+every region: equivalent to the single model because surpluses can be sent to the hub. Moved plants'
+activity matches the single run (nuclear, fossil, biomass within 0.3 %; existing PV -6.5 %, hydro -0.5 %:
+zero-cost curtailment choices, the barrier-only (solutiontype 2) solution spreads them differently).
+The single-region reference is baseline-new (2026-11-11); a fresh single-region run is needed for the
+final regression check.
+
 ## 5. Server run
 
 1. Pull branch `reg/full`. Open `select_model.xlsm` and switch to Reg-FINTIMES, then

@@ -597,8 +597,8 @@ def apply(plan, log=print):
                     rng = wb.sheets[sheet].range(cell)
                     if isinstance(new, str) and new.startswith("="):
                         done = (rng.formula or "").replace("_xlfn.", "") == new.replace("_xlfn.", "")
-                    else:
-                        done = rng.value == new
+                    else:                       # a constant replacing a formula is not done yet
+                        done = rng.value == new and not str(rng.formula or "").startswith("=")
                     if done:
                         continue
                     cur = rng.value
