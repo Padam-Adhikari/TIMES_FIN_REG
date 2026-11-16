@@ -8,12 +8,8 @@ $SET SCENARIO_NAME 'kill_coalphaseout2030'
 PARAMETER
 
 CAP_BND ' '/
-'FI'.0.'ECHP_coal_thermal'.UP 5
-'FI'.0.'ECHP_lignite_thermal'.UP 5
 'FI'.0.'EEHP_DistHeating'.UP 5
 'FI'.0.'EEPP_coal_CCGT'.UP 5
-'FI'.0.'EEPP_coal_thermal'.UP 5
-'FI'.0.'EEPP_lignite_thermal'.UP 5
 'FI'.0.'EUFBCOH15'.UP 5
 'FI'.0.'EUFBCOL01'.UP 5
 'FI'.0.'EUIGCCCOH15'.UP 5
@@ -37,12 +33,8 @@ CAP_BND ' '/
 'FI'.0.'PUSCSCOH3'.UP 5
 'FI'.0.'PUSCSCOL1'.UP 5
 'FI'.0.'PUSCSCOL3'.UP 5
-'FI'.2030.'ECHP_coal_thermal'.UP 0
-'FI'.2030.'ECHP_lignite_thermal'.UP 0
 'FI'.2030.'EEHP_DistHeating'.UP 0
 'FI'.2030.'EEPP_coal_CCGT'.UP 0
-'FI'.2030.'EEPP_coal_thermal'.UP 0
-'FI'.2030.'EEPP_lignite_thermal'.UP 0
 'FI'.2030.'EUFBCOH15'.UP 0
 'FI'.2030.'EUFBCOL01'.UP 0
 'FI'.2030.'EUIGCCCOH15'.UP 0

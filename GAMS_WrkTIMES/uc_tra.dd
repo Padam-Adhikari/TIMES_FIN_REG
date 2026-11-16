@@ -34,6 +34,106 @@ SET COM_TMAP
 'FI'.'NRG'.'TUC_TRA_Lcv-Cng_'
 'FI'.'NRG'.'TUC_TRA_Lcv-Lpg-'
 'FI'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI196'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI196'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI196'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI196'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI196'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI196'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI196'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI196'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI196'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI196'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI196'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI196'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI196'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI196'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI196'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI196'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI196'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI196'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI196'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI196'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI198'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI198'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI198'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI198'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI198'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI198'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI198'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI198'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI198'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI198'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI198'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI198'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI198'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI198'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI198'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI198'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI198'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI198'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI198'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI198'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI199'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI199'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI199'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI199'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI199'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI199'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI199'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI199'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI199'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI199'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI199'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI199'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI199'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI199'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI199'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI199'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI199'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI199'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI199'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI199'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI19A'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI19A'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI19A'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI19A'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI19A'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI19A'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI19A'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI19A'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI19A'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI19A'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI19A'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI19A'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI19A'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI19A'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI19A'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI19A'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI19A'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI19A'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI19A'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI19A'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI19B'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI19B'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI19B'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI19B'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI19B'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI19B'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI19B'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI19B'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI19B'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI19B'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI19B'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI19B'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI19B'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI19B'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI19B'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI19B'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI19B'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI19B'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI19B'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI19B'.'NRG'.'TUC_TRA_Lcv-Lpg_'
 'FI1B1'.'NRG'.'TUC_TRA_Bus-Cng-'
 'FI1B1'.'NRG'.'TUC_TRA_Bus-Cng_'
 'FI1B1'.'NRG'.'TUC_TRA_Bus-Lpg-'
@@ -54,6 +154,166 @@ SET COM_TMAP
 'FI1B1'.'NRG'.'TUC_TRA_Lcv-Cng_'
 'FI1B1'.'NRG'.'TUC_TRA_Lcv-Lpg-'
 'FI1B1'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1C1'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1C1'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1C1'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1C1'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1C1'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1C1'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1C1'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1C1'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1C1'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1C1'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1C1'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1C1'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1C1'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1C2'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1C2'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1C2'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1C2'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1C2'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1C2'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1C2'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1C2'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1C2'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1C2'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1C2'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1C2'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1C2'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1C5'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1C5'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1C5'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1C5'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1C5'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1C5'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1C5'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1C5'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1C5'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1C5'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1C5'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1C5'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1C5'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1C6'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1C6'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1C6'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1C6'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1C6'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1C6'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1C6'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1C6'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1C6'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1C6'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1C6'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1C6'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1C6'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1C7'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1C7'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1C7'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1C7'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1C7'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1C7'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1C7'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1C7'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1C7'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1C7'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1C7'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1C7'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1C7'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1D5'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1D5'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1D5'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1D5'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1D5'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1D5'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1D5'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1D5'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1D5'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1D5'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1D5'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1D5'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1D5'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1D7'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1D7'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1D7'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1D7'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1D7'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1D7'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1D7'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1D7'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1D7'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1D7'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1D7'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1D7'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1D7'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1D8'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1D8'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1D8'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1D8'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1D8'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1D8'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1D8'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1D8'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1D8'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1D8'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1D8'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1D8'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1D8'.'NRG'.'TUC_TRA_Lcv-Lpg_'
 'FI1D9'.'NRG'.'TUC_TRA_Bus-Cng-'
 'FI1D9'.'NRG'.'TUC_TRA_Bus-Cng_'
 'FI1D9'.'NRG'.'TUC_TRA_Bus-Lpg-'
@@ -74,6 +334,86 @@ SET COM_TMAP
 'FI1D9'.'NRG'.'TUC_TRA_Lcv-Cng_'
 'FI1D9'.'NRG'.'TUC_TRA_Lcv-Lpg-'
 'FI1D9'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1DA'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1DA'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1DA'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1DA'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1DA'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1DA'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1DA'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1DA'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1DA'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1DA'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1DA'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1DA'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1DA'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1DB'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1DB'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1DB'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1DB'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1DB'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1DB'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1DB'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1DB'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1DB'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1DB'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1DB'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1DB'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1DB'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI1DC'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI1DC'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI1DC'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI1DC'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI1DC'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI1DC'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI1DC'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI1DC'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI1DC'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI1DC'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI1DC'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI1DC'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI1DC'.'NRG'.'TUC_TRA_Lcv-Lpg_'
+'FI200'.'NRG'.'TUC_TRA_Bus-Cng-'
+'FI200'.'NRG'.'TUC_TRA_Bus-Cng_'
+'FI200'.'NRG'.'TUC_TRA_Bus-Lpg-'
+'FI200'.'NRG'.'TUC_TRA_Bus-Lpg_'
+'FI200'.'NRG'.'TUC_TRA_Car-Cng-'
+'FI200'.'NRG'.'TUC_TRA_Car-Cng_'
+'FI200'.'NRG'.'TUC_TRA_Car-Lpg-'
+'FI200'.'NRG'.'TUC_TRA_Car-Lpg_'
+'FI200'.'NRG'.'TUC_TRA_Car_Exe-'
+'FI200'.'NRG'.'TUC_TRA_Car_Exe_'
+'FI200'.'NRG'.'TUC_TRA_Car_Lom-'
+'FI200'.'NRG'.'TUC_TRA_Car_Lom_'
+'FI200'.'NRG'.'TUC_TRA_Car_Sma-'
+'FI200'.'NRG'.'TUC_TRA_Car_Sma_'
+'FI200'.'NRG'.'TUC_TRA_Car_Upm-'
+'FI200'.'NRG'.'TUC_TRA_Car_Upm_'
+'FI200'.'NRG'.'TUC_TRA_Lcv-Cng-'
+'FI200'.'NRG'.'TUC_TRA_Lcv-Cng_'
+'FI200'.'NRG'.'TUC_TRA_Lcv-Lpg-'
+'FI200'.'NRG'.'TUC_TRA_Lcv-Lpg_'
 /;
 
 SET COM_UNIT
@@ -99,6 +439,106 @@ SET COM_UNIT
 'FI'.'TUC_TRA_Lcv-Cng_'.'UCU'
 'FI'.'TUC_TRA_Lcv-Lpg-'.'UCU'
 'FI'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI196'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI196'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI196'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI196'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI196'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI196'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI196'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI196'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI196'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI196'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI196'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI196'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI196'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI196'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI196'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI196'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI196'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI196'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI196'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI196'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI198'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI198'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI198'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI198'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI198'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI198'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI198'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI198'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI198'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI198'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI198'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI198'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI198'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI198'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI198'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI198'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI198'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI198'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI198'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI198'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI199'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI199'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI199'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI199'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI199'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI199'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI199'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI199'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI199'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI199'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI199'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI199'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI199'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI199'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI199'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI199'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI199'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI199'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI199'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI199'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI19A'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI19A'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI19A'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI19A'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI19A'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI19A'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI19A'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI19A'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI19A'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI19A'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI19A'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI19A'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI19A'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI19A'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI19A'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI19A'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI19A'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI19A'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI19A'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI19A'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI19B'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI19B'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI19B'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI19B'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI19B'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI19B'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI19B'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI19B'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI19B'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI19B'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI19B'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI19B'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI19B'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI19B'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI19B'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI19B'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI19B'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI19B'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI19B'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI19B'.'TUC_TRA_Lcv-Lpg_'.'UCU'
 'FI1B1'.'TUC_TRA_Bus-Cng-'.'UCU'
 'FI1B1'.'TUC_TRA_Bus-Cng_'.'UCU'
 'FI1B1'.'TUC_TRA_Bus-Lpg-'.'UCU'
@@ -119,6 +559,166 @@ SET COM_UNIT
 'FI1B1'.'TUC_TRA_Lcv-Cng_'.'UCU'
 'FI1B1'.'TUC_TRA_Lcv-Lpg-'.'UCU'
 'FI1B1'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1C1'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1C1'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1C1'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1C1'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1C1'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1C1'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1C1'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1C1'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1C1'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1C1'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1C1'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1C1'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1C1'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1C2'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1C2'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1C2'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1C2'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1C2'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1C2'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1C2'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1C2'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1C2'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1C2'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1C2'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1C2'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1C2'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1C5'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1C5'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1C5'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1C5'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1C5'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1C5'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1C5'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1C5'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1C5'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1C5'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1C5'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1C5'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1C5'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1C6'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1C6'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1C6'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1C6'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1C6'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1C6'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1C6'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1C6'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1C6'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1C6'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1C6'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1C6'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1C6'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1C7'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1C7'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1C7'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1C7'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1C7'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1C7'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1C7'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1C7'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1C7'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1C7'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1C7'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1C7'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1C7'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1D5'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1D5'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1D5'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1D5'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1D5'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1D5'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1D5'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1D5'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1D5'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1D5'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1D5'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1D5'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1D5'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1D7'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1D7'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1D7'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1D7'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1D7'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1D7'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1D7'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1D7'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1D7'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1D7'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1D7'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1D7'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1D7'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1D8'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1D8'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1D8'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1D8'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1D8'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1D8'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1D8'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1D8'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1D8'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1D8'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1D8'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1D8'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1D8'.'TUC_TRA_Lcv-Lpg_'.'UCU'
 'FI1D9'.'TUC_TRA_Bus-Cng-'.'UCU'
 'FI1D9'.'TUC_TRA_Bus-Cng_'.'UCU'
 'FI1D9'.'TUC_TRA_Bus-Lpg-'.'UCU'
@@ -139,71 +739,491 @@ SET COM_UNIT
 'FI1D9'.'TUC_TRA_Lcv-Cng_'.'UCU'
 'FI1D9'.'TUC_TRA_Lcv-Lpg-'.'UCU'
 'FI1D9'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1DA'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1DA'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1DA'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1DA'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1DA'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1DA'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1DA'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1DA'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1DA'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1DA'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1DA'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1DA'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1DA'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1DB'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1DB'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1DB'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1DB'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1DB'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1DB'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1DB'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1DB'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1DB'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1DB'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1DB'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1DB'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1DB'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI1DC'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI1DC'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI1DC'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI1DC'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI1DC'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI1DC'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI1DC'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI1DC'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI1DC'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI1DC'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI1DC'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI1DC'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI1DC'.'TUC_TRA_Lcv-Lpg_'.'UCU'
+'FI200'.'TUC_TRA_Bus-Cng-'.'UCU'
+'FI200'.'TUC_TRA_Bus-Cng_'.'UCU'
+'FI200'.'TUC_TRA_Bus-Lpg-'.'UCU'
+'FI200'.'TUC_TRA_Bus-Lpg_'.'UCU'
+'FI200'.'TUC_TRA_Car-Cng-'.'UCU'
+'FI200'.'TUC_TRA_Car-Cng_'.'UCU'
+'FI200'.'TUC_TRA_Car-Lpg-'.'UCU'
+'FI200'.'TUC_TRA_Car-Lpg_'.'UCU'
+'FI200'.'TUC_TRA_Car_Exe-'.'UCU'
+'FI200'.'TUC_TRA_Car_Exe_'.'UCU'
+'FI200'.'TUC_TRA_Car_Lom-'.'UCU'
+'FI200'.'TUC_TRA_Car_Lom_'.'UCU'
+'FI200'.'TUC_TRA_Car_Sma-'.'UCU'
+'FI200'.'TUC_TRA_Car_Sma_'.'UCU'
+'FI200'.'TUC_TRA_Car_Upm-'.'UCU'
+'FI200'.'TUC_TRA_Car_Upm_'.'UCU'
+'FI200'.'TUC_TRA_Lcv-Cng-'.'UCU'
+'FI200'.'TUC_TRA_Lcv-Cng_'.'UCU'
+'FI200'.'TUC_TRA_Lcv-Lpg-'.'UCU'
+'FI200'.'TUC_TRA_Lcv-Lpg_'.'UCU'
 /;
 
 SET TOP_IRE
 
 /
 'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI196'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI198'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI199'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI19A'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI19B'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1B1'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1C1'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1C2'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1C5'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1C6'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1C7'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1D5'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1D7'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1D8'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1D9'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1DA'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1DB'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI1DC'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng-'.'FI200'.'TUC_TRA_Bus-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI196'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI198'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI199'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI19A'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI19B'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1B1'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1C1'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1C2'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1C5'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1C6'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1C7'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1D5'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1D7'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1D8'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1D9'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1DA'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1DB'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI1DC'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Cng_'.'FI200'.'TUC_TRA_Bus-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI196'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI198'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI199'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI19A'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI19B'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1B1'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1C1'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1C2'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1C5'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1C6'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1C7'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1D5'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1D7'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1D8'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1D9'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1DA'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1DB'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI1DC'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg-'.'FI200'.'TUC_TRA_Bus-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI196'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI198'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI199'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI19A'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI19B'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1B1'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1C1'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1C2'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1C5'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1C6'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1C7'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1D5'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1D7'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1D8'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1D9'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1DA'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1DB'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI1DC'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Bus-Lpg_'.'FI200'.'TUC_TRA_Bus-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI196'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI198'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI199'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI19A'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI19B'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1B1'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1C1'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1C2'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1C5'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1C6'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1C7'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1D5'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1D7'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1D8'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1D9'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1DA'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1DB'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI1DC'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng-'.'FI200'.'TUC_TRA_Car-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI196'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI198'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI199'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI19A'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI19B'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1B1'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1C1'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1C2'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1C5'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1C6'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1C7'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1D5'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1D7'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1D8'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1D9'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1DA'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1DB'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI1DC'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Cng_'.'FI200'.'TUC_TRA_Car-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI196'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI198'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI199'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI19A'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI19B'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1B1'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1C1'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1C2'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1C5'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1C6'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1C7'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1D5'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1D7'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1D8'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1D9'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1DA'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1DB'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI1DC'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg-'.'FI200'.'TUC_TRA_Car-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI196'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI198'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI199'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI19A'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI19B'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1B1'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1C1'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1C2'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1C5'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1C6'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1C7'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1D5'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1D7'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1D8'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1D9'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1DA'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1DB'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI1DC'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car-Lpg_'.'FI200'.'TUC_TRA_Car-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI196'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI198'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI199'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI19A'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI19B'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1B1'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1C1'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1C2'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1C5'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1C6'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1C7'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1D5'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1D7'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1D8'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1D9'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1DA'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1DB'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI1DC'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe-'.'FI200'.'TUC_TRA_Car_Exe-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI196'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI198'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI199'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI19A'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI19B'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1B1'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1C1'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1C2'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1C5'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1C6'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1C7'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1D5'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1D7'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1D8'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1D9'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1DA'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1DB'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI1DC'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Exe_'.'FI200'.'TUC_TRA_Car_Exe_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI196'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI198'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI199'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI19A'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI19B'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1B1'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1C1'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1C2'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1C5'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1C6'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1C7'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1D5'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1D7'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1D8'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1D9'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1DA'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1DB'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI1DC'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom-'.'FI200'.'TUC_TRA_Car_Lom-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI196'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI198'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI199'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI19A'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI19B'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1B1'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1C1'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1C2'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1C5'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1C6'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1C7'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1D5'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1D7'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1D8'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1D9'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1DA'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1DB'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI1DC'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Lom_'.'FI200'.'TUC_TRA_Car_Lom_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI196'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI198'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI199'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI19A'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI19B'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1B1'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1C1'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1C2'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1C5'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1C6'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1C7'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1D5'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1D7'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1D8'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1D9'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1DA'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1DB'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI1DC'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma-'.'FI200'.'TUC_TRA_Car_Sma-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI196'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI198'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI199'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI19A'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI19B'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1B1'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1C1'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1C2'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1C5'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1C6'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1C7'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1D5'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1D7'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1D8'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1D9'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1DA'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1DB'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI1DC'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Sma_'.'FI200'.'TUC_TRA_Car_Sma_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI196'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI198'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI199'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI19A'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI19B'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1B1'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1C1'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1C2'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1C5'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1C6'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1C7'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1D5'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1D7'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1D8'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1D9'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1DA'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1DB'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI1DC'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm-'.'FI200'.'TUC_TRA_Car_Upm-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI196'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI198'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI199'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI19A'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI19B'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1B1'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1C1'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1C2'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1C5'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1C6'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1C7'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1D5'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1D7'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1D8'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1D9'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1DA'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1DB'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI1DC'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Car_Upm_'.'FI200'.'TUC_TRA_Car_Upm_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI196'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI198'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI199'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI19A'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI19B'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1B1'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1C1'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1C2'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1C5'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1C6'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1C7'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1D5'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1D7'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1D8'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1D9'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1DA'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1DB'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI1DC'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng-'.'FI200'.'TUC_TRA_Lcv-Cng-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI196'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI198'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI199'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI19A'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI19B'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1B1'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1C1'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1C2'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1C5'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1C6'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1C7'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1D5'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1D7'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1D8'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1D9'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1DA'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1DB'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI1DC'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Cng_'.'FI200'.'TUC_TRA_Lcv-Cng_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI196'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI198'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI199'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI19A'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI19B'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1B1'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1C1'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1C2'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1C5'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1C6'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1C7'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1D5'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1D7'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1D8'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1D9'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1DA'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1DB'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI1DC'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg-'.'FI200'.'TUC_TRA_Lcv-Lpg-'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI196'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI198'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI199'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI19A'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI19B'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1B1'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1C1'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1C2'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1C5'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1C6'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1C7'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1D5'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1D7'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1D8'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
 'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1D9'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1DA'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1DB'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI1DC'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
+'IMPEXP'.'TUC_TRA_Lcv-Lpg_'.'FI200'.'TUC_TRA_Lcv-Lpg_'.'IMPNRGZ'
 /;
 
 SET COM_DESC
@@ -229,6 +1249,106 @@ SET COM_DESC
 'FI'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
 'FI'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
 'FI'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI196'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI196'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI196'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI196'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI196'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI196'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI196'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI196'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI196'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI196'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI196'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI196'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI196'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI196'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI196'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI196'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI196'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI196'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI196'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI196'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI198'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI198'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI198'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI198'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI198'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI198'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI198'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI198'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI198'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI198'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI198'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI198'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI198'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI198'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI198'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI198'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI198'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI198'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI198'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI198'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI199'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI199'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI199'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI199'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI199'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI199'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI199'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI199'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI199'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI199'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI199'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI199'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI199'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI199'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI199'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI199'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI199'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI199'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI199'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI199'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI19A'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI19A'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI19A'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI19A'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI19A'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI19A'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI19A'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI19A'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI19A'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI19A'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI19A'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI19A'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI19A'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI19A'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI19A'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI19A'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI19A'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI19A'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI19A'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI19A'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI19B'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI19B'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI19B'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI19B'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI19B'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI19B'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI19B'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI19B'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI19B'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI19B'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI19B'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI19B'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI19B'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI19B'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI19B'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI19B'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI19B'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI19B'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI19B'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI19B'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
 'FI1B1'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
 'FI1B1'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
 'FI1B1'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
@@ -249,6 +1369,166 @@ SET COM_DESC
 'FI1B1'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
 'FI1B1'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
 'FI1B1'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C1'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C1'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C1'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C1'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C1'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C1'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C1'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C1'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C1'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C1'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C1'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C1'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C1'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C1'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C1'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C1'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C1'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C1'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C1'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C1'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C2'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C2'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C2'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C2'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C2'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C2'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C2'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C2'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C2'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C2'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C2'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C2'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C2'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C2'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C2'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C2'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C2'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C2'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C2'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C2'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C5'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C5'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C5'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C5'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C5'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C5'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C5'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C5'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C5'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C5'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C5'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C5'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C5'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C5'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C5'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C5'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C5'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C5'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C5'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C5'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C6'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C6'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C6'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C6'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C6'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C6'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C6'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C6'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C6'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C6'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C6'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C6'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C6'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C6'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C6'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C6'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C6'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C6'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C6'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C6'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C7'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C7'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1C7'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C7'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1C7'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C7'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1C7'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C7'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1C7'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C7'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1C7'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C7'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1C7'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C7'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1C7'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C7'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1C7'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C7'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1C7'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1C7'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1D5'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1D5'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1D5'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1D5'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1D5'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1D5'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1D5'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1D5'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1D5'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1D5'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1D5'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1D5'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1D5'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1D5'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1D5'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1D5'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1D5'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1D5'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1D5'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1D5'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1D7'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1D7'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1D7'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1D7'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1D7'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1D7'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1D7'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1D7'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1D7'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1D7'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1D7'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1D7'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1D7'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1D7'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1D7'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1D7'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1D7'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1D7'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1D7'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1D7'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1D8'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1D8'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1D8'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1D8'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1D8'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1D8'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1D8'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1D8'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1D8'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1D8'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1D8'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1D8'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1D8'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1D8'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1D8'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1D8'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1D8'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1D8'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1D8'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1D8'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
 'FI1D9'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
 'FI1D9'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
 'FI1D9'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
@@ -269,6 +1549,86 @@ SET COM_DESC
 'FI1D9'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
 'FI1D9'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
 'FI1D9'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1DA'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1DA'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1DA'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1DA'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1DA'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1DA'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1DA'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1DA'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1DA'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1DA'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1DA'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1DA'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1DA'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1DA'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1DA'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1DA'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1DA'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1DA'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1DA'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1DA'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1DB'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1DB'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1DB'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1DB'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1DB'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1DB'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1DB'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1DB'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1DB'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1DB'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1DB'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1DB'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1DB'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1DB'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1DB'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1DB'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1DB'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1DB'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1DB'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1DB'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1DC'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1DC'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI1DC'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1DC'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI1DC'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI1DC'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI1DC'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1DC'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI1DC'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI1DC'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI1DC'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI1DC'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI1DC'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI1DC'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI1DC'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI1DC'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI1DC'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1DC'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI1DC'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI1DC'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI200'.'TUC_TRA_Bus-Cng-' 'Negative dummy var for UC: TUC_TRA_Bus-Cng'
+'FI200'.'TUC_TRA_Bus-Cng_' 'Positive dummy var for UC: TUC_TRA_Bus-Cng'
+'FI200'.'TUC_TRA_Bus-Lpg-' 'Negative dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI200'.'TUC_TRA_Bus-Lpg_' 'Positive dummy var for UC: TUC_TRA_Bus-Lpg'
+'FI200'.'TUC_TRA_Car-Cng-' 'Negative dummy var for UC: TUC_TRA_Car-Cng'
+'FI200'.'TUC_TRA_Car-Cng_' 'Positive dummy var for UC: TUC_TRA_Car-Cng'
+'FI200'.'TUC_TRA_Car-Lpg-' 'Negative dummy var for UC: TUC_TRA_Car-Lpg'
+'FI200'.'TUC_TRA_Car-Lpg_' 'Positive dummy var for UC: TUC_TRA_Car-Lpg'
+'FI200'.'TUC_TRA_Car_Exe-' 'Negative dummy var for UC: TUC_TRA_Car_Exe'
+'FI200'.'TUC_TRA_Car_Exe_' 'Positive dummy var for UC: TUC_TRA_Car_Exe'
+'FI200'.'TUC_TRA_Car_Lom-' 'Negative dummy var for UC: TUC_TRA_Car_Lom'
+'FI200'.'TUC_TRA_Car_Lom_' 'Positive dummy var for UC: TUC_TRA_Car_Lom'
+'FI200'.'TUC_TRA_Car_Sma-' 'Negative dummy var for UC: TUC_TRA_Car_Sma'
+'FI200'.'TUC_TRA_Car_Sma_' 'Positive dummy var for UC: TUC_TRA_Car_Sma'
+'FI200'.'TUC_TRA_Car_Upm-' 'Negative dummy var for UC: TUC_TRA_Car_Upm'
+'FI200'.'TUC_TRA_Car_Upm_' 'Positive dummy var for UC: TUC_TRA_Car_Upm'
+'FI200'.'TUC_TRA_Lcv-Cng-' 'Negative dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI200'.'TUC_TRA_Lcv-Cng_' 'Positive dummy var for UC: TUC_TRA_Lcv-Cng'
+'FI200'.'TUC_TRA_Lcv-Lpg-' 'Negative dummy var for UC: TUC_TRA_Lcv-Lpg'
+'FI200'.'TUC_TRA_Lcv-Lpg_' 'Positive dummy var for UC: TUC_TRA_Lcv-Lpg'
 /;
 
 SET UC_R_EACH
@@ -284,6 +1644,56 @@ SET UC_R_EACH
 'FI'.'TUC_TRA_Car_Upm'
 'FI'.'TUC_TRA_Lcv-Cng'
 'FI'.'TUC_TRA_Lcv-Lpg'
+'FI196'.'TUC_TRA_Bus-Cng'
+'FI196'.'TUC_TRA_Bus-Lpg'
+'FI196'.'TUC_TRA_Car-Cng'
+'FI196'.'TUC_TRA_Car-Lpg'
+'FI196'.'TUC_TRA_Car_Exe'
+'FI196'.'TUC_TRA_Car_Lom'
+'FI196'.'TUC_TRA_Car_Sma'
+'FI196'.'TUC_TRA_Car_Upm'
+'FI196'.'TUC_TRA_Lcv-Cng'
+'FI196'.'TUC_TRA_Lcv-Lpg'
+'FI198'.'TUC_TRA_Bus-Cng'
+'FI198'.'TUC_TRA_Bus-Lpg'
+'FI198'.'TUC_TRA_Car-Cng'
+'FI198'.'TUC_TRA_Car-Lpg'
+'FI198'.'TUC_TRA_Car_Exe'
+'FI198'.'TUC_TRA_Car_Lom'
+'FI198'.'TUC_TRA_Car_Sma'
+'FI198'.'TUC_TRA_Car_Upm'
+'FI198'.'TUC_TRA_Lcv-Cng'
+'FI198'.'TUC_TRA_Lcv-Lpg'
+'FI199'.'TUC_TRA_Bus-Cng'
+'FI199'.'TUC_TRA_Bus-Lpg'
+'FI199'.'TUC_TRA_Car-Cng'
+'FI199'.'TUC_TRA_Car-Lpg'
+'FI199'.'TUC_TRA_Car_Exe'
+'FI199'.'TUC_TRA_Car_Lom'
+'FI199'.'TUC_TRA_Car_Sma'
+'FI199'.'TUC_TRA_Car_Upm'
+'FI199'.'TUC_TRA_Lcv-Cng'
+'FI199'.'TUC_TRA_Lcv-Lpg'
+'FI19A'.'TUC_TRA_Bus-Cng'
+'FI19A'.'TUC_TRA_Bus-Lpg'
+'FI19A'.'TUC_TRA_Car-Cng'
+'FI19A'.'TUC_TRA_Car-Lpg'
+'FI19A'.'TUC_TRA_Car_Exe'
+'FI19A'.'TUC_TRA_Car_Lom'
+'FI19A'.'TUC_TRA_Car_Sma'
+'FI19A'.'TUC_TRA_Car_Upm'
+'FI19A'.'TUC_TRA_Lcv-Cng'
+'FI19A'.'TUC_TRA_Lcv-Lpg'
+'FI19B'.'TUC_TRA_Bus-Cng'
+'FI19B'.'TUC_TRA_Bus-Lpg'
+'FI19B'.'TUC_TRA_Car-Cng'
+'FI19B'.'TUC_TRA_Car-Lpg'
+'FI19B'.'TUC_TRA_Car_Exe'
+'FI19B'.'TUC_TRA_Car_Lom'
+'FI19B'.'TUC_TRA_Car_Sma'
+'FI19B'.'TUC_TRA_Car_Upm'
+'FI19B'.'TUC_TRA_Lcv-Cng'
+'FI19B'.'TUC_TRA_Lcv-Lpg'
 'FI1B1'.'TUC_TRA_Bus-Cng'
 'FI1B1'.'TUC_TRA_Bus-Lpg'
 'FI1B1'.'TUC_TRA_Car-Cng'
@@ -294,6 +1704,86 @@ SET UC_R_EACH
 'FI1B1'.'TUC_TRA_Car_Upm'
 'FI1B1'.'TUC_TRA_Lcv-Cng'
 'FI1B1'.'TUC_TRA_Lcv-Lpg'
+'FI1C1'.'TUC_TRA_Bus-Cng'
+'FI1C1'.'TUC_TRA_Bus-Lpg'
+'FI1C1'.'TUC_TRA_Car-Cng'
+'FI1C1'.'TUC_TRA_Car-Lpg'
+'FI1C1'.'TUC_TRA_Car_Exe'
+'FI1C1'.'TUC_TRA_Car_Lom'
+'FI1C1'.'TUC_TRA_Car_Sma'
+'FI1C1'.'TUC_TRA_Car_Upm'
+'FI1C1'.'TUC_TRA_Lcv-Cng'
+'FI1C1'.'TUC_TRA_Lcv-Lpg'
+'FI1C2'.'TUC_TRA_Bus-Cng'
+'FI1C2'.'TUC_TRA_Bus-Lpg'
+'FI1C2'.'TUC_TRA_Car-Cng'
+'FI1C2'.'TUC_TRA_Car-Lpg'
+'FI1C2'.'TUC_TRA_Car_Exe'
+'FI1C2'.'TUC_TRA_Car_Lom'
+'FI1C2'.'TUC_TRA_Car_Sma'
+'FI1C2'.'TUC_TRA_Car_Upm'
+'FI1C2'.'TUC_TRA_Lcv-Cng'
+'FI1C2'.'TUC_TRA_Lcv-Lpg'
+'FI1C5'.'TUC_TRA_Bus-Cng'
+'FI1C5'.'TUC_TRA_Bus-Lpg'
+'FI1C5'.'TUC_TRA_Car-Cng'
+'FI1C5'.'TUC_TRA_Car-Lpg'
+'FI1C5'.'TUC_TRA_Car_Exe'
+'FI1C5'.'TUC_TRA_Car_Lom'
+'FI1C5'.'TUC_TRA_Car_Sma'
+'FI1C5'.'TUC_TRA_Car_Upm'
+'FI1C5'.'TUC_TRA_Lcv-Cng'
+'FI1C5'.'TUC_TRA_Lcv-Lpg'
+'FI1C6'.'TUC_TRA_Bus-Cng'
+'FI1C6'.'TUC_TRA_Bus-Lpg'
+'FI1C6'.'TUC_TRA_Car-Cng'
+'FI1C6'.'TUC_TRA_Car-Lpg'
+'FI1C6'.'TUC_TRA_Car_Exe'
+'FI1C6'.'TUC_TRA_Car_Lom'
+'FI1C6'.'TUC_TRA_Car_Sma'
+'FI1C6'.'TUC_TRA_Car_Upm'
+'FI1C6'.'TUC_TRA_Lcv-Cng'
+'FI1C6'.'TUC_TRA_Lcv-Lpg'
+'FI1C7'.'TUC_TRA_Bus-Cng'
+'FI1C7'.'TUC_TRA_Bus-Lpg'
+'FI1C7'.'TUC_TRA_Car-Cng'
+'FI1C7'.'TUC_TRA_Car-Lpg'
+'FI1C7'.'TUC_TRA_Car_Exe'
+'FI1C7'.'TUC_TRA_Car_Lom'
+'FI1C7'.'TUC_TRA_Car_Sma'
+'FI1C7'.'TUC_TRA_Car_Upm'
+'FI1C7'.'TUC_TRA_Lcv-Cng'
+'FI1C7'.'TUC_TRA_Lcv-Lpg'
+'FI1D5'.'TUC_TRA_Bus-Cng'
+'FI1D5'.'TUC_TRA_Bus-Lpg'
+'FI1D5'.'TUC_TRA_Car-Cng'
+'FI1D5'.'TUC_TRA_Car-Lpg'
+'FI1D5'.'TUC_TRA_Car_Exe'
+'FI1D5'.'TUC_TRA_Car_Lom'
+'FI1D5'.'TUC_TRA_Car_Sma'
+'FI1D5'.'TUC_TRA_Car_Upm'
+'FI1D5'.'TUC_TRA_Lcv-Cng'
+'FI1D5'.'TUC_TRA_Lcv-Lpg'
+'FI1D7'.'TUC_TRA_Bus-Cng'
+'FI1D7'.'TUC_TRA_Bus-Lpg'
+'FI1D7'.'TUC_TRA_Car-Cng'
+'FI1D7'.'TUC_TRA_Car-Lpg'
+'FI1D7'.'TUC_TRA_Car_Exe'
+'FI1D7'.'TUC_TRA_Car_Lom'
+'FI1D7'.'TUC_TRA_Car_Sma'
+'FI1D7'.'TUC_TRA_Car_Upm'
+'FI1D7'.'TUC_TRA_Lcv-Cng'
+'FI1D7'.'TUC_TRA_Lcv-Lpg'
+'FI1D8'.'TUC_TRA_Bus-Cng'
+'FI1D8'.'TUC_TRA_Bus-Lpg'
+'FI1D8'.'TUC_TRA_Car-Cng'
+'FI1D8'.'TUC_TRA_Car-Lpg'
+'FI1D8'.'TUC_TRA_Car_Exe'
+'FI1D8'.'TUC_TRA_Car_Lom'
+'FI1D8'.'TUC_TRA_Car_Sma'
+'FI1D8'.'TUC_TRA_Car_Upm'
+'FI1D8'.'TUC_TRA_Lcv-Cng'
+'FI1D8'.'TUC_TRA_Lcv-Lpg'
 'FI1D9'.'TUC_TRA_Bus-Cng'
 'FI1D9'.'TUC_TRA_Bus-Lpg'
 'FI1D9'.'TUC_TRA_Car-Cng'
@@ -304,6 +1794,46 @@ SET UC_R_EACH
 'FI1D9'.'TUC_TRA_Car_Upm'
 'FI1D9'.'TUC_TRA_Lcv-Cng'
 'FI1D9'.'TUC_TRA_Lcv-Lpg'
+'FI1DA'.'TUC_TRA_Bus-Cng'
+'FI1DA'.'TUC_TRA_Bus-Lpg'
+'FI1DA'.'TUC_TRA_Car-Cng'
+'FI1DA'.'TUC_TRA_Car-Lpg'
+'FI1DA'.'TUC_TRA_Car_Exe'
+'FI1DA'.'TUC_TRA_Car_Lom'
+'FI1DA'.'TUC_TRA_Car_Sma'
+'FI1DA'.'TUC_TRA_Car_Upm'
+'FI1DA'.'TUC_TRA_Lcv-Cng'
+'FI1DA'.'TUC_TRA_Lcv-Lpg'
+'FI1DB'.'TUC_TRA_Bus-Cng'
+'FI1DB'.'TUC_TRA_Bus-Lpg'
+'FI1DB'.'TUC_TRA_Car-Cng'
+'FI1DB'.'TUC_TRA_Car-Lpg'
+'FI1DB'.'TUC_TRA_Car_Exe'
+'FI1DB'.'TUC_TRA_Car_Lom'
+'FI1DB'.'TUC_TRA_Car_Sma'
+'FI1DB'.'TUC_TRA_Car_Upm'
+'FI1DB'.'TUC_TRA_Lcv-Cng'
+'FI1DB'.'TUC_TRA_Lcv-Lpg'
+'FI1DC'.'TUC_TRA_Bus-Cng'
+'FI1DC'.'TUC_TRA_Bus-Lpg'
+'FI1DC'.'TUC_TRA_Car-Cng'
+'FI1DC'.'TUC_TRA_Car-Lpg'
+'FI1DC'.'TUC_TRA_Car_Exe'
+'FI1DC'.'TUC_TRA_Car_Lom'
+'FI1DC'.'TUC_TRA_Car_Sma'
+'FI1DC'.'TUC_TRA_Car_Upm'
+'FI1DC'.'TUC_TRA_Lcv-Cng'
+'FI1DC'.'TUC_TRA_Lcv-Lpg'
+'FI200'.'TUC_TRA_Bus-Cng'
+'FI200'.'TUC_TRA_Bus-Lpg'
+'FI200'.'TUC_TRA_Car-Cng'
+'FI200'.'TUC_TRA_Car-Lpg'
+'FI200'.'TUC_TRA_Car_Exe'
+'FI200'.'TUC_TRA_Car_Lom'
+'FI200'.'TUC_TRA_Car_Sma'
+'FI200'.'TUC_TRA_Car_Upm'
+'FI200'.'TUC_TRA_Lcv-Cng'
+'FI200'.'TUC_TRA_Lcv-Lpg'
 /;
 
 PARAMETER
@@ -851,64 +2381,404 @@ PARAMETER
 UC_IRE ' '/
 'TUC_TRA_Bus-Cng'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Bus-Cng'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Bus-Cng'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Bus-Cng'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Bus-Cng'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Bus-Cng'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Cng'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Cng'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Bus-Lpg'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Bus-Lpg'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Bus-Lpg'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Bus-Lpg'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Bus-Lpg'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Bus-Lpg'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Bus-Lpg'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Bus-Lpg'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Bus-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Car-Cng'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Car-Cng'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Car-Cng'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Car-Cng'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Car-Cng'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Car-Cng'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Cng'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Cng'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Car-Lpg'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Car-Lpg'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Car-Lpg'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Car-Lpg'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Car-Lpg'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Car-Lpg'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Car-Lpg'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Car-Lpg'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Exe'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Exe'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Exe'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Exe'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Exe'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Exe'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Exe'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Exe'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Exe_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Lom'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Lom'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Lom'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Lom'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Lom'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Lom'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Lom'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Lom'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Lom_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Sma'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Sma'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Sma'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Sma'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Sma'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Sma'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Sma'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Sma'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Sma_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Upm'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Upm'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Upm'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Upm'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
 'TUC_TRA_Car_Upm'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
 'TUC_TRA_Car_Upm'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
+'TUC_TRA_Car_Upm'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm-'.ANNUAL.IMP -1
+'TUC_TRA_Car_Upm'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Car_Upm_'.ANNUAL.IMP 1
 'TUC_TRA_Lcv-Cng'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Lcv-Cng'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Lcv-Cng'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Lcv-Cng'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Lcv-Cng'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
 'TUC_TRA_Lcv-Cng'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Cng'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Cng'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Cng_'.ANNUAL.IMP 1
 'TUC_TRA_Lcv-Lpg'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Lcv-Lpg'.LHS.'FI'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI196'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI198'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI199'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI19A'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI19B'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Lcv-Lpg'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Lcv-Lpg'.LHS.'FI1B1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C1'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C2'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C6'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1C7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1D5'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1D7'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1D8'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
 'TUC_TRA_Lcv-Lpg'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
 'TUC_TRA_Lcv-Lpg'.LHS.'FI1D9'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1DA'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1DB'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI1DC'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg-'.ANNUAL.IMP -1
+'TUC_TRA_Lcv-Lpg'.LHS.'FI200'.2010.'IMPNRGZ'.'TUC_TRA_Lcv-Lpg_'.ANNUAL.IMP 1
 /;
 
 PARAMETER
@@ -934,6 +2804,106 @@ UC_RHSRT ' '/
 'FI'.'TUC_TRA_Lcv-Cng'.2011.UP 0
 'FI'.'TUC_TRA_Lcv-Lpg'.0.UP 5
 'FI'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI196'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI196'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI196'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI196'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI196'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI196'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI196'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI196'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI196'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI196'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI196'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI196'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI196'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI196'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI196'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI196'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI196'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI196'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI196'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI196'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI198'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI198'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI198'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI198'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI198'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI198'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI198'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI198'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI198'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI198'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI198'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI198'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI198'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI198'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI198'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI198'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI198'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI198'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI198'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI198'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI199'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI199'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI199'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI199'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI199'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI199'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI199'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI199'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI199'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI199'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI199'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI199'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI199'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI199'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI199'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI199'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI199'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI199'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI199'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI199'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI19A'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI19A'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI19A'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI19A'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI19A'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI19A'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI19A'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI19A'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI19A'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI19A'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI19A'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI19A'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI19A'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI19A'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI19A'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI19A'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI19A'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI19A'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI19A'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI19A'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI19B'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI19B'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI19B'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI19B'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI19B'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI19B'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI19B'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI19B'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI19B'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI19B'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI19B'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI19B'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI19B'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI19B'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI19B'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI19B'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI19B'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI19B'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI19B'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI19B'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
 'FI1B1'.'TUC_TRA_Bus-Cng'.0.UP 5
 'FI1B1'.'TUC_TRA_Bus-Cng'.2011.UP 0
 'FI1B1'.'TUC_TRA_Bus-Lpg'.0.UP 5
@@ -954,6 +2924,166 @@ UC_RHSRT ' '/
 'FI1B1'.'TUC_TRA_Lcv-Cng'.2011.UP 0
 'FI1B1'.'TUC_TRA_Lcv-Lpg'.0.UP 5
 'FI1B1'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1C1'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1C1'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1C1'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1C1'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1C1'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1C1'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1C1'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1C1'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1C1'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1C1'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1C1'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1C1'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1C1'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1C1'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1C1'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1C1'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1C1'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1C1'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1C1'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1C1'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1C2'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1C2'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1C2'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1C2'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1C2'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1C2'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1C2'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1C2'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1C2'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1C2'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1C2'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1C2'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1C2'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1C2'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1C2'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1C2'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1C2'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1C2'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1C2'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1C2'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1C5'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1C5'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1C5'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1C5'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1C5'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1C5'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1C5'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1C5'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1C5'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1C5'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1C5'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1C5'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1C5'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1C5'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1C5'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1C5'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1C5'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1C5'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1C5'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1C5'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1C6'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1C6'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1C6'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1C6'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1C6'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1C6'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1C6'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1C6'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1C6'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1C6'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1C6'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1C6'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1C6'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1C6'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1C6'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1C6'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1C6'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1C6'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1C6'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1C6'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1C7'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1C7'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1C7'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1C7'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1C7'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1C7'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1C7'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1C7'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1C7'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1C7'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1C7'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1C7'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1C7'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1C7'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1C7'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1C7'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1C7'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1C7'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1C7'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1C7'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1D5'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1D5'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1D5'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1D5'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1D5'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1D5'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1D5'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1D5'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1D5'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1D5'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1D5'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1D5'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1D5'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1D5'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1D5'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1D5'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1D5'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1D5'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1D5'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1D5'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1D7'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1D7'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1D7'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1D7'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1D7'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1D7'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1D7'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1D7'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1D7'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1D7'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1D7'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1D7'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1D7'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1D7'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1D7'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1D7'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1D7'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1D7'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1D7'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1D7'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1D8'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1D8'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1D8'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1D8'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1D8'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1D8'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1D8'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1D8'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1D8'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1D8'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1D8'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1D8'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1D8'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1D8'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1D8'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1D8'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1D8'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1D8'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1D8'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1D8'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
 'FI1D9'.'TUC_TRA_Bus-Cng'.0.UP 5
 'FI1D9'.'TUC_TRA_Bus-Cng'.2011.UP 0
 'FI1D9'.'TUC_TRA_Bus-Lpg'.0.UP 5
@@ -974,6 +3104,86 @@ UC_RHSRT ' '/
 'FI1D9'.'TUC_TRA_Lcv-Cng'.2011.UP 0
 'FI1D9'.'TUC_TRA_Lcv-Lpg'.0.UP 5
 'FI1D9'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1DA'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1DA'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1DA'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1DA'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1DA'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1DA'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1DA'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1DA'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1DA'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1DA'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1DA'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1DA'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1DA'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1DA'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1DA'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1DA'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1DA'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1DA'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1DA'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1DA'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1DB'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1DB'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1DB'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1DB'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1DB'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1DB'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1DB'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1DB'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1DB'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1DB'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1DB'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1DB'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1DB'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1DB'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1DB'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1DB'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1DB'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1DB'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1DB'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1DB'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI1DC'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI1DC'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI1DC'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI1DC'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI1DC'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI1DC'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI1DC'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI1DC'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI1DC'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI1DC'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI1DC'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI1DC'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI1DC'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI1DC'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI1DC'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI1DC'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI1DC'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI1DC'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI1DC'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI1DC'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
+'FI200'.'TUC_TRA_Bus-Cng'.0.UP 5
+'FI200'.'TUC_TRA_Bus-Cng'.2011.UP 0
+'FI200'.'TUC_TRA_Bus-Lpg'.0.UP 5
+'FI200'.'TUC_TRA_Bus-Lpg'.2011.UP 0
+'FI200'.'TUC_TRA_Car-Cng'.0.UP 5
+'FI200'.'TUC_TRA_Car-Cng'.2011.UP 0
+'FI200'.'TUC_TRA_Car-Lpg'.0.UP 5
+'FI200'.'TUC_TRA_Car-Lpg'.2011.UP 0
+'FI200'.'TUC_TRA_Car_Exe'.0.LO 5
+'FI200'.'TUC_TRA_Car_Exe'.2025.LO 0
+'FI200'.'TUC_TRA_Car_Lom'.0.LO 5
+'FI200'.'TUC_TRA_Car_Lom'.2025.LO 0
+'FI200'.'TUC_TRA_Car_Sma'.0.LO 5
+'FI200'.'TUC_TRA_Car_Sma'.2025.LO 0
+'FI200'.'TUC_TRA_Car_Upm'.0.LO 5
+'FI200'.'TUC_TRA_Car_Upm'.2025.LO 0
+'FI200'.'TUC_TRA_Lcv-Cng'.0.UP 5
+'FI200'.'TUC_TRA_Lcv-Cng'.2011.UP 0
+'FI200'.'TUC_TRA_Lcv-Lpg'.0.UP 5
+'FI200'.'TUC_TRA_Lcv-Lpg'.2011.UP 0
 /;
 
 

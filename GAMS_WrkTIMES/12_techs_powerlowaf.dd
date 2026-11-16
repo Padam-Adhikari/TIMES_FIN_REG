@@ -26,20 +26,8 @@ SET UNITS_ACT
 SET COM_GMAP
 
 /
-'FI'.'LowAF_EEPP_coal_th_NRGO'.'LowAF_Base_HighAF'
-'FI'.'LowAF_EEPP_coal_th_NRGO'.'LowAF_Base_LowAF'
 'FI'.'LowAF_EEPP_HFO_OCGT_NRGO'.'LowAF_Peak_HighAF'
 'FI'.'LowAF_EEPP_HFO_OCGT_NRGO'.'LowAF_Peak_LowAF'
-'FI'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_HighAF'
-'FI'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_LowAF'
-'FI'.'LowAF_EEPP_lignite_th_NRGO'.'LowAF_Base_HighAF'
-'FI'.'LowAF_EEPP_lignite_th_NRGO'.'LowAF_Base_LowAF'
-'FI'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
-'FI'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
-'FI'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
-'FI'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
-'FI'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
-'FI'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
 'FI'.'LowAF_EUCCGASCCSpos20_NRGO'.'LowAF_Base_HighAF'
 'FI'.'LowAF_EUCCGASCCSpos20_NRGO'.'LowAF_Base_LowAF'
 'FI'.'LowAF_EUCCGTGAS15_NRGO'.'LowAF_Base_HighAF'
@@ -108,6 +96,88 @@ SET COM_GMAP
 'FI'.'LowAF_EUSTWOO01_NRGO'.'LowAF_Peak_LowAF'
 'FI'.'LowAF_EUSTWOOCCS01_NRGO'.'LowAF_Base_HighAF'
 'FI'.'LowAF_EUSTWOOCCS01_NRGO'.'LowAF_Base_LowAF'
+'FI196'.'LowAF_EEPP_coal_th_NRGO'.'LowAF_Base_HighAF'
+'FI196'.'LowAF_EEPP_coal_th_NRGO'.'LowAF_Base_LowAF'
+'FI196'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_HighAF'
+'FI196'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_LowAF'
+'FI196'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI196'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI196'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI196'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI196'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI196'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI199'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI199'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI199'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI199'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI199'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI199'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI19A'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_HighAF'
+'FI19A'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_LowAF'
+'FI19A'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI19A'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI19A'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI19A'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI19A'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI19A'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1B1'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_HighAF'
+'FI1B1'.'LowAF_EEPP_HFO_th_NRGO'.'LowAF_Peak_LowAF'
+'FI1B1'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1B1'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1B1'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1B1'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1B1'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1B1'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1C1'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1C1'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1C1'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1C1'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1C1'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1C1'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1C2'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1C2'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1C2'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1C2'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1C2'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1C2'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1C5'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1C5'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1C5'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1C5'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1C5'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1C5'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1C6'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1C6'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1C6'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1C6'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1C6'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1C6'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1C7'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1C7'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1C7'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1C7'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1C7'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1C7'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1D5'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1D5'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1D5'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1D5'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1D5'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1D5'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1D9'.'LowAF_EEPP_lignite_th_NRGO'.'LowAF_Base_HighAF'
+'FI1D9'.'LowAF_EEPP_lignite_th_NRGO'.'LowAF_Base_LowAF'
+'FI1D9'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1D9'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1D9'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1D9'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1D9'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1D9'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
+'FI1DB'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_HighAF'
+'FI1DB'.'LowAF_EEPP_natgas_CCGT_NRGO'.'LowAF_Base_LowAF'
+'FI1DB'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_HighAF'
+'FI1DB'.'LowAF_EEPP_natgas_OCGT_NRGO'.'LowAF_Peak_LowAF'
+'FI1DB'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_HighAF'
+'FI1DB'.'LowAF_EEPP_naturalgas_th_NRGO'.'LowAF_Base_LowAF'
 /;
 
 SET COM_TMAP
@@ -119,18 +189,120 @@ SET COM_TMAP
 'FI'.'NRG'.'LowAF_Peak'
 'FI'.'NRG'.'LowAF_Peak_HighAF'
 'FI'.'NRG'.'LowAF_Peak_LowAF'
+'FI196'.'NRG'.'LowAF_Base'
+'FI196'.'NRG'.'LowAF_Base_HighAF'
+'FI196'.'NRG'.'LowAF_Base_LowAF'
+'FI196'.'NRG'.'LowAF_Peak'
+'FI196'.'NRG'.'LowAF_Peak_HighAF'
+'FI196'.'NRG'.'LowAF_Peak_LowAF'
+'FI198'.'NRG'.'LowAF_Base'
+'FI198'.'NRG'.'LowAF_Base_HighAF'
+'FI198'.'NRG'.'LowAF_Base_LowAF'
+'FI198'.'NRG'.'LowAF_Peak'
+'FI198'.'NRG'.'LowAF_Peak_HighAF'
+'FI198'.'NRG'.'LowAF_Peak_LowAF'
+'FI199'.'NRG'.'LowAF_Base'
+'FI199'.'NRG'.'LowAF_Base_HighAF'
+'FI199'.'NRG'.'LowAF_Base_LowAF'
+'FI199'.'NRG'.'LowAF_Peak'
+'FI199'.'NRG'.'LowAF_Peak_HighAF'
+'FI199'.'NRG'.'LowAF_Peak_LowAF'
+'FI19A'.'NRG'.'LowAF_Base'
+'FI19A'.'NRG'.'LowAF_Base_HighAF'
+'FI19A'.'NRG'.'LowAF_Base_LowAF'
+'FI19A'.'NRG'.'LowAF_Peak'
+'FI19A'.'NRG'.'LowAF_Peak_HighAF'
+'FI19A'.'NRG'.'LowAF_Peak_LowAF'
+'FI19B'.'NRG'.'LowAF_Base'
+'FI19B'.'NRG'.'LowAF_Base_HighAF'
+'FI19B'.'NRG'.'LowAF_Base_LowAF'
+'FI19B'.'NRG'.'LowAF_Peak'
+'FI19B'.'NRG'.'LowAF_Peak_HighAF'
+'FI19B'.'NRG'.'LowAF_Peak_LowAF'
 'FI1B1'.'NRG'.'LowAF_Base'
 'FI1B1'.'NRG'.'LowAF_Base_HighAF'
 'FI1B1'.'NRG'.'LowAF_Base_LowAF'
 'FI1B1'.'NRG'.'LowAF_Peak'
 'FI1B1'.'NRG'.'LowAF_Peak_HighAF'
 'FI1B1'.'NRG'.'LowAF_Peak_LowAF'
+'FI1C1'.'NRG'.'LowAF_Base'
+'FI1C1'.'NRG'.'LowAF_Base_HighAF'
+'FI1C1'.'NRG'.'LowAF_Base_LowAF'
+'FI1C1'.'NRG'.'LowAF_Peak'
+'FI1C1'.'NRG'.'LowAF_Peak_HighAF'
+'FI1C1'.'NRG'.'LowAF_Peak_LowAF'
+'FI1C2'.'NRG'.'LowAF_Base'
+'FI1C2'.'NRG'.'LowAF_Base_HighAF'
+'FI1C2'.'NRG'.'LowAF_Base_LowAF'
+'FI1C2'.'NRG'.'LowAF_Peak'
+'FI1C2'.'NRG'.'LowAF_Peak_HighAF'
+'FI1C2'.'NRG'.'LowAF_Peak_LowAF'
+'FI1C5'.'NRG'.'LowAF_Base'
+'FI1C5'.'NRG'.'LowAF_Base_HighAF'
+'FI1C5'.'NRG'.'LowAF_Base_LowAF'
+'FI1C5'.'NRG'.'LowAF_Peak'
+'FI1C5'.'NRG'.'LowAF_Peak_HighAF'
+'FI1C5'.'NRG'.'LowAF_Peak_LowAF'
+'FI1C6'.'NRG'.'LowAF_Base'
+'FI1C6'.'NRG'.'LowAF_Base_HighAF'
+'FI1C6'.'NRG'.'LowAF_Base_LowAF'
+'FI1C6'.'NRG'.'LowAF_Peak'
+'FI1C6'.'NRG'.'LowAF_Peak_HighAF'
+'FI1C6'.'NRG'.'LowAF_Peak_LowAF'
+'FI1C7'.'NRG'.'LowAF_Base'
+'FI1C7'.'NRG'.'LowAF_Base_HighAF'
+'FI1C7'.'NRG'.'LowAF_Base_LowAF'
+'FI1C7'.'NRG'.'LowAF_Peak'
+'FI1C7'.'NRG'.'LowAF_Peak_HighAF'
+'FI1C7'.'NRG'.'LowAF_Peak_LowAF'
+'FI1D5'.'NRG'.'LowAF_Base'
+'FI1D5'.'NRG'.'LowAF_Base_HighAF'
+'FI1D5'.'NRG'.'LowAF_Base_LowAF'
+'FI1D5'.'NRG'.'LowAF_Peak'
+'FI1D5'.'NRG'.'LowAF_Peak_HighAF'
+'FI1D5'.'NRG'.'LowAF_Peak_LowAF'
+'FI1D7'.'NRG'.'LowAF_Base'
+'FI1D7'.'NRG'.'LowAF_Base_HighAF'
+'FI1D7'.'NRG'.'LowAF_Base_LowAF'
+'FI1D7'.'NRG'.'LowAF_Peak'
+'FI1D7'.'NRG'.'LowAF_Peak_HighAF'
+'FI1D7'.'NRG'.'LowAF_Peak_LowAF'
+'FI1D8'.'NRG'.'LowAF_Base'
+'FI1D8'.'NRG'.'LowAF_Base_HighAF'
+'FI1D8'.'NRG'.'LowAF_Base_LowAF'
+'FI1D8'.'NRG'.'LowAF_Peak'
+'FI1D8'.'NRG'.'LowAF_Peak_HighAF'
+'FI1D8'.'NRG'.'LowAF_Peak_LowAF'
 'FI1D9'.'NRG'.'LowAF_Base'
 'FI1D9'.'NRG'.'LowAF_Base_HighAF'
 'FI1D9'.'NRG'.'LowAF_Base_LowAF'
 'FI1D9'.'NRG'.'LowAF_Peak'
 'FI1D9'.'NRG'.'LowAF_Peak_HighAF'
 'FI1D9'.'NRG'.'LowAF_Peak_LowAF'
+'FI1DA'.'NRG'.'LowAF_Base'
+'FI1DA'.'NRG'.'LowAF_Base_HighAF'
+'FI1DA'.'NRG'.'LowAF_Base_LowAF'
+'FI1DA'.'NRG'.'LowAF_Peak'
+'FI1DA'.'NRG'.'LowAF_Peak_HighAF'
+'FI1DA'.'NRG'.'LowAF_Peak_LowAF'
+'FI1DB'.'NRG'.'LowAF_Base'
+'FI1DB'.'NRG'.'LowAF_Base_HighAF'
+'FI1DB'.'NRG'.'LowAF_Base_LowAF'
+'FI1DB'.'NRG'.'LowAF_Peak'
+'FI1DB'.'NRG'.'LowAF_Peak_HighAF'
+'FI1DB'.'NRG'.'LowAF_Peak_LowAF'
+'FI1DC'.'NRG'.'LowAF_Base'
+'FI1DC'.'NRG'.'LowAF_Base_HighAF'
+'FI1DC'.'NRG'.'LowAF_Base_LowAF'
+'FI1DC'.'NRG'.'LowAF_Peak'
+'FI1DC'.'NRG'.'LowAF_Peak_HighAF'
+'FI1DC'.'NRG'.'LowAF_Peak_LowAF'
+'FI200'.'NRG'.'LowAF_Base'
+'FI200'.'NRG'.'LowAF_Base_HighAF'
+'FI200'.'NRG'.'LowAF_Base_LowAF'
+'FI200'.'NRG'.'LowAF_Peak'
+'FI200'.'NRG'.'LowAF_Peak_HighAF'
+'FI200'.'NRG'.'LowAF_Peak_LowAF'
 /;
 
 SET COM_TSL
@@ -142,18 +314,120 @@ SET COM_TSL
 'FI'.'LowAF_Peak'.DAYNITE
 'FI'.'LowAF_Peak_HighAF'.DAYNITE
 'FI'.'LowAF_Peak_LowAF'.DAYNITE
+'FI196'.'LowAF_Base'.DAYNITE
+'FI196'.'LowAF_Base_HighAF'.DAYNITE
+'FI196'.'LowAF_Base_LowAF'.DAYNITE
+'FI196'.'LowAF_Peak'.DAYNITE
+'FI196'.'LowAF_Peak_HighAF'.DAYNITE
+'FI196'.'LowAF_Peak_LowAF'.DAYNITE
+'FI198'.'LowAF_Base'.DAYNITE
+'FI198'.'LowAF_Base_HighAF'.DAYNITE
+'FI198'.'LowAF_Base_LowAF'.DAYNITE
+'FI198'.'LowAF_Peak'.DAYNITE
+'FI198'.'LowAF_Peak_HighAF'.DAYNITE
+'FI198'.'LowAF_Peak_LowAF'.DAYNITE
+'FI199'.'LowAF_Base'.DAYNITE
+'FI199'.'LowAF_Base_HighAF'.DAYNITE
+'FI199'.'LowAF_Base_LowAF'.DAYNITE
+'FI199'.'LowAF_Peak'.DAYNITE
+'FI199'.'LowAF_Peak_HighAF'.DAYNITE
+'FI199'.'LowAF_Peak_LowAF'.DAYNITE
+'FI19A'.'LowAF_Base'.DAYNITE
+'FI19A'.'LowAF_Base_HighAF'.DAYNITE
+'FI19A'.'LowAF_Base_LowAF'.DAYNITE
+'FI19A'.'LowAF_Peak'.DAYNITE
+'FI19A'.'LowAF_Peak_HighAF'.DAYNITE
+'FI19A'.'LowAF_Peak_LowAF'.DAYNITE
+'FI19B'.'LowAF_Base'.DAYNITE
+'FI19B'.'LowAF_Base_HighAF'.DAYNITE
+'FI19B'.'LowAF_Base_LowAF'.DAYNITE
+'FI19B'.'LowAF_Peak'.DAYNITE
+'FI19B'.'LowAF_Peak_HighAF'.DAYNITE
+'FI19B'.'LowAF_Peak_LowAF'.DAYNITE
 'FI1B1'.'LowAF_Base'.DAYNITE
 'FI1B1'.'LowAF_Base_HighAF'.DAYNITE
 'FI1B1'.'LowAF_Base_LowAF'.DAYNITE
 'FI1B1'.'LowAF_Peak'.DAYNITE
 'FI1B1'.'LowAF_Peak_HighAF'.DAYNITE
 'FI1B1'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1C1'.'LowAF_Base'.DAYNITE
+'FI1C1'.'LowAF_Base_HighAF'.DAYNITE
+'FI1C1'.'LowAF_Base_LowAF'.DAYNITE
+'FI1C1'.'LowAF_Peak'.DAYNITE
+'FI1C1'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1C1'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1C2'.'LowAF_Base'.DAYNITE
+'FI1C2'.'LowAF_Base_HighAF'.DAYNITE
+'FI1C2'.'LowAF_Base_LowAF'.DAYNITE
+'FI1C2'.'LowAF_Peak'.DAYNITE
+'FI1C2'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1C2'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1C5'.'LowAF_Base'.DAYNITE
+'FI1C5'.'LowAF_Base_HighAF'.DAYNITE
+'FI1C5'.'LowAF_Base_LowAF'.DAYNITE
+'FI1C5'.'LowAF_Peak'.DAYNITE
+'FI1C5'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1C5'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1C6'.'LowAF_Base'.DAYNITE
+'FI1C6'.'LowAF_Base_HighAF'.DAYNITE
+'FI1C6'.'LowAF_Base_LowAF'.DAYNITE
+'FI1C6'.'LowAF_Peak'.DAYNITE
+'FI1C6'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1C6'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1C7'.'LowAF_Base'.DAYNITE
+'FI1C7'.'LowAF_Base_HighAF'.DAYNITE
+'FI1C7'.'LowAF_Base_LowAF'.DAYNITE
+'FI1C7'.'LowAF_Peak'.DAYNITE
+'FI1C7'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1C7'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1D5'.'LowAF_Base'.DAYNITE
+'FI1D5'.'LowAF_Base_HighAF'.DAYNITE
+'FI1D5'.'LowAF_Base_LowAF'.DAYNITE
+'FI1D5'.'LowAF_Peak'.DAYNITE
+'FI1D5'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1D5'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1D7'.'LowAF_Base'.DAYNITE
+'FI1D7'.'LowAF_Base_HighAF'.DAYNITE
+'FI1D7'.'LowAF_Base_LowAF'.DAYNITE
+'FI1D7'.'LowAF_Peak'.DAYNITE
+'FI1D7'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1D7'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1D8'.'LowAF_Base'.DAYNITE
+'FI1D8'.'LowAF_Base_HighAF'.DAYNITE
+'FI1D8'.'LowAF_Base_LowAF'.DAYNITE
+'FI1D8'.'LowAF_Peak'.DAYNITE
+'FI1D8'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1D8'.'LowAF_Peak_LowAF'.DAYNITE
 'FI1D9'.'LowAF_Base'.DAYNITE
 'FI1D9'.'LowAF_Base_HighAF'.DAYNITE
 'FI1D9'.'LowAF_Base_LowAF'.DAYNITE
 'FI1D9'.'LowAF_Peak'.DAYNITE
 'FI1D9'.'LowAF_Peak_HighAF'.DAYNITE
 'FI1D9'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1DA'.'LowAF_Base'.DAYNITE
+'FI1DA'.'LowAF_Base_HighAF'.DAYNITE
+'FI1DA'.'LowAF_Base_LowAF'.DAYNITE
+'FI1DA'.'LowAF_Peak'.DAYNITE
+'FI1DA'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1DA'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1DB'.'LowAF_Base'.DAYNITE
+'FI1DB'.'LowAF_Base_HighAF'.DAYNITE
+'FI1DB'.'LowAF_Base_LowAF'.DAYNITE
+'FI1DB'.'LowAF_Peak'.DAYNITE
+'FI1DB'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1DB'.'LowAF_Peak_LowAF'.DAYNITE
+'FI1DC'.'LowAF_Base'.DAYNITE
+'FI1DC'.'LowAF_Base_HighAF'.DAYNITE
+'FI1DC'.'LowAF_Base_LowAF'.DAYNITE
+'FI1DC'.'LowAF_Peak'.DAYNITE
+'FI1DC'.'LowAF_Peak_HighAF'.DAYNITE
+'FI1DC'.'LowAF_Peak_LowAF'.DAYNITE
+'FI200'.'LowAF_Base'.DAYNITE
+'FI200'.'LowAF_Base_HighAF'.DAYNITE
+'FI200'.'LowAF_Base_LowAF'.DAYNITE
+'FI200'.'LowAF_Peak'.DAYNITE
+'FI200'.'LowAF_Peak_HighAF'.DAYNITE
+'FI200'.'LowAF_Peak_LowAF'.DAYNITE
 /;
 
 SET COM_UNIT
@@ -165,18 +439,120 @@ SET COM_UNIT
 'FI'.'LowAF_Peak'.'PJ'
 'FI'.'LowAF_Peak_HighAF'.'PJ'
 'FI'.'LowAF_Peak_LowAF'.'PJ'
+'FI196'.'LowAF_Base'.'PJ'
+'FI196'.'LowAF_Base_HighAF'.'PJ'
+'FI196'.'LowAF_Base_LowAF'.'PJ'
+'FI196'.'LowAF_Peak'.'PJ'
+'FI196'.'LowAF_Peak_HighAF'.'PJ'
+'FI196'.'LowAF_Peak_LowAF'.'PJ'
+'FI198'.'LowAF_Base'.'PJ'
+'FI198'.'LowAF_Base_HighAF'.'PJ'
+'FI198'.'LowAF_Base_LowAF'.'PJ'
+'FI198'.'LowAF_Peak'.'PJ'
+'FI198'.'LowAF_Peak_HighAF'.'PJ'
+'FI198'.'LowAF_Peak_LowAF'.'PJ'
+'FI199'.'LowAF_Base'.'PJ'
+'FI199'.'LowAF_Base_HighAF'.'PJ'
+'FI199'.'LowAF_Base_LowAF'.'PJ'
+'FI199'.'LowAF_Peak'.'PJ'
+'FI199'.'LowAF_Peak_HighAF'.'PJ'
+'FI199'.'LowAF_Peak_LowAF'.'PJ'
+'FI19A'.'LowAF_Base'.'PJ'
+'FI19A'.'LowAF_Base_HighAF'.'PJ'
+'FI19A'.'LowAF_Base_LowAF'.'PJ'
+'FI19A'.'LowAF_Peak'.'PJ'
+'FI19A'.'LowAF_Peak_HighAF'.'PJ'
+'FI19A'.'LowAF_Peak_LowAF'.'PJ'
+'FI19B'.'LowAF_Base'.'PJ'
+'FI19B'.'LowAF_Base_HighAF'.'PJ'
+'FI19B'.'LowAF_Base_LowAF'.'PJ'
+'FI19B'.'LowAF_Peak'.'PJ'
+'FI19B'.'LowAF_Peak_HighAF'.'PJ'
+'FI19B'.'LowAF_Peak_LowAF'.'PJ'
 'FI1B1'.'LowAF_Base'.'PJ'
 'FI1B1'.'LowAF_Base_HighAF'.'PJ'
 'FI1B1'.'LowAF_Base_LowAF'.'PJ'
 'FI1B1'.'LowAF_Peak'.'PJ'
 'FI1B1'.'LowAF_Peak_HighAF'.'PJ'
 'FI1B1'.'LowAF_Peak_LowAF'.'PJ'
+'FI1C1'.'LowAF_Base'.'PJ'
+'FI1C1'.'LowAF_Base_HighAF'.'PJ'
+'FI1C1'.'LowAF_Base_LowAF'.'PJ'
+'FI1C1'.'LowAF_Peak'.'PJ'
+'FI1C1'.'LowAF_Peak_HighAF'.'PJ'
+'FI1C1'.'LowAF_Peak_LowAF'.'PJ'
+'FI1C2'.'LowAF_Base'.'PJ'
+'FI1C2'.'LowAF_Base_HighAF'.'PJ'
+'FI1C2'.'LowAF_Base_LowAF'.'PJ'
+'FI1C2'.'LowAF_Peak'.'PJ'
+'FI1C2'.'LowAF_Peak_HighAF'.'PJ'
+'FI1C2'.'LowAF_Peak_LowAF'.'PJ'
+'FI1C5'.'LowAF_Base'.'PJ'
+'FI1C5'.'LowAF_Base_HighAF'.'PJ'
+'FI1C5'.'LowAF_Base_LowAF'.'PJ'
+'FI1C5'.'LowAF_Peak'.'PJ'
+'FI1C5'.'LowAF_Peak_HighAF'.'PJ'
+'FI1C5'.'LowAF_Peak_LowAF'.'PJ'
+'FI1C6'.'LowAF_Base'.'PJ'
+'FI1C6'.'LowAF_Base_HighAF'.'PJ'
+'FI1C6'.'LowAF_Base_LowAF'.'PJ'
+'FI1C6'.'LowAF_Peak'.'PJ'
+'FI1C6'.'LowAF_Peak_HighAF'.'PJ'
+'FI1C6'.'LowAF_Peak_LowAF'.'PJ'
+'FI1C7'.'LowAF_Base'.'PJ'
+'FI1C7'.'LowAF_Base_HighAF'.'PJ'
+'FI1C7'.'LowAF_Base_LowAF'.'PJ'
+'FI1C7'.'LowAF_Peak'.'PJ'
+'FI1C7'.'LowAF_Peak_HighAF'.'PJ'
+'FI1C7'.'LowAF_Peak_LowAF'.'PJ'
+'FI1D5'.'LowAF_Base'.'PJ'
+'FI1D5'.'LowAF_Base_HighAF'.'PJ'
+'FI1D5'.'LowAF_Base_LowAF'.'PJ'
+'FI1D5'.'LowAF_Peak'.'PJ'
+'FI1D5'.'LowAF_Peak_HighAF'.'PJ'
+'FI1D5'.'LowAF_Peak_LowAF'.'PJ'
+'FI1D7'.'LowAF_Base'.'PJ'
+'FI1D7'.'LowAF_Base_HighAF'.'PJ'
+'FI1D7'.'LowAF_Base_LowAF'.'PJ'
+'FI1D7'.'LowAF_Peak'.'PJ'
+'FI1D7'.'LowAF_Peak_HighAF'.'PJ'
+'FI1D7'.'LowAF_Peak_LowAF'.'PJ'
+'FI1D8'.'LowAF_Base'.'PJ'
+'FI1D8'.'LowAF_Base_HighAF'.'PJ'
+'FI1D8'.'LowAF_Base_LowAF'.'PJ'
+'FI1D8'.'LowAF_Peak'.'PJ'
+'FI1D8'.'LowAF_Peak_HighAF'.'PJ'
+'FI1D8'.'LowAF_Peak_LowAF'.'PJ'
 'FI1D9'.'LowAF_Base'.'PJ'
 'FI1D9'.'LowAF_Base_HighAF'.'PJ'
 'FI1D9'.'LowAF_Base_LowAF'.'PJ'
 'FI1D9'.'LowAF_Peak'.'PJ'
 'FI1D9'.'LowAF_Peak_HighAF'.'PJ'
 'FI1D9'.'LowAF_Peak_LowAF'.'PJ'
+'FI1DA'.'LowAF_Base'.'PJ'
+'FI1DA'.'LowAF_Base_HighAF'.'PJ'
+'FI1DA'.'LowAF_Base_LowAF'.'PJ'
+'FI1DA'.'LowAF_Peak'.'PJ'
+'FI1DA'.'LowAF_Peak_HighAF'.'PJ'
+'FI1DA'.'LowAF_Peak_LowAF'.'PJ'
+'FI1DB'.'LowAF_Base'.'PJ'
+'FI1DB'.'LowAF_Base_HighAF'.'PJ'
+'FI1DB'.'LowAF_Base_LowAF'.'PJ'
+'FI1DB'.'LowAF_Peak'.'PJ'
+'FI1DB'.'LowAF_Peak_HighAF'.'PJ'
+'FI1DB'.'LowAF_Peak_LowAF'.'PJ'
+'FI1DC'.'LowAF_Base'.'PJ'
+'FI1DC'.'LowAF_Base_HighAF'.'PJ'
+'FI1DC'.'LowAF_Base_LowAF'.'PJ'
+'FI1DC'.'LowAF_Peak'.'PJ'
+'FI1DC'.'LowAF_Peak_HighAF'.'PJ'
+'FI1DC'.'LowAF_Peak_LowAF'.'PJ'
+'FI200'.'LowAF_Base'.'PJ'
+'FI200'.'LowAF_Base_HighAF'.'PJ'
+'FI200'.'LowAF_Base_LowAF'.'PJ'
+'FI200'.'LowAF_Peak'.'PJ'
+'FI200'.'LowAF_Peak_HighAF'.'PJ'
+'FI200'.'LowAF_Peak_LowAF'.'PJ'
 /;
 
 SET PRC
@@ -232,13 +608,7 @@ SET PRC_MAP
 /
 'FI'.'PRE'.'LowAF_DumBase'
 'FI'.'PRE'.'LowAF_DumPeak'
-'FI'.'PRE'.'LowAF_EEPP_coal_th'
 'FI'.'PRE'.'LowAF_EEPP_HFO_OCGT'
-'FI'.'PRE'.'LowAF_EEPP_HFO_th'
-'FI'.'PRE'.'LowAF_EEPP_lignite_th'
-'FI'.'PRE'.'LowAF_EEPP_natgas_CCGT'
-'FI'.'PRE'.'LowAF_EEPP_natgas_OCGT'
-'FI'.'PRE'.'LowAF_EEPP_naturalgas_th'
 'FI'.'PRE'.'LowAF_EUCCGASCCSpos20'
 'FI'.'PRE'.'LowAF_EUCCGTGAS15'
 'FI'.'PRE'.'LowAF_EUFBCOH15'
@@ -273,6 +643,71 @@ SET PRC_MAP
 'FI'.'PRE'.'LowAF_EUSTHFOsup01'
 'FI'.'PRE'.'LowAF_EUSTWOO01'
 'FI'.'PRE'.'LowAF_EUSTWOOCCS01'
+'FI196'.'PRE'.'LowAF_DumBase'
+'FI196'.'PRE'.'LowAF_DumPeak'
+'FI196'.'PRE'.'LowAF_EEPP_coal_th'
+'FI196'.'PRE'.'LowAF_EEPP_HFO_th'
+'FI196'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI196'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI196'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI199'.'PRE'.'LowAF_DumBase'
+'FI199'.'PRE'.'LowAF_DumPeak'
+'FI199'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI199'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI199'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI19A'.'PRE'.'LowAF_DumBase'
+'FI19A'.'PRE'.'LowAF_DumPeak'
+'FI19A'.'PRE'.'LowAF_EEPP_HFO_th'
+'FI19A'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI19A'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI19A'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1B1'.'PRE'.'LowAF_DumBase'
+'FI1B1'.'PRE'.'LowAF_DumPeak'
+'FI1B1'.'PRE'.'LowAF_EEPP_HFO_th'
+'FI1B1'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1B1'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1B1'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1C1'.'PRE'.'LowAF_DumBase'
+'FI1C1'.'PRE'.'LowAF_DumPeak'
+'FI1C1'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1C1'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1C1'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1C2'.'PRE'.'LowAF_DumBase'
+'FI1C2'.'PRE'.'LowAF_DumPeak'
+'FI1C2'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1C2'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1C2'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1C5'.'PRE'.'LowAF_DumBase'
+'FI1C5'.'PRE'.'LowAF_DumPeak'
+'FI1C5'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1C5'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1C5'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1C6'.'PRE'.'LowAF_DumBase'
+'FI1C6'.'PRE'.'LowAF_DumPeak'
+'FI1C6'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1C6'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1C6'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1C7'.'PRE'.'LowAF_DumBase'
+'FI1C7'.'PRE'.'LowAF_DumPeak'
+'FI1C7'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1C7'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1C7'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1D5'.'PRE'.'LowAF_DumBase'
+'FI1D5'.'PRE'.'LowAF_DumPeak'
+'FI1D5'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1D5'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1D5'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1D9'.'PRE'.'LowAF_DumBase'
+'FI1D9'.'PRE'.'LowAF_DumPeak'
+'FI1D9'.'PRE'.'LowAF_EEPP_lignite_th'
+'FI1D9'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1D9'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1D9'.'PRE'.'LowAF_EEPP_naturalgas_th'
+'FI1DB'.'PRE'.'LowAF_DumBase'
+'FI1DB'.'PRE'.'LowAF_DumPeak'
+'FI1DB'.'PRE'.'LowAF_EEPP_natgas_CCGT'
+'FI1DB'.'PRE'.'LowAF_EEPP_natgas_OCGT'
+'FI1DB'.'PRE'.'LowAF_EEPP_naturalgas_th'
 /;
 
 SET PRC_TSL
@@ -280,13 +715,7 @@ SET PRC_TSL
 /
 'FI'.'LowAF_DumBase'.DAYNITE
 'FI'.'LowAF_DumPeak'.DAYNITE
-'FI'.'LowAF_EEPP_coal_th'.DAYNITE
 'FI'.'LowAF_EEPP_HFO_OCGT'.DAYNITE
-'FI'.'LowAF_EEPP_HFO_th'.DAYNITE
-'FI'.'LowAF_EEPP_lignite_th'.DAYNITE
-'FI'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
-'FI'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
-'FI'.'LowAF_EEPP_naturalgas_th'.DAYNITE
 'FI'.'LowAF_EUCCGASCCSpos20'.DAYNITE
 'FI'.'LowAF_EUCCGTGAS15'.DAYNITE
 'FI'.'LowAF_EUFBCOH15'.DAYNITE
@@ -321,6 +750,71 @@ SET PRC_TSL
 'FI'.'LowAF_EUSTHFOsup01'.DAYNITE
 'FI'.'LowAF_EUSTWOO01'.DAYNITE
 'FI'.'LowAF_EUSTWOOCCS01'.DAYNITE
+'FI196'.'LowAF_DumBase'.DAYNITE
+'FI196'.'LowAF_DumPeak'.DAYNITE
+'FI196'.'LowAF_EEPP_coal_th'.DAYNITE
+'FI196'.'LowAF_EEPP_HFO_th'.DAYNITE
+'FI196'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI196'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI196'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI199'.'LowAF_DumBase'.DAYNITE
+'FI199'.'LowAF_DumPeak'.DAYNITE
+'FI199'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI199'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI199'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI19A'.'LowAF_DumBase'.DAYNITE
+'FI19A'.'LowAF_DumPeak'.DAYNITE
+'FI19A'.'LowAF_EEPP_HFO_th'.DAYNITE
+'FI19A'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI19A'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI19A'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1B1'.'LowAF_DumBase'.DAYNITE
+'FI1B1'.'LowAF_DumPeak'.DAYNITE
+'FI1B1'.'LowAF_EEPP_HFO_th'.DAYNITE
+'FI1B1'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1B1'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1B1'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1C1'.'LowAF_DumBase'.DAYNITE
+'FI1C1'.'LowAF_DumPeak'.DAYNITE
+'FI1C1'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1C1'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1C1'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1C2'.'LowAF_DumBase'.DAYNITE
+'FI1C2'.'LowAF_DumPeak'.DAYNITE
+'FI1C2'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1C2'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1C2'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1C5'.'LowAF_DumBase'.DAYNITE
+'FI1C5'.'LowAF_DumPeak'.DAYNITE
+'FI1C5'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1C5'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1C5'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1C6'.'LowAF_DumBase'.DAYNITE
+'FI1C6'.'LowAF_DumPeak'.DAYNITE
+'FI1C6'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1C6'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1C6'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1C7'.'LowAF_DumBase'.DAYNITE
+'FI1C7'.'LowAF_DumPeak'.DAYNITE
+'FI1C7'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1C7'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1C7'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1D5'.'LowAF_DumBase'.DAYNITE
+'FI1D5'.'LowAF_DumPeak'.DAYNITE
+'FI1D5'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1D5'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1D5'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1D9'.'LowAF_DumBase'.DAYNITE
+'FI1D9'.'LowAF_DumPeak'.DAYNITE
+'FI1D9'.'LowAF_EEPP_lignite_th'.DAYNITE
+'FI1D9'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1D9'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1D9'.'LowAF_EEPP_naturalgas_th'.DAYNITE
+'FI1DB'.'LowAF_DumBase'.DAYNITE
+'FI1DB'.'LowAF_DumPeak'.DAYNITE
+'FI1DB'.'LowAF_EEPP_natgas_CCGT'.DAYNITE
+'FI1DB'.'LowAF_EEPP_natgas_OCGT'.DAYNITE
+'FI1DB'.'LowAF_EEPP_naturalgas_th'.DAYNITE
 /;
 
 SET PRC_ACTUNT
@@ -328,13 +822,7 @@ SET PRC_ACTUNT
 /
 'FI'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
 'FI'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
-'FI'.'LowAF_EEPP_coal_th'.'LOWAF_BASE'.'PJ'
 'FI'.'LowAF_EEPP_HFO_OCGT'.'LOWAF_PEAK'.'PJ'
-'FI'.'LowAF_EEPP_HFO_th'.'LOWAF_PEAK'.'PJ'
-'FI'.'LowAF_EEPP_lignite_th'.'LOWAF_BASE'.'PJ'
-'FI'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
-'FI'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
-'FI'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
 'FI'.'LowAF_EUCCGASCCSpos20'.'LOWAF_BASE'.'PJ'
 'FI'.'LowAF_EUCCGTGAS15'.'LOWAF_BASE'.'PJ'
 'FI'.'LowAF_EUFBCOH15'.'LOWAF_BASE'.'PJ'
@@ -369,6 +857,71 @@ SET PRC_ACTUNT
 'FI'.'LowAF_EUSTHFOsup01'.'LOWAF_PEAK'.'PJ'
 'FI'.'LowAF_EUSTWOO01'.'LOWAF_PEAK'.'PJ'
 'FI'.'LowAF_EUSTWOOCCS01'.'LOWAF_BASE'.'PJ'
+'FI196'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI196'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI196'.'LowAF_EEPP_coal_th'.'LOWAF_BASE'.'PJ'
+'FI196'.'LowAF_EEPP_HFO_th'.'LOWAF_PEAK'.'PJ'
+'FI196'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI196'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI196'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI199'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI199'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI199'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI199'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI199'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI19A'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI19A'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI19A'.'LowAF_EEPP_HFO_th'.'LOWAF_PEAK'.'PJ'
+'FI19A'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI19A'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI19A'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1B1'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1B1'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1B1'.'LowAF_EEPP_HFO_th'.'LOWAF_PEAK'.'PJ'
+'FI1B1'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1B1'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1B1'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1C1'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1C1'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1C1'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1C1'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1C1'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1C2'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1C2'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1C2'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1C2'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1C2'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1C5'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1C5'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1C5'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1C5'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1C5'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1C6'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1C6'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1C6'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1C6'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1C6'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1C7'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1C7'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1C7'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1C7'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1C7'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1D5'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1D5'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1D5'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1D5'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1D5'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1D9'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1D9'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1D9'.'LowAF_EEPP_lignite_th'.'LOWAF_BASE'.'PJ'
+'FI1D9'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1D9'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1D9'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
+'FI1DB'.'LowAF_DumBase'.'LowAF_Base'.'PJ'
+'FI1DB'.'LowAF_DumPeak'.'LowAF_Peak'.'PJ'
+'FI1DB'.'LowAF_EEPP_natgas_CCGT'.'LOWAF_BASE'.'PJ'
+'FI1DB'.'LowAF_EEPP_natgas_OCGT'.'LOWAF_PEAK'.'PJ'
+'FI1DB'.'LowAF_EEPP_naturalgas_th'.'LOWAF_BASE'.'PJ'
 /;
 
 SET TOP
@@ -376,27 +929,9 @@ SET TOP
 /
 'FI'.'LowAF_DumBase'.'LowAF_Base'.OUT
 'FI'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
-'FI'.'LowAF_EEPP_coal_th'.'LowAF_Base'.IN
-'FI'.'LowAF_EEPP_coal_th'.'LowAF_Base_HighAF'.OUT
-'FI'.'LowAF_EEPP_coal_th'.'LowAF_Base_LowAF'.OUT
 'FI'.'LowAF_EEPP_HFO_OCGT'.'LowAF_Peak'.IN
 'FI'.'LowAF_EEPP_HFO_OCGT'.'LowAF_Peak_HighAF'.OUT
 'FI'.'LowAF_EEPP_HFO_OCGT'.'LowAF_Peak_LowAF'.OUT
-'FI'.'LowAF_EEPP_HFO_th'.'LowAF_Peak'.IN
-'FI'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.OUT
-'FI'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.OUT
-'FI'.'LowAF_EEPP_lignite_th'.'LowAF_Base'.IN
-'FI'.'LowAF_EEPP_lignite_th'.'LowAF_Base_HighAF'.OUT
-'FI'.'LowAF_EEPP_lignite_th'.'LowAF_Base_LowAF'.OUT
-'FI'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
-'FI'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
-'FI'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
-'FI'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
-'FI'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
-'FI'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
-'FI'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
-'FI'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
-'FI'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
 'FI'.'LowAF_EUCCGASCCSpos20'.'LowAF_Base'.IN
 'FI'.'LowAF_EUCCGASCCSpos20'.'LowAF_Base_HighAF'.OUT
 'FI'.'LowAF_EUCCGASCCSpos20'.'LowAF_Base_LowAF'.OUT
@@ -499,29 +1034,278 @@ SET TOP
 'FI'.'LowAF_EUSTWOOCCS01'.'LowAF_Base'.IN
 'FI'.'LowAF_EUSTWOOCCS01'.'LowAF_Base_HighAF'.OUT
 'FI'.'LowAF_EUSTWOOCCS01'.'LowAF_Base_LowAF'.OUT
+'FI196'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI196'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI196'.'LowAF_EEPP_coal_th'.'LowAF_Base'.IN
+'FI196'.'LowAF_EEPP_coal_th'.'LowAF_Base_HighAF'.OUT
+'FI196'.'LowAF_EEPP_coal_th'.'LowAF_Base_LowAF'.OUT
+'FI196'.'LowAF_EEPP_HFO_th'.'LowAF_Peak'.IN
+'FI196'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.OUT
+'FI196'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.OUT
+'FI196'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI196'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI196'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI196'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI196'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI196'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI196'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI196'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI196'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI199'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI199'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI199'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI199'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI199'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI199'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI199'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI199'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI199'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI199'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI199'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI19A'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI19A'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI19A'.'LowAF_EEPP_HFO_th'.'LowAF_Peak'.IN
+'FI19A'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.OUT
+'FI19A'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.OUT
+'FI19A'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI19A'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI19A'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI19A'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI19A'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI19A'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI19A'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI19A'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI19A'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1B1'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1B1'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1B1'.'LowAF_EEPP_HFO_th'.'LowAF_Peak'.IN
+'FI1B1'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.OUT
+'FI1B1'.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.OUT
+'FI1B1'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1B1'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1B1'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1B1'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1B1'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1B1'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1B1'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1B1'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1B1'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1C1'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1C1'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1C1'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1C1'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1C1'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1C1'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1C1'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1C1'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1C1'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1C1'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1C1'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1C2'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1C2'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1C2'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1C2'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1C2'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1C2'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1C2'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1C2'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1C2'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1C2'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1C2'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1C5'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1C5'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1C5'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1C5'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1C5'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1C5'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1C5'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1C5'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1C5'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1C5'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1C5'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1C6'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1C6'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1C6'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1C6'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1C6'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1C6'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1C6'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1C6'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1C6'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1C6'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1C6'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1C7'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1C7'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1C7'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1C7'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1C7'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1C7'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1C7'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1C7'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1C7'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1C7'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1C7'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1D5'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1D5'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1D5'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1D5'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1D5'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1D5'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1D5'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1D5'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1D5'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1D5'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1D5'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1D9'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1D9'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1D9'.'LowAF_EEPP_lignite_th'.'LowAF_Base'.IN
+'FI1D9'.'LowAF_EEPP_lignite_th'.'LowAF_Base_HighAF'.OUT
+'FI1D9'.'LowAF_EEPP_lignite_th'.'LowAF_Base_LowAF'.OUT
+'FI1D9'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1D9'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1D9'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1D9'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1D9'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1D9'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1D9'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1D9'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1D9'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
+'FI1DB'.'LowAF_DumBase'.'LowAF_Base'.OUT
+'FI1DB'.'LowAF_DumPeak'.'LowAF_Peak'.OUT
+'FI1DB'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base'.IN
+'FI1DB'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.OUT
+'FI1DB'.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.OUT
+'FI1DB'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak'.IN
+'FI1DB'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.OUT
+'FI1DB'.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.OUT
+'FI1DB'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base'.IN
+'FI1DB'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.OUT
+'FI1DB'.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.OUT
 /;
 
 SET TOP_IRE
 
 /
 'IMPEXP'.'LowAF_Base'.'FI'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI196'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI198'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI199'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI19A'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI19B'.'LowAF_Base'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base'.'FI1B1'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1C1'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1C2'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1C5'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1C6'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1C7'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1D5'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1D7'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1D8'.'LowAF_Base'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base'.'FI1D9'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1DA'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1DB'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI1DC'.'LowAF_Base'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base'.'FI200'.'LowAF_Base'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base_HighAF'.'FI'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI196'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI198'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI199'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI19A'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI19B'.'LowAF_Base_HighAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base_HighAF'.'FI1B1'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1C1'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1C2'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1C5'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1C6'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1C7'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1D5'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1D7'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1D8'.'LowAF_Base_HighAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base_HighAF'.'FI1D9'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1DA'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1DB'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI1DC'.'LowAF_Base_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_HighAF'.'FI200'.'LowAF_Base_HighAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base_LowAF'.'FI'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI196'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI198'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI199'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI19A'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI19B'.'LowAF_Base_LowAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base_LowAF'.'FI1B1'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1C1'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1C2'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1C5'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1C6'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1C7'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1D5'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1D7'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1D8'.'LowAF_Base_LowAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Base_LowAF'.'FI1D9'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1DA'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1DB'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI1DC'.'LowAF_Base_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Base_LowAF'.'FI200'.'LowAF_Base_LowAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak'.'FI'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI196'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI198'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI199'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI19A'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI19B'.'LowAF_Peak'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak'.'FI1B1'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1C1'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1C2'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1C5'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1C6'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1C7'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1D5'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1D7'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1D8'.'LowAF_Peak'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak'.'FI1D9'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1DA'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1DB'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI1DC'.'LowAF_Peak'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak'.'FI200'.'LowAF_Peak'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak_HighAF'.'FI'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI196'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI198'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI199'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI19A'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI19B'.'LowAF_Peak_HighAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak_HighAF'.'FI1B1'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1C1'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1C2'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1C5'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1C6'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1C7'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1D5'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1D7'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1D8'.'LowAF_Peak_HighAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak_HighAF'.'FI1D9'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1DA'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1DB'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI1DC'.'LowAF_Peak_HighAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_HighAF'.'FI200'.'LowAF_Peak_HighAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak_LowAF'.'FI'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI196'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI198'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI199'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI19A'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI19B'.'LowAF_Peak_LowAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak_LowAF'.'FI1B1'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1C1'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1C2'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1C5'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1C6'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1C7'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1D5'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1D7'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1D8'.'LowAF_Peak_LowAF'.'IMPNRGZ'
 'IMPEXP'.'LowAF_Peak_LowAF'.'FI1D9'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1DA'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1DB'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI1DC'.'LowAF_Peak_LowAF'.'IMPNRGZ'
+'IMPEXP'.'LowAF_Peak_LowAF'.'FI200'.'LowAF_Peak_LowAF'.'IMPNRGZ'
 /;
 
 SET PRC_DESC
@@ -529,13 +1313,7 @@ SET PRC_DESC
 /
 'FI'.'LowAF_DumBase' 'Dummy to collect all Base'
 'FI'.'LowAF_DumPeak' 'Dummy to collect all Peak'
-'FI'.'LowAF_EEPP_coal_th' 'Existing coal thermal_lowAF'
 'FI'.'LowAF_EEPP_HFO_OCGT' 'Existing HFO OCGT_lowAF'
-'FI'.'LowAF_EEPP_HFO_th' 'Existing HFO_lowAF'
-'FI'.'LowAF_EEPP_lignite_th' 'Existing lignite thermal_lowAF'
-'FI'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
-'FI'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
-'FI'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
 'FI'.'LowAF_EUCCGASCCSpos20' 'CCGT Combined Cycle Gas Turbine + CCS Seq post combustion_lowAF'
 'FI'.'LowAF_EUCCGTGAS15' 'Gas Turbine Combined Cycle Gas Advanced_lowAF'
 'FI'.'LowAF_EUFBCOH15' 'Fluidized Bed Combustion Coal_lowAF'
@@ -570,6 +1348,71 @@ SET PRC_DESC
 'FI'.'LowAF_EUSTHFOsup01' 'Steam Turbine Fuel Oil Supercritical_lowAF'
 'FI'.'LowAF_EUSTWOO01' 'Fluidized Bed Boiler Biomass + steam turbine_lowAF'
 'FI'.'LowAF_EUSTWOOCCS01' 'Fluidized Bed Biomass + CCS Seq post combustion_lowAF'
+'FI196'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI196'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI196'.'LowAF_EEPP_coal_th' 'Existing coal thermal_lowAF'
+'FI196'.'LowAF_EEPP_HFO_th' 'Existing HFO_lowAF'
+'FI196'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI196'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI196'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI199'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI199'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI199'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI199'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI199'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI19A'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI19A'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI19A'.'LowAF_EEPP_HFO_th' 'Existing HFO_lowAF'
+'FI19A'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI19A'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI19A'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1B1'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1B1'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1B1'.'LowAF_EEPP_HFO_th' 'Existing HFO_lowAF'
+'FI1B1'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1B1'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1B1'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1C1'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1C1'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1C1'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1C1'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1C1'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1C2'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1C2'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1C2'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1C2'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1C2'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1C5'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1C5'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1C5'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1C5'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1C5'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1C6'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1C6'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1C6'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1C6'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1C6'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1C7'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1C7'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1C7'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1C7'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1C7'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1D5'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1D5'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1D5'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1D5'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1D5'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1D9'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1D9'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1D9'.'LowAF_EEPP_lignite_th' 'Existing lignite thermal_lowAF'
+'FI1D9'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1D9'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1D9'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
+'FI1DB'.'LowAF_DumBase' 'Dummy to collect all Base'
+'FI1DB'.'LowAF_DumPeak' 'Dummy to collect all Peak'
+'FI1DB'.'LowAF_EEPP_natgas_CCGT' 'Existing NG CCGT_lowAF'
+'FI1DB'.'LowAF_EEPP_natgas_OCGT' 'Existing NG OCGT_lowAF'
+'FI1DB'.'LowAF_EEPP_naturalgas_th' 'Existing NG Thermal_lowAF'
 /;
 
 SET COM_DESC
@@ -581,37 +1424,127 @@ SET COM_DESC
 'FI'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
 'FI'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
 'FI'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI196'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI196'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI196'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI196'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI196'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI196'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI198'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI198'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI198'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI198'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI198'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI198'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI199'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI199'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI199'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI199'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI199'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI199'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI19A'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI19A'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI19A'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI19A'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI19A'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI19A'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI19B'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI19B'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI19B'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI19B'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI19B'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI19B'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
 'FI1B1'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
 'FI1B1'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
 'FI1B1'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
 'FI1B1'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
 'FI1B1'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
 'FI1B1'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1C1'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1C1'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1C1'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1C1'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1C1'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1C1'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1C2'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1C2'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1C2'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1C2'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1C2'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1C2'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1C5'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1C5'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1C5'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1C5'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1C5'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1C5'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1C6'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1C6'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1C6'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1C6'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1C6'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1C6'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1C7'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1C7'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1C7'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1C7'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1C7'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1C7'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1D5'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1D5'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1D5'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1D5'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1D5'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1D5'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1D7'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1D7'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1D7'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1D7'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1D7'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1D7'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1D8'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1D8'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1D8'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1D8'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1D8'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1D8'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
 'FI1D9'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
 'FI1D9'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
 'FI1D9'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
 'FI1D9'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
 'FI1D9'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
 'FI1D9'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1DA'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1DA'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1DA'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1DA'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1DA'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1DA'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1DB'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1DB'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1DB'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1DB'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1DB'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1DB'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI1DC'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI1DC'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI1DC'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI1DC'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI1DC'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI1DC'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
+'FI200'.'LowAF_Base' 'Pseudo Activity Base to calculate Capacity'
+'FI200'.'LowAF_Base_HighAF' 'Activity of Base plant HighAF'
+'FI200'.'LowAF_Base_LowAF' 'Activity of Base plant LowAF'
+'FI200'.'LowAF_Peak' 'Pseudo Activity Peak to calculate Capacity'
+'FI200'.'LowAF_Peak_HighAF' 'Activity of Peak plant HighAF'
+'FI200'.'LowAF_Peak_LowAF' 'Activity of Peak plant LowAF'
 /;
 
 PARAMETER
 
 ACT_EFF ' '/
-'FI'.2010.'LowAF_EEPP_coal_th'.'LowAF_Base_HighAF'.ANNUAL 1
-'FI'.2010.'LowAF_EEPP_coal_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
 'FI'.2010.'LowAF_EEPP_HFO_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
 'FI'.2010.'LowAF_EEPP_HFO_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
-'FI'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.ANNUAL 1
-'FI'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
-'FI'.2010.'LowAF_EEPP_lignite_th'.'LowAF_Base_HighAF'.ANNUAL 1
-'FI'.2010.'LowAF_EEPP_lignite_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
-'FI'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
-'FI'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
-'FI'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
-'FI'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
-'FI'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
-'FI'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
 'FI'.2010.'LowAF_EUCCGASCCSpos20'.'LowAF_Base_HighAF'.ANNUAL 1
 'FI'.2010.'LowAF_EUCCGASCCSpos20'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
 'FI'.2010.'LowAF_EUCCGTGAS15'.'LowAF_Base_HighAF'.ANNUAL 1
@@ -680,6 +1613,88 @@ ACT_EFF ' '/
 'FI'.2010.'LowAF_EUSTWOO01'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
 'FI'.2010.'LowAF_EUSTWOOCCS01'.'LowAF_Base_HighAF'.ANNUAL 1
 'FI'.2010.'LowAF_EUSTWOOCCS01'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI196'.2010.'LowAF_EEPP_coal_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI196'.2010.'LowAF_EEPP_coal_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI196'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI196'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI196'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI196'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI196'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI196'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI196'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI196'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI199'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI199'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI199'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI199'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI199'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI199'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI19A'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI19A'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI19A'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI19A'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI19A'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI19A'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI19A'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI19A'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1B1'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1B1'.2010.'LowAF_EEPP_HFO_th'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1B1'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1B1'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1B1'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1B1'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1B1'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1B1'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C1'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C1'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C1'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1C1'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1C1'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C1'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C2'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C2'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C2'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1C2'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1C2'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C2'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C5'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C5'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C5'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1C5'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1C5'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C5'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C6'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C6'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C6'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1C6'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1C6'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C6'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C7'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C7'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1C7'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1C7'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1C7'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1C7'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1D5'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1D5'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1D5'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1D5'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1D5'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1D5'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1D9'.2010.'LowAF_EEPP_lignite_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1D9'.2010.'LowAF_EEPP_lignite_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1D9'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1D9'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1D9'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1D9'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1D9'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1D9'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1DB'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1DB'.2010.'LowAF_EEPP_natgas_CCGT'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
+'FI1DB'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_HighAF'.ANNUAL 1
+'FI1DB'.2010.'LowAF_EEPP_natgas_OCGT'.'LowAF_Peak_LowAF'.ANNUAL 6.66666666666667
+'FI1DB'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_HighAF'.ANNUAL 1
+'FI1DB'.2010.'LowAF_EEPP_naturalgas_th'.'LowAF_Base_LowAF'.ANNUAL 1.78571428571429
 /;
 
 PARAMETER
@@ -1105,18 +2120,300 @@ NCAP_AF ' '/
 'FI'.2010.'LowAF_EUSTWOOCCS01'.WD.UP 1
 'FI'.2010.'LowAF_EUSTWOOCCS01'.WN.UP 1
 'FI'.2010.'LowAF_EUSTWOOCCS01'.WP.UP 1
+'FI196'.2010.'LowAF_DumBase'.FD.UP 1
+'FI196'.2010.'LowAF_DumBase'.FN.UP 1
+'FI196'.2010.'LowAF_DumBase'.FP.UP 1
+'FI196'.2010.'LowAF_DumBase'.RD.UP 1
+'FI196'.2010.'LowAF_DumBase'.RN.UP 1
+'FI196'.2010.'LowAF_DumBase'.RP.UP 1
+'FI196'.2010.'LowAF_DumBase'.SD.UP 1
+'FI196'.2010.'LowAF_DumBase'.SN.UP 1
+'FI196'.2010.'LowAF_DumBase'.SP.UP 1
+'FI196'.2010.'LowAF_DumBase'.WD.UP 1
+'FI196'.2010.'LowAF_DumBase'.WN.UP 1
+'FI196'.2010.'LowAF_DumBase'.WP.UP 1
+'FI196'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI196'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI196'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI196'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI196'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI196'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI196'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI196'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI196'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI196'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI196'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI196'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI199'.2010.'LowAF_DumBase'.FD.UP 1
+'FI199'.2010.'LowAF_DumBase'.FN.UP 1
+'FI199'.2010.'LowAF_DumBase'.FP.UP 1
+'FI199'.2010.'LowAF_DumBase'.RD.UP 1
+'FI199'.2010.'LowAF_DumBase'.RN.UP 1
+'FI199'.2010.'LowAF_DumBase'.RP.UP 1
+'FI199'.2010.'LowAF_DumBase'.SD.UP 1
+'FI199'.2010.'LowAF_DumBase'.SN.UP 1
+'FI199'.2010.'LowAF_DumBase'.SP.UP 1
+'FI199'.2010.'LowAF_DumBase'.WD.UP 1
+'FI199'.2010.'LowAF_DumBase'.WN.UP 1
+'FI199'.2010.'LowAF_DumBase'.WP.UP 1
+'FI199'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI199'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI199'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI199'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI199'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI199'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI199'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI199'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI199'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI199'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI199'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI199'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI19A'.2010.'LowAF_DumBase'.FD.UP 1
+'FI19A'.2010.'LowAF_DumBase'.FN.UP 1
+'FI19A'.2010.'LowAF_DumBase'.FP.UP 1
+'FI19A'.2010.'LowAF_DumBase'.RD.UP 1
+'FI19A'.2010.'LowAF_DumBase'.RN.UP 1
+'FI19A'.2010.'LowAF_DumBase'.RP.UP 1
+'FI19A'.2010.'LowAF_DumBase'.SD.UP 1
+'FI19A'.2010.'LowAF_DumBase'.SN.UP 1
+'FI19A'.2010.'LowAF_DumBase'.SP.UP 1
+'FI19A'.2010.'LowAF_DumBase'.WD.UP 1
+'FI19A'.2010.'LowAF_DumBase'.WN.UP 1
+'FI19A'.2010.'LowAF_DumBase'.WP.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI19A'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1B1'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1B1'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1C1'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1C1'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1C2'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1C2'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1C5'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1C5'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1C6'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1C6'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1C7'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1C7'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1D5'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1D5'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1D9'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1D9'.2010.'LowAF_DumPeak'.WP.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.FD.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.FN.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.FP.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.RD.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.RN.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.RP.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.SD.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.SN.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.SP.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.WD.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.WN.UP 1
+'FI1DB'.2010.'LowAF_DumBase'.WP.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.FD.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.FN.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.FP.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.RD.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.RN.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.RP.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.SD.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.SN.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.SP.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.WD.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.WN.UP 1
+'FI1DB'.2010.'LowAF_DumPeak'.WP.UP 1
 /;
 
 PARAMETER
 
 NCAP_START ' '/
-'FI'.'LowAF_EEPP_coal_th' 2006
 'FI'.'LowAF_EEPP_HFO_OCGT' 2006
-'FI'.'LowAF_EEPP_HFO_th' 2006
-'FI'.'LowAF_EEPP_lignite_th' 2006
-'FI'.'LowAF_EEPP_natgas_CCGT' 2006
-'FI'.'LowAF_EEPP_natgas_OCGT' 2006
-'FI'.'LowAF_EEPP_naturalgas_th' 2006
 'FI'.'LowAF_EUCCGASCCSpos20' 2025
 'FI'.'LowAF_EUCCGTGAS15' 2015
 'FI'.'LowAF_EUFBCOH15' 2015
@@ -1151,6 +2448,47 @@ NCAP_START ' '/
 'FI'.'LowAF_EUSTHFOsup01' 2006
 'FI'.'LowAF_EUSTWOO01' 2006
 'FI'.'LowAF_EUSTWOOCCS01' 2025
+'FI196'.'LowAF_EEPP_coal_th' 2006
+'FI196'.'LowAF_EEPP_HFO_th' 2006
+'FI196'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI196'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI196'.'LowAF_EEPP_naturalgas_th' 2006
+'FI199'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI199'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI199'.'LowAF_EEPP_naturalgas_th' 2006
+'FI19A'.'LowAF_EEPP_HFO_th' 2006
+'FI19A'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI19A'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI19A'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1B1'.'LowAF_EEPP_HFO_th' 2006
+'FI1B1'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1B1'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1B1'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1C1'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1C1'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1C1'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1C2'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1C2'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1C2'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1C5'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1C5'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1C5'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1C6'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1C6'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1C6'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1C7'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1C7'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1C7'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1D5'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1D5'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1D5'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1D9'.'LowAF_EEPP_lignite_th' 2006
+'FI1D9'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1D9'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1D9'.'LowAF_EEPP_naturalgas_th' 2006
+'FI1DB'.'LowAF_EEPP_natgas_CCGT' 2006
+'FI1DB'.'LowAF_EEPP_natgas_OCGT' 2006
+'FI1DB'.'LowAF_EEPP_naturalgas_th' 2006
 /;
 
 PARAMETER
@@ -1158,13 +2496,7 @@ PARAMETER
 NCAP_TLIFE ' '/
 'FI'.2010.'LowAF_DumBase' 10
 'FI'.2010.'LowAF_DumPeak' 10
-'FI'.2010.'LowAF_EEPP_coal_th' 10
 'FI'.2010.'LowAF_EEPP_HFO_OCGT' 10
-'FI'.2010.'LowAF_EEPP_HFO_th' 10
-'FI'.2010.'LowAF_EEPP_lignite_th' 10
-'FI'.2010.'LowAF_EEPP_natgas_CCGT' 10
-'FI'.2010.'LowAF_EEPP_natgas_OCGT' 10
-'FI'.2010.'LowAF_EEPP_naturalgas_th' 10
 'FI'.2010.'LowAF_EUCCGASCCSpos20' 30
 'FI'.2010.'LowAF_EUCCGTGAS15' 30
 'FI'.2010.'LowAF_EUFBCOH15' 35
@@ -1199,6 +2531,71 @@ NCAP_TLIFE ' '/
 'FI'.2010.'LowAF_EUSTHFOsup01' 30
 'FI'.2010.'LowAF_EUSTWOO01' 25
 'FI'.2010.'LowAF_EUSTWOOCCS01' 25
+'FI196'.2010.'LowAF_DumBase' 10
+'FI196'.2010.'LowAF_DumPeak' 10
+'FI196'.2010.'LowAF_EEPP_coal_th' 10
+'FI196'.2010.'LowAF_EEPP_HFO_th' 10
+'FI196'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI196'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI196'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI199'.2010.'LowAF_DumBase' 10
+'FI199'.2010.'LowAF_DumPeak' 10
+'FI199'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI199'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI199'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI19A'.2010.'LowAF_DumBase' 10
+'FI19A'.2010.'LowAF_DumPeak' 10
+'FI19A'.2010.'LowAF_EEPP_HFO_th' 10
+'FI19A'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI19A'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI19A'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1B1'.2010.'LowAF_DumBase' 10
+'FI1B1'.2010.'LowAF_DumPeak' 10
+'FI1B1'.2010.'LowAF_EEPP_HFO_th' 10
+'FI1B1'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1B1'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1B1'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1C1'.2010.'LowAF_DumBase' 10
+'FI1C1'.2010.'LowAF_DumPeak' 10
+'FI1C1'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1C1'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1C1'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1C2'.2010.'LowAF_DumBase' 10
+'FI1C2'.2010.'LowAF_DumPeak' 10
+'FI1C2'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1C2'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1C2'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1C5'.2010.'LowAF_DumBase' 10
+'FI1C5'.2010.'LowAF_DumPeak' 10
+'FI1C5'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1C5'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1C5'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1C6'.2010.'LowAF_DumBase' 10
+'FI1C6'.2010.'LowAF_DumPeak' 10
+'FI1C6'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1C6'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1C6'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1C7'.2010.'LowAF_DumBase' 10
+'FI1C7'.2010.'LowAF_DumPeak' 10
+'FI1C7'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1C7'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1C7'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1D5'.2010.'LowAF_DumBase' 10
+'FI1D5'.2010.'LowAF_DumPeak' 10
+'FI1D5'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1D5'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1D5'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1D9'.2010.'LowAF_DumBase' 10
+'FI1D9'.2010.'LowAF_DumPeak' 10
+'FI1D9'.2010.'LowAF_EEPP_lignite_th' 10
+'FI1D9'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1D9'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1D9'.2010.'LowAF_EEPP_naturalgas_th' 10
+'FI1DB'.2010.'LowAF_DumBase' 10
+'FI1DB'.2010.'LowAF_DumPeak' 10
+'FI1DB'.2010.'LowAF_EEPP_natgas_CCGT' 10
+'FI1DB'.2010.'LowAF_EEPP_natgas_OCGT' 10
+'FI1DB'.2010.'LowAF_EEPP_naturalgas_th' 10
 /;
 
 PARAMETER
@@ -1206,13 +2603,7 @@ PARAMETER
 PRC_CAPACT ' '/
 'FI'.'LowAF_DumBase' 31.536
 'FI'.'LowAF_DumPeak' 31.536
-'FI'.'LowAF_EEPP_coal_th' 31.536
 'FI'.'LowAF_EEPP_HFO_OCGT' 31.536
-'FI'.'LowAF_EEPP_HFO_th' 31.536
-'FI'.'LowAF_EEPP_lignite_th' 31.536
-'FI'.'LowAF_EEPP_natgas_CCGT' 31.536
-'FI'.'LowAF_EEPP_natgas_OCGT' 31.536
-'FI'.'LowAF_EEPP_naturalgas_th' 31.536
 'FI'.'LowAF_EUCCGASCCSpos20' 31.536
 'FI'.'LowAF_EUCCGTGAS15' 31.536
 'FI'.'LowAF_EUFBCOH15' 31.536
@@ -1247,6 +2638,71 @@ PRC_CAPACT ' '/
 'FI'.'LowAF_EUSTHFOsup01' 31.536
 'FI'.'LowAF_EUSTWOO01' 31.536
 'FI'.'LowAF_EUSTWOOCCS01' 31.536
+'FI196'.'LowAF_DumBase' 31.536
+'FI196'.'LowAF_DumPeak' 31.536
+'FI196'.'LowAF_EEPP_coal_th' 31.536
+'FI196'.'LowAF_EEPP_HFO_th' 31.536
+'FI196'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI196'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI196'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI199'.'LowAF_DumBase' 31.536
+'FI199'.'LowAF_DumPeak' 31.536
+'FI199'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI199'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI199'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI19A'.'LowAF_DumBase' 31.536
+'FI19A'.'LowAF_DumPeak' 31.536
+'FI19A'.'LowAF_EEPP_HFO_th' 31.536
+'FI19A'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI19A'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI19A'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1B1'.'LowAF_DumBase' 31.536
+'FI1B1'.'LowAF_DumPeak' 31.536
+'FI1B1'.'LowAF_EEPP_HFO_th' 31.536
+'FI1B1'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1B1'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1B1'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1C1'.'LowAF_DumBase' 31.536
+'FI1C1'.'LowAF_DumPeak' 31.536
+'FI1C1'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1C1'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1C1'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1C2'.'LowAF_DumBase' 31.536
+'FI1C2'.'LowAF_DumPeak' 31.536
+'FI1C2'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1C2'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1C2'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1C5'.'LowAF_DumBase' 31.536
+'FI1C5'.'LowAF_DumPeak' 31.536
+'FI1C5'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1C5'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1C5'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1C6'.'LowAF_DumBase' 31.536
+'FI1C6'.'LowAF_DumPeak' 31.536
+'FI1C6'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1C6'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1C6'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1C7'.'LowAF_DumBase' 31.536
+'FI1C7'.'LowAF_DumPeak' 31.536
+'FI1C7'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1C7'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1C7'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1D5'.'LowAF_DumBase' 31.536
+'FI1D5'.'LowAF_DumPeak' 31.536
+'FI1D5'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1D5'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1D5'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1D9'.'LowAF_DumBase' 31.536
+'FI1D9'.'LowAF_DumPeak' 31.536
+'FI1D9'.'LowAF_EEPP_lignite_th' 31.536
+'FI1D9'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1D9'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1D9'.'LowAF_EEPP_naturalgas_th' 31.536
+'FI1DB'.'LowAF_DumBase' 31.536
+'FI1DB'.'LowAF_DumPeak' 31.536
+'FI1DB'.'LowAF_EEPP_natgas_CCGT' 31.536
+'FI1DB'.'LowAF_EEPP_natgas_OCGT' 31.536
+'FI1DB'.'LowAF_EEPP_naturalgas_th' 31.536
 /;
 
 
