@@ -155,6 +155,33 @@ zero-cost curtailment choices, the barrier-only (solutiontype 2) solution spread
 The single-region reference is baseline-new (2026-11-11); a fresh single-region run is needed for the
 final regression check.
 
+## 8. Final server runs (2026-11-16): step 3 PASSES
+
+| Run | Objective (M EUR) | Check |
+|---|---|---|
+| single-region Baseline (FI), today | 1,529,919.8846 | identical to baseline-new (2026-11-11): objective, 7,547 capacities, 225 emissions (`checks/single_regression.md`) -> single mode unchanged by tasks 0 and 3 |
+| regional FI + 19 (run 3) | 1,529,550.8204 | -369.06 (-0.0241 %) vs single = same gap as the empty-region skeleton before step 3; local test 1,529,551.0 |
+
+Audit `audit/run_task3_final.md`, scan `audit/regional_scan_task3_final.md`, checks `checks/task3_power.md`:
+- hard checks pass: no dummy imports; COM_PROJ and NCAP_PASTI conserved; no moved-class activity on the hub;
+  no coal/peat capacity from 2030; no regional peak equations; every national CO2 target sums 20 regions;
+- no grid losses in the regions, no emission factors on links (scan sections 3-4), no national bound or
+  RHS repeated per region, no FI-only constraint over moved plants;
+- electricity and heat production as in the single run; nuclear, fossil and biomass plants within 0.5 %;
+- constraints binding in only one run (steel route share TUC_Istruc_RIR-CYC, van fuel share
+  TUC_TRA_Lcv-Lpg): physical results identical (steel routes, vans within 0.1), degenerate duals.
+
+Known, accepted for now (later steps):
+1. Existing PV -6.5 %, hydro -0.5 % (cost below 0.001 M EUR): with surplus power the model curtails a
+   regional plant (link cost 1e-4) rather than a hub plant; goes away when regions can build (step 7).
+2. AF profiles of wind/PV/hydro national in every region (yellow) - step 7 (reV/ENSPRESO).
+3. New power plants only on the hub; one national peak/reserve - step 7 with the grid.
+4. Surplus penalties COM_TAXNET (HETHTH, IIS/MIS commodities) in every region: equivalent while surpluses
+   can be sent to the hub; revisit when heat demand moves (step 5).
+5. NCAP_START 2028 on TB_INDSCO2N_FI_FI1D9 (general rule in zietassumptions): captured CO2 from the
+   steel plant cannot reach the hub before 2028; capture there starts later (no flow before 2028).
+6. Coal-link CAP_BND from 2030 (coal phase-out filter by input) - harmless.
+
 ## 5. Server run
 
 1. Pull branch `reg/full`. Open `select_model.xlsm` and switch to Reg-FINTIMES, then
