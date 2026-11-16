@@ -135,3 +135,42 @@ FI1C5 0.016; AOD, ferrochrome FI1D7; BOF FI1D9; copper FI196; glass FI1C7); FI c
 with xl2times (checked in VEDA's DD files after the sync): topology of the IND-table processes (xl2times
 shows none, also for the validated pilot blast furnace) and the HVO vintage split (formula-bearing
 ~TFM_INS is skipped by xl2times).
+
+## 9. First 4a server run (2026-11-16) and the corrections
+
+Server run `runs/reg_baseline-sami_2026-11-16_task4a.gdx`: optimal, no dummy imports, COM_PROJ /
+NCAP_PASTI / PRC_RESID conserved, objective 1,535,236.42 = **+0.35 %** vs the single run
+1,529,919.88 (before 4a: -0.024 %). Audit `audit/run_task4a.md`. Diagnosed by comparing every
+parameter of every moved process (single FI vs its site) and by local solves of the server DD files
+with each correction (TIMES 4.8.3, CPLEX barrier):
+
+| # | Defect (4a) | Effect | Correction (`tools/task4_industry.py --step insert`, `--step fix`) |
+|---|---|---|---|
+| 1 | Copy-mode plants (13 `*00` steel processes + refinery-gas CHP) kept a declaration on the hub without stock or capacity cost. TIMES (`pp_reduce.red`, REDUCE=YES) gives such a process **no capacity variable** | free, unlimited converter/finishing/sinter/cupola/CHP on the hub (new audit check K) | declared only at their sites |
+| 2 | Route-share fills `FILL-IIS` (crude steel) and `FILL-IALICU` (copper) read stocks of region FI only | all shares 0: scrap route capped at 0 (no new EAF), copper >= 99 % primary lost | fills read every region (as the pilot's MISRIR table), shares from the sum; copper constraint national; `UC_IRE-I` corrections on `TB_MISCST_*`, `TB_MCUSCU_*` |
+| 3 | Aggregates `INDFINSOLID`, `INDFINGAS` declared on the hub only, so `COM_AGG` and the `RS_PRD_*` production term existed only there, while the 4a `UC_IRE-I` corrections subtracted regional imports | coke delivered to Raahe penalised by the LO dual (121 EUR/unit in 2015): sinter, pellets, FeCr idle at their sites | aggregates declared in every region (SysSettings) |
+| 4 | VEDA lets the original table's generic `2010` value beat the `Reg_IND` copy of the calibrated FI value | AOD, EAF, FeCr at their sites with generic coefficients | generic cells of copied rows blank in Reg mode (9 cells) |
+| 5 | Refinery table column `FI~LO` (lower output shares) not switched | Porvoo free to choose its product mix: 2-7x activity 2030-2050, +21,000 MEUR crude imports | header `FI1B1~LO` in Reg mode |
+| 6 | `NETSCO2` (non-ETS CO2) not declared in the regions | copper's non-ETS emissions dropped | Reg-only declaration row (as ELCCO2N/ETSCO2 in task 3) |
+
+Not losses (checked): `FLO_BND` UP 0 on `INDCOL` (no such input), `FLO_PKCOI` of refinery heat (heat
+peak only on the hub since task 3), `ACT_BND` (national-sum UCs since task 0). Pending for step 7:
+`UC_DecrCCSIND` (hub-only zero-RHS constraint on industrial CCS; lost the Raahe CCS blast furnace;
+not binding in either run).
+
+Local emulations of the corrections on the server DD files (objective vs single):
+1 alone -0.47 %; 1+2 +0.69 %; 1+2+3 (aggregates declared only) +0.69 %; + RS_PRD terms in the
+regions and 4: +0.27 %; + 5 and 6: +0.43 %. Steel 2010-2025 and the refinery now match the single
+run; still open: after 2030 hydrogen DRI replaces EAF and BF-CCS (being diagnosed by fixing the
+single-run steel activity and asking CPLEX for the conflict).
+
+Applied 2026-11-17 (with approval): `--step insert` (10 empty rows at `Scen_UC-IND` `UC-IIS` row 24,
+the UP table moves to rows 37-42) and `--step fix` (206 cells in 4 workbooks: Scen_UC-IND 176,
+SysSettings 7, VT_FINTIMES_IND 22, VT_FINTIMES_SUP 1; dry run `audit/task4a_fix_dryrun.txt`).
+Checks: every edited cell keeps its single-region value after recalculation; single-mode raw tables
+of the whole model (xl2times) identical to the last commit (only the moved `UC-IIS` table changed its
+address, content identical); no formula lost or changed outside the plan in the 4 workbooks.
+
+Not yet in the workbooks (no effect in the local tests, kept for step 7): `UC_DecrCCSIND` as a
+national sum (tested: objective unchanged); `UC_IRE-I` corrections for `UCI_UP_CHPShare-*` and
+`TUC_MinShareofCenELCinINDELC` (not binding). Growth constraints `UC_Growth_*` are R_S with FI only.

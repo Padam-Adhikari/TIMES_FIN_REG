@@ -4,10 +4,11 @@ refinery-gas autoproducers to their regions. Design: audit/task4_industry.md.
 Mechanisms (all Reg mode only; single-region values unchanged):
   * switch  - a data table whose moved processes all go to ONE site and that holds no other process:
               its `FI` header becomes the site (as in the steel pilot); the process is declared only there.
-  * copy    - otherwise: the process is declared on FI and in its regions; FI keeps its calibrated
-              coefficients with stock 0; a Reg-only sheet `Reg_<book>` carries one row per calibrated
-              `FI` cell with one column per region: formulas on the original cell (coefficients
-              copied, STOCK x regional share). The FI STOCK cell gets 0 in Reg mode.
+  * copy    - otherwise: the process is declared only in its regions (not on the hub: a hub copy
+              without stock or capacity cost has no capacity variable in TIMES and runs for free);
+              a Reg-only sheet `Reg_<book>` carries one row per calibrated `FI` cell with one column
+              per region: formulas on the original cell (coefficients copied, STOCK x regional share).
+              The FI STOCK row is commented out in Reg mode.
   * SubRES  - HVO: availability and existing capacity (by vintage) in its two sites (Trans file).
   * UCs     - FI-only constraints over moved processes become national (R_S AllRegions, RHS without
               region, FI coefficient column -> AllRegions).
@@ -138,7 +139,9 @@ def plan_book(plan, book, move, shares, notes):
             if b.val(t["sheet"], cell) != "FI":
                 sys.exit(f"{book} {t['sheet']}!{cell}: Region of {p} is {b.val(t['sheet'], cell)!r}")
             regs = sorted(shares[p])
-            new = ",".join(regs) if mode[p] == "switch" else ",".join(["FI"] + regs)
+            # existing (*00) plants are declared only at their sites in both modes: a hub copy without
+            # stock and capacity costs gets no capacity variable (TIMES REDUCE) -> free, unlimited activity
+            new = ",".join(regs)
             plan.edit(book, t["sheet"], cell, "FI", sw('"FI"', q(new)), BLUE,
                       f"{p} ({mode[p]}): declared in {new} in Reg mode")
     # 2. switch tables: FI header -> site
@@ -455,15 +458,278 @@ def plan_prd_corrections(plan, dd_dir, run, new_links, notes):
     notes.append(f"RS_PRD corrections: {n} rows on {CALIB} {sh} rows {last + 1}-{r - 1}")
 
 
+# ------------------------------------------------------------------- fix after the first 4a run
+# (audit/task4_industry.md section 9): hub copies of moved plants; FI-only stock fills of the
+# route-share constraints; internal imports counted as production in those constraints.
+UCIND = M + "SuppXLS/Scen_UC-IND.xlsx"
+REGCOLS = [col_let(c) for c in range(col_idx("G"), col_idx("Z") + 1)]      # 20 region columns
+SELCOLS = [col_let(c) for c in range(col_idx("K"), col_idx("AD") + 1)]     # Region_selection!K8:AD8
+FILLS = {  # sheet: (header row, data rows, {total row: data rows}, {share cell: total row})
+    "FILL-IIS": (12, [13, 14, 15, 16, 17, 18], {19: [13, 14, 15, 16, 17, 18]},
+                 {f"G{r}": 19 for r in range(33, 39)}),
+    "FILL-IALICU": (4, [5, 6, 7, 9, 10], {8: [5, 6, 7], 11: [9, 10]},
+                    {"G19": 8, "G20": 8, "G21": 8, "G23": 11, "G24": 11}),
+}
+UCIIS_INSERT = 24          # first empty row below the LO table of UC-IIS (rows 8-23)
+
+
+def ucis_lo_rows(b):
+    """Rows of the UC-IIS LO table whose coefficient is a formula (constants are literal zeros)."""
+    out, uc = [], None
+    for r in range(8, 24):
+        uc = b.val("UC-IIS", f"A{r}") or uc
+        if (b.f.get(("UC-IIS", f"G{r}")) or "").startswith("="):
+            out.append((r, uc))
+    return out
+
+
+def plan_hub_decl(plan, notes):
+    """Copy-mode processes: Reg-mode Region list without the hub."""
+    pat = re.compile(r'^=IF\(' + re.escape(SEL) + r',"FI","FI,([A-Z0-9,]+)"\)$')
+    for book in (IND, SUP):
+        b = Book(book)
+        for t in read_tables(os.path.join(ROOT, book), tags=("~FI_PROCESS",)):
+            rc = t["cols"].get("Region")
+            for r in t["rows"]:
+                p = r["cells"].get("TechName", (0, None))[1]
+                cell = f"{col_let(rc)}{r['row']}"
+                m = pat.match(b.f.get((t["sheet"], cell)) or "")
+                if p in MOVE_4A and m:
+                    plan.edit(book, t["sheet"], cell, "FI", sw(q("FI"), q(m.group(1))), BLUE,
+                              f"{p}: declared only in {m.group(1)} in Reg mode (no free hub copy)")
+    n = sum(len(v) for v in plan.edits.values())
+    notes.append(f"hub declarations removed: {n} Region cells")
+
+
+def plan_generic(plan, notes):
+    """Copied rows: VEDA lets the original table's generic (year/no-region) value beat the Reg_IND
+    regional copy of the calibrated FI value (first 4a run: AOD, EAF, FeCr at their sites got the
+    generic coefficients). In Reg mode the generic cell of every copied row with an FI value is blanked;
+    Reg_IND gives every site region the FI value, and the hub no longer holds these processes."""
+    n = 0
+    for book in (IND, SUP):
+        b = Book(book)
+        regsheet = "Reg_" + ("IND" if book == IND else "SUP")
+        copied = set()
+        for (sh, cell), f in b.f.items():
+            if sh == regsheet and cell.startswith("B"):
+                m = re.search(r'"",\"([A-Za-z0-9_]+)\"\)$', f or "")
+                if m:
+                    copied.add(m.group(1))
+        if not copied:
+            continue
+        regions = set(REG19) | {"FI"}
+        for t in read_tables(os.path.join(ROOT, book), tags=("~FI_T",)):
+            if t["sheet"].startswith("Reg_") or "FI" not in t["cols"]:
+                continue
+            for p, rows in tech_rows(t).items():
+                if p not in copied:
+                    continue
+                for r in rows:
+                    c = r["cells"]
+                    if "FI" not in c:
+                        continue
+                    for h, (cell, val, f) in c.items():
+                        if h in DESCR or h in regions or h.upper() in ("TECHNAME", "TECHDESC"):
+                            continue
+                        expr = f[1:] if f else (q(val) if isinstance(val, str) else repr(val))
+                        plan.edit(book, t["sheet"], cell, val, sw(expr, '""'), BLUE,
+                                  f"{p}: generic {h} value blank in Reg mode (sites get the calibrated FI value "
+                                  f"{c['FI'][0]} via {regsheet})")
+                        n += 1
+    notes.append(f"generic values of copied rows blanked in Reg mode: {n} cells")
+
+
+AGGREGATES = {"INDFINSOLID": "C73", "INDFINGAS": "C75"}   # SysSettings Comms
+
+
+def plan_aggregates(plan, notes):
+    """Aggregates of the national production sums RS_PRD_INDFIN* (task 0) in every region: the COM_AGG
+    rows (SubRES_21, region-independent) and the UC_COMPRD term (RegSum, R_S AllRegions) only reach a
+    region where the aggregate is declared. Hub-only, the sum ignored fuel produced and used in a region
+    while the UC_IRE-I corrections still subtracted regional imports (coke to Raahe penalised by the
+    LO dual, first 4a run)."""
+    b = Book(SYS)
+    for c, cell in AGGREGATES.items():
+        if b.val("Comms", f"D{cell[1:]}") != c or b.val("Comms", cell) != "FI" or b.f.get(("Comms", cell)):
+            sys.exit(f"{SYS} Comms!{cell}: expected plain 'FI' for {c}")
+        plan.edit(SYS, "Comms", cell, "FI", sw('"FI"', ALL), BLUE,
+                  f"{c}: aggregate of the national RS_PRD sum declared in every region (COM_AGG + UC term there)")
+    notes.append("aggregates INDFINSOLID, INDFINGAS declared in all regions")
+
+
+def plan_misc(plan, notes):
+    """Data lost in the first 4a run (single vs regional parameter comparison of every moved process):
+    * refinery lower output shares: header 'FI~LO' of the Flexible Refinery table stayed on the hub;
+    * NETSCO2 (non-ETS CO2, ESR target) not declared in the regions -> copper's emissions dropped.
+      Reg-only declaration row copying the hub row (as ELCCO2N/ETSCO2/GreenCert in task 3)."""
+    b = Book(SUP)
+    sh, cell = "Flexible Refinery", "L25"
+    if b.f.get((sh, cell)) != '=AS4&"~LO"' or b.val(sh, "AS4") != "FI":
+        sys.exit(f"{SUP} {sh}!{cell}: expected =AS4&\"~LO\" with AS4 = FI")
+    plan.edit(SUP, sh, cell, "FI~LO", sw('AS4&"~LO"', q("FI1B1~LO")), BLUE,
+              "SSCDRFLX00 lower output shares at Porvoo (the FI header of this table is already FI1B1 in Reg mode)")
+    s = Book(SYS)
+    if s.val("Comms", "X25") != "NETSCO2" or any(s.val("Comms", f"{c}80") is not None for c in "VWXYZ"):
+        sys.exit(f"{SYS} Comms: expected NETSCO2 in row 25 and a free row 80")
+    for c in "VXYZ":
+        plan.edit(SYS, "Comms", f"{c}80", None, regonly(f"{c}25"), GREEN,
+                  "NETSCO2 declared in the 19 regions (copy of the hub row 25)")
+    plan.edit(SYS, "Comms", "W80", None, regonly('_xlfn.TEXTJOIN(",",TRUE,Region_selection!$L$8:$AD$8)'), GREEN,
+              "NETSCO2: the 19 regions")
+    notes.append("refinery FI~LO header -> FI1B1~LO; NETSCO2 declared in the regions")
+
+
+def plan_fills(plan, notes):
+    """~TFM_FILL stock tables of the route shares read every region and sum them (as the pilot's MISRIR table)."""
+    b = Book(UCIND)
+    for sh, (hr, rows, totals, shares) in FILLS.items():
+        if b.val(sh, f"G{hr}") != "FI" or b.f.get((sh, f"G{hr}")):
+            sys.exit(f"{UCIND} {sh}!G{hr}: expected the plain header 'FI'")
+        for c, s in zip(REGCOLS, SELCOLS):
+            plan.edit(UCIND, sh, f"{c}{hr}", "FI" if c == "G" else None, f"=Region_selection!{s}8", BLUE,
+                      "fill header: one column per modelled region (Region_selection), like the MISRIR table")
+        for r in rows:
+            plan.edit(UCIND, sh, f"AA{r}", None, regonly(f"SUM(G{r}:Z{r})"), GREEN,
+                      "national stock = sum of the regional fills (Reg mode)")
+        for tr, rr in totals.items():
+            plan.edit(UCIND, sh, f"AA{tr}", None, regonly(f"SUM(AA{rr[0]}:AA{rr[-1]})"), GREEN, "national total")
+        refs = set(rows) | set(totals)
+        for cell, tr in shares.items():
+            f = b.f.get((sh, cell))
+            if not f or SEL in f:
+                sys.exit(f"{UCIND} {sh}!{cell}: expected an unswitched share formula, found {f!r}")
+            reg = re.sub(r"\bG(\$?)(\d+)\b", lambda m: f"AA{m.group(1)}{m.group(2)}" if int(m.group(2)) in refs
+                         else m.group(0), f[1:])
+            plan.edit(UCIND, sh, cell, b.val(sh, cell), sw(f[1:], reg), BLUE,
+                      f"share from the national (summed) stock in Reg mode: {reg}")
+    notes.append("fills: FILL-IIS crude steel and FILL-IALICU aluminium/copper read all regions")
+
+
+def plan_uc_shares(plan, notes, inserted):
+    """Route-share UCs: national copper constraint; UC_IRE-I corrections on the internal links
+    (an internal import is counted as production by UC_COMPRD)."""
+    b = Book(UCIND)
+    # UC-IALICU (aluminium + copper): one national constraint each in Reg mode
+    sh = "UC-IALICU"
+    for cell, single, reg in (("B2", "~UC_Sets: R_E: AllRegions", "~UC_Sets: R_S: AllRegions"),
+                              ("G5", "FI", "AllRegions"), ("H5", "UC_RHSRTS~LO", "UC_RHSTS~LO"),
+                              ("I5", "UC_RHSRTS~LO~0", "UC_RHSTS~LO~0"),
+                              ("G19", "FI", "AllRegions"), ("H19", "UC_RHSRTS~LO", "UC_RHSTS~LO"),
+                              ("I19", "UC_RHSRTS~LO~0", "UC_RHSTS~LO~0")):
+        if b.val(sh, cell) != single or b.f.get((sh, cell)):
+            sys.exit(f"{UCIND} {sh}!{cell}: expected {single!r}")
+        plan.edit(UCIND, sh, cell, single, sw(q(single), q(reg)), BLUE, "national constraint in Reg mode (UC_R_SUM)")
+    plan.edit(UCIND, sh, "J19", None, regonly(q("Pset: PN")), GREEN, "process filter of the correction rows")
+    plan.edit(UCIND, sh, "K19", None, regonly(q("UC_IRE-I")), GREEN, "internal imports are not production")
+    out, uc = 26, None
+    for r in range(20, 26):
+        uc = b.val(sh, f"A{r}") or uc
+        for col, v in (("A", q(uc)), ("D", q("MCUSCU")), ("E", f"E{r}"), ("J", q("TB_MCUSCU_*")), ("K", f"-G{r}")):
+            plan.edit(UCIND, sh, f"{col}{out}", None, regonly(v), GREEN,
+                      f"{uc}: UC_IRE-I = -UC_COMPRD of row {r} on TB_MCUSCU_*")
+        out += 1
+    # UC-IIS crude-steel shares (already national since 4a): correction rows
+    sh = "UC-IIS"
+    lo = ucis_lo_rows(b)
+    n = len(lo)
+    if not inserted:
+        notes.append(f"UC-IIS: {n} rows must first be inserted at row {UCIIS_INSERT} (--step insert)")
+        return
+    if b.val(sh, f"E{27 + n}") is None or "~UC_T" not in str(b.val(sh, f"E{27 + n}")):
+        sys.exit(f"{UCIND} UC-IIS: UP table tag not found at E{27 + n} - rows not inserted?")
+    plan.edit(UCIND, sh, "J7", None, regonly(q("UC_IRE-I")), GREEN, "internal imports are not production")
+    for k, (r, uc) in enumerate(lo):
+        o = UCIIS_INSERT + k
+        for col, v in (("A", q(uc)), ("C", q("TB_MISCST_*")), ("D", q("MISCST")), ("E", f"E{r}"), ("J", f"-G{r}")):
+            plan.edit(UCIND, sh, f"{col}{o}", None, regonly(v), GREEN, f"{uc}: UC_IRE-I = -UC_COMPRD of row {r}")
+    hdr = 28 + n
+    plan.edit(UCIND, sh, f"J{hdr}", None, regonly(q("UC_IRE-I")), GREEN, "internal imports are not production")
+    o, uc = hdr + 5, None
+    for r in range(hdr + 1, hdr + 5):
+        uc = b.val(sh, f"A{r}") or uc
+        if b.val(sh, f"E{r}") is None:
+            sys.exit(f"{UCIND} UC-IIS: no UP row at {r}")
+        for col, v in (("A", q(uc)), ("C", q("TB_MISCST_*")), ("D", q("MISCST")), ("E", f"E{r}"), ("J", f"-G{r}")):
+            plan.edit(UCIND, sh, f"{col}{o}", None, regonly(v), GREEN, f"{uc}: UC_IRE-I = -UC_COMPRD of row {r}")
+        o += 1
+    notes.append(f"UC-IIS: {n} LO and 4 UP correction rows; UC-IALICU: 6 copper correction rows")
+
+
+def insert_ucis_rows(apply_it):
+    """Make room for the correction rows inside the UC-IIS LO table (Excel row insert, xlwings)."""
+    b = Book(UCIND)
+    n = len(ucis_lo_rows(b))
+    tag = str(b.val("UC-IIS", "E27") or "")
+    if "~UC_T" not in tag:
+        print(f"UC-IIS: E27 holds {tag!r}; rows already inserted? nothing to do")
+        return True
+    empty = all(b.val("UC-IIS", f"{c}{r}") is None for r in (24, 25) for c in "ABCDEFGHIJ")
+    if not empty:
+        sys.exit("UC-IIS rows 24-25 are not empty")
+    print(f"UC-IIS: insert {n} empty rows at row {UCIIS_INSERT} (UP table moves from rows 27-32 to {27 + n}-{32 + n})")
+    if not apply_it:
+        return False
+    import xlwings as xw
+    app = xw.App(visible=False, add_book=False)
+    app.display_alerts = False
+    try:
+        wb = app.books.open(os.path.join(ROOT, UCIND), update_links=False)
+        try:
+            if wb.sheets["Region_selection"].range("B8").value != "FINTIMES":
+                raise RuntimeError("Region_selection!B8 is not FINTIMES")
+            ws = wb.sheets["UC-IIS"]
+            before = {c: ws.range(c).value for c in ("G29", "G30", "G31", "G32")}
+            ws.api.Rows(f"{UCIIS_INSERT}:{UCIIS_INSERT + n - 1}").Insert()
+            app.calculate()
+            after = {c: ws.range(f"{c[0]}{int(c[1:]) + n}").value for c in before}
+            if list(before.values()) != list(after.values()) or "~UC_T" not in str(ws.range(f"E{27 + n}").value):
+                raise RuntimeError(f"insert check failed: {before} vs {after}")
+            wb.save()
+            print("  inserted and saved")
+        finally:
+            wb.close()
+    finally:
+        app.quit()
+    return True
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd"], default="all",
-                    help="prd: only the RS_PRD import corrections (after the rest is applied)")
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix"], default="all",
+                    help="prd: only the RS_PRD import corrections (after the rest is applied); "
+                         "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
+    if a.step == "insert":
+        insert_ucis_rows(a.apply)
+        return
+    if a.step == "fix":
+        plan, notes = Plan(), []
+        plan_hub_decl(plan, notes)
+        plan_generic(plan, notes)
+        plan_aggregates(plan, notes)
+        plan_misc(plan, notes)
+        plan_fills(plan, notes)
+        b = Book(UCIND)
+        plan_uc_shares(plan, notes, inserted="~UC_T" not in str(b.val("UC-IIS", "E27") or ""))
+        out = os.path.join(ROOT, "audit", "task4a_fix_dryrun.txt")
+        L = ["NOTE " + n for n in notes] + [""]
+        for book in plan.books():
+            L.append(f"--- {book}")
+            for sheet, cell, old, new, colour, why in plan.edits.get(book, []):
+                L.append(f"  ~ '{sheet}'!{cell} [{colour}]: {old!r}\n      -> {new}\n      ({why})")
+        open(out, "w", encoding="utf-8").write("\n".join(L) + "\n")
+        print(f"dry run: {sum(len(v) for v in plan.edits.values())} cell edits -> {out}")
+        print(chr(10).join(notes))
+        if a.apply:
+            res = apply(plan)
+            print(res)
+            sys.exit(0 if all(v == "ok" for v in res.values()) else 1)
+        return
     if a.step == "prd":
         plan, notes = Plan(), []
         new_links = {v for (s_, c_), v in Book(LINKS).v.items() if s_ == LINK_SHEET and isinstance(v, str) and v.startswith("TB_")}

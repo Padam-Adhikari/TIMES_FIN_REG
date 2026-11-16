@@ -298,6 +298,23 @@ def main():
         L.append(f"### {lab}: {n} processes differ; largest")
         table(L, ["process", "run", "reference", "diff"], rows)
 
+    # K activity without a capacity variable (TIMES REDUCE drops VAR_CAP for processes with no stock,
+    # bound or capacity cost -> free, unlimited activity). A process that had capacity in the reference
+    # must not run anywhere without it (task 4a: hub copies of moved steel plants).
+    L.append("## K. Activity without a capacity variable")
+    cap_r = {(r[0], r[1]) for r in R.rows("PRC_CAP")}
+    cap_f = {r[1] for r in F.rows("PRC_CAP")}
+    free = R.agg("PAR_ACTL", lambda r: (r[0], r[3]),
+                 filt=lambda r: (r[0], r[3]) not in cap_r and r[3] in cap_f and not is_dummy(r[3]))
+    free = {k: v for k, v in free.items() if abs(v) > TOL}
+    L.append(f"- Processes with capacity in the reference that run without capacity: "
+             f"{'none' if not free else len(free)}")
+    if free:
+        hard.append("activity without capacity")
+        table(L, ["region / process", "activity (all years)"],
+                  sorted(((" / ".join(k), v) for k, v in free.items()), key=lambda t: -abs(t[1])))
+    L.append("")
+
     L.append("## Verdict")
     L.append("FAIL: " + ", ".join(hard) if hard else "Hard checks pass (dummy imports, inputs conserved, "
              "regional emissions sent to the hub, coal phase-out).")

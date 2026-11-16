@@ -1,0 +1,629 @@
+NOTE hub declarations removed: 13 Region cells
+NOTE generic values of copied rows blanked in Reg mode: 9 cells
+NOTE aggregates INDFINSOLID, INDFINGAS declared in all regions
+NOTE refinery FI~LO header -> FI1B1~LO; NETSCO2 declared in the regions
+NOTE fills: FILL-IIS crude steel and FILL-IALICU aluminium/copper read all regions
+NOTE UC-IIS: 10 LO and 4 UP correction rows; UC-IALICU: 6 copper correction rows
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC-IND.xlsx
+  ~ 'FILL-IIS'!G12 [#DDEBF7]: 'FI'
+      -> =Region_selection!K8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!H12 [#DDEBF7]: None
+      -> =Region_selection!L8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!I12 [#DDEBF7]: None
+      -> =Region_selection!M8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!J12 [#DDEBF7]: None
+      -> =Region_selection!N8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!K12 [#DDEBF7]: None
+      -> =Region_selection!O8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!L12 [#DDEBF7]: None
+      -> =Region_selection!P8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!M12 [#DDEBF7]: None
+      -> =Region_selection!Q8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!N12 [#DDEBF7]: None
+      -> =Region_selection!R8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!O12 [#DDEBF7]: None
+      -> =Region_selection!S8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!P12 [#DDEBF7]: None
+      -> =Region_selection!T8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!Q12 [#DDEBF7]: None
+      -> =Region_selection!U8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!R12 [#DDEBF7]: None
+      -> =Region_selection!V8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!S12 [#DDEBF7]: None
+      -> =Region_selection!W8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!T12 [#DDEBF7]: None
+      -> =Region_selection!X8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!U12 [#DDEBF7]: None
+      -> =Region_selection!Y8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!V12 [#DDEBF7]: None
+      -> =Region_selection!Z8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!W12 [#DDEBF7]: None
+      -> =Region_selection!AA8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!X12 [#DDEBF7]: None
+      -> =Region_selection!AB8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!Y12 [#DDEBF7]: None
+      -> =Region_selection!AC8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!Z12 [#DDEBF7]: None
+      -> =Region_selection!AD8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IIS'!AA13 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G13:Z13))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IIS'!AA14 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G14:Z14))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IIS'!AA15 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G15:Z15))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IIS'!AA16 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G16:Z16))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IIS'!AA17 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G17:Z17))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IIS'!AA18 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G18:Z18))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IIS'!AA19 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(AA13:AA18))
+      (national total)
+  ~ 'FILL-IIS'!G33 [#DDEBF7]: 0.6248261386324115
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$19=0,0,G13/G$19)*$G$23,IF(AA$19=0,0,AA13/AA$19)*$G$23)
+      (share from the national (summed) stock in Reg mode: IF(AA$19=0,0,AA13/AA$19)*$G$23)
+  ~ 'FILL-IIS'!G34 [#DDEBF7]: 0.2883812947534207
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$19=0,0,G14/G$19)*$G$23,IF(AA$19=0,0,AA14/AA$19)*$G$23)
+      (share from the national (summed) stock in Reg mode: IF(AA$19=0,0,AA14/AA$19)*$G$23)
+  ~ 'FILL-IIS'!G35 [#DDEBF7]: 0
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$19=0,0,G15/G$19)*$G$23,IF(AA$19=0,0,AA15/AA$19)*$G$23)
+      (share from the national (summed) stock in Reg mode: IF(AA$19=0,0,AA15/AA$19)*$G$23)
+  ~ 'FILL-IIS'!G36 [#DDEBF7]: 0
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$19=0,0,G16/G$19)*$G$23,IF(AA$19=0,0,AA16/AA$19)*$G$23)
+      (share from the national (summed) stock in Reg mode: IF(AA$19=0,0,AA16/AA$19)*$G$23)
+  ~ 'FILL-IIS'!G37 [#DDEBF7]: 0
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$19=0,0,G17/G$19)*$G$23,IF(AA$19=0,0,AA17/AA$19)*$G$23)
+      (share from the national (summed) stock in Reg mode: IF(AA$19=0,0,AA17/AA$19)*$G$23)
+  ~ 'FILL-IIS'!G38 [#DDEBF7]: 0.0567925666141677
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$19=0,0,G18/G$19)*$G$23,IF(AA$19=0,0,AA18/AA$19)*$G$23)
+      (share from the national (summed) stock in Reg mode: IF(AA$19=0,0,AA18/AA$19)*$G$23)
+  ~ 'FILL-IALICU'!G4 [#DDEBF7]: 'FI'
+      -> =Region_selection!K8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!H4 [#DDEBF7]: None
+      -> =Region_selection!L8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!I4 [#DDEBF7]: None
+      -> =Region_selection!M8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!J4 [#DDEBF7]: None
+      -> =Region_selection!N8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!K4 [#DDEBF7]: None
+      -> =Region_selection!O8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!L4 [#DDEBF7]: None
+      -> =Region_selection!P8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!M4 [#DDEBF7]: None
+      -> =Region_selection!Q8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!N4 [#DDEBF7]: None
+      -> =Region_selection!R8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!O4 [#DDEBF7]: None
+      -> =Region_selection!S8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!P4 [#DDEBF7]: None
+      -> =Region_selection!T8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!Q4 [#DDEBF7]: None
+      -> =Region_selection!U8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!R4 [#DDEBF7]: None
+      -> =Region_selection!V8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!S4 [#DDEBF7]: None
+      -> =Region_selection!W8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!T4 [#DDEBF7]: None
+      -> =Region_selection!X8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!U4 [#DDEBF7]: None
+      -> =Region_selection!Y8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!V4 [#DDEBF7]: None
+      -> =Region_selection!Z8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!W4 [#DDEBF7]: None
+      -> =Region_selection!AA8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!X4 [#DDEBF7]: None
+      -> =Region_selection!AB8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!Y4 [#DDEBF7]: None
+      -> =Region_selection!AC8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!Z4 [#DDEBF7]: None
+      -> =Region_selection!AD8
+      (fill header: one column per modelled region (Region_selection), like the MISRIR table)
+  ~ 'FILL-IALICU'!AA5 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G5:Z5))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IALICU'!AA6 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G6:Z6))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IALICU'!AA7 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G7:Z7))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IALICU'!AA9 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G9:Z9))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IALICU'!AA10 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(G10:Z10))
+      (national stock = sum of the regional fills (Reg mode))
+  ~ 'FILL-IALICU'!AA8 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(AA5:AA7))
+      (national total)
+  ~ 'FILL-IALICU'!AA11 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",SUM(AA9:AA10))
+      (national total)
+  ~ 'FILL-IALICU'!G19 [#DDEBF7]: 0
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$8=0,0,G5/G$8)*G15,IF(AA$8=0,0,AA5/AA$8)*G15)
+      (share from the national (summed) stock in Reg mode: IF(AA$8=0,0,AA5/AA$8)*G15)
+  ~ 'FILL-IALICU'!G20 [#DDEBF7]: 0
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$8=0,0,G6/G$8)*G15,IF(AA$8=0,0,AA6/AA$8)*G15)
+      (share from the national (summed) stock in Reg mode: IF(AA$8=0,0,AA6/AA$8)*G15)
+  ~ 'FILL-IALICU'!G21 [#DDEBF7]: 0.99
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$8=0,0,G7/G$8)*G15,IF(AA$8=0,0,AA7/AA$8)*G15)
+      (share from the national (summed) stock in Reg mode: IF(AA$8=0,0,AA7/AA$8)*G15)
+  ~ 'FILL-IALICU'!G23 [#DDEBF7]: 0
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$11=0,0,G9/G$11)*$G$15,IF(AA$11=0,0,AA9/AA$11)*$G$15)
+      (share from the national (summed) stock in Reg mode: IF(AA$11=0,0,AA9/AA$11)*$G$15)
+  ~ 'FILL-IALICU'!G24 [#DDEBF7]: 0.99
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,IF(G$11=0,0,G10/G$11)*$G$15,IF(AA$11=0,0,AA10/AA$11)*$G$15)
+      (share from the national (summed) stock in Reg mode: IF(AA$11=0,0,AA10/AA$11)*$G$15)
+  ~ 'UC-IALICU'!B2 [#DDEBF7]: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!G5 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","AllRegions")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!H5 [#DDEBF7]: 'UC_RHSRTS~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~LO","UC_RHSTS~LO")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!I5 [#DDEBF7]: 'UC_RHSRTS~LO~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~LO~0","UC_RHSTS~LO~0")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!G19 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","AllRegions")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!H19 [#DDEBF7]: 'UC_RHSRTS~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~LO","UC_RHSTS~LO")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!I19 [#DDEBF7]: 'UC_RHSRTS~LO~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~LO~0","UC_RHSTS~LO~0")
+      (national constraint in Reg mode (UC_R_SUM))
+  ~ 'UC-IALICU'!J19 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","Pset: PN")
+      (process filter of the correction rows)
+  ~ 'UC-IALICU'!K19 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","UC_IRE-I")
+      (internal imports are not production)
+  ~ 'UC-IALICU'!A26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_COP_RCY")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 20 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!D26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MCUSCU")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 20 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!E26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E20)
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 20 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!J26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MCUSCU_*")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 20 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!K26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G20)
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 20 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!A27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_COP_RCY")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 21 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!D27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MCUSCU")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 21 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!E27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E21)
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 21 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!J27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MCUSCU_*")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 21 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!K27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G21)
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 21 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!A28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_COP_RCY")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 22 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!D28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MCUSCU")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 22 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!E28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E22)
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 22 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!J28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MCUSCU_*")
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 22 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!K28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G22)
+      (TUC_Istruc_COP_RCY: UC_IRE-I = -UC_COMPRD of row 22 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!A29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_COP_PRD")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 23 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!D29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MCUSCU")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 23 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!E29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E23)
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 23 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!J29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MCUSCU_*")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 23 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!K29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G23)
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 23 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!A30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_COP_PRD")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 24 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!D30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MCUSCU")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 24 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!E30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E24)
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 24 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!J30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MCUSCU_*")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 24 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!K30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G24)
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 24 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!A31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_COP_PRD")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 25 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!D31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MCUSCU")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 25 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!E31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E25)
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 25 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!J31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MCUSCU_*")
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 25 on TB_MCUSCU_*)
+  ~ 'UC-IALICU'!K31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G25)
+      (TUC_Istruc_COP_PRD: UC_IRE-I = -UC_COMPRD of row 25 on TB_MCUSCU_*)
+  ~ 'UC-IIS'!J7 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","UC_IRE-I")
+      (internal imports are not production)
+  ~ 'UC-IIS'!A24 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-BFU")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 8)
+  ~ 'UC-IIS'!C24 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 8)
+  ~ 'UC-IIS'!D24 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 8)
+  ~ 'UC-IIS'!E24 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E8)
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 8)
+  ~ 'UC-IIS'!J24 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G8)
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 8)
+  ~ 'UC-IIS'!A25 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-BFU")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 9)
+  ~ 'UC-IIS'!C25 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 9)
+  ~ 'UC-IIS'!D25 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 9)
+  ~ 'UC-IIS'!E25 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E9)
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 9)
+  ~ 'UC-IIS'!J25 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G9)
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 9)
+  ~ 'UC-IIS'!A26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-BFU")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 12)
+  ~ 'UC-IIS'!C26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 12)
+  ~ 'UC-IIS'!D26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 12)
+  ~ 'UC-IIS'!E26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E12)
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 12)
+  ~ 'UC-IIS'!J26 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G12)
+      (TUC_Istruc_CST-BFU: UC_IRE-I = -UC_COMPRD of row 12)
+  ~ 'UC-IIS'!A27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-SSTEEL")
+      (TUC_Istruc_CST-SSTEEL: UC_IRE-I = -UC_COMPRD of row 13)
+  ~ 'UC-IIS'!C27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-SSTEEL: UC_IRE-I = -UC_COMPRD of row 13)
+  ~ 'UC-IIS'!D27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-SSTEEL: UC_IRE-I = -UC_COMPRD of row 13)
+  ~ 'UC-IIS'!E27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E13)
+      (TUC_Istruc_CST-SSTEEL: UC_IRE-I = -UC_COMPRD of row 13)
+  ~ 'UC-IIS'!J27 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G13)
+      (TUC_Istruc_CST-SSTEEL: UC_IRE-I = -UC_COMPRD of row 13)
+  ~ 'UC-IIS'!A28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-CUP")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 18)
+  ~ 'UC-IIS'!C28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 18)
+  ~ 'UC-IIS'!D28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 18)
+  ~ 'UC-IIS'!E28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E18)
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 18)
+  ~ 'UC-IIS'!J28 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G18)
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 18)
+  ~ 'UC-IIS'!A29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-CUP")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 19)
+  ~ 'UC-IIS'!C29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 19)
+  ~ 'UC-IIS'!D29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 19)
+  ~ 'UC-IIS'!E29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E19)
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 19)
+  ~ 'UC-IIS'!J29 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G19)
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 19)
+  ~ 'UC-IIS'!A30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-CUP")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 20)
+  ~ 'UC-IIS'!C30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 20)
+  ~ 'UC-IIS'!D30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 20)
+  ~ 'UC-IIS'!E30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E20)
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 20)
+  ~ 'UC-IIS'!J30 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G20)
+      (TUC_Istruc_CST-CUP: UC_IRE-I = -UC_COMPRD of row 20)
+  ~ 'UC-IIS'!A31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-ELA")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 21)
+  ~ 'UC-IIS'!C31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 21)
+  ~ 'UC-IIS'!D31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 21)
+  ~ 'UC-IIS'!E31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E21)
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 21)
+  ~ 'UC-IIS'!J31 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G21)
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 21)
+  ~ 'UC-IIS'!A32 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-ELA")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 22)
+  ~ 'UC-IIS'!C32 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 22)
+  ~ 'UC-IIS'!D32 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 22)
+  ~ 'UC-IIS'!E32 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E22)
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 22)
+  ~ 'UC-IIS'!J32 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G22)
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 22)
+  ~ 'UC-IIS'!A33 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-ELA")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 23)
+  ~ 'UC-IIS'!C33 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 23)
+  ~ 'UC-IIS'!D33 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 23)
+  ~ 'UC-IIS'!E33 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E23)
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 23)
+  ~ 'UC-IIS'!J33 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G23)
+      (TUC_Istruc_CST-ELA: UC_IRE-I = -UC_COMPRD of row 23)
+  ~ 'UC-IIS'!J38 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","UC_IRE-I")
+      (internal imports are not production)
+  ~ 'UC-IIS'!A43 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-SCR")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 39)
+  ~ 'UC-IIS'!C43 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 39)
+  ~ 'UC-IIS'!D43 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 39)
+  ~ 'UC-IIS'!E43 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E39)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 39)
+  ~ 'UC-IIS'!J43 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G39)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 39)
+  ~ 'UC-IIS'!A44 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-SCR")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 40)
+  ~ 'UC-IIS'!C44 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 40)
+  ~ 'UC-IIS'!D44 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 40)
+  ~ 'UC-IIS'!E44 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E40)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 40)
+  ~ 'UC-IIS'!J44 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G40)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 40)
+  ~ 'UC-IIS'!A45 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-SCR")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 41)
+  ~ 'UC-IIS'!C45 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 41)
+  ~ 'UC-IIS'!D45 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 41)
+  ~ 'UC-IIS'!E45 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E41)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 41)
+  ~ 'UC-IIS'!J45 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G41)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 41)
+  ~ 'UC-IIS'!A46 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TUC_Istruc_CST-SCR")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 42)
+  ~ 'UC-IIS'!C46 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_MISCST_*")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 42)
+  ~ 'UC-IIS'!D46 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","MISCST")
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 42)
+  ~ 'UC-IIS'!E46 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E42)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 42)
+  ~ 'UC-IIS'!J46 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",-G42)
+      (TUC_Istruc_CST-SCR: UC_IRE-I = -UC_COMPRD of row 42)
+--- Reg-FINTIMES/SysSettings.xlsx
+  ~ 'Comms'!C73 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (INDFINSOLID: aggregate of the national RS_PRD sum declared in every region (COM_AGG + UC term there))
+  ~ 'Comms'!C75 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (INDFINGAS: aggregate of the national RS_PRD sum declared in every region (COM_AGG + UC term there))
+  ~ 'Comms'!V80 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",V25)
+      (NETSCO2 declared in the 19 regions (copy of the hub row 25))
+  ~ 'Comms'!X80 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",X25)
+      (NETSCO2 declared in the 19 regions (copy of the hub row 25))
+  ~ 'Comms'!Y80 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",Y25)
+      (NETSCO2 declared in the 19 regions (copy of the hub row 25))
+  ~ 'Comms'!Z80 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",Z25)
+      (NETSCO2 declared in the 19 regions (copy of the hub row 25))
+  ~ 'Comms'!W80 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$L$8:$AD$8))
+      (NETSCO2: the 19 regions)
+--- Reg-FINTIMES/VT_FINTIMES_IND.xlsx
+  ~ 'Processes'!C26 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1C2,FI1C5,FI1D7,FI1D9")
+      (IISFINPRO00: declared only in FI1C2,FI1C5,FI1D7,FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C27 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D7")
+      (IISAODFUR00: declared only in FI1D7 in Reg mode (no free hub copy))
+  ~ 'Processes'!C29 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISBOXFUR00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C30 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISBOXSCR00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C32 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISCUPOLA00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C34 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISDRIEAF00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C35 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISDRISPN00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C36 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1C5,FI1D7")
+      (IISELAFUR00: declared only in FI1C5,FI1D7 in Reg mode (no free hub copy))
+  ~ 'Processes'!C37 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D7")
+      (IISFECRFR00: declared only in FI1D7 in Reg mode (no free hub copy))
+  ~ 'Processes'!C38 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISPELLET00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C39 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1D9")
+      (IISSINTER00: declared only in FI1D9 in Reg mode (no free hub copy))
+  ~ 'Processes'!C40 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1C2,FI1C5,FI1D7,FI1D9")
+      (INDIISHTH00: declared only in FI1C2,FI1C5,FI1D7,FI1D9 in Reg mode (no free hub copy))
+  ~ 'AutoProd-CHP'!C114 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","FI1B1")
+      (CHPAUTOGENRFG00: declared only in FI1B1 in Reg mode (no free hub copy))
+  ~ 'IIS'!F71 [#DDEBF7]: 1.74
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,1.74,"")
+      (IISAODFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G71 via Reg_IND))
+  ~ 'IIS'!F72 [#DDEBF7]: 0.21
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,0.21,"")
+      (IISAODFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G72 via Reg_IND))
+  ~ 'IIS'!F73 [#DDEBF7]: 2.3
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,2.3,"")
+      (IISAODFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G73 via Reg_IND))
+  ~ 'IIS'!F74 [#DDEBF7]: 0.5
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,0.5,"")
+      (IISAODFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G74 via Reg_IND))
+  ~ 'IIS'!F92 [#DDEBF7]: 8.1
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,8.1,"")
+      (IISFECRFR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G92 via Reg_IND))
+  ~ 'IIS'!F105 [#DDEBF7]: 0.162
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,0.162,"")
+      (IISBOXFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G105 via Reg_IND))
+  ~ 'IIS'!F130 [#DDEBF7]: 2
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,2,"")
+      (IISELAFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G130 via Reg_IND))
+  ~ 'IIS'!F131 [#DDEBF7]: 0.5
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,0.5,"")
+      (IISELAFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G131 via Reg_IND))
+  ~ 'IIS'!F135 [#DDEBF7]: 1.5
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,1.5,"")
+      (IISELAFUR00: generic 2010 value blank in Reg mode (sites get the calibrated FI value G135 via Reg_IND))
+--- Reg-FINTIMES/VT_FINTIMES_SUP.xlsx
+  ~ 'Flexible Refinery'!L25 [#DDEBF7]: 'FI~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,AS4&"~LO","FI1B1~LO")
+      (SSCDRFLX00 lower output shares at Porvoo (the FI header of this table is already FI1B1 in Reg mode))
