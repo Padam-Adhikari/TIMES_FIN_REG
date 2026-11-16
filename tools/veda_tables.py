@@ -70,8 +70,13 @@ def tech_rows(tab):
     """Rows of a ~FI_T table grouped by TechName (comment rows '*' skipped)."""
     out = {}
     tn = next((h for h in tab["cols"] if h.lower() == "techname"), None)
+    cur = None
     for r in tab["rows"]:
         name = r["cells"].get(tn, (None, None, None))[1] if tn else None
-        if isinstance(name, str) and not name.startswith("*"):
-            out.setdefault(name, []).append(r)
+        if isinstance(name, str) and name.strip():
+            # '*' comment rows and '\I:' unit rows end the current block
+            cur = None if name.startswith(("*", "\\I")) else name.strip()
+        if cur:
+            # rows without a TechName continue the process above (VEDA convention)
+            out.setdefault(cur, []).append(r)
     return out

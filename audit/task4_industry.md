@@ -88,3 +88,50 @@ For a process that moves:
 3. Karhula hollow glass (closed 2021) — the base-year stock stays there; decline follows the model.
 4. Chlor-alkali (`ICL*`) on the hub until a production proxy is found.
 5. Generic industry (`INF*`, `INM*`, `IOI*`, `IAL*`) in step 5 with regional manufacturing statistics.
+
+## 7. Phasing (one sector group per server run)
+
+| Part | Content | Status |
+|---|---|---|
+| 4a | rest of steel (Raahe FI1D9, Tornio FI1D7, EAF Tornio/Imatra, finishing by site), refinery + refinery heat + refinery-gas CHP (Porvoo FI1B1), coke oven (Raahe), HVO (Porvoo / Lappeenranta by vintage), copper (Harjavalta FI196), glass (Karhula FI1C7) | applied (`tools/task4_industry.py`), checks below; server run pending |
+| 4b | pulp and paper, lime, chemicals, fertiliser, black-liquor CHP; product demand split with the same keys together with the regional availability of the sectors' new technologies | next |
+| 4c | cement site chains (incl. SubRES 10 new site technologies, `diversified_cement`) | after 4b |
+
+In 4a the product demands (steel, copper, glass, refinery products) stay on the hub and products are linked:
+the sectors' new technologies are still available on the hub only, so a split demand could not grow.
+
+## 8. 4a implementation (`tools/task4_industry.py`, dry run `audit/task4a_dryrun.txt`)
+
+- **switch** (whole data table belongs to one site; process declared only there): copper `IAL ICU INF`!G188 -> FI196,
+  glass `ICM ILM IGF IGH INM`!G236 -> FI1C7, coke oven SUP `VEDA Tables`!I39 -> FI1D9, refinery SUP
+  `Flexible Refinery`!K25 -> FI1B1 (+ refinery heat). The activity bounds move with the data; the national
+  sums `RS_ACT_SSCD*` (task 0) stay consistent.
+- **copy** (steel table `IIS`!E52/E219 holds processes for several regions; refinery-gas CHP shares a table
+  with hub processes): declared on FI + regions; new sheet `VT_FINTIMES_IND`!`Reg_IND` with one row per
+  calibrated FI cell (formulas on the original cell; stock x share in orange). FI's own stock row becomes a
+  VEDA comment row in Reg mode (TechName `*...`): the stock cells are chained formulas (e.g. AOD stock =
+  finishing stock x share), so they are not modified; where a comment row is followed by continuation rows
+  the process name is repeated in Reg mode.
+- **HVO**: `SubRES_22_TECHS_BIOREFINERIES_Trans`!`Reg_HVO`: AVA FI 0, FI1B1 1, FI1C5 1; NCAP_PASTI 2007/2009
+  200 kt in FI1B1, 2015 120 kt in FI1C5 (vintages of the SubRES = Neste NEXBTL 1/2, UPM BioVerno).
+- **UCs national** (R_E FI -> R_S AllRegions, UC_RHSRT* -> UC_RHST*, FI coefficient columns -> AllRegions):
+  `Scen_UC-IND` UC-IIS (steel route shares), CHPShares (autoproducer CHP shares), `Scen_REFINERIES_Lim` UCT4.
+- **Commodities**: 52 commodities used by the moved processes declared in every region (SysSettings Comms,
+  switch formula). Their spreading attributes checked: COM_TAXNET surplus penalties (equivalent), COM_PROJ
+  stays on FI, COM_AGG of IND fuels (see next point).
+- **Links**: 101 new (sheet `FI internal trades industry`), 9 already defined by the pilot / power links skipped.
+- **Double counting fixed (also an existing pilot issue)**: INDCOA, INDCOB, INDCOG, INDCOK, INDGAS, INDBFG
+  have an FX balance; their aggregates INDFINSOLID / INDFINGAS count gross production (VAR_COMPRD, which
+  includes internal imports, eqcombal.mod). The national production sums RS_PRD_INDFINSOLID_* and
+  RS_PRD_INDFINGAS_* (task 0) therefore counted fuel sent to FI1D9 twice. `Scen_ZATEMP_Calibration`!RegSum
+  rows 87-110: UC_IRE-I = -UC_COMPRD x COM_AGG on TB_<component>_* (24 rows).
+
+Checks after writing: every HEAD formula unchanged in the 8 workbooks (52,000+), no external links;
+single-region mode: xl2times reads identical tables from all 138 workbooks (0 changed).
+Regional check (copy flipped to Reg-FINTIMES, xl2times DD for FI + 19): stocks at their sites and split
+exactly (finishing FI1D9 3.379 / FI1D7 0.716 / FI1C2 0.087 / FI1C5 0.050 = 4.2315; EAF FI1D7 0.234 /
+FI1C5 0.016; AOD, ferrochrome FI1D7; BOF FI1D9; copper FI196; glass FI1C7); FI copies without stock
+(comment rows work); refinery, refinery heat and coke oven declared only at their site. Not verifiable
+with xl2times (checked in VEDA's DD files after the sync): topology of the IND-table processes (xl2times
+shows none, also for the validated pilot blast furnace) and the HVO vintage split (formula-bearing
+~TFM_INS is skipped by xl2times).
