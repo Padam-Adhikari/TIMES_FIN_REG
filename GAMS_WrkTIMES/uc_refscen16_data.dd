@@ -18,82 +18,6 @@ SET COM_TMAP
 'FI'.'NRG'.'UC_AUCoalWithoutCCS_'
 'FI'.'NRG'.'UC_CoalBANforHEATING-'
 'FI'.'NRG'.'UC_CoalBANforHEATING_'
-'FI196'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI196'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI196'.'NRG'.'UC_CoalBANforHEATING-'
-'FI196'.'NRG'.'UC_CoalBANforHEATING_'
-'FI198'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI198'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI198'.'NRG'.'UC_CoalBANforHEATING-'
-'FI198'.'NRG'.'UC_CoalBANforHEATING_'
-'FI199'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI199'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI199'.'NRG'.'UC_CoalBANforHEATING-'
-'FI199'.'NRG'.'UC_CoalBANforHEATING_'
-'FI19A'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI19A'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI19A'.'NRG'.'UC_CoalBANforHEATING-'
-'FI19A'.'NRG'.'UC_CoalBANforHEATING_'
-'FI19B'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI19B'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI19B'.'NRG'.'UC_CoalBANforHEATING-'
-'FI19B'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1B1'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1B1'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1B1'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1B1'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1C1'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1C1'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1C1'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1C1'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1C2'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1C2'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1C2'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1C2'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1C5'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1C5'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1C5'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1C5'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1C6'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1C6'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1C6'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1C6'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1C7'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1C7'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1C7'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1C7'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1D5'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1D5'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1D5'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1D5'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1D7'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1D7'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1D7'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1D7'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1D8'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1D8'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1D8'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1D8'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1D9'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1D9'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1D9'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1D9'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1DA'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1DA'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1DA'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1DA'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1DB'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1DB'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1DB'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1DB'.'NRG'.'UC_CoalBANforHEATING_'
-'FI1DC'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI1DC'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI1DC'.'NRG'.'UC_CoalBANforHEATING-'
-'FI1DC'.'NRG'.'UC_CoalBANforHEATING_'
-'FI200'.'NRG'.'UC_AUCoalWithoutCCS-'
-'FI200'.'NRG'.'UC_AUCoalWithoutCCS_'
-'FI200'.'NRG'.'UC_CoalBANforHEATING-'
-'FI200'.'NRG'.'UC_CoalBANforHEATING_'
 /;
 
 SET COM_UNIT
@@ -103,151 +27,15 @@ SET COM_UNIT
 'FI'.'UC_AUCoalWithoutCCS_'.'UCU'
 'FI'.'UC_CoalBANforHEATING-'.'UCU'
 'FI'.'UC_CoalBANforHEATING_'.'UCU'
-'FI196'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI196'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI196'.'UC_CoalBANforHEATING-'.'UCU'
-'FI196'.'UC_CoalBANforHEATING_'.'UCU'
-'FI198'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI198'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI198'.'UC_CoalBANforHEATING-'.'UCU'
-'FI198'.'UC_CoalBANforHEATING_'.'UCU'
-'FI199'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI199'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI199'.'UC_CoalBANforHEATING-'.'UCU'
-'FI199'.'UC_CoalBANforHEATING_'.'UCU'
-'FI19A'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI19A'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI19A'.'UC_CoalBANforHEATING-'.'UCU'
-'FI19A'.'UC_CoalBANforHEATING_'.'UCU'
-'FI19B'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI19B'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI19B'.'UC_CoalBANforHEATING-'.'UCU'
-'FI19B'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1B1'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1B1'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1B1'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1B1'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1C1'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1C1'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1C1'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1C1'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1C2'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1C2'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1C2'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1C2'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1C5'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1C5'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1C5'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1C5'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1C6'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1C6'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1C6'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1C6'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1C7'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1C7'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1C7'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1C7'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1D5'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1D5'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1D5'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1D5'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1D7'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1D7'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1D7'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1D7'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1D8'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1D8'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1D8'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1D8'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1D9'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1D9'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1D9'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1D9'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1DA'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1DA'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1DA'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1DA'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1DB'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1DB'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1DB'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1DB'.'UC_CoalBANforHEATING_'.'UCU'
-'FI1DC'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI1DC'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI1DC'.'UC_CoalBANforHEATING-'.'UCU'
-'FI1DC'.'UC_CoalBANforHEATING_'.'UCU'
-'FI200'.'UC_AUCoalWithoutCCS-'.'UCU'
-'FI200'.'UC_AUCoalWithoutCCS_'.'UCU'
-'FI200'.'UC_CoalBANforHEATING-'.'UCU'
-'FI200'.'UC_CoalBANforHEATING_'.'UCU'
 /;
 
 SET TOP_IRE
 
 /
 'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI196'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI198'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI199'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI19A'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI19B'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1B1'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1C1'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1C6'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1C7'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1D5'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1D7'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1D9'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1DA'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1DB'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS-'.'FI1DC'.'UC_AUCoalWithoutCCS-'.'IMPNRGZ'
 'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI196'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI198'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI199'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI19A'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI19B'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1B1'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1C1'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1C6'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1C7'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1D5'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1D7'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1D9'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1DA'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1DB'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
-'IMPEXP'.'UC_AUCoalWithoutCCS_'.'FI1DC'.'UC_AUCoalWithoutCCS_'.'IMPNRGZ'
 'IMPEXP'.'UC_CoalBANforHEATING-'.'FI'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI196'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI198'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI199'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI19A'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI19B'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1B1'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1C1'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1C6'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1C7'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1D5'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1D7'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1D9'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1DA'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1DB'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING-'.'FI1DC'.'UC_CoalBANforHEATING-'.'IMPNRGZ'
 'IMPEXP'.'UC_CoalBANforHEATING_'.'FI'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI196'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI198'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI199'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI19A'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI19B'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1B1'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1C1'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1C6'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1C7'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1D5'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1D7'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1D9'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1DA'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1DB'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
-'IMPEXP'.'UC_CoalBANforHEATING_'.'FI1DC'.'UC_CoalBANforHEATING_'.'IMPNRGZ'
 /;
 
 SET COM_DESC
@@ -257,125 +45,23 @@ SET COM_DESC
 'FI'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
 'FI'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
 'FI'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI196'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI196'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI196'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI196'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI198'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI198'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI198'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI198'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI199'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI199'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI199'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI199'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI19A'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI19A'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI19A'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI19A'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI19B'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI19B'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI19B'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI19B'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1B1'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1B1'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1B1'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1B1'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1C1'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C1'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C1'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1C1'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1C2'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C2'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C2'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1C2'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1C5'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C5'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C5'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1C5'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1C6'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C6'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C6'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1C6'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1C7'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C7'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1C7'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1C7'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1D5'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D5'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D5'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1D5'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1D7'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D7'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D7'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1D7'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1D8'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D8'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D8'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1D8'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1D9'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D9'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1D9'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1D9'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1DA'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1DA'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1DA'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1DA'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1DB'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1DB'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1DB'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1DB'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI1DC'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1DC'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI1DC'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI1DC'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
-'FI200'.'UC_AUCoalWithoutCCS-' 'Negative dummy var for UC: UC_AUCoalWithoutCCS'
-'FI200'.'UC_AUCoalWithoutCCS_' 'Positive dummy var for UC: UC_AUCoalWithoutCCS'
-'FI200'.'UC_CoalBANforHEATING-' 'Negative dummy var for UC: UC_CoalBANforHEATING'
-'FI200'.'UC_CoalBANforHEATING_' 'Positive dummy var for UC: UC_CoalBANforHEATING'
 /;
 
-SET UC_R_SUM
+SET UC_R_EACH
 
 /
 'FI'.'UC_AUCoalWithoutCCS'
 'FI'.'UC_CoalBANforHEATING'
-'FI196'.'UC_AUCoalWithoutCCS'
-'FI196'.'UC_CoalBANforHEATING'
-'FI198'.'UC_AUCoalWithoutCCS'
-'FI198'.'UC_CoalBANforHEATING'
-'FI199'.'UC_AUCoalWithoutCCS'
-'FI199'.'UC_CoalBANforHEATING'
-'FI19A'.'UC_AUCoalWithoutCCS'
-'FI19A'.'UC_CoalBANforHEATING'
-'FI19B'.'UC_AUCoalWithoutCCS'
-'FI19B'.'UC_CoalBANforHEATING'
-'FI1B1'.'UC_AUCoalWithoutCCS'
-'FI1B1'.'UC_CoalBANforHEATING'
-'FI1C1'.'UC_AUCoalWithoutCCS'
-'FI1C1'.'UC_CoalBANforHEATING'
-'FI1C6'.'UC_AUCoalWithoutCCS'
-'FI1C6'.'UC_CoalBANforHEATING'
-'FI1C7'.'UC_AUCoalWithoutCCS'
-'FI1C7'.'UC_CoalBANforHEATING'
-'FI1D5'.'UC_AUCoalWithoutCCS'
-'FI1D5'.'UC_CoalBANforHEATING'
-'FI1D7'.'UC_AUCoalWithoutCCS'
-'FI1D7'.'UC_CoalBANforHEATING'
-'FI1D9'.'UC_AUCoalWithoutCCS'
-'FI1D9'.'UC_CoalBANforHEATING'
-'FI1DA'.'UC_AUCoalWithoutCCS'
-'FI1DA'.'UC_CoalBANforHEATING'
-'FI1DB'.'UC_AUCoalWithoutCCS'
-'FI1DB'.'UC_CoalBANforHEATING'
-'FI1DC'.'UC_AUCoalWithoutCCS'
-'FI1DC'.'UC_CoalBANforHEATING'
 /;
 
 PARAMETER
 
 UC_CAP ' '/
+'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'ECHP_coal_thermal' 1
+'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'ECHP_lignite_thermal' 1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EEPP_coal_CCGT' 1
+'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EEPP_coal_thermal' 1
+'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EEPP_lignite_thermal' 1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EUFBCOH15' 1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EUFBCOL01' 1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EUIGCCCOH15' 1
@@ -384,32 +70,17 @@ UC_CAP ' '/
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EUSTCOHsup01' 1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EUSTCOLcon01' 1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2015.'EUSTCOLsup01' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI196'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI196'.2015.'EEPP_coal_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI198'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI199'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI19A'.2015.'ECHP_coal_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI19B'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1B1'.2015.'ECHP_coal_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1B1'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C1'.2015.'ECHP_coal_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C1'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C6'.2015.'ECHP_coal_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C7'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D5'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D7'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D9'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D9'.2015.'EEPP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DA'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DB'.2015.'ECHP_lignite_thermal' 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DC'.2015.'ECHP_lignite_thermal' 1
 /;
 
 PARAMETER
 
 UC_FLO ' '/
+'UC_CoalBANforHEATING'.LHS.'FI'.2029.'ECHP_coal_thermal'.'ELCCOH'.ANNUAL 1
+'UC_CoalBANforHEATING'.LHS.'FI'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EEHP_DistHeating'.'ELCCOH'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EEPP_coal_CCGT'.'ELCCOH'.ANNUAL 1
+'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EEPP_coal_thermal'.'ELCCOH'.ANNUAL 1
+'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EEPP_lignite_thermal'.'ELCCOL'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EUFBCOH15'.'ELCCOH'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EUFBCOL01'.'ELCCOL'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'EUIGCCCOH15'.'ELCCOH'.ANNUAL 1
@@ -441,25 +112,6 @@ UC_FLO ' '/
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'R_ES-WH-DH_COA'.'RSDCOA'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'R_ES-WH-FL_COA'.'RSDCOA'.ANNUAL 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2029.'R_ES-WH-SD_COA'.'RSDCOA'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI196'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI196'.2029.'EEPP_coal_thermal'.'ELCCOH'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI198'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI199'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI19A'.2029.'ECHP_coal_thermal'.'ELCCOH'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI19B'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1B1'.2029.'ECHP_coal_thermal'.'ELCCOH'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1B1'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1C1'.2029.'ECHP_coal_thermal'.'ELCCOH'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1C1'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1C6'.2029.'ECHP_coal_thermal'.'ELCCOH'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1C7'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1D5'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1D7'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1D9'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1D9'.2029.'EEPP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1DA'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1DB'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
-'UC_CoalBANforHEATING'.LHS.'FI1DC'.2029.'ECHP_lignite_thermal'.'ELCCOL'.ANNUAL 1
 /;
 
 PARAMETER
@@ -467,82 +119,22 @@ PARAMETER
 UC_IRE ' '/
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
 'UC_AUCoalWithoutCCS'.LHS.'FI'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS-'.ANNUAL.IMP -1
-'UC_AUCoalWithoutCCS'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_AUCoalWithoutCCS_'.ANNUAL.IMP 1
 'UC_CoalBANforHEATING'.LHS.'FI'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
 'UC_CoalBANforHEATING'.LHS.'FI'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI196'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI198'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI199'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI19A'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI19B'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1C1'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1C6'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1C7'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1D5'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1D7'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1D9'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1DA'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1DB'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
-'UC_CoalBANforHEATING'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING-'.ANNUAL.IMP -1
-'UC_CoalBANforHEATING'.LHS.'FI1DC'.2010.'IMPNRGZ'.'UC_CoalBANforHEATING_'.ANNUAL.IMP 1
 /;
 
 PARAMETER
 
-UC_RHSTS ' '/
-'UC_AUCoalWithoutCCS'.0.ANNUAL.UP 15
-'UC_AUCoalWithoutCCS'.2015.ANNUAL.UP 4.3398758
-'UC_AUCoalWithoutCCS'.2020.ANNUAL.UP 3.3027073
-'UC_AUCoalWithoutCCS'.2025.ANNUAL.UP 2.3077173
-'UC_AUCoalWithoutCCS'.2029.ANNUAL.UP 0
-'UC_AUCoalWithoutCCS'.2050.ANNUAL.UP 0
-'UC_CoalBANforHEATING'.0.ANNUAL.UP 15
-'UC_CoalBANforHEATING'.2029.ANNUAL.UP 0
-'UC_CoalBANforHEATING'.2050.ANNUAL.UP 0
+UC_RHSRTS ' '/
+'FI'.'UC_AUCoalWithoutCCS'.0.ANNUAL.UP 15
+'FI'.'UC_AUCoalWithoutCCS'.2015.ANNUAL.UP 4.3398758
+'FI'.'UC_AUCoalWithoutCCS'.2020.ANNUAL.UP 3.3027073
+'FI'.'UC_AUCoalWithoutCCS'.2025.ANNUAL.UP 2.3077173
+'FI'.'UC_AUCoalWithoutCCS'.2029.ANNUAL.UP 0
+'FI'.'UC_AUCoalWithoutCCS'.2050.ANNUAL.UP 0
+'FI'.'UC_CoalBANforHEATING'.0.ANNUAL.UP 15
+'FI'.'UC_CoalBANforHEATING'.2029.ANNUAL.UP 0
+'FI'.'UC_CoalBANforHEATING'.2050.ANNUAL.UP 0
 /;
 
 

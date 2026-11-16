@@ -8,7 +8,7 @@ $SET SCENARIO_NAME '01_nucchain-eu'
 SET UNITS_ACT
 
 /
-'tU'
+'TU'
 /;
 
 SET PRC
@@ -32,7 +32,7 @@ SET PRC_TSL
 SET PRC_ACTUNT
 
 /
-'FI'.'IMPELCNUCR'.'ELCNUC'.'tU'
+'FI'.'IMPELCNUCR'.'ELCNUC'.'TU'
 /;
 
 SET TOP
