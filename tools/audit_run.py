@@ -112,7 +112,8 @@ def main():
     if dum:
         hard.append("dummy imports")
     for name, kc, filt in (("COM_PROJ", lambda r: (r[1], r[2]), None),
-                           ("NCAP_PASTI", lambda r: r[2], lambda r: r[1] != "0")):
+                           ("NCAP_PASTI", lambda r: r[2], lambda r: r[1] != "0"),
+                           ("PRC_RESID", lambda r: (r[2], r[1]), lambda r: r[1] != "0")):
         rows, n = diff_rows(R.agg(name, kc, filt), F.agg(name, kc, filt), rel=1e-9)
         L.append(f"- {name} national totals: {'conserved' if n == 0 else f'{n} keys differ'}")
         if n:

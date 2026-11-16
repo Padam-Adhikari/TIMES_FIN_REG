@@ -10,6 +10,7 @@ Checks:
      must match the reference run's total (which may be the single-region FI run):
        COM_PROJ    demand projection     (input; must match exactly)
        NCAP_PASTI  existing capacity     (input; must match exactly)
+       PRC_RESID   base-year stock       (input; must match exactly)
        VAR_CAP     installed capacity    (result; reported, differences expected)
        VAR_COMNET  emissions (CO2 commodities, result; reported)
   4. Internal trade flows (VAR_IRE) between modelled regions, summed by commodity.
@@ -186,6 +187,8 @@ def main():
         real = lambda r: str(r[1]) != "0"      # year 0 = VEDA interpolation code, not capacity
         ok &= compare(run.total("NCAP_PASTI", [2], real), ref.total("NCAP_PASTI", [2], real),
                       "NCAP_PASTI existing capacity by process", L, hard=True)
+        ok &= compare(run.total("PRC_RESID", [2, 1], real), ref.total("PRC_RESID", [2, 1], real),
+                      "PRC_RESID residual (base-year) capacity by process, year", L, hard=True)
         compare(run.total("VAR_CAP", [1, 2]), ref.total("VAR_CAP", [1, 2]),
                 "VAR_CAP installed capacity by year, process (result)", L, hard=False)
         em = lambda r: r[2] in EMISSION_COMMODITIES

@@ -1,4 +1,4 @@
-# Run check: baseline-sami.gdx
+# Run check: reg_baseline-sami_2026-11-16_run3_final.gdx
 
 Regions (20): FI, FI196, FI198, FI199, FI19A, FI19B, FI1B1, FI1C1, FI1C2, FI1C5, FI1C6, FI1C7, FI1D5, FI1D7, FI1D8, FI1D9, FI1DA, FI1DB, FI1DC, FI200
 
@@ -17,6 +17,9 @@ Reference: 1.52992e+06  ·  difference -369.064 (-0.0241%)
 
 
 ### NCAP_PASTI existing capacity by process: PASS (0 of 340 keys differ)
+
+
+### PRC_RESID residual (base-year) capacity by process, year: PASS (0 of 3241 keys differ)
 
 
 ### VAR_CAP installed capacity by year, process (result): DIFF (797 of 9752 keys differ)
