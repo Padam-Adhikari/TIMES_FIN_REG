@@ -1,0 +1,106 @@
+Reg-FINTIMES/SysSettings.xlsx: 12 declarations, ENV rows [75, 76, 77]
+Reg-FINTIMES/SuppXLS/Scen_KILL_CoalPhaseOut2030.xlsx: FI values copied to AllRegions in Reg mode
+--- Reg-FINTIMES/SuppXLS/Scen_KILL_CoalPhaseOut2030.xlsx
+  ~ 'INS'!O4 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",P4)
+      (coal phase-out is a zero bound (Copy rule): every region in Reg mode)
+  ~ 'INS'!O6 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",P6)
+      (coal phase-out is a zero bound (Copy rule): every region in Reg mode)
+--- Reg-FINTIMES/SysSettings.xlsx
+  ~ 'Comms'!W48 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCCOH: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W49 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCCOL: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W51 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCDST: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W53 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCGAS: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W55 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCHFO: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W56 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCHIG: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W57 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCHYD: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!C46 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCNUC: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W62 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCSOL: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W65 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCWIN: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W66 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (ELCWOO: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!W73 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (HETHTH: declared in every region in Reg mode (moved plants use it there))
+  ~ 'Comms'!C37 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8),"FI")
+      (ELCCO2N: hub row only on FI in Reg mode (the regions get their own FX row))
+  ~ 'Comms'!W20 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8),"FI")
+      (ETSCO2: hub row only on FI in Reg mode (the regions get their own FX row))
+  ~ 'Comms'!V75 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",B37)
+      (ELCCO2N in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!W75 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$L$8:$AD$8))
+      (ELCCO2N in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!X75 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",D37)
+      (ELCCO2N in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!Y75 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",E37)
+      (ELCCO2N in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!Z75 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",F37)
+      (ELCCO2N in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!AA75 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","FX")
+      (ELCCO2N in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!V76 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",V20)
+      (ETSCO2 in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!W76 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$L$8:$AD$8))
+      (ETSCO2 in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!X76 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",X20)
+      (ETSCO2 in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!Y76 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",Y20)
+      (ETSCO2 in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!Z76 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",Z20)
+      (ETSCO2 in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!AA76 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","FX")
+      (ETSCO2 in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!V77 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",V22)
+      (GreenCert-ELC in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!W77 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$L$8:$AD$8))
+      (GreenCert-ELC in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!X77 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",X22)
+      (GreenCert-ELC in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!Y77 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",Y22)
+      (GreenCert-ELC in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!Z77 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",Z22)
+      (GreenCert-ELC in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)
+  ~ 'Comms'!AA77 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","FX")
+      (GreenCert-ELC in the 19 regions, LimType FX: all regional emissions/certificates go to the hub)

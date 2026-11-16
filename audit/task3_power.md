@@ -107,6 +107,24 @@ has 19 shares that sum to exactly 1; the `Reg_Keys` sheets repeat them with a su
 4. Existing classes have no investment cost and only the year-0 code on NCAP_BND (same in the
    single-region model). Investment there is not blocked explicitly in either model.
 
+## 6. First server run (2026-11-16, Baseline-Reg, FI + 19): infeasible -> fixed (`tools/task3_vedafix.py`)
+
+Diagnosed by solving the server's DD files locally (CPLEX conflict refiner) and comparing every
+regional DD entry with the prototype s4:
+
+| Finding | Cause | Fix |
+|---|---|---|
+| Conflict: `RS_NCAP_ENFI_OLKILUOTO-3_FX` (2023) needs 1.6 GW, but OL3 cannot be built in FI196 | ELCNUC, ELCHIG, ELCCOL, ELCGAS, HETHTH, ... declared only in FI (SysSettings `Comms`, Region = `FI`). VEDA drops every TOP, PRC_ACTUNT, FLO_EMIS and trade link that names a commodity the region lacks: none of the moved plants had inputs or outputs, and 186 of the 220 new links were missing | 12 Region cells -> `=IF(SEL,"FI",TEXTJOIN(all regions))` (blue), same formula the model already uses for ELCCO2N, INDCOA, ... |
+| ELCCO2N, ETSCO2 (and GreenCert-ELC once declared) had no balance in the regions (ENV, LimType N) | a region could keep its CO2 / certificates instead of sending them to the hub, where caps, taxes and certificate rules sit | hub rows `FI` only in Reg mode (blue); Reg-only rows Comms!V75:AA77 (green) declare them in the 19 regions with LimType FX |
+| 2030 coal phase-out (`Scen_KILL_CoalPhaseOut2030`, CAP_BND UP 0) only in FI | value written in the FI column | O4, O6 = FI value in Reg mode (AllRegions, Copy rule); Region_selection sheet added |
+| `tradeparameters.dd` not in the run; `demand_com-fr` instead of `demand_com-fr_sami` | case Baseline-Reg uses a different scenario list than the single-region `baseline-new` | run the regional case with the same scenarios as the single-region case (incl. TradeParameters, RegSum_Base) |
+
+Check before writing: the fix was emulated in the server's DD files (declarations in the regions,
+the moved plants' TOP / activity groups / FLO_EMIS, the 186 links, FX for the regional ENV
+balances, coal phase-out, link costs) and solved locally: **optimal**, no dummy imports, COM_PROJ
+and NCAP_PASTI conserved (results below). `check_run.py` now ignores year 0 of NCAP_PASTI
+(interpolation code, was counted once per region).
+
 ## 5. Server run
 
 1. Pull branch `reg/full`. Open `select_model.xlsm` and switch to Reg-FINTIMES, then

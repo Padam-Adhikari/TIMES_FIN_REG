@@ -183,7 +183,8 @@ def main():
         L.append("\n## 3. National totals (sum over regions vs reference)")
         ok &= compare(run.total("COM_PROJ", [1, 2]), ref.total("COM_PROJ", [1, 2]),
                       "COM_PROJ demand by year, commodity", L, hard=True)
-        ok &= compare(run.total("NCAP_PASTI", [2]), ref.total("NCAP_PASTI", [2]),
+        real = lambda r: str(r[1]) != "0"      # year 0 = VEDA interpolation code, not capacity
+        ok &= compare(run.total("NCAP_PASTI", [2], real), ref.total("NCAP_PASTI", [2], real),
                       "NCAP_PASTI existing capacity by process", L, hard=True)
         compare(run.total("VAR_CAP", [1, 2]), ref.total("VAR_CAP", [1, 2]),
                 "VAR_CAP installed capacity by year, process (result)", L, hard=False)
