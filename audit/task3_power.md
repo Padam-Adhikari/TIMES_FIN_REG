@@ -121,8 +121,14 @@ regional DD entry with the prototype s4:
 
 Check before writing: the fix was emulated in the server's DD files (declarations in the regions,
 the moved plants' TOP / activity groups / FLO_EMIS, the 186 links, FX for the regional ENV
-balances, coal phase-out, link costs) and solved locally: **optimal**, no dummy imports, COM_PROJ
-and NCAP_PASTI conserved (results below). `check_run.py` now ignores year 0 of NCAP_PASTI
+balances, coal phase-out, link costs, and the moved plants' terms in the national UCs that VEDA
+had dropped with the commodities: UC_VARI_MINDISP, UC_VAR2/3_*, UC_CoalBANforHEATING,
+UELC_UpShare-CoalELC, AU_ELC_HYD) and solved locally with the same scenarios as the single run
+(demand_com-fr_sami, TradeParameters): barrier objective **1,529,545.6 M EUR** vs single-region
+1,529,919.9 (-0.024 %, the same gap as the empty-region skeleton before step 3, 1,529,541.8);
+no dummy imports, COM_PROJ and NCAP_PASTI conserved. Without those UC terms the emulation was
+1.6 % too cheap, i.e. VEDA must write them after the fix: check `UC_FLO` lines of
+UC_VARI_MINDISP for regional plants and `UC_R_SUM` with all regions in the next DD files. `check_run.py` now ignores year 0 of NCAP_PASTI
 (interpolation code, was counted once per region).
 
 ## 5. Server run
