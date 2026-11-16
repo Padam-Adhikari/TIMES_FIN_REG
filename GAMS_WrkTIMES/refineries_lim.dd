@@ -105,7 +105,9 @@ SET TOP_IRE
 
 /
 'IMPEXP'.'UC_Refineries_Lim-'.'FI'.'UC_Refineries_Lim-'.'IMPNRGZ'
+'IMPEXP'.'UC_Refineries_Lim-'.'FI1B1'.'UC_Refineries_Lim-'.'IMPNRGZ'
 'IMPEXP'.'UC_Refineries_Lim_'.'FI'.'UC_Refineries_Lim_'.'IMPNRGZ'
+'IMPEXP'.'UC_Refineries_Lim_'.'FI1B1'.'UC_Refineries_Lim_'.'IMPNRGZ'
 /;
 
 SET COM_DESC
@@ -153,10 +155,11 @@ SET COM_DESC
 'FI200'.'UC_Refineries_Lim_' 'Positive dummy var for UC: UC_Refineries_Lim'
 /;
 
-SET UC_R_EACH
+SET UC_R_SUM
 
 /
 'FI'.'UC_Refineries_Lim'
+'FI1B1'.'UC_Refineries_Lim'
 /;
 
 PARAMETER
@@ -172,7 +175,6 @@ UC_ACT ' '/
 'UC_Refineries_Lim'.LHS.'FI'.2010.'EXPOILNEU'.ANNUAL 1
 'UC_Refineries_Lim'.LHS.'FI'.2010.'EXPOILOTH'.ANNUAL 1
 'UC_Refineries_Lim'.LHS.'FI'.2010.'EXPOILRFG'.ANNUAL 1
-'UC_Refineries_Lim'.LHS.'FI'.2010.'SSCDRFLX00'.ANNUAL -1
 'UC_Refineries_Lim'.LHS.'FI'.2070.'EXPOILDST'.ANNUAL 1
 'UC_Refineries_Lim'.LHS.'FI'.2070.'EXPOILFDS'.ANNUAL 1
 'UC_Refineries_Lim'.LHS.'FI'.2070.'EXPOILGSL'.ANNUAL 1
@@ -183,7 +185,8 @@ UC_ACT ' '/
 'UC_Refineries_Lim'.LHS.'FI'.2070.'EXPOILNEU'.ANNUAL 1
 'UC_Refineries_Lim'.LHS.'FI'.2070.'EXPOILOTH'.ANNUAL 1
 'UC_Refineries_Lim'.LHS.'FI'.2070.'EXPOILRFG'.ANNUAL 1
-'UC_Refineries_Lim'.LHS.'FI'.2070.'SSCDRFLX00'.ANNUAL -1
+'UC_Refineries_Lim'.LHS.'FI1B1'.2010.'SSCDRFLX00'.ANNUAL -1
+'UC_Refineries_Lim'.LHS.'FI1B1'.2070.'SSCDRFLX00'.ANNUAL -1
 /;
 
 PARAMETER
@@ -191,13 +194,15 @@ PARAMETER
 UC_IRE ' '/
 'UC_Refineries_Lim'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Refineries_Lim-'.ANNUAL.IMP -1
 'UC_Refineries_Lim'.LHS.'FI'.2010.'IMPNRGZ'.'UC_Refineries_Lim_'.ANNUAL.IMP 1
+'UC_Refineries_Lim'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Refineries_Lim-'.ANNUAL.IMP -1
+'UC_Refineries_Lim'.LHS.'FI1B1'.2010.'IMPNRGZ'.'UC_Refineries_Lim_'.ANNUAL.IMP 1
 /;
 
 PARAMETER
 
-UC_RHSRTS ' '/
-'FI'.'UC_Refineries_Lim'.0.ANNUAL.UP 15
-'FI'.'UC_Refineries_Lim'.2010.ANNUAL.UP 0
+UC_RHSTS ' '/
+'UC_Refineries_Lim'.0.ANNUAL.UP 15
+'UC_Refineries_Lim'.2010.ANNUAL.UP 0
 /;
 
 
