@@ -6,7 +6,7 @@
 *                                                                   *
 *********************************************************************
 *
---- Job baseline-sami.RUN Start 11/16/26 20:54:48 53.5.1 f2e5fac3 WEX-WEI x86 64bit/MS Windows
+--- Job baseline-sami.RUN Start 11/17/26 02:05:16 53.5.1 f2e5fac3 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\53\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -48,13 +48,13 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> err_stat.mod(73) 3 Mb
 --- > initmty.mod(491) 3 Mb
 --- baseline-sami.RUN(76) 3 Mb
---- > base.dd(1) 3 Mb--- > base.dd(36002) 5 Mb--- > base.dd(46479) 6 Mb
+--- > base.dd(46462) 6 Mb
 --- baseline-sami.RUN(77) 6 Mb
 --- > 00_nuc-eu.dd(303) 6 Mb
 --- baseline-sami.RUN(78) 6 Mb
 --- > 01_nucchain-eu.dd(62) 6 Mb
 --- baseline-sami.RUN(79) 6 Mb
---- > 11_techs_power.dd(1514) 6 Mb
+--- > 11_techs_power.dd(871) 6 Mb--- > 11_techs_power.dd(1514) 6 Mb
 --- baseline-sami.RUN(80) 6 Mb
 --- > 10_techs_chp_sup_ind.dd(6593) 6 Mb
 --- baseline-sami.RUN(81) 6 Mb
@@ -64,11 +64,11 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(83) 7 Mb
 --- > 14_techs_storage.dd(4112) 7 Mb
 --- baseline-sami.RUN(84) 7 Mb
---- > 15_techs_hydrogen.dd(1523) 7 Mb--- > 15_techs_hydrogen.dd(1964) 7 Mb
+--- > 15_techs_hydrogen.dd(1964) 7 Mb
 --- baseline-sami.RUN(85) 7 Mb
 --- > 20_techs_tra.dd(6816) 7 Mb
 --- baseline-sami.RUN(86) 7 Mb
---- > 21_techs_other.dd(711) 7 Mb
+--- > 21_techs_other.dd(825) 7 Mb
 --- baseline-sami.RUN(87) 7 Mb
 --- > 22_techs_biorefineries.dd(868) 7 Mb
 --- baseline-sami.RUN(88) 7 Mb
@@ -82,13 +82,13 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(92) 8 Mb
 --- > 40_trade-extraeu.dd(359) 8 Mb
 --- baseline-sami.RUN(93) 8 Mb
---- > 41_trade-elc-extraeu.dd(152) 8 Mb
---- baseline-sami.RUN(94) 8 Mb
---- > syssettings.dd(2438) 9 Mb
+--- > 41_trade-elc-extraeu.dd(152) 9 Mb
+--- baseline-sami.RUN(94) 9 Mb
+--- > syssettings.dd(2447) 9 Mb
 --- baseline-sami.RUN(95) 9 Mb
 --- > power_from_jrc-idees-2015.dd(2171) 9 Mb
 --- baseline-sami.RUN(96) 9 Mb
---- > rsdretfitsetup.dd(1) 9 Mb--- > rsdretfitsetup.dd(34) 9 Mb
+--- > rsdretfitsetup.dd(34) 9 Mb
 --- baseline-sami.RUN(97) 9 Mb
 --- > tradeparameters.dd(689) 9 Mb
 --- baseline-sami.RUN(98) 9 Mb
@@ -98,7 +98,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(100) 9 Mb
 --- > bunk_fuels_share.dd(17) 9 Mb
 --- baseline-sami.RUN(101) 9 Mb
---- > co2target_nonets_2030.dd(366) 9 Mb
+--- > co2target_nonets_2030.dd(385) 9 Mb
 --- baseline-sami.RUN(102) 9 Mb
 --- > demand_com-fr_sami.dd(685) 9 Mb
 --- baseline-sami.RUN(103) 9 Mb
@@ -118,7 +118,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(110) 9 Mb
 --- > killsnkco2_11ms.dd(15) 9 Mb
 --- baseline-sami.RUN(111) 9 Mb
---- > newhouses_and_retrofits.dd(18087) 10 Mb
+--- > newhouses_and_retrofits.dd(146) 9 Mb--- > newhouses_and_retrofits.dd(18087) 10 Mb
 --- baseline-sami.RUN(112) 10 Mb
 --- > diversified_cement.dd(369) 10 Mb
 --- baseline-sami.RUN(113) 10 Mb
@@ -126,11 +126,11 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(114) 10 Mb
 --- > emisuc_v1point.dd(308) 10 Mb
 --- baseline-sami.RUN(115) 10 Mb
---- > sepdb-ziet_var.dd(30316) 12 Mb--- > sepdb-ziet_var.dd(52051) 13 Mb
+--- > sepdb-ziet_var.dd(52051) 13 Mb
 --- baseline-sami.RUN(116) 13 Mb
 --- > sepdb-ziet_var_stor.dd(3035) 13 Mb
 --- baseline-sami.RUN(117) 13 Mb
---- > sepdb-zietassumptions_drate.dd(3584) 13 Mb
+--- > sepdb-zietassumptions_drate.dd(3571) 13 Mb
 --- baseline-sami.RUN(118) 13 Mb
 --- > regsum_base.dd(3089) 13 Mb
 --- baseline-sami.RUN(119) 13 Mb
@@ -146,7 +146,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(124) 14 Mb
 --- > uc_heatpumps_mincap_lo.dd(490) 14 Mb
 --- baseline-sami.RUN(125) 14 Mb
---- > uc_limitcoal.dd(394) 14 Mb--- > uc_limitcoal.dd(1265) 14 Mb
+--- > uc_limitcoal.dd(1250) 14 Mb
 --- baseline-sami.RUN(126) 14 Mb
 --- > uc_refscen16_data.dd(548) 14 Mb
 --- baseline-sami.RUN(127) 14 Mb
@@ -156,11 +156,11 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(129) 16 Mb
 --- > uc_tra.dd(3189) 16 Mb
 --- baseline-sami.RUN(130) 16 Mb
---- > uc-biofuel.dd(1378) 16 Mb
+--- > uc-biofuel.dd(1195) 16 Mb--- > uc-biofuel.dd(1378) 16 Mb
 --- baseline-sami.RUN(131) 16 Mb
 --- > uc-elc.dd(4335) 16 Mb
 --- baseline-sami.RUN(132) 16 Mb
---- > uc-ind.dd(10093) 17 Mb
+--- > uc-ind.dd(9849) 17 Mb
 --- baseline-sami.RUN(133) 17 Mb
 --- > x-nationalgrids.dd(111) 17 Mb
 --- baseline-sami.RUN(134) 17 Mb
@@ -168,7 +168,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(135) 17 Mb
 --- > z_dac_sensit.dd(17) 17 Mb
 --- baseline-sami.RUN(136) 17 Mb
---- > zatemp_calibration.dd(6276) 17 Mb
+--- > zatemp_calibration.dd(6708) 17 Mb
 --- baseline-sami.RUN(137) 17 Mb
 --- > zietassumptions.dd(267) 17 Mb
 --- baseline-sami.RUN(138) 17 Mb
@@ -180,30 +180,30 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(141) 17 Mb
 --- > 01_baseline.dd(277) 17 Mb
 --- baseline-sami.RUN(142) 17 Mb
---- > zuco2transbase.dd(186) 17 Mb
---- baseline-sami.RUN(143) 17 Mb
---- > zudelayindeployment.dd(219) 17 Mb
---- baseline-sami.RUN(144) 17 Mb
---- > zuco2trans.dd(228) 17 Mb
---- baseline-sami.RUN(145) 17 Mb
---- > zuemisco2.dd(1306) 18 Mb
+--- > zuco2transbase.dd(186) 18 Mb
+--- baseline-sami.RUN(143) 18 Mb
+--- > zudelayindeployment.dd(218) 18 Mb
+--- baseline-sami.RUN(144) 18 Mb
+--- > zuco2trans.dd(228) 18 Mb
+--- baseline-sami.RUN(145) 18 Mb
+--- > zuemisco2.dd(1305) 18 Mb
 --- baseline-sami.RUN(146) 18 Mb
 --- > zudemand_ref2016.dd(599) 18 Mb
 --- baseline-sami.RUN(147) 18 Mb
 --- > zz_cumulativeco2.dd(2464) 18 Mb
 --- baseline-sami.RUN(148) 18 Mb
---- > zuesr.dd(687) 18 Mb
+--- > zuesr.dd(675) 18 Mb
 --- baseline-sami.RUN(149) 18 Mb
 --- > zugrowth_yearly.dd(3118) 18 Mb
 --- baseline-sami.RUN(150) 18 Mb
---- > zuiled.dd(3616) 18 Mb
+--- > zuiled.dd(3603) 18 Mb
 --- baseline-sami.RUN(151) 18 Mb
 --- > zzzcostupdate.dd(361) 18 Mb
 --- baseline-sami.RUN(165) 18 Mb
 --- > maindrv.mod(23) 18 Mb
 --- >> setglobs.gms(15) 18 Mb
 --- GDX File ($gdxOut) D:\Padam\GAMS_WrkTIMES\_dd_.gdx
---- >> setglobs.gms(16) 18 Mb--- >> setglobs.gms(19) 18 Mb--- >> setglobs.gms(373) 18 Mb
+--- >> setglobs.gms(373) 18 Mb
 --- > maindrv.mod(45) 18 Mb
 --- >> err_stat.mod(73) 18 Mb
 --- > maindrv.mod(55) 18 Mb
@@ -217,7 +217,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> filparam.gms(43) 18 Mb
 --- >> ppmain.mod(196) 18 Mb
 --- >>> timslice.mod(36) 18 Mb
---- >>>> pp_off.mod(23) 18 Mb
+--- >>>> pp_off.mod(1) 18 Mb--- >>>> pp_off.mod(23) 18 Mb
 --- >>> timslice.mod(81) 18 Mb
 --- >>>> pp_qaput.mod(16) 18 Mb
 --- >>> timslice.mod(103) 18 Mb
@@ -228,7 +228,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> ppmain.mod(237) 18 Mb
 --- >>> pp_off.mod(23) 18 Mb
 --- >> ppmain.mod(248) 18 Mb
---- >>> preppm.mod(1) 18 Mb--- >>> preppm.mod(11) 18 Mb
+--- >>> preppm.mod(11) 18 Mb
 --- >>>> prepxtra.mod(90) 18 Mb
 
 --- >>> preppm.mod(11) 18 Mb--- >>> preppm.mod(28) 18 Mb
@@ -308,7 +308,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> preppm.mod(82) 18 Mb
 --- >>>> prepparm.gms(72) 18 Mb
 --- >>> preppm.mod(83) 18 Mb
---- >>>> prepparm.gms(72) 18 Mb
+--- >>>> prepparm.gms(24) 18 Mb--- >>>> prepparm.gms(72) 18 Mb
 --- >>> preppm.mod(84) 18 Mb
 --- >>>> prepparm.gms(72) 18 Mb
 --- >>> preppm.mod(85) 18 Mb
@@ -641,7 +641,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> ppmain.mod(879) 19 Mb
 --- >>> pp_qaput.mod(16) 19 Mb
 --- >> ppmain.mod(987) 19 Mb
---- >>> pp_lvlbd.mod(32) 19 Mb
+--- >>> pp_lvlbd.mod(1) 19 Mb--- >>> pp_lvlbd.mod(32) 19 Mb
 --- >>>> pp_qaput.mod(16) 19 Mb
 --- >>> pp_lvlbd.mod(47) 19 Mb
 --- >> ppmain.mod(988) 19 Mb
@@ -680,7 +680,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- > maindrv.mod(58) 19 Mb
 --- >> main_ext.mod(20) 19 Mb
 --- >>> ppm_ext.VDA(58) 19 Mb
---- >>>> pp_actef.VDA(1) 19 Mb--- >>>> pp_actef.VDA(49) 19 Mb
+--- >>>> pp_actef.VDA(49) 19 Mb
 --- >>> ppm_ext.VDA(89) 19 Mb
 --- >>>> pp_qaput.mod(16) 19 Mb
 --- >>> ppm_ext.VDA(93) 19 Mb
@@ -758,10 +758,10 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- > maindrv.mod(78) 20 Mb
 --- >> main_ext.mod(18) 20 Mb
 --- > maindrv.mod(79) 20 Mb
---- >> eqmain.mod(22) 20 Mb
+--- >> eqmain.mod(1) 20 Mb--- >> eqmain.mod(22) 20 Mb
 --- >>> eqdeclr.mod(195) 20 Mb
 --- >> eqmain.mod(23) 20 Mb
---- >>> equ_ext.vda(1) 20 Mb--- >>> equ_ext.vda(68) 20 Mb
+--- >>> equ_ext.vda(68) 20 Mb
 --- >> eqmain.mod(34) 20 Mb
 --- >>> eqobj.mod(39) 20 Mb
 --- >>>> prepret.dsc(123) 20 Mb
@@ -836,7 +836,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>>> cal_red.red(59) 20 Mb
 --- >>>> cal_fflo.mod(50) 20 Mb
 --- >>> eqcombal.mod(39) 20 Mb
---- >>>> cal_ire.mod(1) 20 Mb--- >>>> cal_ire.mod(42) 20 Mb
+--- >>>> cal_ire.mod(42) 20 Mb
 --- >>> eqcombal.mod(42) 20 Mb
 --- >>>> cal_stgn.mod(23) 20 Mb
 --- >>> eqcombal.mod(51) 20 Mb
@@ -1019,7 +1019,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> eqmain.mod(175) 20 Mb
 --- >>> eqstgtss.mod(95) 20 Mb
 --- >> eqmain.mod(180) 20 Mb
---- >>> eqstgflo.mod(1) 20 Mb--- >>> eqstgflo.mod(31) 20 Mb
+--- >>> eqstgflo.mod(31) 20 Mb
 --- >> eqmain.mod(181) 20 Mb
 --- >>> eqstgflo.mod(31) 20 Mb
 --- >> eqmain.mod(182) 20 Mb
@@ -1055,7 +1055,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>> equserco.mod(44) 20 Mb
 --- >>>>> uc_com.mod(47) 20 Mb
 --- >>>> equserco.mod(46) 20 Mb
---- >>>>> uc_ire.mod(58) 20 Mb
+--- >>>>> uc_ire.mod(1) 20 Mb--- >>>>> uc_ire.mod(58) 20 Mb
 --- >>>> equserco.mod(122) 20 Mb
 --- >>> equcwrap.mod(24) 20 Mb
 --- >>>> equserco.mod(34) 20 Mb
@@ -1219,20 +1219,20 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>> equserco.mod(85) 20 Mb
 --- >>>>> uc_flo.mod(30) 20 Mb
 --- >>>>>> cal_red.red(59) 20 Mb
---- >>>>> uc_flo.mod(51) 20 Mb
---- >>>>>> cal_caps.mod(29) 20 Mb
---- >>>>> uc_flo.mod(77) 20 Mb
---- >>>> equserco.mod(87) 20 Mb
---- >>>>> uc_ncap.mod(51) 20 Mb
---- >>>> equserco.mod(89) 20 Mb
---- >>>>> uc_cap.mod(36) 20 Mb
---- >>>> equserco.mod(91) 20 Mb
---- >>>>> uc_act.mod(53) 20 Mb
---- >>>> equserco.mod(93) 20 Mb
---- >>>>> uc_com.mod(47) 20 Mb
---- >>>> equserco.mod(95) 20 Mb
---- >>>>> uc_com.mod(47) 20 Mb
---- >>>> equserco.mod(97) 20 Mb
+--- >>>>> uc_flo.mod(51) 21 Mb
+--- >>>>>> cal_caps.mod(29) 21 Mb
+--- >>>>> uc_flo.mod(77) 21 Mb
+--- >>>> equserco.mod(87) 21 Mb
+--- >>>>> uc_ncap.mod(51) 21 Mb
+--- >>>> equserco.mod(89) 21 Mb
+--- >>>>> uc_cap.mod(36) 21 Mb
+--- >>>> equserco.mod(91) 21 Mb
+--- >>>>> uc_act.mod(53) 21 Mb
+--- >>>> equserco.mod(93) 21 Mb
+--- >>>>> uc_com.mod(47) 21 Mb
+--- >>>> equserco.mod(95) 21 Mb
+--- >>>>> uc_com.mod(47) 21 Mb
+--- >>>> equserco.mod(97) 21 Mb
 --- >>>>> uc_ire.mod(58) 21 Mb
 --- >>>> equserco.mod(104) 21 Mb
 --- >>>>> uc_pasti.mod(33) 21 Mb
@@ -1400,7 +1400,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> equ_ext.VDA(105) 21 Mb
 --- >> main_ext.mod(18) 21 Mb
 --- > maindrv.mod(82) 21 Mb
---- >> mod_equa.mod(1) 21 Mb--- >> mod_equa.mod(216) 21 Mb
+--- >> mod_equa.mod(216) 21 Mb
 --- > maindrv.mod(84) 21 Mb
 --- >> main_ext.mod(20) 21 Mb
 --- >>> mod_ext.VDA(51) 21 Mb
@@ -1440,7 +1440,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> bnd_ucw.mod(25) 21 Mb
 --- >> bndmain.mod(87) 21 Mb
 --- > maindrv.mod(97) 21 Mb
---- >> pp_qack.mod(69) 21 Mb
+--- >> pp_qack.mod(1) 21 Mb--- >> pp_qack.mod(69) 21 Mb
 --- >>> pp_qaput.mod(16) 21 Mb
 --- >> pp_qack.mod(78) 21 Mb
 --- >>> pp_qaput.mod(16) 21 Mb
@@ -1546,7 +1546,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> rptlite.rpt(146) 21 Mb
 --- >>>> sol_ire.rpt(20) 21 Mb
 --- >>> rptlite.rpt(151) 21 Mb
---- >>>> rpt_obj.rpt(1) 21 Mb--- >>>> rpt_obj.rpt(122) 21 Mb
+--- >>>> rpt_obj.rpt(122) 21 Mb
 --- >>>>> eqobjvar.rpt(73) 21 Mb
 --- >>>>>> cal_caps.mod(29) 21 Mb
 --- >>>>> eqobjvar.rpt(96) 21 Mb
@@ -1583,20 +1583,18 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> err_stat.mod(73) 21 Mb
 --- > maindrv.mod(133) 21 Mb
 --- baseline-sami.RUN(172) 22 Mb
---- Starting execution: elapsed 0:00:03.643
---- baseline-sami.RUN(264896) 34 Mb--- baseline-sami.RUN(264977) 36 Mb--- baseline-sami.RUN(266137) 43 Mb--- baseline-sami.RUN(267730) 51 Mb--- baseline-sami.RUN(267730) 56 Mb--- baseline-sami.RUN(267788) 67 Mb--- baseline-sami.RUN(268596) 67 Mb--- baseline-sami.RUN(268894) 67 Mb--- baseline-sami.RUN(269309) 78 Mb--- baseline-sami.RUN(269386) 78 Mb--- baseline-sami.RUN(269618) 90 Mb--- baseline-sami.RUN(269618) 92 Mb--- baseline-sami.RUN(270908) 95 Mb--- baseline-sami.RUN(270940) 105 Mb--- baseline-sami.RUN(271088) 131 Mb--- baseline-sami.RUN(271098) 134 Mb--- baseline-sami.RUN(271147) 145 Mb--- baseline-sami.RUN(271175) 145 Mb--- baseline-sami.RUN(271294) 151 Mb--- baseline-sami.RUN(271382) 152 Mb--- baseline-sami.RUN(271426) 157 Mb--- baseline-sami.RUN(271433) 159 Mb--- baseline-sami.RUN(271626) 159 Mb--- baseline-sami.RUN(271662) 159 Mb--- baseline-sami.RUN(272214) 175 Mb--- baseline-sami.RUN(272265) 185 Mb--- baseline-sami.RUN(272267) 213 Mb--- baseline-sami.RUN(272309) 217 Mb--- baseline-sami.RUN(272806) 232 Mb--- baseline-sami.RUN(272909) 236 Mb--- baseline-sami.RUN(272928) 240 Mb--- baseline-sami.RUN(272928) 244 Mb--- baseline-sami.RUN(273007) 253 Mb--- baseline-sami.RUN(273322) 253 Mb--- baseline-sami.RUN(273951) 258 Mb--- baseline-sami.RUN(273965) 258 Mb--- baseline-sami.RUN(273967) 258 Mb--- baseline-sami.RUN(274057) 271 Mb--- baseline-sami.RUN(274082) 271 Mb--- baseline-sami.RUN(274189) 279 Mb--- baseline-sami.RUN(274211) 279 Mb--- baseline-sami.RUN(274211) 305 Mb--- baseline-sami.RUN(274327) 313 Mb--- baseline-sami.RUN(274518) 319 Mb--- baseline-sami.RUN(274518) 324 Mb--- baseline-sami.RUN(274524) 350 Mb--- baseline-sami.RUN(274574) 350 Mb--- baseline-sami.RUN(274625) 357 Mb--- baseline-sami.RUN(274634) 357 Mb--- baseline-sami.RUN(274659) 360 Mb--- baseline-sami.RUN(274743) 360 Mb--- baseline-sami.RUN(274945) 375 Mb--- baseline-sami.RUN(274945) 382 Mb--- baseline-sami.RUN(274946) 408 Mb--- baseline-sami.RUN(275002) 410 Mb--- baseline-sami.RUN(275093) 411 Mb--- baseline-sami.RUN(275102) 415 Mb--- baseline-sami.RUN(275112) 436 Mb--- baseline-sami.RUN(275116) 443 Mb--- baseline-sami.RUN(275116) 446 Mb--- baseline-sami.RUN(275228) 447 Mb--- baseline-sami.RUN(275281) 447 Mb--- baseline-sami.RUN(275792) 455 Mb--- baseline-sami.RUN(276118) 455 Mb--- baseline-sami.RUN(276293) 461 Mb--- baseline-sami.RUN(276297) 461 Mb--- baseline-sami.RUN(276308) 461 Mb--- baseline-sami.RUN(277057) 462 Mb--- baseline-sami.RUN(277067) 462 Mb--- baseline-sami.RUN(277387) 462 Mb--- baseline-sami.RUN(277532) 462 Mb--- baseline-sami.RUN(278429) 462 Mb--- baseline-sami.RUN(284153) 462 Mb--- baseline-sami.RUN(284158) 469 Mb--- baseline-sami.RUN(294047) 479 Mb--- baseline-sami.RUN(294508) 484 Mb--- baseline-sami.RUN(294581) 484 Mb--- baseline-sami.RUN(294754) 495 Mb--- baseline-sami.RUN(295258) 495 Mb--- baseline-sami.RUN(295440) 495 Mb--- baseline-sami.RUN(295767) 495 Mb
+--- Starting execution: elapsed 0:00:02.723
+--- baseline-sami.RUN(262900) 29 Mb--- baseline-sami.RUN(263823) 33 Mb--- baseline-sami.RUN(266282) 43 Mb--- baseline-sami.RUN(266398) 43 Mb--- baseline-sami.RUN(267991) 56 Mb--- baseline-sami.RUN(267991) 68 Mb--- baseline-sami.RUN(268390) 68 Mb--- baseline-sami.RUN(268638) 68 Mb--- baseline-sami.RUN(269228) 75 Mb--- baseline-sami.RUN(269610) 78 Mb--- baseline-sami.RUN(269879) 91 Mb--- baseline-sami.RUN(270381) 95 Mb--- baseline-sami.RUN(271201) 105 Mb--- baseline-sami.RUN(271201) 119 Mb--- baseline-sami.RUN(271359) 137 Mb--- baseline-sami.RUN(271359) 140 Mb--- baseline-sami.RUN(271555) 149 Mb--- baseline-sami.RUN(271555) 150 Mb--- baseline-sami.RUN(271687) 158 Mb--- baseline-sami.RUN(271807) 159 Mb--- baseline-sami.RUN(272072) 160 Mb--- baseline-sami.RUN(272183) 160 Mb--- baseline-sami.RUN(272528) 197 Mb--- baseline-sami.RUN(272528) 204 Mb--- baseline-sami.RUN(273009) 232 Mb--- baseline-sami.RUN(273170) 236 Mb--- baseline-sami.RUN(273189) 248 Mb--- baseline-sami.RUN(273189) 252 Mb--- baseline-sami.RUN(274212) 258 Mb--- baseline-sami.RUN(274222) 258 Mb--- baseline-sami.RUN(274368) 272 Mb--- baseline-sami.RUN(274384) 276 Mb--- baseline-sami.RUN(274472) 301 Mb--- baseline-sami.RUN(274588) 314 Mb--- baseline-sami.RUN(274779) 335 Mb--- baseline-sami.RUN(274779) 342 Mb--- baseline-sami.RUN(274895) 357 Mb--- baseline-sami.RUN(274911) 357 Mb--- baseline-sami.RUN(275201) 362 Mb--- baseline-sami.RUN(275201) 370 Mb--- baseline-sami.RUN(275206) 403 Mb--- baseline-sami.RUN(275207) 408 Mb--- baseline-sami.RUN(275373) 429 Mb--- baseline-sami.RUN(275373) 438 Mb--- baseline-sami.RUN(275377) 446 Mb--- baseline-sami.RUN(275377) 446 Mb--- baseline-sami.RUN(275761) 448 Mb--- baseline-sami.RUN(276053) 450 Mb--- baseline-sami.RUN(276418) 460 Mb--- baseline-sami.RUN(276554) 461 Mb--- baseline-sami.RUN(276569) 462 Mb--- baseline-sami.RUN(277391) 463 Mb--- baseline-sami.RUN(277525) 463 Mb--- baseline-sami.RUN(278690) 463 Mb--- baseline-sami.RUN(284414) 465 Mb--- baseline-sami.RUN(284419) 470 Mb--- baseline-sami.RUN(294843) 484 Mb--- baseline-sami.RUN(294843) 491 Mb--- baseline-sami.RUN(295659) 495 Mb--- baseline-sami.RUN(295681) 495 Mb--- baseline-sami.RUN(296028) 495 Mb
 --- Generating LP model TIMES
---- baseline-sami.RUN(277552) 495 Mb--- baseline-sami.RUN(277297) 499 Mb--- baseline-sami.RUN(277657) 500 Mb--- baseline-sami.RUN(277657) 505 Mb--- baseline-sami.RUN(277657) 506 Mb--- baseline-sami.RUN(277657) 521 Mb--- baseline-sami.RUN(278080) 524 Mb--- baseline-sami.RUN(278080) 537 Mb--- baseline-sami.RUN(278080) 540 Mb--- baseline-sami.RUN(278080) 574 Mb--- baseline-sami.RUN(278080) 581 Mb--- baseline-sami.RUN(278290) 588 Mb--- baseline-sami.RUN(278431) 588 Mb--- baseline-sami.RUN(278431) 589 Mb--- baseline-sami.RUN(278431) 602 Mb--- baseline-sami.RUN(278431) 607 Mb--- baseline-sami.RUN(278431) 630 Mb--- baseline-sami.RUN(278431) 636 Mb--- baseline-sami.RUN(278431) 662 Mb--- baseline-sami.RUN(278431) 668 Mb--- baseline-sami.RUN(278431) 694 Mb--- baseline-sami.RUN(278431) 697 Mb--- baseline-sami.RUN(278431) 754 Mb--- baseline-sami.RUN(278431) 769 Mb--- baseline-sami.RUN(278431) 772 Mb--- baseline-sami.RUN(278378) 772 Mb--- baseline-sami.RUN(278378) 773 Mb--- baseline-sami.RUN(278484) 773 Mb--- baseline-sami.RUN(278484) 775 Mb--- baseline-sami.RUN(278818) 775 Mb--- baseline-sami.RUN(278818) 776 Mb--- baseline-sami.RUN(278818) 776 Mb--- baseline-sami.RUN(278818) 778 Mb--- baseline-sami.RUN(278818) 779 Mb--- baseline-sami.RUN(278818) 783 Mb--- baseline-sami.RUN(278818) 786 Mb--- baseline-sami.RUN(278818) 790 Mb--- baseline-sami.RUN(278818) 790 Mb--- baseline-sami.RUN(278818) 795 Mb--- baseline-sami.RUN(278818) 796 Mb--- baseline-sami.RUN(278818) 800 Mb--- baseline-sami.RUN(278818) 801 Mb--- baseline-sami.RUN(278818) 807 Mb--- baseline-sami.RUN(279403) 807 Mb--- baseline-sami.RUN(279403) 809 Mb--- baseline-sami.RUN(279403) 809 Mb--- baseline-sami.RUN(279403) 811 Mb--- baseline-sami.RUN(279403) 813 Mb--- baseline-sami.RUN(279403) 815 Mb--- baseline-sami.RUN(279403) 816 Mb--- baseline-sami.RUN(279403) 819 Mb--- baseline-sami.RUN(279403) 822 Mb--- baseline-sami.RUN(279403) 825 Mb--- baseline-sami.RUN(279403) 825 Mb  3 secs--- baseline-sami.RUN(279403) 828 Mb  3 secs--- baseline-sami.RUN(279403) 830 Mb  3 secs--- baseline-sami.RUN(279403) 831 Mb  3 secs--- baseline-sami.RUN(279403) 835 Mb  3 secs--- baseline-sami.RUN(279403) 836 Mb  3 secs--- baseline-sami.RUN(279403) 842 Mb  3 secs--- baseline-sami.RUN(279403) 843 Mb  4 secs--- baseline-sami.RUN(279403) 853 Mb  4 secs--- baseline-sami.RUN(279403) 855 Mb  4 secs--- baseline-sami.RUN(279403) 865 Mb  4 secs--- baseline-sami.RUN(279403) 867 Mb  4 secs--- baseline-sami.RUN(279403) 878 Mb  4 secs--- baseline-sami.RUN(279403) 879 Mb  4 secs--- baseline-sami.RUN(279403) 886 Mb  5 secs--- baseline-sami.RUN(279403) 888 Mb  5 secs--- baseline-sami.RUN(279403) 891 Mb  5 secs--- baseline-sami.RUN(279403) 894 Mb  5 secs
---- baseline-sami.RUN(279994) 894 Mb--- baseline-sami.RUN(279994) 895 Mb--- baseline-sami.RUN(279994) 898 Mb--- baseline-sami.RUN(279994) 899 Mb--- baseline-sami.RUN(279994) 904 Mb--- baseline-sami.RUN(279994) 905 Mb--- baseline-sami.RUN(279994) 910 Mb--- baseline-sami.RUN(279994) 911 Mb--- baseline-sami.RUN(279994) 914 Mb--- baseline-sami.RUN(278542) 914 Mb--- baseline-sami.RUN(278542) 917 Mb--- baseline-sami.RUN(280911) 917 Mb--- baseline-sami.RUN(281379) 917 Mb--- baseline-sami.RUN(281379) 922 Mb--- baseline-sami.RUN(281061) 923 Mb--- baseline-sami.RUN(281061) 927 Mb--- baseline-sami.RUN(282390) 929 Mb--- baseline-sami.RUN(282390) 931 Mb--- baseline-sami.RUN(281701) 931 Mb--- baseline-sami.RUN(281701) 933 Mb--- baseline-sami.RUN(281701) 935 Mb--- baseline-sami.RUN(281542) 939 Mb--- baseline-sami.RUN(282669) 940 Mb--- baseline-sami.RUN(282669) 941 Mb--- baseline-sami.RUN(282669) 942 Mb--- baseline-sami.RUN(282669) 943 Mb--- baseline-sami.RUN(282669) 944 Mb--- baseline-sami.RUN(282669) 946 Mb--- baseline-sami.RUN(282669) 947 Mb--- baseline-sami.RUN(282669) 949 Mb--- baseline-sami.RUN(282669) 950 Mb--- baseline-sami.RUN(283256) 950 Mb--- baseline-sami.RUN(278701) 950 Mb--- baseline-sami.RUN(283508) 951 Mb--- baseline-sami.RUN(284206) 952 Mb--- baseline-sami.RUN(285250) 952 Mb--- baseline-sami.RUN(285250) 952 Mb--- baseline-sami.RUN(285250) 953 Mb--- baseline-sami.RUN(285250) 954 Mb--- baseline-sami.RUN(285250) 955 Mb--- baseline-sami.RUN(285250) 955 Mb--- baseline-sami.RUN(291514) 955 Mb--- baseline-sami.RUN(286294) 955 Mb--- baseline-sami.RUN(286294) 957 Mb--- baseline-sami.RUN(286294) 958 Mb--- baseline-sami.RUN(286294) 959 Mb--- baseline-sami.RUN(286294) 960 Mb--- baseline-sami.RUN(286294) 961 Mb--- baseline-sami.RUN(286294) 962 Mb--- baseline-sami.RUN(286294) 964 Mb--- baseline-sami.RUN(286294) 966 Mb--- baseline-sami.RUN(286294) 966 Mb  3 secs
---- baseline-sami.RUN(285772) 966 Mb--- baseline-sami.RUN(285772) 967 Mb--- baseline-sami.RUN(285772) 968 Mb--- baseline-sami.RUN(285772) 969 Mb--- baseline-sami.RUN(285772) 970 Mb--- baseline-sami.RUN(285772) 971 Mb--- baseline-sami.RUN(285772) 974 Mb--- baseline-sami.RUN(286816) 975 Mb--- baseline-sami.RUN(286816) 977 Mb--- baseline-sami.RUN(286816) 977 Mb--- baseline-sami.RUN(286816) 978 Mb--- baseline-sami.RUN(286816) 979 Mb--- baseline-sami.RUN(286816) 979 Mb--- baseline-sami.RUN(286816) 980 Mb--- baseline-sami.RUN(286816) 983 Mb--- baseline-sami.RUN(286816) 985 Mb--- baseline-sami.RUN(286816) 988 Mb--- baseline-sami.RUN(286816) 988 Mb--- baseline-sami.RUN(286816) 991 Mb--- baseline-sami.RUN(286816) 991 Mb--- baseline-sami.RUN(286816) 991 Mb  3 secs--- baseline-sami.RUN(286816) 994 Mb  3 secs--- baseline-sami.RUN(286816) 994 Mb  3 secs--- baseline-sami.RUN(286816) 997 Mb  3 secs--- baseline-sami.RUN(286816) 1000 Mb  3 secs--- baseline-sami.RUN(286816) 1003 Mb  3 secs--- baseline-sami.RUN(286816) 1003 Mb  4 secs--- baseline-sami.RUN(286816) 1006 Mb  4 secs--- baseline-sami.RUN(286816) 1007 Mb  4 secs--- baseline-sami.RUN(286816) 1011 Mb  4 secs--- baseline-sami.RUN(286816) 1014 Mb  4 secs--- baseline-sami.RUN(286816) 1014 Mb  4 secs--- baseline-sami.RUN(286816) 1017 Mb  5 secs
---- baseline-sami.RUN(287338) 1017 Mb--- baseline-sami.RUN(288382) 1017 Mb--- baseline-sami.RUN(276977) 1017 Mb--- baseline-sami.RUN(292606) 1017 Mb--- baseline-sami.RUN(292606) 1019 Mb--- baseline-sami.RUN(292606) 1023 Mb--- baseline-sami.RUN(292606) 1024 Mb--- baseline-sami.RUN(292606) 1029 Mb--- baseline-sami.RUN(292606) 1029 Mb--- baseline-sami.RUN(292606) 1035 Mb--- baseline-sami.RUN(292606) 1036 Mb--- baseline-sami.RUN(292606) 1043 Mb--- baseline-sami.RUN(292606) 1044 Mb--- baseline-sami.RUN(292606) 1051 Mb--- baseline-sami.RUN(292606) 1052 Mb--- baseline-sami.RUN(292606) 1058 Mb--- baseline-sami.RUN(292606) 1060 Mb--- baseline-sami.RUN(292606) 1072 Mb--- baseline-sami.RUN(292686) 1072 Mb--- baseline-sami.RUN(292648) 1072 Mb--- baseline-sami.RUN(292711) 1072 Mb--- baseline-sami.RUN(292874) 1072 Mb--- baseline-sami.RUN(293106) 1072 Mb--- baseline-sami.RUN(293452) 1072 Mb--- baseline-sami.RUN(295786) 1072 Mb--- baseline-sami.RUN(295786) 1072 Mb  3 secs--- baseline-sami.RUN(295786) 1072 Mb  4 secs--- baseline-sami.RUN(295786) 1073 Mb  4 secs--- baseline-sami.RUN(295786) 1076 Mb  4 secs--- baseline-sami.RUN(295786) 1076 Mb  5 secs
----   1,440,810 rows  1,697,680 columns  7,092,806 non-zeroes
+--- baseline-sami.RUN(277813) 497 Mb--- baseline-sami.RUN(277558) 498 Mb--- baseline-sami.RUN(277918) 505 Mb--- baseline-sami.RUN(277918) 506 Mb--- baseline-sami.RUN(278341) 528 Mb--- baseline-sami.RUN(278341) 531 Mb--- baseline-sami.RUN(278341) 569 Mb--- baseline-sami.RUN(278341) 583 Mb--- baseline-sami.RUN(278692) 589 Mb--- baseline-sami.RUN(278692) 622 Mb--- baseline-sami.RUN(278692) 632 Mb--- baseline-sami.RUN(278692) 676 Mb--- baseline-sami.RUN(278692) 688 Mb--- baseline-sami.RUN(278692) 756 Mb--- baseline-sami.RUN(278692) 772 Mb--- baseline-sami.RUN(278639) 772 Mb--- baseline-sami.RUN(278745) 773 Mb--- baseline-sami.RUN(279079) 775 Mb--- baseline-sami.RUN(279079) 777 Mb--- baseline-sami.RUN(279079) 777 Mb--- baseline-sami.RUN(279079) 782 Mb--- baseline-sami.RUN(279079) 782 Mb--- baseline-sami.RUN(279079) 787 Mb--- baseline-sami.RUN(279079) 790 Mb--- baseline-sami.RUN(279079) 791 Mb--- baseline-sami.RUN(279079) 798 Mb--- baseline-sami.RUN(279079) 799 Mb--- baseline-sami.RUN(279664) 808 Mb--- baseline-sami.RUN(279664) 809 Mb--- baseline-sami.RUN(279664) 810 Mb--- baseline-sami.RUN(279664) 813 Mb--- baseline-sami.RUN(279664) 815 Mb--- baseline-sami.RUN(279664) 818 Mb--- baseline-sami.RUN(279664) 818 Mb--- baseline-sami.RUN(279664) 822 Mb--- baseline-sami.RUN(279664) 822 Mb--- baseline-sami.RUN(279664) 827 Mb--- baseline-sami.RUN(279664) 827 Mb--- baseline-sami.RUN(279664) 831 Mb--- baseline-sami.RUN(279664) 833 Mb--- baseline-sami.RUN(279664) 841 Mb--- baseline-sami.RUN(279664) 843 Mb--- baseline-sami.RUN(279664) 857 Mb--- baseline-sami.RUN(279664) 860 Mb--- baseline-sami.RUN(279664) 873 Mb--- baseline-sami.RUN(279664) 876 Mb--- baseline-sami.RUN(279664) 886 Mb--- baseline-sami.RUN(279664) 888 Mb  3 secs
+--- baseline-sami.RUN(280255) 893 Mb--- baseline-sami.RUN(280255) 898 Mb--- baseline-sami.RUN(280255) 899 Mb--- baseline-sami.RUN(280255) 907 Mb--- baseline-sami.RUN(280255) 908 Mb--- baseline-sami.RUN(280255) 914 Mb--- baseline-sami.RUN(278803) 916 Mb--- baseline-sami.RUN(281640) 918 Mb--- baseline-sami.RUN(281640) 919 Mb--- baseline-sami.RUN(281322) 923 Mb--- baseline-sami.RUN(281322) 924 Mb--- baseline-sami.RUN(282651) 929 Mb--- baseline-sami.RUN(282651) 929 Mb--- baseline-sami.RUN(281962) 931 Mb--- baseline-sami.RUN(281962) 936 Mb--- baseline-sami.RUN(281962) 937 Mb--- baseline-sami.RUN(282287) 938 Mb--- baseline-sami.RUN(282930) 938 Mb--- baseline-sami.RUN(282930) 940 Mb--- baseline-sami.RUN(282930) 943 Mb--- baseline-sami.RUN(282930) 943 Mb--- baseline-sami.RUN(282930) 944 Mb--- baseline-sami.RUN(282930) 949 Mb--- baseline-sami.RUN(283721) 951 Mb--- baseline-sami.RUN(285511) 952 Mb--- baseline-sami.RUN(285511) 953 Mb--- baseline-sami.RUN(285511) 954 Mb--- baseline-sami.RUN(286555) 955 Mb--- baseline-sami.RUN(286555) 957 Mb--- baseline-sami.RUN(286555) 959 Mb--- baseline-sami.RUN(286555) 960 Mb--- baseline-sami.RUN(286555) 961 Mb--- baseline-sami.RUN(286555) 963 Mb--- baseline-sami.RUN(286555) 966 Mb--- baseline-sami.RUN(286033) 966 Mb--- baseline-sami.RUN(286033) 968 Mb--- baseline-sami.RUN(286033) 969 Mb--- baseline-sami.RUN(286033) 971 Mb--- baseline-sami.RUN(286033) 973 Mb--- baseline-sami.RUN(286033) 974 Mb--- baseline-sami.RUN(287077) 975 Mb--- baseline-sami.RUN(287077) 977 Mb--- baseline-sami.RUN(287077) 978 Mb--- baseline-sami.RUN(287077) 978 Mb--- baseline-sami.RUN(287077) 979 Mb--- baseline-sami.RUN(287077) 982 Mb--- baseline-sami.RUN(287077) 985 Mb--- baseline-sami.RUN(287077) 989 Mb--- baseline-sami.RUN(287077) 991 Mb--- baseline-sami.RUN(287077) 995 Mb--- baseline-sami.RUN(287077) 995 Mb--- baseline-sami.RUN(287077) 999 Mb--- baseline-sami.RUN(287077) 999 Mb--- baseline-sami.RUN(287077) 1002 Mb--- baseline-sami.RUN(287077) 1003 Mb  3 secs--- baseline-sami.RUN(287077) 1006 Mb  3 secs--- baseline-sami.RUN(287077) 1007 Mb  3 secs--- baseline-sami.RUN(287077) 1011 Mb  3 secs--- baseline-sami.RUN(287077) 1011 Mb  3 secs--- baseline-sami.RUN(287077) 1015 Mb  3 secs--- baseline-sami.RUN(287077) 1016 Mb  4 secs
+--- baseline-sami.RUN(287599) 1017 Mb--- baseline-sami.RUN(288643) 1017 Mb--- baseline-sami.RUN(292867) 1017 Mb--- baseline-sami.RUN(292867) 1022 Mb--- baseline-sami.RUN(292867) 1023 Mb--- baseline-sami.RUN(292867) 1030 Mb--- baseline-sami.RUN(292867) 1031 Mb--- baseline-sami.RUN(292867) 1038 Mb--- baseline-sami.RUN(292867) 1040 Mb--- baseline-sami.RUN(292867) 1047 Mb--- baseline-sami.RUN(292867) 1048 Mb--- baseline-sami.RUN(292867) 1056 Mb--- baseline-sami.RUN(292867) 1057 Mb--- baseline-sami.RUN(292867) 1071 Mb--- baseline-sami.RUN(292909) 1071 Mb--- baseline-sami.RUN(292972) 1071 Mb--- baseline-sami.RUN(293367) 1071 Mb--- baseline-sami.RUN(296047) 1071 Mb--- baseline-sami.RUN(296047) 1073 Mb--- baseline-sami.RUN(296047) 1075 Mb
+---   1,443,343 rows  1,698,230 columns  7,093,137 non-zeroes
 --- Range statistics (absolute non-zero finite values)
 --- RHS       [min, max] : [ 1.927E-07, 8.760E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 6.124E-06, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 2.436E-08, 1.029E+05] - Zero values observed as well
---- Executing CPLEX (Solvelink=0): elapsed 0:01:02.914
---- baseline-sami.RUN(295786) 1076 Mb  6 secs
+--- Executing CPLEX (Solvelink=0): elapsed 0:00:36.059
 
 IBM ILOG CPLEX   53.5.1 f2e5fac3 May 20, 2026          WEI x86 64bit/MS Window
 
@@ -1618,11 +1616,11 @@ Reading parameter(s) from "D:\Padam\GAMS_WrkTIMES\cplex.opt"
 Finished reading from "D:\Padam\GAMS_WrkTIMES\cplex.opt"
 
 --- GMO setup time: 0.00s
---- Space for names approximately 185.93 Mb
+--- Space for names approximately 185.97 Mb
 --- Use option 'names no' to turn use of names off
---- GMO memory 680.29 Mb (peak 693.25 Mb)
+--- GMO memory 680.64 Mb (peak 693.59 Mb)
 --- Dictionary memory 0.00 Mb
---- Cplex 22.1.2.0 link memory 48.87 Mb (peak 349.72 Mb)
+--- Cplex 22.1.2.0 link memory 48.91 Mb (peak 349.82 Mb)
 --- Starting Cplex
 
 Version identifier: 22.1.2.0 | 2024-11-25 | 0edbb82fd
@@ -1640,513 +1638,433 @@ CPXPARAM_Simplex_Tolerances_Feasibility          1e-08
 CPXPARAM_TimeLimit                               50000
 CPXPARAM_MIP_Tolerances_AbsMIPGap                0
 CPXPARAM_Barrier_ConvergeTol                     9.9999999999999995e-08
-Aggregator has done 253505 substitutions...
-Aggregator has done 319560 substitutions...
-Aggregator has done 406804 substitutions...
+Aggregator has done 254094 substitutions...
+Aggregator has done 320318 substitutions...
+Aggregator has done 409150 substitutions...
 Tried aggregator 3 times.
-LP Presolve eliminated 580221 rows and 719086 columns.
-Aggregator did 453671 substitutions.
-Reduced LP has 406917 rows, 525481 columns, and 4026479 nonzeros.
-Presolve time = 34.36 sec. (38091.71 ticks)
+LP Presolve eliminated 582354 rows and 720763 columns.
+Aggregator did 453984 substitutions.
+Reduced LP has 407004 rows, 524039 columns, and 4020535 nonzeros.
+Presolve time = 22.33 sec. (37926.51 ticks)
 Parallel mode: using up to 31 threads for barrier.
 
 ***NOTE: Found 337 dense columns.
 
-Number of nonzeros in lower triangle of A*A' = 11707799
+Number of nonzeros in lower triangle of A*A' = 11712196
 Using Nested Dissection ordering
-Total time for automatic ordering = 51.17 sec. (47892.47 ticks)
+Total time for automatic ordering = 31.33 sec. (47128.97 ticks)
 Summary statistics for Cholesky factor:
   Threads                   = 31
-  Rows in Factor            = 407254
-  Integer space required    = 4197464
-  Total non-zeros in factor = 119478242
-  Total FP ops to factor    = 270622549236
+  Rows in Factor            = 407341
+  Integer space required    = 4199165
+  Total non-zeros in factor = 121408115
+  Total FP ops to factor    = 271884676181
  Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
-   0   1.6723039e+09  -6.2484721e+07  4.13e+09  1.63e+05  1.67e+09  1.00e+00
-   1   1.7012879e+09  -2.1885040e+07  4.13e+09  1.63e+05  1.67e+09  9.60e-01
-   2   1.8382686e+09   2.3049838e+08  4.13e+09  1.63e+05  1.67e+09  7.98e-01
-   3   2.0380240e+09   3.3370082e+08  4.13e+09  1.63e+05  1.67e+09  6.00e-01
-   4   2.1373686e+09   5.8257099e+08  4.13e+09  1.63e+05  1.67e+09  4.89e-01
-   5   2.2371454e+09   7.1388173e+08  4.13e+09  1.63e+05  1.67e+09  3.89e-01
-   6   2.3552132e+09   8.7272961e+08  4.13e+09  1.63e+05  1.67e+09  2.84e-01
-   7   2.4366290e+09   1.0497673e+09  4.13e+09  1.63e+05  1.67e+09  2.17e-01
-   8   2.4685356e+09   1.1000677e+09  4.13e+09  1.63e+05  1.67e+09  1.92e-01
-   9   2.4860261e+09   1.1759075e+09  4.13e+09  1.63e+05  1.67e+09  1.75e-01
-  10   2.5068272e+09   1.2688128e+09  4.13e+09  1.63e+05  1.67e+09  1.55e-01
-  11   2.5327000e+09   1.3050022e+09  4.13e+09  1.63e+05  1.67e+09  1.38e-01
-  12   2.5348882e+09   1.3186530e+09  4.13e+09  1.63e+05  1.67e+09  1.35e-01
-  13   2.5704842e+09   1.4359232e+09  4.13e+09  1.63e+05  1.67e+09  1.10e-01
-  14   2.7101323e+09   1.6016840e+09  4.13e+09  1.63e+05  1.67e+09  6.25e-02
-  15   3.1652864e+09   1.6210258e+09  4.13e+09  1.63e+05  1.67e+09  2.08e-02
-  16   3.7311987e+09   2.1428959e+09  4.13e+09  1.63e+05  1.67e+09  1.34e-02
-  17   4.0016249e+09   2.3634213e+09  4.13e+09  1.63e+05  1.67e+09  8.22e-03
-  18   4.0976161e+09   2.4465861e+09  4.13e+09  1.63e+05  1.67e+09  5.33e-03
-  19   4.3208087e+09   2.5233207e+09  4.12e+09  1.63e+05  1.67e+09  2.96e-03
-  20   4.5626535e+09   2.6413655e+09  4.12e+09  1.63e+05  1.67e+09  2.16e-03
-  21   4.6170860e+09   2.7779011e+09  4.12e+09  1.63e+05  1.67e+09  1.93e-03
-  22   4.7385543e+09   2.8363921e+09  4.12e+09  1.62e+05  1.67e+09  1.15e-03
-  23   4.8387404e+09   2.9873650e+09  4.12e+09  1.62e+05  1.67e+09  1.10e-03
-  24   3.8016137e+09   2.8910715e+09  4.11e+09  1.62e+05  1.67e+09  1.08e-03
-  25   4.1495940e+09   3.1061539e+09  4.10e+09  1.62e+05  1.67e+09  7.50e-04
-  26   4.1269364e+09   3.0830293e+09  4.10e+09  1.62e+05  1.67e+09  6.95e-04
-  27   4.2193292e+09   3.1524518e+09  4.06e+09  1.60e+05  1.65e+09  4.03e-04
-  28   3.9218574e+09   2.8371105e+09  3.90e+09  1.54e+05  1.58e+09  1.82e-04
-  29   3.7869552e+09   2.6844582e+09  3.82e+09  1.51e+05  1.53e+09  1.66e-04
-  30   3.5424558e+09   2.4919835e+09  3.67e+09  1.45e+05  1.47e+09  1.44e-04
-  31   3.3453941e+09   2.4008667e+09  3.52e+09  1.39e+05  1.44e+09  1.29e-04
-  32   3.1684485e+09   2.3432087e+09  3.37e+09  1.33e+05  1.41e+09  1.16e-04
-  33   2.7328706e+09   2.1524741e+09  2.98e+09  1.17e+05  1.32e+09  9.63e-05
-  34   2.5271923e+09   2.0315699e+09  2.77e+09  1.09e+05  1.25e+09  9.34e-05
-  35   2.3608483e+09   1.8537946e+09  2.60e+09  1.03e+05  1.15e+09  9.98e-05
-  36   2.2260929e+09   1.8124818e+09  2.48e+09  9.78e+04  1.13e+09  9.76e-05
-  37   1.8782166e+09   1.4876186e+09  2.13e+09  8.38e+04  9.53e+08  1.14e-04
-  38   1.5397057e+09   1.2756821e+09  1.78e+09  7.02e+04  8.34e+08  1.27e-04
-  39   1.1888476e+09   1.1606771e+09  1.41e+09  5.56e+04  7.66e+08  1.31e-04
-  40   9.8784208e+08   9.7503209e+08  1.18e+09  4.67e+04  6.50e+08  1.59e-04
-  41   7.5202295e+08   7.7095370e+08  9.21e+08  3.63e+04  5.24e+08  2.07e-04
-  42   6.7757536e+08   7.2469710e+08  8.40e+08  3.31e+04  4.96e+08  2.21e-04
-  43   3.7901378e+08   5.5119185e+08  4.93e+08  1.95e+04  3.84e+08  3.00e-04
-  44   2.4849322e+08   3.6795562e+08  3.28e+08  1.29e+04  2.59e+08  4.97e-04
-  45   1.8242484e+08   2.6116595e+08  2.44e+08  9.64e+03  1.86e+08  7.36e-04
-  46   1.1466056e+08   2.0271517e+08  1.58e+08  6.23e+03  1.46e+08  1.00e-03
-  47   7.1630919e+07   1.2019751e+08  9.94e+07  3.92e+03  8.67e+07  1.82e-03
-  48   5.7597398e+07   9.5824941e+07  8.01e+07  3.16e+03  6.93e+07  2.33e-03
-  49   4.8654343e+07   7.2171064e+07  6.78e+07  2.67e+03  5.22e+07  3.13e-03
-  50   3.4594379e+07   4.3679791e+07  4.86e+07  1.92e+03  3.19e+07  5.33e-03
-  51   2.5758254e+07   3.0684579e+07  3.65e+07  1.44e+03  2.26e+07  7.68e-03
-  52   2.3304348e+07   2.7333839e+07  3.31e+07  1.31e+03  2.02e+07  8.64e-03
-  53   2.0408203e+07   2.1610313e+07  2.91e+07  1.15e+03  1.61e+07  1.09e-02
-  54   1.8726411e+07   1.9678933e+07  2.68e+07  1.06e+03  1.47e+07  1.20e-02
-  55   1.7624511e+07   1.7947498e+07  2.52e+07  9.95e+02  1.34e+07  1.32e-02
-  56   1.5896806e+07   1.3670461e+07  2.28e+07  8.99e+02  1.02e+07  1.72e-02
-  57   1.5422941e+07   1.3068045e+07  2.21e+07  8.73e+02  9.79e+06  1.80e-02
-  58   1.3150078e+07   9.5699814e+06  1.89e+07  7.44e+02  7.17e+06  2.45e-02
-  59   1.1618603e+07   9.0039470e+06  1.67e+07  6.57e+02  6.74e+06  2.63e-02
-  60   9.7206815e+06   7.1190907e+06  1.38e+07  5.43e+02  5.22e+06  3.40e-02
-  61   8.1424287e+06   6.3496594e+06  1.13e+07  4.45e+02  4.56e+06  3.92e-02
-  62   7.0561753e+06   5.5788623e+06  9.52e+06  3.75e+02  3.88e+06  4.65e-02
-  63   6.3830375e+06   4.6591743e+06  8.40e+06  3.31e+02  3.04e+06  5.94e-02
-  64   5.8383344e+06   4.3019133e+06  7.50e+06  2.96e+02  2.71e+06  6.66e-02
-  65   5.4077539e+06   3.8774831e+06  6.78e+06  2.68e+02  2.33e+06  7.76e-02
-  66   4.8683254e+06   3.5646421e+06  5.87e+06  2.31e+02  2.03e+06  8.93e-02
-  67   4.5862079e+06   3.4194212e+06  5.39e+06  2.13e+02  1.90e+06  9.60e-02
-  68   4.5085707e+06   3.2477091e+06  5.26e+06  2.07e+02  1.74e+06  1.05e-01
-  69   4.2041711e+06   3.0439783e+06  4.72e+06  1.86e+02  1.53e+06  1.19e-01
-  70   4.0359354e+06   2.9403375e+06  4.44e+06  1.75e+02  1.43e+06  1.27e-01
-  71   3.6580346e+06   2.8368439e+06  3.77e+06  1.49e+02  1.33e+06  1.38e-01
-  72   3.5900509e+06   2.7532716e+06  3.65e+06  1.44e+02  1.25e+06  1.47e-01
-  73   3.4719866e+06   2.6179048e+06  3.45e+06  1.36e+02  1.11e+06  1.65e-01
-  74   3.3282237e+06   2.5050715e+06  3.20e+06  1.26e+02  1.00e+06  1.83e-01
-  75   3.1649932e+06   2.4368310e+06  2.91e+06  1.15e+02  9.32e+05  1.98e-01
-  76   3.1356314e+06   2.3533050e+06  2.86e+06  1.13e+02  8.52e+05  2.16e-01
-  77   2.9862608e+06   2.2490331e+06  2.60e+06  1.03e+02  7.48e+05  2.46e-01
-  78   2.8150956e+06   2.1653598e+06  2.29e+06  9.03e+01  6.59e+05  2.79e-01
-  79   2.6057794e+06   2.0143759e+06  1.93e+06  7.61e+01  5.13e+05  3.58e-01
-  80   2.5539428e+06   1.9625304e+06  1.84e+06  7.28e+01  4.68e+05  3.92e-01
-  81   2.4144923e+06   1.8810577e+06  1.61e+06  6.34e+01  3.91e+05  4.68e-01
-  82   2.3201149e+06   1.8393436e+06  1.44e+06  5.69e+01  3.48e+05  5.24e-01
-  83   2.2862411e+06   1.8122369e+06  1.39e+06  5.46e+01  3.23e+05  5.63e-01
-  84   2.2069715e+06   1.7835247e+06  1.25e+06  4.92e+01  2.94e+05  6.18e-01
-  85   2.1240261e+06   1.7538865e+06  1.10e+06  4.33e+01  2.61e+05  6.94e-01
-  86   2.0603695e+06   1.7356021e+06  9.81e+05  3.87e+01  2.41e+05  7.53e-01
-  87   1.9413262e+06   1.7041795e+06  7.65e+05  3.02e+01  2.06e+05  8.84e-01
-  88   1.8828658e+06   1.6705378e+06  6.54e+05  2.58e+01  1.64e+05  1.11e+00
-  89   1.8402885e+06   1.6578357e+06  5.75e+05  2.27e+01  1.49e+05  1.23e+00
-  90   1.8311852e+06   1.6418799e+06  5.58e+05  2.20e+01  1.31e+05  1.40e+00
-  91   1.7874719e+06   1.6122703e+06  4.77e+05  1.88e+01  9.64e+04  1.88e+00
-  92   1.7670305e+06   1.6098853e+06  4.38e+05  1.73e+01  9.32e+04  1.95e+00
-  93   1.7160000e+06   1.5921331e+06  3.41e+05  1.35e+01  7.11e+04  2.54e+00
-  94   1.6977606e+06   1.5821880e+06  3.07e+05  1.21e+01  5.89e+04  3.05e+00
-  95   1.6596049e+06   1.5738289e+06  2.35e+05  9.28e+00  4.85e+04  3.69e+00
-  96   1.6478687e+06   1.5691278e+06  2.12e+05  8.38e+00  4.21e+04  4.25e+00
-  97   1.6383200e+06   1.5629951e+06  1.94e+05  7.66e+00  3.41e+04  5.20e+00
-  98   1.6186365e+06   1.5583367e+06  1.57e+05  6.19e+00  2.83e+04  6.23e+00
-  99   1.5982673e+06   1.5557265e+06  1.18e+05  4.66e+00  2.49e+04  7.07e+00
- 100   1.5907202e+06   1.5529593e+06  1.04e+05  4.09e+00  2.13e+04  8.28e+00
- 101   1.5840910e+06   1.5501313e+06  9.08e+04  3.58e+00  1.75e+04  1.01e+01
- 102   1.5769573e+06   1.5479095e+06  7.74e+04  3.05e+00  1.48e+04  1.19e+01
- 103   1.5681995e+06   1.5455343e+06  6.07e+04  2.40e+00  1.18e+04  1.49e+01
- 104   1.5643262e+06   1.5440637e+06  5.34e+04  2.11e+00  9.92e+03  1.77e+01
- 105   1.5595952e+06   1.5423326e+06  4.45e+04  1.75e+00  7.82e+03  2.25e+01
- 106   1.5529756e+06   1.5402666e+06  3.22e+04  1.27e+00  5.38e+03  3.23e+01
- 107   1.5500958e+06   1.5394568e+06  2.69e+04  1.06e+00  4.47e+03  3.88e+01
- 108   1.5472388e+06   1.5382647e+06  2.16e+04  8.52e-01  3.12e+03  5.50e+01
- 109   1.5461102e+06   1.5376109e+06  1.96e+04  7.72e-01  2.44e+03  6.93e+01
- 110   1.5443149e+06   1.5369738e+06  1.64e+04  6.45e-01  1.80e+03  9.09e+01
- 111   1.5419653e+06   1.5365620e+06  1.22e+04  4.81e-01  1.40e+03  1.13e+02
- 112   1.5402911e+06   1.5361770e+06  9.16e+03  3.61e-01  1.00e+03  1.53e+02
- 113   1.5392156e+06   1.5358777e+06  7.22e+03  2.85e-01  6.91e+02  2.14e+02
- 114   1.5383494e+06   1.5356222e+06  5.66e+03  2.23e-01  4.31e+02  3.20e+02
- 115   1.5372571e+06   1.5355390e+06  3.71e+03  1.46e-01  3.49e+02  3.80e+02
- 116   1.5369051e+06   1.5355192e+06  3.01e+03  1.19e-01  3.00e+02  4.60e+02
- 117   1.5364709e+06   1.5354804e+06  2.22e+03  8.74e-02  2.56e+02  5.35e+02
- 118   1.5361468e+06   1.5354145e+06  1.62e+03  6.39e-02  1.78e+02  7.67e+02
- 119   1.5359727e+06   1.5353839e+06  1.31e+03  5.15e-02  1.44e+02  9.45e+02
- 120   1.5358051e+06   1.5353495e+06  1.00e+03  3.95e-02  1.07e+02  1.27e+03
- 121   1.5355999e+06   1.5353255e+06  6.35e+02  2.50e-02  8.23e+01  1.64e+03
- 122   1.5355178e+06   1.5353025e+06  4.87e+02  1.92e-02  5.80e+01  2.35e+03
- 123   1.5354595e+06   1.5352814e+06  3.84e+02  1.51e-02  3.78e+01  3.62e+03
- 124   1.5353653e+06   1.5352703e+06  2.21e+02  8.72e-03  2.83e+01  4.77e+03
- 125   1.5353185e+06   1.5352614e+06  1.39e+02  5.47e-03  2.01e+01  6.79e+03
- 126   1.5353166e+06   1.5352607e+06  1.36e+02  5.35e-03  1.95e+01  7.01e+03
- 127   1.5353154e+06   1.5352602e+06  1.34e+02  5.26e-03  1.90e+01  7.20e+03
- 128   1.5352858e+06   1.5352507e+06  8.25e+01  3.24e-03  1.07e+01  1.33e+04
- 129   1.5352856e+06   1.5352506e+06  8.26e+01  3.22e-03  1.06e+01  1.34e+04
- 130   1.5352856e+06   1.5352506e+06  8.29e+01  3.22e-03  1.06e+01  1.34e+04
- 131   1.5352689e+06   1.5352468e+06  5.46e+01  2.11e-03  7.63e+00  1.88e+04
- 132   1.5352626e+06   1.5352436e+06  4.64e+01  1.70e-03  5.15e+00  2.83e+04
- 133   1.5352526e+06   1.5352423e+06  3.05e+01  1.05e-03  4.27e+00  3.40e+04
- 134   1.5352518e+06   1.5352422e+06  2.84e+01  9.95e-04  4.15e+00  3.51e+04
- 135   1.5352516e+06   1.5352421e+06  2.81e+01  9.84e-04  4.08e+00  3.57e+04
- 136   1.5352489e+06   1.5352414e+06  2.37e+01  8.06e-04  3.55e+00  4.15e+04
- 137   1.5352488e+06   1.5352414e+06  2.33e+01  7.97e-04  3.54e+00  4.16e+04
- 138   1.5352481e+06   1.5352411e+06  2.33e+01  7.53e-04  3.30e+00  4.49e+04
- 139   1.5352429e+06   1.5352398e+06  1.27e+01  4.11e-04  2.37e+00  6.43e+04
- 140   1.5352403e+06   1.5352392e+06  7.29e+00  2.38e-04  1.91e+00  8.21e+04
- 141   1.5352403e+06   1.5352392e+06  8.90e+00  2.38e-04  1.90e+00  8.22e+04
- 142   1.5352395e+06   1.5352384e+06  7.23e+00  1.89e-04  1.33e+00  1.26e+05
- 143   1.5352395e+06   1.5352384e+06  1.14e+01  1.89e-04  1.33e+00  1.26e+05
- 144   1.5352394e+06   1.5352384e+06  9.22e+00  1.82e-04  1.31e+00  1.29e+05
- 145   1.5352383e+06   1.5352376e+06  6.43e+00  1.14e-04  7.48e-01  2.48e+05
- 146   1.5352383e+06   1.5352376e+06  5.25e+00  1.11e-04  7.36e-01  2.52e+05
- 147   1.5352374e+06   1.5352371e+06  3.02e+00  6.03e-05  4.16e-01  4.79e+05
- 148   1.5352371e+06   1.5352368e+06  2.54e+00  4.16e-05  2.48e-01  8.47e+05
-Barrier time = 1215.09 sec. (321449.69 ticks)
+   0   1.6723898e+09  -9.6670005e+07  4.15e+09  1.63e+05  1.67e+09  1.00e+00
+   1   1.7007712e+09  -5.6878101e+07  4.15e+09  1.63e+05  1.67e+09  9.60e-01
+   2   1.8400008e+09   1.9048222e+08  4.15e+09  1.63e+05  1.67e+09  7.93e-01
+   3   2.0314732e+09   2.9659019e+08  4.15e+09  1.63e+05  1.67e+09  5.99e-01
+   4   2.1328991e+09   5.4022918e+08  4.15e+09  1.63e+05  1.67e+09  4.84e-01
+   5   2.2215625e+09   6.7939374e+08  4.15e+09  1.63e+05  1.67e+09  3.92e-01
+   6   2.3422336e+09   8.3711779e+08  4.15e+09  1.63e+05  1.67e+09  2.87e-01
+   7   2.4278164e+09   1.0023770e+09  4.15e+09  1.63e+05  1.67e+09  2.18e-01
+   8   2.4599077e+09   1.0515510e+09  4.15e+09  1.63e+05  1.67e+09  1.94e-01
+   9   2.4862501e+09   1.1167808e+09  4.15e+09  1.63e+05  1.67e+09  1.73e-01
+  10   2.5014144e+09   1.2029555e+09  4.15e+09  1.63e+05  1.67e+09  1.57e-01
+  11   2.5290066e+09   1.2319672e+09  4.15e+09  1.63e+05  1.67e+09  1.40e-01
+  12   2.5314475e+09   1.2342462e+09  4.15e+09  1.63e+05  1.67e+09  1.39e-01
+  13   2.5565559e+09   1.3474641e+09  4.15e+09  1.63e+05  1.67e+09  1.18e-01
+  14   2.6612114e+09   1.4421725e+09  4.15e+09  1.63e+05  1.67e+09  7.68e-02
+  15   2.9944831e+09   1.6019400e+09  4.15e+09  1.63e+05  1.67e+09  2.99e-02
+  16   3.4120250e+09   1.8441601e+09  4.15e+09  1.63e+05  1.67e+09  1.64e-02
+  17   3.6242983e+09   2.0294601e+09  4.15e+09  1.63e+05  1.67e+09  1.08e-02
+  18   3.7534607e+09   2.1116370e+09  4.15e+09  1.63e+05  1.67e+09  5.69e-03
+  19   4.0495325e+09   2.2380504e+09  4.15e+09  1.63e+05  1.67e+09  3.47e-03
+  20   4.5629463e+09   2.4010337e+09  4.15e+09  1.63e+05  1.67e+09  2.09e-03
+  21   4.7603167e+09   2.4790055e+09  4.15e+09  1.63e+05  1.67e+09  1.56e-03
+  22   5.1611543e+09   2.9456961e+09  4.14e+09  1.63e+05  1.67e+09  9.51e-04
+  23   5.3118675e+09   3.0684629e+09  4.14e+09  1.63e+05  1.67e+09  8.96e-04
+  24   4.4352068e+09   2.9470351e+09  4.14e+09  1.63e+05  1.67e+09  8.76e-04
+  25   4.6683993e+09   3.0052043e+09  4.13e+09  1.63e+05  1.67e+09  6.44e-04
+  26   4.9671647e+09   3.1358947e+09  4.12e+09  1.62e+05  1.67e+09  5.33e-04
+  27   4.9574030e+09   3.1349823e+09  4.10e+09  1.62e+05  1.66e+09  3.76e-04
+  28   4.5861075e+09   2.8383310e+09  3.96e+09  1.56e+05  1.60e+09  1.40e-04
+  29   4.4093140e+09   2.7474504e+09  3.83e+09  1.51e+05  1.57e+09  1.13e-04
+  30   4.2675285e+09   2.6242142e+09  3.73e+09  1.47e+05  1.52e+09  1.04e-04
+  31   4.1094954e+09   2.3495031e+09  3.62e+09  1.43e+05  1.41e+09  1.08e-04
+  32   4.0014022e+09   2.1018717e+09  3.56e+09  1.40e+05  1.33e+09  1.15e-04
+  33   3.8220161e+09   1.6549650e+09  3.46e+09  1.36e+05  1.19e+09  1.29e-04
+  34   3.7482964e+09   1.1251504e+09  3.42e+09  1.35e+05  1.04e+09  1.54e-04
+  35   3.1991991e+09   8.0003932e+08  3.13e+09  1.23e+05  9.58e+08  1.54e-04
+  36   2.9794264e+09   7.1170123e+08  2.99e+09  1.18e+05  9.22e+08  1.54e-04
+  37   2.6785207e+09   4.5543381e+08  2.77e+09  1.09e+05  8.02e+08  1.69e-04
+  38   2.2374449e+09   3.6623875e+08  2.44e+09  9.59e+04  7.51e+08  1.67e-04
+  39   1.6178869e+09   2.3074033e+08  1.87e+09  7.38e+04  6.26e+08  1.78e-04
+  40   9.7089302e+08   1.6556139e+08  1.18e+09  4.64e+04  5.10e+08  1.95e-04
+  41   8.3738244e+08   1.3809595e+08  1.02e+09  4.00e+04  4.29e+08  2.33e-04
+  42   7.1114384e+08   1.3444688e+08  8.73e+08  3.44e+04  4.21e+08  2.37e-04
+  43   4.1861040e+08   8.6090102e+07  5.16e+08  2.03e+04  2.74e+08  3.74e-04
+  44   2.9552915e+08   6.4632806e+07  3.65e+08  1.44e+04  2.08e+08  5.03e-04
+  45   2.2043241e+08   4.7888513e+07  2.73e+08  1.08e+04  1.56e+08  6.82e-04
+  46   1.4255472e+08   3.2605124e+07  1.78e+08  7.02e+03  1.10e+08  9.99e-04
+  47   8.2527682e+07   1.8715252e+07  1.03e+08  4.07e+03  6.33e+07  1.79e-03
+  48   5.3343578e+07   1.2883327e+07  6.64e+07  2.61e+03  4.26e+07  2.71e-03
+  49   4.2297110e+07   1.0150982e+07  5.22e+07  2.06e+03  3.24e+07  3.59e-03
+  50   3.0474154e+07   6.8547197e+06  3.72e+07  1.47e+03  2.05e+07  5.75e-03
+  51   2.2685995e+07   4.6091347e+06  2.76e+07  1.08e+03  1.32e+07  8.97e-03
+  52   1.7425301e+07   3.6668726e+06  2.11e+07  8.32e+02  1.05e+07  1.15e-02
+  53   1.6179662e+07   3.5267481e+06  1.95e+07  7.70e+02  9.95e+06  1.22e-02
+  54   1.4652311e+07   3.1335839e+06  1.76e+07  6.95e+02  8.67e+06  1.40e-02
+  55   1.3539720e+07   2.8001076e+06  1.62e+07  6.38e+02  7.32e+06  1.66e-02
+  56   1.2419685e+07   2.6312134e+06  1.48e+07  5.83e+02  6.75e+06  1.81e-02
+  57   1.1665116e+07   2.3743712e+06  1.38e+07  5.44e+02  5.70e+06  2.14e-02
+  58   1.0744209e+07   2.2246330e+06  1.27e+07  4.98e+02  5.18e+06  2.36e-02
+  59   9.6484293e+06   1.9487384e+06  1.12e+07  4.43e+02  4.05e+06  3.01e-02
+  60   7.9258166e+06   1.7801784e+06  8.97e+06  3.53e+02  3.21e+06  3.82e-02
+  61   6.4867819e+06   1.7158053e+06  7.00e+06  2.76e+02  2.70e+06  4.60e-02
+  62   5.9387562e+06   1.6974518e+06  6.21e+06  2.45e+02  2.30e+06  5.42e-02
+  63   5.2300047e+06   1.6699754e+06  5.21e+06  2.05e+02  1.86e+06  6.75e-02
+  64   5.0272436e+06   1.6659244e+06  4.93e+06  1.94e+02  1.81e+06  6.94e-02
+  65   4.5693330e+06   1.6548007e+06  4.27e+06  1.68e+02  1.53e+06  8.26e-02
+  66   4.2590954e+06   1.6478766e+06  3.82e+06  1.50e+02  1.32e+06  9.63e-02
+  67   4.1830361e+06   1.6339642e+06  3.72e+06  1.46e+02  1.21e+06  1.05e-01
+  68   3.9812739e+06   1.6302532e+06  3.44e+06  1.35e+02  1.18e+06  1.08e-01
+  69   3.8526954e+06   1.6283944e+06  3.26e+06  1.28e+02  1.15e+06  1.12e-01
+  70   3.7093133e+06   1.6254415e+06  3.05e+06  1.20e+02  1.06e+06  1.21e-01
+  71   3.4713240e+06   1.6224989e+06  2.71e+06  1.07e+02  9.85e+05  1.31e-01
+  72   3.3950348e+06   1.6241767e+06  2.59e+06  1.02e+02  9.51e+05  1.36e-01
+  73   3.2482688e+06   1.6266817e+06  2.38e+06  9.36e+01  7.87e+05  1.65e-01
+  74   3.1959962e+06   1.6196395e+06  2.31e+06  9.08e+01  7.38e+05  1.76e-01
+  75   3.1269833e+06   1.6078335e+06  2.21e+06  8.71e+01  6.61e+05  1.96e-01
+  76   3.0186821e+06   1.5963680e+06  2.06e+06  8.13e+01  5.90e+05  2.20e-01
+  77   2.9139890e+06   1.5820726e+06  1.92e+06  7.57e+01  5.04e+05  2.57e-01
+  78   2.8996970e+06   1.5817476e+06  1.90e+06  7.49e+01  4.88e+05  2.65e-01
+  79   2.7504521e+06   1.5648749e+06  1.70e+06  6.70e+01  4.06e+05  3.18e-01
+  80   2.6801602e+06   1.5290749e+06  1.61e+06  6.34e+01  3.05e+05  4.16e-01
+  81   2.4892843e+06   1.5128443e+06  1.37e+06  5.40e+01  2.69e+05  4.70e-01
+  82   2.4174320e+06   1.5067017e+06  1.28e+06  5.04e+01  2.48e+05  5.08e-01
+  83   2.3471904e+06   1.5053276e+06  1.18e+06  4.65e+01  2.13e+05  5.84e-01
+  84   2.2728117e+06   1.5006817e+06  1.08e+06  4.26e+01  1.94e+05  6.38e-01
+  85   2.1518864e+06   1.5009849e+06  9.13e+05  3.59e+01  1.72e+05  7.17e-01
+  86   2.0705359e+06   1.5018551e+06  7.98e+05  3.14e+01  1.34e+05  9.09e-01
+  87   1.9849262e+06   1.5015737e+06  6.78e+05  2.67e+01  1.13e+05  1.07e+00
+  88   1.9515038e+06   1.5014835e+06  6.31e+05  2.49e+01  1.06e+05  1.13e+00
+  89   1.8834093e+06   1.5039683e+06  5.33e+05  2.10e+01  8.36e+04  1.42e+00
+  90   1.8231959e+06   1.5060266e+06  4.46e+05  1.76e+01  6.78e+04  1.73e+00
+  91   1.8081504e+06   1.5077419e+06  4.24e+05  1.67e+01  6.01e+04  1.93e+00
+  92   1.7649333e+06   1.5097621e+06  3.61e+05  1.42e+01  4.98e+04  2.30e+00
+  93   1.7002680e+06   1.5124136e+06  2.64e+05  1.04e+01  4.03e+04  2.80e+00
+  94   1.6732415e+06   1.5151270e+06  2.22e+05  8.73e+00  3.45e+04  3.26e+00
+  95   1.6568311e+06   1.5176822e+06  1.96e+05  7.71e+00  2.96e+04  3.78e+00
+  96   1.6386661e+06   1.5206350e+06  1.67e+05  6.59e+00  2.32e+04  4.79e+00
+  97   1.6232681e+06   1.5224464e+06  1.44e+05  5.65e+00  1.88e+04  5.83e+00
+  98   1.6203311e+06   1.5230195e+06  1.39e+05  5.48e+00  1.72e+04  6.37e+00
+  99   1.6022047e+06   1.5244132e+06  1.12e+05  4.39e+00  1.31e+04  8.19e+00
+ 100   1.5931085e+06   1.5250719e+06  9.78e+04  3.85e+00  1.10e+04  9.62e+00
+ 101   1.5843881e+06   1.5258227e+06  8.44e+04  3.33e+00  8.99e+03  1.16e+01
+ 102   1.5741639e+06   1.5266073e+06  6.89e+04  2.71e+00  6.59e+03  1.54e+01
+ 103   1.5666120e+06   1.5268976e+06  5.74e+04  2.26e+00  5.83e+03  1.72e+01
+ 104   1.5660655e+06   1.5268989e+06  5.66e+04  2.23e+00  5.78e+03  1.74e+01
+ 105   1.5643788e+06   1.5269543e+06  5.39e+04  2.12e+00  5.67e+03  1.77e+01
+ 106   1.5634168e+06   1.5273224e+06  5.24e+04  2.06e+00  4.97e+03  2.00e+01
+ 107   1.5575943e+06   1.5277683e+06  4.35e+04  1.71e+00  3.92e+03  2.49e+01
+ 108   1.5543212e+06   1.5280519e+06  3.83e+04  1.51e+00  3.46e+03  2.79e+01
+ 109   1.5495021e+06   1.5284005e+06  3.08e+04  1.21e+00  2.69e+03  3.50e+01
+ 110   1.5488184e+06   1.5284367e+06  2.97e+04  1.17e+00  2.64e+03  3.57e+01
+ 111   1.5459124e+06   1.5285879e+06  2.51e+04  9.88e-01  2.40e+03  3.91e+01
+ 112   1.5457836e+06   1.5286343e+06  2.49e+04  9.80e-01  2.28e+03  4.10e+01
+ 113   1.5431681e+06   1.5288390e+06  2.07e+04  8.15e-01  2.00e+03  4.66e+01
+ 114   1.5415185e+06   1.5290277e+06  1.81e+04  7.12e-01  1.72e+03  5.38e+01
+ 115   1.5392160e+06   1.5292448e+06  1.45e+04  5.69e-01  1.33e+03  6.85e+01
+ 116   1.5376282e+06   1.5294203e+06  1.20e+04  4.72e-01  1.01e+03  8.90e+01
+ 117   1.5361973e+06   1.5295515e+06  9.76e+03  3.84e-01  7.46e+02  1.18e+02
+ 118   1.5354968e+06   1.5296159e+06  8.68e+03  3.42e-01  5.74e+02  1.50e+02
+ 119   1.5346327e+06   1.5296574e+06  7.37e+03  2.90e-01  4.23e+02  1.95e+02
+ 120   1.5335856e+06   1.5296783e+06  5.77e+03  2.27e-01  3.62e+02  2.22e+02
+ 121   1.5328622e+06   1.5297119e+06  4.66e+03  1.84e-01  2.79e+02  2.80e+02
+ 122   1.5321666e+06   1.5297460e+06  3.59e+03  1.42e-01  1.95e+02  3.82e+02
+ 123   1.5317560e+06   1.5297540e+06  2.96e+03  1.17e-01  1.77e+02  4.17e+02
+ 124   1.5313604e+06   1.5297752e+06  2.35e+03  9.24e-02  1.39e+02  5.22e+02
+ 125   1.5308371e+06   1.5298052e+06  1.53e+03  6.04e-02  8.11e+01  8.46e+02
+ 126   1.5305951e+06   1.5298119e+06  1.16e+03  4.57e-02  6.63e+01  1.01e+03
+ 127   1.5303934e+06   1.5298254e+06  8.48e+02  3.34e-02  4.13e+01  1.58e+03
+ 128   1.5302236e+06   1.5298316e+06  5.87e+02  2.31e-02  2.45e+01  2.49e+03
+ 129   1.5301118e+06   1.5298331e+06  4.17e+02  1.64e-02  1.92e+01  3.07e+03
+ 130   1.5299518e+06   1.5298371e+06  1.69e+02  6.66e-03  1.11e+01  5.03e+03
+ 131   1.5299000e+06   1.5298409e+06  8.65e+01  3.40e-03  6.29e+00  9.22e+03
+ 132   1.5298952e+06   1.5298415e+06  7.92e+01  3.11e-03  5.31e+00  1.10e+04
+ 133   1.5298664e+06   1.5298423e+06  3.60e+01  1.37e-03  3.43e+00  1.75e+04
+ 134   1.5298664e+06   1.5298423e+06  3.72e+01  1.37e-03  3.42e+00  1.75e+04
+ 135   1.5298577e+06   1.5298429e+06  2.31e+01  8.43e-04  1.88e+00  3.47e+04
+ 136   1.5298558e+06   1.5298429e+06  2.10e+01  7.33e-04  1.66e+00  3.96e+04
+ 137   1.5298555e+06   1.5298429e+06  2.10e+01  7.19e-04  1.60e+00  4.12e+04
+ 138   1.5298550e+06   1.5298429e+06  2.02e+01  6.91e-04  1.56e+00  4.25e+04
+ 139   1.5298550e+06   1.5298429e+06  2.02e+01  6.91e-04  1.56e+00  4.25e+04
+ 140   1.5298495e+06   1.5298429e+06  1.11e+01  3.78e-04  5.57e-01  1.34e+05
+ 141   1.5298492e+06   1.5298429e+06  1.43e+01  3.59e-04  5.50e-01  1.35e+05
+ 142   1.5298492e+06   1.5298429e+06  1.44e+01  3.57e-04  5.47e-01  1.36e+05
+ 143   1.5298469e+06   1.5298427e+06  1.00e+01  2.34e-04  2.74e-01  2.51e+05
+ 144   1.5298449e+06   1.5298426e+06  5.95e+00  1.29e-04  9.16e-02  5.72e+05
+ 145   1.5298449e+06   1.5298426e+06  6.11e+00  1.28e-04  9.16e-02  5.72e+05
+ 146   1.5298436e+06   1.5298426e+06  3.64e+00  5.91e-05  6.71e-02  7.14e+05
+ 147   1.5298430e+06   1.5298426e+06  3.08e+00  2.39e-05  5.46e-02  8.74e+05
+ 148   1.5298428e+06   1.5298426e+06  1.55e+00  1.28e-05  3.40e-02  1.53e+06
+ 149   1.5298428e+06   1.5298426e+06  1.24e+00  9.76e-06  1.51e-02  4.14e+06
+ 150   1.5298426e+06   1.5298426e+06  1.51e+00  1.94e-06  5.53e-03  1.12e+07
+Barrier time = 243.30 sec. (324465.56 ticks)
 
 Primal crossover.
-  Primal:  Fixing 90033 variables.
-    90032 PMoves:  Infeasibility  6.52199783e+00  Objective  1.53523683e+06
-    85248 PMoves:  Infeasibility  1.72610841e+00  Objective  1.53523683e+06
-    79518 PMoves:  Infeasibility  1.42231458e+00  Objective  1.53525119e+06
-    74159 PMoves:  Infeasibility  1.27068418e+00  Objective  1.53525119e+06
-    65270 PMoves:  Infeasibility  1.14667180e+00  Objective  1.53525109e+06
-    60356 PMoves:  Infeasibility  9.69036013e-01  Objective  1.53524951e+06
-    55005 PMoves:  Infeasibility  9.52615926e-01  Objective  1.53524939e+06
-    49938 PMoves:  Infeasibility  9.47202940e-01  Objective  1.53524944e+06
-    45881 PMoves:  Infeasibility  9.33355928e-01  Objective  1.53524925e+06
-    41249 PMoves:  Infeasibility  9.16252574e-01  Objective  1.53524929e+06
-    35733 PMoves:  Infeasibility  9.15406880e-01  Objective  1.53524930e+06
-    32612 PMoves:  Infeasibility  2.81448980e-01  Objective  1.53524930e+06
-    27683 PMoves:  Infeasibility  2.77237353e-01  Objective  1.53524919e+06
-    24309 PMoves:  Infeasibility  2.64165879e-01  Objective  1.53524909e+06
-    22480 PMoves:  Infeasibility  2.25652908e-01  Objective  1.53524826e+06
-    20934 PMoves:  Infeasibility  2.16249371e-01  Objective  1.53524809e+06
-    19261 PMoves:  Infeasibility  2.03149810e-01  Objective  1.53524764e+06
-    17334 PMoves:  Infeasibility  1.52801143e-01  Objective  1.53524682e+06
-    15496 PMoves:  Infeasibility  1.38505562e-01  Objective  1.53524708e+06
-    13996 PMoves:  Infeasibility  1.37646814e-01  Objective  1.53524696e+06
-    12345 PMoves:  Infeasibility  1.37370854e-01  Objective  1.53524665e+06
-    10556 PMoves:  Infeasibility  1.36600678e-01  Objective  1.53524545e+06
-     9628 PMoves:  Infeasibility  1.34923213e-01  Objective  1.53524455e+06
-     7437 PMoves:  Infeasibility  1.30520385e-01  Objective  1.53524304e+06
-     5820 PMoves:  Infeasibility  1.29987437e-01  Objective  1.53524307e+06
-     4759 PMoves:  Infeasibility  1.29115604e-01  Objective  1.53524262e+06
-     3242 PMoves:  Infeasibility  1.27071553e-01  Objective  1.53524148e+06
-     2261 PMoves:  Infeasibility  1.26673210e-01  Objective  1.53523993e+06
-     1484 PMoves:  Infeasibility  1.20445919e-01  Objective  1.53524291e+06
-      492 PMoves:  Infeasibility  1.18627882e-01  Objective  1.53524099e+06
-       44 PMoves:  Infeasibility  1.00175841e-01  Objective  1.53521129e+06
-        0 PMoves:  Infeasibility  8.42905757e-02  Objective  1.53521852e+06
-  Primal:  Pushed 43383, exchanged 46650.
-  Dual:  Fixing 317960 variables.
-   317959 DMoves:  Infeasibility  8.55455300e+04  Objective  1.53516600e+06
-   314700 DMoves:  Infeasibility  8.55452296e+04  Objective  1.53516600e+06
-   312229 DMoves:  Infeasibility  8.55452296e+04  Objective  1.53516600e+06
-   309786 DMoves:  Infeasibility  8.55452086e+04  Objective  1.53516600e+06
-   306493 DMoves:  Infeasibility  8.55451027e+04  Objective  1.53516600e+06
-   303795 DMoves:  Infeasibility  8.55451001e+04  Objective  1.53516600e+06
-   301752 DMoves:  Infeasibility  8.55451001e+04  Objective  1.53516600e+06
-   299553 DMoves:  Infeasibility  8.55447130e+04  Objective  1.53516600e+06
-   297056 DMoves:  Infeasibility  8.55433740e+04  Objective  1.53516600e+06
-   295061 DMoves:  Infeasibility  8.55426075e+04  Objective  1.53516600e+06
-   292688 DMoves:  Infeasibility  8.55425478e+04  Objective  1.53516600e+06
-   290576 DMoves:  Infeasibility  8.55425310e+04  Objective  1.53516600e+06
-   288121 DMoves:  Infeasibility  8.55421938e+04  Objective  1.53516600e+06
-   286539 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   283873 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   281678 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   280169 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   278975 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   277977 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   277052 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   276152 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   275341 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   274566 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   271225 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   264506 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   260671 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   257665 DMoves:  Infeasibility  8.55419162e+04  Objective  1.53516600e+06
-   255286 DMoves:  Infeasibility  8.55411731e+04  Objective  1.53516600e+06
-   252320 DMoves:  Infeasibility  8.55407796e+04  Objective  1.53516598e+06
-   250180 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   248985 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   247961 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   247109 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   246279 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   245316 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   244654 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   243973 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   243310 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   242671 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   242060 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   241243 DMoves:  Infeasibility  8.55372458e+04  Objective  1.53516382e+06
-   238399 DMoves:  Infeasibility  8.55337467e+04  Objective  1.53516382e+06
-   236150 DMoves:  Infeasibility  8.55329570e+04  Objective  1.53516382e+06
-   226963 DMoves:  Infeasibility  8.55193615e+04  Objective  1.53516382e+06
-   217445 DMoves:  Infeasibility  6.89060076e+04  Objective  1.53516383e+06
-   209652 DMoves:  Infeasibility  6.89015992e+04  Objective  1.53516383e+06
-   206887 DMoves:  Infeasibility  6.89011344e+04  Objective  1.53516383e+06
-   203961 DMoves:  Infeasibility  6.89010646e+04  Objective  1.53516383e+06
-   194833 DMoves:  Infeasibility  6.89004328e+04  Objective  1.53516383e+06
-   188594 DMoves:  Infeasibility  6.89004295e+04  Objective  1.53516383e+06
-   182143 DMoves:  Infeasibility  6.89004295e+04  Objective  1.53516383e+06
-   177642 DMoves:  Infeasibility  6.89004278e+04  Objective  1.53516383e+06
-   Elapsed crossover time = 11.28 sec. (10126.80 ticks, 177642 DMoves)
-   174117 DMoves:  Infeasibility  6.89000664e+04  Objective  1.53516383e+06
-   170792 DMoves:  Infeasibility  6.88854740e+04  Objective  1.53516383e+06
-   167190 DMoves:  Infeasibility  6.88841058e+04  Objective  1.53516383e+06
-   163026 DMoves:  Infeasibility  6.88834147e+04  Objective  1.53516383e+06
-   159695 DMoves:  Infeasibility  6.88826000e+04  Objective  1.53516383e+06
-   158438 DMoves:  Infeasibility  6.88825862e+04  Objective  1.53516383e+06
-   156912 DMoves:  Infeasibility  6.88825039e+04  Objective  1.53516383e+06
-   153790 DMoves:  Infeasibility  6.88820158e+04  Objective  1.53516383e+06
-   150687 DMoves:  Infeasibility  6.88812249e+04  Objective  1.53516383e+06
-   148491 DMoves:  Infeasibility  6.88811770e+04  Objective  1.53516383e+06
-   146832 DMoves:  Infeasibility  6.88811770e+04  Objective  1.53516383e+06
-   145026 DMoves:  Infeasibility  6.88802164e+04  Objective  1.53516383e+06
-   143381 DMoves:  Infeasibility  6.88798435e+04  Objective  1.53516383e+06
-   141551 DMoves:  Infeasibility  6.88798435e+04  Objective  1.53516383e+06
-   137462 DMoves:  Infeasibility  6.73501342e+04  Objective  1.53516383e+06
-   132366 DMoves:  Infeasibility  6.73501342e+04  Objective  1.53516383e+06
-   125121 DMoves:  Infeasibility  6.73501342e+04  Objective  1.53516383e+06
-   117911 DMoves:  Infeasibility  6.73501342e+04  Objective  1.53516383e+06
-   112997 DMoves:  Infeasibility  6.73501342e+04  Objective  1.53516383e+06
-   111692 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   110894 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   110273 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   109719 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   109131 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   108396 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   107656 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   106889 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   104222 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   102068 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-   100979 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    99715 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    98394 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    97072 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    95405 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    93574 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    91072 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    87268 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    84216 DMoves:  Infeasibility  6.73501329e+04  Objective  1.53516383e+06
-    80989 DMoves:  Infeasibility  6.73483012e+04  Objective  1.53516383e+06
-    78879 DMoves:  Infeasibility  6.73479574e+04  Objective  1.53516383e+06
-    75235 DMoves:  Infeasibility  6.73208007e+04  Objective  1.53516384e+06
-   Elapsed crossover time = 22.50 sec. (20126.81 ticks, 69478 DMoves)
-    68692 DMoves:  Infeasibility  6.73175564e+04  Objective  1.53516384e+06
-    64321 DMoves:  Infeasibility  6.73112974e+04  Objective  1.53516384e+06
-    61902 DMoves:  Infeasibility  6.40150169e+04  Objective  1.53516384e+06
-    58977 DMoves:  Infeasibility  6.40150153e+04  Objective  1.53516384e+06
-    57563 DMoves:  Infeasibility  6.40150114e+04  Objective  1.53516384e+06
-    55875 DMoves:  Infeasibility  6.40150114e+04  Objective  1.53516384e+06
-    53155 DMoves:  Infeasibility  6.39891859e+04  Objective  1.53516384e+06
-    51025 DMoves:  Infeasibility  6.39888042e+04  Objective  1.53516384e+06
-    48667 DMoves:  Infeasibility  6.39888029e+04  Objective  1.53516384e+06
-    46689 DMoves:  Infeasibility  6.39887887e+04  Objective  1.53516384e+06
-    45909 DMoves:  Infeasibility  6.39887850e+04  Objective  1.53516384e+06
-    43438 DMoves:  Infeasibility  6.24285171e+04  Objective  1.53516384e+06
-    42765 DMoves:  Infeasibility  6.24285171e+04  Objective  1.53516384e+06
-    42190 DMoves:  Infeasibility  6.24285171e+04  Objective  1.53516384e+06
-    41586 DMoves:  Infeasibility  6.24285171e+04  Objective  1.53516384e+06
-    40442 DMoves:  Infeasibility  6.24285171e+04  Objective  1.53516384e+06
-    39413 DMoves:  Infeasibility  6.24285171e+04  Objective  1.53516384e+06
-    37818 DMoves:  Infeasibility  6.24227438e+04  Objective  1.53516384e+06
-    35343 DMoves:  Infeasibility  6.24218582e+04  Objective  1.53516384e+06
-    32725 DMoves:  Infeasibility  6.24217594e+04  Objective  1.53516384e+06
-    28905 DMoves:  Infeasibility  5.21733245e+04  Objective  1.53516385e+06
-    25514 DMoves:  Infeasibility  4.46499869e+04  Objective  1.53516386e+06
-    22003 DMoves:  Infeasibility  3.34187000e+04  Objective  1.53516386e+06
-    18703 DMoves:  Infeasibility  3.04919851e+04  Objective  1.53516401e+06
-    15691 DMoves:  Infeasibility  3.04915932e+04  Objective  1.53516401e+06
-    12021 DMoves:  Infeasibility  3.04889099e+04  Objective  1.53516401e+06
-   Elapsed crossover time = 30.91 sec. (30334.44 ticks, 12021 DMoves)
-     8712 DMoves:  Infeasibility  3.04879182e+04  Objective  1.53516407e+06
-     5510 DMoves:  Infeasibility  3.04639967e+04  Objective  1.53516454e+06
-     3288 DMoves:  Infeasibility  3.04595156e+04  Objective  1.53516454e+06
-        0 DMoves:  Infeasibility  2.10128611e+04  Objective  1.53516407e+06
-  Dual:  Pushed 200201, exchanged 117759.
+  Primal:  Fixing 56256 variables.
+    56255 PMoves:  Infeasibility  2.00193817e+01  Objective  1.52984262e+06
+    53654 PMoves:  Infeasibility  5.17901563e+00  Objective  1.52984261e+06
+    52175 PMoves:  Infeasibility  4.61204112e+00  Objective  1.52984261e+06
+    46820 PMoves:  Infeasibility  2.47743576e+00  Objective  1.52984793e+06
+    37130 PMoves:  Infeasibility  1.84375489e+00  Objective  1.52984570e+06
+    30988 PMoves:  Infeasibility  1.13421106e+00  Objective  1.52984638e+06
+    26814 PMoves:  Infeasibility  1.12792736e+00  Objective  1.52984622e+06
+    23856 PMoves:  Infeasibility  8.67743333e-01  Objective  1.52984605e+06
+    20490 PMoves:  Infeasibility  8.59351544e-01  Objective  1.52984591e+06
+    18382 PMoves:  Infeasibility  8.34368882e-01  Objective  1.52984516e+06
+    17005 PMoves:  Infeasibility  8.23838484e-01  Objective  1.52984530e+06
+    15589 PMoves:  Infeasibility  7.79779335e-01  Objective  1.52984457e+06
+    14291 PMoves:  Infeasibility  7.79338881e-01  Objective  1.52984443e+06
+    12655 PMoves:  Infeasibility  7.61513573e-01  Objective  1.52984129e+06
+    11183 PMoves:  Infeasibility  7.37879466e-01  Objective  1.52984581e+06
+    10113 PMoves:  Infeasibility  5.28215884e-01  Objective  1.52984613e+06
+     9047 PMoves:  Infeasibility  5.26263616e-01  Objective  1.52984576e+06
+     7804 PMoves:  Infeasibility  5.25787484e-01  Objective  1.52984570e+06
+     6728 PMoves:  Infeasibility  5.25702943e-01  Objective  1.52984538e+06
+     5299 PMoves:  Infeasibility  5.24808616e-01  Objective  1.52984529e+06
+     3887 PMoves:  Infeasibility  5.23284686e-01  Objective  1.52984591e+06
+     3074 PMoves:  Infeasibility  5.22056324e-01  Objective  1.52984564e+06
+     2273 PMoves:  Infeasibility  4.38604270e-01  Objective  1.52984550e+06
+     1386 PMoves:  Infeasibility  4.31586133e-01  Objective  1.52984540e+06
+      780 PMoves:  Infeasibility  4.25539089e-01  Objective  1.52984582e+06
+      218 PMoves:  Infeasibility  4.15675493e-01  Objective  1.52984636e+06
+        0 PMoves:  Infeasibility  3.44746583e-01  Objective  1.52984781e+06
+  Primal:  Pushed 23632, exchanged 32610.
+  Dual:  Fixing 290480 variables.
+   290479 DMoves:  Infeasibility  1.03760615e+05  Objective  1.52978291e+06
+   287756 DMoves:  Infeasibility  1.03045157e+05  Objective  1.52978291e+06
+   285861 DMoves:  Infeasibility  1.02328711e+05  Objective  1.52978291e+06
+   284228 DMoves:  Infeasibility  1.02265642e+05  Objective  1.52978291e+06
+   281658 DMoves:  Infeasibility  1.02140637e+05  Objective  1.52978291e+06
+   278046 DMoves:  Infeasibility  1.02088429e+05  Objective  1.52978291e+06
+   274683 DMoves:  Infeasibility  1.01940829e+05  Objective  1.52978291e+06
+   272670 DMoves:  Infeasibility  1.01190325e+05  Objective  1.52978291e+06
+   270388 DMoves:  Infeasibility  1.00792344e+05  Objective  1.52978291e+06
+   268229 DMoves:  Infeasibility  1.00260584e+05  Objective  1.52978291e+06
+   266073 DMoves:  Infeasibility  9.97392695e+04  Objective  1.52978291e+06
+   263978 DMoves:  Infeasibility  9.82856573e+04  Objective  1.52978291e+06
+   262157 DMoves:  Infeasibility  9.79003476e+04  Objective  1.52978291e+06
+   259805 DMoves:  Infeasibility  9.78999263e+04  Objective  1.52978291e+06
+   257701 DMoves:  Infeasibility  9.78747422e+04  Objective  1.52978291e+06
+   256298 DMoves:  Infeasibility  9.76209380e+04  Objective  1.52978291e+06
+   255075 DMoves:  Infeasibility  9.76208348e+04  Objective  1.52978291e+06
+   253940 DMoves:  Infeasibility  9.76202739e+04  Objective  1.52978291e+06
+   252858 DMoves:  Infeasibility  9.75887711e+04  Objective  1.52978291e+06
+   251791 DMoves:  Infeasibility  9.75887711e+04  Objective  1.52978291e+06
+   250771 DMoves:  Infeasibility  9.75886757e+04  Objective  1.52978291e+06
+   249416 DMoves:  Infeasibility  9.73081631e+04  Objective  1.52978291e+06
+   243514 DMoves:  Infeasibility  9.72863527e+04  Objective  1.52978291e+06
+   239384 DMoves:  Infeasibility  9.72115192e+04  Objective  1.52978291e+06
+   235609 DMoves:  Infeasibility  9.71719034e+04  Objective  1.52978291e+06
+   232374 DMoves:  Infeasibility  9.71618967e+04  Objective  1.52978291e+06
+   231163 DMoves:  Infeasibility  9.71477782e+04  Objective  1.52978291e+06
+   229791 DMoves:  Infeasibility  9.66899976e+04  Objective  1.52978291e+06
+   228482 DMoves:  Infeasibility  9.62705082e+04  Objective  1.52978291e+06
+   227140 DMoves:  Infeasibility  9.58153207e+04  Objective  1.52978291e+06
+   225499 DMoves:  Infeasibility  9.56630695e+04  Objective  1.52978291e+06
+   224286 DMoves:  Infeasibility  9.56572382e+04  Objective  1.52978291e+06
+   223356 DMoves:  Infeasibility  9.56470912e+04  Objective  1.52978291e+06
+   222512 DMoves:  Infeasibility  9.56287372e+04  Objective  1.52978291e+06
+   221626 DMoves:  Infeasibility  9.56080904e+04  Objective  1.52978291e+06
+   220782 DMoves:  Infeasibility  9.55858822e+04  Objective  1.52978291e+06
+   219994 DMoves:  Infeasibility  9.55843909e+04  Objective  1.52978291e+06
+   219278 DMoves:  Infeasibility  9.55813322e+04  Objective  1.52978291e+06
+   218540 DMoves:  Infeasibility  9.55810941e+04  Objective  1.52978291e+06
+   217617 DMoves:  Infeasibility  9.55810941e+04  Objective  1.52978291e+06
+   214996 DMoves:  Infeasibility  9.55759354e+04  Objective  1.52978291e+06
+   212841 DMoves:  Infeasibility  9.55718673e+04  Objective  1.52978291e+06
+   205458 DMoves:  Infeasibility  9.50605209e+04  Objective  1.52978291e+06
+   200368 DMoves:  Infeasibility  8.45476870e+04  Objective  1.52978291e+06
+   191179 DMoves:  Infeasibility  8.44137896e+04  Objective  1.52978291e+06
+   186991 DMoves:  Infeasibility  8.43590010e+04  Objective  1.52978291e+06
+   184114 DMoves:  Infeasibility  8.43130594e+04  Objective  1.52978291e+06
+   178560 DMoves:  Infeasibility  8.39930812e+04  Objective  1.52978291e+06
+   173979 DMoves:  Infeasibility  8.39444421e+04  Objective  1.52978291e+06
+   169014 DMoves:  Infeasibility  8.33104101e+04  Objective  1.52978291e+06
+   164859 DMoves:  Infeasibility  8.30325440e+04  Objective  1.52978291e+06
+   160922 DMoves:  Infeasibility  8.25894382e+04  Objective  1.52978291e+06
+   158232 DMoves:  Infeasibility  8.24856612e+04  Objective  1.52978291e+06
+   155951 DMoves:  Infeasibility  8.24361837e+04  Objective  1.52978291e+06
+   153560 DMoves:  Infeasibility  8.21865773e+04  Objective  1.52978291e+06
+   149606 DMoves:  Infeasibility  8.18105458e+04  Objective  1.52978291e+06
+   Elapsed crossover time = 10.69 sec. (10058.30 ticks, 149606 DMoves)
+   145831 DMoves:  Infeasibility  8.17693236e+04  Objective  1.52978291e+06
+   144749 DMoves:  Infeasibility  8.17437910e+04  Objective  1.52978291e+06
+   142560 DMoves:  Infeasibility  8.16957236e+04  Objective  1.52978291e+06
+   139760 DMoves:  Infeasibility  8.16476512e+04  Objective  1.52978291e+06
+   137246 DMoves:  Infeasibility  8.16019354e+04  Objective  1.52978291e+06
+   135499 DMoves:  Infeasibility  8.15362162e+04  Objective  1.52978291e+06
+   133721 DMoves:  Infeasibility  8.15347803e+04  Objective  1.52978291e+06
+   131886 DMoves:  Infeasibility  8.14166173e+04  Objective  1.52978291e+06
+   130234 DMoves:  Infeasibility  8.13862791e+04  Objective  1.52978291e+06
+   127633 DMoves:  Infeasibility  8.12638616e+04  Objective  1.52978291e+06
+   122021 DMoves:  Infeasibility  8.10146035e+04  Objective  1.52978291e+06
+   115596 DMoves:  Infeasibility  8.10133214e+04  Objective  1.52978291e+06
+   104309 DMoves:  Infeasibility  8.10091862e+04  Objective  1.52978291e+06
+    98305 DMoves:  Infeasibility  8.10091862e+04  Objective  1.52978291e+06
+    94560 DMoves:  Infeasibility  8.10055727e+04  Objective  1.52978291e+06
+    93738 DMoves:  Infeasibility  8.10055727e+04  Objective  1.52978291e+06
+    93001 DMoves:  Infeasibility  8.10055727e+04  Objective  1.52978291e+06
+    92358 DMoves:  Infeasibility  8.10055727e+04  Objective  1.52978291e+06
+    91657 DMoves:  Infeasibility  8.10033387e+04  Objective  1.52978291e+06
+    90910 DMoves:  Infeasibility  8.09995538e+04  Objective  1.52978291e+06
+    90098 DMoves:  Infeasibility  8.09905709e+04  Objective  1.52978291e+06
+    89273 DMoves:  Infeasibility  8.09525986e+04  Objective  1.52978291e+06
+    88345 DMoves:  Infeasibility  8.09441101e+04  Objective  1.52978291e+06
+    87048 DMoves:  Infeasibility  8.06927034e+04  Objective  1.52978291e+06
+    83404 DMoves:  Infeasibility  8.02662526e+04  Objective  1.52978291e+06
+    82203 DMoves:  Infeasibility  7.99468885e+04  Objective  1.52978291e+06
+    80854 DMoves:  Infeasibility  7.99468885e+04  Objective  1.52978291e+06
+    79380 DMoves:  Infeasibility  7.99468885e+04  Objective  1.52978291e+06
+    77978 DMoves:  Infeasibility  7.99450089e+04  Objective  1.52978291e+06
+    76479 DMoves:  Infeasibility  7.99422413e+04  Objective  1.52978291e+06
+    74854 DMoves:  Infeasibility  7.99422413e+04  Objective  1.52978291e+06
+    72972 DMoves:  Infeasibility  7.99397924e+04  Objective  1.52978291e+06
+    70617 DMoves:  Infeasibility  7.99334575e+04  Objective  1.52978291e+06
+    67179 DMoves:  Infeasibility  7.98805624e+04  Objective  1.52978291e+06
+    64379 DMoves:  Infeasibility  7.97877220e+04  Objective  1.52978291e+06
+    61170 DMoves:  Infeasibility  7.97319793e+04  Objective  1.52978291e+06
+    59125 DMoves:  Infeasibility  7.95770105e+04  Objective  1.52978291e+06
+    57084 DMoves:  Infeasibility  7.95218628e+04  Objective  1.52978291e+06
+    53516 DMoves:  Infeasibility  7.94507666e+04  Objective  1.52978291e+06
+    49773 DMoves:  Infeasibility  7.92103287e+04  Objective  1.52978291e+06
+    47596 DMoves:  Infeasibility  7.89841288e+04  Objective  1.52978291e+06
+   Elapsed crossover time = 20.94 sec. (20069.56 ticks, 47596 DMoves)
+    44875 DMoves:  Infeasibility  7.89841288e+04  Objective  1.52978291e+06
+    41491 DMoves:  Infeasibility  7.89150694e+04  Objective  1.52978291e+06
+    39457 DMoves:  Infeasibility  7.88554419e+04  Objective  1.52978291e+06
+    37138 DMoves:  Infeasibility  7.88219585e+04  Objective  1.52978291e+06
+    35059 DMoves:  Infeasibility  7.86153155e+04  Objective  1.52978291e+06
+    34275 DMoves:  Infeasibility  7.86153155e+04  Objective  1.52978291e+06
+    33612 DMoves:  Infeasibility  7.86153155e+04  Objective  1.52978291e+06
+    31164 DMoves:  Infeasibility  7.85411662e+04  Objective  1.52978291e+06
+    30373 DMoves:  Infeasibility  7.85411662e+04  Objective  1.52978291e+06
+    29661 DMoves:  Infeasibility  7.85411662e+04  Objective  1.52978291e+06
+    28643 DMoves:  Infeasibility  7.85411662e+04  Objective  1.52978291e+06
+    27804 DMoves:  Infeasibility  7.85411662e+04  Objective  1.52978291e+06
+    26610 DMoves:  Infeasibility  7.85411499e+04  Objective  1.52978291e+06
+    23329 DMoves:  Infeasibility  7.83943657e+04  Objective  1.52978291e+06
+    21197 DMoves:  Infeasibility  7.83355672e+04  Objective  1.52978291e+06
+    18524 DMoves:  Infeasibility  7.34521892e+04  Objective  1.52978292e+06
+    15671 DMoves:  Infeasibility  6.98571913e+04  Objective  1.52978292e+06
+    13017 DMoves:  Infeasibility  5.72577734e+04  Objective  1.52978293e+06
+    10648 DMoves:  Infeasibility  5.45837125e+04  Objective  1.52978703e+06
+     7962 DMoves:  Infeasibility  5.22009483e+04  Objective  1.52979162e+06
+     5047 DMoves:  Infeasibility  5.10570550e+04  Objective  1.52979173e+06
+     1999 DMoves:  Infeasibility  4.87506966e+04  Objective  1.52979476e+06
+      160 DMoves:  Infeasibility  4.85283797e+04  Objective  1.52979470e+06
+        0 DMoves:  Infeasibility  4.80302313e+04  Objective  1.52979506e+06
+  Dual:  Pushed 165705, exchanged 124775.
 Using devex.
 
 Iteration log . . .
-Iteration:     1    Objective     =       1535218.520160
-Iteration:    11    Objective     =       1535218.510983
-Elapsed time = 1302.17 sec. (405469.03 ticks, 11 iterations)
-Iteration:   792    Objective     =       1535192.175299
-Iteration:  1817    Objective     =       1535171.239170
-Iteration:  2676    Objective     =       1535169.813854
-Elapsed time = 1326.13 sec. (415676.07 ticks, 3226 iterations)
-Iteration:  3226    Objective     =       1535168.867125
-Iteration:  4086    Objective     =       1535167.998343
-Iteration:  4966    Objective     =       1535166.798573
-Iteration:  5865    Objective     =       1535166.395550
-Iteration:  6678    Objective     =       1535166.127082
-Iteration:  7455    Objective     =       1535166.127082
-Iteration:  8279    Objective     =       1535165.551103
-Elapsed time = 1348.67 sec. (425676.88 ticks, 8433 iterations)
-Iteration:  9148    Objective     =       1535165.478125
-Iteration: 10080    Objective     =       1535165.408681
-Iteration: 10848    Objective     =       1535165.018869
-Iteration: 11611    Objective     =       1535164.997065
-Iteration: 12408    Objective     =       1535164.904368
-Iteration: 13327    Objective     =       1535164.841236
-Elapsed time = 1370.98 sec. (435677.42 ticks, 14069 iterations)
-Iteration: 14178    Objective     =       1535164.792665
-Iteration: 15110    Objective     =       1535164.738632
-Iteration: 15965    Objective     =       1535164.520509
-Iteration: 16822    Objective     =       1535164.457265
-Iteration: 17745    Objective     =       1535164.399207
-Iteration: 18695    Objective     =       1535164.206561
-Elapsed time = 1392.38 sec. (446002.35 ticks, 19634 iterations)
-Iteration: 19634    Objective     =       1535163.966708
-Iteration: 20573    Objective     =       1535163.890104
-Iteration: 21564    Objective     =       1535163.860670
-Iteration: 22671    Objective     =       1535163.834882
-Iteration: 23706    Objective     =       1535163.829083
-Iteration: 24759    Objective     =       1535163.817359
-Iteration: 25884    Objective     =       1535163.813780
-Elapsed time = 1413.20 sec. (456002.79 ticks, 25961 iterations)
-Iteration: 25985    Objective     =       1535163.813744
-Iteration: 27081    Objective     =       1535163.797408
-Iteration: 28144    Objective     =       1535163.786247
-Iteration: 29271    Objective     =       1535163.769064
-Iteration: 30495    Objective     =       1535163.740993
-Iteration: 31719    Objective     =       1535163.713275
-Elapsed time = 1433.83 sec. (466003.69 ticks, 32037 iterations)
-Iteration: 32922    Objective     =       1535163.693112
-Iteration: 34347    Objective     =       1535163.685566
-Iteration: 35900    Objective     =       1535163.685345
-Iteration: 37224    Objective     =       1535163.527947
-Iteration: 38973    Objective     =       1535163.437742
-Elapsed time = 1454.00 sec. (476004.31 ticks, 39070 iterations)
-Iteration: 40490    Objective     =       1535163.426264
-Iteration: 40801    Scaled infeas =             0.000000
-Iteration: 41832    Scaled infeas =             0.000000
-Iteration: 43027    Scaled infeas =             0.000000
-Iteration: 44239    Scaled infeas =             0.000000
-Iteration: 45321    Scaled infeas =             0.000000
-Elapsed time = 1484.17 sec. (486286.67 ticks, 46751 iterations)
-Iteration: 46751    Scaled infeas =             0.000000
-Iteration: 47984    Scaled infeas =             0.000000
+Iteration:     1    Objective     =       1529847.810519
+Iteration:    32    Objective     =       1529847.678784
+Elapsed time = 303.52 sec. (399866.46 ticks, 32 iterations)
+Iteration:   133    Objective     =       1529847.677241
+Iteration:  1100    Objective     =       1529824.265189
+Iteration:  2004    Objective     =       1529814.093983
+Iteration:  2967    Objective     =       1529794.621418
+Iteration:  3887    Objective     =       1529787.882841
+Elapsed time = 322.38 sec. (409918.17 ticks, 4857 iterations)
+Iteration:  4857    Objective     =       1529786.498407
+Iteration:  5736    Objective     =       1529784.897629
+Iteration:  6657    Objective     =       1529783.310266
+Iteration:  7732    Objective     =       1529783.252458
+Iteration:  8628    Objective     =       1529782.698641
+Iteration:  9667    Objective     =       1529782.414077
+Elapsed time = 342.44 sec. (420160.54 ticks, 10629 iterations)
+Iteration: 10629    Objective     =       1529782.180057
+Iteration: 11689    Objective     =       1529781.821216
+Iteration: 12768    Objective     =       1529781.731980
+Iteration: 13780    Objective     =       1529781.714462
+Iteration: 14806    Objective     =       1529781.603973
+Iteration: 15807    Objective     =       1529781.549638
+Iteration: 16813    Objective     =       1529781.532951
+Elapsed time = 362.36 sec. (430160.72 ticks, 16960 iterations)
+Iteration: 17864    Objective     =       1529781.506851
+Iteration: 18932    Objective     =       1529781.488453
+Iteration: 20083    Objective     =       1529781.465238
+Iteration: 21201    Objective     =       1529781.461366
+Iteration: 22248    Objective     =       1529781.458519
+Elapsed time = 382.78 sec. (440292.02 ticks, 23370 iterations)
+Iteration: 23370    Objective     =       1529781.444826
+Iteration: 24446    Objective     =       1529781.422457
+Iteration: 25611    Objective     =       1529781.420199
+Iteration: 26734    Objective     =       1529781.400559
+Iteration: 27961    Objective     =       1529781.394371
+Iteration: 29163    Objective     =       1529781.379960
+Elapsed time = 402.78 sec. (450292.89 ticks, 30034 iterations)
+Iteration: 30470    Objective     =       1529781.367360
+Iteration: 31750    Objective     =       1529781.355033
+Iteration: 32937    Objective     =       1529781.326044
+Iteration: 34119    Objective     =       1529781.305190
+Iteration: 35374    Objective     =       1529781.298721
+Elapsed time = 422.64 sec. (460293.69 ticks, 36450 iterations)
+Iteration: 36621    Objective     =       1529781.298587
+Iteration: 37841    Objective     =       1529781.298587
 Perturbation started.
-Iteration: 48604    Objective     =       1535163.424682
-Iteration: 49578    Objective     =       1535163.388407
-Iteration: 50649    Objective     =       1535163.387239
-Iteration: 51828    Objective     =       1535163.382928
-Iteration: 53126    Objective     =       1535163.378997
-Iteration: 54398    Objective     =       1535163.372184
-Elapsed time = 1509.20 sec. (496454.60 ticks, 55396 iterations)
-Iteration: 55396    Objective     =       1535163.366840
-Iteration: 56817    Objective     =       1535163.362953
-Iteration: 57852    Objective     =       1535163.358739
-Iteration: 58827    Objective     =       1535163.351310
-Iteration: 59856    Objective     =       1535163.346415
-Iteration: 60873    Objective     =       1535163.343865
-Iteration: 61862    Objective     =       1535163.340978
-Iteration: 62897    Objective     =       1535163.339031
-Elapsed time = 1529.81 sec. (506460.90 ticks, 63025 iterations)
-Iteration: 64351    Scaled infeas =             0.022404
-Iteration: 65470    Scaled infeas =             0.022403
-Iteration: 66512    Scaled infeas =             0.022402
-Iteration: 67520    Scaled infeas =             0.022402
-Iteration: 68601    Scaled infeas =             0.016976
-Iteration: 69922    Scaled infeas =             0.016978
-Iteration: 71237    Scaled infeas =             0.016978
-Elapsed time = 1549.92 sec. (516460.92 ticks, 71523 iterations)
-Iteration: 72408    Scaled infeas =             0.000099
-Iteration: 73567    Scaled infeas =             0.000099
-Iteration: 75379    Scaled infeas =             0.000099
-Iteration: 76975    Scaled infeas =             0.000099
-Iteration: 78279    Scaled infeas =             0.000099
-Iteration: 79301    Scaled infeas =             0.000003
-Iteration: 80134    Scaled infeas =             0.000004
-Elapsed time = 1573.58 sec. (526461.60 ticks, 80148 iterations)
-Iteration: 80453    Scaled infeas =             0.000003
-Iteration: 80454    Scaled infeas =             0.000003
-Iteration: 80455    Scaled infeas =             0.000003
-Iteration: 80456    Scaled infeas =             0.000004
-Iteration: 80457    Scaled infeas =             0.000004
-Iteration: 80459    Scaled infeas =             0.000004
-Iteration: 81196    Scaled infeas =             0.000003
-Iteration: 81198    Scaled infeas =             0.000003
-Iteration: 81199    Scaled infeas =             0.000003
-Iteration: 81201    Scaled infeas =             0.000003
-Iteration: 81203    Scaled infeas =             0.000003
-Iteration: 81204    Scaled infeas =             0.000003
-Iteration: 81205    Scaled infeas =             0.000003
-Iteration: 81208    Scaled infeas =             0.000003
-Iteration: 81209    Scaled infeas =             0.000003
-Iteration: 81210    Scaled infeas =             0.000003
-Elapsed time = 1586.13 sec. (536554.92 ticks, 81212 iterations)
-Iteration: 81212    Scaled infeas =             0.000003
-Iteration: 81213    Scaled infeas =             0.000003
-Iteration: 81215    Scaled infeas =             0.000003
-Iteration: 81217    Scaled infeas =             0.000003
-Iteration: 81219    Scaled infeas =             0.000003
-Iteration: 81221    Scaled infeas =             0.000003
-Iteration: 81452    Scaled infeas =             0.000003
-Iteration: 81519    Scaled infeas =             0.000000
-Iteration: 81558    Objective     =       1535163.355106
-Iteration: 82535    Objective     =       1535163.269301
-Iteration: 84035    Objective     =       1535163.262822
-Iteration: 85081    Objective     =       1535163.223963
-Elapsed time = 1602.53 sec. (546906.37 ticks, 86247 iterations)
-Iteration: 86247    Objective     =       1535163.219677
-Iteration: 87453    Objective     =       1535163.215348
-Iteration: 88663    Objective     =       1535163.210905
-Iteration: 89683    Objective     =       1535163.204244
-Iteration: 90764    Objective     =       1535163.198459
-Iteration: 91983    Objective     =       1535163.195069
-Iteration: 93476    Objective     =       1535163.191060
+Iteration: 39015    Objective     =       1529781.298587
+Iteration: 40135    Objective     =       1529781.296845
+Iteration: 41346    Objective     =       1529781.292771
+Iteration: 42597    Objective     =       1529781.290139
+Elapsed time = 441.95 sec. (470293.74 ticks, 42683 iterations)
+Iteration: 43948    Objective     =       1529781.285177
+Iteration: 45257    Objective     =       1529781.219114
+Iteration: 46860    Objective     =       1529781.191489
 Removing perturbation.
-Iteration: 93582   Dual objective     =       1535236.356748
-Elapsed time = 1620.77 sec. (556915.59 ticks, 93658 iterations)
-Total crossover time = 377.58 sec. (201654.55 ticks)
+Iteration: 46862   Dual objective     =       1529837.694775
+Elapsed time = 459.38 sec. (480295.23 ticks, 47130 iterations)
+Iteration: 47584    Objective     =       1529842.652691
+Total crossover time = 203.22 sec. (124794.57 ticks)
 
-Total time on 31 threads = 1627.20 sec. (561264.20 ticks)
+Total time on 31 threads = 469.03 sec. (487254.91 ticks)
 
 --- LP status (1): optimal.
---- Cplex Time: 1627.25sec (det. 561268.33 ticks)
+--- Cplex Time: 469.05sec (det. 487259.03 ticks)
 
 
 Optimal solution found
 Simplex iterations after crossover: 0
-Objective:      1535236.423751
+Objective:      1529842.652691
 
 --- Restarting execution
---- baseline-sami.RUN(295786) 549 Mb
+--- baseline-sami.RUN(296047) 549 Mb
 --- Reading solution for model TIMES
 ***
 *** Reading with solveopt=REPLACE (0)
 ***
---- baseline-sami.RUN(295786) 584 Mb--- baseline-sami.RUN(295786) 596 Mb--- baseline-sami.RUN(295786) 647 Mb--- baseline-sami.RUN(295786) 660 Mb--- baseline-sami.RUN(295786) 699 Mb
---- Executing after solve: elapsed 0:28:25.651
---- baseline-sami.RUN(295810) 700 Mb
+--- baseline-sami.RUN(296047) 549 Mb--- baseline-sami.RUN(296047) 564 Mb--- baseline-sami.RUN(296047) 623 Mb--- baseline-sami.RUN(296047) 636 Mb--- baseline-sami.RUN(296047) 700 Mb
+--- Executing after solve: elapsed 0:08:33.902
+--- baseline-sami.RUN(296047) 700 Mb--- baseline-sami.RUN(296071) 700 Mb
 --- TIMES Solve status: Optimal
---- baseline-sami.RUN(296300) 700 Mb--- baseline-sami.RUN(296313) 700 Mb--- baseline-sami.RUN(296319) 700 Mb--- baseline-sami.RUN(296344) 700 Mb--- baseline-sami.RUN(296373) 700 Mb--- baseline-sami.RUN(296409) 700 Mb--- baseline-sami.RUN(296545) 700 Mb--- baseline-sami.RUN(296730) 700 Mb--- baseline-sami.RUN(296869) 700 Mb--- baseline-sami.RUN(296915) 700 Mb--- baseline-sami.RUN(296917) 700 Mb--- baseline-sami.RUN(296993) 700 Mb--- baseline-sami.RUN(297108) 700 Mb--- baseline-sami.RUN(297214) 700 Mb--- baseline-sami.RUN(297268) 703 Mb--- baseline-sami.RUN(297292) 720 Mb--- baseline-sami.RUN(297292) 723 Mb--- baseline-sami.RUN(297356) 731 Mb--- baseline-sami.RUN(297358) 741 Mb--- baseline-sami.RUN(297386) 757 Mb--- baseline-sami.RUN(297386) 760 Mb--- baseline-sami.RUN(297386) 770 Mb--- baseline-sami.RUN(297386) 781 Mb--- baseline-sami.RUN(297617) 781 Mb
+--- baseline-sami.RUN(296558) 700 Mb--- baseline-sami.RUN(296565) 700 Mb--- baseline-sami.RUN(296574) 700 Mb--- baseline-sami.RUN(296580) 700 Mb--- baseline-sami.RUN(296605) 700 Mb--- baseline-sami.RUN(296634) 700 Mb--- baseline-sami.RUN(296684) 700 Mb--- baseline-sami.RUN(296806) 700 Mb--- baseline-sami.RUN(296813) 700 Mb--- baseline-sami.RUN(297010) 700 Mb--- baseline-sami.RUN(297086) 700 Mb--- baseline-sami.RUN(297142) 700 Mb--- baseline-sami.RUN(297164) 700 Mb--- baseline-sami.RUN(297178) 700 Mb--- baseline-sami.RUN(297185) 700 Mb--- baseline-sami.RUN(297417) 700 Mb--- baseline-sami.RUN(297456) 700 Mb--- baseline-sami.RUN(297477) 700 Mb--- baseline-sami.RUN(297493) 700 Mb--- baseline-sami.RUN(297540) 705 Mb--- baseline-sami.RUN(297547) 705 Mb--- baseline-sami.RUN(297553) 721 Mb--- baseline-sami.RUN(297573) 725 Mb--- baseline-sami.RUN(297626) 744 Mb--- baseline-sami.RUN(297647) 744 Mb--- baseline-sami.RUN(297647) 766 Mb--- baseline-sami.RUN(297647) 771 Mb--- baseline-sami.RUN(297647) 782 Mb--- baseline-sami.RUN(297878) 782 Mb
 --- Putfile END_GAMS D:\Padam\GAMS_WrkTIMES\END_GAMS
 --- Putfile QLOG D:\Padam\GAMS_WrkTIMES\QA_CHECK.LOG
 --- GDX File D:\Padam\GAMS_WrkTIMES\GAMSSAVE\baseline-sami.gdx
 --- Profile Summary (2618 records processed)
-  1641.080   0.549GB    295786 Solver     TIMES
-     6.031   0.894GB    279403 Equation   EQE_COMBAL (69996)
-     5.766   1.076GB    295786 Solve Fini TIMES (7092806)
-     5.547   1.017GB    286816 Equation   EQE_UCRTS (252725)
-     3.406   0.966GB    286294 Equation   EQE_UCTS (3047)
-     3.188   0.807GB    278818 Equation   EQG_COMBAL (24087)
-     3.094   0.950GB    282669 Equation   EQ_PEAK (1800)
-     2.766   0.781GB    297617 GAMS Fini   
-     2.703   0.772GB    278431 Equation   EQL_CAPACT (278040)
-     2.578   1.072GB    292606 Equation   EQE_ACTEFF (243655)
+   476.354   0.549GB    296047 Solver     TIMES
+     4.172   1.017GB    287077 Equation   EQE_UCRTS (250225)
+     3.344   0.893GB    279664 Equation   EQE_COMBAL (70021)
+     2.765   0.782GB    297878 GAMS Fini   
+     2.078   0.966GB    286555 Equation   EQE_UCTS (3172)
+     2.015   1.075GB    296047 Solve Fini TIMES (7093137)
+     1.828   1.071GB    292867 Equation   EQE_ACTEFF (243355)
+     1.734   0.807GB    279079 Equation   EQG_COMBAL (24087)
+     1.375   0.975GB    286033 Equation   EQE_UCRT (64265)
+     1.313   0.772GB    278692 Equation   EQL_CAPACT (278040)
 *** Status: Normal completion
---- Job baseline-sami.RUN Stop 11/16/26 21:23:21 elapsed 0:28:33.536
+--- Job baseline-sami.RUN Stop 11/17/26 02:13:58 elapsed 0:08:41.679
