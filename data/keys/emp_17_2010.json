@@ -1,0 +1,36 @@
+{
+ "name": "emp_17",
+ "year": "2010",
+ "path": "data/keys/emp_17_2010.csv",
+ "total": 20846,
+ "national": 20846,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin tyokay 115h",
+  "item": "Employed labour force in area (workplaces), TOL 17; municipalities -> regions (kunta_1_20260101#maakunta_1_20260101)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/tyokay/115h.px"
+ },
+ "shares": {
+  "FI1B1": 0.09589369663244747,
+  "FI1C1": 0.0055166458793053826,
+  "FI196": 0.07325146311042886,
+  "FI1C2": 0.03199654609997122,
+  "FI19B": 0.1900604432505037,
+  "FI1C6": 0.03362755444689629,
+  "FI1C7": 0.14237743451981194,
+  "FI1C5": 0.14285714285714285,
+  "FI1DA": 0.0,
+  "FI1DB": 0.036122037801016985,
+  "FI1DC": 0.015830375131919792,
+  "FI198": 0.09215197160126642,
+  "FI199": 0.0023505708529214238,
+  "FI19A": 0.046867504557229205,
+  "FI1D5": 9.594166746618056e-05,
+  "FI1D9": 0.03492276695768973,
+  "FI1D8": 0.0006236208385301737,
+  "FI1D7": 0.055454283795452364,
+  "FI200": 0.0
+ },
+ "fetched": "2026-11-17"
+}

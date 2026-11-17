@@ -1,0 +1,36 @@
+{
+ "name": "emp_24nonsteel",
+ "year": "2010",
+ "path": "data/keys/emp_24nonsteel_2010.csv",
+ "total": 7561,
+ "national": 7561,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin tyokay 115h",
+  "item": "Employed labour force in area (workplaces), basic metals 24 excl. the steel towns Raahe, Tornio, Imatra, Hameenlinna (TOL 24; excluded municipalities ['KU109', 'KU153', 'KU678', 'KU851'])",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/tyokay/115h.px"
+ },
+ "shares": {
+  "FI1B1": 0.1671736542785346,
+  "FI1C1": 0.06718688004232244,
+  "FI196": 0.24877661684962307,
+  "FI1C2": 0.023806374818145747,
+  "FI19B": 0.09998677423621215,
+  "FI1C6": 0.025128951196931624,
+  "FI1C7": 0.0243354053696601,
+  "FI1C5": 0.00039677291363576247,
+  "FI1DA": 0.00013225763787858748,
+  "FI1DB": 0.020367676233302472,
+  "FI1DC": 0.008729004099986774,
+  "FI198": 0.041132125380240706,
+  "FI199": 0.032270863642375344,
+  "FI19A": 0.08755455627562492,
+  "FI1D5": 0.12802539346647268,
+  "FI1D9": 0.0232773442666314,
+  "FI1D8": 0.0,
+  "FI1D7": 0.0015870916545430499,
+  "FI200": 0.00013225763787858748
+ },
+ "fetched": "2026-11-17"
+}

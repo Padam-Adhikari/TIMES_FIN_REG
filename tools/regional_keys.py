@@ -248,8 +248,17 @@ def key_employment(years=("2010", "2018")):
     Keys emp_<TOL>: complete (no suppression), used where value added is suppressed."""
     table = "tyokay/115h.px"
     area = "alue_23_20260101"
-    tols = ["C", "10", "11", "13", "16", "18", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
-            "31", "32", "33", "A", "01", "02", "08", "GTU"]
+    tols = ["C", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26",
+            "27", "28", "29", "30", "31", "32", "33", "A", "01", "02", "08", "GTU"]
+    # composites (model sectors): manufacturing outside the separately modelled branches, and basic metals
+    # without the steel towns (the steel works are modelled as IIS at their sites)
+    composites = {
+        "ioi": ([t for t in ("10", "11", "12", "13", "14", "15", "16", "18", "21", "22", "25", "26", "27", "28", "29",
+                             "30", "31", "32", "33")], set(),
+                "manufacturing excl. paper 17, refining 19, chemicals 20, minerals 23, basic metals 24"),
+        "24nonsteel": (["24"], {"KU678", "KU851", "KU153", "KU109"},
+                       "basic metals 24 excl. the steel towns Raahe, Tornio, Imatra, Hameenlinna"),
+    }
     kmap = municipality_regions()
     meta = json.load(urllib.request.urlopen(f"{PXWEB}/{table}", timeout=60))
     codes = next(v for v in meta["variables"] if v["code"] == area)["values"]
@@ -274,6 +283,23 @@ def key_employment(years=("2010", "2018")):
                      f"(kunta_1_20260101#maakunta_1_20260101)", url=f"{PXWEB}/{table}"),
                 tol=0.02, why="workplace municipality unknown or abroad: national total only"
                 + (f"; unmapped area codes {unknown}" if unknown else "")))
+        for cname, (parts, excl, desc) in composites.items():
+            vals = {r: 0 for r in REGIONS}
+            national = 0
+            for t in parts:
+                fixed = {"toimiala_108_20230101": t, "timeperiod_y": y, "sukupuoli_9_20180101": "SSS",
+                         "contentscode": "tyolliset3"}
+                for c in codes:
+                    if c in kmap and c not in excl:
+                        vals[kmap[c]] += get(**{area: c, **fixed}) or 0
+                national += sum((get(**{area: c, **fixed}) or 0) for c in codes if c in kmap and c not in excl)
+            name = f"emp_{cname}"
+            shares, total = check_and_share(vals, name)
+            out.append(write_key(name, y, vals, shares, total, national, dict(
+                org="Statistics Finland", table="StatFin tyokay 115h",
+                item=f"Employed labour force in area (workplaces), {desc} (TOL {'+'.join(parts)}"
+                     + (f"; excluded municipalities {sorted(excl)}" if excl else "") + ")",
+                url=f"{PXWEB}/{table}")))
     return out
 
 
