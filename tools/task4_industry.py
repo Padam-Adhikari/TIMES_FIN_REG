@@ -306,6 +306,7 @@ TOK = re.compile(r"'([^']*)'")
 def dd_info(dd_dir, run):
     files = re.findall(r"BATINCLUDE\s+(\S+\.dd)", open(os.path.join(dd_dir, run), encoding="latin-1").read())
     top = collections.defaultdict(set)
+    top_reg = collections.defaultdict(set)      # processes already moved (no hub topology any more)
     ctype, decl = {}, collections.defaultdict(set)
     links = set()
     for f in files:
@@ -316,13 +317,19 @@ def dd_info(dd_dir, run):
                 h = m.group(1)
                 continue
             t = TOK.findall(l)
-            if h == "TOP" and len(t) >= 3 and t[0] == "FI":
-                top[t[1]].add((t[2], l.strip().split(".")[-1]))
+            if h == "TOP" and len(t) >= 3:
+                if t[0] == "FI":
+                    top[t[1]].add((t[2], l.strip().split(".")[-1]))
+                else:
+                    top_reg[t[1]].add((t[2], l.strip().split(".")[-1]))
             elif h == "COM_TMAP" and len(t) >= 3:
                 ctype[t[2]] = t[1]
                 decl[t[2]].add(t[0])
             elif h == "TOP_IRE":
                 links |= {x for x in t if x.startswith("TB_")}
+    for p, cs in top_reg.items():
+        if p not in top:
+            top[p] = cs
     return top, ctype, decl, links
 
 
@@ -336,25 +343,40 @@ def existing_links():
     return out
 
 
-def plan_comms_links(plan, move, shares, mode_all, dd_dir, run, notes):
+def plan_comms_links(plan, move, shares, mode_all, dd_dir, run, notes, chain=None):
+    """chain: {process: regions} of whole sector chains (4b). Their commodities are declared in those
+    regions; only commodities that also have processes outside the chains get a link."""
     top, ctype, decl, dd_links = dd_info(dd_dir, run)
-    have = dd_links | existing_links()
-    use = collections.defaultdict(set)        # region -> commodities
-    for p, sh in shares.items():
+    # links defined on this tool's own sheet are regenerated with it (not 'already defined')
+    own = {v for (s_, c_), v in Book(LINKS).v.items() if s_ == LINK_SHEET and isinstance(v, str) and v.startswith("TB_")}
+    have = (dd_links - own) | existing_links()
+    use = collections.defaultdict(set)        # region -> commodities to link
+    dec = collections.defaultdict(set)        # region -> commodities to declare
+    chain = chain or {}
+    intra = intra_commodities(top, set(chain)) if chain else set()
+    if chain:
+        notes.append(f"commodities inside the moved chains (declared, not linked): {sorted(intra)}")
+    for p, sh in list(shares.items()) + [(p, {r: 1 for r in regs}) for p, regs in chain.items() if p not in shares]:
         if p == "BRF1_HVO":
             continue
         if p not in top:
             notes.append(f"{p}: no topology on FI in the DD files ({dd_dir}/{run})")
         for c, io in top.get(p, ()):
             if ctype.get(c) == "ENV":
+                if p in chain and not decl.get(c, set()) >= set(REG19):
+                    notes.append(f"ENV commodity {c} of {p} not declared in all regions (check)")
                 continue
             for reg in sh:
-                use[reg].add(c)
+                dec[reg].add(c)
+                if not (p in chain and c in intra):
+                    use[reg].add(c)
     for reg in HVO:
         for c, io in top.get("BRF1_HVO", ()):
             if ctype.get(c) != "ENV":
                 use[reg].add(c)
+                dec[reg].add(c)
     comms = sorted(set().union(*use.values()))
+    dcomms = sorted(set().union(*dec.values()))
     # declarations in SysSettings
     b = Book(SYS)
     sh = "Comms"
@@ -366,7 +388,7 @@ def plan_comms_links(plan, move, shares, mode_all, dd_dir, run, notes):
             if isinstance(n, str):
                 found.setdefault(n, []).append((t, r))
     regs_needed = set(REG19)
-    for c in comms:
+    for c in dcomms:
         if decl.get(c, set()) >= (regs_needed - {"FI200"}) and len(decl.get(c, ())) >= 19:
             continue
         hits = found.get(c, [])
@@ -433,8 +455,15 @@ def plan_prd_corrections(plan, dd_dir, run, new_links, notes):
     for need in ("UC_N", "Pset_PN", "Cset_CN", "Year", "UC_COMPRD"):
         if need not in hdr:
             sys.exit(f"{CALIB} {sh}: header {need} missing ({hdr})")
-    last = max(r for r in range(8, 400) if b.val(sh, f"B{r}") is not None)
+    last = max(r for r in range(8, 400) if b.val(sh, f"B{r}") not in (None, "") or b.f.get((sh, f"B{r}")))
     ire_col = hdr.get("UC_IRE-I") or col_let(max(col_idx(c) for c in hdr.values()) + 1)
+    # correction rows already written (Reg-only formulas: their single-mode values are empty)
+    have = set()
+    for row in range(8, last + 1):
+        fu, fp = b.f.get((sh, f"{hdr['UC_N']}{row}"), ""), b.f.get((sh, f"{hdr['Pset_PN']}{row}"), "")
+        mu, mp = re.search(r'"(RS_PRD_[^"]+)"\)$', fu), re.search(r'"TB_(.+)_\*"\)$', fp)
+        if mu and mp:
+            have.add((mu.group(1), mp.group(1)))
     if "UC_IRE-I" not in hdr:
         plan.edit(CALIB, sh, f"{ire_col}7", None, regonly(q("UC_IRE-I")), GREEN,
                   "new column: internal imports subtracted from national production (table read in Reg mode only)")
@@ -448,6 +477,8 @@ def plan_prd_corrections(plan, dd_dir, run, new_links, notes):
         if c in linked:
             comps.append((c, 1.0))
         for x, a in sorted(comps):
+            if (uc, x) in have:
+                continue
             for col, v in (("UC_N", q(uc)), ("Pset_PN", q(f"TB_{x}_*")), ("Cset_CN", q(x)), ("Year", repr(y))):
                 plan.edit(CALIB, sh, f"{hdr[col]}{r}", None, regonly(v), GREEN,
                           f"{uc}: subtract internal imports of {x} (FX component of {c}, COM_AGG {a:g})")
@@ -501,7 +532,7 @@ def plan_hub_decl(plan, notes):
     notes.append(f"hub declarations removed: {n} Region cells")
 
 
-def plan_generic(plan, notes):
+def plan_generic(plan, notes, extra=()):
     """Copied rows: VEDA lets the original table's generic (year/no-region) value beat the Reg_IND
     regional copy of the calibrated FI value (first 4a run: AOD, EAF, FeCr at their sites got the
     generic coefficients). In Reg mode the generic cell of every copied row with an FI value is blanked;
@@ -516,6 +547,7 @@ def plan_generic(plan, notes):
                 m = re.search(r'"",\"([A-Za-z0-9_]+)\"\)$', f or "")
                 if m:
                     copied.add(m.group(1))
+        copied |= set(extra)
         if not copied:
             continue
         regions = set(REG19) | {"FI"}
@@ -694,18 +726,285 @@ def insert_ucis_rows(apply_it):
     return True
 
 
+# =========================================================================== 4b (audit/task4b.md)
+IPP_KEY, ICH_KEY, ILM_KEY, IAM_KEY = "ind_ipp_2013-2020", "ind_ich_2013-2020", "ind_ilm_2013-2020", "ind_iam_2013-2020"
+SECTOR_RX = [(re.compile(r"^(IPP|INDIPPHTH00$)"), IPP_KEY), (re.compile(r"^ICH"), ICH_KEY),
+             (re.compile(r"^ILM"), ILM_KEY), (re.compile(r"^IAM"), IAM_KEY)]
+BLQ_CHP = {"CHPAUTOGENBLQ00": "power_CHPAUTOGENBLQ00"}       # black-liquor CHP: plant register (step 3)
+DEMAND_4B = {"IPL": IPP_KEY, "IPH": IPP_KEY, "ICH": ICH_KEY, "ILM": ILM_KEY, "IAM": IAM_KEY}
+NEWTECH_RX = [(re.compile(r"^(IPP|BBLQ)"), IPP_KEY), (re.compile(r"^ICH"), ICH_KEY),
+              (re.compile(r"^ILM"), ILM_KEY), (re.compile(r"^IAM"), IAM_KEY)]
+DEMAND_BOOK = M + "SuppXLS/Scen_ZUDemand_REF2016.xlsx"
+SUB10_T = M + "SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx"
+GROWTH = M + "SuppXLS/Scen_ZUGROWTH_Yearly.xlsx"
+COAL = M + "SuppXLS/Scen_UC_LimitCOAL.xlsx"
+UC_4B = [  # (book, sheet, UC_Sets cell): zero-RHS share constraints made national (R_S AllRegions)
+    (UCIND, "FI", "B3"), (UCIND, "UC-PUP", "B2"), (UCIND, "INDPRC", "C29"),
+    (COAL, "UC_IPPCOA", "C4"), (GROWTH, "GROWTH ACT", "B3"),
+]
+
+
+def move_4b():
+    """Existing 4b processes (declared in VT_FINTIMES_IND) -> key."""
+    move = {}
+    for t in read_tables(os.path.join(ROOT, IND), tags=("~FI_PROCESS",)):
+        for r in t["rows"]:
+            p = r["cells"].get("TechName", (0, None))[1]
+            if not isinstance(p, str):
+                continue
+            for rx, key in SECTOR_RX:
+                if rx.match(p):
+                    move[p] = key
+    move.update(BLQ_CHP)
+    return move
+
+
+def newtech_4b(top):
+    """New technologies of the 4b sectors (SubRES_10, FI only today) -> key."""
+    out = {}
+    for f in ("10_techs_chp_sup_ind.dd",):
+        for l in open(os.path.join(ROOT, "GAMS_WrkTIMES", f), encoding="latin-1"):
+            m = re.match(r"^'FI'\.'([A-Za-z0-9_\-]+)'\.'[A-Za-z0-9_\-]+'\.(IN|OUT)$", l.strip())
+            if m:
+                for rx, key in NEWTECH_RX:
+                    if rx.match(m.group(1)) and not m.group(1).endswith("00"):
+                        out[m.group(1)] = key
+    return out
+
+
+def plan_ucs_general(plan, items, notes):
+    """UC_Sets R_E (FI or AllRegions with an FI coefficient column) -> R_S AllRegions in Reg mode."""
+    for book, sheet, cell in items:
+        b = Book(book)
+        v, f = b.val(sheet, cell), b.f.get((sheet, cell), "")
+        if f and SEL in f:
+            continue
+        vv = (v or "").replace(" ", "").upper()
+        if vv not in ("~UC_SETS:R_E:FI", "~UC_SETS:R_E:ALLREGIONS"):
+            sys.exit(f"{book} {sheet}!{cell} = {v!r}")
+        plan.edit(book, sheet, cell, v, sw(q(v), q("~UC_Sets: R_S: AllRegions")), BLUE,
+                  "national constraint (sum over FI and the regions): same meaning as the single-region model")
+        for t in read_tables(os.path.join(ROOT, book), sheets=[sheet], tags=("~UC_T",)):
+            for h, c in t["cols"].items():
+                hc = f"{col_let(c)}{t['header_row']}"
+                if b.f.get((sheet, hc), "").startswith("=IF("):
+                    continue
+                if h.startswith("UC_RHSR"):
+                    plan.edit(book, sheet, hc, h, sw(q(h), q(h.replace("UC_RHSR", "UC_RHS", 1))), BLUE,
+                              "national constraint: RHS without region")
+                elif h == "FI":
+                    plan.edit(book, sheet, hc, h, sw(q(h), q("AllRegions")), BLUE,
+                              "coefficients written for FI apply in every region of the sum")
+    notes.append(f"constraints made national: {', '.join(f'{os.path.basename(b)}:{s}' for b, s, _ in items)}")
+
+
+def plan_fill(plan, book, sh, col0, hr, rows, totals, shares, notes):
+    """A ~TFM_FILL stock table reads every region (20 columns from col0), Reg-only sum column after them,
+    shares from the sum in Reg mode (4a lesson: FI-only fills give zero shares once stocks move)."""
+    b = Book(book)
+    c0 = col_idx(col0)
+    regcols = [col_let(c0 + i) for i in range(20)]
+    sumc = col_let(c0 + 20)
+    if b.val(sh, f"{col0}{hr}") != "FI" or b.f.get((sh, f"{col0}{hr}")):
+        sys.exit(f"{book} {sh}!{col0}{hr}: expected the plain header 'FI'")
+    for c, s in zip(regcols, SELCOLS):
+        plan.edit(book, sh, f"{c}{hr}", "FI" if c == col0 else None, f"=Region_selection!{s}8", BLUE,
+                  "fill header: one column per modelled region")
+    for r in rows:
+        plan.edit(book, sh, f"{sumc}{r}", None, regonly(f"SUM({regcols[0]}{r}:{regcols[-1]}{r})"), GREEN,
+                  "national stock = sum of the regional fills (Reg mode)")
+    for tr, rr in totals.items():
+        plan.edit(book, sh, f"{sumc}{tr}", None, regonly(f"SUM({sumc}{rr[0]}:{sumc}{rr[-1]})"), GREEN, "national total")
+    refs = set(rows) | set(totals)
+    rx = re.compile(r"\b" + col0 + r"(\$?)(\d+)\b")
+    for cell in shares:
+        f = b.f.get((sh, cell))
+        if not f or SEL in f:
+            sys.exit(f"{book} {sh}!{cell}: expected an unswitched share formula, found {f!r}")
+        reg = rx.sub(lambda m: f"{sumc}{m.group(1)}{m.group(2)}" if int(m.group(2)) in refs else m.group(0), f[1:])
+        plan.edit(book, sh, cell, b.val(sh, cell), sw(f[1:], reg), BLUE, f"share from the national stock: {reg}")
+    notes.append(f"fill {os.path.basename(book)}:{sh} reads all regions ({len(rows)} rows, {len(shares)} shares)")
+
+
+def plan_ire_rows(plan, book, sh, hdr_row, pn_col, ire_col, rows, notes):
+    """Reg-only UC_IRE-I correction rows: an internal import of a linked commodity is not production.
+    rows: [(row, {col: expr})]; the header gets 'Pset_PN' and 'UC_IRE-I' columns (Reg-only)."""
+    b = Book(book)
+    for c, h in ((pn_col, "Pset_PN"), (ire_col, "UC_IRE-I")):
+        if b.val(sh, f"{c}{hdr_row}") is not None:
+            sys.exit(f"{book} {sh}!{c}{hdr_row} is not empty")
+        plan.edit(book, sh, f"{c}{hdr_row}", None, regonly(q(h)), GREEN, "correction columns (Reg mode)")
+    for r, cells in rows:
+        for c, expr in cells.items():
+            if b.val(sh, f"{c}{r}") is not None:
+                sys.exit(f"{book} {sh}!{c}{r} is not empty")
+            plan.edit(book, sh, f"{c}{r}", None, regonly(expr), GREEN, "UC_IRE-I correction on internal links")
+    notes.append(f"{os.path.basename(book)}:{sh}: {len(rows)} UC_IRE-I correction rows")
+
+
+def plan_demand_4b(plan, notes):
+    """COM_PROJ of the 4b products split by the sector key (Split rule): FI rows commented out in Reg mode
+    ('*' in the first column), a Reg-only table gives FI 0 and each region FI x share."""
+    T = read_tables(os.path.join(ROOT, DEMAND_BOOK), tags=("~TFM_DINS",))
+    keys = {k: load_key(k) for k in set(DEMAND_4B.values())}
+    b = Book(DEMAND_BOOK)
+    out, years = [], collections.defaultdict(set)
+    for t in T:
+        first = min(t["cols"].items(), key=lambda kv: kv[1])
+        for r in t["rows"]:
+            c = r["cells"]
+            cn = c.get("Cset_CN", (0, None))[1]
+            if cn not in DEMAND_4B or str(c.get("Attribute", (0, ""))[1]).upper() != "COM_PROJ" or "FI" not in c:
+                continue
+            fcell = f"{col_let(first[1])}{r['row']}"
+            done = b.f.get((t["sheet"], fcell), "") == regonly(q(f"*{cn} COM_PROJ split: Reg_Demand"))
+            if not done and (b.val(t["sheet"], fcell) not in (None, "") or b.f.get((t["sheet"], fcell))):
+                sys.exit(f"{DEMAND_BOOK} {t['sheet']}!{fcell}: first column not empty")
+            plan.edit(DEMAND_BOOK, t["sheet"], fcell, None, regonly(q(f"*{cn} COM_PROJ split: Reg_Demand")), BLUE,
+                      f"{cn}: FI row commented out in Reg mode (split by {DEMAND_4B[cn]})")
+            y = c["Year"][1]
+            years[cn].add(y)
+            out.append((cn, y, sheet_ref(t["sheet"], c["FI"][0])))
+    for cn in DEMAND_4B:
+        if 2010 not in years[cn]:
+            sys.exit(f"{cn}: no 2010 projection row (the hub's base-year value would not be overridden)")
+    cells = [("A1", f"{MARK}: COM_PROJ of pulp/paper, chemicals, lime and fertiliser split by the sector key "
+                    "(data/keys/ind_*.csv); FI 0. Read only in Reg mode.", None),
+             ("A3", regonly(q("~TFM_DINS")), GREEN)]
+    hdr = ["Attribute", "Year", "Cset_CN", "FI"] + REG19
+    for i, h in enumerate(hdr):
+        cells.append((f"{col_let(1 + i)}4", regonly(q(h)), GREEN))
+    for k, (cn, y, ref) in enumerate(out):
+        r = 5 + k
+        cells += [(f"A{r}", regonly(q("COM_PROJ")), GREEN), (f"B{r}", regonly(repr(int(y))), GREEN),
+                  (f"C{r}", regonly(q(cn)), GREEN), (f"D{r}", regonly("0"), ORANGE)]
+        for j, reg in enumerate(REG19):
+            s = keys[DEMAND_4B[cn]].get(reg)
+            if s:
+                cells.append((f"{col_let(5 + j)}{r}", regonly(f"{ref}*{s!r}"), ORANGE))
+        cells.append((f"{col_let(6 + len(REG19))}{r}", f"source {ref}", None))
+    plan.sheets[DEMAND_BOOK]["Reg_Demand"] = cells
+    notes.append(f"demand split: {len(out)} rows ({', '.join(f'{c} {len(years[c])} years' for c in DEMAND_4B)})")
+
+
+def plan_ava_4b(plan, newtech, notes):
+    """New technologies of the 4b sectors available in their key regions, not on the hub (Reg mode):
+    rows appended to the SubRES_10 ~TFM_AVA table (later rows win, as the pilot's MISRIR row)."""
+    b = Book(SUB10_T)
+    sh = "TechSelection AVA"
+    if b.f.get((sh, "G7")) != "=Region_selection!Z8" or b.val(sh, "F7") != "FI":
+        sys.exit(f"{SUB10_T} {sh}: unexpected header")
+    others = [r for r in REG19 if r != "FI1D9"]          # G7 is FI1D9 in Reg mode
+    cols = {r: col_let(col_idx("H") + i) for i, r in enumerate(others)}
+    cols["FI1D9"] = "G"
+    for r, c in cols.items():
+        if r == "FI1D9":
+            continue
+        cur = b.val(sh, f"{c}7")
+        if cur is not None:
+            sys.exit(f"{SUB10_T} {sh}!{c}7 not empty")
+        plan.edit(SUB10_T, sh, f"{c}7", None, regonly(q(r)), GREEN, "region column (Reg mode)")
+    # a note in I17 would fall under a region column in Reg mode: kept as text in single mode only
+    note = b.val(sh, "I17")
+    if note:
+        plan.edit(SUB10_T, sh, "I17", note, sw(q(note), '""'), BLUE, "note hidden in Reg mode (cell is a region column there)")
+    last = max(r for r in range(8, 400) if any(b.val(sh, f"{c}{r}") is not None for c in "BCDEFG"))
+    keys = {k: load_key(k) for k in set(newtech.values())}
+    r = last + 1
+    for p in sorted(newtech):
+        plan.edit(SUB10_T, sh, f"C{r}", None, regonly(q(p)), GREEN, f"{p}: available in its sector's regions")
+        plan.edit(SUB10_T, sh, f"F{r}", None, regonly("0"), GREEN, f"{p}: not on the hub (sector moved)")
+        for reg in keys[newtech[p]]:
+            plan.edit(SUB10_T, sh, f"{cols[reg]}{r}", None, regonly("1"), GREEN, f"{p}: {reg}")
+        r += 1
+    notes.append(f"new technologies available in their regions: {len(newtech)} (rows {last + 1}-{r - 1})")
+
+
+def intra_commodities(top, chain):
+    """Commodities touched only by processes of the moved chains (sector heat made in the sector, pulp,
+    process heat, demand products): stay inside a region, no link."""
+    touch = collections.defaultdict(set)
+    for p, cs in top.items():
+        for c, io in cs:
+            touch[c].add(p)
+    return {c for c, ps in touch.items() if ps and ps <= chain}
+
+
+def run_4b(a):
+    """Task 4b (audit/task4b.md): pulp and paper, lime, chemicals, fertiliser with their whole chains."""
+    plan, notes = Plan(), []
+    move4b = move_4b()
+    move = dict(MOVE_4A)
+    move.update(move4b)
+    shares = shares_of(move)
+    top, ctype, decl, dd_links = dd_info(a.dd, a.run)
+    newtech = newtech_4b(top)
+    keyshare = {k: load_key(k) for k in set(newtech.values())}
+    chain = {p: sorted(shares[p]) for p in move4b}
+    chain.update({p: sorted(keyshare[k]) for p, k in newtech.items()})
+    mode = {}
+    mode.update(plan_book(plan, IND, move, shares, notes))
+    mode.update(plan_book(plan, SUP, move, shares, notes))
+    plan_generic(plan, notes, extra=[p for p in move4b if mode.get(p) == "copy"])
+    plan_demand_4b(plan, notes)
+    plan_ava_4b(plan, newtech, notes)
+    plan_ucs_general(plan, UC_4B, notes)
+    plan_fill(plan, UCIND, "FILL-PUP", "G", 4, [5, 6, 7], {8: [5, 6, 7]}, ["G16", "G17", "G18"], notes)
+    plan_fill(plan, UCIND, "INDPRC", "K", 5, list(range(6, 26)), {},
+              [f"K{r}" for r in (33, 34, 35, 38, 39, 40, 43, 44, 45, 48, 49, 50)], notes)
+    # corrections: linked sector heat counted as production in national sums (an import is not production)
+    plan_ire_rows(plan, UCIND, "INDPRC", 32, "N", "O", [
+        (53, {"B": "2011", "C": "C38", "H": q("ICHHTH"), "N": q("TB_ICHHTH_*"), "O": 'IFERROR(-K38,"")'}),
+        (54, {"B": "2011", "C": "C48", "H": q("IPPHTH"), "N": q("TB_IPPHTH_*"), "O": 'IFERROR(-K48,"")'})], notes)
+    plan_ire_rows(plan, UCIND, "CHPShares", 4, "K", "L", [
+        (13, {"A": "A12", "D": q("IPPHTH"), "E": "E12", "K": q("TB_IPPHTH_*"), "L": "-G12"}),
+        (14, {"A": "A6", "D": q("ICHHTH"), "E": "E6", "K": q("TB_ICHHTH_*"), "L": "-G6"})], notes)
+    plan_ire_rows(plan, COAL, "UC_IPPCOA", 7, "N", "O", [
+        (9, {"B": "2010", "C": q("TUC_UP_IPP_COA"), "H": q("IPPHTH"), "N": q("TB_IPPHTH_*"), "O": "-K8"})], notes)
+    plan_comms_links(plan, move, shares, mode, a.dd, a.run, notes, chain=chain)
+    new_links = {v for (cell, v, colour) in plan.sheets[LINKS][LINK_SHEET] if isinstance(v, str) and v.startswith("TB_")}
+    plan_prd_corrections(plan, a.dd, a.run, new_links, notes)
+    out = os.path.join(ROOT, "audit", "task4b_dryrun.txt")
+    L = ["modes (4b): " + ", ".join(f"{p}={mode.get(p)}" for p in sorted(move4b)), "",
+         "new technologies: " + ", ".join(f"{p}->{k}" for p, k in sorted(newtech.items())), ""]
+    L += ["NOTE " + n for n in notes] + [""]
+    for book in plan.books():
+        L.append(f"--- {book}")
+        for sheet, cell, old, new, colour, why in plan.edits.get(book, []):
+            L.append(f"  ~ '{sheet}'!{cell} [{colour}]: {old!r}" + chr(10) + f"      -> {new}" + chr(10) + f"      ({why})")
+        for sname, cells in plan.sheets.get(book, {}).items():
+            L.append(f"  + sheet '{sname}' ({len(cells)} cells)")
+            for cell, v, colour in cells:
+                L.append(f"      {cell} [{colour}] {v}")
+    open(out, "w", encoding="utf-8").write(chr(10).join(L) + chr(10))
+    n_e = sum(len(v) for v in plan.edits.values())
+    n_s = sum(len(c) for d in plan.sheets.values() for c in d.values())
+    print(f"dry run 4b: {n_e} cell edits in {len(plan.edits)} workbooks, {n_s} cells on regenerated/new sheets -> {out}")
+    for n in notes:
+        print("NOTE", n[:400])
+    if a.apply:
+        import task3_power
+        task3_power.MARK = MARK      # sheets made by this tool (4a) may be regenerated
+        res = apply(plan)
+        print(res)
+        sys.exit(0 if all(v == "ok" for v in res.values()) else 1)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
     if a.step == "insert":
         insert_ucis_rows(a.apply)
+        return
+    if a.step == "4b":
+        run_4b(a)
         return
     if a.step == "fix":
         plan, notes = Plan(), []
