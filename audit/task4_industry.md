@@ -174,3 +174,17 @@ address, content identical); no formula lost or changed outside the plan in the 
 Not yet in the workbooks (no effect in the local tests, kept for step 7): `UC_DecrCCSIND` as a
 national sum (tested: objective unchanged); `UC_IRE-I` corrections for `UCI_UP_CHPShare-*` and
 `TUC_MinShareofCenELCinINDELC` (not binding). Growth constraints `UC_Growth_*` are R_S with FI only.
+
+### Second 4a server run (2026-11-17): PASSES
+
+`runs/reg_baseline-sami_2026-11-17_task4a_run2.gdx`: optimal, objective 1,529,842.65 = **-0.005 %**
+vs the single run (before 4a -0.024 %). `check_run` PASS (no dummy imports; COM_PROJ, NCAP_PASTI,
+PRC_RESID conserved); `audit_run` hard checks pass, no activity without capacity (K), no surplus
+penalties (CST_COMX 0 differences), coal phase-out holds. Cost components within +-250 MEUR.
+Corrections verified in VEDA's DD: no hub copies of moved plants; route shares at the single values
+(BOF -0.625, EAF -0.057, scrap -0.345, copper -0.99 at FI196) with 124 UC_IRE-I terms; COM_AGG and
+RS_PRD terms at the sites; calibrated site coefficients (EAF scrap 1.23, FeCr GASBFG 55.49); 9
+refinery lower shares at FI1B1; NETSCO2 at FI196 in the ESR target. Steel and refinery activity follow
+the single run to 2050 (H2-DRI 0.01, BF-CCS at Raahe 2.16/2.14; small 2020 shift AOD/FeCr -> EAF).
+The local DD emulation had overstated the remaining gap (+0.43 %); VEDA's own DD is authoritative.
+Regional scan: no new findings (`audit/regional_scan_task4a.md`).
