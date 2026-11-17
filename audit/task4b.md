@@ -1,6 +1,6 @@
 # Task 4b: pulp and paper, lime, chemicals, fertiliser to their regions — audit and design
 
-Status: applied 2026-11-17 (`--step 4b`), fixes `--step 4bfix` (0d2894e) and `--step 4bfix2`; server rerun pending.
+Status: PASSED 2026-11-17 (third server run, -0.011 %, section 8).
 Builds on 4a (passed 2026-11-17, -0.005 %) and its lessons (`audit/task4_industry.md` section 9).
 
 ## 1. What moves
@@ -112,3 +112,16 @@ Fix (`--step 4bfix2`, dry run `audit/task4b_fix2_dryrun.txt`, applied): Reg-only
 13-14). Tested first in the server DD files (30 UC_IRE lines on 15 links): optimal, 1,529,746.15 vs
 single 1,529,919.88 (-0.011 %); check_run PASS (no dummy imports; COM_PROJ, NCAP_PASTI, PRC_RESID
 conserved); audit_run hard checks pass, K none. `regmode_check`: 0 new error cells.
+
+## 8. Third 4b server run (2026-11-17): PASS
+
+`runs/reg_baseline-sami_2026-11-17_task4b_run3.gdx`: optimal in 14 min, 1,529,745.36 vs single
+1,529,919.88 (-174.5, -0.011 %; the local test of the patched DD gave 1,529,746.15).
+- `checks/task4b.md`: PASS (no dummy imports; COM_PROJ, NCAP_PASTI, PRC_RESID conserved).
+- `audit/run_task4b.md`: hard checks pass; K (activity without capacity) none.
+- Parameters of the 46 moved processes, single FI vs every region holding them (full gdxdump): identical
+  apart from split stocks and results; only the zero gas input of `IPPLOWQUA00` (Eps in single) is not
+  carried to the regions (no effect).
+- National activity of the moved processes summed over years: 2,184.2 vs 2,183.4; >0.1 % only
+  `ICHSTMHTH00` +2.7 %, `IPPHIGQUA00` +3.1 % (0.49 -> 0.50), `IPPPRCBIO00` +0.12 %, `IAMADVPRO00`
+  0.01 -> 0.00. Objective -0.011 %: regional dispatch of the same plants against fixed regional demand.
