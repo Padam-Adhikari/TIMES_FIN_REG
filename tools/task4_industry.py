@@ -920,6 +920,73 @@ def plan_ava_4b(plan, newtech, notes):
     notes.append(f"new technologies available in their regions: {len(newtech)} (rows {last + 1}-{r - 1})")
 
 
+REF_RX = re.compile(r"(?<![A-Za-z0-9_.$'\"])(?:('[^']+'|[A-Za-z0-9_]+)!)?(\$?)([A-Z]{1,3})(\$?)(\d+)(?![\d(A-Za-z_])")
+
+
+def blanked_generic(book):
+    """Generic cells blanked in Reg mode by plan_generic (4a fix and 4b dry runs)."""
+    out = set()
+    for f in ("task4a_fix_dryrun.txt", "task4b_dryrun.txt"):
+        p = os.path.join(ROOT, "audit", f)
+        if not os.path.exists(p):
+            continue
+        txt = open(p, encoding="utf-8").read()
+        sec = txt.split(f"--- {book}")
+        for part in sec[1:]:
+            part = part.split("\n--- ")[0]
+            for m in re.finditer(r"~ '([^']+)'!([A-Z]+\d+) \[[^\]]*\]: [^\n]*\n      -> [^\n]*\n      \([^\n]*generic", part):
+                out.add((m.group(1), m.group(2)))
+    return out
+
+
+def plan_generic_deps(plan, notes):
+    """Formulas that read a generic cell blanked in Reg mode (e.g. the IPP calibration column H and the
+    stock formulas built on it) get the original value from a Reg-only helper cell: the reference X becomes
+    IF(single, X, helper). Without this, pulp's stocks and coefficients were errors in Reg mode (4b run 1)."""
+    b = Book(IND)
+    blank = blanked_generic(IND)
+    sheets = {s for s, _ in blank}
+    maxcol = collections.defaultdict(int)
+    for (s, c) in list(b.v) + list(b.f):
+        if s in sheets:
+            maxcol[s] = max(maxcol[s], col_idx(re.match(r"[A-Z]+", c).group(0)))
+    helper = {}
+    for s, c in sorted(blank):
+        hc = col_let(maxcol[s] + 3)
+        helper[(s, c)] = f"{hc}{re.search(r'\d+', c).group(0)}"
+    def orig(s, c):
+        f = b.f.get((s, c), "")
+        m = re.match(r"^=IF\(" + re.escape(SEL) + r",(.*),\"\"\)$", f)
+        if not m:
+            sys.exit(f"{IND} {s}!{c}: not a blanked generic cell ({f!r})")
+        return m.group(1)
+    def rewrite(sheet, expr):
+        def rep(m):
+            qs, d1, col, d2, row = m.groups()
+            s = qs.strip("'") if qs else sheet
+            key = (s, f"{col}{row}")
+            if key not in helper:
+                return m.group(0)
+            href = helper[key] if s == sheet else f"{sheet_ref(s, helper[key])}"
+            return f"IF({SEL},{m.group(0)},{href})"
+        return REF_RX.sub(rep, expr)
+    n_dep = 0
+    for (s, c), f in sorted(b.f.items()):
+        if (s, c) in blank or not f.startswith("=") or SEL in f and f.startswith("=IF(" + SEL + ",\"\""):
+            continue
+        new = "=" + rewrite(s, f[1:])
+        if new != f:
+            plan.edit(IND, s, c, b.val(s, c), new, BLUE,
+                      "reads a generic cell that is blank in Reg mode: original value from its helper cell")
+            n_dep += 1
+    for (s, c), hc in sorted(helper.items()):
+        if b.val(s, hc) is not None or b.f.get((s, hc)):
+            sys.exit(f"{IND} {s}!{hc}: helper cell not free")
+        plan.edit(IND, s, hc, None, regonly(rewrite(s, orig(s, c))), BLUE,
+                  f"helper: original value of the generic cell {c} (blank in Reg mode) for the formulas that use it")
+    notes.append(f"generic cells blanked in Reg mode: {len(blank)}; dependent formulas rerouted: {n_dep}; helper cells: {len(helper)}")
+
+
 def intra_commodities(top, chain):
     """Commodities touched only by processes of the moved chains (sector heat made in the sector, pulp,
     process heat, demand products): stay inside a region, no link."""
@@ -996,7 +1063,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1005,6 +1072,23 @@ def main():
         return
     if a.step == "4b":
         run_4b(a)
+        return
+    if a.step == "4bfix":
+        plan, notes = Plan(), []
+        plan_generic_deps(plan, notes)
+        out = os.path.join(ROOT, "audit", "task4b_fix_dryrun.txt")
+        L = ["NOTE " + n for n in notes] + [""]
+        for book in plan.books():
+            L.append(f"--- {book}")
+            for sheet, cell, old, new, colour, why in plan.edits.get(book, []):
+                L.append(f"  ~ '{sheet}'!{cell} [{colour}]: {old!r}" + chr(10) + f"      -> {new}" + chr(10) + f"      ({why})")
+        open(out, "w", encoding="utf-8").write(chr(10).join(L) + chr(10))
+        print(f"dry run: {sum(len(v) for v in plan.edits.values())} cell edits -> {out}")
+        print(chr(10).join(notes))
+        if a.apply:
+            res = apply(plan)
+            print(res)
+            sys.exit(0 if all(v == "ok" for v in res.values()) else 1)
         return
     if a.step == "fix":
         plan, notes = Plan(), []

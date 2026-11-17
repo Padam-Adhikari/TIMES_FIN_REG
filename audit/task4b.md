@@ -71,3 +71,21 @@ were restored from git and the whole step was applied again in one pass.
 Checks: single-mode raw tables of the whole model identical to the last commit (xl2times); no formula
 lost or changed outside the plan in the 9 workbooks; all 4a formulas and links present on the
 regenerated sheets.
+
+## 6. First 4b server run (2026-11-17): pulp and paper stock lost -> fixed
+
+`runs/reg_baseline-sami_2026-11-17_task4b.gdx`: optimal but 1,349,705.25 (-11.8 %); `check_run` FAIL:
+NCAP_PASTI / PRC_RESID of all pulp and paper processes 0 (demand conserved; chemicals, lime, fertiliser
+fine). Cause: `plan_generic` blanks generic `2010` cells in Reg mode, but on the `IPP` sheet the
+calibrated FI column (H) and the stock formulas are built on those generic cells
+(`H114 = H$49*((H77*IF(H74<>"",H74,$G74))+...)`): in Reg mode they became errors, so every `Reg_IND`
+copy of pulp's stocks and coefficients was an error and VEDA dropped it.
+
+Fix (`--step 4bfix`, dry run `audit/task4b_fix_dryrun.txt`, applied): each blanked generic cell gets a
+Reg-only helper cell (free column, original expression); the 38 formulas that read a blanked cell now
+read `IF(single, cell, helper)`. Single-mode raw tables unchanged.
+
+New pre-run check `tools/regmode_check.py`: copies the workbooks, switches them to Reg mode in Excel,
+recalculates and lists cells that are errors only in Reg mode. On the committed 4b workbook it finds
+452 such cells (359 on `Reg_IND`, e.g. the pulp stock row); after the fix 0, in all 10 changed
+workbooks.
