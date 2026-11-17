@@ -1,6 +1,6 @@
 # Task 4c: cement to its sites — audit and design
 
-Status: applied 2026-11-17 (`tools/task4_industry.py --step 4c`, dry run `audit/task4c_dryrun.txt`); server run pending.
+Status: PASSED 2026-11-17 (server run, -0.011 %, section 6).
 Builds on 4a/4b and their lessons (`audit/task4_industry.md` section 9, `audit/task4b.md` sections 6-7).
 
 ## 1. The cement chain in the model (Baseline-Sami)
@@ -80,3 +80,21 @@ Checks: `tools/regmode_check.py` on the 5 workbooks: 0 Reg-only error cells (`VT
 error cells in single mode, unchanged from before 4c); single-mode raw tables of the whole model identical
 to the last commit (xl2times `--only_read`).
 After the sync: `python tools/uc_ire_scan.py` on the new DD files must report nothing.
+
+## 6. Server run (2026-11-17): PASS
+
+`runs/reg_baseline-sami_2026-11-17_task4c.gdx`: optimal, 1,529,746.95 vs single 1,529,919.88 (-172.9,
+-0.011 %; 4b: 1,529,745.36).
+- `tools/uc_ire_scan.py` on the run's DD: no national term on a linked commodity without correction, no
+  stray correction (the ICL/ICU/IIS CHP-share corrections are in place).
+- `checks/task4c.md`: PASS (no dummy imports; COM_PROJ, NCAP_PASTI, PRC_RESID conserved);
+  `audit/run_task4c.md`: hard checks pass, K none.
+- Parameters of all cement processes, single FI vs their regions: identical except the CCS share
+  representation: the input gives captured >= 0.9 and released >= 0.1 in a two-member group (sum 1), and
+  TIMES keeps one of them as FX (single: captured 0.9, regional: released 0.1) - same constraint.
+- Activity (sum over years): every cement process within 0.03 % of the single run, all at Parainen
+  (FI1C1), `ICMFI_ICM` on the hub; Lappeenranta and the generic plants unused in both runs.
+- Solve time: barrier 280 s (4b: 306 s), crossover 2,358 s (4b: 438 s); the clean-up started with
+  primal infeasibility repair ("Scaled infeas"). Not caused by duplicate generic cement plants (unused).
+  If it recurs, `solutiontype 2` (barrier without crossover) gives the same objective within ~1 M EUR
+  (local tests).
