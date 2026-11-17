@@ -452,6 +452,10 @@ def plan_prd_corrections(plan, dd_dir, run, new_links, notes):
     b = Book(CALIB)
     sh = "RegSum"
     hdr = {b.val(sh, f"{col_let(c)}7"): col_let(c) for c in range(2, 30) if b.val(sh, f"{col_let(c)}7")}
+    for c in range(2, 30):   # Reg-only headers written by this tool (cached value empty in single mode)
+        m = re.fullmatch(re.escape(regonly('"X"')).replace('X', '([^"]+)'), b.f.get((sh, f"{col_let(c)}7"), "") or "")
+        if m:
+            hdr.setdefault(m.group(1), col_let(c))
     for need in ("UC_N", "Pset_PN", "Cset_CN", "Year", "UC_COMPRD"):
         if need not in hdr:
             sys.exit(f"{CALIB} {sh}: header {need} missing ({hdr})")
@@ -764,7 +768,7 @@ def newtech_4b(top):
     out = {}
     for f in ("10_techs_chp_sup_ind.dd",):
         for l in open(os.path.join(ROOT, "GAMS_WrkTIMES", f), encoding="latin-1"):
-            m = re.match(r"^'FI'\.'([A-Za-z0-9_\-]+)'\.'[A-Za-z0-9_\-]+'\.(IN|OUT)$", l.strip())
+            m = re.match(r"^'FI[0-9A-Z]*'\.'([A-Za-z0-9_\-]+)'\.'[A-Za-z0-9_\-]+'\.(IN|OUT)$", l.strip())
             if m:
                 for rx, key in NEWTECH_RX:
                     if rx.match(m.group(1)) and not m.group(1).endswith("00"):
@@ -1078,13 +1082,230 @@ def run_4b(a):
         sys.exit(0 if all(v == "ok" for v in res.values()) else 1)
 
 
+# =========================================================================== 4c (audit/task4c.md)
+ICM_KEY = "ind_icm_2013-2020"
+ICM_SITE = {"PARA": "FI1C1", "LAPP": "FI1C5"}          # Finnsementti Parainen, Lappeenranta
+MOVE_4C = {f"ICMFI_{s}_E_{x}": r for s, r in ICM_SITE.items() for x in ("DRY", "FIN", "FUR_CON")}
+ICM_SHEET = "B-Y ICM Nordics"
+ICM_ENV = ["ICMFICO2N", "ICMFICO2P", "ICMFISCO2", "ICMFISCO2N", "ICMFISCO2P",
+           "ICMPARACO2", "ICMPARACO2N", "ICMPARACO2P", "ICMLAPPCO2", "ICMLAPPCO2N", "ICMLAPPCO2P",
+           "ICMGENCO2", "ICMGENCO2N", "ICMGENCO2P"]
+ENV_LINKS = ["ICMFISCO2"]           # captured cement CO2 -> CO2 store STORAGE_INDS on the hub
+
+
+def newtech_4c(top):
+    """New cement technologies (SubRES_10): site ones to their plant, generic plants and the two emission
+    aggregators to the key regions. ICMFI_ICM (cement mix to the national demand) stays on the hub."""
+    out = {}
+    for l in open(os.path.join(ROOT, "GAMS_WrkTIMES", "10_techs_chp_sup_ind.dd"), encoding="latin-1"):
+        m = re.match(r"^'FI[0-9A-Z]*'\.'(ICMFI_[A-Za-z0-9_\-]+)'\.'[A-Za-z0-9_\-]+'\.(IN|OUT)$", l.strip())
+        if not m:
+            continue
+        p = m.group(1)
+        if "_E_" in p or p == "ICMFI_ICM":
+            continue
+        out[p] = next((r for s, r in ICM_SITE.items() if p.startswith(f"ICMFI_{s}_")), ICM_KEY)
+    return out
+
+
+def regs_of(target):
+    return sorted([target] if target in REG19 else load_key(target))
+
+
+def plan_tagregion_copies(plan, notes):
+    """The site tables on 'B-Y ICM Nordics' carry the region in the tag (~FI_T:FI) and mix Parainen and
+    Lappeenranta rows: disabled in Reg mode and copied per site to a Reg-only sheet (~FI_T:<site>), every
+    cell a formula on the original (values and formulas of the source stay the only data)."""
+    b = Book(IND)
+    T = [t for t in read_tables(os.path.join(ROOT, IND), sheets=[ICM_SHEET], tags=("~FI_T",))
+         if t["tag"].replace(" ", "").upper() == "~FI_T:FI"]
+    cells = [("A1", f"{MARK}: 4c cement - data of the Finnsementti plants per site (Parainen FI1C1, "
+                    f"Lappeenranta FI1C5); every cell is a formula on '{ICM_SHEET}'. Read only in Reg mode.", None)]
+    r0 = 3
+    for t in T:
+        tr = tech_rows(t)
+        other = [p for p in tr if p not in MOVE_4C]
+        if other:
+            sys.exit(f"{IND} {ICM_SHEET} {t['tag_cell']}: processes not in MOVE_4C: {other}")
+        if b.f.get((ICM_SHEET, t["tag_cell"])):
+            sys.exit(f"{IND} {ICM_SHEET}!{t['tag_cell']}: tag is already a formula")
+        plan.edit(IND, ICM_SHEET, t["tag_cell"], t["tag"], sw(q(t["tag"]), q(f"*{t['tag']} (Reg mode: Reg_ICM)")), BLUE,
+                  f"table of {sorted(tr)}: disabled in Reg mode, copied per site on Reg_ICM")
+        order = sorted(t["cols"].items(), key=lambda kv: kv[1])
+        pos = {h: i for i, (h, _) in enumerate(order)}
+        tn = next(h for h in t["cols"] if h.lower() == "techname")
+        for site in sorted({MOVE_4C[p] for p in tr}):
+            cells.append((f"B{r0}", regonly(q(f"~FI_T:{site}")), GREEN))
+            for h, ci in order:
+                cells.append((f"{col_let(2 + pos[h])}{r0 + 1}",
+                               regonly(sheet_ref(ICM_SHEET, f"{col_let(ci)}{t['header_row']}")), GREEN))
+            rr, cur, n = r0 + 2, None, 0
+            for r in t["rows"]:
+                name = r["cells"].get(tn, (None, None, None))[1]
+                if isinstance(name, str) and name.strip():
+                    cur = None if name.startswith(("*", "\\I")) else name.strip()
+                if not cur or MOVE_4C.get(cur) != site:
+                    continue
+                for h, (addr, val, f) in r["cells"].items():
+                    cells.append((f"{col_let(2 + pos[h])}{rr}", regonly(sheet_ref(ICM_SHEET, addr)), GREEN))
+                rr += 1
+                n += 1
+            notes.append(f"Reg_ICM: {t['tag_cell']} -> ~FI_T:{site}, {n} rows (rows {r0 + 2}-{rr - 1})")
+            r0 = rr + 2
+    plan.sheets[IND]["Reg_ICM"] = cells
+
+
+def plan_ava_4c(plan, newtech, notes):
+    """Append availability rows for the new cement technologies to the SubRES_10 ~TFM_AVA table (region
+    columns already made by 4b); later rows win."""
+    b = Book(SUB10_T)
+    sh = "TechSelection AVA"
+    others = [r for r in REG19 if r != "FI1D9"]
+    cols = {r: col_let(col_idx("H") + i) for i, r in enumerate(others)}
+    cols["FI1D9"] = "G"
+    for r, c in cols.items():
+        if r != "FI1D9" and b.f.get((sh, f"{c}7")) != regonly(q(r)):
+            sys.exit(f"{SUB10_T} {sh}!{c}7: region header of 4b missing ({b.f.get((sh, f'{c}7'))!r})")
+    used = lambda r: any(b.val(sh, f"{c}{r}") is not None or b.f.get((sh, f"{c}{r}")) for c in "BCDEFG")
+    last = max(r for r in range(8, 600) if used(r))
+    r = last + 1
+    for p in sorted(newtech):
+        if any(b.val(sh, f"{c}{r}") is not None or b.f.get((sh, f"{c}{r}")) for c in "BCDEFGHIJKLMNOPQRSTUVWXYZ"):
+            sys.exit(f"{SUB10_T} {sh} row {r} not empty")
+        plan.edit(SUB10_T, sh, f"C{r}", None, regonly(q(p)), GREEN, f"{p}: available at its site(s)")
+        plan.edit(SUB10_T, sh, f"F{r}", None, regonly("0"), GREEN, f"{p}: not on the hub (cement moved)")
+        for reg in regs_of(newtech[p]):
+            plan.edit(SUB10_T, sh, f"{cols[reg]}{r}", None, regonly("1"), GREEN, f"{p}: {reg}")
+        r += 1
+    notes.append(f"new cement technologies available at their sites: {len(newtech)} (rows {last + 1}-{r - 1})")
+
+
+def plan_env_decl(plan, comms, notes):
+    """Emission commodities of the cement chain declared in every region (SysSettings 'Comms')."""
+    b = Book(SYS)
+    sh = "Comms"
+    found = collections.defaultdict(list)
+    for t in read_tables(os.path.join(ROOT, SYS), sheets=[sh], tags=("~FI_COMM",)):
+        for r in t["rows"]:
+            n = r["cells"].get("CommName", (0, None))[1]
+            if isinstance(n, str):
+                found[n].append((t, r))
+    done = []
+    for c in comms:
+        hits = found.get(c, [])
+        if len(hits) != 1:
+            sys.exit(f"{SYS} {sh}: {len(hits)} declarations of {c}")
+        t, r = hits[0]
+        cell = f"{col_let(t['cols']['Region'])}{r['row']}"
+        f = b.f.get((sh, cell), "")
+        if f and SEL in f:
+            continue
+        if f or b.val(sh, cell) != "FI":
+            sys.exit(f"{SYS} {sh}!{cell}: Region of {c} is {f or b.val(sh, cell)!r}")
+        plan.edit(SYS, sh, cell, "FI", sw('"FI"', ALL), BLUE, f"{c}: emission commodity of the cement chain in the regions")
+        done.append(c)
+    notes.append(f"emission commodities declared in all regions: {done}")
+
+
+def plan_chpshare_fix(plan, notes):
+    """CHPShares corrections (tools/uc_ire_scan.py): row 14 (4b) took its UC name from row 6 (chlor-alkali,
+    ICLHTH) but corrected the chemicals heat links TB_ICHHTH_* - there is no chemicals CHP share; it becomes
+    the ICLHTH correction. Copper (row 7) and steel heat (row 8) get theirs as rows 20-21 of the second table."""
+    sh = "CHPShares"
+    b = Book(UCIND)
+    exp = {"A14": regonly("A6"), "D14": regonly(q("ICHHTH")), "K14": regonly(q("TB_ICHHTH_*")), "L14": regonly("-G6")}
+    for c, f in exp.items():
+        if b.f.get((sh, c)) != f:
+            sys.exit(f"{UCIND} {sh}!{c}: expected {f!r}, found {b.f.get((sh, c))!r}")
+    if [b.val(sh, f"C{r}") for r in (6, 7, 8)] != ["ICLHTH", "ICUHTH", "IISHTH"]:
+        sys.exit(f"{UCIND} {sh}: rows 6-8 are not ICL/ICU/IIS heat")
+    plan.edit(UCIND, sh, "D14", b.val(sh, "D14"), regonly(q("ICLHTH")), GREEN,
+              "UCI_UP_CHPShare-ICL counts ICLHTH: correction on its own links (was ICHHTH)")
+    plan.edit(UCIND, sh, "K14", b.val(sh, "K14"), regonly(q("TB_ICLHTH_*")), GREEN,
+              "UCI_UP_CHPShare-ICL: UC_IRE-I on TB_ICLHTH_* (was TB_ICHHTH_*)")
+    for c in [f"{x}{r}" for r in (20, 21, 22) for x in "ABCDEFGHI"]:
+        if b.val(sh, c) is not None or b.f.get((sh, c)):
+            sys.exit(f"{UCIND} {sh}!{c} is not empty")
+    for r, src, com in ((20, 7, "ICUHTH"), (21, 8, "IISHTH")):
+        for c, e in (("A", f"A{src}"), ("B", q(f"TB_{com}_*")), ("C", q(com)), ("H", f"-G{src}"), ("I", f"E{src}")):
+            plan.edit(UCIND, sh, f"{c}{r}", None, regonly(e), GREEN,
+                      f"UC_IRE-I = -UC_COMPRD of row {src} on TB_{com}_* (an internal import is not production)")
+    notes.append(f"{os.path.basename(UCIND)}:{sh}: row 14 -> ICLHTH; rows 20-21 ICUHTH, IISHTH corrections")
+
+
+def write_dry(plan, notes, out, head=()):
+    L = list(head) + ["NOTE " + n for n in notes] + [""]
+    for book in plan.books():
+        L.append(f"--- {book}")
+        for sheet, cell, old, new, colour, why in plan.edits.get(book, []):
+            L.append(f"  ~ '{sheet}'!{cell} [{colour}]: {old!r}" + chr(10) + f"      -> {new}" + chr(10) + f"      ({why})")
+        for sname, cells in plan.sheets.get(book, {}).items():
+            L.append(f"  + sheet '{sname}' ({len(cells)} cells)")
+            for cell, v, colour in cells:
+                L.append(f"      {cell} [{colour}] {v}")
+    open(out, "w", encoding="utf-8").write(chr(10).join(L) + chr(10))
+    n_e = sum(len(v) for v in plan.edits.values())
+    n_s = sum(len(c) for d in plan.sheets.values() for c in d.values())
+    print(f"dry run: {n_e} cell edits in {len(plan.edits)} workbooks, {n_s} cells on regenerated/new sheets -> {out}")
+    for n in notes:
+        print("NOTE", n[:400])
+
+
+def run_4c(a):
+    """Task 4c (audit/task4c.md): cement to its sites."""
+    plan, notes = Plan(), []
+    move4b = move_4b()
+    move = dict(MOVE_4A)
+    move.update(move4b)
+    move.update(MOVE_4C)
+    shares = shares_of(move)
+    top, ctype, decl, dd_links = dd_info(a.dd, a.run)
+    nt4b, nt4c = newtech_4b(top), newtech_4c(top)
+    chain = {p: sorted(shares[p]) for p in list(move4b) + list(MOVE_4C)}
+    chain.update({p: regs_of(k) for p, k in nt4b.items()})
+    chain.update({p: regs_of(k) for p, k in nt4c.items()})
+    mode = plan_book(plan, IND, MOVE_4C, shares_of(MOVE_4C), notes)
+    plan_tagregion_copies(plan, notes)
+    plan_ava_4c(plan, nt4c, notes)
+    plan_env_decl(plan, ICM_ENV, notes)
+    plan_chpshare_fix(plan, notes)
+    old_links = {v for (s_, c_), v in Book(LINKS).v.items() if s_ == LINK_SHEET and isinstance(v, str) and v.startswith("TB_")}
+    plan_comms_links(plan, move, shares, mode, a.dd, a.run, notes, chain=chain)
+    cells = plan.sheets[LINKS][LINK_SHEET]
+    have = {v for (_, v, _) in cells if isinstance(v, str) and v.startswith("TB_")}
+    r = max(int(re.sub(r"^[A-Z]+", "", c)) for (c, _, _) in cells) + 1
+    for c in ENV_LINKS:
+        for reg in sorted(set(ICM_SITE.values())):
+            name = f"TB_{c}_FI_{reg}"
+            if name in have or name in dd_links:
+                continue
+            for j, v in enumerate(["FI", reg, c, c, c, name, "B"]):
+                cells.append((f"{col_let(3 + j)}{r}", v, GREEN))
+            r += 1
+    new_links = {v for (_, v, _) in cells if isinstance(v, str) and v.startswith("TB_")}
+    lost = sorted(old_links - new_links)
+    if lost:
+        sys.exit(f"links of 4a/4b would be lost: {lost[:10]} ({len(lost)})")
+    notes.append(f"link sheet: {len(old_links)} links before, {len(new_links)} after; new: {sorted(new_links - old_links)}")
+    plan_prd_corrections(plan, a.dd, a.run, new_links, notes)
+    head = ["modes (4c): " + ", ".join(f"{p}={mode.get(p)}" for p in sorted(MOVE_4C)), "",
+            "new technologies: " + ", ".join(f"{p}->{k}" for p, k in sorted(nt4c.items())), ""]
+    write_dry(plan, notes, os.path.join(ROOT, "audit", "task4c_dryrun.txt"), head)
+    if a.apply:
+        import task3_power
+        task3_power.MARK = MARK
+        res = apply(plan)
+        print(res)
+        sys.exit(0 if all(v == "ok" for v in res.values()) else 1)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1093,6 +1314,9 @@ def main():
         return
     if a.step == "4b":
         run_4b(a)
+        return
+    if a.step == "4c":
+        run_4c(a)
         return
     if a.step in ("4bfix", "4bfix2"):
         plan, notes = Plan(), []
