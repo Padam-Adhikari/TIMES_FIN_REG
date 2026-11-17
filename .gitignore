@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# GAMS scratch directories (temporary work files) and VEDA .vd results over GitHub's 100 MB limit
+GAMS_WrkTIMES/[0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
+GAMS_WrkTIMES/*.vd

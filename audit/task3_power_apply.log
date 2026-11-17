@@ -1,0 +1,33 @@
+Reg-FINTIMES/VT_FINTIMES_ELC.xlsx: 20 existing classes declared in their regions
+Reg-FINTIMES/SuppXLS/Scen_Power_from_JRC-IDEES-2015.xlsx: Reg_PASTI with 172 region x class rows; Reg_Keys with 16 keys
+Reg-FINTIMES/SuppXLS/Scen_Power_from_JRC-IDEES-2015.xlsx Other charact: 48 FI values copied to AllRegions
+Reg-FINTIMES/BY_Trans.xlsx: hydro STOCK split over 16 regions; 3 AF profiles to AllRegions (yellow)
+Reg-FINTIMES/SubRES_TMPL/SubRes_00_Nuc-EU_Trans.xlsx: nuclear units at Loviisa (FI1B1), Olkiluoto (FI196), Pyhajoki (FI1D9)
+Reg-FINTIMES/SubRES_TMPL/SubRes_12_TECHS_PowerLowAF_Trans.xlsx: 6 twins follow their plants; LowAF dummies in 12 regions
+Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR.xlsx: Variables + CapIntermitt (SystemAdequacy, MINDISP) national, 16 RHS headers; UC_VARU_* per region; UC_VAR4_IMP without TB_*
+Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx: VAR2/VAR3, utilisation and storage competition national, 24 RHS headers, 22 FI coefficients copied to AllRegions
+Reg-FINTIMES/SuppXLS/Scen_UC-ELC.xlsx: NonDecr RES capacity and coal share national (4 RHS headers), TB_ELCHIG_* correction
+Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx: 220 new links on 'FI internal trades power' (19 regions): ELCCO2N 17, ELCCOH 5, ELCCOL 13, ELCDST 17, ELCGAS 13, ELCHFO 17, ELCHIG 19, ELCHYD 16, ELCNUC 3, ELCSOL 19, ELCWIN 18, ELCWOO 10, ETSCO2 17, GreenCert-ELC 19, HETHTH 17
+dry run: 440 cell edits in 8 workbooks, 4741 cells on new sheets -> C:\Users\adhikap1\Downloads\FI\TIMES_FIN_REG\audit\task3_power_dryrun.txt
+  Reg-FINTIMES/BY_Trans.xlsx: sheet Reg_Keys (46 cells)
+  Reg-FINTIMES/BY_Trans.xlsx: 160 cell(s) written, 19 already in place
+  saved Reg-FINTIMES/BY_Trans.xlsx
+  Reg-FINTIMES/SubRES_TMPL/SubRes_00_Nuc-EU_Trans.xlsx: 0 cell(s) written, 11 already in place
+  saved Reg-FINTIMES/SubRES_TMPL/SubRes_00_Nuc-EU_Trans.xlsx
+  Reg-FINTIMES/SubRES_TMPL/SubRes_12_TECHS_PowerLowAF_Trans.xlsx: 0 cell(s) written, 91 already in place
+  saved Reg-FINTIMES/SubRES_TMPL/SubRes_12_TECHS_PowerLowAF_Trans.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_Power_from_JRC-IDEES-2015.xlsx: sheet Reg_Keys (376 cells)
+  Reg-FINTIMES/SuppXLS/Scen_Power_from_JRC-IDEES-2015.xlsx: sheet Reg_PASTI (2770 cells)
+  Reg-FINTIMES/SuppXLS/Scen_Power_from_JRC-IDEES-2015.xlsx: 0 cell(s) written, 50 already in place
+  saved Reg-FINTIMES/SuppXLS/Scen_Power_from_JRC-IDEES-2015.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR.xlsx: 0 cell(s) written, 21 already in place
+  saved Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx: 0 cell(s) written, 50 already in place
+  saved Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_UC-ELC.xlsx: 0 cell(s) written, 18 already in place
+  saved Reg-FINTIMES/SuppXLS/Scen_UC-ELC.xlsx
+  Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx: sheet FI internal trades power (1549 cells)
+  Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx: 0 cell(s) written, 0 already in place
+  saved Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx
+  Reg-FINTIMES/VT_FINTIMES_ELC.xlsx: 0 cell(s) written, 20 already in place
+  saved Reg-FINTIMES/VT_FINTIMES_ELC.xlsx

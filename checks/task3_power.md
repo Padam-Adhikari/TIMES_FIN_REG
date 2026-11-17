@@ -1,0 +1,134 @@
+# Run check: reg_baseline-sami_2026-11-16_run3_final.gdx
+
+Regions (20): FI, FI196, FI198, FI199, FI19A, FI19B, FI1B1, FI1C1, FI1C2, FI1C5, FI1C6, FI1C7, FI1D5, FI1D7, FI1D8, FI1D9, FI1DA, FI1DB, FI1DC, FI200
+
+## 1. Dummy imports: PASS
+
+
+## 2. Objective
+
+Run: 1.52955e+06
+
+Reference: 1.52992e+06  ·  difference -369.064 (-0.0241%)
+
+## 3. National totals (sum over regions vs reference)
+
+### COM_PROJ demand by year, commodity: PASS (0 of 1375 keys differ)
+
+
+### NCAP_PASTI existing capacity by process: PASS (0 of 340 keys differ)
+
+
+### PRC_RESID residual (base-year) capacity by process, year: PASS (0 of 3241 keys differ)
+
+
+### VAR_CAP installed capacity by year, process (result): DIFF (797 of 9752 keys differ)
+
+| key | run | reference | difference |
+|---|---|---|---|
+| 2048 / COMBATS01 | 0 | 40.7424 | -40.7424 |
+| 2048 / RSDBATS01 | 40.7167 | 0 | +40.7167 |
+| 2045 / RSDBATS01 | 38.6792 | 0 | +38.6792 |
+| 2045 / COMBATS01 | 0 | 38.6778 | -38.6778 |
+| 2053 / COMBATS01 | 0 | 37.6569 | -37.6569 |
+| 2053 / RSDBATS01 | 44.949 | 7.30744 | +37.6415 |
+| 2050 / RSDBATS01 | 42.9225 | 7.30744 | +35.6151 |
+| 2050 / COMBATS01 | 0 | 35.5318 | -35.5318 |
+| 2058 / COMBATS01 | 0 | 17.5658 | -17.5658 |
+| 2055 / COMBATS01 | 0 | 17.5658 | -17.5658 |
+| 2058 / RSDBATS01 | 47.8719 | 30.3071 | +17.5648 |
+| 2055 / RSDBATS01 | 45.2765 | 27.7331 | +17.5434 |
+| 2043 / RSDBATS01 | 38.0431 | 22.9101 | +15.133 |
+| 2043 / COMBATS01 | 0 | 15.1091 | -15.1091 |
+| 2040 / COMBATS01 | 0 | 15.1091 | -15.1091 |
+| 2040 / RSDBATS01 | 38.4708 | 23.4137 | +15.0572 |
+| 2048 / P_COMBATS01 | 0 | 10.1856 | -10.1856 |
+| 2048 / P_RSDBATS01 | 10.1792 | 0 | +10.1792 |
+| 2045 / P_RSDBATS01 | 9.66979 | 0 | +9.66979 |
+| 2045 / P_COMBATS01 | 0 | 9.66945 | -9.66945 |
+| 2053 / P_COMBATS01 | 0 | 9.41424 | -9.41424 |
+| 2053 / P_RSDBATS01 | 11.2372 | 1.82686 | +9.41038 |
+| 2050 / P_RSDBATS01 | 10.7306 | 1.82686 | +8.90377 |
+| 2050 / P_COMBATS01 | 0 | 8.88296 | -8.88296 |
+| 2053 / TRA_Car_PIH_LoM_20pct | 836.597 | 842.662 | -6.06484 |
+
+… 772 more
+
+### Emissions (VAR_COMNET) by year, commodity (result): DIFF (137 of 225 keys differ)
+
+| key | run | reference | difference |
+|---|---|---|---|
+| 2025 / INDCO2N | 5094.81 | 5671.98 | -577.173 |
+| 2025 / ELCCO2N | 4193.37 | 3632.63 | +560.741 |
+| 2063 / ETSCO2 | 11142.1 | 11276.2 | -134.028 |
+| 2060 / ETSCO2 | 11099.2 | 11229.5 | -130.268 |
+| 2015 / ELCCO2N | 12819.7 | 12696.7 | +123.013 |
+| 2015 / INDCO2N | 14330.9 | 14449.9 | -118.954 |
+| 2050 / ETSCO2 | 11283.5 | 11381 | -97.5699 |
+| 2010 / ETSCO2 | 41579.7 | 41672.5 | -92.7874 |
+| 2013 / INDCO2N | 11555.2 | 11647.9 | -92.7371 |
+| 2013 / ELCCO2N | 16804.9 | 16714.4 | +90.5785 |
+| 2040 / SUPCO2N | -2099.81 | -2017.7 | -82.1128 |
+| 2040 / TRACO2N | 9058.91 | 8991.75 | +67.1642 |
+| 2020 / INDCO2N | 11287.5 | 11352.5 | -65.0322 |
+| 2020 / ELCCO2N | 9395.23 | 9331.04 | +64.1924 |
+| 2055 / ETSCO2 | 11203.4 | 11257.3 | -53.8987 |
+| 2065 / SUPCO2N | -4603.96 | -4656.39 | +52.4278 |
+| 2045 / TOTCO2 | 8924.43 | 8872.84 | +51.5876 |
+| 2068 / ETSCO2 | 11241.3 | 11189.8 | +51.5044 |
+| 2030 / TOTCO2 | 22123 | 22071.7 | +51.2757 |
+| 2010 / RSDCO2N | 2973.24 | 2922.1 | +51.1469 |
+| 2040 / ETSCO2 | 9371.57 | 9418.54 | -46.9717 |
+| 2063 / SUPCO2N | -4602.65 | -4649.06 | +46.4094 |
+| 2035 / ETSCO2 | 8496.36 | 8541.37 | -45.0096 |
+| 2030 / ETSCO2 | 10026.6 | 9981.64 | +44.9767 |
+| 2018 / ELCCO2N | 14911.8 | 14868.2 | +43.5658 |
+
+… 112 more
+
+## 4. Internal trade (exports on TB_* links, summed over years)
+
+| from region | link | commodity | flow |
+|---|---|---|---|
+| FI1D9 | TB_INDSCO2N_FI_FI1D9 | INDSCO2N | 29102.3 |
+| FI196 | TB_ELCHIG_FI_FI196 | ELCHIG | 1283.94 |
+| FI1D9 | TB_GreenCert-ELC_FI_FI1D9 | GreenCert-ELC | 770.881 |
+| FI1D9 | TB_ELCHIG_FI_FI1D9 | ELCHIG | 733.116 |
+| FI | TB_ELCNUC_FI_FI196 | ELCNUC | 665.399 |
+| FI1D7 | TB_GreenCert-ELC_FI_FI1D7 | GreenCert-ELC | 593.559 |
+| FI1D7 | TB_ELCHIG_FI_FI1D7 | ELCHIG | 591.531 |
+| FI | TB_ELCHYD_FI_FI1D7 | ELCHYD | 520.945 |
+| FI | TB_ELCWIN_FI_FI1D9 | ELCWIN | 380.771 |
+| FI | TB_ELCWOO_FI_FI1C5 | ELCWOO | 333.77 |
+| FI1C5 | TB_GreenCert-ELC_FI_FI1C5 | GreenCert-ELC | 314.291 |
+| FI | TB_INDCOK_FI_FI1D9 | INDCOK | 310.924 |
+| FI | TB_ELCHYD_FI_FI1D9 | ELCHYD | 287.729 |
+| FI | TB_INDCOA_FI_FI1D9 | INDCOA | 273.997 |
+| FI19A | TB_ELCHIG_FI_FI19A | ELCHIG | 266.954 |
+| FI1B1 | TB_ELCHIG_FI_FI1B1 | ELCHIG | 250.778 |
+| FI19A | TB_GreenCert-ELC_FI_FI19A | GreenCert-ELC | 241.948 |
+| FI | TB_ELCWOO_FI_FI1C1 | ELCWOO | 236.386 |
+| FI1C5 | TB_ELCHIG_FI_FI1C5 | ELCHIG | 235.553 |
+| FI | TB_ELCWIN_FI_FI19A | ELCWIN | 234.319 |
+| FI1D5 | TB_GreenCert-ELC_FI_FI1D5 | GreenCert-ELC | 178.952 |
+| FI1C1 | TB_GreenCert-ELC_FI_FI1C1 | GreenCert-ELC | 177.868 |
+| FI1C1 | TB_HETHTH_FI_FI1C1 | HETHTH | 172.678 |
+| FI1D5 | TB_ELCHIG_FI_FI1D5 | ELCHIG | 165.675 |
+| FI | TB_ELCWOO_FI_FI1DA | ELCWOO | 161.053 |
+| FI1B1 | TB_HETHTH_FI_FI1B1 | HETHTH | 158.159 |
+| FI199 | TB_ELCHIG_FI_FI199 | ELCHIG | 157.641 |
+| FI199 | TB_GreenCert-ELC_FI_FI199 | GreenCert-ELC | 157.5 |
+| FI | TB_ELCCOH_FI_FI1C1 | ELCCOH | 144.795 |
+| FI | TB_ELCGAS_FI_FI1B1 | ELCGAS | 143.533 |
+| FI | TB_ELCWOO_FI_FI1D9 | ELCWOO | 141.239 |
+| FI | TB_ELCWIN_FI_FI199 | ELCWIN | 140.499 |
+| FI | TB_ELCWOO_FI_FI1B1 | ELCWOO | 129.812 |
+| FI196 | TB_GreenCert-ELC_FI_FI196 | GreenCert-ELC | 124.848 |
+| FI1C1 | TB_ELCHIG_FI_FI1C1 | ELCHIG | 124.674 |
+| FI | TB_ELCHYD_FI_FI1C5 | ELCHYD | 123.756 |
+| FI1DA | TB_GreenCert-ELC_FI_FI1DA | GreenCert-ELC | 116.397 |
+| FI | TB_ELCWOO_FI_FI1C2 | ELCWOO | 107.074 |
+| FI19B | TB_GreenCert-ELC_FI_FI19B | GreenCert-ELC | 106.165 |
+| FI | TB_ELCWOO_FI_FI19B | ELCWOO | 98.8373 |
+
+## Verdict: PASS

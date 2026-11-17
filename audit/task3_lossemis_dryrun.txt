@@ -1,0 +1,135 @@
+Reg-FINTIMES/SuppXLS/Scen_ZUseTrnEff_From_Eurostat.xlsx: 7 COM_IE cells; Reg-FINTIMES/SuppXLS/Scen_ZUESR.xlsx: 37 Pset_PN cells
+--- Reg-FINTIMES/SuppXLS/Scen_ZUESR.xlsx
+  ~ 'ETS Emissions'!I5 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I6 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I7 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I8 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I9 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I10 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I11 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I12 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I13 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I14 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I15 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I16 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I17 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I18 [#DDEBF7]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I49 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I50 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I51 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I52 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I53 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I54 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I55 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I56 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I57 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I58 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I59 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I60 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I61 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I62 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I63 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I64 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I65 [#DDEBF7]: '-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*","-IIS*,-___IIS*,-ICM*,-ILM*,-IGF*,-IGH*,-___ICM*,-___ILM*,-___IGF*,-___IGH*,-IPL*,-IPH*,-IPP*,-___IPL*,-___IPH*,-___IPP*,-CHP*,-EAUT*,-IAM*,-IAL*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I67 [#DDEBF7]: '-SSCDCOKE*,-SSCDRFLX*, -BRF*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-SSCDCOKE*,-SSCDRFLX*, -BRF*","-SSCDCOKE*,-SSCDRFLX*, -BRF*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I68 [#DDEBF7]: '-SSCDCOKE*,-SSCDRFLX*, -BRF*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-SSCDCOKE*,-SSCDRFLX*, -BRF*","-SSCDCOKE*,-SSCDRFLX*, -BRF*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I69 [#DDEBF7]: '-SSCDCOKE*,-SSCDRFLX*, -BRF*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-SSCDCOKE*,-SSCDRFLX*, -BRF*","-SSCDCOKE*,-SSCDRFLX*, -BRF*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I70 [#DDEBF7]: '-SSCDCOKE*,-SSCDRFLX*, -BRF*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-SSCDCOKE*,-SSCDRFLX*, -BRF*","-SSCDCOKE*,-SSCDRFLX*, -BRF*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I71 [#DDEBF7]: '-SSCDCOKE*,-SSCDRFLX*, -BRF*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-SSCDCOKE*,-SSCDRFLX*, -BRF*","-SSCDCOKE*,-SSCDRFLX*, -BRF*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+  ~ 'ETS Emissions'!I72 [#DDEBF7]: '-SSCDCOKE*,-SSCDRFLX*, -BRF*'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"-SSCDCOKE*,-SSCDRFLX*, -BRF*","-SSCDCOKE*,-SSCDRFLX*, -BRF*,-TB_*")
+      (emission factor not on internal links TB_* (the fuel is burnt, and counted, at the plant))
+--- Reg-FINTIMES/SuppXLS/Scen_ZUseTrnEff_From_Eurostat.xlsx
+  ~ 'Sheet3'!D17 [#DDEBF7]: 0.9679471904685236
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E17,"")
+      (COM_IE ELCHIG: losses only on the hub in Reg mode (not again in the regions))
+  ~ 'Sheet3'!D18 [#DDEBF7]: 0.9674167555636066
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E18,"")
+      (COM_IE ELCHIG: losses only on the hub in Reg mode (not again in the regions))
+  ~ 'Sheet3'!D19 [#DDEBF7]: 0.9651577202719624
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E19,"")
+      (COM_IE ELCHIG: losses only on the hub in Reg mode (not again in the regions))
+  ~ 'Sheet3'!D20 [#DDEBF7]: 0.9683958327724984
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E20,"")
+      (COM_IE ELCHIG: losses only on the hub in Reg mode (not again in the regions))
+  ~ 'Sheet3'!D21 [#DDEBF7]: 0.966158197455167
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E21,"")
+      (COM_IE ELCHIG: losses only on the hub in Reg mode (not again in the regions))
+  ~ 'Sheet3'!D22 [#DDEBF7]: 0.966158197455167
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E22,"")
+      (COM_IE ELCHIG: losses only on the hub in Reg mode (not again in the regions))
+  ~ 'Sheet3'!D42 [#DDEBF7]: 0.9211860927078825
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,E42,"")
+      (COM_IE HETHTH: losses only on the hub in Reg mode (not again in the regions))

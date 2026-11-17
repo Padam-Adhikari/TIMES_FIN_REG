@@ -1,0 +1,25 @@
+dry run: 230 cell edits in 6 workbooks, 1038 cells on new sheets -> C:\Users\adhikap1\Downloads\FI\TIMES_FIN_REG\audit\task4a_dryrun.txt
+  Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES_Trans.xlsx: Region_selection sheet added
+  Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES_Trans.xlsx: sheet Reg_HVO (31 cells)
+  Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES_Trans.xlsx: 0 cell(s) written, 0 already in place
+  Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES_Trans.xlsx: stray external link removed: C:\Users\adhikap1\AppData\Local\Temp\task3_y4m_w9gd\region_selection_template.xlsx
+  saved Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES_Trans.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_REFINERIES_Lim.xlsx: Region_selection sheet added
+  Reg-FINTIMES/SuppXLS/Scen_REFINERIES_Lim.xlsx: 3 cell(s) written, 0 already in place
+  Reg-FINTIMES/SuppXLS/Scen_REFINERIES_Lim.xlsx: stray external link removed: C:\Users\adhikap1\AppData\Local\Temp\task3_y4m_w9gd\region_selection_template.xlsx
+  saved Reg-FINTIMES/SuppXLS/Scen_REFINERIES_Lim.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_UC-IND.xlsx: 14 cell(s) written, 0 already in place
+  saved Reg-FINTIMES/SuppXLS/Scen_UC-IND.xlsx
+  Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.xlsx: 121 cell(s) written, 0 already in place
+  FAILED Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.xlsx: single-region value of RegSum!P7 is 'UC_IRE-I', expected None (not saved)
+  Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx: sheet FI internal trades industry (716 cells)
+  Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx: 0 cell(s) written, 0 already in place
+  saved Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx
+  Reg-FINTIMES/SysSettings.xlsx: 52 cell(s) written, 0 already in place
+  saved Reg-FINTIMES/SysSettings.xlsx
+  Reg-FINTIMES/VT_FINTIMES_IND.xlsx: sheet Reg_IND (291 cells)
+  Reg-FINTIMES/VT_FINTIMES_IND.xlsx: 35 cell(s) written, 0 already in place
+  saved Reg-FINTIMES/VT_FINTIMES_IND.xlsx
+  Reg-FINTIMES/VT_FINTIMES_SUP.xlsx: 5 cell(s) written, 0 already in place
+  saved Reg-FINTIMES/VT_FINTIMES_SUP.xlsx
+{'Reg-FINTIMES/SubRES_TMPL/SubRES_22_TECHS_BIOREFINERIES_Trans.xlsx': 'ok', 'Reg-FINTIMES/SuppXLS/Scen_REFINERIES_Lim.xlsx': 'ok', 'Reg-FINTIMES/SuppXLS/Scen_UC-IND.xlsx': 'ok', 'Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.xlsx': "FAILED: single-region value of RegSum!P7 is 'UC_IRE-I', expected None", 'Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx': 'ok', 'Reg-FINTIMES/SysSettings.xlsx': 'ok', 'Reg-FINTIMES/VT_FINTIMES_IND.xlsx': 'ok', 'Reg-FINTIMES/VT_FINTIMES_SUP.xlsx': 'ok'}

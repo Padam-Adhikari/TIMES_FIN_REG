@@ -1,0 +1,428 @@
+name,site,type,fuel,mw,mw_sep,mw_ind,mw_dh,kunta,region,method,note,company,town
+Ahvenkoski,Ahvenkoski,Hydro power,,24.0,24.0,0.0,0.0,,FI1C7,osm,"way/168775089 'Ahvenkosken vesivoimalaitos' (hydro, match 1.00)",Oy Mankala Ab,KAUSALA
+Aittaluoto 1,Pori Aittaluoto 1,Industry CHP,Peat,20.8,0.0,20.8,0.0,Pori,FI196,name,Pori Aittaluoto 1,Pori Energia Oy,PORI
+Aittaluoto 2,Pori Aittaluoto 2,District heating CHP,Peat,36.0,0.0,0.0,36.0,Pori,FI196,name,Pori Aittaluoto 2,Pori Energia Oy,PORI
+Aittokoski,Aittokoski,Hydro power,,44.8,44.8,0.0,0.0,,FI1D8,osm,"way/176491173 'Aittokosken voimalaitos' (hydro, match 1.00)","Fortum Power & Heat , Generation",PL 100
+Ajos Wind Oy,Ajos Wind Oy,Wind power,,42.4,42.4,0.0,0.0,Kemi,FI1D7,manual,"Ajos wind farm, Kemi",Ajos Wind Oy,Espoo
+Alakoski,"Alakoski, Tampere",Hydro power,,4.6,4.6,0.0,0.0,,FI19B,osm,"way/93500720 'Alakosken voimalaitos' (hydro, match 1.00)",Alakoski Oy, Mikkeli
+Alholma AK 1,AK1,Industry CHP,Industrial wood residues,30.0,0.0,30.0,0.0,Jakobstad,FI19A,company-town,company address JAKOBSTAD,Oy Alholmens Kraft Ab,JAKOBSTAD
+Alholma AK 2,AK2,Industry CHP,Peat,240.0,0.0,240.0,0.0,Jakobstad,FI19A,company-town,company address JAKOBSTAD,Oy Alholmens Kraft Ab,JAKOBSTAD
+Anjalankoski,Inkeroinen (Kouvola),Industry CHP,Industrial wood residues,160.5,0.0,160.5,0.0,Kouvola,FI1C7,name,Inkeroinen (Kouvola),Stora Enso Publication Papers Oy Ltd,Inkeroinen
+"Anjalankoski, G1",Anjalankoski,Hydro power,,20.0,20.0,0.0,0.0,,FI1C7,osm,"way/168963132 'Vesivoimalaitos, Anjala' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Annankangas T1-T10,Annankangas T1-T10,Wind power,,34.5,34.5,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Pori,Suomen Hyötytuuli Oy,Pori
+Askala,"Askala, Paimio",Hydro power,,1.3,1.3,0.0,0.0,,FI1C1,osm,"way/286678791 'Askalan vesivoimalaitos' (hydro, match 1.00)",Koskienergia Koskivoima Oy,Äänekoski
+Atro,"Lapinlahti, Voimalaitoksentie 1, Syvärinpää",Hydro power,,6.5,6.5,0.0,0.0,Lapinlahti,FI1DB,name,"Lapinlahti, Voimalaitoksentie 1, Syvärinpää",Savon Voima Oyj,Toivala
+Billnäs,"Billnäs, Pohja",Hydro power,,1.8,1.8,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Äänekoski,Koskienergia Koskivoima Oy,Äänekoski
+Björkfors,Björkfors,Hydro power,,1.2,1.2,0.0,0.0,,FI19A,osm,"way/1393221183 'Björkfors kraftverk' (hydro, match 1.00)",Oy HERRFORS Ab,68600 Jakobstad
+Björknäs kraftvärmeverk,Björknäs kraftvärmeverk,District heating CHP,Forest fuelwood,3.7,0.0,0.0,3.7,,,unsited,no OSM plant with matching name and source; company town Ekenäs,Raseborgs stad / Ekenäs Energi,Ekenäs
+Elkko,"Elkko, Raahe",Wind power,,6.0,6.0,0.0,0.0,Raahe,FI1D9,name,"Elkko, Raahe",Raahen Tuulienergia Oy,Raahen Tuulienergia Oy
+Energia-Tietola,Energia-Tietola,District heating CHP,Natural gas,11.6,0.0,0.0,11.6,Valkeakoski,FI19B,company-town,company address Valkeakoski,Valkeakosken Energia Oy,Valkeakoski
+Finlayson ve,Finlayson ve,Hydro power,,4.19,4.19,0.0,0.0,,FI19B,osm,"way/72503697 'Yläkosken voimalaitos, Finlayson' (hydro, match 0.50)",Tampereen Sähkölaitos,TAMPERE
+Forssa kt,"Varavoimalantie 6, 30420 Forssa",Separate electricity production,Medium heavy distillates,352.0,352.0,0.0,0.0,,FI1C2,osm,"way/719029523 'Forssan varavoimalaitos' (oil, match 0.67)",Fingrid Oyj,Helsinki
+Haapajärven Savinevan Tuulivoimala,Haapajärven Savinevan Tuulivoima,Wind power,,23.1,23.1,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Haapajärven Savinevan Tuulivoima Oy,Helsinki
+Haapajärvi Sauviinmäki,Haapajärvi Sauviinmäki,Wind power,,6.6,6.6,0.0,0.0,Haapajärvi,FI1D9,name,Haapajärvi Sauviinmäki,Haapajärvi Sauviinmäki Tuulivoima Oy,Helsinki
+Haapakoski,haapakoski,Hydro power,,32.5,32.5,0.0,0.0,,FI1D9,osm,"way/492134882 'Haapakosken voimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Haapaniemi,Haapaniemen voimalaitos,District heating CHP,Peat,118.1,0.0,0.0,118.1,,FI1DB,osm,"way/592466728 'Haapaniemen voimalaitos' (biomass, match 1.00)",Kuopion Energia Oy,Kuopio
+Haapavesi,Haapaveden voimalaitos,Separate electricity production,Peat,154.0,154.0,0.0,0.0,Haapavesi,FI1D9,name,Haapavesi,Kanteleen Voima Oy,Haapavesi
+Haapavesi,Forssa,Industry CHP,Peat,2.7,0.0,2.7,0.0,,FI1C2,osm,"way/719029523 'Forssan varavoimalaitos' (oil, match 0.50)",Vapo Oy,Jyväskylä
+Hailikari,Hailikari,Wind power,,3.1,3.1,0.0,0.0,,FI1C7,geocoded,"Hailikari, Pyhtää, Kotkan–Haminan seutukunta, Kymenlaakso, Manner-Suomi, Suomi /",Haminan Energia Oy,Hamina
+Halmekangas,Halmekangas 1,Wind power,,38.5,38.5,0.0,0.0,,FI1D9,geocoded,"Halmekangas I, Ouluntie, Kankari, Vaala, Oulunkaaren seutukunta, Pohjois-Pohjanm",Tuuliwatti Oy,Helsinki
+Hamari,"Hamari, Ylivieska",Hydro power,,2.5,2.5,0.0,0.0,,FI1D9,osm,"way/1267888775 'Hamarin voimalaitos' (hydro, match 1.00)",Korpelan Voima kuntayhtymä,Kannus
+"Hamina, Mäkelänkangas tv","Hamina, Mäkelänkangas tv",Wind power,,8.0,8.0,0.0,0.0,Hamina,FI1C7,name,"Hamina, Mäkelänkangas tv",Suomen Voima Oy,06100 Porvoo
+Haminan höyrykattilalaitos,Hamina,Industry CHP,Natural gas,1.5,0.0,1.5,0.0,Hamina,FI1C7,name,Hamina,Haminan Energia Oy,Hamina
+Hanasaari B,Hanasaari B,District heating CHP,Hard coal and anthracite,212.0,0.0,0.0,212.0,,,unsited,no OSM plant with matching name and source; company town HELEN,Helsingin Energia,HELEN
+Hanhikoski,Evijärvi / Hanhikoski,Hydro power,,1.5,1.5,0.0,0.0,,FI199,osm,"way/1555386332 'Hanhikosken voimalaitos' (hydro, match 1.00)",Vattenfall Sähköntuotanto oy,Helsinki
+"Hanko, Sändö tv 1-4","Hanko, Sändö tv 1-4",Wind power,,8.0,8.0,0.0,0.0,Hanko,FI1B1,name,"Hanko, Sändö tv 1-4",Saba Wind Oy Ab,Mariehamm
+Harabacka,Harabacka,District heating CHP,Natural gas,9.6,0.0,0.0,9.6,,FI1B1,osm,"way/1078953629 'Harabackan voimalaitos' (gas, match 1.00)",,
+Harjavalta,Harjavallan voimalaitos,Hydro power,,105.0,105.0,0.0,0.0,,FI196,osm,"way/391896477 'Harjavallan vesivoimalaitos' (hydro, match 1.00)",Länsi-Suomen Voima Oy,Harjavalta
+Harjavalta,Harjavalta,Separate electricity production,Heavy distillates,6.3,6.3,0.0,0.0,Harjavalta,FI196,name,Harjavalta,Suomen Teollisuuden Energiapalvelut - STEP Oy,Pori
+Hattarfors,Hattar kraftverk,Hydro power,,1.1,1.1,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Esse,Esse Elektro-Kraft Ab,Esse
+Haukineva Windfarm,Haukineva Windfarm,Wind power,,6.9,6.9,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,EE Primus Oy,Helsinki
+Hedet,"Närpiö, Hedet H1-H18",Separate electricity production,,79.0,79.0,0.0,0.0,Närpiö,FI19A,name,"Närpiö, Hedet H1-H18",Hedet Vindpark Ab,Vaasa
+Heinola,Heinola Vuorikatu 24 c,Industry CHP,Industrial wood residues,0.0,0.0,0.0,0.0,Heinola,FI1C6,name,Heinola Vuorikatu 24 c,Adven Oy,Vantaa
+Heinola vp,Heinolan Flutigtehdas,Industry CHP,Peat,19.0,0.0,19.0,0.0,Heinola,FI1C6,name,Heinola vp,Stora Enso Oyj Heinolan Flutingtehdas,Heinola
+Hietamankoski,Äänekoski / Hietamankoski,Hydro power,,6.7,6.7,0.0,0.0,,FI198,osm,"way/939530811 'Hietamankosken voimalaitos' (hydro, match 1.00)",Vattenfall Sähköntuotanto oy,Helsinki
+Hilmonkoski,Kannonkoski / Hilmonkoski,Hydro power,,6.8,6.8,0.0,0.0,,FI198,osm,"way/966709213 'Hilmon voimalaitos' (hydro, match 1.00)",Vattenfall Sähköntuotanto oy,Helsinki
+Hilskansaari,"Pori, Hilskansaari",Wind power,,1.0,1.0,0.0,0.0,Pori,FI196,name,"Pori, Hilskansaari",Kansallistuuli Oy,Turku
+Hilskansaari,"Merituulentie 11, Pori",Wind power,,2.0,2.0,0.0,0.0,Pori,FI196,name,"Merituulentie 11, Pori",Pohjantuulen Voima Oy,Rovaniemi
+Hinkismäki,Kouvola / Hinkismäki,Industry CHP,Natural gas,45.0,0.0,0.0,45.0,,FI1C7,osm,"way/172611512 'Hinkismäen maakaasuvoimalaitos' (gas, match 0.50)",KSS Energia Oy,Kouvola
+Hinkua,Haapajärvi / Hinkua,Hydro power,,6.3,6.3,0.0,0.0,,FI1D9,osm,"way/1321593984 'Hinkuan voimalaitos' (hydro, match 1.00)",Vattenfall Sähköntuotanto oy,Helsinki
+Hirvikoski,Nurmo / Hirvikoski,Hydro power,,8.5,8.5,0.0,0.0,,FI199,osm,"way/914450358 'Hirvikosken voimalaitos' (hydro, match 1.00)",Vattenfall Sähköntuotanto oy,Helsinki
+"Hoikankangas, Kajaanin sähkölaitos","Hoikankangas, Kajaanin sähkölaitos",Separate electricity production,Light distillates,1.5,1.5,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Puolustushallinnon rakennuslaitos,Helsinki
+Hovinsaari,Hovinsaari,District heating CHP,Peat,51.0,0.0,0.0,51.0,,FI1C7,osm,"way/94806668 'Hovinsaaren voimalaitos' (biomass, match 1.00)",Kotkan Energia Oy,Kotka
+Huikku Hailuoto,Huikku Hailuoto,Wind power,,2.0,2.0,0.0,0.0,Hailuoto,FI1D9,name,Huikku Hailuoto,Huikku Tuulivoima Oy,
+"Huittinen, Pahkionvuori tv","Pahkionvuori, Huittinen",Wind power,,3.6,3.6,0.0,0.0,Huittinen,FI196,name,"Pahkionvuori, Huittinen",Lännen Lintu Oy,32710 Sampu
+Huutokoski kt,"Huutokoski kt 1, 2, 3, 4, 5, 6",Separate electricity production,Medium heavy distillates,180.0,180.0,0.0,0.0,,FI1DB,osm,"way/98736918 'Huutokosken varavoimalaitokset' (oil, match 0.50)",Fingrid Oyj,Helsinki
+Hyötyvoimalaitos,Hyötyvoimalaitos,Industry CHP,Other by-products and wastes used as fuel,7.0,0.0,7.0,0.0,,FI19B,osm,"way/893187155 'Tammervoiman hyötyvoimalaitos' (waste, match 0.50)",Kotkan Energia Oy,Kotka
+Hämeenkyrö lä,"Metsä Board, Kyron tehdasalue Hämeenkyrö",Industry CHP,Forest fuelwood,20.0,0.0,20.0,0.0,,FI19B,osm,"way/219387992 'Hämeenkyrön biovoimalaitos' (biomass, match 0.50)",Hämeenkyrön voima Oy,Helsinki
+Hämeenkyrö ve,Kyröskoski,Hydro power,,12.9,12.9,0.0,0.0,,FI19B,osm,"way/1568501941 'Kyröskosken voimalaitos' (hydro, match 1.00)",KYRÖSKOSKEN VOIMA OY,Kankaanpää
+Hämeenlinna,Hämeenlinna,District heating CHP,Natural gas,65.0,0.0,0.0,65.0,Hämeenlinna,FI1C2,name,Hämeenlinna,Elenia Lämpö Oy,Hämeenlinna
+"Högsara, Kemiönsaari tv","Högsara, Kemiönsaari",Wind power,,6.0,6.0,0.0,0.0,,FI1C1,osm,"relation/17325596 'Högsåra' (wind, match 0.50)",Via Wind Oy Ltd,Espoo
+"Ii, Kuivaniemi tv","Ii, Kuivaniemi tv",Wind power,,7.0,7.0,0.0,0.0,Ii,FI1D9,name,"Ii, Kuivaniemi tv",Vapo Oy,Jyväskylä
+"Ii, Olhava tv",Ii Olhava,Wind power,,33.9,33.9,0.0,0.0,Ii,FI1D9,name,"Ii, Olhava tv",Aalto Wind No 2 Ltd. Oy,Helsinki
+"Ii, Viinamäki",Viinamäki Ii,Wind power,,21.0,21.0,0.0,0.0,Ii,FI1D9,name,"Ii, Viinamäki",Tuuliwatti Oy,Helsinki
+Iisalmi,"Iisalmi, Energiakuja 3",District heating CHP,Peat,15.0,0.0,0.0,15.0,,FI1DB,osm,"way/1568508467 'Iisalmen voimalaitos' (?, match 1.00)",Savon Voima Oyj,Toivala
+Ikaalinen,Ikaalinen,Industry CHP,Natural gas,6.0,0.0,0.0,6.0,Ikaalinen,FI19B,name,Ikaalinen,Leppäkosken Sähkö Oy,Ikaalinen
+"Ilmatar Leppävirta Voimalaitos 1,2,3","Voimalaitos 1,2,3",Wind power,,10.5,10.5,0.0,0.0,Leppävirta,FI1DB,name,"Ilmatar Leppävirta Voimalaitos 1,2,3",Ilmatar Leppävirta Oy,Helsinki
+Ilomantsin pellettitehdas,Ilomantsi,Industry CHP,Peat,2.8,0.0,2.8,0.0,Ilomantsi,FI1DC,name,Ilomantsi,Vapo Oy,Jyväskylä
+Imatra,Imatra,Hydro power,,192.0,192.0,0.0,0.0,,FI1C5,osm,"way/25952051 'Imatran vesivoimalaitos' (hydro, match 1.00)",Fortum Power & Heat OY,PL 100
+Imatran Energia,"Piikatu 16, 55120 Imatra",District heating CHP,Natural gas,10.0,0.0,0.0,10.0,Imatra,FI1C5,name,"Piikatu 16, 55120 Imatra",Imatran Energia Oy,Imatra
+Inkeroinen ve,Inkeroinen,Hydro power,,17.0,17.0,0.0,0.0,,FI1C7,osm,"way/168963124 'Vesivoimalaitos, Inkeroinen' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+"Inkoo, Barösund tv",Inkoo Barösund tv,Wind power,,2.0,2.0,0.0,0.0,Inkoo,FI1B1,name,Inkoo Barösund tv,Saba Wind Oy Ab,Mariehamm
+Isohaara,isohaara,Hydro power,,106.0,106.0,0.0,0.0,,FI1D7,osm,"relation/12704548 'Isohaaran vesivoimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Isonnevanmäki,"Isonnevanmäki, Kauhava",Wind power,,2.5,2.5,0.0,0.0,Kauhava,FI199,name,"Isonnevanmäki, Kauhava",Tuuliveikot Oy,Kortesjärvi
+Jalasjoki/Niiles,"Jalasjoki (Niiles), Kurikka",Hydro power,,1.0,1.0,0.0,0.0,Kurikka,FI199,name,"Jalasjoki (Niiles), Kurikka",Koskienergia Koskivoima Oy,Äänekoski
+Jeppo Windfarm,Jeppo Windfarm,Wind power,,6.9,6.9,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,EE Primus Oy,Helsinki
+Joensuu,Joensuun voimalaitos,District heating CHP,Peat,68.0,0.0,0.0,68.0,,FI1DC,osm,"relation/21503475 'Joensuun voimalaitos' (biomass, match 1.00)",Fortum Power and Heat Oy,FORTUM
+Jokelan tuulipuisto 1,Jokelan tuulipuisto 1,Wind power,,12.0,12.0,0.0,0.0,,FI1D9,osm,"relation/12226249 'Jokelan tuulipuisto' (wind, match 1.00)",wpd Jokelan Tuulipuisto Oy,Espoo
+Jokelan tuulipuisto 2,Jokelan tuulipuisto 2,Wind power,,12.0,12.0,0.0,0.0,,FI1D9,osm,"relation/12226249 'Jokelan tuulipuisto' (wind, match 1.00)",wpd Jokelan Tuulipuisto Oy,Espoo
+Jokelan tuulipuisto 3,Jokelan tuulipuisto 3,Wind power,,12.0,12.0,0.0,0.0,,FI1D9,osm,"relation/12226249 'Jokelan tuulipuisto' (wind, match 1.00)",wpd Jokelan Tuulipuisto Oy,Espoo
+Joukhaisselän Tuulipuisto,"Joukhaisselän Tuulipuisto, Sodankylä",Wind power,,27.0,27.0,0.0,0.0,Sodankylä,FI1D7,name,"Joukhaisselän Tuulipuisto, Sodankylä",Joukhaisselän Tuulipuisto Oy,Oulu
+Joutseno,Metsä Fibre Joutsenon tehdas,Industry CHP,Black liquor and concentrated liquors,85.0,0.0,85.0,0.0,Lappeenranta,FI1C5,manual,"Joutseno, former municipality merged into Lappeenranta in 2009 (Metsä Fibre Joutseno mill and the 3.9 MW plant)",Metsä Fibre Oy,Espoo
+Joutseno,Joutseno,Industry CHP,Other non-specified energy sources,3.9,0.0,3.9,0.0,Lappeenranta,FI1C5,manual,"Joutseno, former municipality merged into Lappeenranta in 2009 (Metsä Fibre Joutseno mill and the 3.9 MW plant)",FC Power,Ikaalinen
+Jouttikallio,Lapua / Jouttikallio,Separate electricity production,Medium heavy distillates,3.1,3.1,0.0,0.0,Lapua,FI199,name,Lapua / Jouttikallio,Vattenfall Sähköntuotanto oy,Helsinki
+Jouttikallio Wind Oy,Jouttikallio Wind Oy,Wind power,,20.7,20.7,0.0,0.0,,FI199,osm,"relation/12461630 'Jouttikallion tuulivoimapuisto' (wind, match 1.00)",Jouttikallio Wind Oy,Helsinki
+Juankoski,"Juankoski, Juankoskentie 7A",Hydro power,,5.5,5.5,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Toivala,Savon Voima Oyj,Toivala
+Jumisko,jumisko,Hydro power,,26.0,26.0,0.0,0.0,,FI1D7,osm,"relation/11760004 'Jumiskon voimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Juntola,"Juntola, Paimio",Hydro power,,1.8,1.8,0.0,0.0,,FI1C1,osm,"way/860002370 'Juntolankosken voimalaitos' (hydro, match 1.00)",Koskienergia Koskivoima Oy,Äänekoski
+Juotas,Juotas,Hydro power,,3.7,3.7,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kemijärvi,Keski-Lapin voima Oy,Kemijärvi
+Juva,"Juva, Tarvasjoki",Hydro power,,1.4,1.4,0.0,0.0,Juva,FI1DA,name,"Juva, Tarvasjoki",Koskienergia Koskivoima Oy,Äänekoski
+Jylhämä,Jylhämä,Hydro power,,55.0,55.0,0.0,0.0,,FI1D9,osm,"way/178199664 'Jylhämän voimalaitos' (hydro, match 1.00)","Fortum Power & Heat , Generation",PL 100
+Jämsänkoski bv,Jämsänkosken tehtaan voimalaitos,Industry CHP,Forest fuelwood,43.0,0.0,43.0,0.0,,,unsited,no OSM plant with matching name and source; company town Jämsänkoski,UPM-Kymmene Oyj,Jämsänkoski
+Järvelän vaneritehdas,"Koskisen Oy, Järvelän levyteollisuus",Industry CHP,Industrial wood residues,1.6,0.0,1.6,0.0,,,unsited,no OSM plant with matching name and source; company town JÄRVELÄ,Koskipower Oy,JÄRVELÄ
+Järvenpää,"Voimalankatu, 04430 Järvenpää",District heating CHP,Forest fuelwood,23.8,0.0,0.0,23.8,,FI1B1,osm,"way/310677351 'Järvenpään voimalaitos' (biomass, match 1.00)",Fortum Power and Heat Oy,Fortum
+Kaaranneskoski,Kaaranneskoski,Hydro power,,2.8,2.8,0.0,0.0,,FI1D7,osm,"way/362077002 'Kaaranneskosken voimalaitos' (hydro, match 1.00)",Tornionlaakson Voima Oy-,Pello
+Kaarni,Kaarni,Hydro power,,1.2,1.2,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Rovaniemi,Rovakairan Tuotanto Oy,Rovaniemi
+Kaihua,Kaihua I ja II,Hydro power,,5.4,5.4,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Rovaniemi,Rovakairan Tuotanto Oy,Rovaniemi
+Kaipola,Kaipola VP3,Industry CHP,Industrial wood residues,25.0,0.0,25.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM-Kymmene Oyj,Kuusankoski
+Kaitfors,Kaitfors,Hydro power,,7.6,7.6,0.0,0.0,,FI19A,osm,"way/915637823 'Kaitfors kraftverk' (hydro, match 1.00)",Oy Perhonjoki Ab,68600 Jakobstad
+Kalajärvi,"Kalajärvi, Seinäjoki",Hydro power,,1.8,1.8,0.0,0.0,,FI199,osm,"way/914514497 'Kalajärven voimalaitos' (hydro, match 1.00)",Seinäjoen Energia Oy,Seinäjoki
+Kallioinen,Kallioinen,Hydro power,,12.0,12.0,0.0,0.0,,FI1D8,osm,"way/575985843 'Kallioisen voimalaitos' (hydro, match 1.00)",UPM Energy Oy,Kuusankoski
+Kaltimo,Kaltimo,Hydro power,,32.0,32.0,0.0,0.0,,FI1DC,osm,"way/358330647 'Kaltimon voimalaitos' (hydro, match 1.00)",UPM Energy Oy,Kuusankoski
+Kankaanpää,Kankaanpää,Separate electricity production,Medium heavy distillates,7.0,1.0,0.0,6.0,Kankaanpää,FI196,name,Kankaanpää,Vatajankosken Sähkö Oy,Kankaanpää
+Kankaanpäänmäki,Kankaanpäänmäki,Wind power,,7.5,7.5,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town None,SPC1- Kankaanpäänmäki Oy,
+Kantti,Kantti,Wind power,,24.0,24.0,0.0,0.0,,FI1DB,geocoded,"Kantti, 1, Museokatu, Vahtivuori, Kuopio, Kuopion seutukunta, Pohjois-Savo, Mann",Kantin Tuulipuisto Ky,Helsinki
+Kantvik,Kantvik,Industry CHP,Hard coal and anthracite,4.2,0.0,4.2,0.0,Jyväskylä,FI198,company-town,company address Jyväskylä,Voimavasu Oy,Jyväskylä
+Karhusaaren tuulivoimapuisto,Karhusaaren tuulivoimapuisto,Wind power,,3.45,3.45,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Nastola,Huikku Tuulivoima Oy,Nastola
+Karjalankoski,"Juankoski, Pohjolantie 10",Hydro power,,4.5,4.5,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Toivala,Savon Voima Oyj,Toivala
+Karvetti,Rautakatu 7 Naantali,Separate electricity production,Medium heavy distillates,1.1,1.1,0.0,0.0,Naantali,FI1C1,name,Rautakatu 7 Naantali,Naantalin Energia Oy,Naantali
+Kaskinen lv ja vp,Metsä Fibre Kaskisten tehdas,Industry CHP,Black liquor and concentrated liquors,0.0,0.0,0.0,0.0,Kaskinen,FI19A,name,Kaskinen lv ja vp,Metsä Fibre Oy,Espoo
+Katerma,Katerma,Hydro power,,11.5,11.5,0.0,0.0,,FI1D8,osm,"way/446720855 'Katerman voimalaitos' (hydro, match 1.00)",UPM Energy Oy,Kuusankoski
+Kattilakoski,Kattilakoski,Hydro power,,2.1,2.1,0.0,0.0,,FI199,osm,"way/1392662372 'Kattilakosken voimalaitos' (hydro, match 1.00)",Oy HERRFORS Ab,68600 Jakobstad
+Kaukopää,Kaukopää,Industry CHP,Black liquor and concentrated liquors,134.0,0.0,134.0,0.0,Imatra,FI1C5,company-town,company address Imatra,Stora Enso Oyj,Imatra
+Kauttua,Kauttuan voimalaitos,Industry CHP,Peat,19.0,0.0,19.0,0.0,,FI196,osm,"way/1076835777 'Kauttuan voimalaitos' (biomass, match 1.00)",Adven Oy,Vantaa
+Kavo,Kavo,Industry CHP,Peat,79.2,0.0,79.2,0.0,,,unsited,no OSM plant with matching name and source; company town PL 302,Kainuun Voima Oy,PL 302
+Keljonlahti,Keljonrannantie 276,District heating CHP,Peat,190.0,0.0,0.0,190.0,Jyväskylä,FI198,company-town,company address Jyväskylä,Jyväskylän Voima Oy,Jyväskylä
+Kellosaari,Kellosaari,Separate electricity production,Medium heavy distillates,118.0,118.0,0.0,0.0,,FI1B1,osm,"way/28231918 'Kellosaaren varavoimala' (oil, match 0.50)",Helsingin Energia,HELEN
+Keltti,Keltti,Hydro power,,19.1,19.1,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM Energy Oy,Kuusankoski
+Kelukoski,Kelukoski,Hydro power,,9.8,9.8,0.0,0.0,,FI1D7,osm,"way/226433332 'Kelukosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Kemi,Metsä Fibre Kemin tehdas,Industry CHP,Black liquor and concentrated liquors,75.0,0.0,75.0,0.0,Kemi,FI1D7,name,Kemi,Metsä Fibre Oy,Espoo
+"Kemi Ajos, Sumituuli",Kemi Ajos Sumituuli,Wind power,,2.0,2.0,0.0,0.0,Kemi,FI1D7,name,Kemi Ajos Sumituuli,Sumituuli Oy,Tornio
+Kemijärvi,Kemijärvi,District heating CHP,Forest fuelwood,4.0,0.0,0.0,4.0,Kemijärvi,FI1D7,name,Kemijärvi,Kemijärven Lämpö ja Vesi Oy,Kemijärvi
+Kerava,Alikeravan voimalaitos,District heating CHP,Natural gas,3.7,0.0,0.0,3.7,,FI1B1,osm,"way/301709185 'Keravan lämpövoimalaitos' (biomass, match 1.00)",Keravan Energia Oy,Kerava
+Kerava,"04260 Kerava, Alikeravantie 83",District heating CHP,Peat,19.04,0.0,0.0,19.04,,FI1B1,osm,"way/301709185 'Keravan lämpövoimalaitos' (biomass, match 1.00)",Keravan Lämpövoima Oy,Kerava
+Kierikki,kierikki,Hydro power,,38.0,38.0,0.0,0.0,,FI1D9,osm,"way/178848367 'Kierikin voimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Kiimassuo,Forssa,Industry CHP,Peat,13.5,0.0,13.5,0.0,,FI1C2,osm,"way/719029523 'Forssan varavoimalaitos' (oil, match 0.50)",Vapo Oy,Jyväskylä
+Killinkoski,Killinkoski,Hydro power,,4.5,4.5,0.0,0.0,,FI19B,osm,"way/928807756 'Killinkosken voimalaitos' (hydro, match 1.00)",Killin Voima Oy,Virrat
+Kiltua,"Sonkajärvi, Kiltuantie 1129 A, Jyrkkä",Hydro power,,5.6,5.6,0.0,0.0,,FI1DB,osm,"way/1035669301 'Kiltua' (hydro, match 1.00)",Savon Voima Oyj,Toivala
+Kirakkaköngäs,Kirakkaköngäs,Hydro power,,1.0,1.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Ivalo,Inergia Oy,Ivalo
+Kirkkokallio-Honkajoki,Kirkkokallio,Wind power,,21.6,21.6,0.0,0.0,,FI19B,geocoded,"Kirkkokallio, Sastamala, Lounais-Pirkanmaan seutukunta, Pirkanmaa, Manner-Suomi,",Honkajoen Tuulipuisto Ky,Helsinki
+Kirkniemi,"Kirkniemi, Kirkniemen voimalaitos",Industry CHP,Natural gas,128.0,0.0,128.0,0.0,,FI1B1,osm,"way/919933263 'Sappi Kirkniemi Power Station' (?, match 0.50)",Sappi Finland Oy,Lohja
+Kissakoski,"Hirvensalmi, Kissakoski",Hydro power,,1.6,1.6,0.0,0.0,,FI1DA,osm,"way/983687376 'Kissakosken vesivoimalaitos' (hydro, match 1.00)",SUUR-SAVON SÄHKÖ Oy,Mikkeli
+Kivivaara-Peuravaara,Kivivaara-Peuravaaran tuulivoimapuisto 1,Wind power,,39.0,39.0,0.0,0.0,,FI1D8,osm,"relation/18215512 'Kivivaara-Peuravaaran tuulivoimapuisto 1' (wind, match 1.00)",Kivivaara-Peuravaaran Tuulipuisto Ky,Helsinki
+Kivivaara-Peuravaara 2A,Kivivaara-Peuravaara 2A,Wind power,,18.0,18.0,0.0,0.0,,FI1D8,osm,"relation/18215512 'Kivivaara-Peuravaaran tuulivoimapuisto 1' (wind, match 0.67)",Kivivaara-Peuravaaran Tuulipuisto 2A Ky,Helsinki
+Kivivaara-Peuravaaran tuulivoimapuisto 3,Kivivaara-Peuravaaran tuulivoimapuisto 3,Wind power,,33.0,33.0,0.0,0.0,,FI1D8,osm,"relation/18215512 'Kivivaara-Peuravaaran tuulivoimapuisto 1' (wind, match 1.00)",Kivivaara-Peuravaaran Tuulipuisto 2B Ky,Helsinki
+Klåsarö,Klåsarö,Hydro power,,4.5,4.5,0.0,0.0,,FI1C7,osm,"way/879455054 'Klåsarön voimalaitos' (hydro, match 1.00)",Oy Mankala Ab,KAUSALA
+Koirakari,Koirakari,Wind power,,3.1,3.1,0.0,0.0,,FI1D9,geocoded,"Koirakari, Kuusamo, Koillismaan seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, Suo",Haminan Energia Oy,Hamina
+Koivukoski,Koivukosken voimalaitos Kotka,Hydro power,,1.8,1.8,0.0,0.0,Kotka,FI1C7,name,Koivukosken voimalaitos Kotka,Kolsin Vesivoimantuotanto Oy,KOKEMÄKI
+Koivukoski 1 ja 2,Koivukoski 1 ja 2,Hydro power,,2.63,2.63,0.0,0.0,,,unsited,"ambiguous: Koivukosken voimala->FI1C7, Koivukosken voimalaitos->FI1D8; company town PL 302",Kainuun Voima Oy,PL 302
+Koivukoski 3,Koivukoski 3,Hydro power,,24.3,24.3,0.0,0.0,,,unsited,"ambiguous: Koivukosken voimala->FI1C7, Koivukosken voimalaitos->FI1D8; company town PL 302",Kainuun Voima Oy,PL 302
+Kokkola,Kokkolan voimalaitos,Industry CHP,Peat,30.0,0.0,30.0,0.0,Kokkola,FI1D5,name,Kokkola,Kokkolan Energia Oy,Kokkola
+Kokkola,Kokkola,District heating CHP,Peat,19.5,0.0,0.0,19.5,Kokkola,FI1D5,name,Kokkola,Kokkolan Voima Oy,Kokkola
+Kokkosniva,Kokkosniva,Hydro power,,25.0,25.0,0.0,0.0,,FI1D7,osm,"way/1161471361 'Kokkosnivan voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Kolsi,Kolsin voimalaitos Kokemäki,Hydro power,,45.0,45.0,0.0,0.0,,FI196,osm,"way/883863659 'Kolsin voimalaitos' (hydro, match 0.50)",Kolsin Vesivoimantuotanto Oy,KOKEMÄKI
+Koneharju kt,"Koneharju Koneharjunkatu, Lahti",District heating CHP,Natural gas,4.6,0.0,0.0,4.6,Lahti,FI1C6,name,"Koneharju Koneharjunkatu, Lahti",Lahti Energia Oy,
+Kooninkallio,Kooninkallio,Wind power,,27.0,27.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Kooninkallion Tuulipuisto Ky,Helsinki
+Korkeakoski,Korkeakosken voimalaitos Kotka,Hydro power,,8.5,8.5,0.0,0.0,,FI1C7,osm,"way/182995397 'Korkeakosken voimalaitos' (hydro, match 1.00)",Kolsin Vesivoimantuotanto Oy,KOKEMÄKI
+Koskensaari,Koskensaaren voimalaitos,Separate electricity production,Medium heavy distillates,1.2,1.2,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town KINTAUS,Helsingin Rauta Oy,KINTAUS
+Koskenvarsi,Koskenvarren vesivoimalaitos,Hydro power,,0.9,0.9,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Alajärvi,Alajärven Sähkö Oy,Alajärvi
+Kotka,Kotka,Industry CHP,Black liquor and concentrated liquors,72.0,0.0,72.0,0.0,Kotka,FI1C7,name,Kotka,Kotka Mills Oy,Kotka
+Kristiina 1,Kristiina 1,Separate electricity production,Heavy distillates,0.0,0.0,0.0,0.0,Vaasa,FI19A,company-town,company address Vaasa,PVO-Lämpövoima Oy,Vaasa
+Kristiina 2,Kristiina 2,Separate electricity production,Hard coal and anthracite,0.0,0.0,0.0,0.0,Vaasa,FI19A,company-town,company address Vaasa,PVO-Lämpövoima Oy,Vaasa
+Kristiinankaupunki kt,"Kristiinankaupunki kt 1, 2",Separate electricity production,Medium heavy distillates,60.0,60.0,0.0,0.0,Kristiinankaupunki,FI19A,name,"Kristiinankaupunki kt 1, 2",Fingrid Oyj,Helsinki
+Kuhankoski,"Kuhankoski, Laukaa",Hydro power,,3.2,3.2,0.0,0.0,,FI198,osm,"way/180974536 'Kuhankosken voimalaitos' (hydro, match 1.00)",Koskienergia Oy, Mikkeli
+Kuhmon Lämpö,Kuhmo,Industry CHP,Industrial wood residues,4.0,0.0,4.0,0.0,Kuhmo,FI1D8,name,Kuhmo,Kuhmon Lämpö Oy,Kuhmo
+Kumpuniemi,Vaneritehtaankatu 1 Suolahti,Industry CHP,Industrial wood residues,2.5,0.0,1.9,0.6,,,unsited,no OSM plant with matching name and source; company town Suolahti,Kumpuniemen Voima Oy,Suolahti
+Kuokkastenkoski,"Nurmes, Kuokkastenkoski",Hydro power,,2.0,2.0,0.0,0.0,,FI1DC,osm,"way/1390990804 'Kuokkastenkosken vesivoimalaitos' (hydro, match 1.00)",Pohjois-Karjalan Sähkö Oy,Joensuu
+Kuolavaara-Keulakkopään tuulipuisto,Kuolavaara-Keulakkopää,Wind power,,51.0,51.0,0.0,0.0,,FI1D7,osm,"relation/15095419 'Kuolavaara-Keulakkopään tuulivoimapuisto' (wind, match 1.00)",Kuolavaara-Keulakkopään Tuulipuisto Oy,Oulu
+"Kuopio, Savon Sellu",Savon Sellu Vastapainevoimalaitos,Industry CHP,Black liquor and concentrated liquors,20.5,0.0,20.5,0.0,Kuopio,FI1DB,name,"Kuopio, Savon Sellu",Savon Sellu OY,KUOPIO
+Kurittukoski,Kurittukoski,Hydro power,,15.0,15.0,0.0,0.0,,FI1D7,osm,"way/1160854005 'Kurittukosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Kurkiaska,Kurkiaska,Hydro power,,27.0,27.0,0.0,0.0,,FI1D7,osm,"way/1161481195 'Kurkiaskan voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Kuurna,"Kontiolahti, Kuurna",Hydro power,,21.2,21.2,0.0,0.0,,FI1DC,osm,"way/697810350 'Kuurnan voimala' (hydro, match 1.00)",Kuurnan Voima Oy,Joensuu
+Kuuronkallion tuulipuisto,Kuuronkallion tuulipuisto,Wind power,,25.2,25.2,0.0,0.0,,FI1D5,osm,"relation/17319249 'Kuuronkallion tuulivoimapuisto' (wind, match 1.00)",wpd Kannuksen tuulipuisto oy,Espoo
+Kuusaanniemi,Kuusanniemi,Industry CHP,By-products from wood processing industry,64.0,0.0,64.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM-Kymmene Oyj,Kuusankoski
+Kuusamo,Kuusamon voimalaitos,District heating CHP,Industrial wood residues,6.0,0.0,0.0,6.0,Kuusamo,FI1D9,name,Kuusamo,Adven Oy,Vantaa
+Kuusankoski bv,Kuusankoski,Industry CHP,Industrial wood residues,76.0,0.0,76.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,Kymin Voima Oy,Kuusankoski
+Kuusankoski ve,Kuusankoski,Hydro power,,30.0,30.0,0.0,0.0,,FI1C7,osm,"way/162690579 'Kuusankosken voimalaitos' (hydro, match 1.00)",UPM Energy Oy,Kuusankoski
+Kymijärvi,"Kymijärvi Voimakatu 16, Lahti",District heating CHP,Hard coal and anthracite,45.0,0.0,0.0,45.0,,FI1C6,osm,"way/1056767012 'Kymijärvi III' (biomass, match 0.50)",Lahti Energia Oy,
+Kymijärvi 2,"Kymijärvi2 Voimakatu 16, Lahti",District heating CHP,Gasified waste,40.0,0.0,0.0,40.0,,FI1C6,osm,"way/1056767012 'Kymijärvi III' (biomass, match 0.50)",Lahti Energia Oy,
+Kyrkösjärvi,"Kyrkösjärvi, Seinäjoki",Hydro power,,7.8,7.8,0.0,0.0,,FI199,osm,"way/914514494 'Kyrkösjärven voimalaitos' (hydro, match 1.00)",Seinäjoen Energia Oy,Seinäjoki
+Kytölä,Kytölä,Wind power,,19.8,19.8,0.0,0.0,,FI1C6,geocoded,"Kytölä, Lahti, Lahden seutukunta, Päijät-Häme, Manner-Suomi, 15230, Suomi / Finl",Kytölän Tuulipuisto Ky,Helsinki
+Käenkoski,Käenkoski,Hydro power,,2.0,2.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Virrat,Killin Voima Oy,Virrat
+Lakiakangas 1,"Lakiakangas 1, Isojoki",Wind power,,7.0,7.0,0.0,0.0,,FI199,osm,"relation/17633976 'Isojoki, Lakiakangas II' (wind, match 0.67)",CPC Lakiakangas 1 Oy,Isojoki
+Lappeenranta TG9,Lappeenranta TG9,Industry CHP,Black liquor and concentrated liquors,67.3,0.0,67.3,0.0,Lappeenranta,FI1C5,name,Lappeenranta TG9,UPM-Kymmene Oyj,Kuusankoski
+"Lappeenranta, Kaukaan tehdas","Lappeenranta, Kaukaan tehdas",District heating CHP,Industrial wood residues,119.0,0.0,56.0,63.0,Lappeenranta,FI1C5,name,"Lappeenranta, Kaukaan tehdas",Kaukaan Voima Oy,Lappeenranta
+Lapua,Lapua,District heating CHP,Peat,4.0,0.0,0.0,4.0,Lapua,FI199,name,Lapua,Kiviristin Lämpö Oy,Lapua
+Larsmo tv,Larsmo Vindkraftverk,Wind power,,1.0,1.0,0.0,0.0,Larsmo,FI19A,name,Larsmo Vindkraftverk,Ab Larsmo Vindkraft Oy,Larsmo
+Latamäki,"Latamäki, Luhanka",Wind power,,18.0,18.0,0.0,0.0,Luhanka,FI198,name,"Latamäki, Luhanka",Ilmatar Luhanka Oy,Helsinki
+Leipiö 2,Leipiö 2,Wind power,,45.5,45.5,0.0,0.0,,FI1D7,osm,"relation/18355656 'Leipiön tuulivoimapuisto I' (wind, match 1.00)",Tuuliwatti Oy,Helsinki
+Leppikoski,Leppikoski,Hydro power,,24.0,24.0,0.0,0.0,,FI1D8,osm,"way/121627356 'Leppikosken voimalaitos' (hydro, match 1.00)","Fortum Power & Heat , Generation",PL 100
+Lestijärvi,Lestijärvi,Separate electricity production,,1.3,1.3,0.0,0.0,Lestijärvi,FI1D5,name,Lestijärvi,Verkko Korpela Oy,Kannus
+Leuhunkoski,Saarijärvi / Leuhunkoski,Hydro power,,3.2,3.2,0.0,0.0,Saarijärvi,FI198,name,Saarijärvi / Leuhunkoski,Vattenfall Sähköntuotanto oy,Helsinki
+Lieksa Kevätniemi,Lieksa,Industry CHP,Peat,7.0,0.0,7.0,0.0,Lieksa,FI1DC,name,Lieksa,Vapo Oy,Jyväskylä
+Lieksankoski,Lieksankoski,Hydro power,,18.0,18.0,0.0,0.0,,FI1DC,osm,"way/1299766333 'Lieksankoski' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Lielahti,Lielahti,District heating CHP,Natural gas,142.0,0.0,0.0,142.0,,FI19B,osm,"way/64526826 'Lielahden voimalaitos' (gas;oil, match 1.00)",Tampereen Sähkölaitos,TAMPERE
+Limakko,Limakko,Wind power,,27.0,27.0,0.0,0.0,,FI1D8,geocoded,"Limakko, Suomussalmi, Kehys-Kainuun seutukunta, Kainuu, Manner-Suomi, Suomi / Fi",Limakon Tuulipuisto Ky,Helsinki
+Liunankoski,"Joroinen, Liunantie 79",Hydro power,,1.2,1.2,0.0,0.0,Joroinen,FI1DB,name,"Joroinen, Liunantie 79",Savon Voima Oyj,Toivala
+Loviisa kt,"Loviisa kt 1, 2",Separate electricity production,Medium heavy distillates,40.0,40.0,0.0,0.0,Loviisa,FI1B1,name,"Loviisa kt 1, 2",Fingrid Oyj,Helsinki
+Loviisa Y1,Loviisa I,Nuclear energy,Nuclear energy,507.0,507.0,0.0,0.0,,FI1B1,osm,"way/225399990 'Loviisan ydinvoimalaitos' (nuclear, match 0.50)","Fortum Power & Heat , Power",PL 100
+Loviisa Y2,Loviisa 2,Nuclear energy,Nuclear energy,507.0,507.0,0.0,0.0,,FI1B1,osm,"way/225399990 'Loviisan ydinvoimalaitos' (nuclear, match 0.50)","Fortum Power & Heat , Power",PL 100
+Lumijoki,Lumijoki,Wind power,,1.6,1.6,0.0,0.0,Lumijoki,FI1D9,name,Lumijoki,Lumituuli Oy,Helsinki
+LW Jouttikallio,LW Jouttikallio,Wind power,,4.2,4.2,0.0,0.0,,FI199,osm,"relation/12461630 'Jouttikallion tuulivoimapuisto' (wind, match 0.50)",Kyyttö Energy Oy,Mäki-Paavola
+LW Koskenkylä,LW Koskenkylä,Wind power,,2.35,2.35,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kauhajoki,Koskenkylän Tuulienergia Oy,Kauhajoki
+LW Mustaisneva 6,Halmeen metsätie 29,Wind power,,3.0,3.0,0.0,0.0,,FI199,geocoded,"Halmeen metsätie, Kauhajoki, Suupohjan seutukunta, Etelä-Pohjanmaa, Manner-Suomi",Suotuuli Oy,Kauhajoki
+LW Pensala,Norrpiggvägen,Wind power,,3.0,3.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Pensala,Årvas Wind Ab,Pensala
+Långfors,Långfors,Hydro power,,1.2,1.2,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town 68600 Jakobstad,Oy HERRFORS Ab,68600 Jakobstad
+Maalismaa,maalismaa,Hydro power,,38.5,38.5,0.0,0.0,,FI1D9,osm,"way/543867032 'Maalismaan voimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Maavesi,"Joroinen, Katajamäentie 1461, Maavesi",Hydro power,,1.9,1.9,0.0,0.0,Joroinen,FI1DB,name,"Joroinen, Katajamäentie 1461, Maavesi",Savon Voima Oyj,Toivala
+Mankala,Mankala,Hydro power,,30.0,30.0,0.0,0.0,,FI1C6,osm,"way/159542313 'Mankalan voimalaitos' (hydro, match 1.00)",Oy Mankala Ab,KAUSALA
+Martinlaakso,Martinlaakso,District heating CHP,Forest fuelwood,199.1,2.1,0.0,197.0,,,unsited,no OSM plant with matching name and source; company town Vantaa,Vantaan Energia Oy,Vantaa
+Matarakoski,Matarakoski,Hydro power,,11.0,11.0,0.0,0.0,,FI1D7,osm,"way/1565484825 'Matarakosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Melo,melo,Hydro power,,70.0,70.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town 91100 Ii,PVO Vesivoima Oy,91100 Ii
+Merikoski,"Koskitie 30, Oulu, Merikosken voimalaitos",Hydro power,,42.0,42.0,0.0,0.0,,FI1D9,osm,"way/23586865 'Merikosken voimalaitos' (hydro, match 1.00)",Oulun Energia,Oulu 
+Meri-Pori,Meri-Pori,Separate electricity production,Hard coal and anthracite,565.0,565.0,0.0,0.0,,FI196,osm,"way/253861182 'Meri-Porin voimalaitos' (coal, match 0.50)","Fortum Power & Heat , Generation",PL 100
+Mertaniemi 1 ja 2,Mertaniemi 2,Separate electricity production,Medium heavy distillates,102.0,102.0,0.0,0.0,,FI1C5,osm,"way/492035550 'Mertaniemen voimalaitos' (gas, match 1.00)",Lappeenrannan Lämpövoima Oy,Lappeenranta
+Metsälän tuulivoimapuisto,Metsälän tuulivoimapuisto,Wind power,,117.3,117.3,0.0,0.0,,FI19A,osm,"relation/15429445 'Metsälän tuulivoimapuisto' (wind, match 1.00)",EPV Tuulivoima Oy,Vaasa
+Montta,Montta,Hydro power,,47.3,47.3,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town PL 100,"Fortum Power & Heat , Generation",PL 100
+Muntila,Muntila,Wind power,,9.0,9.0,0.0,0.0,,FI1C1,geocoded,"Muntila, Lokalahti, Uusikaupunki, Vakka-Suomen seutukunta, Varsinais-Suomi, Mann",Muntilan Tuulivoima Oy,Helsinki
+Mussalon tuulivoimalat,Tuulivoimalat,Wind power,,5.7,5.7,0.0,0.0,,FI1C7,osm,"relation/17325652 'Mussalon tuulivoimapuisto' (wind, match 0.50)",Kotkan Energia Oy,Kotka
+Mustaisneva 1-5 ja 7-9,Mustaisneva 1-5 ja 7-9,Wind power,,20.0,20.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Hoevelaken 3871 MR,SPC 2-Mustaisneva Oy,Hoevelaken 3871 MR
+Mustilankangas,Kalajoki Mustilankangas,Wind power,,92.39999999999999,92.39999999999999,0.0,0.0,,FI1D9,osm,"relation/12226072 'Kalajoen Mustilankankaan tuulipuisto' (wind, match 1.00)",Tuuliwatti Oy ,PL 100
+Mustio,"Mustio, Karjaa",Hydro power,,1.8,1.8,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Äänekoski,Koskienergia Koskivoima Oy,Äänekoski
+Myllykangas,Myllykangas,Wind power,,45.6,45.6,0.0,0.0,,FI199,geocoded,"Myllykangas, Kirkonmäki, Soini, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-",Myllykankaan tuulipuisto Ky,Kuivaniemi
+Myllykangas 3,Myllykangas 3,Wind power,,8.4,8.4,0.0,0.0,,FI199,geocoded,"Myllykangas, Kirkonmäki, Soini, Järviseudun seutukunta, Etelä-Pohjanmaa, Manner-",Myllykankaan Tuulipuisto II Ky,Helsinki
+Myllykoski,Myllykoski,Hydro power,,1.3,1.3,0.0,0.0,,FI1D9,osm,"way/758551069 'Myllykosken voimala' (hydro, match 1.00)",Koskienergia Koskivoima Oy,Äänekoski
+Myllykoski ve,Myllykosken vesivoimalaitos,Hydro power,,25.0,25.0,0.0,0.0,,FI1D9,osm,"way/758551069 'Myllykosken voimala' (hydro, match 1.00)",Myllykoski Paper Oy,Anjalankoski
+Myllykoski vp,"Myllykoskentie 1, Anjalankoski",Industry CHP,Industrial wood residues,32.8,0.0,32.8,0.0,Tampere,FI19B,company-town,company address Tampere,UPM,Tampere
+Mäkikankaan tuulipuisto,"Mäkikankaan tuulipuisto, Pyhäjoki",Wind power,,33.0,33.0,0.0,0.0,Pyhäjoki,FI1D9,name,"Mäkikankaan tuulipuisto, Pyhäjoki",wpd Mäkikankaan tuulipuisto Oy,Espoo
+Mäkipää Diesel,Mäkipää Diesel,Separate electricity production,Medium heavy distillates,1.0,1.0,0.0,0.0,Vaasa,FI19A,company-town,company address Vaasa,Vaasan Sähköverkko Oy,Vaasa
+Mänttä lä,Tehtaankatu 20 Mänttä,Industry CHP,Peat,12.0,0.0,12.0,0.0,,,unsited,no OSM plant with matching name and source; company town Mänttä,Mäntän Energia Oy,Mänttä
+Mänttä ve,Mäntänkoskentie 15 Mänttä,Hydro power,,1.5,1.5,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Mänttä,Mäntän Energia Oy,Mänttä
+Naantali,Naantalin voimalaitos,District heating CHP,Hard coal and anthracite,450.0,0.0,0.0,450.0,Naantali,FI1C1,name,Naantali,Turun Seudun Energiantuotanto Oy,FORTUM
+Naantali kt,"Naantali kt 1, 2",Separate electricity production,Medium heavy distillates,40.0,40.0,0.0,0.0,Naantali,FI1C1,name,"Naantali kt 1, 2",Fingrid Oyj,Helsinki
+Nahkakallio,Nahkakallio,Wind power,,26.4,26.4,0.0,0.0,,FI1D9,geocoded,"Nahkakallio, Raahe, Raahen seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, 92230, S",Puhuri Oy,Haapavesi
+Naistenlahti 1,Naistenlahti 1,District heating CHP,Natural gas,129.0,0.0,0.0,129.0,Tampere,FI19B,company-town,company address TAMPERE,Tampereen Sähkölaitos,TAMPERE
+Naistenlahti 2,Naistenlahti 2,District heating CHP,Peat,62.2,0.0,0.0,62.2,Tampere,FI19B,company-town,company address TAMPERE,Tampereen Sähkölaitos,TAMPERE
+Nastola kt,Nastola Rakokiventie 23,District heating CHP,Natural gas,4.6,0.0,0.0,4.6,,,unsited,no OSM plant with matching name and source; company town None,Lahti Energia Oy,
+Nikkarinkaarto,Nikkarinkaarto T1-T10,Wind power,,33.0,33.0,0.0,0.0,,FI1D9,osm,"relation/17323650 'Nikkarinkaarron tuulivoimapuisto' (wind, match 1.00)",Suomen Hyötytuuli Oy, Pori
+Nikkilä,Nikkilän voimalaitos,District heating CHP,Natural gas,5.4,0.0,0.0,5.4,Kerava,FI1B1,company-town,company address Kerava,Keravan Energia Oy,Kerava
+Nivala,Lämpölä/Hyttitie 5 Nivala,District heating CHP,Forest fuelwood,5.3,0.0,0.0,5.3,,FI1D9,osm,"way/949663788 'Nivalan Kaukolämpö' (biomass, match 0.50)",Nivalan Kaukolämpö Oy,Nivala 
+Nokia kombi,"Nokia, Kerhokatu 10",Industry CHP,Natural gas,72.0,0.0,72.0,0.0,Nokia,FI19B,name,"Nokia, Kerhokatu 10",Leppäkosken Sähkö Oy,Ikaalinen
+Nuojua,Nuojua,Hydro power,,85.2,85.2,0.0,0.0,,FI1D9,osm,"way/178199756 'Nuojuan voimalaitos' (hydro, match 1.00)","Fortum Power & Heat , Generation",PL 100
+Nurmon Aurinko,"Nurmon Aurinko, Atriantie 1, 60550 Seinäjoki",Solar,,1.0,1.0,0.0,0.0,Seinäjoki,FI199,name,"Nurmon Aurinko, Atriantie 1, 60550 Seinäjoki",Nurmon Aurinko Oy,Tampere
+Nyby-Ii,Nyby,Wind power,,19.2,19.2,0.0,0.0,,FI1C6,geocoded,"Uusikylä, Nastolan suuralue, Lahti, Lahden seutukunta, Päijät-Häme, Manner-Suomi",Nybyn Tuulipuisto Ky,Helsinki
+Oksava,Haapajärvi / Oksava,Hydro power,,3.0,3.0,0.0,0.0,,FI1D9,osm,"way/162548628 'Oksavan voimalaitos' (hydro, match 1.00)",Vattenfall Sähköntuotanto oy,Helsinki
+Olkiluoto 1,Olkiluoto 1,Nuclear energy,Nuclear energy,890.0,890.0,0.0,0.0,Eurajoki,FI196,manual,"Olkiluoto nuclear site, Eurajoki",Teollisuuden Voima Oy,Olkiluoto
+Olkiluoto 2,Olkiluoto 2,Nuclear energy,Nuclear energy,890.0,890.0,0.0,0.0,Eurajoki,FI196,manual,"Olkiluoto nuclear site, Eurajoki",Teollisuuden Voima Oyj,Olkiluoto
+Olkiluoto kt,"Olkiluoto KT 1 ja 2, Eurajoki",Separate electricity production,Medium heavy distillates,100.5,100.5,0.0,0.0,,FI196,osm,"way/882044995 'Olkiluodon varavoimalaitos' (oil, match 0.50)",Fingrid Oyj,Helsinki
+Onkalo 2,"Onkalo, Simo",Wind power,,10.5,10.5,0.0,0.0,Simo,FI1D7,name,"Onkalo, Simo",Tuuliwatti Oy,Helsinki
+Ossauskoski,Ossauskoski,Hydro power,,124.0,124.0,0.0,0.0,,FI1D7,osm,"way/536134774 'Ossauskosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Oulu,Oulu,Industry CHP,Black liquor and concentrated liquors,105.0,0.0,105.0,0.0,Oulu,FI1D9,name,Oulu,"Stora Enso Oyj, Oulun tehdas",Oulu
+"Oulu, Laanilan Voima",Oulu,Industry CHP,Peat,28.0,0.0,28.0,0.0,Oulu,FI1D9,name,Oulu,Laanilan Voima Oy,Oulu
+Oulunsalo Riutunkari tv,"Oulunsalo, Riutunkari T1-T6",Wind power,,6.0,6.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Rovaniemi,Pohjantuulen Voima Oy,Rovaniemi
+Padinki,"Padinki, Nivala",Hydro power,,1.0,1.0,0.0,0.0,Nivala,FI1D9,name,"Padinki, Nivala",Korpelan Voima kuntayhtymä,Kannus
+Pahkakoski,pahkakoski,Hydro power,,42.1,42.1,0.0,0.0,,FI1D9,osm,"way/1350641351 'Pahkakosken voimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Pajukoski 1 A,Pajukoski 1A,Wind power,,6.6,6.6,0.0,0.0,,FI1D9,osm,"relation/17319241 'Pajukoski I' (wind, match 1.00)",Windfarm Ylivieska Pajukoski Ky,Helsinki
+Pajukoski 1 B,Pajukosken tuulipuisto 1 B,Wind power,,23.1,23.1,0.0,0.0,,FI1D9,osm,"relation/17319241 'Pajukoski I' (wind, match 1.00)",Pajukosken tuulipuisto Oy,Helsinki
+Palokki,"Heinävesi, Palokki",Hydro power,,6.8,6.8,0.0,0.0,Heinävesi,FI1DC,name,"Heinävesi, Palokki",Pohjois-Karjalan Sähkö Oy,Joensuu
+Pamilo,Pamilon vesivoimalaitos,Hydro power,,85.0,85.0,0.0,0.0,,FI1DC,osm,"relation/13667019 'Pamilon vesivoimalaitos' (hydro, match 1.00)",Pamilo Oy,Luhtapohja
+Pankakoski,Pankakoski,Hydro power,,15.6,15.6,0.0,0.0,,FI1DC,osm,"way/906669060 'Pankakoski' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Parantalankoski,Parantala Äänekoski,Hydro power,,0.9,0.9,0.0,0.0,Äänekoski,FI198,name,Parantala Äänekoski,Koskienergia Oy, Mikkeli
+Paskoonharju 1,Paskoonharju 1,Wind power,,6.4,6.4,0.0,0.0,,FI199,osm,"relation/16503263 'Paskoonharjun tuulivoimapuisto' (wind, match 1.00)",EPV Tuulivoima Oy,Vaasa
+Patalankoski,Patala,Hydro power,,2.4,2.4,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM-Kymmene Oyj,Kuusankoski
+Peltokoski,"Peltokoski, Karjaa",Hydro power,,2.3,2.3,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Äänekoski,Koskienergia Koskivoima Oy,Äänekoski
+Permantokoski,Permantokoski,Hydro power,,13.0,13.0,0.0,0.0,,FI1D7,osm,"way/401430829 'Permantokosken vesivoimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Pettumäen Mylly,Pettumäki Teuva,Wind power,,2.5,2.5,0.0,0.0,Teuva,FI199,name,Pettumäki Teuva,Pettumäen Mylly oy,Teuva
+Petäjäskoski,Petäjäskoski,Hydro power,,182.0,182.0,0.0,0.0,,FI1D7,osm,"way/536423593 'Petäjäskosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Pieksämäki,"Pieksämäki, Kutteritie 2A",District heating CHP,Peat,10.0,0.0,0.0,10.0,Pieksämäki,FI1DA,name,"Pieksämäki, Kutteritie 2A",Savon Voima Oyj,Toivala
+Pietarsaari (Wisapower Oy),"Pietarsaari, Wisapower",Industry CHP,Black liquor and concentrated liquors,116.0,0.0,116.0,0.0,Pietarsaari,FI19A,name,"Pietarsaari, Wisapower",UPM-Kymmene Oyj Wisaforest,Kuusankoski
+Pihlava,Pori Pihlava,Industry CHP,Industrial wood residues,0.0,0.0,0.0,0.0,Pori,FI196,name,Pori Pihlava,Pori Energia Oy,PORI
+Pirttikoski,Pirttikoski,Hydro power,,152.0,152.0,0.0,0.0,,FI1D5,osm,"way/241289593 'Pirttikosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Pirttiselkä,Pirttiselkä,Wind power,,27.6,27.6,0.0,0.0,,FI1D9,osm,"relation/17323636 'Pirttiselän tuulivoimapuisto' (wind, match 1.00)",Puhuri Oy,Haapavesi
+Pitkämö,"Pitkämö, Kurikka",Hydro power,,6.3,6.3,0.0,0.0,,FI199,osm,"way/914514490 'Pitkämön voimalaitos' (hydro, match 1.00)",Koskienergia Koskivoima Oy,Äänekoski
+Pori,"Titaanitie, 28840 PORI",Industry CHP,Peat,81.4,0.0,81.4,0.0,Pori,FI196,name,"Titaanitie, 28840 PORI",Porin Prosessivoima Oy,00101 Helsinki
+Pori Kirrinsanta,Pori Kirrinsanta,Wind power,,6.6,6.6,0.0,0.0,Pori,FI196,name,Pori Kirrinsanta,Suomen Hyötytuuli Oy,Pori
+Pori Peittoo,Pori Peittoo,Wind power,,54.0,54.0,0.0,0.0,Pori,FI196,name,Pori Peittoo,Tuuliwatti Oy ,PL 100
+Porin tuulipuisto tv 1 - 10,Pori (Tahkoluoto / Reposaari),Wind power,,9.0,9.0,0.0,0.0,Pori,FI196,name,Pori (Tahkoluoto / Reposaari),Suomen Hyötytuuli Oy,PORI
+Porituuli,Tahkoluodon syväsatama Tuulivoimala 10,Wind power,,3.0,3.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Oulu,Porituuli Oy,Oulu
+Portimokoski,Portimokoski,Hydro power,,11.0,11.0,0.0,0.0,,FI1D7,osm,"way/1044077668 'Portimokosken voimalaitos' (hydro, match 1.00)",Tornionlaakson Voima Oy-,Pello
+Porttipahta,Porttipahta,Hydro power,,35.0,35.0,0.0,0.0,,FI1D7,osm,"way/1160854001 'Porttipahdan voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Porvoo,Porvoo,Separate electricity production,Heavy distillates,31.0,31.0,0.0,0.0,Porvoo,FI1B1,name,Porvoo,Kilpilahden Voimalaitos Oy,Porvoo
+Porvoo Kilpilahti,Kilpilahti kt vvl,Separate electricity production,Medium heavy distillates,27.0,27.0,0.0,0.0,,FI1B1,osm,"way/1094640663 'Kilpilahden voimalaitos' (?, match 0.50)",Fingrid Oyj,Helsinki
+Porvoo kt 2,Porvoo kt 2,Industry CHP,Natural gas,48.0,0.0,48.0,0.0,Porvoo,FI1B1,name,Porvoo kt 2,Kilpilahden Voimalaitos Oy,Porvoo
+Porvoo kt 3,Porvoo kt 3,Industry CHP,Natural gas,72.6,0.0,72.6,0.0,Porvoo,FI1B1,name,Porvoo kt 3,Kilpilahden Voimalaitos Oy,Porvoo
+Porvoo Tolkkinen,"Tolkkinen kt 1, 2",Separate electricity production,Medium heavy distillates,40.0,40.0,0.0,0.0,Porvoo,FI1B1,name,Porvoo Tolkkinen,Fingrid Oyj,Helsinki
+Posion CHP-laitos,Posion Voimalaitos Rantatie 3 97900 Posio,District heating CHP,Forest fuelwood,0.6,0.0,0.0,0.6,Posio,FI1D7,name,Posion Voimalaitos Rantatie 3 97900 Posio,Posion Vesi ja Lämpö Oy, POSIO
+Posion Energia Oy,Posion Energia Oy,Wind power,,24.2,24.2,0.0,0.0,,FI200,osm,"way/550296764 'Mariehamns Energi Ab' (?, match 0.50)",Posion Energia Oy,Helsinki
+Puntarikoski,"Kontiolahti, Puntarikoski",Hydro power,,6.9,6.9,0.0,0.0,,FI1DC,osm,"way/60164794 'Puntarikosken voimalaitos' (hydro, match 1.00)",Pohjois-Karjalan Sähkö Oy,Joensuu
+Pursiala 1,Pursiala 1,District heating CHP,Forest fuelwood,27.0,0.0,0.0,27.0,Mikkeli,FI1DA,company-town,company address MIKKELI,Etelä-Savon Energia Oy,MIKKELI
+Pursiala 2,Pursiala 2,District heating CHP,Peat,32.0,0.0,0.0,32.0,Mikkeli,FI1DA,company-town,company address MIKKELI,Etelä-Savon Energia Oy,MIKKELI
+Puulaakso,Puulaakson Energia Oy  Hongantie 93,Industry CHP,Industrial wood residues,0.9,0.0,0.9,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Puulaakson Energia Oy,Helsinki
+Puuska 2,Puuska 2,Wind power,,16.5,16.5,0.0,0.0,,FI1B1,geocoded,"2, Puuskakuja, Jollas, Laajasalo, Kaakkoinen suurpiiri, Helsinki, Helsingin seut",Rajakiiri Oy,Vaasa
+Pyhäjoki,Pyhäjoki,Wind power,,26.4,26.4,0.0,0.0,Pyhäjoki,FI1D9,name,Pyhäjoki,Tuulipuisto Oy Pyhäjoki,Helsinki
+Pyhäkoski,Pyhäkoski,Hydro power,,146.0,146.0,0.0,0.0,,FI1D9,osm,"way/149965688 'Pyhäkosken vesivoimalaitos' (hydro, match 1.00)","Fortum Power & Heat , Generation",PL 100
+Pyhänkoski,Pyhänkoski,Wind power,,13.2,13.2,0.0,0.0,,FI1D9,geocoded,"Pyhänkoski, Merijärvi, Ylivieskan seutukunta, Pohjois-Pohjanmaa, Manner-Suomi, S",CHORUS Wind Pyhänkoski Oy,Helsinki
+Pyhännänkoski,Ristijärvi (Pyhännänkoski,Hydro power,,2.9,2.9,0.0,0.0,Ristijärvi,FI1D8,name,Ristijärvi (Pyhännänkoski,Kainuun Energia Oy,Kajaani
+Pälli,Pälli,Hydro power,,50.7,50.7,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town PL 100,"Fortum Power & Heat , Generation",PL 100
+Raahe,Raahe,Industry CHP,Blast furnace gas,94.0,0.0,94.0,0.0,Raahe,FI1D9,name,Raahe,Raahen Voima Oyj,Raahen Voima Oyj
+Raahen tuulipuisto tv 1- 9,Raahe tv 1-9,Wind power,,20.7,20.7,0.0,0.0,Raahe,FI1D9,name,Raahe tv 1-9,Suomen Hyötytuuli Oy,Pori
+Raasakka,raasakka,Hydro power,,60.0,60.0,0.0,0.0,,FI1D9,osm,"way/126414180 'Raasakan voimalaitos' (hydro, match 1.00)",PVO Vesivoima Oy,91100 Ii
+Raisio,Raisio,Industry CHP,Heavy distillates,0.0,0.0,0.0,0.0,Raisio,FI1C1,name,Raisio,Raisionkaaren Teollisuuspuisto Oy,RAISIO
+Rasmus 1 ja 2,"Rasmus 1 ja 2, Ilmajoki",Wind power,,3.0,3.0,0.0,0.0,Ilmajoki,FI199,name,"Rasmus 1 ja 2, Ilmajoki",Koskenkorvan Tuulivoima Oy,Koskenkorva 
+Ratiperä,Ratiperä,Wind power,,27.0,27.0,0.0,0.0,,FI196,osm,"relation/15538094 'Ratiperän tuulipuisto' (wind, match 1.00)",Ratiperän Tuulivoima Oy,Helsinki
+Rauhalahti,Rauhalahti,District heating CHP,Peat,80.0,0.0,0.0,80.0,Jyväskylä,FI198,company-town,company address Jyväskylä,Jyväskylän Energiantuotanto Oy,Jyväskylä
+Rauma,Metsä Fibre Rauman tehdas,Industry CHP,Black liquor and concentrated liquors,75.0,0.0,75.0,0.0,Rauma,FI196,name,Rauma,Metsä Fibre Oy,Espoo
+Rauma,Rauma,Industry CHP,Industrial wood residues,71.5,0.0,71.5,0.0,Rauma,FI196,name,Rauma,Rauman Biovoima Oy,26101 RAUMA
+Rengon saha,Renko,Industry CHP,Industrial wood residues,1.3,0.0,1.3,0.0,,,unsited,no OSM plant with matching name and source; company town PL 22,Biokraft Oy,PL 22
+RES1,"Märynummi, Salo",Wind power,,5.0,5.0,0.0,0.0,,FI1C1,osm,"relation/12222739 'Salo Märynummi' (wind, match 1.00)",Restuuli Oy,Salo
+Riihimäki (Ekokem),"Kuulojankatu 1, 11120 RIIHIMÄKI",District heating CHP,Other by-products and wastes used as fuel,19.6,0.0,0.0,19.6,,FI1C2,osm,"way/1255403268 'Riihimäen tuotantolaitos' (waste, match 0.50)",EKOKEM OY AB,RIIHIMÄKI
+Riikinvoima,Riikinvoima,District heating CHP,Mixed fuels,11.8,0.0,0.0,11.8,,FI1DB,osm,"way/1327503503 'Riikinvoiman ekovoimalaitos' (waste, match 0.50)",Riikinvoima Oy,Varkaus
+Ristiina,Ristiina,Industry CHP,Industrial wood residues,8.5,0.0,8.5,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Järvi-Suomen Voima Oy,Helsinki
+Ruskeakoski,"Joensuu, Ruskeakoski",Hydro power,,3.3,3.3,0.0,0.0,,FI1DC,osm,"way/452543204 'Ruskeakosken voimalaitos' (hydro, match 1.00)",Pohjois-Karjalan Sähkö Oy,Joensuu
+Ruusutarhat,Valkeala,Separate electricity production,Natural gas,2.7,1.2,1.5,0.0,Kouvola,FI1C7,company-town,company address 45100   Kouvola,Ruusutarhat Suutari Oy,45100   Kouvola
+"Röyttä, Tornion tehtaat, 11 generaattoria",Tornion Tehtaat Röyttä,Separate electricity production,Medium heavy distillates,16.0,16.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town 95400,Outokumpu Stainless Oy,95400
+Saarenkylän tuulipuisto,Saarenkylän tuulivoimapuisto,Wind power,,29.7,29.7,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Oulu,Saarenkylä Tuulipuisto Oy,Oulu
+Saario,"Tohmajärvi, Saario",Hydro power,,1.6,1.6,0.0,0.0,,FI1DC,osm,"way/176258772 'Saarion voimalaitos' (hydro, match 1.00)",Pohjois-Karjalan Sähkö Oy,Joensuu
+Sallila,Sallila (Vampulan kunnassa),Hydro power,,1.2,1.2,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Alastaro,Sallila Energia Oy,Alastaro
+Salmisaari B,Salmisaaren voimalaitos,District heating CHP,Hard coal and anthracite,163.0,0.0,0.0,163.0,,,unsited,no OSM plant with matching name and source; company town HELEN,Helsingin Energia,HELEN
+Salo,Salo,District heating CHP,Peat,13.5,0.0,0.0,13.5,Salo,FI1C1,name,Salo,Voimavasu Oy,Jyväskylä
+Salo Märynummi,Salo Märynummi,Wind power,,10.0,10.0,0.0,0.0,,FI1C1,osm,"relation/12222739 'Salo Märynummi' (wind, match 1.00)",Tuuliwatti Oy ,PL 100
+Santavuori 1,Santavuori 1,Wind power,,56.1,56.1,0.0,0.0,,FI199,osm,"relation/12528597 'Santavuoren tuulivoimapuisto' (wind, match 1.00)",EPV Tuulivoima Oy,Vaasa
+Sarvankangas,"TW Sarvankangas, Raahe",Wind power,,49.0,49.0,0.0,0.0,,FI1D9,osm,"relation/17323787 'Sarvankankaan tuulivoimapuisto' (wind, match 1.00)",Tuuliwatti Oy,Helsinki
+Savela,Savela,Separate electricity production,Heavy distillates,0.0,0.0,0.0,0.0,,FI198,osm,"way/140505921 'Savelan Voimalaitos' (oil, match 1.00)",Jyväskylän Energiantuotanto Oy,Jyväskylä
+Savio,Savion voimalaitos,District heating CHP,Natural gas,3.9,0.0,0.0,3.9,Kerava,FI1B1,company-town,company address Kerava,Keravan Energia Oy,Kerava
+Savonlinna,Savonlinna,District heating CHP,Industrial wood residues,17.5,0.0,0.0,17.5,Savonlinna,FI1DA,name,Savonlinna,Järvi-Suomen Voima Oy,Helsinki
+Seinäjoki (SEVO),Seinäjoki Sevo,,Peat,120.0,0.0,0.0,120.0,,FI199,osm,"way/167040166 'Seinäjoen voimalaitos' (biomass, match 0.50)",Seinäjoen Voima Oy,Vaasa
+Seitakorva,Seitakorva,Hydro power,,144.0,144.0,0.0,0.0,,FI1D7,osm,"way/399928466 'Seitakorvan vesivoimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Seitenoikea,Seitenoikea,Hydro power,,37.9,37.9,0.0,0.0,,FI1D8,osm,"way/363178753 'Seitenoikean vesivoimalaitos' (hydro, match 1.00)","Fortum Power & Heat , Generation",PL 100
+Siikainen Jäneskeidas,Siikainen Jäneskeidas,Wind power,,26.4,26.4,0.0,0.0,,FI196,osm,"relation/17630176 'Siikainen Jäneskeidas' (wind, match 1.00)",Tuuliwatti Oy ,PL 100
+Siikakoski,Valkeala / Siikakoski,Hydro power,,1.8,1.8,0.0,0.0,,FI1C7,osm,"way/208411465 'Siikakosken voimala' (hydro, match 1.00)",KSS Energia Oy,Kouvola
+"Siilinjärvi, V1 turb. ja vp turb.",Siilinjärvi,Industry CHP,Exothermic heat from industry,25.1,0.0,25.1,0.0,Siilinjärvi,FI1DB,name,Siilinjärvi,Yara Suomi Oy,Siilinjärvi
+Simo Leipiö,Simo Leipiö,Wind power,,18.0,18.0,0.0,0.0,,FI1D7,osm,"relation/17065292 'Leipiön tuulivoimapuisto III' (wind, match 0.50)",Tuuliwatti Oy ,PL 100
+"Simo, Onkalonperä tv","Simo, Onkaloperä tv",Wind power,,9.0,9.0,0.0,0.0,Simo,FI1D7,name,"Simo, Onkaloperä tv",Aalto Wind No 1 Ltd. Oy,Helsinki
+"Simo, Putaankangas tv","Simo, Putaankangas",Wind power,,9.0,9.0,0.0,0.0,Simo,FI1D7,name,"Simo, Putaankangas",Aalto Wind No 1 Ltd. Oy,Helsinki
+Simpele,Simpele,Industry CHP,Peat,34.5,9.1,25.4,0.0,,,unsited,no OSM plant with matching name and source; company town Espoo,Metsä Board Oyj,Espoo
+Siuronkoski,"Siuronkoski, Nokia",Hydro power,,0.7,0.7,0.0,0.0,,FI19B,osm,"node/1585227430 'Siuron voimala' (hydro, match 1.00)",Virolan puutarha,Kangasala
+Sodankylän varuskunta,Sodankylän varuskunta,Separate electricity production,Light distillates,0.9,0.9,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Puolustushallinnon rakennuslaitos,Helsinki
+Soilu,Soilu,Hydro power,,1.8,1.8,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Äänekoski,Koskienergia Koskivoima Oy,Äänekoski
+Soininkoski,Soininkoski,Hydro power,,1.42,1.42,0.0,0.0,,FI19B,osm,"way/1536541901 'Soininkosken voimalaitos' (hydro, match 1.00)",Killin Voima Oy,Virrat
+Sopenkorpi,"Sopenkorpi Mestarinkatu 11, Lahti",Separate electricity production,Light distillates,14.5,14.5,0.0,0.0,Lahti,FI1C6,name,"Sopenkorpi Mestarinkatu 11, Lahti",Lahti Energia Oy,
+Sotkamo,Sotkamo,Industry CHP,Peat,1.3,0.0,1.3,0.0,Sotkamo,FI1D8,name,Sotkamo,Vapo Oy,Jyväskylä
+Stadsforsens Kraftverk,Stadsforsens Kraftverk,Hydro power,,4.6,4.6,0.0,0.0,,FI19A,osm,"way/923531006 'Stadsforsens kraftverk' (hydro, match 1.00)",Nykarleby Kraftverk,Nykarleby
+Summa tv,Summa tv,Wind power,,12.0,12.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Hamina,Haminan Energia,Hamina
+Sunila,"Kotka, Sunila",Industry CHP,Black liquor and concentrated liquors,35.7,0.0,35.7,0.0,Kotka,FI1C7,name,"Kotka, Sunila",Stora Enso Oyj,Sunila
+Suomenojan voimalaitos,Suomenojan voimalaitos,District heating CHP,Hard coal and anthracite,358.0,0.0,0.0,358.0,Espoo,FI1B1,manual,"Suomenoja power plant, Espoo",Fortum Power and Heat Oy,FORTUM
+Suosiola,"Lampelankatu 24, Suosiola",District heating CHP,Peat,30.0,0.0,0.0,30.0,,FI1D7,osm,"way/215062206 'Suosiolan voimalaitos' (biomass, match 1.00)",ROVANIEMEN ENERGIA OY,96101 ROVANIEMI
+Svalskulla,"Svalskulla, Närpiö",Wind power,,15.0,15.0,0.0,0.0,Närpiö,FI19A,name,"Svalskulla, Närpiö",VindIn Svalskulla Ab/Oy,Helsinki
+Sysimylly,"Luomankyläntie 591, Luomankylä",Wind power,,2.5,2.5,0.0,0.0,,FI19B,geocoded,"Luomankyläntie, Vatajankylä, Parkano, Luoteis-Pirkanmaan seutukunta, Pirkanmaa, ",Sysituuli Oy,Luomakylä
+Sähkäle  II,"Sähkäle II, Lumijoki",Wind power,,1.6,1.6,0.0,0.0,Lumijoki,FI1D9,name,"Sähkäle II, Lumijoki",Lumituuli Oy,Helsinki
+Säkylä,Säkylä,Industry CHP,Heavy distillates,8.8,0.0,8.8,0.0,Säkylä,FI196,name,Säkylä,Voimavasu Oy,Jyväskylä
+Sälevä,"Lapinlahti, Itäkoskentie 53, Paloinen",Hydro power,,3.0,3.0,0.0,0.0,Lapinlahti,FI1DB,name,"Lapinlahti, Itäkoskentie 53, Paloinen",Savon Voima Oyj,Toivala
+Sänkiaho,Sänkiahon 110/ 20 kV sähköasema,Separate electricity production,Medium heavy distillates,2.1,2.1,0.0,0.0,Alajärvi,FI199,company-town,company address Alajärvi,Alajärven Sähkö Oy,Alajärvi
+Tahkoluoto,Tahkoluoto,Separate electricity production,Hard coal and anthracite,0.0,0.0,0.0,0.0,,FI196,osm,"way/999888627 'Fingrid Tahkoluoto' (oil, match 0.50)",PVO-Lämpövoima Oy,Vaasa
+Tahkoluoto kt,"Tahkoluoto kt 1, 2",Separate electricity production,Medium heavy distillates,52.0,52.0,0.0,0.0,,FI196,osm,"way/999888627 'Fingrid Tahkoluoto' (oil, match 0.50)",Fingrid Oyj,Helsinki
+Tahkoluoto Offshore tv,"Pori, Tahkoluodon edusta",Wind power,,2.3,2.3,0.0,0.0,Pori,FI196,name,"Pori, Tahkoluodon edusta",Suomen Hyötytuuli Oy,Pori
+Tahkoluoto T1-T10,Tahkoluoto T1-T10,Wind power,,42.0,42.0,0.0,0.0,Pori,FI196,manual,"Tahkoluoto offshore wind farm, Pori",Suomen Hyötytuuli Oy,Pori
+Tahkoluoto tv,"Pori, Tahkoluoto",Wind power,,3.0,3.0,0.0,0.0,Pori,FI196,name,"Pori, Tahkoluoto",Tuuliwatti Oy ,PL 100
+Tainionkoski,Tainionkoski,Hydro power,,65.5,65.5,0.0,0.0,,FI1C5,osm,"way/174170518 'Tainionkosken voimalaitos' (hydro, match 1.00)",Fortum Power and Heat Oy,PL 100
+Taivalkoski,Taivalkoski,Hydro power,,133.0,133.0,0.0,0.0,,FI1D7,osm,"way/169899620 'Taivalkosken vesivoimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Tako T2 ja T5,"M-real Tako Board kartonkitehdas, Tampere",Industry CHP,Natural gas,16.5,5.0,11.5,0.0,Tampere,FI19B,name,"M-real Tako Board kartonkitehdas, Tampere",Metsä Board Oyj,Espoo
+Tammerkoski,Tammerkoski,Hydro power,,8.6,8.6,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town TAMPERE,Tampereen Sähkölaitos,TAMPERE
+Tammervoima,Tammervoima / Hyötyvoimankuja 1,District heating CHP,Other by-products and wastes used as fuel,12.3,0.0,0.0,12.3,,FI19B,osm,"way/893187155 'Tammervoiman hyötyvoimalaitos' (waste, match 0.50)",Tammervoima Oy,Tampere
+Tampella ve,Tampella ve,Hydro power,,3.01,3.01,0.0,0.0,,FI19B,osm,"way/1246065635 'Yläkosken voimalaitos, Tampella' (hydro, match 0.50)",Tampereen Sähkölaitos,TAMPERE
+Tervakoski lä,Tervakoski,Industry CHP,Natural gas,11.4,3.9,7.5,0.0,,,unsited,no OSM plant with matching name and source; company town Tervakoski,Tervakoski Oy,Tervakoski
+Tervasaari lä,Tervasaari VP2 ja 3,Industry CHP,Black liquor and concentrated liquors,41.0,0.0,41.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM-Kymmene Oyj,Kuusankoski
+Tervasaari ve,Tervasaari vesi,Hydro power,,3.0,3.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM-Kymmene Oyj,Kuusankoski
+"Tervola, Varevaara tv",Tervola Varevaara,Wind power,,32.25,32.25,0.0,0.0,,FI1D7,osm,"relation/17561067 'Varevaaran tuulivoimapuisto' (wind, match 0.50)",Tuuliwatti Oy ,PL 100
+Tiihala,"Tiihala, Kangasala",Industry CHP,Light distillates,1.0,0.0,1.0,0.0,Kangasala,FI19B,name,"Tiihala, Kangasala",Virolan puutarha,Kangasala
+Tohkoja 1,Tohkojan tuulipuisto 1,Wind power,,13.2,13.2,0.0,0.0,,FI1D9,osm,"relation/12226248 'Tohkoja' (wind, match 1.00)",Tohkojan Tuulipuisto Oy,Espoo
+Tohkoja 2,Tohkojan tuulipuisto 2,Wind power,,13.2,13.2,0.0,0.0,,FI1D9,osm,"relation/12226248 'Tohkoja' (wind, match 1.00)",Tohkojan Tuulipuisto Oy,Espoo
+Tohkoja 3,Tohkojan tuulipuisto 3,Wind power,,13.2,13.2,0.0,0.0,,FI1D9,osm,"relation/12226248 'Tohkoja' (wind, match 1.00)",Tohkojan Tuulipuisto Oy,Espoo
+Tohkoja 4,Tohkojan tuulipuisto 4,Wind power,,9.9,9.9,0.0,0.0,,FI1D9,osm,"relation/12226248 'Tohkoja' (wind, match 1.00)",Tohkojan Tuulipuisto Oy,Espoo
+Tohkoja 5,Tohkojan tuulipuisto 5,Wind power,,13.2,13.2,0.0,0.0,,FI1D9,osm,"relation/12226248 'Tohkoja' (wind, match 1.00)",Tohkojan Tuulipuisto Oy,Espoo
+Tohkoja 6,Tohkojan tuulipuisto 6,Wind power,,9.9,9.9,0.0,0.0,,FI1D9,osm,"relation/12226248 'Tohkoja' (wind, match 1.00)",Tohkojan Tuulipuisto Oy,Espoo
+Toholampi,Toholampi,District heating CHP,Forest fuelwood,1.3,0.0,0.0,1.3,Toholampi,FI1D5,name,Toholampi,Toholammin Energia Oy,Toholampi
+Tolkkinen 1,Tolkkinen,District heating CHP,Forest fuelwood,7.8,0.0,0.0,7.8,,,unsited,no OSM plant with matching name and source; company town None,Porvoon Energia Oy,
+"Tolkkinen, Biolaitos","Tolkkinen, Biolaitos",District heating CHP,Forest fuelwood,11.3,0.0,0.0,11.3,Porvoo,FI1B1,company-town,company address  Porvoo,Porvoon Energia Oy, Porvoo
+Topinojan Biokaasulaitos,Topinojan Biokaasulaitos,Industry CHP,Biogas,0.8,0.0,0.8,0.0,,FI1C1,osm,"way/1119609003 'Topinojan biokaasulaitos' (biomass, match 1.00)",Höyrytys Oy,Kerava
+Toppila 1,"Tervahovintie 10, Oulu, Toppila 1",District heating CHP,Peat,65.0,0.0,0.0,65.0,,FI1D9,osm,"relation/14692147 'Toppilan voimalaitos' (biomass, match 1.00)",Oulun Energia Oy,Oulu 
+Toppila 2,"Tervahovintie 10, Oulu, Toppila 2",District heating CHP,Peat,98.0,0.0,0.0,98.0,,FI1D9,osm,"relation/14692147 'Toppilan voimalaitos' (biomass, match 1.00)",Oulun Energia Oy,Oulu 
+Torkkolan tuulipuisto,Torkkola,Wind power,,52.8,52.8,0.0,0.0,,FI19A,osm,"relation/12529065 'Torkkolan tuulivoimapuisto' (wind, match 1.00)",EPV Tuulivoima Oy,Vaasa
+Tornio,Tornio; Tornion voimalaitos,Industry CHP,Peat,39.3,0.0,39.3,0.0,Tornio,FI1D7,name,Tornio; Tornion voimalaitos,Tornion Voima Oy,Vaasa
+Tornio Kitkiäisvaara,Tornio Kitkiäisvaara,Wind power,,36.0,36.0,0.0,0.0,,FI1D7,osm,"relation/19422815 'Kitkiäisvaaran tuulivoimapuisto' (wind, match 0.50)",Tuuliwatti Oy ,PL 100
+Tornio tv,Tornio; tuulivoimalaitokset A1-A8,Wind power,,28.8,28.8,0.0,0.0,Tornio,FI1D7,name,Tornio; tuulivoimalaitokset A1-A8,Rajakiiri Oy,Vaasa
+TuuliMuukko,"Muukko, Lappeenranta",Wind power,,21.0,21.0,0.0,0.0,Lappeenranta,FI1C5,name,"Muukko, Lappeenranta",TuuliMuukko Ky,Lappeenranta
+Tuulipuisto Ristiveto tv,Merjärvi,Wind power,,15.0,15.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Pietarsaari,Oy Perhonjoki Ab,Pietarsaari
+Tyrinselkä,Tyrinselkä,Wind power,,12.36,12.36,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Tuulivoimapuisto Tyrinselkä Oy,Helsinki
+Tyrvää,Tyrvää,Hydro power,,13.5,13.5,0.0,0.0,,FI19B,osm,"way/237985251 'Tyrvään voimalaitos' (hydro, match 1.00)",UPM Energy Oy,Kuusankoski
+Uimaharju 2 + 1 vp/lv,Uimaharjun voimalaitos,Industry CHP,Black liquor and concentrated liquors,105.0,0.0,105.0,0.0,,,unsited,no OSM plant with matching name and source; company town Uimaharju,Stora Enso Oyj Enocellin tehdas,Uimaharju
+Uljua,Pulkkila / Uljua,Hydro power,,3.7,3.7,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Vattenfall Sähköntuotanto oy,Helsinki
+Utanen,Utanen,Hydro power,,57.8,57.8,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town PL 100,"Fortum Power & Heat , Generation",PL 100
+Uusikaupunki,"Uusukaupunki, Hangonsaari",Industry CHP,Exothermic heat from industry,14.2,0.0,14.2,0.0,Uusikaupunki,FI1C1,name,Uusikaupunki,Yara Suomi Oy,Uusikaupunki
+Vaaja,"Vaajakoski, Jyväskylän mlk",Hydro power,,3.6,3.6,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Mikkeli,SUUR-SAVON SÄHKÖ Oy,Mikkeli
+Vaasa,Palosaaren sillan voimalaitos,District heating CHP,Heavy distillates,0.0,0.0,0.0,0.0,Vaasa,FI19A,name,Vaasa,Vaasan Sähkö Oy,Vaasa
+Vajukoski,Vajukoski,Hydro power,,21.0,21.0,0.0,0.0,,FI1D7,osm,"way/1161059324 'Vajukosken voimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Valajaskoski,Valajaskoski,Hydro power,,101.0,101.0,0.0,0.0,,FI1D7,osm,"way/55609851 'Valajaskosken vesivoimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Valkeisten voima,Seinäjoki,Wind power,,1.5,1.5,0.0,0.0,Seinäjoki,FI199,name,Seinäjoki,Mika Manni,Louko
+Vanaja kt 1,Vanaja kt,Separate electricity production,Medium heavy distillates,50.0,50.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Fingrid Oyj,Helsinki
+Vantaan jätevoimala,Vantaan Jätevoimala,District heating CHP,Mixed fuels,81.4,0.0,0.0,81.4,,FI1B1,osm,"way/207163568 'Vantaan Energian jätevoimala' (waste, match 1.00)",Vantaan Energia Oy,Vantaa 
+Vanttauskoski,Vanttauskoski,Hydro power,,95.0,95.0,0.0,0.0,,FI1D7,osm,"way/435510883 'Vanttauskosken vesivoimalaitos' (hydro, match 1.00)",Kemijoki Oy,ROVANIEMI
+Varissaari,Varissaari,District heating CHP,Forest fuelwood,4.5,0.0,0.0,4.5,Keuruu,FI198,company-town,company address Keuruu,Keuruun Lämpövoima Oy,Keuruu
+Varkaus lä,Varkaus,Industry CHP,Black liquor and concentrated liquors,51.8,4.8,47.0,0.0,Varkaus,FI1DB,name,Varkaus,Stora Enso Oyj,Varkaus
+Vartinoja 1,Vartinoja 1,Wind power,,25.65,25.65,0.0,0.0,,FI1D9,osm,"relation/17323605 'Vartinojan tuulivoimapuisto' (wind, match 1.00)",Vartinoja I Ky,Lähitapiola
+Wasa Wind,"Myrgrundintie 346 B, 65410 Vaasa",Wind power,,3.6,3.6,0.0,0.0,Vaasa,FI19A,name,"Myrgrundintie 346 B, 65410 Vaasa",Wasa Wind Oy,Vaasa
+Vaskiluoto 2,Vaasa ( Vaskiluoto 2 ),District heating CHP,Hard coal and anthracite,230.0,0.0,0.0,230.0,Vaasa,FI19A,name,Vaasa ( Vaskiluoto 2 ),Vaskiluodon Voima Oy,Vaasa
+Vaskiluoto 3,Vaasa  ( Vaskiluoto 3 ),District heating CHP,Heavy distillates,0.0,0.0,0.0,0.0,Vaasa,FI19A,name,Vaasa  ( Vaskiluoto 3 ),PVO-Huippuvoima Oy,Vaasa
+Vaskiluoto kt,Vaskiluoto kt 2,Separate electricity production,Medium heavy distillates,26.0,26.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Fingrid Oyj,Helsinki
+Waskiluoto Validation Center,Waskiluoto Validation Center,Separate electricity production,Heavy distillates,5.5,5.5,0.0,0.0,Vaasa,FI19A,company-town,company address Vaasa,Wärtsilä Finland Oy,Vaasa
+Vatajankoski,Vatajankoski,Hydro power,,0.75,0.75,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kankaanpää,Vatajankosken Sähkö Oy,Kankaanpää
+Vehmaa,markku.ahlqvist@biovakka.fi,Industry CHP,Biogas,1.4,0.0,1.4,0.0,Vehmaa,FI1C1,name,Vehmaa,Biovakka Suomi Oy,Vehmaa
+Veitsiluoto,Veitsiluoto,Industry CHP,Black liquor and concentrated liquors,90.0,0.0,90.0,0.0,Kemi,FI1D7,company-town,company address Kemi,Stora Enso Oyj,Kemi
+Venetpalo,Kärsämäki / Venetpalo,Hydro power,,1.8,1.8,0.0,0.0,Kärsämäki,FI1D9,name,Kärsämäki / Venetpalo,Vattenfall Sähköntuotanto oy,Helsinki
+Verla 1 ja 2,Valkeala / Verla,Hydro power,,3.0,3.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kouvola,KSS Energia Oy,Kouvola
+Westenergy jätteenpolttolaitos,"Energiatie 37, 66530 Koivulahti",District heating CHP,Mixed fuels,13.2,0.0,0.0,13.2,Vaasa,FI19A,company-town,company address Vaasa , Vaasan Sähkö Oy (Westenergy Oy Ab),Vaasa 
+Vihreäsaari retrofit,Vihreäsaari retrofit,Wind power,,3.45,3.45,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Vihreäsaari Wind Oy,Helsinki
+Vihtakoski,"Joensuu, Vihtakoski",Hydro power,,1.5,1.5,0.0,0.0,,FI1DC,osm,"way/400418403 'Vihtakosken voimalaitos' (hydro, match 1.00)",Pohjois-Karjalan Sähkö Oy,Joensuu
+Viikinmäki,Viikinmäen jätevedenpuhdistamo,Industry CHP,Biogas,2.7,0.0,2.7,0.0,,,unsited,no OSM plant with matching name and source; company town Helsingin kaupunki,Helsingin Vesi,Helsingin kaupunki
+Vilppulan saha,Vilppula,Industry CHP,Industrial wood residues,2.9,0.0,2.9,0.0,,,unsited,no OSM plant with matching name and source; company town PL 22,Biokraft Oy,PL 22
+Voikkaa ve 1,Voikkaa 1,Hydro power,,8.9,8.9,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM Energy Oy,Kuusankoski
+Voikkaa ve 2,Voikkaa 2,Hydro power,,24.0,24.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town  Valkeakoski,UPM Energy Oy, Valkeakoski
+Voimala 1 - Etelänkylä-Kalajoki,Voimala 1 - Etelänkylä-Kalajoki,Wind power,,3.3,3.3,0.0,0.0,,FI1D9,osm,"relation/12226072 'Kalajoen Mustilankankaan tuulipuisto' (wind, match 0.50)",Tuulipuisto Oy Etelänkylä,Helsinki
+Voimala 2 - Etelänkylä-Kalajoki,Voimala 2 - Etelänkylä-Kalajoki,Wind power,,3.3,3.3,0.0,0.0,,FI1D9,osm,"relation/12226072 'Kalajoen Mustilankankaan tuulipuisto' (wind, match 0.50)",Tuulipuisto Oy Etelänkylä,Helsinki
+Vuolenkoski ve,Vuolenkosken vesivoimalaitos,Hydro power,,9.5,9.5,0.0,0.0,,FI1C6,osm,"way/260656930 'Vuolenkosken voimalaitos' (hydro, match 1.00)",Myllykoski Paper Oy,Anjalankoski
+Vuosaari A,Vuosaari A-voimalaitos,District heating CHP,Natural gas,163.0,0.0,0.0,163.0,,FI1B1,osm,"way/45449567 'Vuosaaren voimalaitokset' (gas, match 1.00)",Helsingin Energia,HELEN
+Vuosaari B,Vuosaari B-voimalaitos,District heating CHP,Natural gas,485.0,0.0,0.0,485.0,,FI1B1,osm,"way/45449567 'Vuosaaren voimalaitokset' (gas, match 1.00)",Helsingin Energia,HELEN
+Värnå,"Värnå 1, Värnå 2",Hydro power,,1.2,1.2,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Esse,Esse Elektro-Kraft Ab,Esse
+Wärtsilä tehdas,Wärtsilä Engine Laboratory,Separate electricity production,Heavy distillates,10.4,10.4,0.0,0.0,Vaasa,FI19A,company-town,company address Vaasa,Wärtsilä Finland Oy,Vaasa
+Vääräkoski,"Tohmajärvi, Vääräkoski",Hydro power,,1.8,1.8,0.0,0.0,,FI1DC,osm,"way/239455953 'Vääräkosken voimala' (hydro, match 1.00)",Pohjois-Karjalan Sähkö Oy,Joensuu
+Ykspihlaja Wind Oy,Ykspihlaja Wind Oy,Wind power,,14.4,14.4,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Helsinki,Ykspihlaja Wind Oy,Helsinki
+Ylivieska,"Tulolantien voimalaitos, Ylivieska, Vieskan Voima",District heating CHP,Peat,6.2,0.0,0.0,6.2,,FI1D9,osm,"way/244010628 'Ylivieskan voimalaitos' (?, match 1.00)",Oy Perhonjoki AB,68600 Pietarsaari
+Åminnefors,"Åminnefors, Pohja",Hydro power,,1.0,1.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Äänekoski,Koskienergia Koskivoima Oy,Äänekoski
+Äetsä,Äetsä,Hydro power,,19.7,19.7,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town Kuusankoski,UPM Energy Oy,Kuusankoski
+Ämmä,Ämmä,Hydro power,,14.0,14.0,0.0,0.0,,,unsited,no OSM plant with matching name and source; company town PL 100,"Fortum Power & Heat , Generation",PL 100
+Ämmäkoski,Ämmäkoski,Hydro power,,1.57,1.57,0.0,0.0,,FI1D8,osm,"way/828152690 'Ämmäkosken voimalaitos' (hydro, match 1.00)",Kainuun Voima Oy,PL 302
+Ämmässuo,Ämmässuon jätteenkäsittelykeskus,District heating CHP,Biogas,15.65,0.0,0.0,15.65,,,unsited,no OSM plant with matching name and source; company town HSY,Helsingin seudun ympäristöpalvelut -kuntayhtymä (HSY),HSY
+Ämmässuo 2,Ämmässuon jätteenkäsittelykeskus,District heating CHP,Biogas,3.13,0.0,0.0,3.13,,,unsited,no OSM plant with matching name and source; company town HSY,Helsingin seudun ympäristöpalvelut -kuntayhtymä (HSY),HSY
+Äänekoski ht,Äänevoima Oy,Industry CHP,Industrial wood residues,35.0,0.0,35.0,0.0,Äänekoski,FI198,name,Äänekoski ht,Äänevoima Oy,ÄÄNEKOSKI
+Äänekoski ve,Metsä Board Äänekosken vesivoimalaitos,Hydro power,,6.0,6.0,0.0,0.0,Äänekoski,FI198,name,Äänekoski ve,Metsä Board Oyj,Espoo
+"Äänekoski, Biotuotetehdas","Äänekoski, Biotuotetehdas",Industry CHP,Black liquor and concentrated liquors,280.0,0.0,280.0,0.0,Äänekoski,FI198,name,"Äänekoski, Biotuotetehdas",Metsä Fibre,Espoo
