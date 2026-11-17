@@ -63,6 +63,8 @@ def read_tables(path, sheets=None, tags=("~FI_T", "~FI_PROCESS", "~FI_COMM")):
                         "header_row": hr, "cols": cols, "rows": rows,
                         "header_formulas": {h: Fm.get((hr, k)) for h, k in cols.items()
                                             if isinstance(Fm.get((hr, k)), str) and str(Fm.get((hr, k))).startswith("=")}})
+    wv.close()   # read-only workbooks keep the file open until closed (blocked saving SysSettings in 5a)
+    wf.close()
     return out
 
 

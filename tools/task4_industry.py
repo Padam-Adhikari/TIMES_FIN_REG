@@ -34,6 +34,7 @@ from veda_tables import read_tables, tech_rows  # noqa: E402
 
 M = "Reg-FINTIMES/"
 IND = M + "VT_FINTIMES_IND.xlsx"
+AGR_BOOK = M + "VT_FINTIMES_AGR.xlsx"
 SUP = M + "VT_FINTIMES_SUP.xlsx"
 SYS = M + "SysSettings.xlsx"
 LINKS = M + "SuppXLS/Trades/ScenTrade__Trade_Links.xlsx"
@@ -542,9 +543,9 @@ def plan_generic(plan, notes, extra=()):
     generic coefficients). In Reg mode the generic cell of every copied row with an FI value is blanked;
     Reg_IND gives every site region the FI value, and the hub no longer holds these processes."""
     n = 0
-    for book in (IND, SUP):
+    for book in (IND, SUP, AGR_BOOK):
         b = Book(book)
-        regsheet = "Reg_" + ("IND" if book == IND else "SUP")
+        regsheet = "Reg_" + os.path.basename(book).split("_")[-1].split(".")[0]
         copied = set()
         for (sh, cell), f in b.f.items():
             if sh == regsheet and cell.startswith("B"):
@@ -568,6 +569,8 @@ def plan_generic(plan, notes, extra=()):
                     for h, (cell, val, f) in c.items():
                         if h in DESCR or h in regions or h.upper() in ("TECHNAME", "TECHDESC"):
                             continue
+                        if f and SEL in f:
+                            continue          # already switched (4b re-wrapped 9 cells: audit/task5a.md section 3)
                         expr = f[1:] if f else (q(val) if isinstance(val, str) else repr(val))
                         plan.edit(book, t["sheet"], cell, val, sw(expr, '""'), BLUE,
                                   f"{p}: generic {h} value blank in Reg mode (sites get the calibrated FI value "
@@ -867,11 +870,13 @@ def plan_minshare_elc(plan, notes):
     notes.append(f"{os.path.basename(UCIND)}:{sh}: UC_IRE-I correction row 19 for TUC_MinShareofCenELCinINDELC")
 
 
-def plan_demand_4b(plan, notes):
-    """COM_PROJ of the 4b products split by the sector key (Split rule): FI rows commented out in Reg mode
-    ('*' in the first column), a Reg-only table gives FI 0 and each region FI x share."""
+def plan_demand_4b(plan, notes, demands=None):
+    """COM_PROJ of the moved products split by the sector key (Split rule): FI rows commented out in Reg mode
+    ('*' in the first column), a Reg-only table gives FI 0 and each region FI x share. `demands` must hold
+    every split demand (the Reg_Demand sheet is regenerated)."""
+    DEMAND_4B_ = demands or DEMAND_4B
     T = read_tables(os.path.join(ROOT, DEMAND_BOOK), tags=("~TFM_DINS",))
-    keys = {k: load_key(k) for k in set(DEMAND_4B.values())}
+    keys = {k: load_key(k) for k in set(DEMAND_4B_.values())}
     b = Book(DEMAND_BOOK)
     out, years = [], collections.defaultdict(set)
     for t in T:
@@ -879,22 +884,22 @@ def plan_demand_4b(plan, notes):
         for r in t["rows"]:
             c = r["cells"]
             cn = c.get("Cset_CN", (0, None))[1]
-            if cn not in DEMAND_4B or str(c.get("Attribute", (0, ""))[1]).upper() != "COM_PROJ" or "FI" not in c:
+            if cn not in DEMAND_4B_ or str(c.get("Attribute", (0, ""))[1]).upper() != "COM_PROJ" or "FI" not in c:
                 continue
             fcell = f"{col_let(first[1])}{r['row']}"
             done = b.f.get((t["sheet"], fcell), "") == regonly(q(f"*{cn} COM_PROJ split: Reg_Demand"))
             if not done and (b.val(t["sheet"], fcell) not in (None, "") or b.f.get((t["sheet"], fcell))):
                 sys.exit(f"{DEMAND_BOOK} {t['sheet']}!{fcell}: first column not empty")
             plan.edit(DEMAND_BOOK, t["sheet"], fcell, None, regonly(q(f"*{cn} COM_PROJ split: Reg_Demand")), BLUE,
-                      f"{cn}: FI row commented out in Reg mode (split by {DEMAND_4B[cn]})")
+                      f"{cn}: FI row commented out in Reg mode (split by {DEMAND_4B_[cn]})")
             y = c["Year"][1]
             years[cn].add(y)
             out.append((cn, y, sheet_ref(t["sheet"], c["FI"][0])))
-    for cn in DEMAND_4B:
+    for cn in DEMAND_4B_:
         if 2010 not in years[cn]:
             sys.exit(f"{cn}: no 2010 projection row (the hub's base-year value would not be overridden)")
-    cells = [("A1", f"{MARK}: COM_PROJ of pulp/paper, chemicals, lime and fertiliser split by the sector key "
-                    "(data/keys/ind_*.csv); FI 0. Read only in Reg mode.", None),
+    cells = [("A1", f"{MARK}: COM_PROJ of the moved products split by their keys (data/keys/*.csv): "
+                    f"{', '.join(sorted(DEMAND_4B_))}; FI 0. Read only in Reg mode.", None),
              ("A3", regonly(q("~TFM_DINS")), GREEN)]
     hdr = ["Attribute", "Year", "Cset_CN", "FI"] + REG19
     for i, h in enumerate(hdr):
@@ -904,12 +909,12 @@ def plan_demand_4b(plan, notes):
         cells += [(f"A{r}", regonly(q("COM_PROJ")), GREEN), (f"B{r}", regonly(repr(int(y))), GREEN),
                   (f"C{r}", regonly(q(cn)), GREEN), (f"D{r}", regonly("0"), ORANGE)]
         for j, reg in enumerate(REG19):
-            s = keys[DEMAND_4B[cn]].get(reg)
+            s = keys[DEMAND_4B_[cn]].get(reg)
             if s:
                 cells.append((f"{col_let(5 + j)}{r}", regonly(f"{ref}*{s!r}"), ORANGE))
         cells.append((f"{col_let(6 + len(REG19))}{r}", f"source {ref}", None))
     plan.sheets[DEMAND_BOOK]["Reg_Demand"] = cells
-    notes.append(f"demand split: {len(out)} rows ({', '.join(f'{c} {len(years[c])} years' for c in DEMAND_4B)})")
+    notes.append(f"demand split: {len(out)} rows ({', '.join(f'{c} {len(years[c])} years' for c in DEMAND_4B_)})")
 
 
 def plan_ava_4b(plan, newtech, notes):
@@ -1299,13 +1304,219 @@ def run_4c(a):
         sys.exit(0 if all(v == "ok" for v in res.values()) else 1)
 
 
+# =========================================================================== 5a (audit/task5a.md)
+SECTOR_RX_5A = [(re.compile(r"^IOI"), "emp_ioi_2010"), (re.compile(r"^(INF|IAL)"), "emp_24nonsteel_2010"),
+                (re.compile(r"^INM"), "emp_23_2010"), (re.compile(r"^ICL"), "emp_20_2010"),
+                (re.compile(r"^NEU"), "ind_ich_2013-2020"), (re.compile(r"^AGR"), "emp_A_2010")]
+DEMAND_5A = {"IOI": "emp_ioi_2010", "INF": "emp_24nonsteel_2010", "IAL": "emp_24nonsteel_2010",
+             "INM": "emp_23_2010", "ICL": "emp_20_2010", "NEU": "ind_ich_2013-2020", "AGR_Agr_For_Fis": "emp_A_2010"}
+CHP_5A = {"IALHTH": 5, "INFHTH": 9, "INMHTH": 10, "IOIHTH": 11}     # CHPShares rows of the sector heat limits
+
+
+def key_of_5a(p):
+    return next((k for rx, k in SECTOR_RX_5A if rx.match(p)), None)
+
+
+def move_5a():
+    """Existing 5a processes declared in VT_FINTIMES_IND / VT_FINTIMES_AGR -> (book, key)."""
+    out = {}
+    for book in (IND, AGR_BOOK):
+        for t in read_tables(os.path.join(ROOT, book), tags=("~FI_PROCESS",)):
+            for r in t["rows"]:
+                p = r["cells"].get("TechName", (0, None))[1]
+                if isinstance(p, str) and key_of_5a(p):
+                    out[p] = (book, key_of_5a(p))
+    return out
+
+
+def newtech_5a(exclude):
+    out = {}
+    for l in open(os.path.join(ROOT, "GAMS_WrkTIMES", "10_techs_chp_sup_ind.dd"), encoding="latin-1"):
+        m = re.match(r"^'FI[0-9A-Z]*'\.'([A-Za-z0-9_\-]+)'\.'[A-Za-z0-9_\-]+'\.(IN|OUT)$", l.strip())
+        if m and key_of_5a(m.group(1)) and m.group(1) not in exclude and not m.group(1).endswith("00"):
+            out[m.group(1)] = key_of_5a(m.group(1))
+    return out
+
+
+def plan_generic_deps_pre(plan, notes, book):
+    """Same as plan_generic_deps (4bfix) but in the same pass as the blanking: the cells blanked by this
+    plan are taken from the plan, their original content from the workbook."""
+    b = Book(book)
+    blank = {(sh, cell) for sh, cell, old, new, colour, why in plan.edits.get(book, [])
+             if "generic" in why and "value blank in Reg mode" in why}
+    if not blank:
+        return
+    sheets = {s for s, _ in blank}
+    maxcol = collections.defaultdict(int)
+    for (s, c) in list(b.v) + list(b.f):
+        if s in sheets:
+            maxcol[s] = max(maxcol[s], col_idx(re.match(r"[A-Z]+", c).group(0)))
+    helper = {(s, c): f"{col_let(maxcol[s] + 3)}{re.search(r'[0-9]+', c).group(0)}" for s, c in sorted(blank)}
+
+    def orig(s, c):
+        f = b.f.get((s, c))
+        if f:
+            return f[1:]
+        v = b.val(s, c)
+        return q(v) if isinstance(v, str) else repr(v)
+
+    def rewrite(sheet, expr):
+        def rp(m):
+            qs, d1, col, d2, row = m.groups()
+            sh = qs.strip("'") if qs else sheet
+            key = (sh, f"{col}{row}")
+            if key not in helper:
+                return m.group(0)
+            href = helper[key] if sh == sheet else sheet_ref(sh, helper[key])
+            return f"IF({SEL},{m.group(0)},{href})"
+        return REF_RX.sub(rp, expr)
+    planned = {(sh, cell) for sh, cell, *_ in plan.edits.get(book, [])}
+    n_dep = 0
+    for (s, c), f in sorted(b.f.items()):
+        if (s, c) in blank or not f.startswith("="):
+            continue
+        new = "=" + rewrite(s, f[1:])
+        if new != f:
+            if (s, c) in planned:
+                sys.exit(f"{book} {s}!{c}: reads a blanked cell and is edited by another planner")
+            plan.edit(book, s, c, b.val(s, c), new, BLUE,
+                      "reads a generic cell that is blank in Reg mode: original value from its helper cell")
+            n_dep += 1
+    for (s, c), hc in sorted(helper.items()):
+        if b.val(s, hc) is not None or b.f.get((s, hc)):
+            sys.exit(f"{book} {s}!{hc}: helper cell not free")
+        plan.edit(book, s, hc, None, regonly(rewrite(s, orig(s, c))), BLUE,
+                  f"helper: original value of the generic cell {c} (blank in Reg mode) for the formulas that use it")
+    notes.append(f"{os.path.basename(book)}: generic cells blanked {len(blank)}, dependent formulas rerouted {n_dep}, "
+                 f"helper cells {len(helper)}")
+
+
+def plan_fix_nested(plan, notes):
+    """Repair of the 4b slip (audit/task5a.md section 3): IIS generic cells wrapped twice and their helpers."""
+    b = Book(IND)
+    nest = re.compile(r"^=IF\(" + re.escape(SEL) + r",IF\(" + re.escape(SEL) + r",(.*),\"\"\),\"\"\)$")
+    hl = re.compile(r"^=IF\(" + re.escape(SEL) + r",\"\",IF\(" + re.escape(SEL) + r",(.*),\"\"\)\)$")
+    n = 0
+    for (s, c), f in sorted(b.f.items()):
+        m = nest.match(f or "")
+        if m:
+            plan.edit(IND, s, c, b.val(s, c), sw(m.group(1), '""'), BLUE, "generic cell: single switch (was wrapped twice in 4b)")
+            n += 1
+            continue
+        m = hl.match(f or "")
+        if m:
+            plan.edit(IND, s, c, b.val(s, c), regonly(m.group(1)), BLUE,
+                      "helper: original value in Reg mode (was empty: 4b took the inner switched expression)")
+            n += 1
+    notes.append(f"4b nested generic cells and helpers repaired: {n} cells")
+
+
+def plan_chp_table_5a(plan, notes):
+    """UC_IRE-I corrections of the CHP-share limits of the 5a sector heat, as a Reg-only table on CHPShares
+    (rows 28-33; the first tables are full and row 24 holds an inactive row)."""
+    sh = "CHPShares"
+    b = Book(UCIND)
+    for c in [f"{x}{r}" for r in range(26, 36) for x in "ABCDEFGHIJKL"]:
+        if b.val(sh, c) is not None or b.f.get((sh, c)):
+            sys.exit(f"{UCIND} {sh}!{c} is not empty")
+    for com, src in CHP_5A.items():
+        if b.val(sh, f"C{src}") != com:
+            sys.exit(f"{UCIND} {sh}!C{src} is {b.val(sh, f'C{src}')!r}, expected {com}")
+    plan.edit(UCIND, sh, "A28", None, regonly(q("~UC_T")), GREEN, "Reg-only table: corrections of the 5a sector heat")
+    for i, h in enumerate(["UC_N", "Pset_PN", "Cset_CN", "Year", "UC_IRE-I"]):
+        plan.edit(UCIND, sh, f"{col_let(1 + i)}29", None, regonly(q(h)), GREEN, "header (Reg mode)")
+    for k, (com, src) in enumerate(CHP_5A.items()):
+        r = 30 + k
+        for c, e in (("A", f"A{src}"), ("B", q(f"TB_{com}_*")), ("C", q(com)), ("D", f"E{src}"), ("E", f"-G{src}")):
+            plan.edit(UCIND, sh, f"{c}{r}", None, regonly(e), GREEN,
+                      f"UC_IRE-I = -UC_COMPRD of row {src} on TB_{com}_* (an internal import is not production)")
+    notes.append(f"{os.path.basename(UCIND)}:{sh}: corrections {sorted(CHP_5A)} (rows 30-{29 + len(CHP_5A)})")
+
+
+def run_5a(a):
+    """Task 5a (audit/task5a.md): generic industry, non-energy use, agriculture."""
+    plan, notes = Plan(), []
+    move4b = move_4b()
+    m5 = move_5a()
+    move5a = {p: k for p, (bk, k) in m5.items()}
+    move = dict(MOVE_4A)
+    move.update(move4b)
+    move.update(MOVE_4C)
+    move.update(move5a)
+    shares = shares_of(move)
+    top, ctype, decl, dd_links = dd_info(a.dd, a.run)
+    nt4b, nt4c, nt5a = newtech_4b(top), newtech_4c(top), newtech_5a(set(move5a))
+    chain = {p: sorted(shares[p]) for p in list(move4b) + list(MOVE_4C) + list(move5a)}
+    for nt in (nt4b, nt4c, nt5a):
+        chain.update({p: regs_of(k) for p, k in nt.items()})
+    ind_move = dict(MOVE_4A)
+    ind_move.update(move4b)
+    ind_move.update({p: k for p, (bk, k) in m5.items() if bk == IND})
+    agr_move = {p: k for p, (bk, k) in m5.items() if bk == AGR_BOOK}
+    mode = {}
+    mode.update(plan_book(plan, IND, ind_move, shares_of(ind_move), notes))
+    mode.update(plan_book(plan, AGR_BOOK, agr_move, shares_of(agr_move), notes))
+    plan_fix_nested(plan, notes)
+    plan_generic(plan, notes, extra=[p for p in move5a if mode.get(p) == "copy"])
+    for book in (IND, AGR_BOOK):
+        plan_generic_deps_pre(plan, notes, book)
+    plan_demand_4b(plan, notes, {**DEMAND_4B, **DEMAND_5A})
+    plan_ava_4c(plan, nt5a, notes)
+    plan_chp_table_5a(plan, notes)
+    old_links = {v for (s_, c_), v in Book(LINKS).v.items() if s_ == LINK_SHEET and isinstance(v, str) and v.startswith("TB_")}
+    plan_comms_links(plan, move, shares, mode, a.dd, a.run, notes, chain=chain)
+    cells = plan.sheets[LINKS][LINK_SHEET]
+    have = {v for (_, v, _) in cells if isinstance(v, str) and v.startswith("TB_")}
+    r = max(int(re.sub(r"^[A-Z]+", "", c)) for (c, _, _) in cells) + 1
+    for c in ENV_LINKS:                       # 4c captured-CO2 links (added after the generator)
+        for reg in sorted(set(ICM_SITE.values())):
+            name = f"TB_{c}_FI_{reg}"
+            if name in have or (name in dd_links and name not in old_links):
+                continue
+            for j, v in enumerate(["FI", reg, c, c, c, name, "B"]):
+                cells.append((f"{col_let(3 + j)}{r}", v, GREEN))
+            r += 1
+    new_links = {v for (_, v, _) in cells if isinstance(v, str) and v.startswith("TB_")}
+    lost = sorted(old_links - new_links)
+    if lost:
+        sys.exit(f"links of 4a-4c would be lost: {lost[:10]} ({len(lost)})")
+    notes.append(f"link sheet: {len(old_links)} links before, {len(new_links)} after; new: {sorted(new_links - old_links)}")
+    plan_prd_corrections(plan, a.dd, a.run, new_links, notes)
+    head = ["modes (5a): " + ", ".join(f"{p}={mode.get(p)}" for p in sorted(move5a)), "",
+            "new technologies: " + ", ".join(f"{p}->{k}" for p, k in sorted(nt5a.items())), ""]
+    write_dry(plan, notes, os.path.join(ROOT, "audit", "task5a_dryrun.txt"), head)
+    if a.apply:
+        apply_per_book(plan)
+
+
+def apply_per_book(plan):
+    """One Excel instance per workbook (a single long session crashed while saving in 5a)."""
+    import gc
+    import task3_power
+    task3_power.MARK = MARK
+    gc.collect()          # release any workbook file handles of the planning phase
+    res = {}
+    for book in plan.books():
+        sub = Plan()
+        sub.edits[book] = plan.edits.get(book, [])
+        if book in plan.sheets:
+            sub.sheets[book] = plan.sheets[book]
+        r = apply(sub)
+        print(r, flush=True)
+        res.update(r)
+        if r.get(book) != "ok":
+            break
+    print(res)
+    sys.exit(0 if res and all(v == "ok" for v in res.values()) and len(res) == len(plan.books()) else 1)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1317,6 +1528,9 @@ def main():
         return
     if a.step == "4c":
         run_4c(a)
+        return
+    if a.step == "5a":
+        run_5a(a)
         return
     if a.step in ("4bfix", "4bfix2"):
         plan, notes = Plan(), []

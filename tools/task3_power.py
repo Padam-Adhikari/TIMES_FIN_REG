@@ -46,6 +46,7 @@ import re
 import shutil
 import sys
 import tempfile
+import time
 import warnings
 
 import openpyxl
@@ -561,6 +562,7 @@ def apply(plan, log=print):
     app.display_alerts = False
     app.screen_updating = False
     res = {}
+    pendings = []
     tmp = tempfile.mkdtemp(prefix="task3_")
     tpl_path = os.path.join(tmp, "region_selection_template.xlsx")
     shutil.copyfile(os.path.join(ROOT, TRADE_PARAMS), tpl_path)
@@ -627,18 +629,41 @@ def apply(plan, log=print):
                         (isinstance(cur, float) and isinstance(old, (int, float)) and abs(cur - old) < 1e-12)
                     if not ok:
                         raise RuntimeError(f"single-region value of {sheet}!{cell} is {cur!r}, expected {old!r}")
-                wb.save()
+                # save a verified copy and swap it in from Python after closing: Excel's in-place save
+                # failed on SysSettings in task 5a (its temporary file was complete, the swap failed)
+                copy = os.path.join(tmp, "save_" + os.path.basename(path))
+                wb.api.SaveCopyAs(copy)
+                pending = (copy, path)
                 res[book] = "ok"
-                log(f"  saved {book}")
+                log(f"  saved {book} (copy)")
             except Exception as ex:
                 res[book] = f"FAILED: {ex}"
                 log(f"  FAILED {book}: {ex} (not saved)")
             finally:
                 wb.close()
+                if res.get(book) == "ok":
+                    pendings.append((book, *pending))
         tpl.close()
     finally:
         app.quit()
-        shutil.rmtree(tmp, ignore_errors=True)
+        # swap the saved copies in only after Excel has quit: while it runs it keeps a lock on workbooks
+        # that other open files link to (SysSettings in task 5a)
+        for book, copy, target in pendings:
+            try:
+                for attempt in range(60):          # the Excel process releases its locks a moment after quit
+                    try:
+                        os.replace(copy, target)
+                        break
+                    except PermissionError:
+                        if attempt == 59:
+                            raise
+                        time.sleep(2)
+                log(f"  replaced {book}")
+            except OSError as ex:
+                res[book] = f"FAILED: replace {ex}"
+                log(f"  FAILED {book}: {ex} (copy kept at {copy})")
+        if all(not str(v).startswith("FAILED: replace") for v in res.values()):
+            shutil.rmtree(tmp, ignore_errors=True)
     return res
 
 
