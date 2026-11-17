@@ -1,0 +1,36 @@
+{
+ "name": "emp_21",
+ "year": "2018",
+ "path": "data/keys/emp_21_2018.csv",
+ "total": 4515,
+ "national": 4515,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin tyokay 115h",
+  "item": "Employed labour force in area (workplaces), TOL 21; municipalities -> regions (kunta_1_20260101#maakunta_1_20260101)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/tyokay/115h.px"
+ },
+ "shares": {
+  "FI1B1": 0.3811738648947951,
+  "FI1C1": 0.3740863787375415,
+  "FI196": 0.0,
+  "FI1C2": 0.03145071982281285,
+  "FI19B": 0.05647840531561462,
+  "FI1C6": 0.0019933554817275745,
+  "FI1C7": 0.00044296788482834997,
+  "FI1C5": 0.0053156146179402,
+  "FI1DA": 0.11672203765227021,
+  "FI1DB": 0.022591362126245847,
+  "FI1DC": 0.0,
+  "FI198": 0.003986710963455149,
+  "FI199": 0.0017718715393133999,
+  "FI19A": 0.00022148394241417498,
+  "FI1D5": 0.0,
+  "FI1D9": 0.0037652270210409744,
+  "FI1D8": 0.0,
+  "FI1D7": 0.0,
+  "FI200": 0.0
+ },
+ "fetched": "2026-11-17"
+}

@@ -1,0 +1,36 @@
+{
+ "name": "veh_motorcycles",
+ "year": "2024",
+ "path": "data/keys/veh_motorcycles_2024.csv",
+ "total": 131088,
+ "national": 131751,
+ "check": "OK within 0.503% of the national total (vehicles without a known municipality are in the national total only)",
+ "source": {
+  "org": "Traficom / Statistics Finland",
+  "table": "StatFin mkan 11ic",
+  "item": "Vehicles in traffic, class 06 (motorcycles)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/mkan/11ic.px"
+ },
+ "shares": {
+  "FI1B1": 0.2555687782253143,
+  "FI1C1": 0.09284602709630171,
+  "FI196": 0.045900463810569996,
+  "FI1C2": 0.04099536189430001,
+  "FI19B": 0.10443366288294886,
+  "FI1C6": 0.03995026241913829,
+  "FI1C7": 0.03583089222507018,
+  "FI1C5": 0.024792505797632126,
+  "FI1DA": 0.025067130477236667,
+  "FI1DB": 0.04621323080678628,
+  "FI1DC": 0.02840839741242524,
+  "FI198": 0.05305596240693275,
+  "FI199": 0.04808220432076163,
+  "FI19A": 0.03287867691932137,
+  "FI1D5": 0.011046014890760405,
+  "FI1D9": 0.06556664225558403,
+  "FI1D8": 0.011747833516416454,
+  "FI1D7": 0.022442939094348833,
+  "FI200": 0.01517301354815086
+ },
+ "fetched": "2026-11-17"
+}

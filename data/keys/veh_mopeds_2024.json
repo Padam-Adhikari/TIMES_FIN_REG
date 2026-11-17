@@ -1,0 +1,36 @@
+{
+ "name": "veh_mopeds",
+ "year": "2024",
+ "path": "data/keys/veh_mopeds_2024.csv",
+ "total": 93597,
+ "national": 94123,
+ "check": "OK within 0.559% of the national total (vehicles without a known municipality are in the national total only)",
+ "source": {
+  "org": "Traficom / Statistics Finland",
+  "table": "StatFin mkan 11ic",
+  "item": "Vehicles in traffic, class 07 (mopeds)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/mkan/11ic.px"
+ },
+ "shares": {
+  "FI1B1": 0.2003269335555627,
+  "FI1C1": 0.09726807483145827,
+  "FI196": 0.056230434736156076,
+  "FI1C2": 0.03578106135880423,
+  "FI19B": 0.08069703088774213,
+  "FI1C6": 0.036261845999337586,
+  "FI1C7": 0.04304625148241931,
+  "FI1C5": 0.030567219034798122,
+  "FI1DA": 0.02809919121339359,
+  "FI1DB": 0.04961697490304177,
+  "FI1DC": 0.03474470335587679,
+  "FI198": 0.04769383634090836,
+  "FI199": 0.05183926835261814,
+  "FI19A": 0.04454202591963417,
+  "FI1D5": 0.01466927358782867,
+  "FI1D9": 0.08578266397427269,
+  "FI1D8": 0.014573116659722,
+  "FI1D7": 0.02569526801072684,
+  "FI200": 0.02256482579569858
+ },
+ "fetched": "2026-11-17"
+}

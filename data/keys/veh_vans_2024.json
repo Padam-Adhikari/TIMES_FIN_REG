@@ -1,0 +1,36 @@
+{
+ "name": "veh_vans",
+ "year": "2024",
+ "path": "data/keys/veh_vans_2024.csv",
+ "total": 350225,
+ "national": 351779,
+ "check": "OK within 0.442% of the national total (vehicles without a known municipality are in the national total only)",
+ "source": {
+  "org": "Traficom / Statistics Finland",
+  "table": "StatFin mkan 11ic",
+  "item": "Vehicles in traffic, class 02 (vans)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/mkan/11ic.px"
+ },
+ "shares": {
+  "FI1B1": 0.24540795203083732,
+  "FI1C1": 0.08989078449568134,
+  "FI196": 0.05208366050396174,
+  "FI1C2": 0.03333571275608537,
+  "FI19B": 0.08473409950745948,
+  "FI1C6": 0.035377257477336,
+  "FI1C7": 0.028310371903776145,
+  "FI1C5": 0.02038403883217931,
+  "FI1DA": 0.029101292026554357,
+  "FI1DB": 0.04618745092440574,
+  "FI1DC": 0.032718966378756514,
+  "FI198": 0.04750089228353201,
+  "FI199": 0.05136983367834963,
+  "FI19A": 0.037612963095153114,
+  "FI1D5": 0.01467627953458491,
+  "FI1D9": 0.07358412449139838,
+  "FI1D8": 0.016757798558069813,
+  "FI1D7": 0.04586765650653152,
+  "FI200": 0.015098865015347277
+ },
+ "fetched": "2026-11-17"
+}

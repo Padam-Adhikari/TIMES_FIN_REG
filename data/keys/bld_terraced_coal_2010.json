@@ -1,0 +1,36 @@
+{
+ "name": "bld_terraced_coal",
+ "year": "2010",
+ "path": "data/keys/bld_terraced_coal_2010.csv",
+ "total": 13645,
+ "national": 13645,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin raku 15f7",
+  "item": "Building floor area (m2), class 0112, heat source 06",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/raku/15f7.px"
+ },
+ "shares": {
+  "FI1B1": 0.24023451813851227,
+  "FI1C1": 0.33792598021253206,
+  "FI196": 0.1487724441187248,
+  "FI1C2": 0.0,
+  "FI19B": 0.04404543788933676,
+  "FI1C6": 0.05635764016123122,
+  "FI1C7": 0.012019054598754122,
+  "FI1C5": 0.04192011725906926,
+  "FI1DA": 0.0,
+  "FI1DB": 0.0,
+  "FI1DC": 0.0,
+  "FI198": 0.0,
+  "FI199": 0.029901062660315135,
+  "FI19A": 0.010113594723341883,
+  "FI1D5": 0.05525833638695493,
+  "FI1D9": 0.023451813851227556,
+  "FI1D8": 0.0,
+  "FI1D7": 0.0,
+  "FI200": 0.0
+ },
+ "fetched": "2026-11-17"
+}

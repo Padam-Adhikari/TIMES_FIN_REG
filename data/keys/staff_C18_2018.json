@@ -1,0 +1,36 @@
+{
+ "name": "staff_C18",
+ "year": "2018",
+ "path": "data/keys/staff_C18_2018.csv",
+ "total": 6036,
+ "national": 6038,
+ "check": "OK within 0.033% of the national total (rounding and confidential establishments in the national total)",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin alyr 13x2",
+  "item": "Personnel (staff-years), establishments of enterprises, TOL C18",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/alyr/13x2.px"
+ },
+ "shares": {
+  "FI1B1": 0.378727634194831,
+  "FI1C1": 0.10569913850231942,
+  "FI196": 0.03346587143803843,
+  "FI1C2": 0.040589794565937705,
+  "FI19B": 0.10238568588469185,
+  "FI1C6": 0.031477799867461895,
+  "FI1C7": 0.014247846255798542,
+  "FI1C5": 0.002485089463220676,
+  "FI1DA": 0.04489728296885354,
+  "FI1DB": 0.014910536779324055,
+  "FI1DC": 0.04771371769383698,
+  "FI198": 0.06660039761431412,
+  "FI199": 0.018058316766070247,
+  "FI19A": 0.03893306825712392,
+  "FI1D5": 0.009609012591119947,
+  "FI1D9": 0.03330019880715706,
+  "FI1D8": 0.007786613651424784,
+  "FI1D7": 0.00513585155732273,
+  "FI200": 0.003976143141153081
+ },
+ "fetched": "2026-11-17"
+}

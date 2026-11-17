@@ -1,0 +1,36 @@
+{
+ "name": "bld_commercial_coal",
+ "year": "2010",
+ "path": "data/keys/bld_commercial_coal_2010.csv",
+ "total": 17184,
+ "national": 17184,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin raku 15f7",
+  "item": "Building floor area (m2), class 03, heat source 06",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/raku/15f7.px"
+ },
+ "shares": {
+  "FI1B1": 0.3049348230912477,
+  "FI1C1": 0.10695996275605214,
+  "FI196": 0.22061219739292365,
+  "FI1C2": 0.05115223463687151,
+  "FI19B": 0.04259776536312849,
+  "FI1C6": 0.01774906890130354,
+  "FI1C7": 0.08542830540037244,
+  "FI1C5": 0.016410614525139665,
+  "FI1DA": 0.024615921787709497,
+  "FI1DB": 0.024674115456238363,
+  "FI1DC": 0.0,
+  "FI198": 0.0,
+  "FI199": 0.0,
+  "FI19A": 0.014373836126629423,
+  "FI1D5": 0.05045391061452514,
+  "FI1D9": 0.04003724394785847,
+  "FI1D8": 0.0,
+  "FI1D7": 0.0,
+  "FI200": 0.0
+ },
+ "fetched": "2026-11-17"
+}

@@ -1,0 +1,36 @@
+{
+ "name": "veh_cars",
+ "year": "2024",
+ "path": "data/keys/veh_cars_2024.csv",
+ "total": 2783564,
+ "national": 2794387,
+ "check": "OK within 0.387% of the national total (vehicles without a known municipality are in the national total only)",
+ "source": {
+  "org": "Traficom / Statistics Finland",
+  "table": "StatFin mkan 11ic",
+  "item": "Vehicles in traffic, class 01 (cars)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/mkan/11ic.px"
+ },
+ "shares": {
+  "FI1B1": 0.26769529998232483,
+  "FI1C1": 0.09106347114706183,
+  "FI196": 0.044457034219439535,
+  "FI1C2": 0.03396077834028605,
+  "FI19B": 0.09451552039040596,
+  "FI1C6": 0.03778465305629761,
+  "FI1C7": 0.03250006107278295,
+  "FI1C5": 0.02496475741172109,
+  "FI1DA": 0.02575978134506697,
+  "FI1DB": 0.04539468106355737,
+  "FI1DC": 0.030651711259378264,
+  "FI198": 0.049524997449313185,
+  "FI199": 0.041740013881484316,
+  "FI19A": 0.035815235431985754,
+  "FI1D5": 0.01329410784160163,
+  "FI1D9": 0.07372921908747203,
+  "FI1D8": 0.01365192249935694,
+  "FI1D7": 0.03438253979430687,
+  "FI200": 0.009114214726156826
+ },
+ "fetched": "2026-11-17"
+}

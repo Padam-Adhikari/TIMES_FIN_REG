@@ -1,0 +1,36 @@
+{
+ "name": "va_C33",
+ "year": "2018",
+ "path": "data/keys/va_C33_2018.csv",
+ "total": 1544067,
+ "national": 1545186,
+ "check": "OK within 0.072% of the national total (rounding and confidential establishments in the national total)",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin alyr 13x2",
+  "item": "Value added (EUR 1,000), establishments of enterprises, TOL C33",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/alyr/13x2.px"
+ },
+ "shares": {
+  "FI1B1": 0.19581987051080038,
+  "FI1C1": 0.10200464099031972,
+  "FI196": 0.05601505634146705,
+  "FI1C2": 0.02450670858194625,
+  "FI19B": 0.17472816917918718,
+  "FI1C6": 0.01927507031754451,
+  "FI1C7": 0.06706768553437124,
+  "FI1C5": 0.03747764831448376,
+  "FI1DA": 0.03060942303669465,
+  "FI1DB": 0.03759551884730391,
+  "FI1DC": 0.01851927409885711,
+  "FI198": 0.060247385638058454,
+  "FI199": 0.020159746953985806,
+  "FI19A": 0.02922735865736396,
+  "FI1D5": 0.016097099413432188,
+  "FI1D9": 0.056015703981757266,
+  "FI1D8": 0.0075203990500412226,
+  "FI1D7": 0.046141780117054505,
+  "FI200": 0.0009714604353308503
+ },
+ "fetched": "2026-11-17"
+}

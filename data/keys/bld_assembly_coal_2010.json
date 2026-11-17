@@ -1,0 +1,36 @@
+{
+ "name": "bld_assembly_coal",
+ "year": "2010",
+ "path": "data/keys/bld_assembly_coal_2010.csv",
+ "total": 3850,
+ "national": 3850,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin raku 15f7",
+  "item": "Building floor area (m2), class 07, heat source 06",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/raku/15f7.px"
+ },
+ "shares": {
+  "FI1B1": 0.18727272727272729,
+  "FI1C1": 0.0,
+  "FI196": 0.08051948051948052,
+  "FI1C2": 0.0387012987012987,
+  "FI19B": 0.34805194805194806,
+  "FI1C6": 0.055584415584415584,
+  "FI1C7": 0.18961038961038962,
+  "FI1C5": 0.0,
+  "FI1DA": 0.0,
+  "FI1DB": 0.0,
+  "FI1DC": 0.0,
+  "FI198": 0.06623376623376623,
+  "FI199": 0.0,
+  "FI19A": 0.03402597402597403,
+  "FI1D5": 0.0,
+  "FI1D9": 0.0,
+  "FI1D8": 0.0,
+  "FI1D7": 0.0,
+  "FI200": 0.0
+ },
+ "fetched": "2026-11-17"
+}

@@ -1,0 +1,36 @@
+{
+ "name": "veh_lorries",
+ "year": "2011",
+ "path": "data/keys/veh_lorries_2011.csv",
+ "total": 97493,
+ "national": 97562,
+ "check": "OK within 0.071% of the national total (vehicles without a known municipality are in the national total only)",
+ "source": {
+  "org": "Traficom / Statistics Finland",
+  "table": "StatFin mkan 11ic",
+  "item": "Vehicles in traffic, class 03 (lorries)",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/mkan/11ic.px"
+ },
+ "shares": {
+  "FI1B1": 0.2251956550726719,
+  "FI1C1": 0.09748392192259957,
+  "FI196": 0.05968633645492497,
+  "FI1C2": 0.03922332885437929,
+  "FI19B": 0.0906013765090827,
+  "FI1C6": 0.03767449970767132,
+  "FI1C7": 0.03438195562758352,
+  "FI1C5": 0.02423763757397967,
+  "FI1DA": 0.02738658160073031,
+  "FI1DB": 0.050208732934672234,
+  "FI1DC": 0.028668724934097833,
+  "FI198": 0.0463725600812366,
+  "FI199": 0.05828110736155416,
+  "FI19A": 0.03571538469428574,
+  "FI1D5": 0.0161037202670961,
+  "FI1D9": 0.06797411096181265,
+  "FI1D8": 0.014636948293723652,
+  "FI1D7": 0.039336157467715634,
+  "FI200": 0.006831259680182167
+ },
+ "fetched": "2026-11-17"
+}

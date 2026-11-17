@@ -1,0 +1,36 @@
+{
+ "name": "bld_special_wood",
+ "year": "2010",
+ "path": "data/keys/bld_special_wood_2010.csv",
+ "total": 34151,
+ "national": 34151,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin raku 15f7",
+  "item": "Building floor area (m2), class 013_014, heat source 07_08",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/raku/15f7.px"
+ },
+ "shares": {
+  "FI1B1": 0.08761090451231296,
+  "FI1C1": 0.01982372404907616,
+  "FI196": 0.00925302333753038,
+  "FI1C2": 0.0,
+  "FI19B": 0.02281045943017774,
+  "FI1C6": 0.04887118971626014,
+  "FI1C7": 0.006149161078738544,
+  "FI1C5": 0.0,
+  "FI1DA": 0.06673303856402447,
+  "FI1DB": 0.10717109308658604,
+  "FI1DC": 0.10626335978448655,
+  "FI198": 0.04269274691809903,
+  "FI199": 0.11100699833094199,
+  "FI19A": 0.08597112822464935,
+  "FI1D5": 0.0,
+  "FI1D9": 0.05865128400339668,
+  "FI1D8": 0.08245732189394162,
+  "FI1D7": 0.14453456706977832,
+  "FI200": 0.0
+ },
+ "fetched": "2026-11-17"
+}

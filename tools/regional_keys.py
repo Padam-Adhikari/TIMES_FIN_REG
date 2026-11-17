@@ -70,7 +70,7 @@ def check_and_share(values, name):
     return shares, total
 
 
-def write_key(name, year, values, shares, total, national, source):
+def write_key(name, year, values, shares, total, national, source, tol=0.0, why=""):
     os.makedirs(OUT, exist_ok=True)
     path = os.path.join(OUT, f"{name}_{year}.csv")
     with open(path, "w", newline="", encoding="utf-8") as f:
@@ -79,10 +79,17 @@ def write_key(name, year, values, shares, total, national, source):
         for r in REGIONS:
             w.writerow([r, REGIONS[r], values[r], f"{shares[r]:.12f}"])
         w.writerow(["TOTAL", "sum of regions", total, f"{sum(shares.values()):.12f}"])
-    check = "OK" if national is None or abs(total - national) <= 1e-9 * max(1, national) else \
-        f"MISMATCH (regions {total} vs national {national})"
-    return dict(name=name, year=year, path=os.path.relpath(path, ROOT).replace("\\", "/"),
-                total=total, national=national, check=check, source=source, shares=shares)
+    if national is None or abs(total - national) <= 1e-9 * max(1, national):
+        check = "OK"
+    elif abs(total - national) <= tol * national:
+        check = f"OK within {abs(total - national) / national:.3%} of the national total ({why})"
+    else:
+        check = f"MISMATCH (regions {total} vs national {national})"
+    res = dict(name=name, year=year, path=os.path.relpath(path, ROOT).replace("\\", "/"),
+               total=total, national=national, check=check, source=source, shares=shares)
+    with open(os.path.join(OUT, f"{name}_{year}.json"), "w", encoding="utf-8") as f:
+        json.dump(dict(res, fetched=datetime.date.today().isoformat()), f, indent=1, ensure_ascii=False)
+    return res
 
 
 # --------------------------------------------------------------------------- keys
@@ -118,7 +125,166 @@ def key_population(years=("2010", "2015", "2020", "2024")):
     return out
 
 
-KEYS = {"population": key_population}
+def px_cube(table, selection):
+    """Fetch a json-stat2 cube; return get(**codes) -> value (None if suppressed)."""
+    meta, data = pxweb(table, selection)
+    dims, size = data["id"], data["size"]
+    idx = {d: data["dimension"][d]["category"]["index"] for d in dims}
+
+    def get(**codes):
+        flat = 0
+        for d, n in zip(dims, size):
+            flat = flat * n + idx[d][codes[d]]
+        return data["value"][flat]
+    return get
+
+
+def _regional(get, area, fixed):
+    """{nuts: value} and the national value of one cube cell (area dimension varies)."""
+    vals = {MK_TO_NUTS[c]: get(**{area: c, **fixed}) for c in MK_TO_NUTS}
+    return vals, get(**{area: "SSS", **fixed})
+
+
+def key_buildings(years=("2010",)):
+    """Building floor area (m2) by maakunta, building class and heat source - Statistics Finland raku/15f7.
+    Keys bld_<class>_<heat>; heat 'all' = every heat source."""
+    table = "raku/15f7.px"
+    area = "alue_23_20260101"
+    classes = {"0110_0111": "detached", "0112": "terraced", "012": "flats", "013_014": "special",
+               "03": "commercial", "04": "office", "05": "transport", "06": "care", "07": "assembly",
+               "08": "education", "11": "utility", "12": "warehouse", "13": "rescue", "19": "other"}
+    heats = {"SSS": "all", "01": "dh", "02_03_05": "oilgas", "04": "elc", "06": "coal", "07_08": "wood",
+             "09": "ground", "99": "other"}
+    get = px_cube(table, {area: list(MK_TO_NUTS) + ["SSS"], "rakennus_6_20180101": list(classes),
+                          "polttoaineet_12_20260101": list(heats), "timeperiod_y": list(years),
+                          "contentscode": ["kerrosala_rakennus"]})
+    out = []
+    for y in years:
+        for cc, cn in classes.items():
+            for hc, hn in heats.items():
+                fixed = {"rakennus_6_20180101": cc, "polttoaineet_12_20260101": hc, "timeperiod_y": y,
+                         "contentscode": "kerrosala_rakennus"}
+                vals, national = _regional(get, area, fixed)
+                vals = {k: (v or 0) for k, v in vals.items()}
+                if sum(vals.values()) <= 0:
+                    continue
+                name = f"bld_{cn}_{hn}"
+                shares, total = check_and_share(vals, name)
+                out.append(write_key(name, y, vals, shares, total, national, dict(
+                    org="Statistics Finland", table="StatFin raku 15f7",
+                    item=f"Building floor area (m2), class {cc}, heat source {hc}", url=f"{PXWEB}/{table}")))
+    return out
+
+
+def key_vehicles(years=("2011", "2024")):
+    """Vehicles in traffic by maakunta and class - Traficom via Statistics Finland mkan/11ic (from 2011)."""
+    table = "mkan/11ic.px"
+    area = "alue_28_20210101"
+    classes = {"01": "cars", "02": "vans", "03": "lorries", "04": "buses", "06": "motorcycles", "07": "mopeds"}
+    get = px_cube(table, {area: list(MK_TO_NUTS) + ["SSS"], "ajoneuvolaji_2_20190101": list(classes),
+                          "ajot_36_20180207": ["0"], "timeperiod_y": list(years), "contentscode": ["mkan-lkm"]})
+    out = []
+    for y in years:
+        for cc, cn in classes.items():
+            fixed = {"ajoneuvolaji_2_20190101": cc, "ajot_36_20180207": "0", "timeperiod_y": y,
+                     "contentscode": "mkan-lkm"}
+            vals, national = _regional(get, area, fixed)
+            name = f"veh_{cn}"
+            shares, total = check_and_share(vals, name)
+            out.append(write_key(name, y, vals, shares, total, national, dict(
+                org="Traficom / Statistics Finland", table="StatFin mkan 11ic",
+                item=f"Vehicles in traffic, class {cc} ({cn})", url=f"{PXWEB}/{table}"),
+                tol=0.01, why="vehicles without a known municipality are in the national total only"))
+    return out
+
+
+def key_industry(years=("2018",)):
+    """Value added (EUR 1,000) and personnel (staff-years) of enterprise establishments by maakunta and
+    industry (TOL 2008) - Statistics Finland alyr/13x2. A combination with a suppressed or negative
+    regional value is not written (not usable as a key). Keys va_<TOL>, staff_<TOL>."""
+    table = "alyr/13x2.px"
+    area = "alue_23_20210101"
+    tols = ["C", "C10", "C11", "C13", "C16", "C18", "C20", "C21", "C22", "C23", "C24", "C25", "C26", "C27",
+            "C28", "C29", "C30", "C31", "C32", "C33", "A01", "B08"]
+    contents = {"EUMukTuotJalostusarvo2": "va", "henkmaara2": "staff"}
+    get = px_cube(table, {area: list(MK_TO_NUTS) + ["SSS"], "toimiala_79_20180101": tols,
+                          "timeperiod_y": list(years), "contentscode": list(contents)})
+    out = []
+    for y in years:
+        for t in tols:
+            for cc, cn in contents.items():
+                fixed = {"toimiala_79_20180101": t, "timeperiod_y": y, "contentscode": cc}
+                vals, national = _regional(get, area, fixed)
+                if any(v is None or v < 0 for v in vals.values()):
+                    print(f"  {cn}_{t} {y}: suppressed or negative regional values - not written")
+                    continue
+                name = f"{cn}_{t}"
+                shares, total = check_and_share(vals, name)
+                what = "Value added (EUR 1,000)" if cn == "va" else "Personnel (staff-years)"
+                out.append(write_key(name, y, vals, shares, total, national, dict(
+                    org="Statistics Finland", table="StatFin alyr 13x2",
+                    item=f"{what}, establishments of enterprises, TOL {t}", url=f"{PXWEB}/{table}"),
+                    tol=0.005, why="rounding and confidential establishments in the national total"))
+    return out
+
+
+CLASSIFICATIONS = "https://data.stat.fi/api/classifications/v2/correspondenceTables"
+
+
+def municipality_regions(year="20260101"):
+    """Municipality code (KUxxx) -> NUTS-3 from Statistics Finland's official correspondence table."""
+    url = (f"{CLASSIFICATIONS}/kunta_1_{year}%23maakunta_1_{year}/maps?content=data&meta=max&lang=en&format=json")
+    out = {}
+    for m in json.load(urllib.request.urlopen(url, timeout=60)):
+        ku = "KU" + m["sourceLocalId"].split("/")[1]
+        mk = "MK" + m["targetLocalId"].split("/")[1]
+        out[ku] = MK_TO_NUTS[mk]
+    return out
+
+
+def key_employment(years=("2010", "2018")):
+    """Employed labour force by area of workplace and industry (TOL 2008) - Statistics Finland tyokay/115h,
+    municipalities summed to regions with the official municipality-region correspondence (2026 division).
+    Keys emp_<TOL>: complete (no suppression), used where value added is suppressed."""
+    table = "tyokay/115h.px"
+    area = "alue_23_20260101"
+    tols = ["C", "10", "11", "13", "16", "18", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+            "31", "32", "33", "A", "01", "02", "08", "GTU"]
+    kmap = municipality_regions()
+    meta = json.load(urllib.request.urlopen(f"{PXWEB}/{table}", timeout=60))
+    codes = next(v for v in meta["variables"] if v["code"] == area)["values"]
+    unknown = [c for c in codes if c != "SSS" and c not in kmap]
+    get = px_cube(table, {area: codes, "toimiala_108_20230101": tols, "timeperiod_y": list(years),
+                          "sukupuoli_9_20180101": ["SSS"], "contentscode": ["tyolliset3"]})
+    out = []
+    for y in years:
+        for t in tols:
+            fixed = {"toimiala_108_20230101": t, "timeperiod_y": y, "sukupuoli_9_20180101": "SSS",
+                     "contentscode": "tyolliset3"}
+            vals = {r: 0 for r in REGIONS}
+            for c in codes:
+                if c in kmap:
+                    vals[kmap[c]] += get(**{area: c, **fixed}) or 0
+            national = get(**{area: "SSS", **fixed})
+            name = f"emp_{t}"
+            shares, total = check_and_share(vals, name)
+            out.append(write_key(name, y, vals, shares, total, national, dict(
+                org="Statistics Finland", table="StatFin tyokay 115h",
+                item=f"Employed labour force in area (workplaces), TOL {t}; municipalities -> regions "
+                     f"(kunta_1_20260101#maakunta_1_20260101)", url=f"{PXWEB}/{table}"),
+                tol=0.02, why="workplace municipality unknown or abroad: national total only"
+                + (f"; unmapped area codes {unknown}" if unknown else "")))
+    return out
+
+
+KEYS = {"population": key_population, "buildings": key_buildings, "vehicles": key_vehicles,
+        "industry": key_industry, "employment": key_employment}
+
+
+def all_results():
+    """Every key documented by a .json sidecar (all keys built so far, not only this run's)."""
+    return [json.load(open(os.path.join(OUT, fn), encoding="utf-8"))
+            for fn in sorted(os.listdir(OUT)) if fn.endswith(".json")]
 
 
 def write_audit(results):
@@ -134,7 +300,7 @@ def write_audit(results):
         lines += [f"## {r['name']} {r['year']}", "",
                   f"- Source: {s['org']}, {s['table']}, item \"{s['item']}\" ({s['url']})",
                   f"- File: `{r['path']}`",
-                  f"- Regional total {r['total']:,} vs national {r['national']:,}: **{r['check']}**", "",
+                  f"- Regional total {r['total']:,} vs national {r['national'] if r['national'] is None else format(r['national'], ',')}: **{r['check']}**", "",
                   "| Region | Name | Share |", "|---|---|---|"]
         lines += [f"| {k} | {REGIONS[k]} | {v:.4%} |" for k, v in r["shares"].items()]
         lines.append("")
@@ -154,8 +320,8 @@ def main():
             continue
         results += fn()
     for r in results:
-        print(f"{r['name']:12s} {r['year']}  total {r['total']:>12,}  national {r['national']:>12,}  {r['check']}")
-    print("wrote", os.path.relpath(write_audit(results), ROOT))
+        print(f"{r['name']:24s} {r['year']}  total {r['total']:>14,}  national {str(r['national']):>14}  {r['check']}")
+    print("wrote", os.path.relpath(write_audit(all_results()), ROOT))
 
 
 if __name__ == "__main__":

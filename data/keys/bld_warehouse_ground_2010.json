@@ -1,0 +1,36 @@
+{
+ "name": "bld_warehouse_ground",
+ "year": "2010",
+ "path": "data/keys/bld_warehouse_ground_2010.csv",
+ "total": 43194,
+ "national": 43194,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin raku 15f7",
+  "item": "Building floor area (m2), class 12, heat source 09",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/raku/15f7.px"
+ },
+ "shares": {
+  "FI1B1": 0.3530814464971987,
+  "FI1C1": 0.04405704495994814,
+  "FI196": 0.007385284993286104,
+  "FI1C2": 0.0,
+  "FI19B": 0.061929897670972824,
+  "FI1C6": 0.03315275269713386,
+  "FI1C7": 0.07623744038523869,
+  "FI1C5": 0.0,
+  "FI1DA": 0.048941982682780015,
+  "FI1DB": 0.005417419085984165,
+  "FI1DC": 0.03727369542066028,
+  "FI198": 0.02287354725193314,
+  "FI199": 0.07924711765522989,
+  "FI19A": 0.08598416446728713,
+  "FI1D5": 0.05394267722368847,
+  "FI1D9": 0.012131314534426077,
+  "FI1D8": 0.0,
+  "FI1D7": 0.06436079085058109,
+  "FI200": 0.013983423623651433
+ },
+ "fetched": "2026-11-17"
+}
