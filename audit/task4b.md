@@ -1,6 +1,6 @@
 # Task 4b: pulp and paper, lime, chemicals, fertiliser to their regions — audit and design
 
-Status: applied 2026-11-17 (`tools/task4_industry.py --step 4b`, dry run `audit/task4b_dryrun.txt`); server run pending.
+Status: applied 2026-11-17 (`--step 4b`), fixes `--step 4bfix` (0d2894e) and `--step 4bfix2`; server rerun pending.
 Builds on 4a (passed 2026-11-17, -0.005 %) and its lessons (`audit/task4_industry.md` section 9).
 
 ## 1. What moves
@@ -89,3 +89,26 @@ New pre-run check `tools/regmode_check.py`: copies the workbooks, switches them 
 recalculates and lists cells that are errors only in Reg mode. On the committed 4b workbook it finds
 452 such cells (359 on `Reg_IND`, e.g. the pulp stock row); after the fix 0, in all 10 changed
 workbooks.
+
+## 7. Second 4b server run (2026-11-17): barrier diverged -> national electricity share double-counted
+
+`GAMS_WrkTIMES` of the unfinished run (commit 20c6d03): pulp stocks, coefficients and fuel shares now
+present and equal to the 4a hub values (sums of PRC_RESID exact), but barrier diverged (primal
+infeasibility stuck at ~1.6e7, objectives to 1e10; the server's crossover clean-up was still at 5.4M
+after 45 min). Reproduced locally with the server DD files (same reduced LP).
+
+Bisection on the data new since the first 4b run (local barrier, same options): without the new
+FLO_SHAR of `INDIPPHTH00` still diverges; without the new pulp/paper input coefficients converges;
+narrowed to the **INDELC inputs** (without them converges, without the IPPHTH inputs still diverges).
+
+Cause: `TUC_MinShareofCenELCinINDELC` (`Scen_UC-IND` / `CHPShares` rows 16-18, R_S in Reg mode):
+`1.02 x FLO(INDELC00 on FI) - 0.75 x sum_r COMPRD(INDELC, r) >= 0`. An internal import counts as
+production in the importing region, so every PJ sent over `TB_INDELC_FI_*` was counted twice (rule
+of task 0; this UC was on the step-7 list). With pulp and paper electricity (~40 PJ) now crossing the
+links, the constraint could only hold on its dummy.
+
+Fix (`--step 4bfix2`, dry run `audit/task4b_fix2_dryrun.txt`, applied): Reg-only row 19,
+`Pset_PN = TB_INDELC_*`, `UC_IRE-I = -E18 = 0.75`, Year 2015 (both link ends, as the heat-link rows
+13-14). Tested first in the server DD files (30 UC_IRE lines on 15 links): optimal, 1,529,746.15 vs
+single 1,529,919.88 (-0.011 %); check_run PASS (no dummy imports; COM_PROJ, NCAP_PASTI, PRC_RESID
+conserved); audit_run hard checks pass, K none. `regmode_check`: 0 new error cells.

@@ -842,6 +842,27 @@ def plan_ire_rows(plan, book, sh, hdr_row, pn_col, ire_col, rows, notes):
     notes.append(f"{os.path.basename(book)}:{sh}: {len(rows)} UC_IRE-I correction rows")
 
 
+def plan_minshare_elc(plan, notes):
+    """TUC_MinShareofCenELCinINDELC (CHPShares rows 16-18, R_S in Reg mode): 1.02 x grid INDELC00 output
+    - 0.75 x COMPRD(INDELC) >= 0. An internal INDELC import counts as production in the importing region,
+    so every PJ sent over TB_INDELC_* was counted twice (second 4b run: pulp mill electricity made the
+    constraint bind on its dummy, barrier diverged). Reg-only row 19: UC_IRE-I = -UC_COMPRD on TB_INDELC_*."""
+    sh = "CHPShares"
+    b = Book(UCIND)
+    if b.val(sh, "A18") != "TUC_MinShareofCenELCinINDELC" or b.val(sh, "B17") != "Pset_PN":
+        sys.exit(f"{UCIND} {sh}: TUC_MinShareofCenELCinINDELC table not where expected (A18, header row 17)")
+    for c in ("H17", "H18", "I17", "I18") + tuple(f"{x}19" for x in "ABCDEFGHI"):
+        if b.val(sh, c) is not None or b.f.get((sh, c)):
+            sys.exit(f"{UCIND} {sh}!{c} is not empty")
+    plan.edit(UCIND, sh, "H17", None, regonly(q("UC_IRE-I")), GREEN, "correction column (Reg mode)")
+    plan.edit(UCIND, sh, "I17", None, regonly(q("Year")), GREEN, "explicit year of the correction row (tag year 2015)")
+    for cell, expr in (("A19", "A18"), ("B19", q("TB_INDELC_*")), ("C19", q("INDELC")), ("H19", "-E18"),
+                       ("I19", "2015")):
+        plan.edit(UCIND, sh, cell, None, regonly(expr), GREEN,
+                  "TUC_MinShareofCenELCinINDELC: UC_IRE-I = -UC_COMPRD on TB_INDELC_* (an internal import is not production)")
+    notes.append(f"{os.path.basename(UCIND)}:{sh}: UC_IRE-I correction row 19 for TUC_MinShareofCenELCinINDELC")
+
+
 def plan_demand_4b(plan, notes):
     """COM_PROJ of the 4b products split by the sector key (Split rule): FI rows commented out in Reg mode
     ('*' in the first column), a Reg-only table gives FI 0 and each region FI x share."""
@@ -1063,7 +1084,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1073,10 +1094,14 @@ def main():
     if a.step == "4b":
         run_4b(a)
         return
-    if a.step == "4bfix":
+    if a.step in ("4bfix", "4bfix2"):
         plan, notes = Plan(), []
-        plan_generic_deps(plan, notes)
-        out = os.path.join(ROOT, "audit", "task4b_fix_dryrun.txt")
+        if a.step == "4bfix":
+            plan_generic_deps(plan, notes)
+            out = os.path.join(ROOT, "audit", "task4b_fix_dryrun.txt")
+        else:
+            plan_minshare_elc(plan, notes)
+            out = os.path.join(ROOT, "audit", "task4b_fix2_dryrun.txt")
         L = ["NOTE " + n for n in notes] + [""]
         for book in plan.books():
             L.append(f"--- {book}")
