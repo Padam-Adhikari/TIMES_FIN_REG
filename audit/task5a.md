@@ -1,6 +1,6 @@
 # Task 5a: generic industry, non-energy use and agriculture — audit and design
 
-Status: first server run FAILED (-5.2 %), fixed with `--step 5afix` 2026-11-18 (section 6); server rerun pending.
+Status: PASSED 2026-11-18 (second server run, -0.038 %, section 7).
 
 ## 1. What moves
 
@@ -103,3 +103,23 @@ unit of activity (flags `AGR_Agr_For_Fis-Tech` in the failed run; clean on the p
 Checks after apply: `regmode_check` 0 Reg-only errors (Scen_X-NATIONALGRIDS has 7 error cells in single
 mode, identical before the fix, outside VEDA tables); single-mode raw tables identical; `Reg_GasGrid` values
 equal their source.
+
+## 7. Second 5a server run (2026-11-18): PASS
+
+`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`: optimal, 1,529,334.37 vs single 1,529,919.88
+(-585.5, -0.038 %). Solver options (log): `solutiontype 2` (barrier without crossover), `baralg 2`,
+`barepcomp 1e-7`, feasibility 1e-8; CPLEX 948 s on 31 threads, 17 min in total (first run 48 min with crossover).
+- `uc_ire_scan`: clean. `checks/task5a.md`: PASS. `audit/run_task5a.md`: hard checks pass, K and L none.
+- Emissions vs single: ETSCO2 -0.16 %, ELCCO2N +0.75 %, INDCO2N -1.2 %.
+- National activity of the 68 active moved processes: 8,671.3 vs 8,677.7; largest change `IOISTMHTH00`
+  (steam from heat in other industries) 40.4 -> 33.5.
+- The gap (-0.038 % vs -0.011 % after 4c) comes from fixed regional demand shares of the moved sectors on a
+  copper plate and the barrier-only solution (about 1 M EUR).
+
+Small gaps found by the parameter comparison, to be fixed with step 5b (no measurable effect):
+1. `BY_Trans`/`Voltage Grids`: `FLO_SHAR` voltage splits (`AGRELC00` 0.8 ELCLOW, also `COMELC00`, `RSDELC00`,
+   `TRAELC00`, `INDELC00`, `SUPELC00`) are in an `FI` column -> Reg-only `AllRegions` copy (copy rule).
+2. ENV commodities declared on the hub only although moved processes emit them: `INDCXFN` (aluminium
+   fluorocarbons, 10 processes), `INDSCO2P` (fertiliser CCS, aggregated into ETSCO2; a 4b gap).
+3. `FLO_PKCOI` of `AGRHET00` on `HETHTH`: district-heat peak settings cover the hub only (heat is a copper
+   plate on the hub until step 5e).
