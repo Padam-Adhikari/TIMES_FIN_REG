@@ -1858,7 +1858,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1876,6 +1876,30 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix2":
+        # 5b server run infeasible: SubRES_20 'Calibration car stocks' (generic ~FI_T, no region) gives the
+        # national NCAP_PASTI of the 10 new car technologies to every region once they are available there
+        # (19 x the national car sales 2011-2025). A Reg-only ~TFM_UPD in the Trans file scales the regional
+        # copies by the car key (updates of a Trans file apply to its own SubRES module only).
+        plan, notes = Plan(), []
+        key = load_key("veh_cars_2011")
+        cells = [("A1", f"{MARK}: 5b - NCAP_PASTI of the new car technologies (SubRES_20 'Calibration car stocks', "
+                        "no region column) x regional share of cars in traffic (veh_cars_2011); the regions sum to "
+                        "the national value. Read only in Reg mode.", None),
+                 ("A3", regonly(q("~TFM_UPD")), GREEN)]
+        for i, h in enumerate(["Attribute", "PSET_PN"] + REG19):
+            cells.append((f"{col_let(1 + i)}4", regonly(q(h)), GREEN))
+        cells += [("A5", regonly(q("NCAP_PASTI")), GREEN), ("B5", regonly(q("TRA_Car*")), GREEN)]
+        for j, reg in enumerate(REG19):
+            if key.get(reg):
+                cells.append((f"{col_let(3 + j)}5", regonly(q("*" + repr(key[reg]))), ORANGE))
+        plan.sheets[SUB20_T]["Reg_PASTI"] = cells
+        notes.append(f"5bfix2: SubRES_20 Reg_PASTI scales NCAP_PASTI of TRA_Car* by veh_cars_2011 "
+                     f"(sum of shares {sum(key.values()):.12f})")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix2_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5bfix":
         plan, notes = Plan(), []

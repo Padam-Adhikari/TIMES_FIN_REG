@@ -103,3 +103,20 @@ effective single-mode values for Finland - apply in the national constraint; `pl
 this whenever both columns exist. New pre-sync check `tools/reg_header_scan.py`: every VEDA table header as
 seen in Reg mode, duplicates reported. Whole model: only these two tables (two hits in the untouched
 `SubRES_22` are plain constants identical in both modes, accepted by VEDA in every sync so far).
+
+## 9. First 5b server run (2026-11-18): infeasible -> fixed (`--step 5bfix2`)
+
+CPLEX: "dual objective limit exceeded" (primal infeasible); reduced LP 1.60 M rows (5a: 0.68 M).
+Cause: SubRES_20 `Calibration car stocks` (generic `~FI_T`, no region column) holds the national
+`NCAP_PASTI` of the 10 new car technologies (`TRA_Car_*_01`, `TRA_Car_Elc_LoM_10`, `TRA_Car_PIH_LoM_80pct`,
+car sales 2011-2025). Once the 5b AVA row made them available in the regions, every region got the national
+value (19 x the fleet; with minimum annual km per car, more car output than demand). QA_CHECK: "Delay is
+ignored ... PASTInvestment" for these processes in all regions.
+Check of the server DD: national totals of `NCAP_PASTI` and `COM_PROJ` (input data years) against the single
+run: only these car entries differ (exactly x19); all demands, incl. transport in 2015, conserved.
+Fix: Reg-only `~TFM_UPD` on new sheet `SUBRES_20 Trans`/`Reg_PASTI`: `NCAP_PASTI` of `TRA_Car*` x `veh_cars_2011`
+share per region (`*0.0466` ...; updates of a Trans file apply to its own SubRES module only; year-0 options
+are not scaled). Local test impossible: the 5b LP does not fit in 15.6 GB (CPLEX out of memory, also with
+memory emphasis and 2 threads). Checks: regmode_check 0, reg_header_scan 0, single-mode tables unchanged,
+Reg-mode multipliers sum to 1.
+Note: the pushed case folder lacked `z_dac_sensit.dd` (in the run file); taken from the 5a push for the test.
