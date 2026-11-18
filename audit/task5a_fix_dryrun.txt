@@ -1,0 +1,156 @@
+NOTE new cement technologies available at their sites: 1 (rows 180-180)
+NOTE 5afix: AGR!F17 EFF restored; AGRGAS00 stock split (Reg_GasGrid); INDPRC corrections IOIHTH/INMHTH; ICLSTDPRO01 SubRES availability
+
+--- Reg-FINTIMES/SubRES_TMPL/SUBRES_10_TECHS_CHP_SUP_IND_Trans.xlsx
+  ~ 'TechSelection AVA'!C180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","ICLSTDPRO01")
+      (ICLSTDPRO01: available at its site(s))
+  ~ 'TechSelection AVA'!F180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",0)
+      (ICLSTDPRO01: not on the hub (cement moved))
+  ~ 'TechSelection AVA'!H180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI196)
+  ~ 'TechSelection AVA'!I180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI198)
+  ~ 'TechSelection AVA'!J180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI199)
+  ~ 'TechSelection AVA'!K180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI19A)
+  ~ 'TechSelection AVA'!L180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI19B)
+  ~ 'TechSelection AVA'!M180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1B1)
+  ~ 'TechSelection AVA'!N180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1C1)
+  ~ 'TechSelection AVA'!O180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1C2)
+  ~ 'TechSelection AVA'!P180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1C5)
+  ~ 'TechSelection AVA'!Q180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1C6)
+  ~ 'TechSelection AVA'!R180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1C7)
+  ~ 'TechSelection AVA'!S180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1D5)
+  ~ 'TechSelection AVA'!T180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1D7)
+  ~ 'TechSelection AVA'!U180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1D8)
+  ~ 'TechSelection AVA'!G180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1D9)
+  ~ 'TechSelection AVA'!V180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1DA)
+  ~ 'TechSelection AVA'!W180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1DB)
+  ~ 'TechSelection AVA'!X180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI1DC)
+  ~ 'TechSelection AVA'!Y180 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (ICLSTDPRO01: FI200)
+--- Reg-FINTIMES/SuppXLS/Scen_UC-IND.xlsx
+  ~ 'INDPRC'!B55 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",2011)
+      (UC_IRE-I = -UC_COMPRD of row 33 on TB_IOIHTH_* (an internal import is not production))
+  ~ 'INDPRC'!C55 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",C33)
+      (UC_IRE-I = -UC_COMPRD of row 33 on TB_IOIHTH_* (an internal import is not production))
+  ~ 'INDPRC'!H55 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","IOIHTH")
+      (UC_IRE-I = -UC_COMPRD of row 33 on TB_IOIHTH_* (an internal import is not production))
+  ~ 'INDPRC'!N55 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_IOIHTH_*")
+      (UC_IRE-I = -UC_COMPRD of row 33 on TB_IOIHTH_* (an internal import is not production))
+  ~ 'INDPRC'!O55 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",IFERROR(-K33,""))
+      (UC_IRE-I = -UC_COMPRD of row 33 on TB_IOIHTH_* (an internal import is not production))
+  ~ 'INDPRC'!B56 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",2011)
+      (UC_IRE-I = -UC_COMPRD of row 43 on TB_INMHTH_* (an internal import is not production))
+  ~ 'INDPRC'!C56 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",C43)
+      (UC_IRE-I = -UC_COMPRD of row 43 on TB_INMHTH_* (an internal import is not production))
+  ~ 'INDPRC'!H56 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","INMHTH")
+      (UC_IRE-I = -UC_COMPRD of row 43 on TB_INMHTH_* (an internal import is not production))
+  ~ 'INDPRC'!N56 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_INMHTH_*")
+      (UC_IRE-I = -UC_COMPRD of row 43 on TB_INMHTH_* (an internal import is not production))
+  ~ 'INDPRC'!O56 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",IFERROR(-K43,""))
+      (UC_IRE-I = -UC_COMPRD of row 43 on TB_INMHTH_* (an internal import is not production))
+--- Reg-FINTIMES/SuppXLS/Scen_X-NATIONALGRIDS.xlsx
+  ~ 'National Gas grid'!B6 [#DDEBF7]: 'STOCK'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"STOCK","*STOCK")
+      (AGRGAS00 stock row: comment in Reg mode (split to the regions on Reg_GasGrid))
+  + sheet 'Reg_GasGrid' (46 cells)
+      A1 [None] Task 4a (tools/task4_industry.py): 5a - existing stock of the agricultural gas fuel process AGRGAS00 split by emp_A_2010 (national value 'National Gas grid'!J6). Read only in Reg mode.
+      A3 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~TFM_INS")
+      A4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Attribute")
+      B4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Pset_PN")
+      C4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Year")
+      D4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI196")
+      E4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI198")
+      F4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI199")
+      G4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI19A")
+      H4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI19B")
+      I4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1B1")
+      J4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1C1")
+      K4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1C2")
+      L4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1C5")
+      M4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1C6")
+      N4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1C7")
+      O4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1D5")
+      P4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1D7")
+      Q4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1D8")
+      R4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1D9")
+      S4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1DA")
+      T4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1DB")
+      U4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI1DC")
+      V4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FI200")
+      A5 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","STOCK")
+      B5 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","AGRGAS00")
+      C5 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"",2010)
+      D5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.047653769258)
+      E5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.055862636716)
+      F5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.091755850876)
+      G5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.056732917794)
+      H5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.066788192403)
+      I5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.062072209808)
+      J5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.084135011173)
+      K5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.034199694226)
+      L5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.026226037869)
+      M5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.034728919205)
+      N5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.027178642832)
+      O5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.031047865459)
+      P5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.045783840997)
+      Q5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.025367517347)
+      R5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.103492884864)
+      S5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.053228272374)
+      T5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.089556627073)
+      U5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.057379748324)
+      V5 [#FCE4D6] =IF(Region_selection!$B$8=Region_selection!$D$8,"",'National Gas grid'!J6*0.006809361402)
+--- Reg-FINTIMES/VT_FINTIMES_AGR.xlsx
+  ~ 'AGR'!F17 [#DDEBF7]: 1
+      -> 1
+      (EFF of AGR_Agr_For_Fis-Tech restored: its own attribute, wrongly blanked in 5a (the process produced agriculture's demand without inputs in the regions))
+  ~ 'AGR'!R17 [None]: None
+      -> 
+      (unused helper of the restored cell removed)

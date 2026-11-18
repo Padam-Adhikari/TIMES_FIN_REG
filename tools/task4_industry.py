@@ -571,6 +571,9 @@ def plan_generic(plan, notes, extra=()):
                             continue
                         if f and SEL in f:
                             continue          # already switched (4b re-wrapped 9 cells: audit/task5a.md section 3)
+                        if not re.fullmatch(r"\d{4}", str(h).strip()):
+                            continue          # a named column (EFF, LIFE, ...) is its own attribute, not a generic
+                                              # copy of the FI value (5a blanked AGR EFF: audit/task5a.md section 6)
                         expr = f[1:] if f else (q(val) if isinstance(val, str) else repr(val))
                         plan.edit(book, t["sheet"], cell, val, sw(expr, '""'), BLUE,
                                   f"{p}: generic {h} value blank in Reg mode (sites get the calibrated FI value "
@@ -1510,13 +1513,81 @@ def apply_per_book(plan):
     sys.exit(0 if res and all(v == "ok" for v in res.values()) and len(res) == len(plan.books()) else 1)
 
 
+GASGRID = M + "SuppXLS/Scen_X-NATIONALGRIDS.xlsx"
+
+
+def plan_5afix(plan, notes):
+    """Corrections after the first 5a server run (audit/task5a.md section 6)."""
+    # a. AGR!F17: EFF of AGR_Agr_For_Fis-Tech restored (not a generic copy of the FLO_SHAR column 'FI')
+    b = Book(AGR_BOOK)
+    blank = f'=IF({SEL},1,"")'
+    if b.f.get(("AGR", "F17")) != blank:
+        sys.exit(f"{AGR_BOOK} AGR!F17 is {b.f.get(('AGR', 'F17'))!r}")
+    plan.edit(AGR_BOOK, "AGR", "F17", 1, 1, BLUE,
+              "EFF of AGR_Agr_For_Fis-Tech restored: its own attribute, wrongly blanked in 5a (the process produced "
+              "agriculture's demand without inputs in the regions)")
+    if b.f.get(("AGR", "R17")) != regonly("1"):
+        sys.exit(f"{AGR_BOOK} AGR!R17 is {b.f.get(('AGR', 'R17'))!r}")
+    plan.edit(AGR_BOOK, "AGR", "R17", None, "", None, "unused helper of the restored cell removed")
+    # b. AGRGAS00 stock (Scen_X-NATIONALGRIDS, FI only): split by the agriculture key
+    T = read_tables(os.path.join(ROOT, GASGRID), tags=("~TFM_INS",))
+    hit = [(t, r) for t in T for r in t["rows"]
+           if r["cells"].get("Pset_PN", (0, None))[1] == "AGRGAS00"
+           and str(r["cells"].get("Attribute", (0, ""))[1]).upper() == "STOCK"]
+    if len(hit) != 1 or "FI" not in hit[0][1]["cells"]:
+        sys.exit(f"{GASGRID}: AGRGAS00 STOCK row not found once ({len(hit)})")
+    t, r = hit[0]
+    fic, val, f = r["cells"]["FI"]
+    gb = Book(GASGRID)
+    # the row is commented out in Reg mode ('*' in the table's first column); the national value stays in
+    # its cell, which the regional split reads
+    first_h, first_c = min(t["cols"].items(), key=lambda kv: kv[1])
+    fcell = f"{col_let(first_c)}{r['row']}"
+    fv, ff = gb.val(t["sheet"], fcell), gb.f.get((t["sheet"], fcell))
+    if ff or not isinstance(fv, str) or fv.startswith("*"):
+        sys.exit(f"{GASGRID} {t['sheet']}!{fcell}: first column {fv!r} {ff!r}")
+    plan.edit(GASGRID, t["sheet"], fcell, fv, sw(q(fv), q("*" + fv)), BLUE,
+              "AGRGAS00 stock row: comment in Reg mode (split to the regions on Reg_GasGrid)")
+    year = r["cells"]["Year"][1]
+    key = load_key(DEMAND_5A["AGR_Agr_For_Fis"])
+    cells = [("A1", f"{MARK}: 5a - existing stock of the agricultural gas fuel process AGRGAS00 split by "
+                    f"{DEMAND_5A['AGR_Agr_For_Fis']} (national value '{t['sheet']}'!{fic}). Read only in Reg mode.", None),
+             ("A3", regonly(q("~TFM_INS")), GREEN)]
+    hdr = ["Attribute", "Pset_PN", "Year"] + REG19
+    for i, h in enumerate(hdr):
+        cells.append((f"{col_let(1 + i)}4", regonly(q(h)), GREEN))
+    cells += [("A5", regonly(q("STOCK")), GREEN), ("B5", regonly(q("AGRGAS00")), GREEN), ("C5", regonly(repr(int(year))), GREEN)]
+    ref = sheet_ref(t["sheet"], fic)
+    for j, reg in enumerate(REG19):
+        if key.get(reg):
+            cells.append((f"{col_let(4 + j)}5", regonly(f"{ref}*{key[reg]!r}"), ORANGE))
+    plan.sheets[GASGRID]["Reg_GasGrid"] = cells
+    # c. corrections of the coal-heat limits of the 5a sector heat (uc_ire_scan on the 5a run), rows 55-56 of
+    #    INDPRC as rows 53-54 of 4b
+    ub = Book(UCIND)
+    for r, src, com in ((55, 33, "IOIHTH"), (56, 43, "INMHTH")):
+        if com not in str(ub.val("INDPRC", f"H{src}")):
+            sys.exit(f"{UCIND} INDPRC!H{src} is {ub.val('INDPRC', f'H{src}')!r}, expected {com}")
+        for c in "ABCDEFGHIJKLMNO":
+            if ub.val("INDPRC", f"{c}{r}") is not None or ub.f.get(("INDPRC", f"{c}{r}")):
+                sys.exit(f"{UCIND} INDPRC!{c}{r} is not empty")
+        for c, e in (("B", "2011"), ("C", f"C{src}"), ("H", q(com)), ("N", q(f"TB_{com}_*")), ("O", f'IFERROR(-K{src},"")')):
+            plan.edit(UCIND, "INDPRC", f"{c}{r}", None, regonly(e), GREEN,
+                      f"UC_IRE-I = -UC_COMPRD of row {src} on TB_{com}_* (an internal import is not production)")
+    if ub.val("INDPRC", "B57") is not None or ub.f.get(("INDPRC", "B57")):
+        sys.exit(f"{UCIND} INDPRC!B57 must stay empty (end of table)")
+    # d. ICLSTDPRO01: declared in VT_FINTIMES_IND and defined in SubRES_10 - SubRES availability in its regions
+    plan_ava_4c(plan, {"ICLSTDPRO01": DEMAND_5A["ICL"]}, notes)
+    notes.append("5afix: AGR!F17 EFF restored; AGRGAS00 stock split (Reg_GasGrid); INDPRC corrections IOIHTH/INMHTH; ICLSTDPRO01 SubRES availability")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1531,6 +1602,13 @@ def main():
         return
     if a.step == "5a":
         run_5a(a)
+        return
+    if a.step == "5afix":
+        plan, notes = Plan(), []
+        plan_5afix(plan, notes)
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5a_fix_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step in ("4bfix", "4bfix2"):
         plan, notes = Plan(), []

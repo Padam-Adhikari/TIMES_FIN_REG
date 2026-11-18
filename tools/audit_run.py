@@ -315,6 +315,34 @@ def main():
                   sorted(((" / ".join(k), v) for k, v in free.items()), key=lambda t: -abs(t[1])))
     L.append("")
 
+    # L output without inputs: a process whose input coefficients were lost in the regions (efficiency
+    # blanked, input table not read) produces its output for free (task 5a: agriculture's top process
+    # delivered the demand with no inputs; CO2 room freed, objective -5.2 %). Compared nationally:
+    # (inputs / activity) in the run against the reference.
+    L.append("## L. Output without inputs")
+    top_r = {(r[0], r[1], r[2]) for r in R.rows("TOP") if r[3] == "IN"}
+    top_f = {(r[1], r[2]) for r in F.rows("TOP") if r[3] == "IN"}
+    act_r = R.agg("PAR_ACTL", lambda r: r[3])
+    act_f = F.agg("PAR_ACTL", lambda r: r[3])
+    in_r = R.agg("VAR_FLO", lambda r: r[3], filt=lambda r: (r[0], r[3], r[4]) in top_r)
+    in_f = F.agg("VAR_FLO", lambda r: r[3], filt=lambda r: (r[3], r[4]) in top_f)
+    starved = []
+    for p, a_run in act_r.items():
+        a_ref = act_f.get(p, 0)
+        if a_run < 1 or a_ref < 1 or is_dummy(p):
+            continue
+        ratio_ref = in_f.get(p, 0) / a_ref
+        ratio_run = in_r.get(p, 0) / a_run
+        if ratio_ref > 0.05 and ratio_run < 0.2 * ratio_ref:
+            starved.append((p, a_run, ratio_run, ratio_ref))
+    L.append(f"- Processes running with less than 20 % of their reference inputs per unit of activity: "
+             f"{'none' if not starved else len(starved)}")
+    if starved:
+        hard.append("output without inputs")
+        table(L, ["process", "activity (all years)", "inputs/activity run", "inputs/activity reference"],
+              sorted(starved, key=lambda t: -t[1]))
+    L.append("")
+
     L.append("## Verdict")
     L.append("FAIL: " + ", ".join(hard) if hard else "Hard checks pass (dummy imports, inputs conserved, "
              "regional emissions sent to the hub, coal phase-out).")
