@@ -354,6 +354,7 @@
  *01 WARNING       -     R=FI198        C=IAM
  *01 WARNING       -     R=FI198        C=ICH
  *01 WARNING       -     R=FI198        C=ILM
+ *01 WARNING       -     R=FI198        C=NEU
  *01 WARNING       -     R=FI199        C=ICU
  *01 WARNING       -     R=FI199        C=IGF
  *01 WARNING       -     R=FI199        C=IGH
@@ -363,6 +364,7 @@
  *01 WARNING       -     R=FI199        C=ILM
  *01 WARNING       -     R=FI199        C=IPH
  *01 WARNING       -     R=FI199        C=IPL
+ *01 WARNING       -     R=FI199        C=NEU
  *01 WARNING       -     R=FI19A        C=ICU
  *01 WARNING       -     R=FI19A        C=IGF
  *01 WARNING       -     R=FI19A        C=IGH
@@ -370,6 +372,7 @@
  *01 WARNING       -     R=FI19A        C=IAM
  *01 WARNING       -     R=FI19A        C=ICH
  *01 WARNING       -     R=FI19A        C=ILM
+ *01 WARNING       -     R=FI19A        C=NEU
  *01 WARNING       -     R=FI19B        C=ICU
  *01 WARNING       -     R=FI19B        C=IGF
  *01 WARNING       -     R=FI19B        C=IGH
@@ -377,6 +380,7 @@
  *01 WARNING       -     R=FI19B        C=IAM
  *01 WARNING       -     R=FI19B        C=ICH
  *01 WARNING       -     R=FI19B        C=ILM
+ *01 WARNING       -     R=FI19B        C=NEU
  *01 WARNING       -     R=FI1B1        C=ICU
  *01 WARNING       -     R=FI1B1        C=IGF
  *01 WARNING       -     R=FI1B1        C=IGH
@@ -389,6 +393,7 @@
  *01 WARNING       -     R=FI1C1        C=ICH
  *01 WARNING       -     R=FI1C1        C=IPH
  *01 WARNING       -     R=FI1C1        C=IPL
+ *01 WARNING       -     R=FI1C1        C=NEU
  *01 WARNING       -     R=FI1C2        C=ICU
  *01 WARNING       -     R=FI1C2        C=IGF
  *01 WARNING       -     R=FI1C2        C=IGH
@@ -396,6 +401,7 @@
  *01 WARNING       -     R=FI1C2        C=IAM
  *01 WARNING       -     R=FI1C2        C=ICH
  *01 WARNING       -     R=FI1C2        C=ILM
+ *01 WARNING       -     R=FI1C2        C=NEU
  *01 WARNING       -     R=FI1C5        C=ICU
  *01 WARNING       -     R=FI1C5        C=IGF
  *01 WARNING       -     R=FI1C5        C=IGH
@@ -408,6 +414,7 @@
  *01 WARNING       -     R=FI1C6        C=IAM
  *01 WARNING       -     R=FI1C6        C=ICH
  *01 WARNING       -     R=FI1C6        C=ILM
+ *01 WARNING       -     R=FI1C6        C=NEU
  *01 WARNING       -     R=FI1C7        C=ICU
  *01 WARNING       -     R=FI1C7        C=IGF
  *01 WARNING       -     R=FI1C7        C=IGH
@@ -415,6 +422,7 @@
  *01 WARNING       -     R=FI1C7        C=IAM
  *01 WARNING       -     R=FI1C7        C=ICH
  *01 WARNING       -     R=FI1C7        C=ILM
+ *01 WARNING       -     R=FI1C7        C=NEU
  *01 WARNING       -     R=FI1D5        C=ICU
  *01 WARNING       -     R=FI1D5        C=IGF
  *01 WARNING       -     R=FI1D5        C=IGH
@@ -424,27 +432,33 @@
  *01 WARNING       -     R=FI1D5        C=ILM
  *01 WARNING       -     R=FI1D5        C=IPH
  *01 WARNING       -     R=FI1D5        C=IPL
+ *01 WARNING       -     R=FI1D5        C=NEU
  *01 WARNING       -     R=FI1D7        C=ICU
  *01 WARNING       -     R=FI1D7        C=IGF
  *01 WARNING       -     R=FI1D7        C=IGH
  *01 WARNING       -     R=FI1D7        C=IIS
  *01 WARNING       -     R=FI1D7        C=IAM
  *01 WARNING       -     R=FI1D7        C=ICH
+ *01 WARNING       -     R=FI1D7        C=NEU
  *01 WARNING       -     R=FI1D8        C=ICU
  *01 WARNING       -     R=FI1D8        C=IGF
  *01 WARNING       -     R=FI1D8        C=IGH
  *01 WARNING       -     R=FI1D8        C=IIS
+ *01 WARNING       -     R=FI1D8        C=IAL
  *01 WARNING       -     R=FI1D8        C=IAM
  *01 WARNING       -     R=FI1D8        C=ICH
  *01 WARNING       -     R=FI1D8        C=ILM
+ *01 WARNING       -     R=FI1D8        C=INF
  *01 WARNING       -     R=FI1D8        C=IPH
  *01 WARNING       -     R=FI1D8        C=IPL
+ *01 WARNING       -     R=FI1D8        C=NEU
  *01 WARNING       -     R=FI1D9        C=ICU
  *01 WARNING       -     R=FI1D9        C=IGF
  *01 WARNING       -     R=FI1D9        C=IGH
  *01 WARNING       -     R=FI1D9        C=IIS
  *01 WARNING       -     R=FI1D9        C=IAM
  *01 WARNING       -     R=FI1D9        C=ICH
+ *01 WARNING       -     R=FI1D9        C=NEU
  *01 WARNING       -     R=FI1DA        C=ICU
  *01 WARNING       -     R=FI1DA        C=IGF
  *01 WARNING       -     R=FI1DA        C=IGH
@@ -453,12 +467,14 @@
  *01 WARNING       -     R=FI1DA        C=ICH
  *01 WARNING       -     R=FI1DA        C=IPH
  *01 WARNING       -     R=FI1DA        C=IPL
+ *01 WARNING       -     R=FI1DA        C=NEU
  *01 WARNING       -     R=FI1DB        C=ICU
  *01 WARNING       -     R=FI1DB        C=IGF
  *01 WARNING       -     R=FI1DB        C=IGH
  *01 WARNING       -     R=FI1DB        C=IIS
  *01 WARNING       -     R=FI1DB        C=ICH
  *01 WARNING       -     R=FI1DB        C=ILM
+ *01 WARNING       -     R=FI1DB        C=NEU
  *01 WARNING       -     R=FI1DC        C=ICU
  *01 WARNING       -     R=FI1DC        C=IGF
  *01 WARNING       -     R=FI1DC        C=IGH
@@ -474,6 +490,7 @@
  *01 WARNING       -     R=FI200        C=ILM
  *01 WARNING       -     R=FI200        C=IPH
  *01 WARNING       -     R=FI200        C=IPL
+ *01 WARNING       -     R=FI200        C=NEU
 
  *** FLO_SUM Commodity Not in CG1 - parameter ignored
  *01 WARNING       -     R=FI           P=Rdw_DetH     CG1=Bldg_DETPre09-Cei C=R_DetH
@@ -524,7 +541,6 @@
  *01 WARNING       -     R=FI           P=P_RSDBATS03  C=DUMSTOR      IO=IN
  *01 WARNING       -     R=FI           P=P_STH2SDT    C=DUMSTOR      IO=IN
  *01 WARNING       -     R=FI           P=P_STH2SGT    C=DUMSTOR      IO=IN
- *01 WARNING       -     R=FI           P=S_CCUS_EMISMeOH C=ELCHIG       IO=IN
  *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC03 C=COMAHT       IO=IN
  *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC04 C=COMAHT       IO=IN
  *01 WARNING       -     R=FI           P=C_ES-SH-HO_ELC05 C=COMAHT       IO=IN
