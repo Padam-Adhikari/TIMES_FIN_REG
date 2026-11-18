@@ -1,0 +1,30 @@
+NOTE 5bfix3: 8 TechNames restored, 000Veh!F23 off in Reg mode
+
+--- Reg-FINTIMES/VT_FINTIMES_TRA.xlsx
+  ~ '000Veh'!D29 [None]: 'TRA_Hdt_Dis'
+      -> TRA_Hdt_Dis
+      (TRA_Hdt_Dis: TechName restored (read by L29 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D30 [None]: 'TRA_Hdt_Gas'
+      -> TRA_Hdt_Gas
+      (TRA_Hdt_Gas: TechName restored (read by L30 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D31 [None]: 'TRA_Lcv_Cng'
+      -> TRA_Lcv_Cng
+      (TRA_Lcv_Cng: TechName restored (read by L31 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D32 [None]: 'TRA_Lcv_Dis'
+      -> TRA_Lcv_Dis
+      (TRA_Lcv_Dis: TechName restored (read by L32 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D33 [None]: 'TRA_Lcv_Gas'
+      -> TRA_Lcv_Gas
+      (TRA_Lcv_Gas: TechName restored (read by L33 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D34 [None]: 'TRA_Lcv_Lpg'
+      -> TRA_Lcv_Lpg
+      (TRA_Lcv_Lpg: TechName restored (read by L34 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D35 [None]: 'TRA_Mop_Gas'
+      -> TRA_Mop_Gas
+      (TRA_Mop_Gas: TechName restored (read by L35 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!D36 [None]: 'TRA_Mot_Gas'
+      -> TRA_Mot_Gas
+      (TRA_Mot_Gas: TechName restored (read by L36 ~FI_Process and the demand helper rows))
+  ~ '000Veh'!F23 [#DDEBF7]: '~FI_T: Stock'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~FI_T: Stock","FI_T: Stock (Reg: Reg_TRA)")
+      (Stock table off in Reg mode: regional stock and topology on Reg_TRA (5b))

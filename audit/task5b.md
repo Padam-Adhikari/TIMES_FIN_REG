@@ -1,6 +1,6 @@
 # Task 5b: road and rail transport to the regions — audit and design
 
-Status: applied 2026-11-18 (`tools/task4_industry.py --step 5b`, dry run `audit/task5b_dryrun.txt`); server run pending.
+Status: applied 2026-11-18; fixes 5bfix, 5bfix2, 5bfix3 (section 10); server run pending.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
@@ -120,3 +120,23 @@ are not scaled). Local test impossible: the 5b LP does not fit in 15.6 GB (CPLEX
 memory emphasis and 2 threads). Checks: regmode_check 0, reg_header_scan 0, single-mode tables unchanged,
 Reg-mode multipliers sum to 1.
 Note: the pushed case folder lacked `z_dac_sensit.dd` (in the run file); taken from the 5a push for the test.
+
+## 10. Second 5b server run (2026-11-19): +47.9 % -> fixed (`--step 5bfix3`)
+
+`runs/reg_baseline-sami_2026-11-19_task5b.gdx`: optimal (CPLEX 1,553 s on 31 threads, 28 min in total),
+2,262,896.08 vs single 1,529,919.88 (+47.9 %). `checks/task5b.md` FAIL, `audit/run_task5b.md`: dummy imports 0,
+COM_PROJ conserved; NCAP_PASTI and PRC_RESID lost for exactly 6 vehicle types (`TRA_Hdt_Dis/Gas`, `TRA_Lcv_Dis/Gas`,
+`TRA_Mot_Gas`, `TRA_Mop_Gas`: 1,474 units of residual and past capacity); all other transport stock conserved.
+Consequence: new heavy trucks `TRA_Hdt_Dis_01` invested 633 bn EUR (reference 19 bn), i.e. 614 of the 733 bn gap;
+ETSCO2 +5.7 %, ELCCO2N +14 %. K and L none.
+
+Cause: to keep the national stock off the hub, 5b commented the stock rows of `000Veh` `~FI_T: Stock` (F23) via
+their TechName (`D29:D36` -> `*<name> stock: Reg sheet`). The `~FI_Process` declaration in the same rows reads
+that cell (`L29:L36 = IF(E="\I:",E,D)`), so in Reg mode the 8 processes were declared in no region and VEDA
+dropped their regional stock on `Reg_TRA`. (The demand helper rows `D68:D75` and `Checks` also read it.)
+
+Fix: TechNames restored; the whole Stock table is off in Reg mode (its other rows are `\I:` rows; regional stock
+and topology are on `Reg_TRA`). New guard in `plan_book` (`refs_to`): a step stops if a stock-row TechName it
+would comment is read by any other formula. Whole-model scan: no other case.
+Checks: `regmode_check` 0 new Reg errors; `reg_header_scan` 0; single-mode values of the 9 cells unchanged.
+Local solve impossible (memory); the server run is the test.

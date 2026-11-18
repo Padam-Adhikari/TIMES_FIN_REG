@@ -92,6 +92,21 @@ def sheet_ref(sheet, cell):
     return f"'{sheet}'!{cell}" if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", sheet) else f"{sheet}!{cell}"
 
 
+def refs_to(b, sheet, cell):
+    """Formula cells of the workbook that read sheet!cell (same-sheet bare or sheet-qualified references)."""
+    col, row = re.match(r"([A-Z]+)(\d+)$", cell).groups()
+    bare = re.compile(r"(?<![!A-Za-z0-9_$'])\$?%s\$?%s(?!\d)" % (col, row))
+    qual = re.compile(r"(?:'%s'|%s)!\$?%s\$?%s(?!\d)" % (re.escape(sheet), re.escape(sheet), col, row))
+    out = []
+    for (s, c), f in b.f.items():
+        if (s, c) == (sheet, cell):
+            continue
+        body = re.sub(r'"[^"]*"', '""', f)          # ignore string literals
+        if qual.search(body) or (s == sheet and bare.search(body)):
+            out.append(f"{s}!{c}")
+    return out
+
+
 def inner(b, sheet, cell):
     """Expression of a cell usable inside IF(): its formula (without '=', refs qualified) or its constant."""
     f = b.f.get((sheet, cell))
@@ -209,6 +224,12 @@ def plan_book(plan, book, move, shares, notes):
                     # the row becomes a VEDA comment ('*' in TechName), so FI's copy has no stock
                     tnc = f"{col_let(t['cols']['TechName'])}{r['row']}"
                     tv = b.val(t["sheet"], tnc)
+                    readers = refs_to(b, t["sheet"], tnc)
+                    if readers:
+                        # 5b: 000Veh!D29 was read by the ~FI_Process declaration (L29) - commenting it
+                        # dropped the process from every region (fixed by --step 5bfix3)
+                        sys.exit(f"{book} {t['sheet']}!{tnc}: stock-row TechName of {p} is read by {readers}; "
+                                 f"commenting it would change them - disable the table instead (see 5bfix3)")
                     if tnc in [e[1] for e in plan.edits.get(book, []) if e[0] == t["sheet"]]:
                         pass
                     elif tv == p:
@@ -1858,7 +1879,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1876,6 +1897,36 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix3":
+        # 5b server run +47.9 %: the stock rows of 000Veh '~FI_T: Stock' (F23) were commented in Reg mode via
+        # their TechName (D29:D36), but the ~FI_Process declaration (L29:L36 = IF(E="\I:",E,D)) and the demand
+        # helper rows (D68:D75 = D29) read those cells: 6 vehicle types (vans, heavy trucks, motorcycles,
+        # mopeds with stock) were declared nowhere and their regional stock on Reg_TRA was dropped.
+        # Fix: TechNames back to their constants; the whole Stock table is off in Reg mode instead (its other
+        # rows are \I: rows; the regional stock and topology are on Reg_TRA).
+        plan, notes = Plan(), []
+        tb = Book(TRA_BOOK)
+        sh = "000Veh"
+        if tb.val(sh, "F23") != "~FI_T: Stock" or tb.f.get((sh, "F23")):
+            sys.exit(f"000Veh!F23 is {tb.val(sh, 'F23')!r} / {tb.f.get((sh, 'F23'))!r}")
+        for r in range(25, 43):
+            f = tb.f.get((sh, f"D{r}"))
+            e = tb.val(sh, f"E{r}")
+            if f:
+                p = tb.val(sh, f"D{r}")
+                if f != sw(q(p), q(f"*{p} stock: Reg sheet")):
+                    sys.exit(f"000Veh!D{r}: unexpected formula {f!r}")
+                plan.edit(TRA_BOOK, sh, f"D{r}", p, p, None,
+                          f"{p}: TechName restored (read by L{r} ~FI_Process and the demand helper rows)")
+            elif e != "\\I:" and tb.val(sh, f"D{r}") is not None:
+                sys.exit(f"000Veh!D{r}: stock row {tb.val(sh, f'D{r}')!r} not commented and not \\I: - check")
+        plan.edit(TRA_BOOK, sh, "F23", "~FI_T: Stock", sw(q("~FI_T: Stock"), q("FI_T: Stock (Reg: Reg_TRA)")), BLUE,
+                  "Stock table off in Reg mode: regional stock and topology on Reg_TRA (5b)")
+        notes.append(f"5bfix3: {len(plan.edits[TRA_BOOK]) - 1} TechNames restored, 000Veh!F23 off in Reg mode")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix3_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5bfix2":
         # 5b server run infeasible: SubRES_20 'Calibration car stocks' (generic ~FI_T, no region) gives the
