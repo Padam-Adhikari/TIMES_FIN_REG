@@ -5,8 +5,8 @@ baralg 2
 barepcomp 1.0e-7
 barcrossalg 1
 barorder 0
-THREADS -1
+threads -1
 aggind 3
-Names 1
+names no
 eprhs 1.0e-8
-OPTCR 0.0001
+solutiontype 2
