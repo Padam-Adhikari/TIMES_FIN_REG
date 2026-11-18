@@ -1,0 +1,9 @@
+NOTE 5bfix: Scen_TRA_SCENARIOS Transport UC N4, N15 -> *AllRegions in Reg mode
+
+--- Reg-FINTIMES/SuppXLS/Scen_TRA_SCENARIOS.xlsx
+  ~ 'Transport UC'!N4 [#DDEBF7]: 'AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"AllRegions","*AllRegions")
+      (AllRegions column off in Reg mode: the FI column was switched to AllRegions in 5b (duplicate header stopped the VEDA sync))
+  ~ 'Transport UC'!N15 [#DDEBF7]: 'AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"AllRegions","*AllRegions")
+      (AllRegions column off in Reg mode: the FI column was switched to AllRegions in 5b (duplicate header stopped the VEDA sync))

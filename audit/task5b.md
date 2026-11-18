@@ -92,3 +92,14 @@ Checks: `regmode_check` on the 12 workbooks: 0 Reg-only errors (`VT_FINTIMES_TRA
 single mode on `Eurostat-IEA`, identical before 5b); single-mode raw tables identical; Reg-mode values of
 `Reg_TRA` (110), `Reg_TRA_Stock` (158), `Reg_Demand` (286), `Reg_Voltage` (7) equal their sources.
 After the sync: `uc_ire_scan` must be clean.
+
+## 8. First VEDA sync (2026-11-18): duplicate column -> fixed (`--step 5bfix`)
+
+The sync stopped: "Veda-Tag table(s) has duplicate column names" in `Scen_TRA_SCENARIOS` (`~UC_T: UC_NCAP~LO`).
+The diesel-car tables (`Transport UC` rows 4 and 15) have both an `AllRegions` column (0.46) and an `FI`
+column (0.9, the Finnish coefficients); `plan_ucs_general` switched `FI` to `AllRegions` without looking at the
+existing column. Fix: the old column is `*AllRegions` (comment) in Reg mode, so the FI coefficients - the
+effective single-mode values for Finland - apply in the national constraint; `plan_ucs_general` now does
+this whenever both columns exist. New pre-sync check `tools/reg_header_scan.py`: every VEDA table header as
+seen in Reg mode, duplicates reported. Whole model: only these two tables (two hits in the untouched
+`SubRES_22` are plain constants identical in both modes, accepted by VEDA in every sync so far).

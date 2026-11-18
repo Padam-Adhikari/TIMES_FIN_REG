@@ -815,6 +815,13 @@ def plan_ucs_general(plan, items, notes):
                 elif h == "FI":
                     plan.edit(book, sheet, hc, h, sw(q(h), q("AllRegions")), BLUE,
                               "coefficients written for FI apply in every region of the sum")
+                    if "AllRegions" in t["cols"]:
+                        # both columns: two 'AllRegions' headers stop the VEDA sync (5b); the FI coefficients
+                        # (effective single-mode values for FI) apply everywhere, the old column is a comment
+                        ac = f"{col_let(t['cols']['AllRegions'])}{t['header_row']}"
+                        if not b.f.get((sheet, ac), "").startswith("=IF("):
+                            plan.edit(book, sheet, ac, "AllRegions", sw(q("AllRegions"), q("*AllRegions")), BLUE,
+                                      "AllRegions column off in Reg mode (the FI column takes its place)")
     notes.append(f"constraints made national: {', '.join(f'{os.path.basename(b)}:{s}' for b, s, _ in items)}")
 
 
@@ -1851,7 +1858,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1869,6 +1876,21 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix":
+        plan, notes = Plan(), []
+        sb = Book(M + "SuppXLS/Scen_TRA_SCENARIOS.xlsx")
+        for cell in ("N4", "N15"):
+            if sb.val("Transport UC", cell) != "AllRegions" or sb.f.get(("Transport UC", cell)):
+                sys.exit(f"Scen_TRA_SCENARIOS Transport UC!{cell} is {sb.val('Transport UC', cell)!r}")
+            plan.edit(M + "SuppXLS/Scen_TRA_SCENARIOS.xlsx", "Transport UC", cell, "AllRegions",
+                      sw(q("AllRegions"), q("*AllRegions")), BLUE,
+                      "AllRegions column off in Reg mode: the FI column was switched to AllRegions in 5b "
+                      "(duplicate header stopped the VEDA sync)")
+        notes.append("5bfix: Scen_TRA_SCENARIOS Transport UC N4, N15 -> *AllRegions in Reg mode")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5afix":
         plan, notes = Plan(), []
