@@ -1,6 +1,7 @@
 # Task 5b: road and rail transport to the regions — audit and design
 
-Status: applied 2026-11-18; fixes 5bfix, 5bfix2, 5bfix3, 5bfix4 (sections 8-11); server run pending.
+Status: applied 2026-11-18; fixes 5bfix .. 5bfix4 (sections 8-11); run 4 passes the hard checks at +0.136 %;
+5bfix5 (section 12, delivery cost on links, TRACO2N reporting) dry run, awaiting approval.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
@@ -164,3 +165,30 @@ sector moves (`audit/task5.md`): `SUBRES_30_TECHS_HeatingCooling_Trans` (RES_Wat
 101 lookups), `Scen_NewHouses_and_retrofits` (OldHouses, ServBldg: 40), `Scen_UC_RSD-COM` (Stock, AF: 214),
 `Scen_UC_HeatPumps_MaxCAP` / `_MinCAP_Lo` (Rdw_Stock: 9 + 9). `Scen_UC_TRA` (`Stock`): the lookups that feed
 `FuelUC` read `Stock!Y$1` (empty) and are 0 in both modes - no effect.
+
+## 12. Fourth 5b server run (2026-11-19): hard checks pass, +0.136 % -> `--step 5bfix5`
+
+`runs/reg_baseline-sami_2026-11-19_task5b_run3.gdx` (.lst): optimal, 1,532,000.46 vs single 1,529,919.88
+(+2,080.6, +0.136 %); vs the passed 5a run +2,666.1 (+0.174 %). Hard checks PASS (no dummy imports; COM_PROJ,
+NCAP_PASTI, PRC_RESID conserved); `audit_run` K and L clean: 5bfix4 works (new trucks back to the reference).
+
+a. Objective. Against 5a, the whole change is VAR (+3,869; INV -1,147): `CST_FLOC` +5,381 undiscounted, almost all
+   on `TB_ELCLOW_FI_*` (FI1B1 1,393, FI1C1 528, FI19B 511, ...). Source: `Scen_FuelPrices-DELIV`
+   `VEDADELIVCHPOTH` rows 5-6, `DELIV` 2.64 on every process with ELCLOW / ELCMED as output
+   (`*,-*TRANS*,-ELCSOLCUR`) - the grid fee of local plants feeding the grid. The internal links output these
+   commodities as well and are charged at both ends (DD: 38 rows each, 19 links x 2 sides). Until 5a the links
+   carried almost no ELCLOW; with EV charging (`TRAELC00`, which pays its own DELIV 4 as in single mode) in the
+   regions ~1,080 PJ cross them. Fix: `-TB_*` added to `Pset_PN` in Reg mode. No other cost lands on TB links
+   (DD scan: only `ACT_COST` 1e-4 of the trade parameters).
+b. TRACO2N. Vehicle tailpipe CO2 (`VDA_EMCB` on TRADST, TRAGSL*, TRAJTK, TRAHFO, TRAGAS, TRALPG,
+   `Scen_ZUEmisCO2`/`EmiFactors_TRA`, AllRegions) is in FI only: `SysSettings` `Comms!BL45` declares TRACO2N for
+   FI, so VEDA drops the regional rows; national TRACO2N 2,226 kt in 2023 vs 16,068. Reporting only: the ESR and
+   total targets count `SE_TRACO2N` (fuel-supply level, all regions), which is conserved (2030 7,872 vs 7,872 kt;
+   other years within 2 %); the one TRACO2N UC term (`TRA_Bunk`, -1) is on the hub. Fix: TRACO2N declared in
+   all regions as INDCO2N / SE_TRACO2N (no other table names TRACO2N).
+
+Other differences explained: battery investment `COMBATS01` -> `RSDBATS01` (same storage, buildings still on the
+hub - 5c/5d); `UCI_UP_CHPShare-*` binding as in 5a; EV charging electricity reaches the regions over the
+`TB_ELCLOW` links (the transformers ELCMED->ELCLOW stay on the hub until 5e/grid).
+Expected after 5bfix5: objective back to about the 5a level (within ~0.05 % of single), TRACO2N close to the
+single run in every year.

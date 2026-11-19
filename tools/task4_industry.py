@@ -1879,7 +1879,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4", "5bfix5"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1897,6 +1897,41 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix5":
+        # 5b run 4 (+0.136 % vs single, +0.174 % vs 5a): two defects.
+        # a. Scen_FuelPrices-DELIV 'VEDADELIVCHPOTH' rows 5-6 put the grid delivery cost (DELIV 2.64) on every
+        #    process with ELCLOW/ELCMED as output - meant for local plants feeding the grid, but the internal
+        #    TB_* links output these commodities too (both ends: 2 x 2.64 per PJ). With EV charging in the regions
+        #    ~1,080 PJ of ELCLOW crossed the links: +5,380 M EUR undiscounted flow cost. Fix: -TB_* in Reg mode.
+        # b. SysSettings Comms: TRACO2N (vehicle tailpipe CO2, VDA_EMCB on TRADST/TRAGSL*/...) declared for FI only,
+        #    so VEDA dropped the regional VDA_EMCB rows: regional vehicles report no TRACO2N. The national targets
+        #    count SE_TRACO2N (conserved), so this is reporting only. Fix: all regions, as INDCO2N/SE_TRACO2N.
+        plan, notes = Plan(), []
+        deliv = M + "SuppXLS/Scen_FuelPrices-DELIV.xlsx"
+        db = Book(deliv)
+        sh = "VEDADELIVCHPOTH"
+        old_p = "*,-*TRANS*,-ELCSOLCUR"
+        for r, com in ((5, "ELCLOW"), (6, "ELCMED")):
+            if db.val(sh, f"F{r}") != old_p or db.f.get((sh, f"F{r}")) or db.val(sh, f"J{r}") != com:
+                sys.exit(f"{deliv} {sh}!F{r}/J{r}: {db.val(sh, f'F{r}')!r} / {db.val(sh, f'J{r}')!r}")
+            plan.edit(deliv, sh, f"F{r}", old_p, sw(q(old_p), q(old_p + ",-TB_*")), BLUE,
+                      f"grid delivery cost on {com} output: not on the internal TB_* links (EV charging moved to "
+                      "the regions; the links were charged at both ends)")
+        sysb = M + "SysSettings.xlsx"
+        sb = Book(sysb)
+        if sb.val("Comms", "BL45") != "FI" or sb.f.get(("Comms", "BL45")) or sb.val("Comms", "BM45") != "TRACO2N":
+            sys.exit(f"SysSettings Comms!BL45/BM45: {sb.val('Comms', 'BL45')!r} / {sb.val('Comms', 'BM45')!r}")
+        regs = 'IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))'
+        if sb.f.get(("Comms", "BL11")) != "=" + regs:
+            sys.exit(f"SysSettings Comms!BL11 pattern changed: {sb.f.get(('Comms', 'BL11'))!r}")
+        plan.edit(sysb, "Comms", "BL45", "FI", "=" + regs, BLUE,
+                  "TRACO2N in all regions (as INDCO2N, SE_TRACO2N): VDA_EMCB of the transport fuels reaches the "
+                  "regional vehicles (reporting; the targets count SE_TRACO2N)")
+        notes.append("5bfix5: DELIV F5/F6 -TB_* in Reg mode; SysSettings Comms!BL45 TRACO2N in all regions")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix5_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5bfix4":
         # 5b run 3 +29.5 %: SubRES_20 Trans 'INS' derives ACTFLO (G3, G5:G8) and the EFF multipliers (I97..)

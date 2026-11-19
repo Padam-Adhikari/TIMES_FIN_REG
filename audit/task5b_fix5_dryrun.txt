@@ -1,0 +1,13 @@
+NOTE 5bfix5: DELIV F5/F6 -TB_* in Reg mode; SysSettings Comms!BL45 TRACO2N in all regions
+
+--- Reg-FINTIMES/SuppXLS/Scen_FuelPrices-DELIV.xlsx
+  ~ 'VEDADELIVCHPOTH'!F5 [#DDEBF7]: '*,-*TRANS*,-ELCSOLCUR'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"*,-*TRANS*,-ELCSOLCUR","*,-*TRANS*,-ELCSOLCUR,-TB_*")
+      (grid delivery cost on ELCLOW output: not on the internal TB_* links (EV charging moved to the regions; the links were charged at both ends))
+  ~ 'VEDADELIVCHPOTH'!F6 [#DDEBF7]: '*,-*TRANS*,-ELCSOLCUR'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"*,-*TRANS*,-ELCSOLCUR","*,-*TRANS*,-ELCSOLCUR,-TB_*")
+      (grid delivery cost on ELCMED output: not on the internal TB_* links (EV charging moved to the regions; the links were charged at both ends))
+--- Reg-FINTIMES/SysSettings.xlsx
+  ~ 'Comms'!BL45 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",_xlfn.TEXTJOIN(",",TRUE,Region_selection!$K$8:$AD$8))
+      (TRACO2N in all regions (as INDCO2N, SE_TRACO2N): VDA_EMCB of the transport fuels reaches the regional vehicles (reporting; the targets count SE_TRACO2N))
