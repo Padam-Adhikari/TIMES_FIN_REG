@@ -1,7 +1,8 @@
 ﻿# Task 5b: road and rail transport to the regions â€” audit and design
 
 Status: applied 2026-11-18; fixes 5bfix .. 5bfix4 (sections 8-11); run 4 passes the hard checks at +0.136 %;
-5bfix5 (section 12, delivery cost on links, TRACO2N reporting) applied 2026-11-19; server run pending.
+5bfix5 (section 12) applied; run 5 hard checks pass at -0.152 %; 5bfix6 (section 13, variable-RES adequacy
+module national) dry run, awaiting approval.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
@@ -192,3 +193,32 @@ hub - 5c/5d); `UCI_UP_CHPShare-*` binding as in 5a; EV charging electricity reac
 `TB_ELCLOW` links (the transformers ELCMED->ELCLOW stay on the hub until 5e/grid).
 Expected after 5bfix5: objective back to about the 5a level (within ~0.05 % of single), TRACO2N close to the
 single run in every year.
+
+## 13. Fifth 5b server run (2026-11-19, after 5bfix5): -0.152 % -> `--step 5bfix6`
+
+`runs/reg_baseline-sami_2026-11-19_task5b_run4.gdx` (.lst; GDX local only): optimal, 1,527,592.91 vs single
+1,529,919.88 (-2,327.0, -0.152 %); vs 5a -1,741.5 (-0.114 %). Hard checks PASS. 5bfix5 works: no flow cost on
+the links; TRACO2N back to the single run (2030 12,356.2 vs 12,356.3 kt; every region reports).
+
+The run is now too cheap. Heavy trucks shift to electric (`TRA_Hdt_ELC_01` investment +4.9 bn, `TRA_Hdt_Dis_01`
+-3.7 bn vs 5a), less diesel imported. All parameters of the moved vehicles and of the charging chain equal the
+single run (PRC_ACTFLO, ACT_EFF, COEF_AF, COEF_PTRAN, lifetimes, unit investment cost, UC coefficients) except
+`UC_VAR_MinStor5h`. EV electricity price: single TRAELC = ELCLOW + 9.69 in every timeslice of 2040, regions
+TRAELC = ELCLOW + 4.00 (the delivery cost only).
+
+Cause: the variable-RES adequacy module `Scen_SepDb-ZIET_VAR` / `CapIntermitt` (task 0: `R_E: FI` in Reg mode).
+`UC_VARI_ELE_Cons_Cap` sets ELE_CONS_CAP = final electricity consumption (AGRELC, COMELC, INDELC, SUPELC, RSDELC,
+TRAELC + electrolysers/DAC/CCUS flows) per timeslice; ELE_CONS_CAP drives the firm-capacity (`UC_VARU_CAP_*`)
+and storage (`UC_VAR_MinStor5h`) requirements: that is the 5.7 EUR/GJ on TRAELC in single mode. INDELC and SUPELC
+reach the regions over TB links and the hub's exports count as its consumption, so industry stayed inside; TRAELC
+(5b) and AGRELC (5a, ~2.3 PJ/yr) are made in the regions from ELCLOW and escaped. `UC_VAR_MinStor5h`
+(`Scen_SepDb-ZIET_VAR_Stor` / `UC_StorageCompetition`, `R_E: FI` in both modes) misses regional storage
+(`TRABAT_Battery` since 5b).
+
+Fix 5bfix6: `CapIntermitt!C2` R_S AllRegions in Reg mode (one national equation per timeslice); new Reg-only sheet
+`Reg_ConsCap`: UC_IRE-E +1 on `TB_INDELC_*`, `TB_SUPELC_*` (a link export is consumption: without it INDELC would
+count at the hub and again in the region); `UC_StorageCompetition!D3` R_S AllRegions in Reg mode. Row 10 of the
+Cons_Cap table (`TRABAT_Battery`) stays outside the table (empty row 9) as in single mode. Other tables of the two
+modules: `R_S` already, `Utilisation (2)` per region (process utilisation, copy), `SELC_SCCU_PseudoLowAF` FI
+(hub electrolysers). Expected: TRAELC = ELCLOW + ~9.7 in the regions, trucks back to the single mix, objective
+within ~0.05 % of single. The same module must include buildings when 5c/5d move COMELC/RSDELC (covered by R_S).

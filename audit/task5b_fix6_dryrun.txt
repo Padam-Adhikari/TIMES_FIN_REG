@@ -1,0 +1,29 @@
+NOTE 5bfix6: Cons_Cap R_S + Reg_ConsCap UC_IRE-E on TB_INDELC/SUPELC; MinStor5h R_S
+
+--- Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR.xlsx
+  ~ 'CapIntermitt'!C2 [#DDEBF7]: '~UC_Sets: R_E: AllRegions'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: AllRegions","~UC_Sets: R_S: AllRegions")
+      (UC_VARI_ELE_Cons_Cap national: consumption of every region counts (EV and farm electricity are made in the regions from ELCLOW))
+  + sheet 'Reg_ConsCap' (18 cells)
+      A1 [None] Task 4a (tools/task4_industry.py): 5b - UC_VARI_ELE_Cons_Cap is a national sum in Reg mode (CapIntermitt!C2). INDELC and SUPELC cross the internal links: the hub's exports count as consumption and the regions consume them again, so the exports get +1 (UC_IRE-E). Read only in Reg mode.
+      A3 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~UC_Sets: R_S: AllRegions")
+      A4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~UC_Sets: TS_E: ")
+      A6 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~UC_T")
+      A7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","UC_N")
+      A8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","UC_VARI_ELE_Cons_Cap")
+      B7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Pset_PN")
+      B8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","TB_INDELC_*,TB_SUPELC_*")
+      C7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Cset_CN")
+      C8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","INDELC,SUPELC")
+      D7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Year")
+      D8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"",2006)
+      E7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","TIMESLICE")
+      E8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","DAYNITE")
+      F7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","LimType")
+      F8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","FX")
+      G7 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","UC_IRE-E")
+      G8 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+--- Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx
+  ~ 'UC_StorageCompetition'!D3 [#DDEBF7]: '~UC_Sets: R_E: FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~UC_Sets: R_E: FI","~UC_Sets: R_S: AllRegions")
+      (UC_VAR_MinStor5h national: storage built in the regions (EV batteries since 5b) counts against the national ELE_CONS_CAP)

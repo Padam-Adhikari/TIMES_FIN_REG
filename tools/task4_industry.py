@@ -1879,7 +1879,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4", "5bfix5"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4", "5bfix5", "5bfix6"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1897,6 +1897,55 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix6":
+        # 5b run 5 (-0.152 % vs single): regional EV electricity escaped the variable-RES adequacy module.
+        # Scen_SepDb-ZIET_VAR 'CapIntermitt' UC_VARI_ELE_Cons_Cap (R_E: FI in Reg mode since task 0) sets
+        # ELE_CONS_CAP = final electricity consumption (AGRELC, COMELC, INDELC, SUPELC, RSDELC, TRAELC) per timeslice;
+        # ELE_CONS_CAP drives UC_VARU_CAP_* and UC_VAR_MinStor5h. INDELC/SUPELC reach the regions over TB links and
+        # the hub's exports count as consumption, but TRAELC (5b) and AGRELC (5a) are made in the regions from
+        # ELCLOW: not counted. Single TRAELC = ELCLOW + 9.69, regional = ELCLOW + 4.00 (2040, every timeslice):
+        # cheaper EVs, +4.9 bn electric trucks. Fix: national sum (R_S) with UC_IRE-E +1 on the TB_INDELC/SUPELC
+        # exports (exports are consumption: else counted twice); UC_VAR_MinStor5h (Stor, R_E: FI in both modes)
+        # national too, so regional storage (TRABAT_Battery since 5b) counts as in single mode.
+        plan, notes = Plan(), []
+        var = M + "SuppXLS/Scen_SepDb-ZIET_VAR.xlsx"
+        stor = M + "SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx"
+        vb = Book(var)
+        c2 = sw(q("~UC_Sets: R_E: AllRegions"), q("~UC_Sets: R_E: FI"))
+        if vb.f.get(("CapIntermitt", "C2")) != c2 or vb.val("CapIntermitt", "C6") != "UC_VARI_ELE_Cons_Cap":
+            sys.exit(f"CapIntermitt!C2 {vb.f.get(('CapIntermitt', 'C2'))!r} / C6 {vb.val('CapIntermitt', 'C6')!r}")
+        if vb.val("CapIntermitt", "J7") != "AGRELC,COMELC,INDELC,SUPELC,RSDELC,TRAELC" or vb.val("CapIntermitt", "Q7") not in (-1, "-1"):
+            sys.exit("CapIntermitt row 7 changed")
+        plan.edit(var, "CapIntermitt", "C2", "~UC_Sets: R_E: AllRegions",
+                  sw(q("~UC_Sets: R_E: AllRegions"), q("~UC_Sets: R_S: AllRegions")), BLUE,
+                  "UC_VARI_ELE_Cons_Cap national: consumption of every region counts (EV and farm electricity are "
+                  "made in the regions from ELCLOW)")
+        if any(s == "Reg_ConsCap" for (s, _c) in list(vb.v) + list(vb.f)):
+            sys.exit("Reg_ConsCap exists")
+        cells = [("A1", f"{MARK}: 5b - UC_VARI_ELE_Cons_Cap is a national sum in Reg mode (CapIntermitt!C2). "
+                        "INDELC and SUPELC cross the internal links: the hub's exports count as consumption and the "
+                        "regions consume them again, so the exports get +1 (UC_IRE-E). Read only in Reg mode.", None),
+                 ("A3", regonly(q("~UC_Sets: R_S: AllRegions")), GREEN),
+                 ("A4", regonly(q("~UC_Sets: TS_E: ")), GREEN),
+                 ("A6", regonly(q("~UC_T")), GREEN)]
+        for i, (h, v) in enumerate([("UC_N", "UC_VARI_ELE_Cons_Cap"), ("Pset_PN", "TB_INDELC_*,TB_SUPELC_*"),
+                                    ("Cset_CN", "INDELC,SUPELC"), ("Year", "2006"), ("TIMESLICE", "DAYNITE"),
+                                    ("LimType", "FX"), ("UC_IRE-E", "1")]):
+            cells.append((f"{col_let(1 + i)}7", regonly(q(h)), GREEN))
+            cells.append((f"{col_let(1 + i)}8", regonly(v if h in ("Year", "UC_IRE-E") else q(v)), GREEN))
+        plan.sheets[var]["Reg_ConsCap"] = cells
+        sb = Book(stor)
+        sh = "UC_StorageCompetition"
+        if sb.val(sh, "D3") != "~UC_Sets: R_E: FI" or sb.f.get((sh, "D3")) or sb.val(sh, "D9") != "UC_VAR_MinStor5h":
+            sys.exit(f"{sh}!D3 {sb.val(sh, 'D3')!r} / D9 {sb.val(sh, 'D9')!r}")
+        plan.edit(stor, sh, "D3", "~UC_Sets: R_E: FI", sw(q("~UC_Sets: R_E: FI"), q("~UC_Sets: R_S: AllRegions")), BLUE,
+                  "UC_VAR_MinStor5h national: storage built in the regions (EV batteries since 5b) counts against "
+                  "the national ELE_CONS_CAP")
+        notes.append("5bfix6: Cons_Cap R_S + Reg_ConsCap UC_IRE-E on TB_INDELC/SUPELC; MinStor5h R_S")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix6_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5bfix5":
         # 5b run 4 (+0.136 % vs single, +0.174 % vs 5a): two defects.
