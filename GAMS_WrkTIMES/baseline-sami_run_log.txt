@@ -6,7 +6,7 @@
 *                                                                   *
 *********************************************************************
 *
---- Job baseline-sami.RUN Start 11/19/26 12:09:25 53.5.1 f2e5fac3 WEX-WEI x86 64bit/MS Windows
+--- Job baseline-sami.RUN Start 11/19/26 14:19:46 53.5.1 f2e5fac3 WEX-WEI x86 64bit/MS Windows
 --- Applying:
     C:\GAMS\53\gmsprmNT.txt
 --- GAMS Parameters defined
@@ -48,7 +48,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> err_stat.mod(73) 3 Mb
 --- > initmty.mod(491) 3 Mb
 --- baseline-sami.RUN(76) 3 Mb
---- > base.dd(52957) 6 Mb--- > base.dd(103878) 9 Mb--- > base.dd(112256) 9 Mb
+--- > base.dd(53778) 6 Mb--- > base.dd(87927) 8 Mb--- > base.dd(112256) 9 Mb
 --- baseline-sami.RUN(77) 9 Mb
 --- > 00_nuc-eu.dd(303) 9 Mb
 --- baseline-sami.RUN(78) 9 Mb
@@ -66,15 +66,15 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(84) 11 Mb
 --- > 15_techs_hydrogen.dd(6942) 12 Mb
 --- baseline-sami.RUN(85) 12 Mb
---- > 20_techs_tra.dd(93095) 17 Mb--- > 20_techs_tra.dd(123312) 18 Mb
+--- > 20_techs_tra.dd(81140) 17 Mb--- > 20_techs_tra.dd(123312) 18 Mb
 --- baseline-sami.RUN(86) 18 Mb
 --- > 21_techs_other.dd(958) 19 Mb
 --- baseline-sami.RUN(87) 19 Mb
---- > 22_techs_biorefineries.dd(868) 19 Mb
+--- > 22_techs_biorefineries.dd(866) 19 Mb--- > 22_techs_biorefineries.dd(868) 19 Mb
 --- baseline-sami.RUN(88) 19 Mb
---- > 23_techs_ccus.dd(1333) 19 Mb
+--- > 23_techs_ccus.dd(1332) 19 Mb
 --- baseline-sami.RUN(89) 19 Mb
---- > 30_techs_heatingcooling.dd(11363) 20 Mb--- > 30_techs_heatingcooling.dd(12229) 20 Mb
+--- > 30_techs_heatingcooling.dd(12229) 20 Mb
 --- baseline-sami.RUN(90) 20 Mb
 --- > 31_techs_buildings_com.dd(579) 20 Mb
 --- baseline-sami.RUN(91) 20 Mb
@@ -126,9 +126,9 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(114) 21 Mb
 --- > emisuc_v1point.dd(308) 21 Mb
 --- baseline-sami.RUN(115) 21 Mb
---- > sepdb-ziet_var.dd(52506) 25 Mb
+--- > sepdb-ziet_var.dd(54473) 25 Mb
 --- baseline-sami.RUN(116) 25 Mb
---- > sepdb-ziet_var_stor.dd(3052) 25 Mb
+--- > sepdb-ziet_var_stor.dd(3199) 25 Mb
 --- baseline-sami.RUN(117) 25 Mb
 --- > sepdb-zietassumptions_drate.dd(12682) 25 Mb
 --- baseline-sami.RUN(118) 25 Mb
@@ -136,9 +136,9 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(119) 25 Mb
 --- > tra_co2_target.dd(10818) 26 Mb
 --- baseline-sami.RUN(120) 26 Mb
---- > tra_scenarios.dd(10519) 26 Mb
---- baseline-sami.RUN(121) 26 Mb
---- > tra_evphev_newsalesbase.dd(1254) 26 Mb--- > tra_evphev_newsalesbase.dd(23057) 27 Mb
+--- > tra_scenarios.dd(1201) 26 Mb--- > tra_scenarios.dd(10519) 27 Mb
+--- baseline-sami.RUN(121) 27 Mb
+--- > tra_evphev_newsalesbase.dd(18088) 27 Mb--- > tra_evphev_newsalesbase.dd(23057) 27 Mb
 --- baseline-sami.RUN(122) 27 Mb
 --- > uc_elcpot.dd(3044) 27 Mb
 --- baseline-sami.RUN(123) 27 Mb
@@ -146,7 +146,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(124) 27 Mb
 --- > uc_heatpumps_mincap_lo.dd(490) 27 Mb
 --- baseline-sami.RUN(125) 27 Mb
---- > uc_limitcoal.dd(1523) 27 Mb--- > uc_limitcoal.dd(6380) 28 Mb
+--- > uc_limitcoal.dd(6380) 28 Mb
 --- baseline-sami.RUN(126) 28 Mb
 --- > uc_refscen16_data.dd(548) 28 Mb
 --- baseline-sami.RUN(127) 28 Mb
@@ -186,8 +186,8 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(144) 32 Mb
 --- > zuco2trans.dd(228) 32 Mb
 --- baseline-sami.RUN(145) 32 Mb
---- > zuemisco2.dd(2178) 32 Mb
---- baseline-sami.RUN(146) 32 Mb
+--- > zuemisco2.dd(2178) 33 Mb
+--- baseline-sami.RUN(146) 33 Mb
 --- > zudemand_ref2016.dd(4837) 33 Mb
 --- baseline-sami.RUN(147) 33 Mb
 --- > zz_cumulativeco2.dd(2464) 33 Mb
@@ -200,10 +200,10 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- baseline-sami.RUN(151) 34 Mb
 --- > zzzcostupdate.dd(3457) 34 Mb
 --- baseline-sami.RUN(165) 34 Mb
---- > maindrv.mod(23) 34 Mb
+--- > maindrv.mod(1) 34 Mb--- > maindrv.mod(23) 34 Mb
 --- >> setglobs.gms(15) 34 Mb
 --- GDX File ($gdxOut) D:\Padam\GAMS_WrkTIMES\_dd_.gdx
---- >> setglobs.gms(16) 34 Mb--- >> setglobs.gms(19) 34 Mb--- >> setglobs.gms(373) 34 Mb
+--- >> setglobs.gms(19) 34 Mb--- >> setglobs.gms(373) 34 Mb
 --- > maindrv.mod(45) 34 Mb
 --- >> err_stat.mod(73) 34 Mb
 --- > maindrv.mod(55) 34 Mb
@@ -217,7 +217,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> filparam.gms(43) 34 Mb
 --- >> ppmain.mod(196) 34 Mb
 --- >>> timslice.mod(36) 34 Mb
---- >>>> pp_off.mod(23) 34 Mb
+--- >>>> pp_off.mod(1) 34 Mb--- >>>> pp_off.mod(23) 34 Mb
 --- >>> timslice.mod(81) 34 Mb
 --- >>>> pp_qaput.mod(16) 34 Mb
 --- >>> timslice.mod(103) 34 Mb
@@ -226,7 +226,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> ppmain.mod(229) 34 Mb
 --- >>> pp_qaput.mod(16) 34 Mb
 --- >> ppmain.mod(237) 34 Mb
---- >>> pp_off.mod(1) 34 Mb--- >>> pp_off.mod(23) 34 Mb
+--- >>> pp_off.mod(23) 34 Mb
 --- >> ppmain.mod(248) 34 Mb
 --- >>> preppm.mod(11) 34 Mb
 --- >>>> prepxtra.mod(90) 34 Mb
@@ -279,113 +279,113 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>> curex.gms(56) 34 Mb
 --- >>>>> curex.gms(81) 34 Mb
 --- >>>> curex.gms(57) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(58) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(59) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(60) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(61) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(62) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(63) 34 Mb
---- >>>>> curex.gms(81) 34 Mb
---- >>>> curex.gms(72) 34 Mb
---- >>> preppm.mod(57) 34 Mb
---- >>>> prepret.dsc(25) 34 Mb
---- >>>>> fillparm.gms(57) 34 Mb
---- >>>> prepret.dsc(26) 34 Mb
---- >>>>> prepparm.gms(72) 34 Mb
---- >>>> prepret.dsc(38) 34 Mb
---- >>> preppm.mod(60) 34 Mb
---- >>>> fillvint.gms(20) 34 Mb
---- >>> preppm.mod(77) 34 Mb
---- >>>> filparam.gms(43) 34 Mb
---- >>> preppm.mod(81) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(82) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(83) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(84) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(85) 34 Mb
---- >>>> prepparm.gms(45) 34 Mb--- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(86) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(87) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(88) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(89) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(90) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(94) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(95) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(99) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(100) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(101) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(102) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(103) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(104) 34 Mb
---- >>>> prepparm.gms(72) 34 Mb
---- >>> preppm.mod(111) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(112) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(113) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(114) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(115) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(116) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(117) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(118) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(119) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(120) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(121) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(122) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(123) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(124) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(125) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(126) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(127) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(128) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(129) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(130) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(131) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(135) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(136) 34 Mb
---- >>>> fillparm.gms(57) 34 Mb
---- >>> preppm.mod(137) 34 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(58) 35 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(59) 35 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(60) 35 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(61) 35 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(62) 35 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(63) 35 Mb
+--- >>>>> curex.gms(81) 35 Mb
+--- >>>> curex.gms(72) 35 Mb
+--- >>> preppm.mod(57) 35 Mb
+--- >>>> prepret.dsc(25) 35 Mb
+--- >>>>> fillparm.gms(57) 35 Mb
+--- >>>> prepret.dsc(26) 35 Mb
+--- >>>>> prepparm.gms(72) 35 Mb
+--- >>>> prepret.dsc(38) 35 Mb
+--- >>> preppm.mod(60) 35 Mb
+--- >>>> fillvint.gms(20) 35 Mb
+--- >>> preppm.mod(77) 35 Mb
+--- >>>> filparam.gms(43) 35 Mb
+--- >>> preppm.mod(81) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(82) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(83) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(84) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(85) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(86) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(87) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(88) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(89) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(90) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(94) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(95) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(99) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(100) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(101) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(102) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(103) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(104) 35 Mb
+--- >>>> prepparm.gms(72) 35 Mb
+--- >>> preppm.mod(111) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(112) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(113) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(114) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(115) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(116) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(117) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(118) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(119) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(120) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(121) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(122) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(123) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(124) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(125) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(126) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(127) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(128) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(129) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(130) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(131) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(135) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(136) 35 Mb
+--- >>>> fillparm.gms(57) 35 Mb
+--- >>> preppm.mod(137) 35 Mb
 --- >>>> fillparm.gms(57) 35 Mb
 --- >>> preppm.mod(138) 35 Mb
 --- >>>> fillparm.gms(57) 35 Mb
@@ -758,8 +758,8 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- > maindrv.mod(78) 36 Mb
 --- >> main_ext.mod(18) 36 Mb
 --- > maindrv.mod(79) 36 Mb
---- >> eqmain.mod(22) 36 Mb
---- >>> eqdeclr.mod(1) 36 Mb--- >>> eqdeclr.mod(195) 36 Mb
+--- >> eqmain.mod(1) 36 Mb--- >> eqmain.mod(22) 36 Mb
+--- >>> eqdeclr.mod(195) 36 Mb
 --- >> eqmain.mod(23) 36 Mb
 --- >>> equ_ext.vda(68) 36 Mb
 --- >> eqmain.mod(34) 36 Mb
@@ -838,7 +838,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> eqcombal.mod(39) 36 Mb
 --- >>>> cal_ire.mod(42) 36 Mb
 --- >>> eqcombal.mod(42) 36 Mb
---- >>>> cal_stgn.mod(23) 36 Mb
+--- >>>> cal_stgn.mod(1) 36 Mb--- >>>> cal_stgn.mod(23) 36 Mb
 --- >>> eqcombal.mod(51) 36 Mb
 --- >>>> cal_cap.mod(28) 36 Mb
 --- >>> eqcombal.mod(72) 36 Mb
@@ -895,7 +895,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>> cal_cap.mod(28) 36 Mb
 --- >>> eqcombal.mod(114) 36 Mb
 --- >> eqmain.mod(111) 36 Mb
---- >>> eqflobnd.mod(1) 36 Mb--- >>> eqflobnd.mod(29) 36 Mb
+--- >>> eqflobnd.mod(29) 36 Mb
 --- >>>> cal_red.red(59) 36 Mb
 --- >>> eqflobnd.mod(45) 36 Mb
 --- >> eqmain.mod(112) 36 Mb
@@ -1051,7 +1051,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>> equserco.mod(40) 36 Mb
 --- >>>>> uc_act.mod(53) 36 Mb
 --- >>>> equserco.mod(42) 36 Mb
---- >>>>> uc_com.mod(47) 36 Mb
+--- >>>>> uc_com.mod(1) 36 Mb--- >>>>> uc_com.mod(47) 36 Mb
 --- >>>> equserco.mod(44) 36 Mb
 --- >>>>> uc_com.mod(47) 36 Mb
 --- >>>> equserco.mod(46) 36 Mb
@@ -1165,7 +1165,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>>>>> cal_caps.mod(29) 36 Mb
 --- >>>>> uc_flo.mod(77) 36 Mb
 --- >>>> equserco.mod(64) 36 Mb
---- >>>>> uc_ncap.mod(1) 36 Mb--- >>>>> uc_ncap.mod(51) 36 Mb
+--- >>>>> uc_ncap.mod(51) 36 Mb
 --- >>>> equserco.mod(66) 36 Mb
 --- >>>>> uc_cap.mod(36) 36 Mb
 --- >>>> equserco.mod(68) 36 Mb
@@ -1524,9 +1524,9 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- > maindrv.mod(103) 37 Mb
 --- >> err_stat.mod(73) 37 Mb
 --- > maindrv.mod(104) 37 Mb
---- >> spoint.mod(66) 37 Mb
+--- >> spoint.mod(1) 37 Mb--- >> spoint.mod(66) 37 Mb
 --- > maindrv.mod(113) 37 Mb
---- >> solve.mod(1) 37 Mb--- >> solve.mod(12) 37 Mb
+--- >> solve.mod(12) 37 Mb
 --- >>> pp_clean.mod(27) 37 Mb
 --- >> solve.mod(41) 37 Mb
 --- >>> err_stat.mod(73) 37 Mb
@@ -1583,24 +1583,25 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> err_stat.mod(73) 37 Mb
 --- > maindrv.mod(133) 37 Mb
 --- baseline-sami.RUN(172) 38 Mb
---- Starting execution: elapsed 0:00:03.214
---- baseline-sami.RUN(569114) 42 Mb--- baseline-sami.RUN(569506) 47 Mb--- baseline-sami.RUN(570480) 74 Mb--- baseline-sami.RUN(571895) 85 Mb--- baseline-sami.RUN(571895) 88 Mb--- baseline-sami.RUN(572301) 115 Mb--- baseline-sami.RUN(572649) 115 Mb--- baseline-sami.RUN(572881) 117 Mb--- baseline-sami.RUN(573055) 118 Mb--- baseline-sami.RUN(573055) 123 Mb--- baseline-sami.RUN(573989) 124 Mb--- baseline-sami.RUN(574474) 124 Mb--- baseline-sami.RUN(574648) 125 Mb--- baseline-sami.RUN(574648) 126 Mb--- baseline-sami.RUN(574648) 158 Mb--- baseline-sami.RUN(574706) 170 Mb--- baseline-sami.RUN(574764) 170 Mb--- baseline-sami.RUN(575269) 170 Mb--- baseline-sami.RUN(575295) 170 Mb--- baseline-sami.RUN(575783) 171 Mb--- baseline-sami.RUN(575885) 171 Mb--- baseline-sami.RUN(576304) 181 Mb--- baseline-sami.RUN(576362) 189 Mb--- baseline-sami.RUN(576420) 199 Mb--- baseline-sami.RUN(576420) 202 Mb--- baseline-sami.RUN(576478) 228 Mb--- baseline-sami.RUN(576536) 232 Mb--- baseline-sami.RUN(577065) 245 Mb--- baseline-sami.RUN(577697) 245 Mb--- baseline-sami.RUN(577793) 245 Mb--- baseline-sami.RUN(577823) 245 Mb--- baseline-sami.RUN(577918) 275 Mb--- baseline-sami.RUN(577918) 276 Mb--- baseline-sami.RUN(578008) 290 Mb--- baseline-sami.RUN(578008) 295 Mb--- baseline-sami.RUN(578016) 304 Mb--- baseline-sami.RUN(578016) 308 Mb--- baseline-sami.RUN(578016) 320 Mb--- baseline-sami.RUN(578016) 322 Mb--- baseline-sami.RUN(578016) 333 Mb--- baseline-sami.RUN(578016) 336 Mb--- baseline-sami.RUN(578059) 346 Mb--- baseline-sami.RUN(578090) 346 Mb--- baseline-sami.RUN(578102) 346 Mb--- baseline-sami.RUN(578137) 346 Mb--- baseline-sami.RUN(578210) 361 Mb--- baseline-sami.RUN(578211) 365 Mb--- baseline-sami.RUN(578212) 366 Mb--- baseline-sami.RUN(578212) 368 Mb--- baseline-sami.RUN(578253) 368 Mb--- baseline-sami.RUN(578300) 379 Mb--- baseline-sami.RUN(578316) 379 Mb--- baseline-sami.RUN(578344) 379 Mb--- baseline-sami.RUN(578473) 381 Mb--- baseline-sami.RUN(578501) 381 Mb--- baseline-sami.RUN(578571) 381 Mb--- baseline-sami.RUN(578581) 381 Mb--- baseline-sami.RUN(579132) 385 Mb--- baseline-sami.RUN(579132) 401 Mb--- baseline-sami.RUN(579185) 434 Mb--- baseline-sami.RUN(579185) 443 Mb--- baseline-sami.RUN(579303) 454 Mb--- baseline-sami.RUN(579305) 455 Mb--- baseline-sami.RUN(579668) 489 Mb--- baseline-sami.RUN(579724) 491 Mb--- baseline-sami.RUN(579846) 499 Mb--- baseline-sami.RUN(579846) 500 Mb--- baseline-sami.RUN(579846) 514 Mb--- baseline-sami.RUN(579846) 519 Mb--- baseline-sami.RUN(579858) 524 Mb--- baseline-sami.RUN(579860) 524 Mb--- baseline-sami.RUN(579914) 524 Mb--- baseline-sami.RUN(580177) 532 Mb--- baseline-sami.RUN(580240) 532 Mb--- baseline-sami.RUN(580253) 540 Mb--- baseline-sami.RUN(580253) 541 Mb--- baseline-sami.RUN(580253) 542 Mb--- baseline-sami.RUN(580253) 544 Mb--- baseline-sami.RUN(580253) 550 Mb--- baseline-sami.RUN(580682) 551 Mb--- baseline-sami.RUN(580873) 578 Mb--- baseline-sami.RUN(580885) 578 Mb--- baseline-sami.RUN(580984) 578 Mb--- baseline-sami.RUN(581017) 579 Mb--- baseline-sami.RUN(581083) 588 Mb--- baseline-sami.RUN(581123) 588 Mb--- baseline-sami.RUN(581129) 610 Mb--- baseline-sami.RUN(581132) 621 Mb--- baseline-sami.RUN(581326) 633 Mb--- baseline-sami.RUN(581420) 635 Mb--- baseline-sami.RUN(581436) 655 Mb--- baseline-sami.RUN(581436) 661 Mb--- baseline-sami.RUN(581436) 693 Mb--- baseline-sami.RUN(581436) 702 Mb--- baseline-sami.RUN(581436) 733 Mb--- baseline-sami.RUN(581441) 743 Mb--- baseline-sami.RUN(581493) 751 Mb--- baseline-sami.RUN(581493) 753 Mb--- baseline-sami.RUN(581493) 764 Mb--- baseline-sami.RUN(581493) 766 Mb--- baseline-sami.RUN(581500) 774 Mb--- baseline-sami.RUN(581504) 775 Mb--- baseline-sami.RUN(581553) 796 Mb--- baseline-sami.RUN(581559) 796 Mb--- baseline-sami.RUN(581577) 796 Mb--- baseline-sami.RUN(581858) 802 Mb--- baseline-sami.RUN(581858) 827 Mb--- baseline-sami.RUN(581858) 834 Mb--- baseline-sami.RUN(581863) 857 Mb--- baseline-sami.RUN(581863) 863 Mb--- baseline-sami.RUN(581863) 896 Mb--- baseline-sami.RUN(581863) 903 Mb--- baseline-sami.RUN(581864) 934 Mb--- baseline-sami.RUN(581914) 937 Mb--- baseline-sami.RUN(582011) 951 Mb--- baseline-sami.RUN(582012) 963 Mb--- baseline-sami.RUN(582030) 989 Mb--- baseline-sami.RUN(582030) 995 Mb--- baseline-sami.RUN(582030) 1025 Mb--- baseline-sami.RUN(582030) 1033 Mb--- baseline-sami.RUN(582034) 1047 Mb--- baseline-sami.RUN(582034) 1048 Mb--- baseline-sami.RUN(582034) 1051 Mb--- baseline-sami.RUN(582034) 1055 Mb--- baseline-sami.RUN(582034) 1055 Mb--- baseline-sami.RUN(582034) 1058 Mb--- baseline-sami.RUN(582034) 1062 Mb--- baseline-sami.RUN(582034) 1065 Mb--- baseline-sami.RUN(582034) 1066 Mb--- baseline-sami.RUN(582041) 1067 Mb--- baseline-sami.RUN(582202) 1067 Mb--- baseline-sami.RUN(582258) 1070 Mb--- baseline-sami.RUN(582418) 1071 Mb--- baseline-sami.RUN(582710) 1075 Mb--- baseline-sami.RUN(583033) 1075 Mb--- baseline-sami.RUN(583040) 1082 Mb--- baseline-sami.RUN(583040) 1085 Mb--- baseline-sami.RUN(583040) 1104 Mb--- baseline-sami.RUN(583047) 1104 Mb--- baseline-sami.RUN(583211) 1104 Mb--- baseline-sami.RUN(583226) 1104 Mb--- baseline-sami.RUN(583226) 1106 Mb--- baseline-sami.RUN(583971) 1107 Mb--- baseline-sami.RUN(583994) 1107 Mb--- baseline-sami.RUN(584058) 1108 Mb--- baseline-sami.RUN(584122) 1110 Mb--- baseline-sami.RUN(584298) 1130 Mb--- baseline-sami.RUN(584326) 1131 Mb--- baseline-sami.RUN(584439) 1131 Mb--- baseline-sami.RUN(584454) 1131 Mb--- baseline-sami.RUN(584802) 1134 Mb--- baseline-sami.RUN(584818) 1136 Mb--- baseline-sami.RUN(585347) 1144 Mb--- baseline-sami.RUN(585347) 1146 Mb--- baseline-sami.RUN(585347) 1156 Mb--- baseline-sami.RUN(585347) 1157 Mb--- baseline-sami.RUN(591071) 1175 Mb--- baseline-sami.RUN(591076) 1184 Mb--- baseline-sami.RUN(601043) 1196 Mb--- baseline-sami.RUN(601212) 1202 Mb--- baseline-sami.RUN(601586) 1214 Mb--- baseline-sami.RUN(601591) 1214 Mb--- baseline-sami.RUN(601591) 1231 Mb--- baseline-sami.RUN(601649) 1264 Mb--- baseline-sami.RUN(602254) 1265 Mb--- baseline-sami.RUN(602258) 1265 Mb--- baseline-sami.RUN(602358) 1265 Mb--- baseline-sami.RUN(602434) 1265 Mb--- baseline-sami.RUN(602685) 1268 Mb
+--- Starting execution: elapsed 0:00:03.247
+--- baseline-sami.RUN(571092) 40 Mb--- baseline-sami.RUN(571228) 46 Mb--- baseline-sami.RUN(572590) 74 Mb--- baseline-sami.RUN(574008) 82 Mb--- baseline-sami.RUN(574008) 86 Mb--- baseline-sami.RUN(574356) 115 Mb--- baseline-sami.RUN(574762) 117 Mb--- baseline-sami.RUN(574994) 117 Mb--- baseline-sami.RUN(575168) 117 Mb--- baseline-sami.RUN(576102) 125 Mb--- baseline-sami.RUN(576410) 125 Mb--- baseline-sami.RUN(576761) 125 Mb--- baseline-sami.RUN(576761) 140 Mb--- baseline-sami.RUN(576761) 149 Mb--- baseline-sami.RUN(576819) 172 Mb--- baseline-sami.RUN(576877) 172 Mb--- baseline-sami.RUN(577113) 173 Mb--- baseline-sami.RUN(577554) 174 Mb--- baseline-sami.RUN(577776) 174 Mb--- baseline-sami.RUN(578071) 184 Mb--- baseline-sami.RUN(578383) 184 Mb--- baseline-sami.RUN(578533) 199 Mb--- baseline-sami.RUN(578533) 200 Mb--- baseline-sami.RUN(578591) 231 Mb--- baseline-sami.RUN(578649) 237 Mb--- baseline-sami.RUN(578649) 243 Mb--- baseline-sami.RUN(579869) 249 Mb--- baseline-sami.RUN(579877) 249 Mb--- baseline-sami.RUN(579971) 251 Mb--- baseline-sami.RUN(579971) 264 Mb--- baseline-sami.RUN(580063) 289 Mb--- baseline-sami.RUN(580099) 289 Mb--- baseline-sami.RUN(580129) 303 Mb--- baseline-sami.RUN(580129) 304 Mb--- baseline-sami.RUN(580129) 316 Mb--- baseline-sami.RUN(580129) 318 Mb--- baseline-sami.RUN(580129) 331 Mb--- baseline-sami.RUN(580129) 333 Mb--- baseline-sami.RUN(580129) 344 Mb--- baseline-sami.RUN(580129) 348 Mb--- baseline-sami.RUN(580205) 350 Mb--- baseline-sami.RUN(580206) 350 Mb--- baseline-sami.RUN(580250) 356 Mb--- baseline-sami.RUN(580323) 365 Mb--- baseline-sami.RUN(580323) 366 Mb--- baseline-sami.RUN(580325) 370 Mb--- baseline-sami.RUN(580325) 370 Mb--- baseline-sami.RUN(580375) 373 Mb--- baseline-sami.RUN(580413) 376 Mb--- baseline-sami.RUN(580430) 384 Mb--- baseline-sami.RUN(580432) 384 Mb--- baseline-sami.RUN(580465) 385 Mb--- baseline-sami.RUN(580577) 385 Mb--- baseline-sami.RUN(580620) 385 Mb--- baseline-sami.RUN(580621) 385 Mb--- baseline-sami.RUN(580727) 385 Mb--- baseline-sami.RUN(580825) 386 Mb--- baseline-sami.RUN(581245) 411 Mb--- baseline-sami.RUN(581298) 416 Mb--- baseline-sami.RUN(581298) 448 Mb--- baseline-sami.RUN(581340) 454 Mb--- baseline-sami.RUN(581416) 459 Mb--- baseline-sami.RUN(581418) 469 Mb--- baseline-sami.RUN(581824) 494 Mb--- baseline-sami.RUN(581940) 500 Mb--- baseline-sami.RUN(581959) 504 Mb--- baseline-sami.RUN(581959) 505 Mb--- baseline-sami.RUN(581959) 520 Mb--- baseline-sami.RUN(581959) 524 Mb--- baseline-sami.RUN(581971) 529 Mb--- baseline-sami.RUN(582027) 529 Mb--- baseline-sami.RUN(582286) 536 Mb--- baseline-sami.RUN(582353) 536 Mb--- baseline-sami.RUN(582366) 543 Mb--- baseline-sami.RUN(582366) 545 Mb--- baseline-sami.RUN(582366) 547 Mb--- baseline-sami.RUN(582366) 548 Mb--- baseline-sami.RUN(582366) 549 Mb--- baseline-sami.RUN(582366) 554 Mb--- baseline-sami.RUN(582838) 583 Mb--- baseline-sami.RUN(582981) 583 Mb--- baseline-sami.RUN(583060) 583 Mb--- baseline-sami.RUN(583071) 583 Mb--- baseline-sami.RUN(583154) 591 Mb--- baseline-sami.RUN(583195) 594 Mb--- baseline-sami.RUN(583242) 595 Mb--- baseline-sami.RUN(583242) 603 Mb--- baseline-sami.RUN(583381) 637 Mb--- baseline-sami.RUN(583414) 638 Mb--- baseline-sami.RUN(583541) 641 Mb--- baseline-sami.RUN(583549) 651 Mb--- baseline-sami.RUN(583549) 683 Mb--- baseline-sami.RUN(583549) 690 Mb--- baseline-sami.RUN(583549) 722 Mb--- baseline-sami.RUN(583549) 729 Mb--- baseline-sami.RUN(583606) 756 Mb--- baseline-sami.RUN(583606) 761 Mb--- baseline-sami.RUN(583606) 764 Mb--- baseline-sami.RUN(583606) 774 Mb--- baseline-sami.RUN(583606) 777 Mb--- baseline-sami.RUN(583636) 798 Mb--- baseline-sami.RUN(583637) 802 Mb--- baseline-sami.RUN(583681) 802 Mb--- baseline-sami.RUN(583690) 802 Mb--- baseline-sami.RUN(583690) 807 Mb--- baseline-sami.RUN(583971) 809 Mb--- baseline-sami.RUN(583971) 814 Mb--- baseline-sami.RUN(583971) 841 Mb--- baseline-sami.RUN(583971) 848 Mb--- baseline-sami.RUN(583976) 871 Mb--- baseline-sami.RUN(583976) 881 Mb--- baseline-sami.RUN(583976) 912 Mb--- baseline-sami.RUN(583976) 919 Mb--- baseline-sami.RUN(584028) 948 Mb--- baseline-sami.RUN(584124) 948 Mb--- baseline-sami.RUN(584127) 969 Mb--- baseline-sami.RUN(584143) 975 Mb--- baseline-sami.RUN(584143) 1006 Mb--- baseline-sami.RUN(584143) 1013 Mb--- baseline-sami.RUN(584143) 1043 Mb--- baseline-sami.RUN(584147) 1050 Mb--- baseline-sami.RUN(584147) 1055 Mb--- baseline-sami.RUN(584147) 1058 Mb--- baseline-sami.RUN(584147) 1058 Mb--- baseline-sami.RUN(584147) 1061 Mb--- baseline-sami.RUN(584147) 1062 Mb--- baseline-sami.RUN(584147) 1065 Mb--- baseline-sami.RUN(584147) 1066 Mb--- baseline-sami.RUN(584147) 1069 Mb--- baseline-sami.RUN(584147) 1072 Mb--- baseline-sami.RUN(584147) 1072 Mb--- baseline-sami.RUN(584155) 1073 Mb--- baseline-sami.RUN(584257) 1073 Mb--- baseline-sami.RUN(584322) 1073 Mb--- baseline-sami.RUN(584352) 1073 Mb--- baseline-sami.RUN(584531) 1077 Mb--- baseline-sami.RUN(584823) 1081 Mb--- baseline-sami.RUN(585146) 1081 Mb--- baseline-sami.RUN(585153) 1088 Mb--- baseline-sami.RUN(585153) 1093 Mb--- baseline-sami.RUN(585160) 1110 Mb--- baseline-sami.RUN(585324) 1110 Mb--- baseline-sami.RUN(585339) 1110 Mb--- baseline-sami.RUN(585339) 1112 Mb--- baseline-sami.RUN(586084) 1113 Mb--- baseline-sami.RUN(586107) 1113 Mb--- baseline-sami.RUN(586151) 1113 Mb--- baseline-sami.RUN(586235) 1116 Mb--- baseline-sami.RUN(586411) 1134 Mb--- baseline-sami.RUN(586418) 1137 Mb--- baseline-sami.RUN(586552) 1137 Mb--- baseline-sami.RUN(586567) 1137 Mb--- baseline-sami.RUN(586905) 1137 Mb--- baseline-sami.RUN(586915) 1141 Mb--- baseline-sami.RUN(587460) 1145 Mb--- baseline-sami.RUN(587460) 1150 Mb--- baseline-sami.RUN(587460) 1160 Mb--- baseline-sami.RUN(587460) 1162 Mb--- baseline-sami.RUN(593179) 1171 Mb--- baseline-sami.RUN(593184) 1183 Mb--- baseline-sami.RUN(603111) 1202 Mb--- baseline-sami.RUN(603194) 1203 Mb--- baseline-sami.RUN(603613) 1211 Mb--- baseline-sami.RUN(603613) 1219 Mb--- baseline-sami.RUN(603704) 1234 Mb--- baseline-sami.RUN(604168) 1272 Mb--- baseline-sami.RUN(604289) 1272 Mb--- baseline-sami.RUN(604429) 1272 Mb--- baseline-sami.RUN(604451) 1272 Mb--- baseline-sami.RUN(604798) 1275 Mb
 --- Generating LP model TIMES
---- baseline-sami.RUN(584470) 1271 Mb--- baseline-sami.RUN(584470) 1272 Mb--- baseline-sami.RUN(584215) 1282 Mb--- baseline-sami.RUN(584215) 1285 Mb--- baseline-sami.RUN(584215) 1286 Mb--- baseline-sami.RUN(584575) 1291 Mb--- baseline-sami.RUN(584575) 1293 Mb--- baseline-sami.RUN(584575) 1299 Mb--- baseline-sami.RUN(584575) 1300 Mb--- baseline-sami.RUN(584575) 1309 Mb--- baseline-sami.RUN(584575) 1311 Mb--- baseline-sami.RUN(584998) 1343 Mb--- baseline-sami.RUN(584998) 1350 Mb--- baseline-sami.RUN(584998) 1376 Mb--- baseline-sami.RUN(584998) 1384 Mb--- baseline-sami.RUN(584998) 1414 Mb--- baseline-sami.RUN(584998) 1420 Mb--- baseline-sami.RUN(584998) 1458 Mb--- baseline-sami.RUN(584998) 1464 Mb--- baseline-sami.RUN(585349) 1472 Mb--- baseline-sami.RUN(585349) 1474 Mb--- baseline-sami.RUN(585349) 1516 Mb--- baseline-sami.RUN(585349) 1527 Mb--- baseline-sami.RUN(585349) 1564 Mb--- baseline-sami.RUN(585349) 1575 Mb--- baseline-sami.RUN(585349) 1623 Mb--- baseline-sami.RUN(585349) 1638 Mb--- baseline-sami.RUN(585349) 1693 Mb--- baseline-sami.RUN(585349) 1705 Mb--- baseline-sami.RUN(585349) 1763 Mb--- baseline-sami.RUN(585349) 1782 Mb--- baseline-sami.RUN(585349) 1838 Mb--- baseline-sami.RUN(585349) 1856 Mb--- baseline-sami.RUN(585349) 1912 Mb--- baseline-sami.RUN(585349) 1929 Mb--- baseline-sami.RUN(585349) 1985 Mb--- baseline-sami.RUN(585349) 1997 Mb--- baseline-sami.RUN(585349) 2005 Mb  3 secs
---- baseline-sami.RUN(585296) 2005 Mb--- baseline-sami.RUN(585402) 2005 Mb--- baseline-sami.RUN(585402) 2008 Mb--- baseline-sami.RUN(585402) 2011 Mb--- baseline-sami.RUN(585402) 2025 Mb--- baseline-sami.RUN(585402) 2027 Mb--- baseline-sami.RUN(585402) 2043 Mb--- baseline-sami.RUN(585402) 2048 Mb--- baseline-sami.RUN(585402) 2053 Mb--- baseline-sami.RUN(585736) 2054 Mb--- baseline-sami.RUN(585736) 2056 Mb--- baseline-sami.RUN(585736) 2057 Mb--- baseline-sami.RUN(585736) 2062 Mb--- baseline-sami.RUN(585736) 2063 Mb--- baseline-sami.RUN(585736) 2068 Mb--- baseline-sami.RUN(585736) 2068 Mb  3 secs--- baseline-sami.RUN(585736) 2073 Mb  3 secs--- baseline-sami.RUN(585736) 2074 Mb  3 secs--- baseline-sami.RUN(585736) 2078 Mb  3 secs--- baseline-sami.RUN(585736) 2079 Mb  3 secs--- baseline-sami.RUN(585736) 2084 Mb  3 secs--- baseline-sami.RUN(585736) 2084 Mb  3 secs--- baseline-sami.RUN(585736) 2089 Mb  3 secs--- baseline-sami.RUN(585736) 2090 Mb  4 secs--- baseline-sami.RUN(585736) 2095 Mb  4 secs--- baseline-sami.RUN(585736) 2096 Mb  4 secs--- baseline-sami.RUN(585736) 2100 Mb  4 secs--- baseline-sami.RUN(585736) 2105 Mb  4 secs--- baseline-sami.RUN(585736) 2106 Mb  4 secs--- baseline-sami.RUN(585736) 2111 Mb  4 secs--- baseline-sami.RUN(585736) 2111 Mb  5 secs--- baseline-sami.RUN(585736) 2116 Mb  5 secs--- baseline-sami.RUN(585736) 2117 Mb  5 secs--- baseline-sami.RUN(585736) 2122 Mb  5 secs--- baseline-sami.RUN(585736) 2122 Mb  5 secs--- baseline-sami.RUN(585736) 2132 Mb  5 secs--- baseline-sami.RUN(585736) 2134 Mb  5 secs--- baseline-sami.RUN(585736) 2139 Mb  5 secs--- baseline-sami.RUN(585736) 2141 Mb  6 secs--- baseline-sami.RUN(585736) 2149 Mb  6 secs--- baseline-sami.RUN(585736) 2150 Mb  6 secs
---- baseline-sami.RUN(586321) 2155 Mb--- baseline-sami.RUN(586321) 2157 Mb--- baseline-sami.RUN(586321) 2159 Mb--- baseline-sami.RUN(586321) 2162 Mb--- baseline-sami.RUN(586321) 2164 Mb--- baseline-sami.RUN(586321) 2168 Mb--- baseline-sami.RUN(586321) 2169 Mb--- baseline-sami.RUN(586321) 2169 Mb--- baseline-sami.RUN(586321) 2174 Mb--- baseline-sami.RUN(586321) 2175 Mb--- baseline-sami.RUN(586321) 2175 Mb--- baseline-sami.RUN(586321) 2175 Mb  3 secs--- baseline-sami.RUN(586321) 2176 Mb  3 secs--- baseline-sami.RUN(586321) 2180 Mb  3 secs--- baseline-sami.RUN(586321) 2180 Mb  3 secs--- baseline-sami.RUN(586321) 2184 Mb  3 secs--- baseline-sami.RUN(586321) 2185 Mb  3 secs--- baseline-sami.RUN(586321) 2189 Mb  3 secs--- baseline-sami.RUN(586321) 2190 Mb  4 secs--- baseline-sami.RUN(586321) 2194 Mb  4 secs--- baseline-sami.RUN(586321) 2195 Mb  4 secs--- baseline-sami.RUN(586321) 2200 Mb  4 secs--- baseline-sami.RUN(586321) 2201 Mb  4 secs--- baseline-sami.RUN(586321) 2207 Mb  4 secs--- baseline-sami.RUN(586321) 2209 Mb  5 secs--- baseline-sami.RUN(586321) 2219 Mb  5 secs--- baseline-sami.RUN(586321) 2220 Mb  5 secs--- baseline-sami.RUN(586321) 2231 Mb  5 secs--- baseline-sami.RUN(586321) 2232 Mb  5 secs--- baseline-sami.RUN(586321) 2241 Mb  5 secs--- baseline-sami.RUN(586321) 2244 Mb  5 secs--- baseline-sami.RUN(586321) 2252 Mb  5 secs--- baseline-sami.RUN(586321) 2255 Mb  6 secs--- baseline-sami.RUN(586321) 2265 Mb  6 secs--- baseline-sami.RUN(586321) 2267 Mb  6 secs--- baseline-sami.RUN(586321) 2272 Mb  6 secs--- baseline-sami.RUN(586321) 2307 Mb  6 secs--- baseline-sami.RUN(586321) 2310 Mb  6 secs--- baseline-sami.RUN(586321) 2318 Mb  6 secs--- baseline-sami.RUN(586321) 2320 Mb  7 secs--- baseline-sami.RUN(586321) 2330 Mb  7 secs--- baseline-sami.RUN(586321) 2332 Mb  7 secs--- baseline-sami.RUN(586321) 2342 Mb  7 secs--- baseline-sami.RUN(586321) 2344 Mb  7 secs--- baseline-sami.RUN(586321) 2353 Mb  7 secs--- baseline-sami.RUN(586321) 2354 Mb  7 secs--- baseline-sami.RUN(586321) 2364 Mb  7 secs--- baseline-sami.RUN(586321) 2367 Mb  8 secs--- baseline-sami.RUN(586321) 2376 Mb  8 secs--- baseline-sami.RUN(586321) 2377 Mb  8 secs--- baseline-sami.RUN(586321) 2388 Mb  8 secs--- baseline-sami.RUN(586321) 2390 Mb  8 secs--- baseline-sami.RUN(586321) 2401 Mb  8 secs--- baseline-sami.RUN(586321) 2403 Mb  8 secs--- baseline-sami.RUN(586321) 2412 Mb  8 secs--- baseline-sami.RUN(586321) 2414 Mb  9 secs--- baseline-sami.RUN(586321) 2424 Mb  9 secs--- baseline-sami.RUN(586321) 2426 Mb  9 secs--- baseline-sami.RUN(586321) 2435 Mb  9 secs--- baseline-sami.RUN(586321) 2437 Mb  9 secs--- baseline-sami.RUN(586321) 2446 Mb  9 secs--- baseline-sami.RUN(586321) 2448 Mb  9 secs--- baseline-sami.RUN(586321) 2457 Mb  9 secs--- baseline-sami.RUN(586321) 2460 Mb  10 secs--- baseline-sami.RUN(586321) 2470 Mb  10 secs--- baseline-sami.RUN(586321) 2472 Mb  10 secs--- baseline-sami.RUN(586321) 2474 Mb  10 secs--- baseline-sami.RUN(586321) 2475 Mb  10 secs--- baseline-sami.RUN(586321) 2486 Mb  10 secs--- baseline-sami.RUN(586321) 2490 Mb  11 secs--- baseline-sami.RUN(586321) 2504 Mb  11 secs--- baseline-sami.RUN(586321) 2508 Mb  11 secs
---- baseline-sami.RUN(586912) 2509 Mb--- baseline-sami.RUN(586912) 2512 Mb--- baseline-sami.RUN(586912) 2516 Mb--- baseline-sami.RUN(586912) 2520 Mb--- baseline-sami.RUN(586912) 2520 Mb--- baseline-sami.RUN(586912) 2527 Mb--- baseline-sami.RUN(586912) 2529 Mb--- baseline-sami.RUN(586912) 2536 Mb--- baseline-sami.RUN(586912) 2537 Mb--- baseline-sami.RUN(586912) 2544 Mb--- baseline-sami.RUN(586912) 2545 Mb--- baseline-sami.RUN(586912) 2552 Mb--- baseline-sami.RUN(586912) 2553 Mb--- baseline-sami.RUN(586912) 2558 Mb--- baseline-sami.RUN(585460) 2558 Mb--- baseline-sami.RUN(585460) 2558 Mb--- baseline-sami.RUN(585518) 2559 Mb--- baseline-sami.RUN(587225) 2560 Mb--- baseline-sami.RUN(588297) 2564 Mb--- baseline-sami.RUN(588297) 2567 Mb--- baseline-sami.RUN(588297) 2576 Mb--- baseline-sami.RUN(588297) 2578 Mb--- baseline-sami.RUN(588297) 2589 Mb--- baseline-sami.RUN(588297) 2592 Mb--- baseline-sami.RUN(588297) 2604 Mb--- baseline-sami.RUN(588297) 2607 Mb--- baseline-sami.RUN(588297) 2619 Mb--- baseline-sami.RUN(588297) 2621 Mb--- baseline-sami.RUN(588297) 2628 Mb--- baseline-sami.RUN(588138) 2629 Mb--- baseline-sami.RUN(588138) 2629 Mb--- baseline-sami.RUN(588138) 2628 Mb--- baseline-sami.RUN(587979) 2631 Mb--- baseline-sami.RUN(587979) 2633 Mb--- baseline-sami.RUN(587979) 2642 Mb--- baseline-sami.RUN(587979) 2644 Mb--- baseline-sami.RUN(587979) 2653 Mb--- baseline-sami.RUN(587979) 2655 Mb--- baseline-sami.RUN(587979) 2665 Mb--- baseline-sami.RUN(587979) 2667 Mb--- baseline-sami.RUN(587979) 2672 Mb--- baseline-sami.RUN(589308) 2672 Mb--- baseline-sami.RUN(589308) 2676 Mb--- baseline-sami.RUN(589308) 2679 Mb--- baseline-sami.RUN(589308) 2680 Mb--- baseline-sami.RUN(589308) 2684 Mb--- baseline-sami.RUN(589308) 2685 Mb--- baseline-sami.RUN(589308) 2691 Mb--- baseline-sami.RUN(589308) 2692 Mb--- baseline-sami.RUN(589308) 2695 Mb--- baseline-sami.RUN(588778) 2695 Mb--- baseline-sami.RUN(588619) 2695 Mb--- baseline-sami.RUN(588460) 2695 Mb--- baseline-sami.RUN(589587) 2697 Mb--- baseline-sami.RUN(589587) 2699 Mb--- baseline-sami.RUN(589587) 2700 Mb--- baseline-sami.RUN(589587) 2704 Mb--- baseline-sami.RUN(589587) 2705 Mb--- baseline-sami.RUN(589587) 2709 Mb--- baseline-sami.RUN(589587) 2709 Mb--- baseline-sami.RUN(589587) 2710 Mb--- baseline-sami.RUN(589587) 2714 Mb--- baseline-sami.RUN(589587) 2715 Mb--- baseline-sami.RUN(589587) 2715 Mb--- baseline-sami.RUN(589587) 2713 Mb--- baseline-sami.RUN(590426) 2715 Mb--- baseline-sami.RUN(592168) 2717 Mb--- baseline-sami.RUN(592168) 2718 Mb--- baseline-sami.RUN(592168) 2720 Mb--- baseline-sami.RUN(592168) 2721 Mb--- baseline-sami.RUN(592168) 2723 Mb--- baseline-sami.RUN(592168) 2724 Mb--- baseline-sami.RUN(592168) 2726 Mb--- baseline-sami.RUN(592168) 2727 Mb--- baseline-sami.RUN(592168) 2729 Mb--- baseline-sami.RUN(592168) 2730 Mb--- baseline-sami.RUN(592168) 2732 Mb--- baseline-sami.RUN(592168) 2733 Mb--- baseline-sami.RUN(592168) 2734 Mb--- baseline-sami.RUN(592168) 2734 Mb  3 secs--- baseline-sami.RUN(592168) 2735 Mb  3 secs--- baseline-sami.RUN(592168) 2737 Mb  3 secs--- baseline-sami.RUN(592168) 2738 Mb  3 secs--- baseline-sami.RUN(592168) 2739 Mb  4 secs--- baseline-sami.RUN(592168) 2746 Mb  4 secs--- baseline-sami.RUN(592168) 2748 Mb  4 secs--- baseline-sami.RUN(592168) 2753 Mb  4 secs--- baseline-sami.RUN(592168) 2752 Mb  5 secs
---- baseline-sami.RUN(598432) 2752 Mb--- baseline-sami.RUN(593212) 2753 Mb--- baseline-sami.RUN(593212) 2754 Mb--- baseline-sami.RUN(593212) 2755 Mb--- baseline-sami.RUN(593212) 2756 Mb--- baseline-sami.RUN(593212) 2757 Mb--- baseline-sami.RUN(593212) 2758 Mb--- baseline-sami.RUN(593212) 2760 Mb--- baseline-sami.RUN(593212) 2761 Mb--- baseline-sami.RUN(593212) 2764 Mb--- baseline-sami.RUN(593212) 2765 Mb--- baseline-sami.RUN(593212) 2766 Mb--- baseline-sami.RUN(593212) 2766 Mb  3 secs
---- baseline-sami.RUN(592690) 2766 Mb--- baseline-sami.RUN(592690) 2766 Mb--- baseline-sami.RUN(592690) 2769 Mb--- baseline-sami.RUN(592690) 2770 Mb--- baseline-sami.RUN(592690) 2772 Mb--- baseline-sami.RUN(592690) 2774 Mb--- baseline-sami.RUN(593734) 2775 Mb--- baseline-sami.RUN(593734) 2775 Mb--- baseline-sami.RUN(593734) 2776 Mb--- baseline-sami.RUN(593734) 2778 Mb--- baseline-sami.RUN(593734) 2780 Mb--- baseline-sami.RUN(593734) 2781 Mb--- baseline-sami.RUN(593734) 2783 Mb--- baseline-sami.RUN(593734) 2785 Mb--- baseline-sami.RUN(593734) 2787 Mb--- baseline-sami.RUN(593734) 2789 Mb--- baseline-sami.RUN(593734) 2792 Mb--- baseline-sami.RUN(593734) 2792 Mb--- baseline-sami.RUN(593734) 2794 Mb--- baseline-sami.RUN(593734) 2795 Mb--- baseline-sami.RUN(593734) 2797 Mb--- baseline-sami.RUN(593734) 2797 Mb  3 secs--- baseline-sami.RUN(593734) 2799 Mb  3 secs--- baseline-sami.RUN(593734) 2801 Mb  3 secs--- baseline-sami.RUN(593734) 2803 Mb  3 secs--- baseline-sami.RUN(593734) 2804 Mb  3 secs--- baseline-sami.RUN(593734) 2806 Mb  3 secs--- baseline-sami.RUN(593734) 2806 Mb  4 secs--- baseline-sami.RUN(593734) 2809 Mb  4 secs--- baseline-sami.RUN(593734) 2811 Mb  4 secs--- baseline-sami.RUN(593734) 2813 Mb  5 secs--- baseline-sami.RUN(593734) 2815 Mb  5 secs--- baseline-sami.RUN(593734) 2816 Mb  5 secs
---- baseline-sami.RUN(594256) 2816 Mb--- baseline-sami.RUN(594256) 2818 Mb--- baseline-sami.RUN(595300) 2818 Mb--- baseline-sami.RUN(596344) 2817 Mb--- baseline-sami.RUN(599524) 2816 Mb--- baseline-sami.RUN(599524) 2818 Mb--- baseline-sami.RUN(599524) 2818 Mb--- baseline-sami.RUN(599524) 2824 Mb--- baseline-sami.RUN(599524) 2825 Mb--- baseline-sami.RUN(599524) 2831 Mb--- baseline-sami.RUN(599524) 2832 Mb--- baseline-sami.RUN(599524) 2839 Mb--- baseline-sami.RUN(599524) 2840 Mb--- baseline-sami.RUN(599524) 2846 Mb--- baseline-sami.RUN(599524) 2848 Mb--- baseline-sami.RUN(599524) 2855 Mb--- baseline-sami.RUN(599524) 2857 Mb--- baseline-sami.RUN(599524) 2864 Mb--- baseline-sami.RUN(599524) 2865 Mb--- baseline-sami.RUN(599524) 2874 Mb--- baseline-sami.RUN(599524) 2877 Mb--- baseline-sami.RUN(599524) 2886 Mb--- baseline-sami.RUN(599524) 2887 Mb--- baseline-sami.RUN(599524) 2897 Mb--- baseline-sami.RUN(599524) 2899 Mb--- baseline-sami.RUN(599524) 2908 Mb--- baseline-sami.RUN(599524) 2911 Mb--- baseline-sami.RUN(599524) 2919 Mb--- baseline-sami.RUN(599524) 2922 Mb  3 secs--- baseline-sami.RUN(599524) 2930 Mb  3 secs--- baseline-sami.RUN(599524) 2932 Mb  3 secs--- baseline-sami.RUN(599524) 2940 Mb  3 secs--- baseline-sami.RUN(599524) 2942 Mb  3 secs--- baseline-sami.RUN(599524) 2951 Mb  3 secs--- baseline-sami.RUN(599524) 2953 Mb  3 secs--- baseline-sami.RUN(599524) 2961 Mb  3 secs--- baseline-sami.RUN(599524) 2963 Mb  4 secs--- baseline-sami.RUN(599524) 2972 Mb  4 secs--- baseline-sami.RUN(599524) 2974 Mb  4 secs--- baseline-sami.RUN(599524) 2978 Mb  4 secs
---- baseline-sami.RUN(599604) 2978 Mb--- baseline-sami.RUN(599629) 2978 Mb--- baseline-sami.RUN(600024) 2979 Mb--- baseline-sami.RUN(602704) 2978 Mb--- baseline-sami.RUN(602704) 2978 Mb  3 secs--- baseline-sami.RUN(602704) 2987 Mb  3 secs--- baseline-sami.RUN(602704) 2987 Mb  4 secs--- baseline-sami.RUN(602704) 2987 Mb  5 secs
----   3,667,696 rows  4,326,305 columns  20,629,205 non-zeroes
+--- baseline-sami.RUN(586583) 1276 Mb--- baseline-sami.RUN(586583) 1276 Mb--- baseline-sami.RUN(586583) 1280 Mb--- baseline-sami.RUN(586583) 1280 Mb--- baseline-sami.RUN(586328) 1289 Mb--- baseline-sami.RUN(586962) 1295 Mb--- baseline-sami.RUN(586688) 1296 Mb--- baseline-sami.RUN(586688) 1304 Mb--- baseline-sami.RUN(586688) 1310 Mb--- baseline-sami.RUN(586688) 1312 Mb--- baseline-sami.RUN(586688) 1322 Mb--- baseline-sami.RUN(586688) 1336 Mb--- baseline-sami.RUN(587111) 1366 Mb--- baseline-sami.RUN(587111) 1371 Mb--- baseline-sami.RUN(587111) 1400 Mb--- baseline-sami.RUN(587111) 1409 Mb--- baseline-sami.RUN(587111) 1438 Mb--- baseline-sami.RUN(587111) 1454 Mb--- baseline-sami.RUN(587111) 1477 Mb--- baseline-sami.RUN(587462) 1478 Mb--- baseline-sami.RUN(587462) 1479 Mb--- baseline-sami.RUN(587462) 1480 Mb--- baseline-sami.RUN(587462) 1480 Mb--- baseline-sami.RUN(587462) 1481 Mb--- baseline-sami.RUN(587462) 1512 Mb--- baseline-sami.RUN(587462) 1545 Mb--- baseline-sami.RUN(587462) 1556 Mb--- baseline-sami.RUN(587462) 1595 Mb--- baseline-sami.RUN(587462) 1609 Mb--- baseline-sami.RUN(587462) 1659 Mb--- baseline-sami.RUN(587462) 1674 Mb--- baseline-sami.RUN(587462) 1730 Mb--- baseline-sami.RUN(587462) 1745 Mb--- baseline-sami.RUN(587462) 1804 Mb--- baseline-sami.RUN(587462) 1822 Mb--- baseline-sami.RUN(587462) 1879 Mb--- baseline-sami.RUN(587462) 1896 Mb--- baseline-sami.RUN(587462) 1955 Mb--- baseline-sami.RUN(587462) 1967 Mb--- baseline-sami.RUN(587462) 2011 Mb--- baseline-sami.RUN(587462) 2011 Mb  3 secs
+--- baseline-sami.RUN(587409) 2011 Mb--- baseline-sami.RUN(587515) 2011 Mb--- baseline-sami.RUN(587515) 2023 Mb--- baseline-sami.RUN(587515) 2025 Mb--- baseline-sami.RUN(587515) 2036 Mb--- baseline-sami.RUN(587515) 2041 Mb--- baseline-sami.RUN(587515) 2057 Mb--- baseline-sami.RUN(587515) 2059 Mb--- baseline-sami.RUN(587849) 2061 Mb--- baseline-sami.RUN(587849) 2065 Mb--- baseline-sami.RUN(587849) 2065 Mb--- baseline-sami.RUN(587849) 2069 Mb--- baseline-sami.RUN(587849) 2070 Mb--- baseline-sami.RUN(587849) 2075 Mb--- baseline-sami.RUN(587849) 2076 Mb  3 secs--- baseline-sami.RUN(587849) 2080 Mb  3 secs--- baseline-sami.RUN(587849) 2081 Mb  3 secs--- baseline-sami.RUN(587849) 2086 Mb  3 secs--- baseline-sami.RUN(587849) 2087 Mb  3 secs--- baseline-sami.RUN(587849) 2091 Mb  3 secs--- baseline-sami.RUN(587849) 2092 Mb  3 secs--- baseline-sami.RUN(587849) 2097 Mb  3 secs--- baseline-sami.RUN(587849) 2098 Mb  4 secs--- baseline-sami.RUN(587849) 2103 Mb  4 secs--- baseline-sami.RUN(587849) 2108 Mb  4 secs--- baseline-sami.RUN(587849) 2109 Mb  4 secs--- baseline-sami.RUN(587849) 2113 Mb  4 secs--- baseline-sami.RUN(587849) 2114 Mb  4 secs--- baseline-sami.RUN(587849) 2119 Mb  4 secs--- baseline-sami.RUN(587849) 2119 Mb  5 secs--- baseline-sami.RUN(587849) 2124 Mb  5 secs--- baseline-sami.RUN(587849) 2129 Mb  5 secs--- baseline-sami.RUN(587849) 2130 Mb  5 secs--- baseline-sami.RUN(587849) 2139 Mb  5 secs--- baseline-sami.RUN(587849) 2141 Mb  5 secs
+--- baseline-sami.RUN(588434) 2141 Mb--- baseline-sami.RUN(588434) 2145 Mb--- baseline-sami.RUN(588434) 2147 Mb--- baseline-sami.RUN(588434) 2150 Mb--- baseline-sami.RUN(588434) 2152 Mb--- baseline-sami.RUN(588434) 2155 Mb--- baseline-sami.RUN(588434) 2156 Mb--- baseline-sami.RUN(588434) 2156 Mb--- baseline-sami.RUN(588434) 2160 Mb--- baseline-sami.RUN(588434) 2161 Mb--- baseline-sami.RUN(588434) 2161 Mb  3 secs--- baseline-sami.RUN(588434) 2163 Mb  3 secs--- baseline-sami.RUN(588434) 2165 Mb  3 secs--- baseline-sami.RUN(588434) 2169 Mb  3 secs--- baseline-sami.RUN(588434) 2170 Mb  4 secs--- baseline-sami.RUN(588434) 2174 Mb  4 secs--- baseline-sami.RUN(588434) 2175 Mb  4 secs--- baseline-sami.RUN(588434) 2179 Mb  4 secs--- baseline-sami.RUN(588434) 2180 Mb  4 secs--- baseline-sami.RUN(588434) 2186 Mb  4 secs--- baseline-sami.RUN(588434) 2188 Mb  4 secs--- baseline-sami.RUN(588434) 2199 Mb  4 secs--- baseline-sami.RUN(588434) 2201 Mb  5 secs--- baseline-sami.RUN(588434) 2210 Mb  5 secs--- baseline-sami.RUN(588434) 2213 Mb  5 secs--- baseline-sami.RUN(588434) 2222 Mb  5 secs--- baseline-sami.RUN(588434) 2224 Mb  5 secs--- baseline-sami.RUN(588434) 2234 Mb  5 secs--- baseline-sami.RUN(588434) 2236 Mb  5 secs--- baseline-sami.RUN(588434) 2245 Mb  5 secs--- baseline-sami.RUN(588434) 2247 Mb  6 secs--- baseline-sami.RUN(588434) 2251 Mb  6 secs--- baseline-sami.RUN(588434) 2252 Mb  6 secs--- baseline-sami.RUN(588434) 2287 Mb  6 secs--- baseline-sami.RUN(588434) 2289 Mb  6 secs--- baseline-sami.RUN(588434) 2300 Mb  6 secs--- baseline-sami.RUN(588434) 2301 Mb  6 secs--- baseline-sami.RUN(588434) 2311 Mb  6 secs--- baseline-sami.RUN(588434) 2313 Mb  7 secs--- baseline-sami.RUN(588434) 2322 Mb  7 secs--- baseline-sami.RUN(588434) 2324 Mb  7 secs--- baseline-sami.RUN(588434) 2334 Mb  7 secs--- baseline-sami.RUN(588434) 2337 Mb  7 secs--- baseline-sami.RUN(588434) 2345 Mb  7 secs--- baseline-sami.RUN(588434) 2348 Mb  8 secs--- baseline-sami.RUN(588434) 2358 Mb  8 secs--- baseline-sami.RUN(588434) 2359 Mb  8 secs--- baseline-sami.RUN(588434) 2369 Mb  8 secs--- baseline-sami.RUN(588434) 2371 Mb  8 secs--- baseline-sami.RUN(588434) 2381 Mb  8 secs--- baseline-sami.RUN(588434) 2384 Mb  8 secs--- baseline-sami.RUN(588434) 2393 Mb  8 secs--- baseline-sami.RUN(588434) 2395 Mb  9 secs--- baseline-sami.RUN(588434) 2405 Mb  9 secs--- baseline-sami.RUN(588434) 2407 Mb  9 secs--- baseline-sami.RUN(588434) 2419 Mb  9 secs--- baseline-sami.RUN(588434) 2420 Mb  9 secs--- baseline-sami.RUN(588434) 2427 Mb  9 secs--- baseline-sami.RUN(588434) 2430 Mb  9 secs--- baseline-sami.RUN(588434) 2439 Mb  9 secs--- baseline-sami.RUN(588434) 2441 Mb  10 secs--- baseline-sami.RUN(588434) 2452 Mb  10 secs--- baseline-sami.RUN(588434) 2454 Mb  10 secs--- baseline-sami.RUN(588434) 2463 Mb  10 secs--- baseline-sami.RUN(588434) 2465 Mb  10 secs--- baseline-sami.RUN(588434) 2474 Mb  10 secs--- baseline-sami.RUN(588434) 2475 Mb  10 secs--- baseline-sami.RUN(588434) 2486 Mb  10 secs--- baseline-sami.RUN(588434) 2487 Mb  11 secs--- baseline-sami.RUN(588434) 2498 Mb  11 secs--- baseline-sami.RUN(588434) 2499 Mb  11 secs--- baseline-sami.RUN(588434) 2501 Mb  11 secs--- baseline-sami.RUN(588434) 2501 Mb  11 secs--- baseline-sami.RUN(588434) 2512 Mb  11 secs--- baseline-sami.RUN(588434) 2514 Mb  11 secs--- baseline-sami.RUN(588434) 2526 Mb  11 secs--- baseline-sami.RUN(588434) 2529 Mb  12 secs
+--- baseline-sami.RUN(589025) 2536 Mb--- baseline-sami.RUN(589025) 2539 Mb--- baseline-sami.RUN(589025) 2542 Mb--- baseline-sami.RUN(589025) 2542 Mb--- baseline-sami.RUN(589025) 2543 Mb--- baseline-sami.RUN(589025) 2544 Mb--- baseline-sami.RUN(589025) 2551 Mb--- baseline-sami.RUN(589025) 2552 Mb--- baseline-sami.RUN(589025) 2559 Mb--- baseline-sami.RUN(589025) 2560 Mb--- baseline-sami.RUN(589025) 2566 Mb--- baseline-sami.RUN(589025) 2568 Mb--- baseline-sami.RUN(589025) 2575 Mb--- baseline-sami.RUN(589025) 2576 Mb--- baseline-sami.RUN(589025) 2583 Mb--- baseline-sami.RUN(589025) 2583 Mb--- baseline-sami.RUN(589025) 2585 Mb  3 secs
+--- baseline-sami.RUN(587573) 2585 Mb--- baseline-sami.RUN(587573) 2587 Mb--- baseline-sami.RUN(589338) 2587 Mb--- baseline-sami.RUN(589546) 2587 Mb--- baseline-sami.RUN(590410) 2593 Mb--- baseline-sami.RUN(590410) 2596 Mb--- baseline-sami.RUN(590410) 2606 Mb--- baseline-sami.RUN(590410) 2607 Mb--- baseline-sami.RUN(590410) 2619 Mb--- baseline-sami.RUN(590410) 2621 Mb--- baseline-sami.RUN(590410) 2633 Mb--- baseline-sami.RUN(590410) 2635 Mb--- baseline-sami.RUN(590410) 2647 Mb--- baseline-sami.RUN(590410) 2650 Mb--- baseline-sami.RUN(590410) 2655 Mb--- baseline-sami.RUN(590251) 2656 Mb--- baseline-sami.RUN(590092) 2655 Mb--- baseline-sami.RUN(590092) 2655 Mb--- baseline-sami.RUN(590092) 2660 Mb--- baseline-sami.RUN(590092) 2662 Mb--- baseline-sami.RUN(590092) 2671 Mb--- baseline-sami.RUN(590092) 2673 Mb--- baseline-sami.RUN(590092) 2682 Mb--- baseline-sami.RUN(590092) 2684 Mb--- baseline-sami.RUN(590092) 2693 Mb--- baseline-sami.RUN(590092) 2695 Mb--- baseline-sami.RUN(590092) 2699 Mb--- baseline-sami.RUN(591421) 2699 Mb--- baseline-sami.RUN(591421) 2703 Mb--- baseline-sami.RUN(591421) 2703 Mb--- baseline-sami.RUN(591421) 2705 Mb--- baseline-sami.RUN(591421) 2706 Mb--- baseline-sami.RUN(591421) 2710 Mb--- baseline-sami.RUN(591421) 2710 Mb--- baseline-sami.RUN(591421) 2716 Mb--- baseline-sami.RUN(591421) 2717 Mb--- baseline-sami.RUN(591421) 2722 Mb--- baseline-sami.RUN(590891) 2722 Mb--- baseline-sami.RUN(590732) 2722 Mb--- baseline-sami.RUN(590573) 2723 Mb--- baseline-sami.RUN(591700) 2724 Mb--- baseline-sami.RUN(591700) 2726 Mb--- baseline-sami.RUN(591700) 2730 Mb--- baseline-sami.RUN(591700) 2730 Mb--- baseline-sami.RUN(591700) 2735 Mb--- baseline-sami.RUN(591700) 2736 Mb--- baseline-sami.RUN(591700) 2737 Mb--- baseline-sami.RUN(591700) 2740 Mb--- baseline-sami.RUN(591700) 2742 Mb--- baseline-sami.RUN(592287) 2741 Mb--- baseline-sami.RUN(592287) 2742 Mb--- baseline-sami.RUN(592491) 2743 Mb--- baseline-sami.RUN(594281) 2745 Mb--- baseline-sami.RUN(594281) 2746 Mb--- baseline-sami.RUN(594281) 2748 Mb--- baseline-sami.RUN(594281) 2749 Mb--- baseline-sami.RUN(594281) 2751 Mb--- baseline-sami.RUN(594281) 2753 Mb--- baseline-sami.RUN(594281) 2754 Mb--- baseline-sami.RUN(594281) 2755 Mb--- baseline-sami.RUN(594281) 2757 Mb--- baseline-sami.RUN(594281) 2758 Mb--- baseline-sami.RUN(594281) 2760 Mb--- baseline-sami.RUN(594281) 2760 Mb--- baseline-sami.RUN(594281) 2760 Mb  3 secs--- baseline-sami.RUN(594281) 2762 Mb  3 secs--- baseline-sami.RUN(594281) 2764 Mb  3 secs--- baseline-sami.RUN(594281) 2765 Mb  3 secs--- baseline-sami.RUN(594281) 2767 Mb  3 secs--- baseline-sami.RUN(594281) 2767 Mb  4 secs--- baseline-sami.RUN(594281) 2768 Mb  4 secs--- baseline-sami.RUN(594281) 2768 Mb  4 secs--- baseline-sami.RUN(594281) 2778 Mb  4 secs--- baseline-sami.RUN(594281) 2780 Mb  4 secs--- baseline-sami.RUN(594281) 2780 Mb  5 secs
+--- baseline-sami.RUN(600545) 2780 Mb--- baseline-sami.RUN(600545) 2780 Mb--- baseline-sami.RUN(595325) 2780 Mb--- baseline-sami.RUN(595325) 2781 Mb--- baseline-sami.RUN(595325) 2781 Mb--- baseline-sami.RUN(595325) 2783 Mb--- baseline-sami.RUN(595325) 2785 Mb--- baseline-sami.RUN(595325) 2786 Mb--- baseline-sami.RUN(595325) 2787 Mb--- baseline-sami.RUN(595325) 2788 Mb--- baseline-sami.RUN(595325) 2790 Mb--- baseline-sami.RUN(595325) 2792 Mb--- baseline-sami.RUN(595325) 2793 Mb--- baseline-sami.RUN(595325) 2793 Mb  3 secs
+--- baseline-sami.RUN(594803) 2793 Mb--- baseline-sami.RUN(594803) 2794 Mb--- baseline-sami.RUN(594803) 2795 Mb--- baseline-sami.RUN(594803) 2797 Mb--- baseline-sami.RUN(594803) 2798 Mb--- baseline-sami.RUN(594803) 2800 Mb--- baseline-sami.RUN(594803) 2802 Mb--- baseline-sami.RUN(595847) 2802 Mb--- baseline-sami.RUN(595847) 2803 Mb--- baseline-sami.RUN(595847) 2804 Mb--- baseline-sami.RUN(595847) 2806 Mb--- baseline-sami.RUN(595847) 2808 Mb--- baseline-sami.RUN(595847) 2810 Mb--- baseline-sami.RUN(595847) 2812 Mb--- baseline-sami.RUN(595847) 2813 Mb--- baseline-sami.RUN(595847) 2816 Mb--- baseline-sami.RUN(595847) 2818 Mb--- baseline-sami.RUN(595847) 2821 Mb--- baseline-sami.RUN(595847) 2821 Mb--- baseline-sami.RUN(595847) 2823 Mb--- baseline-sami.RUN(595847) 2826 Mb--- baseline-sami.RUN(595847) 2826 Mb  3 secs--- baseline-sami.RUN(595847) 2828 Mb  3 secs--- baseline-sami.RUN(595847) 2830 Mb  3 secs--- baseline-sami.RUN(595847) 2833 Mb  3 secs--- baseline-sami.RUN(595847) 2835 Mb  3 secs--- baseline-sami.RUN(595847) 2835 Mb  4 secs--- baseline-sami.RUN(595847) 2837 Mb  4 secs--- baseline-sami.RUN(595847) 2838 Mb  4 secs--- baseline-sami.RUN(595847) 2840 Mb  4 secs--- baseline-sami.RUN(595847) 2843 Mb  4 secs--- baseline-sami.RUN(595847) 2843 Mb  5 secs--- baseline-sami.RUN(595847) 2845 Mb  5 secs--- baseline-sami.RUN(595847) 2845 Mb  5 secs--- baseline-sami.RUN(595847) 2848 Mb  5 secs--- baseline-sami.RUN(595847) 2848 Mb  5 secs
+--- baseline-sami.RUN(596369) 2848 Mb--- baseline-sami.RUN(596369) 2850 Mb--- baseline-sami.RUN(597413) 2849 Mb--- baseline-sami.RUN(586000) 2848 Mb--- baseline-sami.RUN(601637) 2848 Mb--- baseline-sami.RUN(601637) 2849 Mb--- baseline-sami.RUN(601637) 2850 Mb--- baseline-sami.RUN(601637) 2856 Mb--- baseline-sami.RUN(601637) 2857 Mb--- baseline-sami.RUN(601637) 2863 Mb--- baseline-sami.RUN(601637) 2864 Mb--- baseline-sami.RUN(601637) 2870 Mb--- baseline-sami.RUN(601637) 2871 Mb--- baseline-sami.RUN(601637) 2878 Mb--- baseline-sami.RUN(601637) 2879 Mb--- baseline-sami.RUN(601637) 2886 Mb--- baseline-sami.RUN(601637) 2887 Mb--- baseline-sami.RUN(601637) 2895 Mb--- baseline-sami.RUN(601637) 2896 Mb--- baseline-sami.RUN(601637) 2904 Mb--- baseline-sami.RUN(601637) 2906 Mb--- baseline-sami.RUN(601637) 2916 Mb--- baseline-sami.RUN(601637) 2918 Mb--- baseline-sami.RUN(601637) 2927 Mb--- baseline-sami.RUN(601637) 2929 Mb--- baseline-sami.RUN(601637) 2938 Mb--- baseline-sami.RUN(601637) 2941 Mb--- baseline-sami.RUN(601637) 2948 Mb--- baseline-sami.RUN(601637) 2950 Mb  3 secs--- baseline-sami.RUN(601637) 2958 Mb  3 secs--- baseline-sami.RUN(601637) 2960 Mb  3 secs--- baseline-sami.RUN(601637) 2968 Mb  3 secs--- baseline-sami.RUN(601637) 2970 Mb  3 secs--- baseline-sami.RUN(601637) 2979 Mb  3 secs--- baseline-sami.RUN(601637) 2980 Mb  3 secs--- baseline-sami.RUN(601637) 2989 Mb  3 secs--- baseline-sami.RUN(601637) 2990 Mb  4 secs--- baseline-sami.RUN(601637) 2999 Mb  4 secs--- baseline-sami.RUN(601637) 3001 Mb  4 secs--- baseline-sami.RUN(601637) 3009 Mb  4 secs--- baseline-sami.RUN(601637) 3009 Mb  5 secs
+--- baseline-sami.RUN(601717) 3009 Mb--- baseline-sami.RUN(601742) 3009 Mb--- baseline-sami.RUN(602137) 3010 Mb--- baseline-sami.RUN(602310) 3009 Mb--- baseline-sami.RUN(602108) 3008 Mb--- baseline-sami.RUN(604817) 3008 Mb--- baseline-sami.RUN(604817) 3008 Mb  3 secs--- baseline-sami.RUN(604817) 3017 Mb  3 secs--- baseline-sami.RUN(604817) 3017 Mb  3 secs--- baseline-sami.RUN(604817) 3017 Mb  4 secs--- baseline-sami.RUN(604817) 3017 Mb  5 secs
+---   3,690,694 rows  4,356,078 columns  20,729,532 non-zeroes
 --- Range statistics (absolute non-zero finite values)
 --- RHS       [min, max] : [ 5.592E-09, 4.475E+04] - Zero values observed as well
 --- Bound     [min, max] : [ 6.124E-06, 1.000E+07] - Zero values observed as well
 --- Matrix    [min, max] : [ 2.436E-08, 1.029E+05] - Zero values observed as well
---- Executing CPLEX (Solvelink=0): elapsed 0:01:35.346
---- baseline-sami.RUN(602704) 2987 Mb  6 secs
+--- Executing CPLEX (Solvelink=0): elapsed 0:01:37.411
+--- baseline-sami.RUN(604817) 3017 Mb  6 secs
 
 IBM ILOG CPLEX   53.5.1 f2e5fac3 May 20, 2026          WEI x86 64bit/MS Window
 
@@ -1622,9 +1623,9 @@ Reading parameter(s) from "D:\Padam\GAMS_WrkTIMES\cplex.opt"
 Finished reading from "D:\Padam\GAMS_WrkTIMES\cplex.opt"
 
 --- GMO setup time: 0.00s
---- GMO memory 1849.48 Mb (peak 1882.48 Mb)
+--- GMO memory 1859.96 Mb (peak 1893.19 Mb)
 --- Dictionary memory 0.00 Mb
---- Cplex 22.1.2.0 link memory 124.49 Mb (peak 446.59 Mb)
+--- Cplex 22.1.2.0 link memory 125.32 Mb (peak 449.16 Mb)
 --- Starting Cplex
 
 Version identifier: 22.1.2.0 | 2024-11-25 | 0edbb82fd
@@ -1643,363 +1644,200 @@ CPXPARAM_Simplex_Tolerances_Feasibility          1e-08
 CPXPARAM_TimeLimit                               50000
 CPXPARAM_MIP_Tolerances_AbsMIPGap                0
 CPXPARAM_Barrier_ConvergeTol                     9.9999999999999995e-08
-Aggregator has done 475389 substitutions...
-Aggregator has done 483880 substitutions...
-Aggregator has done 492062 substitutions...
-Aggregator has done 500044 substitutions...
-Aggregator has done 507235 substitutions...
-Aggregator has done 514461 substitutions...
-Aggregator has done 521244 substitutions...
-Aggregator has done 527927 substitutions...
-Aggregator has done 534657 substitutions...
-Aggregator has done 541004 substitutions...
-Aggregator has done 547251 substitutions...
-Aggregator has done 553645 substitutions...
-Aggregator has done 559592 substitutions...
-Aggregator has done 565440 substitutions...
-Aggregator has done 571189 substitutions...
-Aggregator has done 576839 substitutions...
-Aggregator has done 582390 substitutions...
-Aggregator has done 588095 substitutions...
-Aggregator has done 615834 substitutions...
-Aggregator has done 657045 substitutions...
-Aggregator has done 664497 substitutions...
-Aggregator has done 713138 substitutions...
-Aggregator has done 743646 substitutions...
-Aggregator has done 795060 substitutions...
-Aggregator has done 811262 substitutions...
-Aggregator has done 899426 substitutions...
-Aggregator has done 909445 substitutions...
-Aggregator has done 924699 substitutions...
-Aggregator has done 939279 substitutions...
+Aggregator has done 480089 substitutions...
+Aggregator has done 488580 substitutions...
+Aggregator has done 496762 substitutions...
+Aggregator has done 504744 substitutions...
+Aggregator has done 511935 substitutions...
+Aggregator has done 519161 substitutions...
+Aggregator has done 525944 substitutions...
+Aggregator has done 532627 substitutions...
+Aggregator has done 539345 substitutions...
+Aggregator has done 545680 substitutions...
+Aggregator has done 551915 substitutions...
+Aggregator has done 558285 substitutions...
+Aggregator has done 564220 substitutions...
+Aggregator has done 570056 substitutions...
+Aggregator has done 575793 substitutions...
+Aggregator has done 581431 substitutions...
+Aggregator has done 586970 substitutions...
+Aggregator has done 592410 substitutions...
+Aggregator has done 618983 substitutions...
+Aggregator has done 661597 substitutions...
+Aggregator has done 668952 substitutions...
+Aggregator has done 716905 substitutions...
+Aggregator has done 746500 substitutions...
+Aggregator has done 798888 substitutions...
+Aggregator has done 815210 substitutions...
+Aggregator has done 903851 substitutions...
+Aggregator has done 914123 substitutions...
+Aggregator has done 929635 substitutions...
+Aggregator has done 946591 substitutions...
 Tried aggregator 3 times.
-LP Presolve eliminated 1132993 rows and 1143639 columns.
-Aggregator did 939543 substitutions.
-Reduced LP has 1595159 rows, 2251369 columns, and 13748052 nonzeros.
-Presolve time = 161.22 sec. (298613.57 ticks)
+LP Presolve eliminated 1138680 rows and 1162662 columns.
+Aggregator did 946939 substitutions.
+Reduced LP has 1605074 rows, 2251719 columns, and 13864730 nonzeros.
+Presolve time = 170.47 sec. (298889.19 ticks)
 Parallel mode: using up to 31 threads for barrier.
 
 ***NOTE: Found 4 dense columns.
 
-Number of nonzeros in lower triangle of A*A' = 40293430
-Elapsed ordering time = 6.89 sec. (10000.10 ticks)
+Number of nonzeros in lower triangle of A*A' = 40689322
+Elapsed ordering time = 6.89 sec. (10000.05 ticks)
 Using Nested Dissection ordering
-Total time for automatic ordering = 130.06 sec. (189014.90 ticks)
+Total time for automatic ordering = 110.55 sec. (161166.34 ticks)
 Summary statistics for Cholesky factor:
   Threads                   = 31
-  Rows in Factor            = 1595163
-  Integer space required    = 12909443
-  Total non-zeros in factor = 445967134
-  Total FP ops to factor    = 1956375130048
+  Rows in Factor            = 1605078
+  Integer space required    = 13523806
+  Total non-zeros in factor = 520707228
+  Total FP ops to factor    = 2728803846748
  Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
-   0   4.4225328e+09  -2.0157862e+09  6.29e+09  2.20e+05  4.72e+09  1.00e+00
-   1   4.6459513e+09  -1.7776815e+09  6.29e+09  2.20e+05  4.72e+09  8.83e-01
-   2   4.8670270e+09  -1.5157122e+09  6.29e+09  2.20e+05  4.72e+09  7.60e-01
-   3   5.2720837e+09  -1.1067197e+09  6.29e+09  2.20e+05  4.72e+09  5.80e-01
-   4   5.7014506e+09  -5.2279582e+08  6.29e+09  2.20e+05  4.72e+09  4.57e-01
-   5   5.8345012e+09  -3.0259537e+08  6.29e+09  2.20e+05  4.72e+09  3.76e-01
-   6   5.9161122e+09  -1.1639958e+08  6.29e+09  2.20e+05  4.72e+09  3.09e-01
-   7   5.9072546e+09  -1.5253626e+08  6.29e+09  2.20e+05  4.72e+09  2.72e-01
-   8   5.8731477e+09  -2.2966666e+08  6.29e+09  2.20e+05  4.72e+09  2.32e-01
-   9   5.8304582e+09  -3.5930524e+08  6.29e+09  2.20e+05  4.72e+09  2.13e-01
-  10   5.7881191e+09  -5.2595286e+08  6.29e+09  2.20e+05  4.72e+09  1.92e-01
-  11   5.7826832e+09  -5.3785780e+08  6.29e+09  2.20e+05  4.72e+09  1.88e-01
-  12   5.7771645e+09  -5.5460413e+08  6.29e+09  2.20e+05  4.72e+09  1.84e-01
-  13   5.7027932e+09  -6.1636648e+08  6.29e+09  2.20e+05  4.72e+09  1.61e-01
-  14   5.6917334e+09  -6.9472066e+08  6.29e+09  2.20e+05  4.72e+09  1.48e-01
-  15   5.6574158e+09  -8.8260402e+08  6.29e+09  2.20e+05  4.72e+09  1.30e-01
-  16   5.6003369e+09  -9.6961840e+08  6.29e+09  2.20e+05  4.72e+09  1.11e-01
-  17   5.5274793e+09  -1.1290781e+09  6.29e+09  2.20e+05  4.72e+09  8.80e-02
-  18   5.5018372e+09  -1.1637161e+09  6.29e+09  2.20e+05  4.72e+09  6.81e-02
-  19   5.3176335e+09  -1.4625246e+09  6.29e+09  2.20e+05  4.72e+09  4.99e-02
-  20   5.0019880e+09  -1.7151287e+09  6.29e+09  2.20e+05  4.72e+09  3.72e-02
-  21   5.0393594e+09  -1.6682650e+09  6.29e+09  2.20e+05  4.72e+09  2.51e-02
-  22   5.1179357e+09  -1.5478550e+09  6.29e+09  2.20e+05  4.72e+09  2.04e-02
-  23   5.1269296e+09  -1.5376460e+09  6.29e+09  2.20e+05  4.72e+09  1.65e-02
-  24   5.1223530e+09  -1.5562907e+09  6.29e+09  2.20e+05  4.72e+09  1.36e-02
-  25   5.0949552e+09  -1.5736088e+09  6.28e+09  2.20e+05  4.72e+09  1.00e-02
-  26   5.7061045e+09  -1.2230721e+09  6.28e+09  2.20e+05  4.72e+09  5.80e-03
-  27   6.4400888e+09  -3.5927181e+08  6.28e+09  2.20e+05  4.72e+09  3.42e-03
-  28   8.0649930e+09   4.2961601e+08  6.27e+09  2.20e+05  4.72e+09  1.92e-03
-  29   9.7908419e+09   1.0763862e+09  6.27e+09  2.19e+05  4.72e+09  1.39e-03
-  30   1.1456645e+10   1.5054058e+09  6.26e+09  2.19e+05  4.71e+09  1.04e-03
-  31   1.2438860e+10   1.9559411e+09  6.24e+09  2.19e+05  4.71e+09  6.22e-04
-  32   1.2568865e+10   2.1686907e+09  6.21e+09  2.17e+05  4.68e+09  3.92e-04
-  33   1.2560117e+10   2.3512587e+09  6.04e+09  2.12e+05  4.59e+09  1.87e-04
-  34   1.2021928e+10   2.2652169e+09  5.80e+09  2.03e+05  4.46e+09  1.13e-04
-  35   1.1594220e+10   2.1309072e+09  5.62e+09  1.97e+05  4.32e+09  9.46e-05
-  36   1.0899908e+10   1.8392198e+09  5.36e+09  1.87e+05  4.08e+09  8.14e-05
-  37   1.0231351e+10   1.7243970e+09  5.10e+09  1.78e+05  3.98e+09  7.13e-05
-  38   9.8379964e+09   1.4312289e+09  4.94e+09  1.73e+05  3.69e+09  7.52e-05
-  39   9.1983235e+09   1.2421843e+09  4.68e+09  1.64e+05  3.51e+09  7.34e-05
-  40   8.5616044e+09   1.0486562e+09  4.41e+09  1.54e+05  3.29e+09  7.42e-05
-  41   7.8741004e+09   8.9747212e+08  4.11e+09  1.44e+05  3.11e+09  7.45e-05
-  42   7.2545912e+09   8.4508898e+08  3.84e+09  1.34e+05  3.04e+09  7.16e-05
-  43   5.8822627e+09   7.9005832e+08  3.21e+09  1.12e+05  2.95e+09  6.37e-05
-  44   4.7656430e+09   6.1354365e+08  2.66e+09  9.33e+04  2.60e+09  6.88e-05
-  45   3.8662316e+09   5.3211463e+08  2.21e+09  7.73e+04  2.41e+09  7.11e-05
-  46   3.1951666e+09   4.7564618e+08  1.85e+09  6.48e+04  2.24e+09  7.45e-05
-  47   2.6825511e+09   2.7668287e+08  1.58e+09  5.52e+04  1.62e+09  1.19e-04
-  48   2.3083899e+09   2.1386369e+08  1.38e+09  4.85e+04  1.47e+09  1.34e-04
-  49   1.5702577e+09   8.3647320e+07  9.82e+08  3.44e+04  1.04e+09  2.05e-04
-  50   1.2067646e+09   3.2425157e+07  7.78e+08  2.72e+04  8.37e+08  2.67e-04
-  51   8.7713341e+08  -5.0736224e+06  5.86e+08  2.05e+04  6.43e+08  3.65e-04
-  52   6.0415128e+08  -2.2861004e+07  4.21e+08  1.47e+04  5.09e+08  4.86e-04
-  53   3.8383508e+08  -3.0456012e+07  2.79e+08  9.78e+03  3.74e+08  7.08e-04
-  54   2.9506000e+08  -2.8912298e+07  2.19e+08  7.65e+03  2.77e+08  9.86e-04
-  55   2.1228464e+08  -2.7864927e+07  1.62e+08  5.66e+03  2.25e+08  1.28e-03
-  56   1.4769066e+08  -2.5359248e+07  1.16e+08  4.06e+03  1.79e+08  1.71e-03
-  57   1.0036677e+08  -2.2192509e+07  8.04e+07  2.82e+03  1.48e+08  2.24e-03
-  58   7.9526778e+07  -1.7799410e+07  6.38e+07  2.23e+03  1.18e+08  2.90e-03
-  59   6.8045875e+07  -1.4493865e+07  5.46e+07  1.91e+03  9.66e+07  3.58e-03
-  60   4.4315998e+07  -1.0646102e+07  3.54e+07  1.24e+03  7.19e+07  5.17e-03
-  61   3.5184422e+07  -8.8572695e+06  2.76e+07  9.67e+02  6.23e+07  6.23e-03
-  62   2.6873030e+07  -5.9185454e+06  2.04e+07  7.14e+02  4.74e+07  8.50e-03
-  63   2.3242270e+07  -5.1363464e+06  1.73e+07  6.05e+02  4.32e+07  9.57e-03
-  64   2.1256371e+07  -4.1773665e+06  1.56e+07  5.45e+02  3.84e+07  1.09e-02
-  65   1.7906113e+07  -2.5848034e+06  1.27e+07  4.44e+02  3.00e+07  1.42e-02
-  66   1.5474310e+07  -1.6692503e+06  1.07e+07  3.73e+02  2.48e+07  1.76e-02
-  67   1.4233563e+07  -1.1174827e+06  9.67e+06  3.39e+02  2.11e+07  2.09e-02
-  68   1.3849043e+07  -1.0128694e+06  9.40e+06  3.29e+02  2.00e+07  2.20e-02
-  69   1.2760364e+07  -5.5129978e+05  8.56e+06  3.00e+02  1.64e+07  2.72e-02
-  70   1.1961076e+07  -3.6537503e+05  7.99e+06  2.80e+02  1.43e+07  3.15e-02
-  71   1.0732186e+07  -1.8501189e+05  7.11e+06  2.49e+02  1.22e+07  3.76e-02
-  72   1.0252167e+07  -1.7172536e+05  6.78e+06  2.38e+02  1.16e+07  3.97e-02
-  73   8.6221179e+06   7.7018917e+03  5.61e+06  1.97e+02  9.46e+06  4.99e-02
-  74   7.8700685e+06   1.2236061e+05  5.05e+06  1.77e+02  8.53e+06  5.61e-02
-  75   7.1611821e+06   2.4006576e+05  4.48e+06  1.57e+02  7.82e+06  6.22e-02
-  76   6.3120985e+06   3.2448126e+05  3.84e+06  1.34e+02  7.18e+06  6.91e-02
-  77   5.8348616e+06   4.5707645e+05  3.46e+06  1.21e+02  6.32e+06  8.00e-02
-  78   5.0835512e+06   6.6837308e+05  2.87e+06  1.01e+02  4.94e+06  1.06e-01
-  79   4.7598664e+06   7.1421245e+05  2.62e+06  9.18e+01  4.61e+06  1.15e-01
-  80   4.5710019e+06   7.8362789e+05  2.48e+06  8.68e+01  4.06e+06  1.33e-01
-  81   4.5297267e+06   8.4557180e+05  2.45e+06  8.56e+01  3.65e+06  1.48e-01
-  82   4.4547346e+06   8.5655682e+05  2.39e+06  8.37e+01  3.54e+06  1.53e-01
-  83   4.3431637e+06   9.3505624e+05  2.31e+06  8.08e+01  2.86e+06  1.92e-01
-  84   4.2821506e+06   9.3940257e+05  2.26e+06  7.93e+01  2.69e+06  2.06e-01
-  85   4.2085934e+06   9.5237347e+05  2.21e+06  7.75e+01  2.48e+06  2.24e-01
-  86   3.9348672e+06   9.8886260e+05  2.01e+06  7.05e+01  2.02e+06  2.79e-01
-  87   3.8135743e+06   9.9210974e+05  1.93e+06  6.76e+01  1.80e+06  3.15e-01
-  88   3.5927650e+06   1.0035089e+06  1.77e+06  6.20e+01  1.64e+06  3.48e-01
-  89   3.4763133e+06   1.0073043e+06  1.69e+06  5.92e+01  1.55e+06  3.71e-01
-  90   3.3267705e+06   1.0340722e+06  1.58e+06  5.53e+01  1.33e+06  4.35e-01
-  91   3.1456279e+06   1.0597915e+06  1.44e+06  5.05e+01  1.16e+06  5.03e-01
-  92   2.9425716e+06   1.1001365e+06  1.29e+06  4.51e+01  9.29e+05  6.31e-01
-  93   2.7576406e+06   1.1295484e+06  1.14e+06  4.01e+01  7.70e+05  7.66e-01
-  94   2.5672159e+06   1.1635638e+06  9.88e+05  3.46e+01  6.57e+05  9.04e-01
-  95   2.4234152e+06   1.2026169e+06  8.63e+05  3.02e+01  5.61e+05  1.07e+00
-  96   2.3685554e+06   1.2142987e+06  8.17e+05  2.86e+01  5.28e+05  1.13e+00
-  97   2.2230297e+06   1.2452621e+06  6.89e+05  2.41e+01  4.55e+05  1.33e+00
-  98   2.1183522e+06   1.2777812e+06  5.91e+05  2.07e+01  3.93e+05  1.55e+00
-  99   2.0117911e+06   1.3085137e+06  4.90e+05  1.71e+01  3.39e+05  1.82e+00
- 100   1.9467595e+06   1.3434967e+06  4.26e+05  1.49e+01  2.81e+05  2.21e+00
- 101   1.9000037e+06   1.3622196e+06  3.78e+05  1.32e+01  2.53e+05  2.48e+00
- 102   1.8399690e+06   1.3882040e+06  3.18e+05  1.11e+01  2.11e+05  3.00e+00
- 103   1.8260661e+06   1.4036072e+06  3.04e+05  1.07e+01  1.87e+05  3.38e+00
- 104   1.7878831e+06   1.4224006e+06  2.66e+05  9.31e+00  1.58e+05  4.05e+00
- 105   1.7593656e+06   1.4398886e+06  2.38e+05  8.32e+00  1.30e+05  4.94e+00
- 106   1.7248668e+06   1.4544152e+06  2.03e+05  7.12e+00  1.06e+05  6.06e+00
- 107   1.6992136e+06   1.4586045e+06  1.78e+05  6.22e+00  9.95e+04  6.48e+00
- 108   1.6814705e+06   1.4654118e+06  1.59e+05  5.56e+00  9.01e+04  7.19e+00
- 109   1.6608542e+06   1.4765771e+06  1.38e+05  4.83e+00  7.34e+04  8.88e+00
- 110   1.6445305e+06   1.4839585e+06  1.21e+05  4.25e+00  6.21e+04  1.05e+01
- 111   1.6325290e+06   1.4910434e+06  1.09e+05  3.82e+00  5.15e+04  1.27e+01
- 112   1.6159602e+06   1.4965920e+06  9.24e+04  3.24e+00  4.29e+04  1.53e+01
- 113   1.6070326e+06   1.5011674e+06  8.34e+04  2.92e+00  3.60e+04  1.82e+01
- 114   1.5925196e+06   1.5037909e+06  6.85e+04  2.40e+00  3.21e+04  2.05e+01
- 115   1.5827568e+06   1.5057999e+06  5.79e+04  2.03e+00  2.95e+04  2.23e+01
- 116   1.5785907e+06   1.5077139e+06  5.34e+04  1.87e+00  2.72e+04  2.43e+01
- 117   1.5730061e+06   1.5104541e+06  4.74e+04  1.66e+00  2.37e+04  2.80e+01
- 118   1.5663498e+06   1.5134660e+06  4.03e+04  1.41e+00  1.98e+04  3.37e+01
- 119   1.5658363e+06   1.5147796e+06  3.97e+04  1.39e+00  1.82e+04  3.66e+01
- 120   1.5589871e+06   1.5172004e+06  3.24e+04  1.13e+00  1.50e+04  4.45e+01
- 121   1.5554811e+06   1.5194342e+06  2.87e+04  1.01e+00  1.19e+04  5.63e+01
- 122   1.5533567e+06   1.5206365e+06  2.66e+04  9.30e-01  1.01e+04  6.58e+01
- 123   1.5511417e+06   1.5211161e+06  2.43e+04  8.50e-01  9.40e+03  7.08e+01
- 124   1.5489443e+06   1.5219767e+06  2.20e+04  7.72e-01  8.12e+03  8.17e+01
- 125   1.5465723e+06   1.5229921e+06  1.96e+04  6.87e-01  6.57e+03  1.00e+02
- 126   1.5446687e+06   1.5240090e+06  1.77e+04  6.19e-01  4.98e+03  1.30e+02
- 127   1.5426387e+06   1.5241566e+06  1.57e+04  5.49e-01  4.72e+03  1.36e+02
- 128   1.5412513e+06   1.5244237e+06  1.43e+04  5.00e-01  4.31e+03  1.48e+02
- 129   1.5398606e+06   1.5247596e+06  1.28e+04  4.49e-01  3.86e+03  1.64e+02
- 130   1.5379488e+06   1.5251290e+06  1.08e+04  3.79e-01  3.33e+03  1.89e+02
- 131   1.5367006e+06   1.5253972e+06  9.48e+03  3.32e-01  3.02e+03  2.07e+02
- 132   1.5355874e+06   1.5256823e+06  8.30e+03  2.90e-01  2.66e+03  2.33e+02
- 133   1.5352737e+06   1.5258440e+06  7.97e+03  2.79e-01  2.44e+03  2.54e+02
- 134   1.5341906e+06   1.5263404e+06  6.84e+03  2.39e-01  1.76e+03  3.46e+02
- 135   1.5334810e+06   1.5265257e+06  6.11e+03  2.14e-01  1.49e+03  4.02e+02
- 136   1.5327308e+06   1.5266190e+06  5.34e+03  1.87e-01  1.35e+03  4.39e+02
- 137   1.5313081e+06   1.5267672e+06  3.86e+03  1.35e-01  1.15e+03  5.11e+02
- 138   1.5310630e+06   1.5268026e+06  3.58e+03  1.25e-01  1.11e+03  5.28e+02
- 139   1.5302723e+06   1.5269594e+06  2.75e+03  9.62e-02  9.09e+02  6.40e+02
- 140   1.5301737e+06   1.5270685e+06  2.57e+03  9.14e-02  8.35e+02  7.12e+02
- 141   1.5301331e+06   1.5270459e+06  2.67e+03  9.13e-02  8.35e+02  6.94e+02
- 142   1.5297710e+06   1.5270682e+06  2.31e+03  7.86e-02  7.97e+02  7.18e+02
- 143   1.5293830e+06   1.5271871e+06  1.90e+03  6.40e-02  6.40e+02  8.92e+02
- 144   1.5290979e+06   1.5273613e+06  1.58e+03  5.33e-02  4.12e+02  1.40e+03
- 145   1.5286944e+06   1.5274198e+06  1.16e+03  3.91e-02  3.06e+02  1.85e+03
- 146   1.5285221e+06   1.5274631e+06  9.73e+02  3.29e-02  2.34e+02  2.39e+03
- 147   1.5283389e+06   1.5274948e+06  7.94e+02  2.64e-02  1.77e+02  3.11e+03
- 148   1.5282574e+06   1.5275101e+06  7.16e+02  2.35e-02  1.49e+02  3.63e+03
- 149   1.5282379e+06   1.5275180e+06  6.96e+02  2.29e-02  1.34e+02  3.99e+03
- 150   1.5282199e+06   1.5275190e+06  6.72e+02  2.22e-02  1.32e+02  4.05e+03
- 151   1.5282129e+06   1.5275199e+06  6.70e+02  2.20e-02  1.30e+02  4.10e+03
- 152   1.5282126e+06   1.5275199e+06  6.70e+02  2.20e-02  1.30e+02  4.10e+03
- 153   1.5282078e+06   1.5275210e+06  6.65e+02  2.18e-02  1.28e+02  4.17e+03
- 154   1.5281904e+06   1.5275297e+06  6.46e+02  2.12e-02  1.10e+02  4.74e+03
- 155   1.5281884e+06   1.5275298e+06  6.30e+02  2.11e-02  1.10e+02  4.74e+03
- 156   1.5281455e+06   1.5275332e+06  5.89e+02  1.96e-02  1.02e+02  5.05e+03
- 157   1.5281397e+06   1.5275335e+06  5.90e+02  1.94e-02  1.02e+02  5.07e+03
- 158   1.5281143e+06   1.5275356e+06  5.12e+02  1.86e-02  9.70e+01  5.29e+03
- 159   1.5281123e+06   1.5275358e+06  5.14e+02  1.85e-02  9.66e+01  5.31e+03
- 160   1.5281118e+06   1.5275359e+06  5.11e+02  1.85e-02  9.63e+01  5.32e+03
- 161   1.5280769e+06   1.5275361e+06  4.84e+02  1.73e-02  9.60e+01  5.34e+03
- 162   1.5280770e+06   1.5275361e+06  4.85e+02  1.73e-02  9.60e+01  5.34e+03
- 163   1.5280728e+06   1.5275366e+06  4.76e+02  1.71e-02  9.50e+01  5.39e+03
- 164   1.5280723e+06   1.5275366e+06  4.74e+02  1.71e-02  9.50e+01  5.39e+03
- 165   1.5280718e+06   1.5275366e+06  4.80e+02  1.71e-02  9.49e+01  5.39e+03
- 166   1.5280718e+06   1.5275366e+06  4.82e+02  1.71e-02  9.49e+01  5.39e+03
- 167   1.5280710e+06   1.5275366e+06  4.77e+02  1.71e-02  9.48e+01  5.40e+03
- 168   1.5280564e+06   1.5275380e+06  4.55e+02  1.65e-02  9.21e+01  5.54e+03
- 169   1.5280565e+06   1.5275379e+06  4.58e+02  1.65e-02  9.22e+01  5.53e+03
- 170   1.5280560e+06   1.5275380e+06  4.52e+02  1.65e-02  9.18e+01  5.55e+03
- 171   1.5280346e+06   1.5275394e+06  4.41e+02  1.58e-02  8.89e+01  5.71e+03
- 172   1.5280344e+06   1.5275394e+06  4.35e+02  1.58e-02  8.89e+01  5.71e+03
- 173   1.5280339e+06   1.5275395e+06  4.25e+02  1.58e-02  8.88e+01  5.72e+03
- 174   1.5280329e+06   1.5275395e+06  4.37e+02  1.57e-02  8.87e+01  5.73e+03
- 175   1.5280110e+06   1.5275409e+06  4.19e+02  1.50e-02  8.61e+01  5.88e+03
- 176   1.5280109e+06   1.5275410e+06  4.19e+02  1.49e-02  8.60e+01  5.88e+03
- 177   1.5280108e+06   1.5275410e+06  4.20e+02  1.49e-02  8.60e+01  5.88e+03
- 178   1.5280108e+06   1.5275410e+06  4.19e+02  1.49e-02  8.60e+01  5.88e+03
- 179   1.5280100e+06   1.5275414e+06  4.18e+02  1.49e-02  8.53e+01  5.93e+03
- 180   1.5280084e+06   1.5275414e+06  3.99e+02  1.49e-02  8.51e+01  5.94e+03
- 181   1.5280081e+06   1.5275415e+06  3.99e+02  1.49e-02  8.48e+01  5.96e+03
- 182   1.5280016e+06   1.5275442e+06  4.08e+02  1.46e-02  7.97e+01  6.31e+03
- 183   1.5279178e+06   1.5275504e+06  3.16e+02  1.17e-02  6.78e+01  7.27e+03
- 184   1.5279171e+06   1.5275505e+06  3.09e+02  1.17e-02  6.78e+01  7.28e+03
- 185   1.5279090e+06   1.5275513e+06  3.00e+02  1.14e-02  6.63e+01  7.43e+03
- 186   1.5279089e+06   1.5275513e+06  3.02e+02  1.14e-02  6.63e+01  7.43e+03
- 187   1.5279089e+06   1.5275513e+06  3.02e+02  1.14e-02  6.62e+01  7.43e+03
- 188   1.5278954e+06   1.5275568e+06  3.01e+02  1.09e-02  5.65e+01  8.60e+03
- 189   1.5278952e+06   1.5275572e+06  3.01e+02  1.09e-02  5.57e+01  8.70e+03
- 190   1.5278936e+06   1.5275588e+06  3.00e+02  1.08e-02  5.27e+01  9.14e+03
- 191   1.5278928e+06   1.5275590e+06  2.92e+02  1.08e-02  5.26e+01  9.16e+03
- 192   1.5278722e+06   1.5275613e+06  2.76e+02  1.01e-02  4.84e+01  9.85e+03
- 193   1.5278280e+06   1.5275616e+06  2.57e+02  8.50e-03  4.78e+01  9.95e+03
- 194   1.5278176e+06   1.5275631e+06  2.36e+02  8.12e-03  4.54e+01  1.04e+04
- 195   1.5278176e+06   1.5275632e+06  2.27e+02  8.12e-03  4.54e+01  1.04e+04
- 196   1.5278160e+06   1.5275636e+06  2.40e+02  8.07e-03  4.47e+01  1.06e+04
- 197   1.5277998e+06   1.5275662e+06  2.29e+02  7.49e-03  4.05e+01  1.16e+04
- 198   1.5277989e+06   1.5275662e+06  2.32e+02  7.45e-03  4.04e+01  1.16e+04
- 199   1.5277971e+06   1.5275665e+06  2.32e+02  7.39e-03  3.98e+01  1.18e+04
- 200   1.5277967e+06   1.5275666e+06  2.31e+02  7.37e-03  3.98e+01  1.18e+04
- 201   1.5277967e+06   1.5275665e+06  2.32e+02  7.37e-03  3.98e+01  1.18e+04
- 202   1.5277910e+06   1.5275669e+06  2.31e+02  7.17e-03  3.92e+01  1.19e+04
- 203   1.5277910e+06   1.5275669e+06  2.34e+02  7.17e-03  3.92e+01  1.19e+04
- 204   1.5277902e+06   1.5275669e+06  2.38e+02  7.15e-03  3.91e+01  1.20e+04
- 205   1.5277902e+06   1.5275669e+06  2.39e+02  7.15e-03  3.91e+01  1.20e+04
- 206   1.5277901e+06   1.5275669e+06  2.51e+02  7.14e-03  3.91e+01  1.20e+04
- 207   1.5277900e+06   1.5275669e+06  2.51e+02  7.14e-03  3.91e+01  1.20e+04
- 208   1.5277900e+06   1.5275669e+06  2.51e+02  7.14e-03  3.91e+01  1.20e+04
- 209   1.5277900e+06   1.5275669e+06  2.51e+02  7.14e-03  3.91e+01  1.20e+04
- 210   1.5277900e+06   1.5275669e+06  2.50e+02  7.14e-03  3.91e+01  1.20e+04
- 211   1.5277854e+06   1.5275672e+06  2.48e+02  6.98e-03  3.85e+01  1.21e+04
- 212   1.5277853e+06   1.5275672e+06  2.48e+02  6.98e-03  3.85e+01  1.21e+04
- 213   1.5277853e+06   1.5275673e+06  2.67e+02  6.97e-03  3.85e+01  1.21e+04
- 214   1.5277853e+06   1.5275673e+06  2.68e+02  6.97e-03  3.85e+01  1.21e+04
- 215   1.5277853e+06   1.5275673e+06  2.68e+02  6.97e-03  3.85e+01  1.21e+04
- 216   1.5277794e+06   1.5275677e+06  2.81e+02  6.76e-03  3.77e+01  1.24e+04
- 217   1.5277785e+06   1.5275679e+06  2.76e+02  6.73e-03  3.74e+01  1.25e+04
- 218   1.5277640e+06   1.5275697e+06  2.77e+02  6.21e-03  3.45e+01  1.35e+04
- 219   1.5277630e+06   1.5275699e+06  2.68e+02  6.18e-03  3.41e+01  1.36e+04
- 220   1.5277586e+06   1.5275700e+06  2.46e+02  6.02e-03  3.39e+01  1.37e+04
- 221   1.5277270e+06   1.5275747e+06  2.20e+02  4.89e-03  2.61e+01  1.74e+04
- 222   1.5277263e+06   1.5275748e+06  2.20e+02  4.86e-03  2.60e+01  1.75e+04
- 223   1.5276981e+06   1.5275780e+06  1.67e+02  3.86e-03  2.04e+01  2.18e+04
- 224   1.5276981e+06   1.5275780e+06  1.86e+02  3.86e-03  2.04e+01  2.18e+04
- 225   1.5276784e+06   1.5275813e+06  1.80e+02  3.15e-03  1.49e+01  2.91e+04
- 226   1.5276784e+06   1.5275813e+06  1.79e+02  3.15e-03  1.49e+01  2.91e+04
- 227   1.5276784e+06   1.5275813e+06  1.78e+02  3.15e-03  1.49e+01  2.91e+04
- 228   1.5276676e+06   1.5275821e+06  1.60e+02  2.77e-03  1.34e+01  3.20e+04
- 229   1.5276624e+06   1.5275826e+06  1.84e+02  2.58e-03  1.25e+01  3.42e+04
- 230   1.5276600e+06   1.5275828e+06  1.67e+02  2.50e-03  1.20e+01  3.55e+04
- 231   1.5276600e+06   1.5275828e+06  1.75e+02  2.50e-03  1.20e+01  3.55e+04
- 232   1.5276597e+06   1.5275828e+06  2.12e+02  2.49e-03  1.19e+01  3.56e+04
- 233   1.5276595e+06   1.5275828e+06  2.08e+02  2.49e-03  1.19e+01  3.57e+04
- 234   1.5276561e+06   1.5275830e+06  2.88e+02  2.37e-03  1.17e+01  3.63e+04
- 235   1.5276561e+06   1.5275830e+06  2.88e+02  2.37e-03  1.17e+01  3.63e+04
- 236   1.5276542e+06   1.5275832e+06  2.73e+02  2.30e-03  1.14e+01  3.71e+04
- 237   1.5276530e+06   1.5275833e+06  2.74e+02  2.25e-03  1.10e+01  3.85e+04
- 238   1.5276530e+06   1.5275834e+06  2.74e+02  2.25e-03  1.10e+01  3.85e+04
- 239   1.5276380e+06   1.5275844e+06  2.22e+02  1.71e-03  9.33e+00  4.46e+04
- 240   1.5276227e+06   1.5275859e+06  1.69e+02  1.16e-03  7.10e+00  5.81e+04
- 241   1.5276218e+06   1.5275862e+06  1.76e+02  1.13e-03  6.69e+00  6.16e+04
- 242   1.5276174e+06   1.5275865e+06  1.86e+02  9.68e-04  6.31e+00  6.53e+04
- 243   1.5276173e+06   1.5275865e+06  1.98e+02  9.66e-04  6.29e+00  6.55e+04
- 244   1.5276084e+06   1.5275868e+06  1.64e+02  6.38e-04  5.83e+00  7.08e+04
- 245   1.5276071e+06   1.5275882e+06  1.62e+02  5.90e-04  4.06e+00  1.06e+05
- 246   1.5276061e+06   1.5275884e+06  5.91e+02  5.51e-04  3.88e+00  1.11e+05
- 247   1.5276061e+06   1.5275884e+06  5.86e+02  5.51e-04  3.88e+00  1.11e+05
- 248   1.5276024e+06   1.5275887e+06  4.40e+02  4.18e-04  3.36e+00  1.28e+05
- 249   1.5276024e+06   1.5275887e+06  4.47e+02  4.18e-04  3.36e+00  1.28e+05
- 250   1.5276017e+06   1.5275888e+06  4.15e+02  3.95e-04  3.11e+00  1.39e+05
- 251   1.5276017e+06   1.5275889e+06  4.22e+02  3.94e-04  3.11e+00  1.39e+05
- 252   1.5276007e+06   1.5275893e+06  3.64e+02  3.58e-04  2.43e+00  1.81e+05
- 253   1.5275983e+06   1.5275894e+06  2.55e+02  2.73e-04  2.19e+00  2.01e+05
- 254   1.5275983e+06   1.5275894e+06  2.70e+02  2.72e-04  2.19e+00  2.01e+05
- 255   1.5275983e+06   1.5275894e+06  2.74e+02  2.71e-04  2.18e+00  2.02e+05
- 256   1.5275981e+06   1.5275895e+06  2.77e+02  2.64e-04  2.14e+00  2.06e+05
- 257   1.5275981e+06   1.5275895e+06  2.76e+02  2.64e-04  2.14e+00  2.06e+05
- 258   1.5275957e+06   1.5275898e+06  2.28e+02  1.79e-04  1.55e+00  2.89e+05
- 259   1.5275950e+06   1.5275898e+06  1.97e+02  1.54e-04  1.49e+00  3.03e+05
- 260   1.5275950e+06   1.5275898e+06  2.37e+02  1.53e-04  1.46e+00  3.08e+05
- 261   1.5275947e+06   1.5275899e+06  2.42e+02  1.44e-04  1.45e+00  3.12e+05
- 262   1.5275947e+06   1.5275899e+06  2.35e+02  1.44e-04  1.45e+00  3.12e+05
- 263   1.5275947e+06   1.5275899e+06  2.33e+02  1.44e-04  1.45e+00  3.12e+05
- 264   1.5275944e+06   1.5275899e+06  2.11e+02  1.34e-04  1.28e+00  3.56e+05
- 265   1.5275942e+06   1.5275900e+06  1.98e+02  1.26e-04  1.27e+00  3.61e+05
- 266   1.5275942e+06   1.5275900e+06  2.14e+02  1.26e-04  1.26e+00  3.61e+05
- 267   1.5275942e+06   1.5275900e+06  2.16e+02  1.26e-04  1.26e+00  3.62e+05
- 268   1.5275929e+06   1.5275902e+06  1.58e+02  7.93e-05  8.22e-01  5.82e+05
-Barrier time = 2364.25 sec. (3155072.55 ticks)
+   0   5.1814789e+09  -2.0157862e+09  6.29e+09  2.20e+05  5.49e+09  1.00e+00
+   1   5.3748301e+09  -1.7505470e+09  6.29e+09  2.20e+05  5.49e+09  8.95e-01
+   2   5.7816228e+09  -1.4343358e+09  6.29e+09  2.20e+05  5.49e+09  6.77e-01
+   3   6.1286309e+09  -1.2850220e+09  6.29e+09  2.20e+05  5.49e+09  5.05e-01
+   4   6.5082564e+09  -9.0734162e+08  6.29e+09  2.20e+05  5.49e+09  3.84e-01
+   5   6.7548229e+09  -7.1547088e+08  6.29e+09  2.20e+05  5.49e+09  2.94e-01
+   6   7.0163722e+09  -3.1921678e+08  6.29e+09  2.20e+05  5.49e+09  2.31e-01
+   7   7.0644948e+09  -1.9050898e+08  6.29e+09  2.20e+05  5.49e+09  1.99e-01
+   8   6.9707903e+09  -4.6076633e+08  6.29e+09  2.20e+05  5.49e+09  1.66e-01
+   9   6.8408416e+09  -6.0600611e+08  6.29e+09  2.20e+05  5.49e+09  1.46e-01
+  10   6.8238828e+09  -6.6921183e+08  6.29e+09  2.20e+05  5.49e+09  1.41e-01
+  11   6.7172858e+09  -7.7286300e+08  6.29e+09  2.20e+05  5.49e+09  1.21e-01
+  12   6.6924579e+09  -8.1679670e+08  6.29e+09  2.20e+05  5.49e+09  1.10e-01
+  13   6.6799411e+09  -9.6334691e+08  6.29e+09  2.20e+05  5.49e+09  1.02e-01
+  14   6.6330725e+09  -1.2780552e+09  6.29e+09  2.20e+05  5.49e+09  9.28e-02
+  15   6.4080058e+09  -1.6027259e+09  6.29e+09  2.20e+05  5.49e+09  6.90e-02
+  16   6.3635850e+09  -1.6904887e+09  6.29e+09  2.20e+05  5.49e+09  5.25e-02
+  17   5.9946298e+09  -1.9658334e+09  6.29e+09  2.20e+05  5.49e+09  3.61e-02
+  18   6.1402463e+09  -1.7045744e+09  6.29e+09  2.20e+05  5.49e+09  2.58e-02
+  19   6.1131010e+09  -1.7658044e+09  6.29e+09  2.20e+05  5.49e+09  2.16e-02
+  20   5.8811992e+09  -2.1720551e+09  6.29e+09  2.20e+05  5.48e+09  1.78e-02
+  21   5.7093648e+09  -2.7914313e+09  6.29e+09  2.20e+05  5.48e+09  1.42e-02
+  22   5.0553856e+09  -3.0922789e+09  6.28e+09  2.20e+05  5.48e+09  9.38e-03
+  23   5.7198579e+09  -2.3074103e+09  6.28e+09  2.20e+05  5.48e+09  5.60e-03
+  24   6.8363861e+09  -1.7131754e+09  6.28e+09  2.20e+05  5.48e+09  3.75e-03
+  25   8.8998489e+09  -5.5539137e+08  6.28e+09  2.20e+05  5.48e+09  1.98e-03
+  26   1.0695564e+10   7.2526396e+08  6.27e+09  2.20e+05  5.48e+09  1.38e-03
+  27   1.0598653e+10   7.0731872e+08  6.27e+09  2.19e+05  5.48e+09  1.20e-03
+  28   1.2417734e+10   1.9258827e+09  6.26e+09  2.19e+05  5.47e+09  8.08e-04
+  29   1.2357564e+10   2.0476467e+09  6.15e+09  2.15e+05  5.37e+09  2.53e-04
+  30   1.1614154e+10   1.7214118e+09  5.87e+09  2.05e+05  5.07e+09  1.38e-04
+  31   1.1130876e+10   1.4681245e+09  5.69e+09  1.99e+05  4.86e+09  1.20e-04
+  32   1.0522941e+10   1.2101757e+09  5.46e+09  1.91e+05  4.62e+09  1.08e-04
+  33   9.9149964e+09   1.0306447e+09  5.21e+09  1.82e+05  4.42e+09  9.89e-05
+  34   8.7747430e+09   7.1666674e+08  4.73e+09  1.66e+05  4.03e+09  8.95e-05
+  35   7.8312158e+09   5.2969867e+08  4.30e+09  1.51e+05  3.71e+09  8.67e-05
+  36   7.2438997e+09   4.4652970e+08  4.02e+09  1.41e+05  3.52e+09  8.61e-05
+  37   6.6407556e+09   4.0507501e+08  3.74e+09  1.31e+05  3.44e+09  8.30e-05
+  38   5.9460480e+09   3.8066458e+08  3.39e+09  1.19e+05  3.37e+09  7.86e-05
+  39   4.4921227e+09   2.9104326e+08  2.62e+09  9.16e+04  3.01e+09  7.81e-05
+  40   3.5802783e+09   2.4106098e+08  2.11e+09  7.39e+04  2.72e+09  8.24e-05
+  41   2.4976331e+09   1.5514730e+08  1.50e+09  5.26e+04  2.15e+09  1.05e-04
+  42   1.9818955e+09   1.2321337e+08  1.20e+09  4.20e+04  1.84e+09  1.26e-04
+  43   1.8032133e+09   1.0645734e+08  1.10e+09  3.84e+04  1.69e+09  1.40e-04
+  44   1.2832084e+09   7.5782198e+07  7.79e+08  2.73e+04  1.17e+09  2.19e-04
+  45   1.2432934e+09   9.0265401e+07  7.24e+08  2.54e+04  1.14e+09  2.16e-04
+  46   1.2903287e+09   2.1604952e+08  7.18e+08  2.51e+04  1.12e+09  2.15e-04
+  47   2.3026989e+09   6.0355979e+08  8.78e+08  3.07e+04  1.24e+09  1.28e-04
+  48   7.1099674e+09   4.3298129e+09  1.06e+09  3.72e+04  1.46e+09  4.17e-05
+  49   1.2405559e+10   1.3642265e+10  9.75e+08  3.41e+04  1.26e+09  2.40e-05
+  50   2.9182388e+10   3.2457731e+10  6.85e+08  2.40e+04  8.30e+08  1.01e-05
+  51   8.7343141e+10   8.2484548e+10  6.15e+08  2.15e+04  7.56e+08  3.42e-06
+  52   8.8039465e+10   8.7643775e+10  6.16e+08  2.16e+04  7.69e+08  3.35e-06
+  53   3.7424739e+11   4.0119187e+11  6.45e+08  2.26e+04  8.08e+08  7.80e-07
+  54   1.1495180e+12   4.4730439e+12  6.38e+08  2.24e+04  7.68e+08  2.51e-07
+  55   1.1493148e+12   4.4725228e+12  6.38e+08  2.23e+04  7.68e+08  2.51e-07
+  56   1.1495865e+12   4.4733364e+12  6.38e+08  2.24e+04  7.68e+08  2.51e-07
+  57   1.1488717e+12   4.4666132e+12  6.37e+08  2.23e+04  7.66e+08  2.51e-07
+  58   1.1486071e+12   4.4659282e+12  6.37e+08  2.23e+04  7.66e+08  2.51e-07
+  59   1.1485104e+12   4.4657012e+12  6.37e+08  2.23e+04  7.66e+08  2.51e-07
+  60   1.1481346e+12   4.4648056e+12  6.37e+08  2.23e+04  7.66e+08  2.52e-07
+  61   1.1462837e+12   4.4628959e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  62   1.1462021e+12   4.4623349e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  63   1.1461648e+12   4.4620896e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  64   1.1463575e+12   4.4622015e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  65   1.1464041e+12   4.4611786e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  66   1.1465078e+12   4.4614106e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  67   1.1469136e+12   4.4646825e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  68   1.1470193e+12   4.4649178e+12  6.37e+08  2.23e+04  7.66e+08  2.52e-07
+  69   1.1468601e+12   4.4629907e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  70   1.1468349e+12   4.4623532e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  71   1.1470164e+12   4.4627793e+12  6.36e+08  2.23e+04  7.66e+08  2.52e-07
+  72   1.1467704e+12   4.4614212e+12  6.36e+08  2.23e+04  7.65e+08  2.52e-07
+  73   1.1466261e+12   4.4604224e+12  6.36e+08  2.23e+04  7.65e+08  2.52e-07
+  74   1.1467195e+12   4.4604853e+12  6.36e+08  2.23e+04  7.65e+08  2.52e-07
+  75   1.1463002e+12   4.4382730e+12  6.30e+08  2.20e+04  7.60e+08  2.52e-07
+  76   1.1457500e+12   4.4376343e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  77   1.1460744e+12   4.4378120e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  78   1.1459452e+12   4.4375089e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  79   1.1465556e+12   4.4389185e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  80   1.1466235e+12   4.4372074e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  81   1.1469241e+12   4.4375626e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  82   1.1466126e+12   4.4364768e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  83   1.1469589e+12   4.4366203e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  84   1.1471685e+12   4.4374388e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  85   1.1469741e+12   4.4369568e+12  6.29e+08  2.20e+04  7.60e+08  2.52e-07
+  86   1.1466527e+12   4.4357778e+12  6.29e+08  2.20e+04  7.59e+08  2.52e-07
+  87   1.1457021e+12   4.4334490e+12  6.29e+08  2.20e+04  7.59e+08  2.52e-07
+  88   1.1463539e+12   4.4326902e+12  6.29e+08  2.20e+04  7.59e+08  2.52e-07
+  89   1.1462121e+12   4.4311618e+12  6.28e+08  2.20e+04  7.58e+08  2.52e-07
+  90   1.1460045e+12   4.4302218e+12  6.28e+08  2.20e+04  7.58e+08  2.52e-07
+  91   1.1459314e+12   4.4297741e+12  6.28e+08  2.20e+04  7.58e+08  2.52e-07
+  92   1.1450575e+12   4.4276238e+12  6.28e+08  2.20e+04  7.58e+08  2.53e-07
+  93   1.1446078e+12   4.4271138e+12  6.28e+08  2.20e+04  7.58e+08  2.53e-07
+  94   1.1444315e+12   4.4269442e+12  6.28e+08  2.20e+04  7.58e+08  2.53e-07
+  95   1.1436224e+12   4.4236920e+12  6.27e+08  2.19e+04  7.57e+08  2.53e-07
+  96   1.1423782e+12   4.4212365e+12  6.26e+08  2.19e+04  7.57e+08  2.53e-07
+  97   1.1429040e+12   4.4226677e+12  6.26e+08  2.19e+04  7.57e+08  2.53e-07
+  98   1.1428486e+12   4.4225021e+12  6.26e+08  2.19e+04  7.57e+08  2.53e-07
+  99   1.1431491e+12   4.4239784e+12  6.26e+08  2.19e+04  7.57e+08  2.53e-07
+ 100   1.1431140e+12   4.4238921e+12  6.26e+08  2.19e+04  7.57e+08  2.53e-07
+  *    1.2405559e+10   1.3642265e+10  9.75e+08  3.41e+04  1.26e+09  2.40e-05
+Barrier time = 1337.78 sec. (1778297.40 ticks)
 
-Total time on 31 threads = 2364.25 sec. (3155072.55 ticks)
+Total time on 31 threads = 1337.78 sec. (1778297.40 ticks)
 
---- LP status (1): optimal.
---- Cplex Time: 2364.28sec (det. 3155083.05 ticks)
+--- LP status (6): non-optimal.
+--- Cplex Time: 1337.81sec (det. 1778307.96 ticks)
 
 
-Optimal solution found
-Objective:      1527592.907586
+Solution available but not proven optimal due to numerical difficulties
 
 --- Restarting execution
---- baseline-sami.RUN(602704) 1435 Mb
+--- baseline-sami.RUN(604817) 1444 Mb
 --- Reading solution for model TIMES
 ***
 *** Reading with solveopt=REPLACE (0)
 ***
---- baseline-sami.RUN(602704) 1436 Mb--- baseline-sami.RUN(602704) 1452 Mb--- baseline-sami.RUN(602704) 1550 Mb--- baseline-sami.RUN(602704) 1567 Mb--- baseline-sami.RUN(602704) 1610 Mb--- baseline-sami.RUN(602704) 1628 Mb--- baseline-sami.RUN(602704) 1668 Mb--- baseline-sami.RUN(602704) 1679 Mb--- baseline-sami.RUN(602704) 1737 Mb--- baseline-sami.RUN(602704) 1747 Mb--- baseline-sami.RUN(602704) 1798 Mb--- baseline-sami.RUN(602704) 1835 Mb--- baseline-sami.RUN(602704) 1865 Mb
---- Executing after solve: elapsed 0:41:17.885
---- baseline-sami.RUN(602728) 1865 Mb
---- TIMES Solve status: Optimal
---- baseline-sami.RUN(603215) 1865 Mb--- baseline-sami.RUN(603218) 1865 Mb--- baseline-sami.RUN(603222) 1865 Mb--- baseline-sami.RUN(603231) 1865 Mb--- baseline-sami.RUN(603231) 1865 Mb  3 secs--- baseline-sami.RUN(603231) 1865 Mb  4 secs--- baseline-sami.RUN(603231) 1865 Mb  5 secs--- baseline-sami.RUN(603231) 1865 Mb  6 secs--- baseline-sami.RUN(603231) 1865 Mb  7 secs--- baseline-sami.RUN(603231) 1865 Mb  8 secs--- baseline-sami.RUN(603231) 1865 Mb  9 secs
---- baseline-sami.RUN(603237) 1865 Mb--- baseline-sami.RUN(603237) 1893 Mb--- baseline-sami.RUN(603237) 1933 Mb--- baseline-sami.RUN(603237) 1950 Mb--- baseline-sami.RUN(603237) 1951 Mb--- baseline-sami.RUN(603237) 1954 Mb--- baseline-sami.RUN(603237) 1955 Mb--- baseline-sami.RUN(603237) 1958 Mb--- baseline-sami.RUN(603237) 1962 Mb--- baseline-sami.RUN(603237) 1965 Mb--- baseline-sami.RUN(603237) 1966 Mb--- baseline-sami.RUN(603237) 1969 Mb--- baseline-sami.RUN(603237) 1970 Mb--- baseline-sami.RUN(603237) 1971 Mb--- baseline-sami.RUN(603237) 1971 Mb--- baseline-sami.RUN(603237) 1999 Mb--- baseline-sami.RUN(603237) 2027 Mb--- baseline-sami.RUN(603237) 2030 Mb--- baseline-sami.RUN(603237) 2031 Mb--- baseline-sami.RUN(603237) 2034 Mb--- baseline-sami.RUN(603237) 2034 Mb--- baseline-sami.RUN(603237) 2038 Mb--- baseline-sami.RUN(603237) 2038 Mb  3 secs
---- baseline-sami.RUN(603262) 2038 Mb--- baseline-sami.RUN(603286) 2038 Mb--- baseline-sami.RUN(603287) 2038 Mb--- baseline-sami.RUN(603324) 2038 Mb--- baseline-sami.RUN(603327) 2038 Mb--- baseline-sami.RUN(603336) 2038 Mb--- baseline-sami.RUN(603341) 2038 Mb--- baseline-sami.RUN(603351) 2038 Mb--- baseline-sami.RUN(603378) 2038 Mb--- baseline-sami.RUN(603380) 2038 Mb--- baseline-sami.RUN(603441) 2038 Mb--- baseline-sami.RUN(603469) 2038 Mb--- baseline-sami.RUN(603592) 2038 Mb--- baseline-sami.RUN(603619) 2038 Mb--- baseline-sami.RUN(603623) 2038 Mb--- baseline-sami.RUN(603624) 2038 Mb--- baseline-sami.RUN(603631) 2038 Mb--- baseline-sami.RUN(603648) 2038 Mb--- baseline-sami.RUN(603743) 2038 Mb--- baseline-sami.RUN(603745) 2060 Mb--- baseline-sami.RUN(603745) 2061 Mb--- baseline-sami.RUN(603745) 2065 Mb--- baseline-sami.RUN(603745) 2065 Mb--- baseline-sami.RUN(603745) 2070 Mb--- baseline-sami.RUN(603745) 2071 Mb--- baseline-sami.RUN(603745) 2075 Mb--- baseline-sami.RUN(603745) 2076 Mb--- baseline-sami.RUN(603745) 2081 Mb--- baseline-sami.RUN(603745) 2081 Mb--- baseline-sami.RUN(603745) 2086 Mb--- baseline-sami.RUN(603745) 2086 Mb--- baseline-sami.RUN(603745) 2091 Mb--- baseline-sami.RUN(603745) 2092 Mb--- baseline-sami.RUN(603745) 2096 Mb--- baseline-sami.RUN(603745) 2097 Mb--- baseline-sami.RUN(603755) 2099 Mb--- baseline-sami.RUN(603756) 2146 Mb--- baseline-sami.RUN(603756) 2148 Mb--- baseline-sami.RUN(603787) 2165 Mb--- baseline-sami.RUN(603787) 2168 Mb--- baseline-sami.RUN(603787) 2171 Mb--- baseline-sami.RUN(603787) 2173 Mb--- baseline-sami.RUN(603787) 2174 Mb--- baseline-sami.RUN(603787) 2176 Mb--- baseline-sami.RUN(603787) 2179 Mb--- baseline-sami.RUN(603787) 2180 Mb--- baseline-sami.RUN(603787) 2182 Mb--- baseline-sami.RUN(603787) 2185 Mb--- baseline-sami.RUN(603801) 2186 Mb--- baseline-sami.RUN(603810) 2186 Mb--- baseline-sami.RUN(603829) 2186 Mb--- baseline-sami.RUN(603833) 2186 Mb--- baseline-sami.RUN(603842) 2189 Mb--- baseline-sami.RUN(603842) 2201 Mb--- baseline-sami.RUN(603842) 2216 Mb--- baseline-sami.RUN(603853) 2216 Mb--- baseline-sami.RUN(603886) 2216 Mb--- baseline-sami.RUN(603897) 2216 Mb--- baseline-sami.RUN(603930) 2216 Mb--- baseline-sami.RUN(604026) 2216 Mb--- baseline-sami.RUN(604074) 2216 Mb--- baseline-sami.RUN(604075) 2216 Mb--- baseline-sami.RUN(604113) 2216 Mb--- baseline-sami.RUN(604119) 2216 Mb--- baseline-sami.RUN(604128) 2216 Mb--- baseline-sami.RUN(604131) 2216 Mb--- baseline-sami.RUN(604132) 2216 Mb--- baseline-sami.RUN(604147) 2216 Mb--- baseline-sami.RUN(604150) 2216 Mb--- baseline-sami.RUN(604175) 2223 Mb--- baseline-sami.RUN(604175) 2226 Mb--- baseline-sami.RUN(604175) 2268 Mb--- baseline-sami.RUN(604176) 2276 Mb--- baseline-sami.RUN(604181) 2314 Mb--- baseline-sami.RUN(604181) 2327 Mb--- baseline-sami.RUN(604182) 2367 Mb--- baseline-sami.RUN(604186) 2368 Mb--- baseline-sami.RUN(604205) 2368 Mb--- baseline-sami.RUN(604210) 2368 Mb--- baseline-sami.RUN(604230) 2368 Mb--- baseline-sami.RUN(604241) 2368 Mb--- baseline-sami.RUN(604270) 2368 Mb--- baseline-sami.RUN(604304) 2368 Mb--- baseline-sami.RUN(604304) 2379 Mb--- baseline-sami.RUN(604304) 2379 Mb--- baseline-sami.RUN(604304) 2380 Mb--- baseline-sami.RUN(604304) 2381 Mb--- baseline-sami.RUN(604304) 2383 Mb--- baseline-sami.RUN(604304) 2514 Mb--- baseline-sami.RUN(604304) 2515 Mb--- baseline-sami.RUN(604304) 2520 Mb--- baseline-sami.RUN(604304) 2539 Mb--- baseline-sami.RUN(604304) 2559 Mb  3 secs--- baseline-sami.RUN(604304) 2587 Mb  3 secs--- baseline-sami.RUN(604304) 2588 Mb  4 secs--- baseline-sami.RUN(604304) 2588 Mb  4 secs
---- baseline-sami.RUN(604356) 2589 Mb--- baseline-sami.RUN(604535) 2589 Mb
+--- baseline-sami.RUN(604817) 1447 Mb--- baseline-sami.RUN(604817) 1476 Mb--- baseline-sami.RUN(604817) 1568 Mb--- baseline-sami.RUN(604817) 1576 Mb--- baseline-sami.RUN(604817) 1622 Mb--- baseline-sami.RUN(604817) 1639 Mb--- baseline-sami.RUN(604817) 1680 Mb--- baseline-sami.RUN(604817) 1689 Mb--- baseline-sami.RUN(604817) 1747 Mb--- baseline-sami.RUN(604817) 1761 Mb--- baseline-sami.RUN(604817) 1814 Mb--- baseline-sami.RUN(604817) 1847 Mb--- baseline-sami.RUN(604817) 1875 Mb
+--- Executing after solve: elapsed 0:24:14.688
+--- baseline-sami.RUN(604841) 1875 Mb
+--- TIMES Solve status: Intermediate nonoptimal
+--- baseline-sami.RUN(604854) 1875 Mb 1 Error
+********************************
+*** Errors have been cleared ***
+********************************
+--- baseline-sami.RUN(605328) 1875 Mb--- baseline-sami.RUN(605331) 1875 Mb--- baseline-sami.RUN(605335) 1875 Mb--- baseline-sami.RUN(605344) 1875 Mb--- baseline-sami.RUN(605344) 1875 Mb  3 secs--- baseline-sami.RUN(605344) 1875 Mb  4 secs--- baseline-sami.RUN(605344) 1875 Mb  5 secs--- baseline-sami.RUN(605344) 1875 Mb  6 secs--- baseline-sami.RUN(605344) 1875 Mb  7 secs--- baseline-sami.RUN(605344) 1876 Mb  7 secs--- baseline-sami.RUN(605344) 1876 Mb  8 secs--- baseline-sami.RUN(605344) 1877 Mb  8 secs--- baseline-sami.RUN(605344) 1877 Mb  8 secs--- baseline-sami.RUN(605344) 1878 Mb  9 secs--- baseline-sami.RUN(605344) 1878 Mb  9 secs--- baseline-sami.RUN(605344) 1879 Mb  9 secs
+--- baseline-sami.RUN(605350) 1879 Mb--- baseline-sami.RUN(605350) 2043 Mb--- baseline-sami.RUN(605350) 2046 Mb--- baseline-sami.RUN(605350) 2050 Mb--- baseline-sami.RUN(605350) 2051 Mb--- baseline-sami.RUN(605350) 2054 Mb--- baseline-sami.RUN(605350) 2058 Mb--- baseline-sami.RUN(605350) 2061 Mb--- baseline-sami.RUN(605350) 2065 Mb--- baseline-sami.RUN(605350) 2066 Mb--- baseline-sami.RUN(605350) 2067 Mb--- baseline-sami.RUN(605350) 2094 Mb--- baseline-sami.RUN(605350) 2123 Mb--- baseline-sami.RUN(605350) 2124 Mb--- baseline-sami.RUN(605350) 2127 Mb--- baseline-sami.RUN(605350) 2127 Mb--- baseline-sami.RUN(605350) 2131 Mb--- baseline-sami.RUN(605350) 2134 Mb--- baseline-sami.RUN(605350) 2135 Mb  3 secs--- baseline-sami.RUN(605350) 2138 Mb  3 secs--- baseline-sami.RUN(605350) 2141 Mb  3 secs--- baseline-sami.RUN(605350) 2141 Mb  3 secs
+--- baseline-sami.RUN(605375) 2142 Mb--- baseline-sami.RUN(605380) 2142 Mb--- baseline-sami.RUN(605399) 2142 Mb--- baseline-sami.RUN(605400) 2142 Mb--- baseline-sami.RUN(605430) 2142 Mb--- baseline-sami.RUN(605440) 2142 Mb--- baseline-sami.RUN(605446) 2142 Mb--- baseline-sami.RUN(605447) 2142 Mb--- baseline-sami.RUN(605454) 2142 Mb--- baseline-sami.RUN(605464) 2142 Mb--- baseline-sami.RUN(605485) 2142 Mb--- baseline-sami.RUN(605493) 2142 Mb--- baseline-sami.RUN(605504) 2142 Mb--- baseline-sami.RUN(605521) 2142 Mb--- baseline-sami.RUN(605554) 2142 Mb--- baseline-sami.RUN(605583) 2142 Mb--- baseline-sami.RUN(605708) 2142 Mb--- baseline-sami.RUN(605732) 2142 Mb--- baseline-sami.RUN(605737) 2142 Mb--- baseline-sami.RUN(605744) 2142 Mb--- baseline-sami.RUN(605761) 2142 Mb--- baseline-sami.RUN(605780) 2142 Mb--- baseline-sami.RUN(605799) 2142 Mb--- baseline-sami.RUN(605856) 2142 Mb--- baseline-sami.RUN(605858) 2143 Mb--- baseline-sami.RUN(605858) 2145 Mb--- baseline-sami.RUN(605858) 2146 Mb--- baseline-sami.RUN(605858) 2147 Mb--- baseline-sami.RUN(605858) 2152 Mb--- baseline-sami.RUN(605858) 2152 Mb--- baseline-sami.RUN(605858) 2157 Mb--- baseline-sami.RUN(605858) 2158 Mb--- baseline-sami.RUN(605858) 2162 Mb--- baseline-sami.RUN(605858) 2163 Mb--- baseline-sami.RUN(605858) 2168 Mb--- baseline-sami.RUN(605858) 2169 Mb--- baseline-sami.RUN(605858) 2173 Mb--- baseline-sami.RUN(605858) 2174 Mb--- baseline-sami.RUN(605858) 2179 Mb--- baseline-sami.RUN(605858) 2179 Mb--- baseline-sami.RUN(605858) 2184 Mb--- baseline-sami.RUN(605858) 2184 Mb--- baseline-sami.RUN(605868) 2186 Mb--- baseline-sami.RUN(605868) 2233 Mb--- baseline-sami.RUN(605869) 2251 Mb--- baseline-sami.RUN(605869) 2256 Mb--- baseline-sami.RUN(605897) 2259 Mb--- baseline-sami.RUN(605900) 2260 Mb--- baseline-sami.RUN(605900) 2274 Mb--- baseline-sami.RUN(605900) 2277 Mb--- baseline-sami.RUN(605900) 2279 Mb--- baseline-sami.RUN(605900) 2282 Mb--- baseline-sami.RUN(605900) 2285 Mb--- baseline-sami.RUN(605900) 2288 Mb--- baseline-sami.RUN(605900) 2291 Mb--- baseline-sami.RUN(605900) 2294 Mb--- baseline-sami.RUN(605900) 2297 Mb--- baseline-sami.RUN(605900) 2300 Mb--- baseline-sami.RUN(605900) 2303 Mb--- baseline-sami.RUN(605913) 2303 Mb--- baseline-sami.RUN(605935) 2303 Mb--- baseline-sami.RUN(605942) 2303 Mb--- baseline-sami.RUN(605946) 2303 Mb--- baseline-sami.RUN(605955) 2303 Mb--- baseline-sami.RUN(605955) 2316 Mb--- baseline-sami.RUN(605966) 2317 Mb--- baseline-sami.RUN(605996) 2317 Mb--- baseline-sami.RUN(606029) 2317 Mb--- baseline-sami.RUN(606033) 2317 Mb--- baseline-sami.RUN(606186) 2317 Mb--- baseline-sami.RUN(606196) 2317 Mb--- baseline-sami.RUN(606226) 2317 Mb--- baseline-sami.RUN(606232) 2317 Mb--- baseline-sami.RUN(606242) 2317 Mb--- baseline-sami.RUN(606244) 2317 Mb--- baseline-sami.RUN(606245) 2328 Mb--- baseline-sami.RUN(606260) 2328 Mb--- baseline-sami.RUN(606288) 2333 Mb--- baseline-sami.RUN(606288) 2335 Mb--- baseline-sami.RUN(606288) 2368 Mb--- baseline-sami.RUN(606288) 2381 Mb--- baseline-sami.RUN(606294) 2426 Mb--- baseline-sami.RUN(606294) 2436 Mb--- baseline-sami.RUN(606294) 2478 Mb--- baseline-sami.RUN(606294) 2491 Mb--- baseline-sami.RUN(606299) 2523 Mb--- baseline-sami.RUN(606323) 2533 Mb--- baseline-sami.RUN(606323) 2537 Mb--- baseline-sami.RUN(606323) 2557 Mb--- baseline-sami.RUN(606323) 2561 Mb--- baseline-sami.RUN(606323) 2575 Mb--- baseline-sami.RUN(606323) 2613 Mb--- baseline-sami.RUN(606323) 2614 Mb  3 secs
+--- baseline-sami.RUN(606343) 2615 Mb--- baseline-sami.RUN(606384) 2615 Mb--- baseline-sami.RUN(606396) 2615 Mb--- baseline-sami.RUN(606417) 2615 Mb--- baseline-sami.RUN(606417) 2616 Mb--- baseline-sami.RUN(606417) 2629 Mb--- baseline-sami.RUN(606417) 2634 Mb--- baseline-sami.RUN(606417) 2636 Mb--- baseline-sami.RUN(606417) 2668 Mb--- baseline-sami.RUN(606417) 2704 Mb--- baseline-sami.RUN(606417) 2704 Mb--- baseline-sami.RUN(606417) 2795 Mb--- baseline-sami.RUN(606417) 2795 Mb  3 secs--- baseline-sami.RUN(606417) 2796 Mb  3 secs--- baseline-sami.RUN(606417) 2796 Mb  4 secs--- baseline-sami.RUN(606417) 2796 Mb  5 secs--- baseline-sami.RUN(606417) 2796 Mb  5 secs--- baseline-sami.RUN(606417) 2836 Mb  5 secs--- baseline-sami.RUN(606417) 2969 Mb  5 secs--- baseline-sami.RUN(606417) 2970 Mb  6 secs--- baseline-sami.RUN(606417) 2977 Mb  6 secs--- baseline-sami.RUN(606417) 2979 Mb  6 secs--- baseline-sami.RUN(606417) 3005 Mb  6 secs--- baseline-sami.RUN(606417) 3047 Mb  7 secs--- baseline-sami.RUN(606417) 3084 Mb  7 secs--- baseline-sami.RUN(606417) 3131 Mb  7 secs--- baseline-sami.RUN(606417) 3138 Mb  8 secs--- baseline-sami.RUN(606417) 3166 Mb  8 secs--- baseline-sami.RUN(606417) 3166 Mb  9 secs--- baseline-sami.RUN(606417) 3166 Mb  10 secs--- baseline-sami.RUN(606417) 3174 Mb  10 secs--- baseline-sami.RUN(606417) 3217 Mb  10 secs--- baseline-sami.RUN(606417) 3340 Mb  10 secs--- baseline-sami.RUN(606417) 3340 Mb  10 secs--- baseline-sami.RUN(606417) 3340 Mb  11 secs--- baseline-sami.RUN(606417) 3340 Mb  12 secs--- baseline-sami.RUN(606417) 3341 Mb  12 secs--- baseline-sami.RUN(606417) 3341 Mb  13 secs--- baseline-sami.RUN(606417) 3341 Mb  13 secs--- baseline-sami.RUN(606417) 3341 Mb  14 secs--- baseline-sami.RUN(606417) 3342 Mb  14 secs--- baseline-sami.RUN(606417) 3342 Mb  15 secs
+--- baseline-sami.RUN(606469) 3342 Mb--- baseline-sami.RUN(606482) 3342 Mb--- baseline-sami.RUN(606578) 3342 Mb--- baseline-sami.RUN(606648) 3342 Mb
 --- Putfile END_GAMS D:\Padam\GAMS_WrkTIMES\END_GAMS
 --- Putfile QLOG D:\Padam\GAMS_WrkTIMES\QA_CHECK.LOG
---- baseline-sami.RUN(604535) 2589 Mb  3 secs--- baseline-sami.RUN(604535) 2589 Mb  4 secs--- baseline-sami.RUN(604535) 2589 Mb  5 secs--- baseline-sami.RUN(604535) 2589 Mb  6 secs--- baseline-sami.RUN(604535) 2589 Mb  7 secs--- baseline-sami.RUN(604535) 2589 Mb  8 secs--- baseline-sami.RUN(604535) 2589 Mb  9 secs--- baseline-sami.RUN(604535) 2589 Mb  10 secs--- baseline-sami.RUN(604535) 2589 Mb  11 secs--- baseline-sami.RUN(604535) 2589 Mb  12 secs--- baseline-sami.RUN(604535) 2589 Mb  13 secs
+--- baseline-sami.RUN(606648) 3342 Mb  3 secs--- baseline-sami.RUN(606648) 3342 Mb  4 secs--- baseline-sami.RUN(606648) 3342 Mb  5 secs--- baseline-sami.RUN(606648) 3342 Mb  6 secs--- baseline-sami.RUN(606648) 3342 Mb  7 secs--- baseline-sami.RUN(606648) 3342 Mb  8 secs--- baseline-sami.RUN(606648) 3342 Mb  9 secs--- baseline-sami.RUN(606648) 3342 Mb  10 secs--- baseline-sami.RUN(606648) 3342 Mb  11 secs--- baseline-sami.RUN(606648) 3342 Mb  12 secs--- baseline-sami.RUN(606648) 3342 Mb  13 secs--- baseline-sami.RUN(606648) 3342 Mb  14 secs--- baseline-sami.RUN(606648) 3342 Mb  15 secs--- baseline-sami.RUN(606648) 3342 Mb  16 secs
 --- GDX File D:\Padam\GAMS_WrkTIMES\GAMSSAVE\baseline-sami.gdx
 --- Profile Summary (2618 records processed)
-  2378.225   1.435GB    602704 Solver     TIMES
-    13.109   2.589GB    604535 GAMS Fini   
-    11.297   2.509GB    586321 Equation   EQE_COMBAL (146880)
-     9.766   1.866GB    603231 Assignment PAR_FLO (2927964)
-     6.485   2.155GB    585736 Equation   EQG_COMBAL (99937)
-     5.594   2.816GB    593734 Equation   EQE_UCRTS (242845)
-     5.313   2.752GB    592168 Equation   EQE_UCT (4963)
-     5.156   2.978GB    599524 Equation   EQE_ACTEFF (569824)
-     5.140   2.987GB    602704 Solve Fini TIMES (20629205)
-     4.578   2.589GB    604304 Loop       
+  1352.986   1.444GB    604817 Solver     TIMES
+    17.016   3.342GB    606648 GAMS Fini   
+    15.734   3.342GB    606417 Loop       
+    12.281   2.536GB    588434 Equation   EQE_COMBAL (158755)
+     9.922   1.879GB    605344 Assignment PAR_FLO (4066266)
+     5.922   2.141GB    587849 Equation   EQG_COMBAL (93162)
+     5.907   2.848GB    595847 Equation   EQE_UCRTS (248545)
+     5.468   2.780GB    594281 Equation   EQE_UCT (4963)
+     5.328   3.017GB    604817 Solve Fini TIMES (20729532)
+     5.218   3.008GB    601637 Equation   EQE_ACTEFF (569824)
 *** Status: Normal completion
---- Job baseline-sami.RUN Stop 11/19/26 12:51:36 elapsed 0:42:10.739
+--- Job baseline-sami.RUN Stop 11/19/26 14:45:16 elapsed 0:25:30.041
