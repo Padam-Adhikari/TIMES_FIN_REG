@@ -16,6 +16,7 @@
 | reg_baseline-sami_2026-11-19_task5b_run3.gdx (.lst) | regional FI + 19, task 5b run 4 (hard checks pass, +0.136 %: DELIV on ELCLOW links, 5bfix5; GDX local only) | 1,532,000.4587 |
 | reg_baseline-sami_2026-11-19_task5b_run4.gdx (.lst) | regional FI + 19, task 5b run 5 (hard checks pass, -0.152 %: EV electricity outside the variable-RES adequacy UC, 5bfix6; GDX local only) | 1,527,592.9076 |
 | reg_baseline-sami_2026-11-19_task5b_run5.gdx (.lst) | regional FI + 19, task 5b run 6 (NOT SOLVED: numerical, status 7; R_S UCs with regional RHS became R_EACH, 5bfix7; GDX local only) | (1.24e10, not optimal) |
+| GAMS_WrkTIMES/GAMSSAVE/5bfix7.gdx (runs/reg_5bfix7.lst) | regional FI + 19, task 5b run 7, case 5bfix7 (PASS: -0.056 % vs single, -0.017 % vs 5a; GDX local only; from now on the case is named after the step) | 1,529,070.2950 |
 
 Compare a regional run only with the single-region run of the same scenario group:
 `python tools/audit_run.py <regional>.gdx --ref runs/single_baseline-sami_2026-11-16.gdx --out audit/run_<name>.md`

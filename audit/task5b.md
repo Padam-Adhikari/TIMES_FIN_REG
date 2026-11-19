@@ -2,7 +2,8 @@
 
 Status: applied 2026-11-18; fixes 5bfix .. 5bfix4 (sections 8-11); run 4 passes the hard checks at +0.136 %;
 5bfix5 (section 12) applied; run 5 hard checks pass at -0.152 %; 5bfix6 (section 13) applied; run 6 failed
-(numerical, regional RHS on the R_S UCs, section 14); 5bfix7 applied 2026-11-19; server run pending.
+(numerical, regional RHS on the R_S UCs, section 14); 5bfix7 applied 2026-11-19; run 7 (case `5bfix7`) PASSES: optimal,
+-0.056 % vs single, -0.017 % vs 5a (section 15). Task 5b done; next 5c.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
@@ -241,3 +242,26 @@ Fix 5bfix7: national RHS headers in Reg mode (`UC_RHSTS`, `UC_RHSTS~0`; `UC_RHST
 other `R_S` tables of the module already do (CapIntermitt R16:S16, S29:T29). New pre-run check
 `tools/rsum_rhs_scan.py` (R_SUM UCs with only regional RHS): run 6 DDs give exactly these two; the other 341 R_SUM
 UCs are fine. A full local solve of 5b runs out of memory here (CPLEX 1001), so the server run is the test.
+
+## 15. Seventh 5b server run (2026-11-19, case `5bfix7`): PASS
+
+`GAMS_WrkTIMES/GAMSSAVE/5bfix7.gdx` (157 MB, local only; listing `runs/reg_5bfix7.lst`): optimal after 2,484 s
+barrier, 1,529,070.30 vs single 1,529,919.88 (-849.6, -0.056 %); vs 5a 1,529,334.37 -264.1 (-0.017 %), so 5b
+adds -0.017 % to 5a's -0.038 %. Checks (`checks/task5b.md`, `audit/run_task5b.md`): no dummy imports; COM_PROJ,
+NCAP_PASTI, PRC_RESID conserved; `tools/rsum_rhs_scan.py` 0 of 343 R_SUM UCs with only regional RHS;
+`tools/uc_ire_scan.py` no missing UC_IRE correction; national CO2 targets have terms in all 20 regions.
+
+5bfix6/7 work: heavy electric trucks `TRA_Hdt_ELC_01` investment 56,387 vs single 56,662 (-0.5 %; run 5 was
++4.9 bn). National final use (PJ, single / run 7):
+
+| commodity | 2030 | 2035 | 2040 | 2045 | 2050 |
+|---|---|---|---|---|---|
+| TRAELC | 23.2 / 23.0 | 28.6 / 28.4 | 46.3 / 44.4 | 46.9 / 46.7 | 67.8 / 67.7 |
+| TRADST | 99.0 / 99.0 | 92.1 / 92.0 | 74.0 / 76.5 | 68.6 / 68.7 | 39.3 / 39.1 |
+| AGRELC | 2.9 / 2.8 | 2.8 / 2.8 | 2.9 / 2.9 | 2.9 / 2.9 | 2.9 / 2.9 |
+
+EV electricity price 2040: single TRAELC = ELCLOW + 9.69 in every timeslice; regions ELCLOW + 9.33 in most
+timeslices (run 5: + 4.00), higher in some timeslices of some regions (regional charging capacity binding there;
+quantities match, so left as is). Remaining differences: near-equal alternatives (RSDBATS01 vs COMBATS01 home
+batteries, same total; PEM vs alkaline electrolysers) and the gas `UC_VARU_CAP_*` / `UCI_UP_CHPShare-*` shadow
+prices, already present in 5a (CCGT 380,749 in 5a, 504,031 now, single 1,319).
