@@ -62,3 +62,10 @@ Regional distribution follows with the grid work (step 3 grid / step 8).
 1. Extend `tools/regional_keys.py` with the keys of section 3 (checks: 19 shares sum to 1, regional total
    = national figure), write `data/keys/*.csv` and `audit/keys.md`.
 2. Start 5a: audit of the generic-industry tables (`VT_FINTIMES_IND`), dry run.
+
+## Trap for 5c/5d (found in 5b, `audit/task5b.md` section 11)
+Sheets filled by VEDA (`~TFM_Fill-R ... Hcol=Region`) get one column per region in Reg mode; formulas that look the
+column up by the header `FI` return nothing. Fix before or with the move (as `5bfix4`, a mode-aware lookup header):
+`SUBRES_30_TECHS_HeatingCooling_Trans` (101 lookups), `Scen_NewHouses_and_retrofits` (40), `Scen_UC_RSD-COM` (214),
+`Scen_UC_HeatPumps_MaxCAP` / `_MinCAP_Lo` (9 + 9). For national stock sums (not copy attributes) the Reg-mode
+value must sum over all region columns, not read one region.

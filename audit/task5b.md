@@ -1,6 +1,6 @@
 # Task 5b: road and rail transport to the regions — audit and design
 
-Status: applied 2026-11-18; fixes 5bfix, 5bfix2, 5bfix3 (section 10); server run pending.
+Status: applied 2026-11-18; fixes 5bfix, 5bfix2, 5bfix3, 5bfix4 (sections 8-11); server run pending.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
@@ -140,3 +140,27 @@ and topology are on `Reg_TRA`). New guard in `plan_book` (`refs_to`): a step sto
 would comment is read by any other formula. Whole-model scan: no other case.
 Checks: `regmode_check` 0 new Reg errors; `reg_header_scan` 0; single-mode values of the 9 cells unchanged.
 Local solve impossible (memory); the server run is the test.
+
+## 11. Third 5b server run (2026-11-19): +29.5 % -> fixed (`--step 5bfix4`)
+
+`runs/reg_baseline-sami_2026-11-19_task5b_run2.gdx`: optimal (CPLEX 1,972 s, 36 min), 1,980,800.21 vs single
+1,529,919.88 (+29.5 %). Hard checks PASS (stock, past investment, demand conserved; no dummy imports): 5bfix3 works.
+Gap: new heavy trucks `TRA_Hdt_Dis_01` invest 552 bn EUR (reference 19 bn), activity 1,197 vs 41.
+
+Cause: `SUBRES_20 Trans`/`INS` derives the values of the new SubRES vehicles from the base-year values VEDA writes at
+sync time into `RdTRABYVals` (`Fill Data` `~TFM_Fill-R: w=RdTRABYVals; Hcol=Region`), looking up the column by
+header: ACTFLO `G3, G5:G8` via `G$2`, EFF multipliers of the `~TFM_UPD` (`I97..I165`) via `I$96` = "FI". In Reg mode
+the fill has region columns (no FI: the hub has no vehicles) and 5b switched `G2` to `AllRegions`: all lookups
+empty. Server DD, FI1B1: no ACTFLO for `TRA_Hdt_Dis_01` (default 1 instead of 6.32 t-km/vkm) and no `*` EFF
+multiplier; the same for new buses, vans, two-wheelers and rail (cars use the constant 1.6 for ACTFLO).
+
+Fix: `I96` = FI in single mode; in Reg mode `FI1B1` (every road and rail class; ACTFLO/EFF are copy attributes),
+falling back to FI and the first data column; `G3, G5:G8` use `$I$96`. Test on a copy in Reg mode with the fill
+column named FI, FI1B1 and FI196: identical values (6.3195, `*0.11`, ...). `regmode_check` 0, `reg_header_scan` 0,
+single-mode values unchanged.
+
+Same pattern elsewhere (VEDA fill sheets read by an `FI` header; Reg mode gives region columns): to fix when the
+sector moves (`audit/task5.md`): `SUBRES_30_TECHS_HeatingCooling_Trans` (RES_WatHeat/SpCool/Others, COM_All:
+101 lookups), `Scen_NewHouses_and_retrofits` (OldHouses, ServBldg: 40), `Scen_UC_RSD-COM` (Stock, AF: 214),
+`Scen_UC_HeatPumps_MaxCAP` / `_MinCAP_Lo` (Rdw_Stock: 9 + 9). `Scen_UC_TRA` (`Stock`): the lookups that feed
+`FuelUC` read `Stock!Y$1` (empty) and are 0 in both modes - no effect.

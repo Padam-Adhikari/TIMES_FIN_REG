@@ -1,0 +1,21 @@
+NOTE 5bfix4: SubRES_20 Trans INS!I96 switched, 5 ACTFLO lookups via $I$96; 69 EFF lookups already use I$96
+
+--- Reg-FINTIMES/SubRES_TMPL/SUBRES_20_TECHS_TRA_Trans.xlsx
+  ~ 'INS'!I96 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI",IF(ISNUMBER(MATCH("FI1B1",RdTRABYVals!$1:$1,0)),"FI1B1",IF(ISNUMBER(MATCH("FI",RdTRABYVals!$1:$1,0)),"FI",RdTRABYVals!$L$1)))
+      (lookup header of the base-year fill: FI single, a region column in Reg mode (fill has region columns))
+  ~ 'INS'!G3 [#DDEBF7]: 13
+      -> =IFERROR(AVERAGEIFS(INDEX(RdTRABYVals!$2:$999,,MATCH($I$96,RdTRABYVals!$1:$1,0)),RdTRABYVals!$B$2:$B$999,"="&$C3,RdTRABYVals!$C$2:$C$999,"="&INS!$A3),"")
+      (ACTFLO from the base-year fill via the mode-aware header I96 (G2 is AllRegions in Reg mode))
+  ~ 'INS'!G5 [#DDEBF7]: 6.319468113255596
+      -> =IFERROR(AVERAGEIFS(INDEX(RdTRABYVals!$2:$999,,MATCH($I$96,RdTRABYVals!$1:$1,0)),RdTRABYVals!$B$2:$B$999,"="&$C5,RdTRABYVals!$C$2:$C$999,"="&INS!$A5),"")
+      (ACTFLO from the base-year fill via the mode-aware header I96 (G2 is AllRegions in Reg mode))
+  ~ 'INS'!G6 [#DDEBF7]: 0.5
+      -> =IFERROR(AVERAGEIFS(INDEX(RdTRABYVals!$2:$999,,MATCH($I$96,RdTRABYVals!$1:$1,0)),RdTRABYVals!$B$2:$B$999,"="&$C6,RdTRABYVals!$C$2:$C$999,"="&INS!$A6),"")
+      (ACTFLO from the base-year fill via the mode-aware header I96 (G2 is AllRegions in Reg mode))
+  ~ 'INS'!G7 [#DDEBF7]: 1
+      -> =IFERROR(AVERAGEIFS(INDEX(RdTRABYVals!$2:$999,,MATCH($I$96,RdTRABYVals!$1:$1,0)),RdTRABYVals!$B$2:$B$999,"="&$C7,RdTRABYVals!$C$2:$C$999,"="&INS!$A7),"")
+      (ACTFLO from the base-year fill via the mode-aware header I96 (G2 is AllRegions in Reg mode))
+  ~ 'INS'!G8 [#DDEBF7]: 1
+      -> =IFERROR(AVERAGEIFS(INDEX(RdTRABYVals!$2:$999,,MATCH($I$96,RdTRABYVals!$1:$1,0)),RdTRABYVals!$B$2:$B$999,"="&$C8,RdTRABYVals!$C$2:$C$999,"="&INS!$A8),"")
+      (ACTFLO from the base-year fill via the mode-aware header I96 (G2 is AllRegions in Reg mode))

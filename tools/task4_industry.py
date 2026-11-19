@@ -1879,7 +1879,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1897,6 +1897,37 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix4":
+        # 5b run 3 +29.5 %: SubRES_20 Trans 'INS' derives ACTFLO (G3, G5:G8) and the EFF multipliers (I97..)
+        # of the new road/rail vehicles from the base-year values VEDA writes to 'RdTRABYVals'
+        # (~TFM_Fill-R, Hcol=Region), looking the column up by header (G$2 / I$96 = "FI"). In Reg mode the fill
+        # has region columns and G2 reads "AllRegions": every lookup failed, the new trucks got ACTFLO 1 instead
+        # of 6.3 t-km per vkm and no efficiency. Fix: one lookup header I96, FI in single mode, FI1B1 in Reg mode
+        # (all road and rail classes, copy attributes) with fall-backs FI and the first data column.
+        plan, notes = Plan(), []
+        sh = "INS"
+        sb = Book(SUB20_T)
+        if sb.val(sh, "I96") != "FI" or sb.f.get((sh, "I96")):
+            sys.exit(f"INS!I96 is {sb.val(sh, 'I96')!r} / {sb.f.get((sh, 'I96'))!r}")
+        hdr = "RdTRABYVals!$1:$1"
+        reg = (f'IF(ISNUMBER(MATCH("FI1B1",{hdr},0)),"FI1B1",IF(ISNUMBER(MATCH("FI",{hdr},0)),"FI",'
+               f'RdTRABYVals!$L$1))')
+        plan.edit(SUB20_T, sh, "I96", "FI", sw(q("FI"), reg), BLUE,
+                  "lookup header of the base-year fill: FI single, a region column in Reg mode (fill has region columns)")
+        n = 0
+        for (s, c), f in sorted(sb.f.items()):
+            if s == sh and "MATCH(G$2,RdTRABYVals!$1:$1,0)" in f:
+                plan.edit(SUB20_T, sh, c, sb.val(sh, c), f.replace("MATCH(G$2,", "MATCH($I$96,"), BLUE,
+                          "ACTFLO from the base-year fill via the mode-aware header I96 (G2 is AllRegions in Reg mode)")
+                n += 1
+        if n != 5:
+            sys.exit(f"expected 5 ACTFLO lookups on INS, found {n}")
+        notes.append(f"5bfix4: SubRES_20 Trans INS!I96 switched, {n} ACTFLO lookups via $I$96; "
+                     f"{sum(1 for (s, c), f in sb.f.items() if s == sh and 'MATCH(I$96,' in f)} EFF lookups already use I$96")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix4_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5bfix3":
         # 5b server run +47.9 %: the stock rows of 000Veh '~FI_T: Stock' (F23) were commented in Reg mode via
