@@ -1,0 +1,16 @@
+NOTE 5bfix7: national RHS headers for the two UCs made R_S in 5bfix6 (check: tools/rsum_rhs_scan.py)
+
+--- Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR.xlsx
+  ~ 'CapIntermitt'!S5 [#DDEBF7]: 'UC_RHSRTS'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS","UC_RHSTS")
+      (UC_VARI_ELE_Cons_Cap is R_S in Reg mode: national RHS, otherwise TIMES makes it R_EACH)
+  ~ 'CapIntermitt'!T5 [#DDEBF7]: 'UC_RHSRTS~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRTS~0","UC_RHSTS~0")
+      (UC_VARI_ELE_Cons_Cap is R_S in Reg mode: national RHS, otherwise TIMES makes it R_EACH)
+--- Reg-FINTIMES/SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx
+  ~ 'UC_StorageCompetition'!I8 [#DDEBF7]: 'UC_RHSRT~LO'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~LO","UC_RHST~LO")
+      (UC_VAR_MinStor5h is R_S in Reg mode: national RHS, otherwise TIMES makes it R_EACH)
+  ~ 'UC_StorageCompetition'!J8 [#DDEBF7]: 'UC_RHSRT~LO~0'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"UC_RHSRT~LO~0","UC_RHST~LO~0")
+      (UC_VAR_MinStor5h is R_S in Reg mode: national RHS, otherwise TIMES makes it R_EACH)

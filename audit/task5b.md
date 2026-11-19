@@ -1,8 +1,8 @@
-﻿# Task 5b: road and rail transport to the regions â€” audit and design
+# Task 5b: road and rail transport to the regions — audit and design
 
 Status: applied 2026-11-18; fixes 5bfix .. 5bfix4 (sections 8-11); run 4 passes the hard checks at +0.136 %;
-5bfix5 (section 12) applied; run 5 hard checks pass at -0.152 %; 5bfix6 (section 13, variable-RES adequacy
-module national) applied 2026-11-19; server run pending.
+5bfix5 (section 12) applied; run 5 hard checks pass at -0.152 %; 5bfix6 (section 13) applied; run 6 failed
+(numerical, regional RHS on the R_S UCs, section 14); 5bfix7 dry run, awaiting approval.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
@@ -222,3 +222,22 @@ Cons_Cap table (`TRABAT_Battery`) stays outside the table (empty row 9) as in si
 modules: `R_S` already, `Utilisation (2)` per region (process utilisation, copy), `SELC_SCCU_PseudoLowAF` FI
 (hub electrolysers). Expected: TRAELC = ELCLOW + ~9.7 in the regions, trucks back to the single mix, objective
 within ~0.05 % of single. The same module must include buildings when 5c/5d move COMELC/RSDELC (covered by R_S).
+
+## 14. Sixth 5b server run (2026-11-19, after 5bfix6): not solved -> `--step 5bfix7`
+
+`runs/reg_baseline-sami_2026-11-19_task5b_run5.gdx` (local only): CPLEX barrier stopped after 1,338 s, "solution
+not proven optimal due to numerical difficulties", model status 7, objective 1.24e10. Primal infeasibility stayed
+at ~6e8 for all 100 iterations: a badly posed constraint, not tolerances.
+
+Cause: 5bfix6 switched the `~UC_Sets` of the two tables to `R_S` but not their RHS headers
+(`CapIntermitt!S5:T5` `UC_RHSRTS`, `UC_StorageCompetition!I8:J8` `UC_RHSRT~LO`). VEDA wrote `UC_R_SUM` for all 20
+regions and `UC_RHSRTS`/`UC_RHSRT` for each of them. TIMES (ppmain.mod 1109-1118) makes a UC with only regional
+RHS `UC_R_EACH` and drops `UC_R_SUM` when there is no `UC_RHS/RHST/RHSTS`. So `UC_VARI_ELE_Cons_Cap` became 20
+equalities "ELE_CONS_CAP = consumption" per region, but ELE_CONS_CAP exists only in FI: each region's electricity
+use could only be balanced by the UC dummy import (IMPNRGZ `UC_VARI_ELE_Cons_Cap_`). `UC_VAR_MinStor5h` became
+per-region too (trivially met in the regions, FI storage alone at the hub).
+
+Fix 5bfix7: national RHS headers in Reg mode (`UC_RHSTS`, `UC_RHSTS~0`; `UC_RHST~LO`, `UC_RHST~LO~0`), as the
+other `R_S` tables of the module already do (CapIntermitt R16:S16, S29:T29). New pre-run check
+`tools/rsum_rhs_scan.py` (R_SUM UCs with only regional RHS): run 6 DDs give exactly these two; the other 341 R_SUM
+UCs are fine. A full local solve of 5b runs out of memory here (CPLEX 1001), so the server run is the test.

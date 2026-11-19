@@ -1879,7 +1879,7 @@ def main():
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="baseline-sami.run")
     ap.add_argument("--out", default=os.path.join(ROOT, "audit", "task4a_dryrun.txt"))
-    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4", "5bfix5", "5bfix6"], default="all",
+    ap.add_argument("--step", choices=["all", "prd", "insert", "fix", "4b", "4bfix", "4bfix2", "4c", "5a", "5afix", "5b", "5bfix", "5bfix2", "5bfix3", "5bfix4", "5bfix5", "5bfix6", "5bfix7"], default="all",
                     help="prd: only the RS_PRD import corrections (after the rest is applied); "
                          "insert, then fix: corrections after the first 4a run (audit section 9)")
     a = ap.parse_args()
@@ -1897,6 +1897,38 @@ def main():
         return
     if a.step == "5b":
         run_5b(a)
+        return
+    if a.step == "5bfix7":
+        # 5b run 6 (after 5bfix6): CPLEX stopped with numerical difficulties, objective 1.24e10. 5bfix6 made the
+        # ~UC_Sets R_S but left the RHS headers region-indexed (CapIntermitt S5/T5 UC_RHSRTS, UC_StorageCompetition
+        # I8/J8 UC_RHSRT~LO). VEDA then writes UC_R_SUM plus UC_RHSRTS/UC_RHSRT for each of the 20 regions, and
+        # TIMES (ppmain.mod 1109-1118) turns a UC with only regional RHS into UC_R_EACH and drops UC_R_SUM: 20
+        # regional equalities ELE_CONS_CAP (FI only) = regional consumption, met only by the UC dummy import.
+        # Fix: national RHS headers in Reg mode, as the other R_S tables of the workbook (CapIntermitt R16/S16, S29/T29).
+        plan, notes = Plan(), []
+        var = M + "SuppXLS/Scen_SepDb-ZIET_VAR.xlsx"
+        stor = M + "SuppXLS/Scen_SepDb-ZIET_VAR_Stor.xlsx"
+        vb = Book(var)
+        if vb.f.get(("CapIntermitt", "C2")) != sw(q("~UC_Sets: R_E: AllRegions"), q("~UC_Sets: R_S: AllRegions")):
+            sys.exit("CapIntermitt!C2: 5bfix6 not applied")
+        for cell, old, new in (("S5", "UC_RHSRTS", "UC_RHSTS"), ("T5", "UC_RHSRTS~0", "UC_RHSTS~0")):
+            if vb.val("CapIntermitt", cell) != old or vb.f.get(("CapIntermitt", cell)):
+                sys.exit(f"CapIntermitt!{cell} {vb.val('CapIntermitt', cell)!r}")
+            plan.edit(var, "CapIntermitt", cell, old, sw(q(old), q(new)), BLUE,
+                      "UC_VARI_ELE_Cons_Cap is R_S in Reg mode: national RHS, otherwise TIMES makes it R_EACH")
+        sb = Book(stor)
+        sh = "UC_StorageCompetition"
+        if sb.f.get((sh, "D3")) != sw(q("~UC_Sets: R_E: FI"), q("~UC_Sets: R_S: AllRegions")):
+            sys.exit(f"{sh}!D3: 5bfix6 not applied")
+        for cell, old, new in (("I8", "UC_RHSRT~LO", "UC_RHST~LO"), ("J8", "UC_RHSRT~LO~0", "UC_RHST~LO~0")):
+            if sb.val(sh, cell) != old or sb.f.get((sh, cell)):
+                sys.exit(f"{sh}!{cell} {sb.val(sh, cell)!r}")
+            plan.edit(stor, sh, cell, old, sw(q(old), q(new)), BLUE,
+                      "UC_VAR_MinStor5h is R_S in Reg mode: national RHS, otherwise TIMES makes it R_EACH")
+        notes.append("5bfix7: national RHS headers for the two UCs made R_S in 5bfix6 (check: tools/rsum_rhs_scan.py)")
+        write_dry(plan, notes, os.path.join(ROOT, "audit", "task5b_fix7_dryrun.txt"))
+        if a.apply:
+            apply_per_book(plan)
         return
     if a.step == "5bfix6":
         # 5b run 5 (-0.152 % vs single): regional EV electricity escaped the variable-RES adequacy module.
