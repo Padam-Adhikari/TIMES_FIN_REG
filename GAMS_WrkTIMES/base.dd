@@ -2660,23 +2660,31 @@ SET COM_GRP
 'TRA_Hdt_Cng_01_DEMO'
 'TRA_Hdt_Dis_01_DEMO'
 'TRA_Hdt_Dis_10_DEMO'
+'TRA_Hdt_Dis_DEMO'
 'TRA_Hdt_ELC_01_DEMO'
 'TRA_Hdt_Gas_01_DEMO'
 'TRA_Hdt_Gas_01_NRGI'
+'TRA_Hdt_Gas_DEMO'
 'TRA_Hdt_GH2_01_DEMO'
 'TRA_Lcv_Cng_01_DEMO'
+'TRA_Lcv_Cng_DEMO'
 'TRA_Lcv_Dis_01_DEMO'
+'TRA_Lcv_Dis_DEMO'
 'TRA_Lcv_Elc_01_DEMO'
 'TRA_Lcv_Gas_01_DEMO'
 'TRA_Lcv_Gas_01_NRGI'
+'TRA_Lcv_Gas_DEMO'
 'TRA_Lcv_GH2_01_DEMO'
 'TRA_Lcv_GH2_10_DEMO'
 'TRA_Lcv_LH2_01_DEMO'
 'TRA_Lcv_Lpg_01_DEMO'
+'TRA_Lcv_Lpg_DEMO'
 'TRA_Mop_Elc_01_DEMO'
 'TRA_Mop_Gas_01_DEMO'
+'TRA_Mop_Gas_DEMO'
 'TRA_Mot_Elc_01_DEMO'
 'TRA_Mot_Gas_01_DEMO'
+'TRA_Mot_Gas_DEMO'
 'TRA_Nav_NRGI'
 'TRA_Rai_Frt_Dis_01_DEMO'
 'TRA_Rai_Frt_Elc_01_DEMO'
@@ -7288,6 +7296,14 @@ SET COM_GMAP
 'FI196'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI196'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI196'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI196'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI196'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI196'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI196'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI196'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI196'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI196'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI196'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI196'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI196'.'TRAELC00_NRGI'.'ELCLOW'
 'FI196'.'TRAELC00_NRGI'.'ELCMED'
@@ -7443,6 +7459,14 @@ SET COM_GMAP
 'FI198'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI198'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI198'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI198'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI198'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI198'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI198'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI198'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI198'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI198'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI198'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI198'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI198'.'TRAELC00_NRGI'.'ELCLOW'
 'FI198'.'TRAELC00_NRGI'.'ELCMED'
@@ -7560,6 +7584,14 @@ SET COM_GMAP
 'FI199'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI199'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI199'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI199'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI199'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI199'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI199'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI199'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI199'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI199'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI199'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI199'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI199'.'TRAELC00_NRGI'.'ELCLOW'
 'FI199'.'TRAELC00_NRGI'.'ELCMED'
@@ -7713,6 +7745,14 @@ SET COM_GMAP
 'FI19A'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI19A'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI19A'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI19A'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI19A'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI19A'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI19A'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI19A'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI19A'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI19A'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI19A'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI19A'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI19A'.'TRAELC00_NRGI'.'ELCLOW'
 'FI19A'.'TRAELC00_NRGI'.'ELCMED'
@@ -7872,6 +7912,14 @@ SET COM_GMAP
 'FI19B'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI19B'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI19B'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI19B'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI19B'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI19B'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI19B'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI19B'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI19B'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI19B'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI19B'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI19B'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI19B'.'TRAELC00_NRGI'.'ELCLOW'
 'FI19B'.'TRAELC00_NRGI'.'ELCMED'
@@ -8070,6 +8118,14 @@ SET COM_GMAP
 'FI1B1'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1B1'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1B1'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1B1'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1B1'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1B1'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1B1'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1B1'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1B1'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1B1'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1B1'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1B1'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1B1'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1B1'.'TRAELC00_NRGI'.'ELCMED'
@@ -8210,6 +8266,14 @@ SET COM_GMAP
 'FI1C1'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1C1'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1C1'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1C1'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1C1'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1C1'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1C1'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1C1'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1C1'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1C1'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1C1'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1C1'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1C1'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1C1'.'TRAELC00_NRGI'.'ELCMED'
@@ -8367,6 +8431,14 @@ SET COM_GMAP
 'FI1C2'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1C2'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1C2'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1C2'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1C2'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1C2'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1C2'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1C2'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1C2'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1C2'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1C2'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1C2'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1C2'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1C2'.'TRAELC00_NRGI'.'ELCMED'
@@ -8563,6 +8635,14 @@ SET COM_GMAP
 'FI1C5'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1C5'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1C5'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1C5'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1C5'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1C5'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1C5'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1C5'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1C5'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1C5'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1C5'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1C5'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1C5'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1C5'.'TRAELC00_NRGI'.'ELCMED'
@@ -8720,6 +8800,14 @@ SET COM_GMAP
 'FI1C6'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1C6'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1C6'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1C6'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1C6'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1C6'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1C6'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1C6'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1C6'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1C6'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1C6'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1C6'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1C6'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1C6'.'TRAELC00_NRGI'.'ELCMED'
@@ -8881,6 +8969,14 @@ SET COM_GMAP
 'FI1C7'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1C7'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1C7'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1C7'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1C7'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1C7'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1C7'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1C7'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1C7'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1C7'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1C7'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1C7'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1C7'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1C7'.'TRAELC00_NRGI'.'ELCMED'
@@ -9000,6 +9096,14 @@ SET COM_GMAP
 'FI1D5'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1D5'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1D5'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1D5'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1D5'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1D5'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1D5'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1D5'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1D5'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1D5'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1D5'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1D5'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1D5'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1D5'.'TRAELC00_NRGI'.'ELCMED'
@@ -9176,6 +9280,14 @@ SET COM_GMAP
 'FI1D7'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1D7'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1D7'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1D7'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1D7'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1D7'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1D7'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1D7'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1D7'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1D7'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1D7'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1D7'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1D7'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1D7'.'TRAELC00_NRGI'.'ELCMED'
@@ -9256,6 +9368,14 @@ SET COM_GMAP
 'FI1D8'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1D8'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1D8'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1D8'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1D8'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1D8'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1D8'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1D8'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1D8'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1D8'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1D8'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1D8'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1D8'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1D8'.'TRAELC00_NRGI'.'ELCMED'
@@ -9469,6 +9589,14 @@ SET COM_GMAP
 'FI1D9'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1D9'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1D9'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1D9'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1D9'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1D9'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1D9'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1D9'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1D9'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1D9'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1D9'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1D9'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1D9'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1D9'.'TRAELC00_NRGI'.'ELCMED'
@@ -9590,6 +9718,14 @@ SET COM_GMAP
 'FI1DA'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1DA'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1DA'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1DA'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1DA'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1DA'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1DA'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1DA'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1DA'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1DA'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1DA'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1DA'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1DA'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1DA'.'TRAELC00_NRGI'.'ELCMED'
@@ -9749,6 +9885,14 @@ SET COM_GMAP
 'FI1DB'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1DB'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1DB'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1DB'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1DB'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1DB'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1DB'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1DB'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1DB'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1DB'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1DB'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1DB'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1DB'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1DB'.'TRAELC00_NRGI'.'ELCMED'
@@ -9919,6 +10063,14 @@ SET COM_GMAP
 'FI1DC'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI1DC'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI1DC'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI1DC'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI1DC'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI1DC'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI1DC'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI1DC'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI1DC'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI1DC'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI1DC'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI1DC'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI1DC'.'TRAELC00_NRGI'.'ELCLOW'
 'FI1DC'.'TRAELC00_NRGI'.'ELCMED'
@@ -10030,6 +10182,14 @@ SET COM_GMAP
 'FI200'.'TRA_Car_Gas_Lom_DEMO'.'TCar'
 'FI200'.'TRA_Car_Gas_Sma_DEMO'.'TCar'
 'FI200'.'TRA_Car_Gas_Upm_DEMO'.'TCar'
+'FI200'.'TRA_Hdt_Dis_DEMO'.'THDT'
+'FI200'.'TRA_Hdt_Gas_DEMO'.'THDT'
+'FI200'.'TRA_Lcv_Cng_DEMO'.'TLCV'
+'FI200'.'TRA_Lcv_Dis_DEMO'.'TLCV'
+'FI200'.'TRA_Lcv_Gas_DEMO'.'TLCV'
+'FI200'.'TRA_Lcv_Lpg_DEMO'.'TLCV'
+'FI200'.'TRA_Mop_Gas_DEMO'.'TMop'
+'FI200'.'TRA_Mot_Gas_DEMO'.'TMot'
 'FI200'.'TRAELC00_NRGI'.'ELCHIGG'
 'FI200'.'TRAELC00_NRGI'.'ELCLOW'
 'FI200'.'TRAELC00_NRGI'.'ELCMED'
@@ -23726,6 +23886,14 @@ SET PRC
 'TRA_Car_Oth_Lom'
 'TRA_Car_Oth_Sma'
 'TRA_Car_Oth_Upm'
+'TRA_Hdt_Dis'
+'TRA_Hdt_Gas'
+'TRA_Lcv_Cng'
+'TRA_Lcv_Dis'
+'TRA_Lcv_Gas'
+'TRA_Lcv_Lpg'
+'TRA_Mop_Gas'
+'TRA_Mot_Gas'
 'TRA_Nav'
 'TRA_Rai_Frt-Dsl'
 'TRA_Rai_Frt-Elc'
@@ -25517,6 +25685,14 @@ SET PRC_MAP
 'FI196'.'DMD'.'TRA_Car_Oth_Lom'
 'FI196'.'DMD'.'TRA_Car_Oth_Sma'
 'FI196'.'DMD'.'TRA_Car_Oth_Upm'
+'FI196'.'DMD'.'TRA_Hdt_Dis'
+'FI196'.'DMD'.'TRA_Hdt_Gas'
+'FI196'.'DMD'.'TRA_Lcv_Cng'
+'FI196'.'DMD'.'TRA_Lcv_Dis'
+'FI196'.'DMD'.'TRA_Lcv_Gas'
+'FI196'.'DMD'.'TRA_Lcv_Lpg'
+'FI196'.'DMD'.'TRA_Mop_Gas'
+'FI196'.'DMD'.'TRA_Mot_Gas'
 'FI196'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI196'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI196'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -25808,6 +25984,14 @@ SET PRC_MAP
 'FI198'.'DMD'.'TRA_Car_Oth_Lom'
 'FI198'.'DMD'.'TRA_Car_Oth_Sma'
 'FI198'.'DMD'.'TRA_Car_Oth_Upm'
+'FI198'.'DMD'.'TRA_Hdt_Dis'
+'FI198'.'DMD'.'TRA_Hdt_Gas'
+'FI198'.'DMD'.'TRA_Lcv_Cng'
+'FI198'.'DMD'.'TRA_Lcv_Dis'
+'FI198'.'DMD'.'TRA_Lcv_Gas'
+'FI198'.'DMD'.'TRA_Lcv_Lpg'
+'FI198'.'DMD'.'TRA_Mop_Gas'
+'FI198'.'DMD'.'TRA_Mot_Gas'
 'FI198'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI198'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI198'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -26047,6 +26231,14 @@ SET PRC_MAP
 'FI199'.'DMD'.'TRA_Car_Oth_Lom'
 'FI199'.'DMD'.'TRA_Car_Oth_Sma'
 'FI199'.'DMD'.'TRA_Car_Oth_Upm'
+'FI199'.'DMD'.'TRA_Hdt_Dis'
+'FI199'.'DMD'.'TRA_Hdt_Gas'
+'FI199'.'DMD'.'TRA_Lcv_Cng'
+'FI199'.'DMD'.'TRA_Lcv_Dis'
+'FI199'.'DMD'.'TRA_Lcv_Gas'
+'FI199'.'DMD'.'TRA_Lcv_Lpg'
+'FI199'.'DMD'.'TRA_Mop_Gas'
+'FI199'.'DMD'.'TRA_Mot_Gas'
 'FI199'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI199'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI199'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -26275,6 +26467,14 @@ SET PRC_MAP
 'FI19A'.'DMD'.'TRA_Car_Oth_Lom'
 'FI19A'.'DMD'.'TRA_Car_Oth_Sma'
 'FI19A'.'DMD'.'TRA_Car_Oth_Upm'
+'FI19A'.'DMD'.'TRA_Hdt_Dis'
+'FI19A'.'DMD'.'TRA_Hdt_Gas'
+'FI19A'.'DMD'.'TRA_Lcv_Cng'
+'FI19A'.'DMD'.'TRA_Lcv_Dis'
+'FI19A'.'DMD'.'TRA_Lcv_Gas'
+'FI19A'.'DMD'.'TRA_Lcv_Lpg'
+'FI19A'.'DMD'.'TRA_Mop_Gas'
+'FI19A'.'DMD'.'TRA_Mot_Gas'
 'FI19A'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI19A'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI19A'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -26524,6 +26724,14 @@ SET PRC_MAP
 'FI19B'.'DMD'.'TRA_Car_Oth_Lom'
 'FI19B'.'DMD'.'TRA_Car_Oth_Sma'
 'FI19B'.'DMD'.'TRA_Car_Oth_Upm'
+'FI19B'.'DMD'.'TRA_Hdt_Dis'
+'FI19B'.'DMD'.'TRA_Hdt_Gas'
+'FI19B'.'DMD'.'TRA_Lcv_Cng'
+'FI19B'.'DMD'.'TRA_Lcv_Dis'
+'FI19B'.'DMD'.'TRA_Lcv_Gas'
+'FI19B'.'DMD'.'TRA_Lcv_Lpg'
+'FI19B'.'DMD'.'TRA_Mop_Gas'
+'FI19B'.'DMD'.'TRA_Mot_Gas'
 'FI19B'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI19B'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI19B'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -26774,6 +26982,14 @@ SET PRC_MAP
 'FI1B1'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1B1'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1B1'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1B1'.'DMD'.'TRA_Hdt_Dis'
+'FI1B1'.'DMD'.'TRA_Hdt_Gas'
+'FI1B1'.'DMD'.'TRA_Lcv_Cng'
+'FI1B1'.'DMD'.'TRA_Lcv_Dis'
+'FI1B1'.'DMD'.'TRA_Lcv_Gas'
+'FI1B1'.'DMD'.'TRA_Lcv_Lpg'
+'FI1B1'.'DMD'.'TRA_Mop_Gas'
+'FI1B1'.'DMD'.'TRA_Mot_Gas'
 'FI1B1'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1B1'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1B1'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -27081,6 +27297,14 @@ SET PRC_MAP
 'FI1C1'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1C1'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1C1'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1C1'.'DMD'.'TRA_Hdt_Dis'
+'FI1C1'.'DMD'.'TRA_Hdt_Gas'
+'FI1C1'.'DMD'.'TRA_Lcv_Cng'
+'FI1C1'.'DMD'.'TRA_Lcv_Dis'
+'FI1C1'.'DMD'.'TRA_Lcv_Gas'
+'FI1C1'.'DMD'.'TRA_Lcv_Lpg'
+'FI1C1'.'DMD'.'TRA_Mop_Gas'
+'FI1C1'.'DMD'.'TRA_Mot_Gas'
 'FI1C1'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1C1'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1C1'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -27331,6 +27555,14 @@ SET PRC_MAP
 'FI1C2'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1C2'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1C2'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1C2'.'DMD'.'TRA_Hdt_Dis'
+'FI1C2'.'DMD'.'TRA_Hdt_Gas'
+'FI1C2'.'DMD'.'TRA_Lcv_Cng'
+'FI1C2'.'DMD'.'TRA_Lcv_Dis'
+'FI1C2'.'DMD'.'TRA_Lcv_Gas'
+'FI1C2'.'DMD'.'TRA_Lcv_Lpg'
+'FI1C2'.'DMD'.'TRA_Mop_Gas'
+'FI1C2'.'DMD'.'TRA_Mot_Gas'
 'FI1C2'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1C2'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1C2'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -27585,6 +27817,14 @@ SET PRC_MAP
 'FI1C5'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1C5'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1C5'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1C5'.'DMD'.'TRA_Hdt_Dis'
+'FI1C5'.'DMD'.'TRA_Hdt_Gas'
+'FI1C5'.'DMD'.'TRA_Lcv_Cng'
+'FI1C5'.'DMD'.'TRA_Lcv_Dis'
+'FI1C5'.'DMD'.'TRA_Lcv_Gas'
+'FI1C5'.'DMD'.'TRA_Lcv_Lpg'
+'FI1C5'.'DMD'.'TRA_Mop_Gas'
+'FI1C5'.'DMD'.'TRA_Mot_Gas'
 'FI1C5'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1C5'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1C5'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -27896,6 +28136,14 @@ SET PRC_MAP
 'FI1C6'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1C6'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1C6'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1C6'.'DMD'.'TRA_Hdt_Dis'
+'FI1C6'.'DMD'.'TRA_Hdt_Gas'
+'FI1C6'.'DMD'.'TRA_Lcv_Cng'
+'FI1C6'.'DMD'.'TRA_Lcv_Dis'
+'FI1C6'.'DMD'.'TRA_Lcv_Gas'
+'FI1C6'.'DMD'.'TRA_Lcv_Lpg'
+'FI1C6'.'DMD'.'TRA_Mop_Gas'
+'FI1C6'.'DMD'.'TRA_Mot_Gas'
 'FI1C6'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1C6'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1C6'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -28144,6 +28392,14 @@ SET PRC_MAP
 'FI1C7'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1C7'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1C7'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1C7'.'DMD'.'TRA_Hdt_Dis'
+'FI1C7'.'DMD'.'TRA_Hdt_Gas'
+'FI1C7'.'DMD'.'TRA_Lcv_Cng'
+'FI1C7'.'DMD'.'TRA_Lcv_Dis'
+'FI1C7'.'DMD'.'TRA_Lcv_Gas'
+'FI1C7'.'DMD'.'TRA_Lcv_Lpg'
+'FI1C7'.'DMD'.'TRA_Mop_Gas'
+'FI1C7'.'DMD'.'TRA_Mot_Gas'
 'FI1C7'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1C7'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1C7'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -28389,6 +28645,14 @@ SET PRC_MAP
 'FI1D5'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1D5'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1D5'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1D5'.'DMD'.'TRA_Hdt_Dis'
+'FI1D5'.'DMD'.'TRA_Hdt_Gas'
+'FI1D5'.'DMD'.'TRA_Lcv_Cng'
+'FI1D5'.'DMD'.'TRA_Lcv_Dis'
+'FI1D5'.'DMD'.'TRA_Lcv_Gas'
+'FI1D5'.'DMD'.'TRA_Lcv_Lpg'
+'FI1D5'.'DMD'.'TRA_Mop_Gas'
+'FI1D5'.'DMD'.'TRA_Mot_Gas'
 'FI1D5'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1D5'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1D5'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -28621,6 +28885,14 @@ SET PRC_MAP
 'FI1D7'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1D7'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1D7'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1D7'.'DMD'.'TRA_Hdt_Dis'
+'FI1D7'.'DMD'.'TRA_Hdt_Gas'
+'FI1D7'.'DMD'.'TRA_Lcv_Cng'
+'FI1D7'.'DMD'.'TRA_Lcv_Dis'
+'FI1D7'.'DMD'.'TRA_Lcv_Gas'
+'FI1D7'.'DMD'.'TRA_Lcv_Lpg'
+'FI1D7'.'DMD'.'TRA_Mop_Gas'
+'FI1D7'.'DMD'.'TRA_Mot_Gas'
 'FI1D7'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1D7'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1D7'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -28876,6 +29148,14 @@ SET PRC_MAP
 'FI1D8'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1D8'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1D8'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1D8'.'DMD'.'TRA_Hdt_Dis'
+'FI1D8'.'DMD'.'TRA_Hdt_Gas'
+'FI1D8'.'DMD'.'TRA_Lcv_Cng'
+'FI1D8'.'DMD'.'TRA_Lcv_Dis'
+'FI1D8'.'DMD'.'TRA_Lcv_Gas'
+'FI1D8'.'DMD'.'TRA_Lcv_Lpg'
+'FI1D8'.'DMD'.'TRA_Mop_Gas'
+'FI1D8'.'DMD'.'TRA_Mot_Gas'
 'FI1D8'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1D8'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1D8'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -29061,6 +29341,14 @@ SET PRC_MAP
 'FI1D9'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1D9'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1D9'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1D9'.'DMD'.'TRA_Hdt_Dis'
+'FI1D9'.'DMD'.'TRA_Hdt_Gas'
+'FI1D9'.'DMD'.'TRA_Lcv_Cng'
+'FI1D9'.'DMD'.'TRA_Lcv_Dis'
+'FI1D9'.'DMD'.'TRA_Lcv_Gas'
+'FI1D9'.'DMD'.'TRA_Lcv_Lpg'
+'FI1D9'.'DMD'.'TRA_Mop_Gas'
+'FI1D9'.'DMD'.'TRA_Mot_Gas'
 'FI1D9'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1D9'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1D9'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -29347,6 +29635,14 @@ SET PRC_MAP
 'FI1DA'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1DA'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1DA'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1DA'.'DMD'.'TRA_Hdt_Dis'
+'FI1DA'.'DMD'.'TRA_Hdt_Gas'
+'FI1DA'.'DMD'.'TRA_Lcv_Cng'
+'FI1DA'.'DMD'.'TRA_Lcv_Dis'
+'FI1DA'.'DMD'.'TRA_Lcv_Gas'
+'FI1DA'.'DMD'.'TRA_Lcv_Lpg'
+'FI1DA'.'DMD'.'TRA_Mop_Gas'
+'FI1DA'.'DMD'.'TRA_Mot_Gas'
 'FI1DA'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1DA'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1DA'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -29580,6 +29876,14 @@ SET PRC_MAP
 'FI1DB'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1DB'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1DB'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1DB'.'DMD'.'TRA_Hdt_Dis'
+'FI1DB'.'DMD'.'TRA_Hdt_Gas'
+'FI1DB'.'DMD'.'TRA_Lcv_Cng'
+'FI1DB'.'DMD'.'TRA_Lcv_Dis'
+'FI1DB'.'DMD'.'TRA_Lcv_Gas'
+'FI1DB'.'DMD'.'TRA_Lcv_Lpg'
+'FI1DB'.'DMD'.'TRA_Mop_Gas'
+'FI1DB'.'DMD'.'TRA_Mot_Gas'
 'FI1DB'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1DB'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1DB'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -29826,6 +30130,14 @@ SET PRC_MAP
 'FI1DC'.'DMD'.'TRA_Car_Oth_Lom'
 'FI1DC'.'DMD'.'TRA_Car_Oth_Sma'
 'FI1DC'.'DMD'.'TRA_Car_Oth_Upm'
+'FI1DC'.'DMD'.'TRA_Hdt_Dis'
+'FI1DC'.'DMD'.'TRA_Hdt_Gas'
+'FI1DC'.'DMD'.'TRA_Lcv_Cng'
+'FI1DC'.'DMD'.'TRA_Lcv_Dis'
+'FI1DC'.'DMD'.'TRA_Lcv_Gas'
+'FI1DC'.'DMD'.'TRA_Lcv_Lpg'
+'FI1DC'.'DMD'.'TRA_Mop_Gas'
+'FI1DC'.'DMD'.'TRA_Mot_Gas'
 'FI1DC'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI1DC'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI1DC'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -30091,6 +30403,14 @@ SET PRC_MAP
 'FI200'.'DMD'.'TRA_Car_Oth_Lom'
 'FI200'.'DMD'.'TRA_Car_Oth_Sma'
 'FI200'.'DMD'.'TRA_Car_Oth_Upm'
+'FI200'.'DMD'.'TRA_Hdt_Dis'
+'FI200'.'DMD'.'TRA_Hdt_Gas'
+'FI200'.'DMD'.'TRA_Lcv_Cng'
+'FI200'.'DMD'.'TRA_Lcv_Dis'
+'FI200'.'DMD'.'TRA_Lcv_Gas'
+'FI200'.'DMD'.'TRA_Lcv_Lpg'
+'FI200'.'DMD'.'TRA_Mop_Gas'
+'FI200'.'DMD'.'TRA_Mot_Gas'
 'FI200'.'DMD'.'TRA_Rai_Frt-Dsl'
 'FI200'.'DMD'.'TRA_Rai_Frt-Elc'
 'FI200'.'DMD'.'TRA_Rai_Pas_Conv-Dsl'
@@ -31389,6 +31709,14 @@ SET PRC_TSL
 'FI196'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI196'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI196'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI196'.'TRA_Hdt_Dis'.ANNUAL
+'FI196'.'TRA_Hdt_Gas'.ANNUAL
+'FI196'.'TRA_Lcv_Cng'.ANNUAL
+'FI196'.'TRA_Lcv_Dis'.ANNUAL
+'FI196'.'TRA_Lcv_Gas'.ANNUAL
+'FI196'.'TRA_Lcv_Lpg'.ANNUAL
+'FI196'.'TRA_Mop_Gas'.ANNUAL
+'FI196'.'TRA_Mot_Gas'.ANNUAL
 'FI196'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI196'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI196'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -31590,6 +31918,14 @@ SET PRC_TSL
 'FI198'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI198'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI198'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI198'.'TRA_Hdt_Dis'.ANNUAL
+'FI198'.'TRA_Hdt_Gas'.ANNUAL
+'FI198'.'TRA_Lcv_Cng'.ANNUAL
+'FI198'.'TRA_Lcv_Dis'.ANNUAL
+'FI198'.'TRA_Lcv_Gas'.ANNUAL
+'FI198'.'TRA_Lcv_Lpg'.ANNUAL
+'FI198'.'TRA_Mop_Gas'.ANNUAL
+'FI198'.'TRA_Mot_Gas'.ANNUAL
 'FI198'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI198'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI198'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -31782,6 +32118,14 @@ SET PRC_TSL
 'FI199'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI199'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI199'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI199'.'TRA_Hdt_Dis'.ANNUAL
+'FI199'.'TRA_Hdt_Gas'.ANNUAL
+'FI199'.'TRA_Lcv_Cng'.ANNUAL
+'FI199'.'TRA_Lcv_Dis'.ANNUAL
+'FI199'.'TRA_Lcv_Gas'.ANNUAL
+'FI199'.'TRA_Lcv_Lpg'.ANNUAL
+'FI199'.'TRA_Mop_Gas'.ANNUAL
+'FI199'.'TRA_Mot_Gas'.ANNUAL
 'FI199'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI199'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI199'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -31987,6 +32331,14 @@ SET PRC_TSL
 'FI19A'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI19A'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI19A'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI19A'.'TRA_Hdt_Dis'.ANNUAL
+'FI19A'.'TRA_Hdt_Gas'.ANNUAL
+'FI19A'.'TRA_Lcv_Cng'.ANNUAL
+'FI19A'.'TRA_Lcv_Dis'.ANNUAL
+'FI19A'.'TRA_Lcv_Gas'.ANNUAL
+'FI19A'.'TRA_Lcv_Lpg'.ANNUAL
+'FI19A'.'TRA_Mop_Gas'.ANNUAL
+'FI19A'.'TRA_Mot_Gas'.ANNUAL
 'FI19A'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI19A'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI19A'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -32190,6 +32542,14 @@ SET PRC_TSL
 'FI19B'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI19B'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI19B'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI19B'.'TRA_Hdt_Dis'.ANNUAL
+'FI19B'.'TRA_Hdt_Gas'.ANNUAL
+'FI19B'.'TRA_Lcv_Cng'.ANNUAL
+'FI19B'.'TRA_Lcv_Dis'.ANNUAL
+'FI19B'.'TRA_Lcv_Gas'.ANNUAL
+'FI19B'.'TRA_Lcv_Lpg'.ANNUAL
+'FI19B'.'TRA_Mop_Gas'.ANNUAL
+'FI19B'.'TRA_Mot_Gas'.ANNUAL
 'FI19B'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI19B'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI19B'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -32440,6 +32800,14 @@ SET PRC_TSL
 'FI1B1'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1B1'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1B1'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1B1'.'TRA_Hdt_Dis'.ANNUAL
+'FI1B1'.'TRA_Hdt_Gas'.ANNUAL
+'FI1B1'.'TRA_Lcv_Cng'.ANNUAL
+'FI1B1'.'TRA_Lcv_Dis'.ANNUAL
+'FI1B1'.'TRA_Lcv_Gas'.ANNUAL
+'FI1B1'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1B1'.'TRA_Mop_Gas'.ANNUAL
+'FI1B1'.'TRA_Mot_Gas'.ANNUAL
 'FI1B1'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1B1'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1B1'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -32646,6 +33014,14 @@ SET PRC_TSL
 'FI1C1'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1C1'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1C1'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1C1'.'TRA_Hdt_Dis'.ANNUAL
+'FI1C1'.'TRA_Hdt_Gas'.ANNUAL
+'FI1C1'.'TRA_Lcv_Cng'.ANNUAL
+'FI1C1'.'TRA_Lcv_Dis'.ANNUAL
+'FI1C1'.'TRA_Lcv_Gas'.ANNUAL
+'FI1C1'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1C1'.'TRA_Mop_Gas'.ANNUAL
+'FI1C1'.'TRA_Mot_Gas'.ANNUAL
 'FI1C1'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1C1'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1C1'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -32854,6 +33230,14 @@ SET PRC_TSL
 'FI1C2'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1C2'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1C2'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1C2'.'TRA_Hdt_Dis'.ANNUAL
+'FI1C2'.'TRA_Hdt_Gas'.ANNUAL
+'FI1C2'.'TRA_Lcv_Cng'.ANNUAL
+'FI1C2'.'TRA_Lcv_Dis'.ANNUAL
+'FI1C2'.'TRA_Lcv_Gas'.ANNUAL
+'FI1C2'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1C2'.'TRA_Mop_Gas'.ANNUAL
+'FI1C2'.'TRA_Mot_Gas'.ANNUAL
 'FI1C2'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1C2'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1C2'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -33106,6 +33490,14 @@ SET PRC_TSL
 'FI1C5'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1C5'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1C5'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1C5'.'TRA_Hdt_Dis'.ANNUAL
+'FI1C5'.'TRA_Hdt_Gas'.ANNUAL
+'FI1C5'.'TRA_Lcv_Cng'.ANNUAL
+'FI1C5'.'TRA_Lcv_Dis'.ANNUAL
+'FI1C5'.'TRA_Lcv_Gas'.ANNUAL
+'FI1C5'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1C5'.'TRA_Mop_Gas'.ANNUAL
+'FI1C5'.'TRA_Mot_Gas'.ANNUAL
 'FI1C5'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1C5'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1C5'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -33312,6 +33704,14 @@ SET PRC_TSL
 'FI1C6'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1C6'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1C6'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1C6'.'TRA_Hdt_Dis'.ANNUAL
+'FI1C6'.'TRA_Hdt_Gas'.ANNUAL
+'FI1C6'.'TRA_Lcv_Cng'.ANNUAL
+'FI1C6'.'TRA_Lcv_Dis'.ANNUAL
+'FI1C6'.'TRA_Lcv_Gas'.ANNUAL
+'FI1C6'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1C6'.'TRA_Mop_Gas'.ANNUAL
+'FI1C6'.'TRA_Mot_Gas'.ANNUAL
 'FI1C6'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1C6'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1C6'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -33518,6 +33918,14 @@ SET PRC_TSL
 'FI1C7'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1C7'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1C7'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1C7'.'TRA_Hdt_Dis'.ANNUAL
+'FI1C7'.'TRA_Hdt_Gas'.ANNUAL
+'FI1C7'.'TRA_Lcv_Cng'.ANNUAL
+'FI1C7'.'TRA_Lcv_Dis'.ANNUAL
+'FI1C7'.'TRA_Lcv_Gas'.ANNUAL
+'FI1C7'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1C7'.'TRA_Mop_Gas'.ANNUAL
+'FI1C7'.'TRA_Mot_Gas'.ANNUAL
 'FI1C7'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1C7'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1C7'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -33711,6 +34119,14 @@ SET PRC_TSL
 'FI1D5'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1D5'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1D5'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1D5'.'TRA_Hdt_Dis'.ANNUAL
+'FI1D5'.'TRA_Hdt_Gas'.ANNUAL
+'FI1D5'.'TRA_Lcv_Cng'.ANNUAL
+'FI1D5'.'TRA_Lcv_Dis'.ANNUAL
+'FI1D5'.'TRA_Lcv_Gas'.ANNUAL
+'FI1D5'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1D5'.'TRA_Mop_Gas'.ANNUAL
+'FI1D5'.'TRA_Mot_Gas'.ANNUAL
 'FI1D5'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1D5'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1D5'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -33924,6 +34340,14 @@ SET PRC_TSL
 'FI1D7'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1D7'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1D7'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1D7'.'TRA_Hdt_Dis'.ANNUAL
+'FI1D7'.'TRA_Hdt_Gas'.ANNUAL
+'FI1D7'.'TRA_Lcv_Cng'.ANNUAL
+'FI1D7'.'TRA_Lcv_Dis'.ANNUAL
+'FI1D7'.'TRA_Lcv_Gas'.ANNUAL
+'FI1D7'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1D7'.'TRA_Mop_Gas'.ANNUAL
+'FI1D7'.'TRA_Mot_Gas'.ANNUAL
 'FI1D7'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1D7'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1D7'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -34073,6 +34497,14 @@ SET PRC_TSL
 'FI1D8'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1D8'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1D8'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1D8'.'TRA_Hdt_Dis'.ANNUAL
+'FI1D8'.'TRA_Hdt_Gas'.ANNUAL
+'FI1D8'.'TRA_Lcv_Cng'.ANNUAL
+'FI1D8'.'TRA_Lcv_Dis'.ANNUAL
+'FI1D8'.'TRA_Lcv_Gas'.ANNUAL
+'FI1D8'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1D8'.'TRA_Mop_Gas'.ANNUAL
+'FI1D8'.'TRA_Mot_Gas'.ANNUAL
 'FI1D8'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1D8'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1D8'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -34299,6 +34731,14 @@ SET PRC_TSL
 'FI1D9'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1D9'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1D9'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1D9'.'TRA_Hdt_Dis'.ANNUAL
+'FI1D9'.'TRA_Hdt_Gas'.ANNUAL
+'FI1D9'.'TRA_Lcv_Cng'.ANNUAL
+'FI1D9'.'TRA_Lcv_Dis'.ANNUAL
+'FI1D9'.'TRA_Lcv_Gas'.ANNUAL
+'FI1D9'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1D9'.'TRA_Mop_Gas'.ANNUAL
+'FI1D9'.'TRA_Mot_Gas'.ANNUAL
 'FI1D9'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1D9'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1D9'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -34493,6 +34933,14 @@ SET PRC_TSL
 'FI1DA'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1DA'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1DA'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1DA'.'TRA_Hdt_Dis'.ANNUAL
+'FI1DA'.'TRA_Hdt_Gas'.ANNUAL
+'FI1DA'.'TRA_Lcv_Cng'.ANNUAL
+'FI1DA'.'TRA_Lcv_Dis'.ANNUAL
+'FI1DA'.'TRA_Lcv_Gas'.ANNUAL
+'FI1DA'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1DA'.'TRA_Mop_Gas'.ANNUAL
+'FI1DA'.'TRA_Mot_Gas'.ANNUAL
 'FI1DA'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1DA'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1DA'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -34700,6 +35148,14 @@ SET PRC_TSL
 'FI1DB'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1DB'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1DB'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1DB'.'TRA_Hdt_Dis'.ANNUAL
+'FI1DB'.'TRA_Hdt_Gas'.ANNUAL
+'FI1DB'.'TRA_Lcv_Cng'.ANNUAL
+'FI1DB'.'TRA_Lcv_Dis'.ANNUAL
+'FI1DB'.'TRA_Lcv_Gas'.ANNUAL
+'FI1DB'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1DB'.'TRA_Mop_Gas'.ANNUAL
+'FI1DB'.'TRA_Mot_Gas'.ANNUAL
 'FI1DB'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1DB'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1DB'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -34927,6 +35383,14 @@ SET PRC_TSL
 'FI1DC'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI1DC'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI1DC'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI1DC'.'TRA_Hdt_Dis'.ANNUAL
+'FI1DC'.'TRA_Hdt_Gas'.ANNUAL
+'FI1DC'.'TRA_Lcv_Cng'.ANNUAL
+'FI1DC'.'TRA_Lcv_Dis'.ANNUAL
+'FI1DC'.'TRA_Lcv_Gas'.ANNUAL
+'FI1DC'.'TRA_Lcv_Lpg'.ANNUAL
+'FI1DC'.'TRA_Mop_Gas'.ANNUAL
+'FI1DC'.'TRA_Mot_Gas'.ANNUAL
 'FI1DC'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI1DC'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI1DC'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -35110,6 +35574,14 @@ SET PRC_TSL
 'FI200'.'TRA_Car_Oth_Lom'.ANNUAL
 'FI200'.'TRA_Car_Oth_Sma'.ANNUAL
 'FI200'.'TRA_Car_Oth_Upm'.ANNUAL
+'FI200'.'TRA_Hdt_Dis'.ANNUAL
+'FI200'.'TRA_Hdt_Gas'.ANNUAL
+'FI200'.'TRA_Lcv_Cng'.ANNUAL
+'FI200'.'TRA_Lcv_Dis'.ANNUAL
+'FI200'.'TRA_Lcv_Gas'.ANNUAL
+'FI200'.'TRA_Lcv_Lpg'.ANNUAL
+'FI200'.'TRA_Mop_Gas'.ANNUAL
+'FI200'.'TRA_Mot_Gas'.ANNUAL
 'FI200'.'TRA_Rai_Frt-Dsl'.ANNUAL
 'FI200'.'TRA_Rai_Frt-Elc'.ANNUAL
 'FI200'.'TRA_Rai_Pas_Conv-Dsl'.ANNUAL
@@ -37132,6 +37604,14 @@ SET PRC_ACTUNT
 'FI196'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI196'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI196'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI196'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI196'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI196'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI196'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI196'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI196'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI196'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI196'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI196'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI196'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI196'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -37375,6 +37855,14 @@ SET PRC_ACTUNT
 'FI198'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI198'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI198'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI198'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI198'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI198'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI198'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI198'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI198'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI198'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI198'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI198'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI198'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI198'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -37600,6 +38088,14 @@ SET PRC_ACTUNT
 'FI199'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI199'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI199'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI199'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI199'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI199'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI199'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI199'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI199'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI199'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI199'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI199'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI199'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI199'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -37846,6 +38342,14 @@ SET PRC_ACTUNT
 'FI19A'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI19A'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI19A'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI19A'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI19A'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI19A'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI19A'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI19A'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI19A'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI19A'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI19A'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI19A'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI19A'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI19A'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -38091,6 +38595,14 @@ SET PRC_ACTUNT
 'FI19B'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI19B'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI19B'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI19B'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI19B'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI19B'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI19B'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI19B'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI19B'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI19B'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI19B'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI19B'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI19B'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI19B'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -38402,6 +38914,14 @@ SET PRC_ACTUNT
 'FI1B1'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1B1'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1B1'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1B1'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1B1'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1B1'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1B1'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1B1'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -38653,6 +39173,14 @@ SET PRC_ACTUNT
 'FI1C1'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1C1'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1C1'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1C1'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1C1'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1C1'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1C1'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1C1'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -38903,6 +39431,14 @@ SET PRC_ACTUNT
 'FI1C2'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1C2'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1C2'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1C2'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1C2'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1C2'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1C2'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1C2'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -39219,6 +39755,14 @@ SET PRC_ACTUNT
 'FI1C5'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1C5'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1C5'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1C5'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1C5'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1C5'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1C5'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1C5'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -39466,6 +40010,14 @@ SET PRC_ACTUNT
 'FI1C6'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1C6'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1C6'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1C6'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1C6'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1C6'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1C6'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1C6'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -39716,6 +40268,14 @@ SET PRC_ACTUNT
 'FI1C7'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1C7'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1C7'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1C7'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1C7'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1C7'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1C7'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1C7'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -39943,6 +40503,14 @@ SET PRC_ACTUNT
 'FI1D5'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1D5'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1D5'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1D5'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1D5'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1D5'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1D5'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1D5'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -40209,6 +40777,14 @@ SET PRC_ACTUNT
 'FI1D7'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1D7'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1D7'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1D7'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1D7'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1D7'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1D7'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1D7'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -40383,6 +40959,14 @@ SET PRC_ACTUNT
 'FI1D8'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1D8'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1D8'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1D8'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1D8'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1D8'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1D8'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1D8'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -40673,6 +41257,14 @@ SET PRC_ACTUNT
 'FI1D9'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1D9'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1D9'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1D9'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1D9'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1D9'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1D9'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1D9'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -40902,6 +41494,14 @@ SET PRC_ACTUNT
 'FI1DA'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1DA'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1DA'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1DA'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1DA'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1DA'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1DA'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1DA'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -41150,6 +41750,14 @@ SET PRC_ACTUNT
 'FI1DB'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1DB'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1DB'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1DB'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1DB'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1DB'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1DB'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1DB'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -41422,6 +42030,14 @@ SET PRC_ACTUNT
 'FI1DC'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI1DC'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI1DC'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI1DC'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI1DC'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI1DC'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI1DC'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI1DC'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -41632,6 +42248,14 @@ SET PRC_ACTUNT
 'FI200'.'TRA_Car_Oth_Lom'.'TCar'.'MVKMS'
 'FI200'.'TRA_Car_Oth_Sma'.'TCar'.'MVKMS'
 'FI200'.'TRA_Car_Oth_Upm'.'TCar'.'MVKMS'
+'FI200'.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO'.'MVKMS'
+'FI200'.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO'.'MVKMS'
+'FI200'.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO'.'MVKMS'
+'FI200'.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO'.'MVKMS'
+'FI200'.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO'.'MVKMS'
+'FI200'.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO'.'MVKMS'
+'FI200'.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO'.'MVKMS'
+'FI200'.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO'.'MVKMS'
 'FI200'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.'BTKM'
 'FI200'.'TRA_Rai_Frt-Elc'.'TRai_Frt'.'BTKM'
 'FI200'.'TRA_Rai_Pas_Conv-Dsl'.'TRai_Pas_Conv'.'BPKM'
@@ -43183,6 +43807,22 @@ SET TOP
 'FI196'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI196'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI196'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI196'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI196'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI196'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI196'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI196'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI196'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI196'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI196'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI196'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI196'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI196'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI196'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI196'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI196'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI196'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI196'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI196'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI196'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI196'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -43650,6 +44290,22 @@ SET TOP
 'FI198'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI198'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI198'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI198'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI198'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI198'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI198'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI198'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI198'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI198'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI198'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI198'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI198'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI198'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI198'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI198'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI198'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI198'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI198'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI198'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI198'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI198'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -44068,6 +44724,22 @@ SET TOP
 'FI199'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI199'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI199'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI199'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI199'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI199'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI199'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI199'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI199'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI199'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI199'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI199'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI199'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI199'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI199'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI199'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI199'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI199'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI199'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI199'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI199'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI199'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -44540,6 +45212,22 @@ SET TOP
 'FI19A'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI19A'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI19A'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI19A'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI19A'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI19A'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI19A'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI19A'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI19A'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI19A'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI19A'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI19A'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI19A'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI19A'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI19A'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI19A'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI19A'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI19A'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI19A'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI19A'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI19A'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI19A'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -45011,6 +45699,22 @@ SET TOP
 'FI19B'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI19B'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI19B'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI19B'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI19B'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI19B'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI19B'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI19B'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI19B'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI19B'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI19B'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI19B'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI19B'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI19B'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI19B'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI19B'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI19B'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI19B'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI19B'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI19B'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI19B'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI19B'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -45606,6 +46310,22 @@ SET TOP
 'FI1B1'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1B1'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1B1'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1B1'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1B1'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1B1'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1B1'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1B1'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1B1'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1B1'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1B1'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1B1'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1B1'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1B1'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1B1'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1B1'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1B1'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1B1'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1B1'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1B1'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1B1'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1B1'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -46069,6 +46789,22 @@ SET TOP
 'FI1C1'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1C1'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1C1'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1C1'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1C1'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1C1'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1C1'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1C1'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1C1'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1C1'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1C1'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1C1'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1C1'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1C1'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1C1'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1C1'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1C1'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1C1'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1C1'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1C1'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1C1'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1C1'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -46548,6 +47284,22 @@ SET TOP
 'FI1C2'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1C2'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1C2'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1C2'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1C2'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1C2'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1C2'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1C2'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1C2'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1C2'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1C2'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1C2'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1C2'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1C2'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1C2'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1C2'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1C2'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1C2'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1C2'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1C2'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1C2'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1C2'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -47142,6 +47894,22 @@ SET TOP
 'FI1C5'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1C5'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1C5'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1C5'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1C5'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1C5'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1C5'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1C5'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1C5'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1C5'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1C5'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1C5'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1C5'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1C5'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1C5'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1C5'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1C5'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1C5'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1C5'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1C5'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1C5'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1C5'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -47618,6 +48386,22 @@ SET TOP
 'FI1C6'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1C6'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1C6'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1C6'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1C6'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1C6'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1C6'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1C6'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1C6'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1C6'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1C6'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1C6'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1C6'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1C6'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1C6'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1C6'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1C6'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1C6'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1C6'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1C6'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1C6'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1C6'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -48098,6 +48882,22 @@ SET TOP
 'FI1C7'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1C7'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1C7'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1C7'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1C7'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1C7'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1C7'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1C7'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1C7'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1C7'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1C7'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1C7'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1C7'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1C7'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1C7'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1C7'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1C7'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1C7'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1C7'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1C7'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1C7'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1C7'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -48519,6 +49319,22 @@ SET TOP
 'FI1D5'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1D5'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1D5'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1D5'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1D5'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1D5'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1D5'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1D5'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1D5'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1D5'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1D5'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1D5'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1D5'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1D5'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1D5'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1D5'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1D5'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1D5'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1D5'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1D5'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1D5'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1D5'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -49029,6 +49845,22 @@ SET TOP
 'FI1D7'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1D7'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1D7'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1D7'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1D7'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1D7'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1D7'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1D7'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1D7'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1D7'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1D7'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1D7'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1D7'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1D7'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1D7'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1D7'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1D7'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1D7'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1D7'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1D7'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1D7'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1D7'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -49336,6 +50168,22 @@ SET TOP
 'FI1D8'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1D8'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1D8'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1D8'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1D8'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1D8'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1D8'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1D8'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1D8'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1D8'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1D8'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1D8'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1D8'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1D8'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1D8'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1D8'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1D8'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1D8'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1D8'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1D8'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1D8'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1D8'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -49901,6 +50749,22 @@ SET TOP
 'FI1D9'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1D9'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1D9'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1D9'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1D9'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1D9'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1D9'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1D9'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1D9'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1D9'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1D9'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1D9'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1D9'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1D9'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1D9'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1D9'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1D9'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1D9'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1D9'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1D9'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1D9'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1D9'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -50329,6 +51193,22 @@ SET TOP
 'FI1DA'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1DA'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1DA'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1DA'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1DA'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1DA'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1DA'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1DA'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1DA'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1DA'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1DA'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1DA'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1DA'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1DA'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1DA'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1DA'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1DA'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1DA'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1DA'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1DA'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1DA'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1DA'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -50808,6 +51688,22 @@ SET TOP
 'FI1DB'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1DB'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1DB'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1DB'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1DB'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1DB'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1DB'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1DB'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1DB'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1DB'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1DB'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1DB'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1DB'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1DB'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1DB'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1DB'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1DB'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1DB'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1DB'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1DB'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1DB'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1DB'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -51339,6 +52235,22 @@ SET TOP
 'FI1DC'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI1DC'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI1DC'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI1DC'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI1DC'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI1DC'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI1DC'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI1DC'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI1DC'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI1DC'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI1DC'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI1DC'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI1DC'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI1DC'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI1DC'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI1DC'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI1DC'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI1DC'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI1DC'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI1DC'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI1DC'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI1DC'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -51738,6 +52650,22 @@ SET TOP
 'FI200'.'TRA_Car_Oth_Sma'.'TRAGSLSP95'.IN
 'FI200'.'TRA_Car_Oth_Upm'.'TCar'.OUT
 'FI200'.'TRA_Car_Oth_Upm'.'TRAGSLSP95'.IN
+'FI200'.'TRA_Hdt_Dis'.'THDT'.OUT
+'FI200'.'TRA_Hdt_Dis'.'TRADST'.IN
+'FI200'.'TRA_Hdt_Gas'.'THDT'.OUT
+'FI200'.'TRA_Hdt_Gas'.'TRAGSLSP95'.IN
+'FI200'.'TRA_Lcv_Cng'.'TLCV'.OUT
+'FI200'.'TRA_Lcv_Cng'.'TRAGAS'.IN
+'FI200'.'TRA_Lcv_Dis'.'TLCV'.OUT
+'FI200'.'TRA_Lcv_Dis'.'TRADST'.IN
+'FI200'.'TRA_Lcv_Gas'.'TLCV'.OUT
+'FI200'.'TRA_Lcv_Gas'.'TRAGSLSP95'.IN
+'FI200'.'TRA_Lcv_Lpg'.'TLCV'.OUT
+'FI200'.'TRA_Lcv_Lpg'.'TRALPG'.IN
+'FI200'.'TRA_Mop_Gas'.'TMop'.OUT
+'FI200'.'TRA_Mop_Gas'.'TRAGSLSP95'.IN
+'FI200'.'TRA_Mot_Gas'.'TMot'.OUT
+'FI200'.'TRA_Mot_Gas'.'TRAGSLSP95'.IN
 'FI200'.'TRA_Rai_Frt-Dsl'.'TRADST'.IN
 'FI200'.'TRA_Rai_Frt-Dsl'.'TRai_Frt'.OUT
 'FI200'.'TRA_Rai_Frt-Elc'.'TRAELC'.IN
@@ -62681,6 +63609,14 @@ SET PRC_DESC
 'FI196'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI196'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI196'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI196'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI196'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI196'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI196'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI196'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI196'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI196'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI196'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI196'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI196'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI196'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -62924,6 +63860,14 @@ SET PRC_DESC
 'FI198'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI198'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI198'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI198'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI198'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI198'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI198'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI198'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI198'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI198'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI198'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI198'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI198'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI198'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -63149,6 +64093,14 @@ SET PRC_DESC
 'FI199'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI199'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI199'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI199'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI199'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI199'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI199'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI199'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI199'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI199'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI199'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI199'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI199'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI199'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -63395,6 +64347,14 @@ SET PRC_DESC
 'FI19A'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI19A'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI19A'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI19A'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI19A'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI19A'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI19A'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI19A'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI19A'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI19A'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI19A'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI19A'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI19A'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI19A'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -63640,6 +64600,14 @@ SET PRC_DESC
 'FI19B'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI19B'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI19B'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI19B'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI19B'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI19B'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI19B'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI19B'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI19B'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI19B'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI19B'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI19B'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI19B'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI19B'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -63951,6 +64919,14 @@ SET PRC_DESC
 'FI1B1'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1B1'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1B1'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1B1'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1B1'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1B1'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1B1'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1B1'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1B1'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1B1'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1B1'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1B1'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1B1'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1B1'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -64202,6 +65178,14 @@ SET PRC_DESC
 'FI1C1'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1C1'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1C1'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1C1'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1C1'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1C1'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1C1'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1C1'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1C1'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1C1'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1C1'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1C1'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1C1'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1C1'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -64452,6 +65436,14 @@ SET PRC_DESC
 'FI1C2'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1C2'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1C2'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1C2'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1C2'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1C2'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1C2'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1C2'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1C2'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1C2'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1C2'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1C2'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1C2'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1C2'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -64768,6 +65760,14 @@ SET PRC_DESC
 'FI1C5'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1C5'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1C5'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1C5'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1C5'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1C5'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1C5'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1C5'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1C5'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1C5'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1C5'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1C5'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1C5'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1C5'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -65015,6 +66015,14 @@ SET PRC_DESC
 'FI1C6'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1C6'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1C6'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1C6'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1C6'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1C6'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1C6'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1C6'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1C6'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1C6'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1C6'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1C6'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1C6'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1C6'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -65265,6 +66273,14 @@ SET PRC_DESC
 'FI1C7'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1C7'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1C7'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1C7'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1C7'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1C7'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1C7'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1C7'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1C7'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1C7'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1C7'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1C7'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1C7'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1C7'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -65492,6 +66508,14 @@ SET PRC_DESC
 'FI1D5'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1D5'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1D5'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1D5'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1D5'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1D5'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1D5'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1D5'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1D5'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1D5'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1D5'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1D5'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1D5'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1D5'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -65758,6 +66782,14 @@ SET PRC_DESC
 'FI1D7'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1D7'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1D7'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1D7'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1D7'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1D7'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1D7'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1D7'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1D7'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1D7'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1D7'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1D7'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1D7'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1D7'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -65932,6 +66964,14 @@ SET PRC_DESC
 'FI1D8'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1D8'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1D8'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1D8'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1D8'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1D8'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1D8'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1D8'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1D8'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1D8'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1D8'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1D8'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1D8'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1D8'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -66222,6 +67262,14 @@ SET PRC_DESC
 'FI1D9'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1D9'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1D9'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1D9'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1D9'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1D9'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1D9'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1D9'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1D9'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1D9'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1D9'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1D9'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1D9'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1D9'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -66451,6 +67499,14 @@ SET PRC_DESC
 'FI1DA'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1DA'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1DA'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1DA'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1DA'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1DA'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1DA'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1DA'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1DA'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1DA'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1DA'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1DA'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1DA'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1DA'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -66699,6 +67755,14 @@ SET PRC_DESC
 'FI1DB'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1DB'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1DB'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1DB'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1DB'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1DB'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1DB'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1DB'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1DB'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1DB'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1DB'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1DB'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1DB'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1DB'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -66971,6 +68035,14 @@ SET PRC_DESC
 'FI1DC'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI1DC'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI1DC'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI1DC'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI1DC'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI1DC'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI1DC'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI1DC'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI1DC'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI1DC'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI1DC'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI1DC'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI1DC'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI1DC'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -67181,6 +68253,14 @@ SET PRC_DESC
 'FI200'.'TRA_Car_Oth_Lom' 'Road Transport Cars Other'
 'FI200'.'TRA_Car_Oth_Sma' 'Road Transport Cars Other'
 'FI200'.'TRA_Car_Oth_Upm' 'Road Transport Cars Other'
+'FI200'.'TRA_Hdt_Dis' 'Road Transport HDTs Diesel'
+'FI200'.'TRA_Hdt_Gas' 'Road Transport HDTs Gasoline'
+'FI200'.'TRA_Lcv_Cng' 'Road Transport LCVs CNG'
+'FI200'.'TRA_Lcv_Dis' 'Road Transport LCVs Diesel'
+'FI200'.'TRA_Lcv_Gas' 'Road Transport LCVs Gasoline'
+'FI200'.'TRA_Lcv_Lpg' 'Road Transport LCVs LPG'
+'FI200'.'TRA_Mop_Gas' 'Road Transport Mopeds Gasoline'
+'FI200'.'TRA_Mot_Gas' 'Road Transport Motorcycles Gasoline'
 'FI200'.'TRA_Rai_Frt-Dsl' 'Rail Freight - Diesel'
 'FI200'.'TRA_Rai_Frt-Elc' 'Rail Freight - Electric'
 'FI200'.'TRA_Rai_Pas_Conv-Dsl' 'Conventional passenger trains - Diesel'
@@ -81885,6 +82965,14 @@ ACT_EFF ' '/
 'FI196'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI196'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI196'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI196'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI196'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI196'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI196'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI196'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI196'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI196'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI196'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI196'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI196'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI196'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -82022,6 +83110,14 @@ ACT_EFF ' '/
 'FI198'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI198'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI198'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI198'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI198'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI198'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI198'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI198'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI198'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI198'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI198'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI198'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI198'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI198'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -82170,6 +83266,14 @@ ACT_EFF ' '/
 'FI199'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI199'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI199'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI199'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI199'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI199'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI199'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI199'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI199'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI199'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI199'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI199'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI199'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI199'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -82336,6 +83440,14 @@ ACT_EFF ' '/
 'FI19A'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI19A'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI19A'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI19A'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI19A'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI19A'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI19A'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI19A'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI19A'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI19A'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI19A'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI19A'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI19A'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI19A'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -82491,6 +83603,14 @@ ACT_EFF ' '/
 'FI19B'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI19B'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI19B'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI19B'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI19B'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI19B'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI19B'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI19B'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI19B'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI19B'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI19B'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI19B'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI19B'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI19B'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -82731,6 +83851,14 @@ ACT_EFF ' '/
 'FI1B1'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1B1'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1B1'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1B1'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1B1'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1B1'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1B1'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1B1'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1B1'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1B1'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1B1'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1B1'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1B1'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1B1'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -82918,6 +84046,14 @@ ACT_EFF ' '/
 'FI1C1'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1C1'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1C1'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1C1'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1C1'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1C1'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1C1'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1C1'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1C1'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1C1'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1C1'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1C1'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1C1'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1C1'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -83105,6 +84241,14 @@ ACT_EFF ' '/
 'FI1C2'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1C2'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1C2'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1C2'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1C2'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1C2'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1C2'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1C2'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1C2'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1C2'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1C2'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1C2'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1C2'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1C2'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -83314,6 +84458,14 @@ ACT_EFF ' '/
 'FI1C5'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1C5'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1C5'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1C5'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1C5'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1C5'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1C5'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1C5'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1C5'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1C5'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1C5'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1C5'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1C5'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1C5'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -83503,6 +84655,14 @@ ACT_EFF ' '/
 'FI1C6'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1C6'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1C6'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1C6'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1C6'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1C6'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1C6'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1C6'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1C6'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1C6'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1C6'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1C6'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1C6'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1C6'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -83650,6 +84810,14 @@ ACT_EFF ' '/
 'FI1C7'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1C7'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1C7'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1C7'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1C7'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1C7'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1C7'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1C7'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1C7'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1C7'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1C7'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1C7'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1C7'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1C7'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -83810,6 +84978,14 @@ ACT_EFF ' '/
 'FI1D5'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1D5'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1D5'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1D5'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1D5'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1D5'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1D5'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1D5'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1D5'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1D5'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1D5'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1D5'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1D5'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1D5'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -83952,6 +85128,14 @@ ACT_EFF ' '/
 'FI1D7'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1D7'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1D7'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1D7'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1D7'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1D7'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1D7'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1D7'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1D7'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1D7'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1D7'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1D7'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1D7'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1D7'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84024,6 +85208,14 @@ ACT_EFF ' '/
 'FI1D8'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1D8'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1D8'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1D8'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1D8'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1D8'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1D8'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1D8'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1D8'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1D8'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1D8'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1D8'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1D8'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1D8'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84201,6 +85393,14 @@ ACT_EFF ' '/
 'FI1D9'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1D9'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1D9'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1D9'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1D9'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1D9'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1D9'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1D9'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1D9'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1D9'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1D9'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1D9'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1D9'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1D9'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84337,6 +85537,14 @@ ACT_EFF ' '/
 'FI1DA'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1DA'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1DA'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1DA'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1DA'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1DA'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1DA'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1DA'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1DA'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1DA'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1DA'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1DA'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1DA'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1DA'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84490,6 +85698,14 @@ ACT_EFF ' '/
 'FI1DB'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1DB'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1DB'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1DB'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1DB'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1DB'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1DB'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1DB'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1DB'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1DB'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1DB'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1DB'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1DB'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1DB'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84602,6 +85818,14 @@ ACT_EFF ' '/
 'FI1DC'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI1DC'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI1DC'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI1DC'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI1DC'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI1DC'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI1DC'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI1DC'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI1DC'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI1DC'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI1DC'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI1DC'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI1DC'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI1DC'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84672,6 +85896,14 @@ ACT_EFF ' '/
 'FI200'.2010.'TRA_Car_Oth_Lom'.'ACT'.ANNUAL 0.42
 'FI200'.2010.'TRA_Car_Oth_Sma'.'ACT'.ANNUAL 0.43
 'FI200'.2010.'TRA_Car_Oth_Upm'.'ACT'.ANNUAL 0.36
+'FI200'.2010.'TRA_Hdt_Dis'.'ACT'.ANNUAL 0.103957439548966
+'FI200'.2010.'TRA_Hdt_Gas'.'ACT'.ANNUAL 0.132740328907598
+'FI200'.2010.'TRA_Lcv_Cng'.'ACT'.ANNUAL 0.195905201584103
+'FI200'.2010.'TRA_Lcv_Dis'.'ACT'.ANNUAL 0.295016429375914
+'FI200'.2010.'TRA_Lcv_Gas'.'ACT'.ANNUAL 0.240916245751196
+'FI200'.2010.'TRA_Lcv_Lpg'.'ACT'.ANNUAL 0.226178244331562
+'FI200'.2010.'TRA_Mop_Gas'.'ACT'.ANNUAL 1.06861504462526
+'FI200'.2010.'TRA_Mot_Gas'.'ACT'.ANNUAL 0.639297809237315
 'FI200'.2010.'TRA_Rai_Frt-Dsl'.'ACT'.ANNUAL 2.92893868404264
 'FI200'.2010.'TRA_Rai_Frt-Elc'.'ACT'.ANNUAL 8.32841779654257
 'FI200'.2010.'TRA_Rai_Pas_Conv-Dsl'.'ACT'.ANNUAL 1.00036199998741
@@ -84747,10 +85979,10 @@ COM_PROJ ' '/
 'FI'.2010.'TBunk' 100.641
 'FI'.2010.'TBus' 10.678094752
 'FI'.2010.'TCar' 72.6681173888
-'FI'.2010.'THDT' 0
-'FI'.2010.'TLCV' 0
-'FI'.2010.'TMop' 0
-'FI'.2010.'TMot' 0
+'FI'.2010.'THDT' 48.0684418720111
+'FI'.2010.'TLCV' 2.66758333106654
+'FI'.2010.'TMop' 1.39470925158742
+'FI'.2010.'TMot' 2.60329029755054
 'FI'.2010.'TNav' 4.58182
 'FI'.2010.'TRai_Frt' 9.48385
 'FI'.2010.'TRai_Pas_Conv' 3.308
@@ -86742,6 +87974,34 @@ NCAP_AF ' '/
 'FI196'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI196'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI196'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI196'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI196'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI196'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI196'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI196'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI196'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI196'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI196'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI196'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI196'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI196'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI196'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI196'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI196'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI196'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI196'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI196'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI196'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI196'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI196'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI196'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI196'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI196'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI196'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI196'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI196'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI196'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI196'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI196'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI196'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI196'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -86815,6 +88075,34 @@ NCAP_AF ' '/
 'FI198'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI198'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI198'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI198'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI198'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI198'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI198'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI198'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI198'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI198'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI198'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI198'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI198'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI198'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI198'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI198'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI198'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI198'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI198'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI198'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI198'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI198'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI198'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI198'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI198'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI198'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI198'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI198'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI198'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI198'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI198'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI198'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI198'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI198'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -86885,6 +88173,34 @@ NCAP_AF ' '/
 'FI199'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI199'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI199'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI199'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI199'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI199'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI199'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI199'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI199'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI199'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI199'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI199'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI199'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI199'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI199'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI199'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI199'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI199'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI199'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI199'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI199'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI199'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI199'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI199'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI199'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI199'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI199'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI199'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI199'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI199'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI199'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI199'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI199'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI199'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -86958,6 +88274,34 @@ NCAP_AF ' '/
 'FI19A'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI19A'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI19A'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI19A'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI19A'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI19A'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI19A'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI19A'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI19A'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI19A'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI19A'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI19A'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI19A'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI19A'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI19A'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI19A'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI19A'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI19A'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI19A'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI19A'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI19A'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI19A'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI19A'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI19A'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI19A'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI19A'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI19A'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI19A'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI19A'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI19A'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI19A'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI19A'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI19A'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI19A'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87031,6 +88375,34 @@ NCAP_AF ' '/
 'FI19B'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI19B'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI19B'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI19B'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI19B'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI19B'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI19B'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI19B'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI19B'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI19B'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI19B'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI19B'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI19B'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI19B'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI19B'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI19B'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI19B'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI19B'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI19B'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI19B'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI19B'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI19B'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI19B'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI19B'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI19B'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI19B'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI19B'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI19B'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI19B'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI19B'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI19B'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI19B'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI19B'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI19B'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87096,6 +88468,34 @@ NCAP_AF ' '/
 'FI1B1'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1B1'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1B1'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1B1'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1B1'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1B1'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1B1'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1B1'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1B1'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1B1'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1B1'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1B1'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1B1'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1B1'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1B1'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1B1'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1B1'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1B1'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1B1'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1B1'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1B1'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1B1'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1B1'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1B1'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1B1'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1B1'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1B1'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1B1'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1B1'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1B1'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1B1'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1C1'.2010.'EEPP_PV'.FD.FX 0.119584401
 'FI1C1'.2010.'EEPP_PV'.FN.FX 0.001369928
 'FI1C1'.2010.'EEPP_PV'.FP.FX 0.00688869
@@ -87160,6 +88560,34 @@ NCAP_AF ' '/
 'FI1C1'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1C1'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1C1'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1C1'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1C1'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1C1'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1C1'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1C1'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1C1'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1C1'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1C1'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1C1'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C1'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C1'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C1'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C1'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C1'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C1'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C1'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C1'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C1'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C1'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C1'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C1'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C1'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C1'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C1'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1C1'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C1'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C1'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C1'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1C1'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1C1'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1C1'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87221,6 +88649,34 @@ NCAP_AF ' '/
 'FI1C2'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1C2'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1C2'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1C2'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1C2'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1C2'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1C2'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1C2'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1C2'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1C2'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1C2'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1C2'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C2'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C2'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C2'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C2'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C2'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C2'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C2'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C2'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C2'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C2'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C2'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C2'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C2'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C2'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C2'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1C2'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C2'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C2'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C2'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1C5'.2010.'EEPP_PV'.FD.FX 0.119584401
 'FI1C5'.2010.'EEPP_PV'.FN.FX 0.001369928
 'FI1C5'.2010.'EEPP_PV'.FP.FX 0.00688869
@@ -87288,6 +88744,34 @@ NCAP_AF ' '/
 'FI1C5'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1C5'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1C5'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1C5'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1C5'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1C5'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1C5'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1C5'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1C5'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1C5'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1C5'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1C5'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C5'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C5'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C5'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C5'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C5'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C5'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C5'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C5'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C5'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C5'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C5'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C5'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C5'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C5'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C5'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1C5'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C5'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C5'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C5'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1C5'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1C5'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1C5'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87361,6 +88845,34 @@ NCAP_AF ' '/
 'FI1C6'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1C6'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1C6'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1C6'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1C6'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1C6'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1C6'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1C6'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1C6'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1C6'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1C6'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1C6'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C6'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C6'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C6'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C6'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C6'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C6'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C6'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C6'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C6'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C6'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C6'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C6'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C6'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C6'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C6'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1C6'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C6'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C6'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C6'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1C6'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1C6'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1C6'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87434,6 +88946,34 @@ NCAP_AF ' '/
 'FI1C7'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1C7'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1C7'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1C7'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1C7'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1C7'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1C7'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1C7'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1C7'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1C7'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1C7'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1C7'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C7'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C7'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C7'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C7'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C7'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C7'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C7'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C7'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1C7'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1C7'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1C7'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1C7'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C7'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C7'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C7'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1C7'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1C7'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1C7'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1C7'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1C7'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1C7'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1C7'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87504,6 +89044,34 @@ NCAP_AF ' '/
 'FI1D5'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1D5'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1D5'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1D5'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1D5'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1D5'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1D5'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1D5'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1D5'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1D5'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1D5'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1D5'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D5'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D5'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D5'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D5'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D5'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D5'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D5'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D5'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D5'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D5'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D5'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D5'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D5'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D5'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D5'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1D5'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D5'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D5'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D5'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1D5'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1D5'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1D5'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87593,6 +89161,34 @@ NCAP_AF ' '/
 'FI1D7'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1D7'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1D7'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1D7'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1D7'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1D7'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1D7'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1D7'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1D7'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1D7'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1D7'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1D7'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D7'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D7'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D7'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D7'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D7'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D7'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D7'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D7'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D7'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D7'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D7'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D7'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D7'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D7'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D7'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1D7'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D7'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D7'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D7'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1D7'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1D7'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1D7'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87663,6 +89259,34 @@ NCAP_AF ' '/
 'FI1D8'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1D8'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1D8'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1D8'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1D8'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1D8'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1D8'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1D8'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1D8'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1D8'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1D8'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1D8'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D8'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D8'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D8'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D8'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D8'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D8'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D8'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D8'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D8'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D8'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D8'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D8'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D8'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D8'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D8'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1D8'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D8'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D8'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D8'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1D8'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1D8'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1D8'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87740,6 +89364,34 @@ NCAP_AF ' '/
 'FI1D9'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1D9'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1D9'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1D9'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1D9'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1D9'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1D9'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1D9'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1D9'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1D9'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1D9'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1D9'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D9'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D9'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D9'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D9'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D9'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D9'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D9'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D9'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1D9'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1D9'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1D9'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1D9'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D9'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D9'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D9'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1D9'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1D9'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1D9'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1D9'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1D9'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1D9'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1D9'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87814,6 +89466,34 @@ NCAP_AF ' '/
 'FI1DA'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1DA'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1DA'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1DA'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1DA'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1DA'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1DA'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1DA'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1DA'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1DA'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1DA'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1DA'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DA'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DA'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DA'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DA'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DA'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DA'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DA'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DA'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DA'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DA'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DA'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DA'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1DA'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1DA'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1DA'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1DA'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1DA'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1DA'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1DA'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1DA'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1DA'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1DA'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87887,6 +89567,34 @@ NCAP_AF ' '/
 'FI1DB'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1DB'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1DB'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1DB'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1DB'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1DB'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1DB'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1DB'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1DB'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1DB'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1DB'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1DB'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DB'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DB'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DB'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DB'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DB'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DB'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DB'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DB'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DB'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DB'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DB'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DB'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1DB'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1DB'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1DB'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1DB'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1DB'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1DB'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1DB'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1DB'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1DB'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1DB'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -87948,6 +89656,34 @@ NCAP_AF ' '/
 'FI1DC'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI1DC'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI1DC'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI1DC'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI1DC'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI1DC'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI1DC'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI1DC'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI1DC'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI1DC'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI1DC'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI1DC'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DC'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DC'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DC'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DC'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DC'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DC'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DC'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DC'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI1DC'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI1DC'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI1DC'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI1DC'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1DC'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1DC'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1DC'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI1DC'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI1DC'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI1DC'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI1DC'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 'FI1DC'.2100.'EUHYDDAM00'.FD.UP 0.738220918894385
 'FI1DC'.2100.'EUHYDDAM00'.FN.UP 0.738220918894385
 'FI1DC'.2100.'EUHYDDAM00'.FP.UP 0.738220918894385
@@ -88006,6 +89742,34 @@ NCAP_AF ' '/
 'FI200'.2010.'TRA_Car_Gas_Sma'.ANNUAL.UP 14
 'FI200'.2010.'TRA_Car_Gas_Upm'.ANNUAL.LO 11.2
 'FI200'.2010.'TRA_Car_Gas_Upm'.ANNUAL.UP 14
+'FI200'.2010.'TRA_Hdt_Dis'.ANNUAL.LO 19.2388390770816
+'FI200'.2010.'TRA_Hdt_Dis'.ANNUAL.UP 38.4776781541632
+'FI200'.2010.'TRA_Hdt_Gas'.ANNUAL.LO 8.53805793388865
+'FI200'.2010.'TRA_Hdt_Gas'.ANNUAL.UP 17.0761158677773
+'FI200'.2010.'TRA_Lcv_Dis'.ANNUAL.LO 8.04866159589295
+'FI200'.2010.'TRA_Lcv_Dis'.ANNUAL.UP 16.0973231917859
+'FI200'.2010.'TRA_Lcv_Gas'.ANNUAL.LO 3.62454186549191
+'FI200'.2010.'TRA_Lcv_Gas'.ANNUAL.UP 7.24908373098383
+'FI200'.2010.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI200'.2010.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI200'.2010.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI200'.2010.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI200'.2011.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI200'.2011.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI200'.2011.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI200'.2011.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI200'.2017.'TRA_Mop_Gas'.ANNUAL.LO 4.29324596758592
+'FI200'.2017.'TRA_Mop_Gas'.ANNUAL.UP 5.3665574594824
+'FI200'.2017.'TRA_Mot_Gas'.ANNUAL.LO 9.17956530648957
+'FI200'.2017.'TRA_Mot_Gas'.ANNUAL.UP 11.474456633112
+'FI200'.2018.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI200'.2018.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI200'.2018.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI200'.2018.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
+'FI200'.2050.'TRA_Mop_Gas'.ANNUAL.LO 1.07331149189648
+'FI200'.2050.'TRA_Mop_Gas'.ANNUAL.UP 1.3416393648706
+'FI200'.2050.'TRA_Mot_Gas'.ANNUAL.LO 2.29489132662239
+'FI200'.2050.'TRA_Mot_Gas'.ANNUAL.UP 2.86861415827799
 /;
 
 PARAMETER
@@ -89371,6 +91135,14 @@ NCAP_BND ' '/
 'FI196'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI196'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI196'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI196'.0.'TRA_Hdt_Dis'.UP 2
+'FI196'.0.'TRA_Hdt_Gas'.UP 2
+'FI196'.0.'TRA_Lcv_Cng'.UP 2
+'FI196'.0.'TRA_Lcv_Dis'.UP 2
+'FI196'.0.'TRA_Lcv_Gas'.UP 2
+'FI196'.0.'TRA_Lcv_Lpg'.UP 2
+'FI196'.0.'TRA_Mop_Gas'.UP 2
+'FI196'.0.'TRA_Mot_Gas'.UP 2
 'FI198'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI198'.0.'ECHP_biomass_thermal'.UP 2
 'FI198'.0.'ECHP_HFO_thermal'.UP 2
@@ -89509,6 +91281,14 @@ NCAP_BND ' '/
 'FI198'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI198'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI198'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI198'.0.'TRA_Hdt_Dis'.UP 2
+'FI198'.0.'TRA_Hdt_Gas'.UP 2
+'FI198'.0.'TRA_Lcv_Cng'.UP 2
+'FI198'.0.'TRA_Lcv_Dis'.UP 2
+'FI198'.0.'TRA_Lcv_Gas'.UP 2
+'FI198'.0.'TRA_Lcv_Lpg'.UP 2
+'FI198'.0.'TRA_Mop_Gas'.UP 2
+'FI198'.0.'TRA_Mot_Gas'.UP 2
 'FI199'.0.'ECHP_HFO_thermal'.UP 2
 'FI199'.0.'ECHP_LFO_thermal'.UP 2
 'FI199'.0.'ECHP_lignite_thermal'.UP 2
@@ -89639,6 +91419,14 @@ NCAP_BND ' '/
 'FI199'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI199'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI199'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI199'.0.'TRA_Hdt_Dis'.UP 2
+'FI199'.0.'TRA_Hdt_Gas'.UP 2
+'FI199'.0.'TRA_Lcv_Cng'.UP 2
+'FI199'.0.'TRA_Lcv_Dis'.UP 2
+'FI199'.0.'TRA_Lcv_Gas'.UP 2
+'FI199'.0.'TRA_Lcv_Lpg'.UP 2
+'FI199'.0.'TRA_Mop_Gas'.UP 2
+'FI199'.0.'TRA_Mot_Gas'.UP 2
 'FI19A'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI19A'.0.'ECHP_coal_thermal'.UP 2
 'FI19A'.0.'ECHP_HFO_thermal'.UP 2
@@ -89780,6 +91568,14 @@ NCAP_BND ' '/
 'FI19A'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI19A'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI19A'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI19A'.0.'TRA_Hdt_Dis'.UP 2
+'FI19A'.0.'TRA_Hdt_Gas'.UP 2
+'FI19A'.0.'TRA_Lcv_Cng'.UP 2
+'FI19A'.0.'TRA_Lcv_Dis'.UP 2
+'FI19A'.0.'TRA_Lcv_Gas'.UP 2
+'FI19A'.0.'TRA_Lcv_Lpg'.UP 2
+'FI19A'.0.'TRA_Mop_Gas'.UP 2
+'FI19A'.0.'TRA_Mot_Gas'.UP 2
 'FI19B'.0.'ECHP_biomass_thermal'.UP 2
 'FI19B'.0.'ECHP_HFO_thermal'.UP 2
 'FI19B'.0.'ECHP_LFO_thermal'.UP 2
@@ -89919,6 +91715,14 @@ NCAP_BND ' '/
 'FI19B'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI19B'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI19B'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI19B'.0.'TRA_Hdt_Dis'.UP 2
+'FI19B'.0.'TRA_Hdt_Gas'.UP 2
+'FI19B'.0.'TRA_Lcv_Cng'.UP 2
+'FI19B'.0.'TRA_Lcv_Dis'.UP 2
+'FI19B'.0.'TRA_Lcv_Gas'.UP 2
+'FI19B'.0.'TRA_Lcv_Lpg'.UP 2
+'FI19B'.0.'TRA_Mop_Gas'.UP 2
+'FI19B'.0.'TRA_Mot_Gas'.UP 2
 'FI1B1'.0.'CHPAUTOGENRFG00'.UP 2
 'FI1B1'.0.'ECHP_biomass_thermal'.UP 2
 'FI1B1'.0.'ECHP_coal_thermal'.UP 2
@@ -90096,6 +91900,14 @@ NCAP_BND ' '/
 'FI1B1'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1B1'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1B1'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1B1'.0.'TRA_Hdt_Dis'.UP 2
+'FI1B1'.0.'TRA_Hdt_Gas'.UP 2
+'FI1B1'.0.'TRA_Lcv_Cng'.UP 2
+'FI1B1'.0.'TRA_Lcv_Dis'.UP 2
+'FI1B1'.0.'TRA_Lcv_Gas'.UP 2
+'FI1B1'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1B1'.0.'TRA_Mop_Gas'.UP 2
+'FI1B1'.0.'TRA_Mot_Gas'.UP 2
 'FI1C1'.0.'ECHP_biomass_thermal'.UP 2
 'FI1C1'.0.'ECHP_coal_thermal'.UP 2
 'FI1C1'.0.'ECHP_HFO_thermal'.UP 2
@@ -90239,6 +92051,14 @@ NCAP_BND ' '/
 'FI1C1'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1C1'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1C1'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1C1'.0.'TRA_Hdt_Dis'.UP 2
+'FI1C1'.0.'TRA_Hdt_Gas'.UP 2
+'FI1C1'.0.'TRA_Lcv_Cng'.UP 2
+'FI1C1'.0.'TRA_Lcv_Dis'.UP 2
+'FI1C1'.0.'TRA_Lcv_Gas'.UP 2
+'FI1C1'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1C1'.0.'TRA_Mop_Gas'.UP 2
+'FI1C1'.0.'TRA_Mot_Gas'.UP 2
 'FI1C1'.2010.'ICMFI_PARA_E_DRY'.UP 0
 'FI1C1'.2010.'ICMFI_PARA_E_FIN'.UP 0
 'FI1C2'.0.'ECHP_biomass_thermal'.UP 2
@@ -90384,6 +92204,14 @@ NCAP_BND ' '/
 'FI1C2'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1C2'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1C2'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1C2'.0.'TRA_Hdt_Dis'.UP 2
+'FI1C2'.0.'TRA_Hdt_Gas'.UP 2
+'FI1C2'.0.'TRA_Lcv_Cng'.UP 2
+'FI1C2'.0.'TRA_Lcv_Dis'.UP 2
+'FI1C2'.0.'TRA_Lcv_Gas'.UP 2
+'FI1C2'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1C2'.0.'TRA_Mop_Gas'.UP 2
+'FI1C2'.0.'TRA_Mot_Gas'.UP 2
 'FI1C5'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI1C5'.0.'ECHP_biomass_thermal'.UP 2
 'FI1C5'.0.'ECHP_HFO_thermal'.UP 2
@@ -90565,6 +92393,14 @@ NCAP_BND ' '/
 'FI1C5'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1C5'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1C5'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1C5'.0.'TRA_Hdt_Dis'.UP 2
+'FI1C5'.0.'TRA_Hdt_Gas'.UP 2
+'FI1C5'.0.'TRA_Lcv_Cng'.UP 2
+'FI1C5'.0.'TRA_Lcv_Dis'.UP 2
+'FI1C5'.0.'TRA_Lcv_Gas'.UP 2
+'FI1C5'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1C5'.0.'TRA_Mop_Gas'.UP 2
+'FI1C5'.0.'TRA_Mot_Gas'.UP 2
 'FI1C5'.2010.'ICMFI_LAPP_E_DRY'.UP 0
 'FI1C5'.2010.'ICMFI_LAPP_E_FIN'.UP 0
 'FI1C6'.0.'ECHP_coal_thermal'.UP 2
@@ -90709,6 +92545,14 @@ NCAP_BND ' '/
 'FI1C6'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1C6'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1C6'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1C6'.0.'TRA_Hdt_Dis'.UP 2
+'FI1C6'.0.'TRA_Hdt_Gas'.UP 2
+'FI1C6'.0.'TRA_Lcv_Cng'.UP 2
+'FI1C6'.0.'TRA_Lcv_Dis'.UP 2
+'FI1C6'.0.'TRA_Lcv_Gas'.UP 2
+'FI1C6'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1C6'.0.'TRA_Mop_Gas'.UP 2
+'FI1C6'.0.'TRA_Mot_Gas'.UP 2
 'FI1C7'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI1C7'.0.'ECHP_HFO_thermal'.UP 2
 'FI1C7'.0.'ECHP_LFO_thermal'.UP 2
@@ -90851,6 +92695,14 @@ NCAP_BND ' '/
 'FI1C7'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1C7'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1C7'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1C7'.0.'TRA_Hdt_Dis'.UP 2
+'FI1C7'.0.'TRA_Hdt_Gas'.UP 2
+'FI1C7'.0.'TRA_Lcv_Cng'.UP 2
+'FI1C7'.0.'TRA_Lcv_Dis'.UP 2
+'FI1C7'.0.'TRA_Lcv_Gas'.UP 2
+'FI1C7'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1C7'.0.'TRA_Mop_Gas'.UP 2
+'FI1C7'.0.'TRA_Mot_Gas'.UP 2
 'FI1D5'.0.'ECHP_biomass_thermal'.UP 2
 'FI1D5'.0.'ECHP_HFO_thermal'.UP 2
 'FI1D5'.0.'ECHP_LFO_thermal'.UP 2
@@ -90982,6 +92834,14 @@ NCAP_BND ' '/
 'FI1D5'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1D5'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1D5'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1D5'.0.'TRA_Hdt_Dis'.UP 2
+'FI1D5'.0.'TRA_Hdt_Gas'.UP 2
+'FI1D5'.0.'TRA_Lcv_Cng'.UP 2
+'FI1D5'.0.'TRA_Lcv_Dis'.UP 2
+'FI1D5'.0.'TRA_Lcv_Gas'.UP 2
+'FI1D5'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1D5'.0.'TRA_Mop_Gas'.UP 2
+'FI1D5'.0.'TRA_Mot_Gas'.UP 2
 'FI1D7'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI1D7'.0.'ECHP_biomass_thermal'.UP 2
 'FI1D7'.0.'ECHP_HFO_thermal'.UP 2
@@ -91131,6 +92991,14 @@ NCAP_BND ' '/
 'FI1D7'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1D7'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1D7'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1D7'.0.'TRA_Hdt_Dis'.UP 2
+'FI1D7'.0.'TRA_Hdt_Gas'.UP 2
+'FI1D7'.0.'TRA_Lcv_Cng'.UP 2
+'FI1D7'.0.'TRA_Lcv_Dis'.UP 2
+'FI1D7'.0.'TRA_Lcv_Gas'.UP 2
+'FI1D7'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1D7'.0.'TRA_Mop_Gas'.UP 2
+'FI1D7'.0.'TRA_Mot_Gas'.UP 2
 'FI1D8'.0.'EEPP_PV'.UP 2
 'FI1D8'.0.'EEPP_windON'.UP 2
 'FI1D8'.0.'EUHYDDAM00'.UP 2
@@ -91223,6 +93091,14 @@ NCAP_BND ' '/
 'FI1D8'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1D8'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1D8'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1D8'.0.'TRA_Hdt_Dis'.UP 2
+'FI1D8'.0.'TRA_Hdt_Gas'.UP 2
+'FI1D8'.0.'TRA_Lcv_Cng'.UP 2
+'FI1D8'.0.'TRA_Lcv_Dis'.UP 2
+'FI1D8'.0.'TRA_Lcv_Gas'.UP 2
+'FI1D8'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1D8'.0.'TRA_Mop_Gas'.UP 2
+'FI1D8'.0.'TRA_Mot_Gas'.UP 2
 'FI1D9'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI1D9'.0.'ECHP_biomass_thermal'.UP 2
 'FI1D9'.0.'ECHP_HFO_thermal'.UP 2
@@ -91382,6 +93258,14 @@ NCAP_BND ' '/
 'FI1D9'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1D9'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1D9'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1D9'.0.'TRA_Hdt_Dis'.UP 2
+'FI1D9'.0.'TRA_Hdt_Gas'.UP 2
+'FI1D9'.0.'TRA_Lcv_Cng'.UP 2
+'FI1D9'.0.'TRA_Lcv_Dis'.UP 2
+'FI1D9'.0.'TRA_Lcv_Gas'.UP 2
+'FI1D9'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1D9'.0.'TRA_Mop_Gas'.UP 2
+'FI1D9'.0.'TRA_Mot_Gas'.UP 2
 'FI1DA'.0.'ECHP_biomass_thermal'.UP 2
 'FI1DA'.0.'ECHP_HFO_thermal'.UP 2
 'FI1DA'.0.'ECHP_LFO_thermal'.UP 2
@@ -91515,6 +93399,14 @@ NCAP_BND ' '/
 'FI1DA'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1DA'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1DA'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1DA'.0.'TRA_Hdt_Dis'.UP 2
+'FI1DA'.0.'TRA_Hdt_Gas'.UP 2
+'FI1DA'.0.'TRA_Lcv_Cng'.UP 2
+'FI1DA'.0.'TRA_Lcv_Dis'.UP 2
+'FI1DA'.0.'TRA_Lcv_Gas'.UP 2
+'FI1DA'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1DA'.0.'TRA_Mop_Gas'.UP 2
+'FI1DA'.0.'TRA_Mot_Gas'.UP 2
 'FI1DB'.0.'CHPAUTOGENBLQ00'.UP 2
 'FI1DB'.0.'ECHP_HFO_thermal'.UP 2
 'FI1DB'.0.'ECHP_LFO_thermal'.UP 2
@@ -91658,6 +93550,14 @@ NCAP_BND ' '/
 'FI1DB'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1DB'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1DB'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1DB'.0.'TRA_Hdt_Dis'.UP 2
+'FI1DB'.0.'TRA_Hdt_Gas'.UP 2
+'FI1DB'.0.'TRA_Lcv_Cng'.UP 2
+'FI1DB'.0.'TRA_Lcv_Dis'.UP 2
+'FI1DB'.0.'TRA_Lcv_Gas'.UP 2
+'FI1DB'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1DB'.0.'TRA_Mop_Gas'.UP 2
+'FI1DB'.0.'TRA_Mot_Gas'.UP 2
 'FI1DC'.0.'ECHP_HFO_thermal'.UP 2
 'FI1DC'.0.'ECHP_LFO_thermal'.UP 2
 'FI1DC'.0.'ECHP_lignite_thermal'.UP 2
@@ -91818,6 +93718,14 @@ NCAP_BND ' '/
 'FI1DC'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI1DC'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI1DC'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI1DC'.0.'TRA_Hdt_Dis'.UP 2
+'FI1DC'.0.'TRA_Hdt_Gas'.UP 2
+'FI1DC'.0.'TRA_Lcv_Cng'.UP 2
+'FI1DC'.0.'TRA_Lcv_Dis'.UP 2
+'FI1DC'.0.'TRA_Lcv_Gas'.UP 2
+'FI1DC'.0.'TRA_Lcv_Lpg'.UP 2
+'FI1DC'.0.'TRA_Mop_Gas'.UP 2
+'FI1DC'.0.'TRA_Mot_Gas'.UP 2
 'FI200'.0.'EEPP_PV'.UP 2
 'FI200'.0.'EEPP_windON'.UP 2
 'FI200'.0.'IALFINPRO00'.UP 2
@@ -91940,6 +93848,14 @@ NCAP_BND ' '/
 'FI200'.0.'TRA_Car_Oth_Lom'.UP 2
 'FI200'.0.'TRA_Car_Oth_Sma'.UP 2
 'FI200'.0.'TRA_Car_Oth_Upm'.UP 2
+'FI200'.0.'TRA_Hdt_Dis'.UP 2
+'FI200'.0.'TRA_Hdt_Gas'.UP 2
+'FI200'.0.'TRA_Lcv_Cng'.UP 2
+'FI200'.0.'TRA_Lcv_Dis'.UP 2
+'FI200'.0.'TRA_Lcv_Gas'.UP 2
+'FI200'.0.'TRA_Lcv_Lpg'.UP 2
+'FI200'.0.'TRA_Mop_Gas'.UP 2
+'FI200'.0.'TRA_Mot_Gas'.UP 2
 /;
 
 PARAMETER
@@ -93739,6 +95655,14 @@ NCAP_TLIFE ' '/
 'FI196'.2010.'TRA_Car_Oth_Lom' 12
 'FI196'.2010.'TRA_Car_Oth_Sma' 12
 'FI196'.2010.'TRA_Car_Oth_Upm' 12
+'FI196'.2010.'TRA_Hdt_Dis' 15
+'FI196'.2010.'TRA_Hdt_Gas' 15
+'FI196'.2010.'TRA_Lcv_Cng' 15
+'FI196'.2010.'TRA_Lcv_Dis' 15
+'FI196'.2010.'TRA_Lcv_Gas' 15
+'FI196'.2010.'TRA_Lcv_Lpg' 15
+'FI196'.2010.'TRA_Mop_Gas' 12
+'FI196'.2010.'TRA_Mot_Gas' 12
 'FI198'.2010.'CHPAUTOGENBLQ00' 20
 'FI198'.2010.'ECHP_biomass_thermal' 200
 'FI198'.2010.'ECHP_HFO_thermal' 200
@@ -93877,6 +95801,14 @@ NCAP_TLIFE ' '/
 'FI198'.2010.'TRA_Car_Oth_Lom' 12
 'FI198'.2010.'TRA_Car_Oth_Sma' 12
 'FI198'.2010.'TRA_Car_Oth_Upm' 12
+'FI198'.2010.'TRA_Hdt_Dis' 15
+'FI198'.2010.'TRA_Hdt_Gas' 15
+'FI198'.2010.'TRA_Lcv_Cng' 15
+'FI198'.2010.'TRA_Lcv_Dis' 15
+'FI198'.2010.'TRA_Lcv_Gas' 15
+'FI198'.2010.'TRA_Lcv_Lpg' 15
+'FI198'.2010.'TRA_Mop_Gas' 12
+'FI198'.2010.'TRA_Mot_Gas' 12
 'FI199'.2010.'ECHP_HFO_thermal' 200
 'FI199'.2010.'ECHP_LFO_thermal' 200
 'FI199'.2010.'ECHP_lignite_thermal' 200
@@ -94007,6 +95939,14 @@ NCAP_TLIFE ' '/
 'FI199'.2010.'TRA_Car_Oth_Lom' 12
 'FI199'.2010.'TRA_Car_Oth_Sma' 12
 'FI199'.2010.'TRA_Car_Oth_Upm' 12
+'FI199'.2010.'TRA_Hdt_Dis' 15
+'FI199'.2010.'TRA_Hdt_Gas' 15
+'FI199'.2010.'TRA_Lcv_Cng' 15
+'FI199'.2010.'TRA_Lcv_Dis' 15
+'FI199'.2010.'TRA_Lcv_Gas' 15
+'FI199'.2010.'TRA_Lcv_Lpg' 15
+'FI199'.2010.'TRA_Mop_Gas' 12
+'FI199'.2010.'TRA_Mot_Gas' 12
 'FI19A'.2010.'CHPAUTOGENBLQ00' 20
 'FI19A'.2010.'ECHP_coal_thermal' 200
 'FI19A'.2010.'ECHP_HFO_thermal' 200
@@ -94148,6 +96088,14 @@ NCAP_TLIFE ' '/
 'FI19A'.2010.'TRA_Car_Oth_Lom' 12
 'FI19A'.2010.'TRA_Car_Oth_Sma' 12
 'FI19A'.2010.'TRA_Car_Oth_Upm' 12
+'FI19A'.2010.'TRA_Hdt_Dis' 15
+'FI19A'.2010.'TRA_Hdt_Gas' 15
+'FI19A'.2010.'TRA_Lcv_Cng' 15
+'FI19A'.2010.'TRA_Lcv_Dis' 15
+'FI19A'.2010.'TRA_Lcv_Gas' 15
+'FI19A'.2010.'TRA_Lcv_Lpg' 15
+'FI19A'.2010.'TRA_Mop_Gas' 12
+'FI19A'.2010.'TRA_Mot_Gas' 12
 'FI19B'.2010.'ECHP_biomass_thermal' 200
 'FI19B'.2010.'ECHP_HFO_thermal' 200
 'FI19B'.2010.'ECHP_LFO_thermal' 200
@@ -94287,6 +96235,14 @@ NCAP_TLIFE ' '/
 'FI19B'.2010.'TRA_Car_Oth_Lom' 12
 'FI19B'.2010.'TRA_Car_Oth_Sma' 12
 'FI19B'.2010.'TRA_Car_Oth_Upm' 12
+'FI19B'.2010.'TRA_Hdt_Dis' 15
+'FI19B'.2010.'TRA_Hdt_Gas' 15
+'FI19B'.2010.'TRA_Lcv_Cng' 15
+'FI19B'.2010.'TRA_Lcv_Dis' 15
+'FI19B'.2010.'TRA_Lcv_Gas' 15
+'FI19B'.2010.'TRA_Lcv_Lpg' 15
+'FI19B'.2010.'TRA_Mop_Gas' 12
+'FI19B'.2010.'TRA_Mot_Gas' 12
 'FI1B1'.2010.'CHPAUTOGENRFG00' 20
 'FI1B1'.2010.'ECHP_biomass_thermal' 200
 'FI1B1'.2010.'ECHP_coal_thermal' 200
@@ -94464,6 +96420,14 @@ NCAP_TLIFE ' '/
 'FI1B1'.2010.'TRA_Car_Oth_Lom' 12
 'FI1B1'.2010.'TRA_Car_Oth_Sma' 12
 'FI1B1'.2010.'TRA_Car_Oth_Upm' 12
+'FI1B1'.2010.'TRA_Hdt_Dis' 15
+'FI1B1'.2010.'TRA_Hdt_Gas' 15
+'FI1B1'.2010.'TRA_Lcv_Cng' 15
+'FI1B1'.2010.'TRA_Lcv_Dis' 15
+'FI1B1'.2010.'TRA_Lcv_Gas' 15
+'FI1B1'.2010.'TRA_Lcv_Lpg' 15
+'FI1B1'.2010.'TRA_Mop_Gas' 12
+'FI1B1'.2010.'TRA_Mot_Gas' 12
 'FI1C1'.2010.'ECHP_biomass_thermal' 200
 'FI1C1'.2010.'ECHP_coal_thermal' 200
 'FI1C1'.2010.'ECHP_HFO_thermal' 200
@@ -94607,6 +96571,14 @@ NCAP_TLIFE ' '/
 'FI1C1'.2010.'TRA_Car_Oth_Lom' 12
 'FI1C1'.2010.'TRA_Car_Oth_Sma' 12
 'FI1C1'.2010.'TRA_Car_Oth_Upm' 12
+'FI1C1'.2010.'TRA_Hdt_Dis' 15
+'FI1C1'.2010.'TRA_Hdt_Gas' 15
+'FI1C1'.2010.'TRA_Lcv_Cng' 15
+'FI1C1'.2010.'TRA_Lcv_Dis' 15
+'FI1C1'.2010.'TRA_Lcv_Gas' 15
+'FI1C1'.2010.'TRA_Lcv_Lpg' 15
+'FI1C1'.2010.'TRA_Mop_Gas' 12
+'FI1C1'.2010.'TRA_Mot_Gas' 12
 'FI1C2'.2010.'ECHP_biomass_thermal' 200
 'FI1C2'.2010.'ECHP_HFO_thermal' 200
 'FI1C2'.2010.'ECHP_LFO_thermal' 200
@@ -94750,6 +96722,14 @@ NCAP_TLIFE ' '/
 'FI1C2'.2010.'TRA_Car_Oth_Lom' 12
 'FI1C2'.2010.'TRA_Car_Oth_Sma' 12
 'FI1C2'.2010.'TRA_Car_Oth_Upm' 12
+'FI1C2'.2010.'TRA_Hdt_Dis' 15
+'FI1C2'.2010.'TRA_Hdt_Gas' 15
+'FI1C2'.2010.'TRA_Lcv_Cng' 15
+'FI1C2'.2010.'TRA_Lcv_Dis' 15
+'FI1C2'.2010.'TRA_Lcv_Gas' 15
+'FI1C2'.2010.'TRA_Lcv_Lpg' 15
+'FI1C2'.2010.'TRA_Mop_Gas' 12
+'FI1C2'.2010.'TRA_Mot_Gas' 12
 'FI1C5'.2010.'CHPAUTOGENBLQ00' 20
 'FI1C5'.2010.'ECHP_biomass_thermal' 200
 'FI1C5'.2010.'ECHP_HFO_thermal' 200
@@ -94931,6 +96911,14 @@ NCAP_TLIFE ' '/
 'FI1C5'.2010.'TRA_Car_Oth_Lom' 12
 'FI1C5'.2010.'TRA_Car_Oth_Sma' 12
 'FI1C5'.2010.'TRA_Car_Oth_Upm' 12
+'FI1C5'.2010.'TRA_Hdt_Dis' 15
+'FI1C5'.2010.'TRA_Hdt_Gas' 15
+'FI1C5'.2010.'TRA_Lcv_Cng' 15
+'FI1C5'.2010.'TRA_Lcv_Dis' 15
+'FI1C5'.2010.'TRA_Lcv_Gas' 15
+'FI1C5'.2010.'TRA_Lcv_Lpg' 15
+'FI1C5'.2010.'TRA_Mop_Gas' 12
+'FI1C5'.2010.'TRA_Mot_Gas' 12
 'FI1C6'.2010.'ECHP_coal_thermal' 200
 'FI1C6'.2010.'ECHP_HFO_thermal' 200
 'FI1C6'.2010.'ECHP_LFO_thermal' 200
@@ -95073,6 +97061,14 @@ NCAP_TLIFE ' '/
 'FI1C6'.2010.'TRA_Car_Oth_Lom' 12
 'FI1C6'.2010.'TRA_Car_Oth_Sma' 12
 'FI1C6'.2010.'TRA_Car_Oth_Upm' 12
+'FI1C6'.2010.'TRA_Hdt_Dis' 15
+'FI1C6'.2010.'TRA_Hdt_Gas' 15
+'FI1C6'.2010.'TRA_Lcv_Cng' 15
+'FI1C6'.2010.'TRA_Lcv_Dis' 15
+'FI1C6'.2010.'TRA_Lcv_Gas' 15
+'FI1C6'.2010.'TRA_Lcv_Lpg' 15
+'FI1C6'.2010.'TRA_Mop_Gas' 12
+'FI1C6'.2010.'TRA_Mot_Gas' 12
 'FI1C7'.2010.'CHPAUTOGENBLQ00' 20
 'FI1C7'.2010.'ECHP_HFO_thermal' 200
 'FI1C7'.2010.'ECHP_LFO_thermal' 200
@@ -95215,6 +97211,14 @@ NCAP_TLIFE ' '/
 'FI1C7'.2010.'TRA_Car_Oth_Lom' 12
 'FI1C7'.2010.'TRA_Car_Oth_Sma' 12
 'FI1C7'.2010.'TRA_Car_Oth_Upm' 12
+'FI1C7'.2010.'TRA_Hdt_Dis' 15
+'FI1C7'.2010.'TRA_Hdt_Gas' 15
+'FI1C7'.2010.'TRA_Lcv_Cng' 15
+'FI1C7'.2010.'TRA_Lcv_Dis' 15
+'FI1C7'.2010.'TRA_Lcv_Gas' 15
+'FI1C7'.2010.'TRA_Lcv_Lpg' 15
+'FI1C7'.2010.'TRA_Mop_Gas' 12
+'FI1C7'.2010.'TRA_Mot_Gas' 12
 'FI1D5'.2010.'ECHP_biomass_thermal' 200
 'FI1D5'.2010.'ECHP_HFO_thermal' 200
 'FI1D5'.2010.'ECHP_LFO_thermal' 200
@@ -95346,6 +97350,14 @@ NCAP_TLIFE ' '/
 'FI1D5'.2010.'TRA_Car_Oth_Lom' 12
 'FI1D5'.2010.'TRA_Car_Oth_Sma' 12
 'FI1D5'.2010.'TRA_Car_Oth_Upm' 12
+'FI1D5'.2010.'TRA_Hdt_Dis' 15
+'FI1D5'.2010.'TRA_Hdt_Gas' 15
+'FI1D5'.2010.'TRA_Lcv_Cng' 15
+'FI1D5'.2010.'TRA_Lcv_Dis' 15
+'FI1D5'.2010.'TRA_Lcv_Gas' 15
+'FI1D5'.2010.'TRA_Lcv_Lpg' 15
+'FI1D5'.2010.'TRA_Mop_Gas' 12
+'FI1D5'.2010.'TRA_Mot_Gas' 12
 'FI1D7'.2010.'CHPAUTOGENBLQ00' 20
 'FI1D7'.2010.'ECHP_biomass_thermal' 200
 'FI1D7'.2010.'ECHP_HFO_thermal' 200
@@ -95495,6 +97507,14 @@ NCAP_TLIFE ' '/
 'FI1D7'.2010.'TRA_Car_Oth_Lom' 12
 'FI1D7'.2010.'TRA_Car_Oth_Sma' 12
 'FI1D7'.2010.'TRA_Car_Oth_Upm' 12
+'FI1D7'.2010.'TRA_Hdt_Dis' 15
+'FI1D7'.2010.'TRA_Hdt_Gas' 15
+'FI1D7'.2010.'TRA_Lcv_Cng' 15
+'FI1D7'.2010.'TRA_Lcv_Dis' 15
+'FI1D7'.2010.'TRA_Lcv_Gas' 15
+'FI1D7'.2010.'TRA_Lcv_Lpg' 15
+'FI1D7'.2010.'TRA_Mop_Gas' 12
+'FI1D7'.2010.'TRA_Mot_Gas' 12
 'FI1D8'.2010.'EEPP_PV' 30
 'FI1D8'.2010.'EEPP_windON' 30
 'FI1D8'.2010.'EUHYDDAM00' 100
@@ -95587,6 +97607,14 @@ NCAP_TLIFE ' '/
 'FI1D8'.2010.'TRA_Car_Oth_Lom' 12
 'FI1D8'.2010.'TRA_Car_Oth_Sma' 12
 'FI1D8'.2010.'TRA_Car_Oth_Upm' 12
+'FI1D8'.2010.'TRA_Hdt_Dis' 15
+'FI1D8'.2010.'TRA_Hdt_Gas' 15
+'FI1D8'.2010.'TRA_Lcv_Cng' 15
+'FI1D8'.2010.'TRA_Lcv_Dis' 15
+'FI1D8'.2010.'TRA_Lcv_Gas' 15
+'FI1D8'.2010.'TRA_Lcv_Lpg' 15
+'FI1D8'.2010.'TRA_Mop_Gas' 12
+'FI1D8'.2010.'TRA_Mot_Gas' 12
 'FI1D9'.2010.'CHPAUTOGENBLQ00' 20
 'FI1D9'.2010.'ECHP_biomass_thermal' 200
 'FI1D9'.2010.'ECHP_HFO_thermal' 200
@@ -95746,6 +97774,14 @@ NCAP_TLIFE ' '/
 'FI1D9'.2010.'TRA_Car_Oth_Lom' 12
 'FI1D9'.2010.'TRA_Car_Oth_Sma' 12
 'FI1D9'.2010.'TRA_Car_Oth_Upm' 12
+'FI1D9'.2010.'TRA_Hdt_Dis' 15
+'FI1D9'.2010.'TRA_Hdt_Gas' 15
+'FI1D9'.2010.'TRA_Lcv_Cng' 15
+'FI1D9'.2010.'TRA_Lcv_Dis' 15
+'FI1D9'.2010.'TRA_Lcv_Gas' 15
+'FI1D9'.2010.'TRA_Lcv_Lpg' 15
+'FI1D9'.2010.'TRA_Mop_Gas' 12
+'FI1D9'.2010.'TRA_Mot_Gas' 12
 'FI1DA'.2010.'ECHP_biomass_thermal' 200
 'FI1DA'.2010.'ECHP_HFO_thermal' 200
 'FI1DA'.2010.'ECHP_LFO_thermal' 200
@@ -95879,6 +97915,14 @@ NCAP_TLIFE ' '/
 'FI1DA'.2010.'TRA_Car_Oth_Lom' 12
 'FI1DA'.2010.'TRA_Car_Oth_Sma' 12
 'FI1DA'.2010.'TRA_Car_Oth_Upm' 12
+'FI1DA'.2010.'TRA_Hdt_Dis' 15
+'FI1DA'.2010.'TRA_Hdt_Gas' 15
+'FI1DA'.2010.'TRA_Lcv_Cng' 15
+'FI1DA'.2010.'TRA_Lcv_Dis' 15
+'FI1DA'.2010.'TRA_Lcv_Gas' 15
+'FI1DA'.2010.'TRA_Lcv_Lpg' 15
+'FI1DA'.2010.'TRA_Mop_Gas' 12
+'FI1DA'.2010.'TRA_Mot_Gas' 12
 'FI1DB'.2010.'CHPAUTOGENBLQ00' 20
 'FI1DB'.2010.'ECHP_HFO_thermal' 200
 'FI1DB'.2010.'ECHP_LFO_thermal' 200
@@ -96022,6 +98066,14 @@ NCAP_TLIFE ' '/
 'FI1DB'.2010.'TRA_Car_Oth_Lom' 12
 'FI1DB'.2010.'TRA_Car_Oth_Sma' 12
 'FI1DB'.2010.'TRA_Car_Oth_Upm' 12
+'FI1DB'.2010.'TRA_Hdt_Dis' 15
+'FI1DB'.2010.'TRA_Hdt_Gas' 15
+'FI1DB'.2010.'TRA_Lcv_Cng' 15
+'FI1DB'.2010.'TRA_Lcv_Dis' 15
+'FI1DB'.2010.'TRA_Lcv_Gas' 15
+'FI1DB'.2010.'TRA_Lcv_Lpg' 15
+'FI1DB'.2010.'TRA_Mop_Gas' 12
+'FI1DB'.2010.'TRA_Mot_Gas' 12
 'FI1DC'.2010.'ECHP_HFO_thermal' 200
 'FI1DC'.2010.'ECHP_LFO_thermal' 200
 'FI1DC'.2010.'ECHP_lignite_thermal' 200
@@ -96182,6 +98234,14 @@ NCAP_TLIFE ' '/
 'FI1DC'.2010.'TRA_Car_Oth_Lom' 12
 'FI1DC'.2010.'TRA_Car_Oth_Sma' 12
 'FI1DC'.2010.'TRA_Car_Oth_Upm' 12
+'FI1DC'.2010.'TRA_Hdt_Dis' 15
+'FI1DC'.2010.'TRA_Hdt_Gas' 15
+'FI1DC'.2010.'TRA_Lcv_Cng' 15
+'FI1DC'.2010.'TRA_Lcv_Dis' 15
+'FI1DC'.2010.'TRA_Lcv_Gas' 15
+'FI1DC'.2010.'TRA_Lcv_Lpg' 15
+'FI1DC'.2010.'TRA_Mop_Gas' 12
+'FI1DC'.2010.'TRA_Mot_Gas' 12
 'FI200'.2010.'EEPP_PV' 30
 'FI200'.2010.'EEPP_windON' 30
 'FI200'.2010.'IALFINPRO00' 30
@@ -96304,6 +98364,14 @@ NCAP_TLIFE ' '/
 'FI200'.2010.'TRA_Car_Oth_Lom' 12
 'FI200'.2010.'TRA_Car_Oth_Sma' 12
 'FI200'.2010.'TRA_Car_Oth_Upm' 12
+'FI200'.2010.'TRA_Hdt_Dis' 15
+'FI200'.2010.'TRA_Hdt_Gas' 15
+'FI200'.2010.'TRA_Lcv_Cng' 15
+'FI200'.2010.'TRA_Lcv_Dis' 15
+'FI200'.2010.'TRA_Lcv_Gas' 15
+'FI200'.2010.'TRA_Lcv_Lpg' 15
+'FI200'.2010.'TRA_Mop_Gas' 12
+'FI200'.2010.'TRA_Mot_Gas' 12
 /;
 
 PARAMETER
@@ -96364,6 +98432,14 @@ PRC_ACTFLO ' '/
 'FI196'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI196'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI196'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI196'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI196'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI196'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI196'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI196'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI196'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI196'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI196'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI198'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI198'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI198'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96375,6 +98451,14 @@ PRC_ACTFLO ' '/
 'FI198'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI198'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI198'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI198'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI198'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI198'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI198'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI198'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI198'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI198'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI198'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI199'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI199'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI199'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96386,6 +98470,14 @@ PRC_ACTFLO ' '/
 'FI199'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI199'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI199'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI199'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI199'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI199'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI199'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI199'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI199'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI199'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI199'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI19A'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI19A'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI19A'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96397,6 +98489,14 @@ PRC_ACTFLO ' '/
 'FI19A'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI19A'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI19A'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI19A'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI19A'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI19A'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI19A'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI19A'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI19A'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI19A'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI19A'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI19B'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI19B'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI19B'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96408,6 +98508,14 @@ PRC_ACTFLO ' '/
 'FI19B'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI19B'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI19B'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI19B'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI19B'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI19B'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI19B'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI19B'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI19B'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI19B'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI19B'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1B1'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1B1'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1B1'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96419,6 +98527,14 @@ PRC_ACTFLO ' '/
 'FI1B1'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1B1'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1B1'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1B1'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1B1'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1B1'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1B1'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1B1'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1B1'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1B1'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1B1'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1C1'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1C1'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1C1'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96430,6 +98546,14 @@ PRC_ACTFLO ' '/
 'FI1C1'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1C1'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1C1'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1C1'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1C1'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1C1'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1C1'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1C1'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1C1'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1C1'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1C1'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1C2'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1C2'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1C2'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96441,6 +98565,14 @@ PRC_ACTFLO ' '/
 'FI1C2'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1C2'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1C2'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1C2'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1C2'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1C2'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1C2'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1C2'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1C2'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1C2'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1C2'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1C5'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1C5'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1C5'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96452,6 +98584,14 @@ PRC_ACTFLO ' '/
 'FI1C5'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1C5'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1C5'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1C5'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1C5'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1C5'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1C5'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1C5'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1C5'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1C5'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1C5'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1C6'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1C6'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1C6'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96463,6 +98603,14 @@ PRC_ACTFLO ' '/
 'FI1C6'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1C6'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1C6'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1C6'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1C6'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1C6'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1C6'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1C6'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1C6'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1C6'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1C6'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1C7'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1C7'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1C7'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96474,6 +98622,14 @@ PRC_ACTFLO ' '/
 'FI1C7'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1C7'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1C7'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1C7'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1C7'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1C7'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1C7'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1C7'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1C7'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1C7'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1C7'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1D5'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1D5'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1D5'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96485,6 +98641,14 @@ PRC_ACTFLO ' '/
 'FI1D5'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1D5'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1D5'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1D5'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1D5'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1D5'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1D5'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1D5'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1D5'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1D5'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1D5'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1D7'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1D7'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1D7'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96496,6 +98660,14 @@ PRC_ACTFLO ' '/
 'FI1D7'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1D7'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1D7'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1D7'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1D7'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1D7'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1D7'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1D7'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1D7'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1D7'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1D7'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1D8'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1D8'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1D8'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96507,6 +98679,14 @@ PRC_ACTFLO ' '/
 'FI1D8'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1D8'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1D8'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1D8'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1D8'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1D8'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1D8'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1D8'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1D8'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1D8'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1D8'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1D9'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1D9'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1D9'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96518,6 +98698,14 @@ PRC_ACTFLO ' '/
 'FI1D9'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1D9'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1D9'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1D9'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1D9'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1D9'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1D9'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1D9'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1D9'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1D9'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1D9'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1DA'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1DA'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1DA'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96529,6 +98717,14 @@ PRC_ACTFLO ' '/
 'FI1DA'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1DA'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1DA'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1DA'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1DA'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1DA'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1DA'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1DA'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1DA'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1DA'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1DA'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1DB'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1DB'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1DB'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96540,6 +98736,14 @@ PRC_ACTFLO ' '/
 'FI1DB'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1DB'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1DB'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1DB'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1DB'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1DB'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1DB'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1DB'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1DB'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1DB'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1DB'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI1DC'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI1DC'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI1DC'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96551,6 +98755,14 @@ PRC_ACTFLO ' '/
 'FI1DC'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI1DC'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI1DC'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI1DC'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI1DC'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI1DC'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI1DC'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI1DC'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI1DC'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI1DC'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI1DC'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 'FI200'.2010.'TRA_Bus_Dis_Coa'.'TRA_Bus_Dis_Coa_DEMO' 13
 'FI200'.2010.'TRA_Bus_Dis_Urb'.'TRA_Bus_Dis_Urb_DEMO' 13
 'FI200'.2010.'TRA_Car_Dis_Exe'.'TRA_Car_Dis_Exe_DEMO' 1.6
@@ -96562,6 +98774,14 @@ PRC_ACTFLO ' '/
 'FI200'.2010.'TRA_Car_Gas_Lom'.'TRA_Car_Gas_Lom_DEMO' 1.6
 'FI200'.2010.'TRA_Car_Gas_Sma'.'TRA_Car_Gas_Sma_DEMO' 1.6
 'FI200'.2010.'TRA_Car_Gas_Upm'.'TRA_Car_Gas_Upm_DEMO' 1.6
+'FI200'.2010.'TRA_Hdt_Dis'.'TRA_Hdt_Dis_DEMO' 10.9571652914526
+'FI200'.2010.'TRA_Hdt_Gas'.'TRA_Hdt_Gas_DEMO' 1.68177093505859
+'FI200'.2010.'TRA_Lcv_Cng'.'TRA_Lcv_Cng_DEMO' 0.5
+'FI200'.2010.'TRA_Lcv_Dis'.'TRA_Lcv_Dis_DEMO' 0.5
+'FI200'.2010.'TRA_Lcv_Gas'.'TRA_Lcv_Gas_DEMO' 0.5
+'FI200'.2010.'TRA_Lcv_Lpg'.'TRA_Lcv_Lpg_DEMO' 0.5
+'FI200'.2010.'TRA_Mop_Gas'.'TRA_Mop_Gas_DEMO' 1
+'FI200'.2010.'TRA_Mot_Gas'.'TRA_Mot_Gas_DEMO' 1
 /;
 
 PARAMETER
@@ -96918,6 +99138,14 @@ PRC_CAPACT ' '/
 'FI196'.'TRA_Car_Oth_Lom' 0.001
 'FI196'.'TRA_Car_Oth_Sma' 0.001
 'FI196'.'TRA_Car_Oth_Upm' 0.001
+'FI196'.'TRA_Hdt_Dis' 0.001
+'FI196'.'TRA_Hdt_Gas' 0.001
+'FI196'.'TRA_Lcv_Cng' 0.001
+'FI196'.'TRA_Lcv_Dis' 0.001
+'FI196'.'TRA_Lcv_Gas' 0.001
+'FI196'.'TRA_Lcv_Lpg' 0.001
+'FI196'.'TRA_Mop_Gas' 0.001
+'FI196'.'TRA_Mot_Gas' 0.001
 'FI198'.'CHPAUTOGENBLQ00' 31.536
 'FI198'.'ECHP_biomass_thermal' 31.536
 'FI198'.'ECHP_HFO_thermal' 31.536
@@ -96988,6 +99216,14 @@ PRC_CAPACT ' '/
 'FI198'.'TRA_Car_Oth_Lom' 0.001
 'FI198'.'TRA_Car_Oth_Sma' 0.001
 'FI198'.'TRA_Car_Oth_Upm' 0.001
+'FI198'.'TRA_Hdt_Dis' 0.001
+'FI198'.'TRA_Hdt_Gas' 0.001
+'FI198'.'TRA_Lcv_Cng' 0.001
+'FI198'.'TRA_Lcv_Dis' 0.001
+'FI198'.'TRA_Lcv_Gas' 0.001
+'FI198'.'TRA_Lcv_Lpg' 0.001
+'FI198'.'TRA_Mop_Gas' 0.001
+'FI198'.'TRA_Mot_Gas' 0.001
 'FI199'.'ECHP_HFO_thermal' 31.536
 'FI199'.'ECHP_LFO_thermal' 31.536
 'FI199'.'ECHP_lignite_thermal' 31.536
@@ -97058,6 +99294,14 @@ PRC_CAPACT ' '/
 'FI199'.'TRA_Car_Oth_Lom' 0.001
 'FI199'.'TRA_Car_Oth_Sma' 0.001
 'FI199'.'TRA_Car_Oth_Upm' 0.001
+'FI199'.'TRA_Hdt_Dis' 0.001
+'FI199'.'TRA_Hdt_Gas' 0.001
+'FI199'.'TRA_Lcv_Cng' 0.001
+'FI199'.'TRA_Lcv_Dis' 0.001
+'FI199'.'TRA_Lcv_Gas' 0.001
+'FI199'.'TRA_Lcv_Lpg' 0.001
+'FI199'.'TRA_Mop_Gas' 0.001
+'FI199'.'TRA_Mot_Gas' 0.001
 'FI19A'.'CHPAUTOGENBLQ00' 31.536
 'FI19A'.'ECHP_coal_thermal' 31.536
 'FI19A'.'ECHP_HFO_thermal' 31.536
@@ -97131,6 +99375,14 @@ PRC_CAPACT ' '/
 'FI19A'.'TRA_Car_Oth_Lom' 0.001
 'FI19A'.'TRA_Car_Oth_Sma' 0.001
 'FI19A'.'TRA_Car_Oth_Upm' 0.001
+'FI19A'.'TRA_Hdt_Dis' 0.001
+'FI19A'.'TRA_Hdt_Gas' 0.001
+'FI19A'.'TRA_Lcv_Cng' 0.001
+'FI19A'.'TRA_Lcv_Dis' 0.001
+'FI19A'.'TRA_Lcv_Gas' 0.001
+'FI19A'.'TRA_Lcv_Lpg' 0.001
+'FI19A'.'TRA_Mop_Gas' 0.001
+'FI19A'.'TRA_Mot_Gas' 0.001
 'FI19B'.'ECHP_biomass_thermal' 31.536
 'FI19B'.'ECHP_HFO_thermal' 31.536
 'FI19B'.'ECHP_LFO_thermal' 31.536
@@ -97202,6 +99454,14 @@ PRC_CAPACT ' '/
 'FI19B'.'TRA_Car_Oth_Lom' 0.001
 'FI19B'.'TRA_Car_Oth_Sma' 0.001
 'FI19B'.'TRA_Car_Oth_Upm' 0.001
+'FI19B'.'TRA_Hdt_Dis' 0.001
+'FI19B'.'TRA_Hdt_Gas' 0.001
+'FI19B'.'TRA_Lcv_Cng' 0.001
+'FI19B'.'TRA_Lcv_Dis' 0.001
+'FI19B'.'TRA_Lcv_Gas' 0.001
+'FI19B'.'TRA_Lcv_Lpg' 0.001
+'FI19B'.'TRA_Mop_Gas' 0.001
+'FI19B'.'TRA_Mot_Gas' 0.001
 'FI1B1'.'CHPAUTOGENRFG00' 31.536
 'FI1B1'.'ECHP_biomass_thermal' 31.536
 'FI1B1'.'ECHP_coal_thermal' 31.536
@@ -97289,6 +99549,14 @@ PRC_CAPACT ' '/
 'FI1B1'.'TRA_Car_Oth_Lom' 0.001
 'FI1B1'.'TRA_Car_Oth_Sma' 0.001
 'FI1B1'.'TRA_Car_Oth_Upm' 0.001
+'FI1B1'.'TRA_Hdt_Dis' 0.001
+'FI1B1'.'TRA_Hdt_Gas' 0.001
+'FI1B1'.'TRA_Lcv_Cng' 0.001
+'FI1B1'.'TRA_Lcv_Dis' 0.001
+'FI1B1'.'TRA_Lcv_Gas' 0.001
+'FI1B1'.'TRA_Lcv_Lpg' 0.001
+'FI1B1'.'TRA_Mop_Gas' 0.001
+'FI1B1'.'TRA_Mot_Gas' 0.001
 'FI1C1'.'ECHP_biomass_thermal' 31.536
 'FI1C1'.'ECHP_coal_thermal' 31.536
 'FI1C1'.'ECHP_HFO_thermal' 31.536
@@ -97361,6 +99629,14 @@ PRC_CAPACT ' '/
 'FI1C1'.'TRA_Car_Oth_Lom' 0.001
 'FI1C1'.'TRA_Car_Oth_Sma' 0.001
 'FI1C1'.'TRA_Car_Oth_Upm' 0.001
+'FI1C1'.'TRA_Hdt_Dis' 0.001
+'FI1C1'.'TRA_Hdt_Gas' 0.001
+'FI1C1'.'TRA_Lcv_Cng' 0.001
+'FI1C1'.'TRA_Lcv_Dis' 0.001
+'FI1C1'.'TRA_Lcv_Gas' 0.001
+'FI1C1'.'TRA_Lcv_Lpg' 0.001
+'FI1C1'.'TRA_Mop_Gas' 0.001
+'FI1C1'.'TRA_Mot_Gas' 0.001
 'FI1C2'.'ECHP_biomass_thermal' 31.536
 'FI1C2'.'ECHP_HFO_thermal' 31.536
 'FI1C2'.'ECHP_LFO_thermal' 31.536
@@ -97435,6 +99711,14 @@ PRC_CAPACT ' '/
 'FI1C2'.'TRA_Car_Oth_Lom' 0.001
 'FI1C2'.'TRA_Car_Oth_Sma' 0.001
 'FI1C2'.'TRA_Car_Oth_Upm' 0.001
+'FI1C2'.'TRA_Hdt_Dis' 0.001
+'FI1C2'.'TRA_Hdt_Gas' 0.001
+'FI1C2'.'TRA_Lcv_Cng' 0.001
+'FI1C2'.'TRA_Lcv_Dis' 0.001
+'FI1C2'.'TRA_Lcv_Gas' 0.001
+'FI1C2'.'TRA_Lcv_Lpg' 0.001
+'FI1C2'.'TRA_Mop_Gas' 0.001
+'FI1C2'.'TRA_Mot_Gas' 0.001
 'FI1C5'.'CHPAUTOGENBLQ00' 31.536
 'FI1C5'.'ECHP_biomass_thermal' 31.536
 'FI1C5'.'ECHP_HFO_thermal' 31.536
@@ -97521,6 +99805,14 @@ PRC_CAPACT ' '/
 'FI1C5'.'TRA_Car_Oth_Lom' 0.001
 'FI1C5'.'TRA_Car_Oth_Sma' 0.001
 'FI1C5'.'TRA_Car_Oth_Upm' 0.001
+'FI1C5'.'TRA_Hdt_Dis' 0.001
+'FI1C5'.'TRA_Hdt_Gas' 0.001
+'FI1C5'.'TRA_Lcv_Cng' 0.001
+'FI1C5'.'TRA_Lcv_Dis' 0.001
+'FI1C5'.'TRA_Lcv_Gas' 0.001
+'FI1C5'.'TRA_Lcv_Lpg' 0.001
+'FI1C5'.'TRA_Mop_Gas' 0.001
+'FI1C5'.'TRA_Mot_Gas' 0.001
 'FI1C6'.'ECHP_coal_thermal' 31.536
 'FI1C6'.'ECHP_HFO_thermal' 31.536
 'FI1C6'.'ECHP_LFO_thermal' 31.536
@@ -97595,6 +99887,14 @@ PRC_CAPACT ' '/
 'FI1C6'.'TRA_Car_Oth_Lom' 0.001
 'FI1C6'.'TRA_Car_Oth_Sma' 0.001
 'FI1C6'.'TRA_Car_Oth_Upm' 0.001
+'FI1C6'.'TRA_Hdt_Dis' 0.001
+'FI1C6'.'TRA_Hdt_Gas' 0.001
+'FI1C6'.'TRA_Lcv_Cng' 0.001
+'FI1C6'.'TRA_Lcv_Dis' 0.001
+'FI1C6'.'TRA_Lcv_Gas' 0.001
+'FI1C6'.'TRA_Lcv_Lpg' 0.001
+'FI1C6'.'TRA_Mop_Gas' 0.001
+'FI1C6'.'TRA_Mot_Gas' 0.001
 'FI1C7'.'CHPAUTOGENBLQ00' 31.536
 'FI1C7'.'ECHP_HFO_thermal' 31.536
 'FI1C7'.'ECHP_LFO_thermal' 31.536
@@ -97666,6 +99966,14 @@ PRC_CAPACT ' '/
 'FI1C7'.'TRA_Car_Oth_Lom' 0.001
 'FI1C7'.'TRA_Car_Oth_Sma' 0.001
 'FI1C7'.'TRA_Car_Oth_Upm' 0.001
+'FI1C7'.'TRA_Hdt_Dis' 0.001
+'FI1C7'.'TRA_Hdt_Gas' 0.001
+'FI1C7'.'TRA_Lcv_Cng' 0.001
+'FI1C7'.'TRA_Lcv_Dis' 0.001
+'FI1C7'.'TRA_Lcv_Gas' 0.001
+'FI1C7'.'TRA_Lcv_Lpg' 0.001
+'FI1C7'.'TRA_Mop_Gas' 0.001
+'FI1C7'.'TRA_Mot_Gas' 0.001
 'FI1D5'.'ECHP_biomass_thermal' 31.536
 'FI1D5'.'ECHP_HFO_thermal' 31.536
 'FI1D5'.'ECHP_LFO_thermal' 31.536
@@ -97737,6 +100045,14 @@ PRC_CAPACT ' '/
 'FI1D5'.'TRA_Car_Oth_Lom' 0.001
 'FI1D5'.'TRA_Car_Oth_Sma' 0.001
 'FI1D5'.'TRA_Car_Oth_Upm' 0.001
+'FI1D5'.'TRA_Hdt_Dis' 0.001
+'FI1D5'.'TRA_Hdt_Gas' 0.001
+'FI1D5'.'TRA_Lcv_Cng' 0.001
+'FI1D5'.'TRA_Lcv_Dis' 0.001
+'FI1D5'.'TRA_Lcv_Gas' 0.001
+'FI1D5'.'TRA_Lcv_Lpg' 0.001
+'FI1D5'.'TRA_Mop_Gas' 0.001
+'FI1D5'.'TRA_Mot_Gas' 0.001
 'FI1D7'.'CHPAUTOGENBLQ00' 31.536
 'FI1D7'.'ECHP_biomass_thermal' 31.536
 'FI1D7'.'ECHP_HFO_thermal' 31.536
@@ -97809,6 +100125,14 @@ PRC_CAPACT ' '/
 'FI1D7'.'TRA_Car_Oth_Lom' 0.001
 'FI1D7'.'TRA_Car_Oth_Sma' 0.001
 'FI1D7'.'TRA_Car_Oth_Upm' 0.001
+'FI1D7'.'TRA_Hdt_Dis' 0.001
+'FI1D7'.'TRA_Hdt_Gas' 0.001
+'FI1D7'.'TRA_Lcv_Cng' 0.001
+'FI1D7'.'TRA_Lcv_Dis' 0.001
+'FI1D7'.'TRA_Lcv_Gas' 0.001
+'FI1D7'.'TRA_Lcv_Lpg' 0.001
+'FI1D7'.'TRA_Mop_Gas' 0.001
+'FI1D7'.'TRA_Mot_Gas' 0.001
 'FI1D8'.'EEPP_PV' 31.536
 'FI1D8'.'EEPP_windON' 31.536
 'FI1D8'.'EUHYDDAM00' 31.536
@@ -97863,6 +100187,14 @@ PRC_CAPACT ' '/
 'FI1D8'.'TRA_Car_Oth_Lom' 0.001
 'FI1D8'.'TRA_Car_Oth_Sma' 0.001
 'FI1D8'.'TRA_Car_Oth_Upm' 0.001
+'FI1D8'.'TRA_Hdt_Dis' 0.001
+'FI1D8'.'TRA_Hdt_Gas' 0.001
+'FI1D8'.'TRA_Lcv_Cng' 0.001
+'FI1D8'.'TRA_Lcv_Dis' 0.001
+'FI1D8'.'TRA_Lcv_Gas' 0.001
+'FI1D8'.'TRA_Lcv_Lpg' 0.001
+'FI1D8'.'TRA_Mop_Gas' 0.001
+'FI1D8'.'TRA_Mot_Gas' 0.001
 'FI1D9'.'CHPAUTOGENBLQ00' 31.536
 'FI1D9'.'ECHP_biomass_thermal' 31.536
 'FI1D9'.'ECHP_HFO_thermal' 31.536
@@ -97938,6 +100270,14 @@ PRC_CAPACT ' '/
 'FI1D9'.'TRA_Car_Oth_Lom' 0.001
 'FI1D9'.'TRA_Car_Oth_Sma' 0.001
 'FI1D9'.'TRA_Car_Oth_Upm' 0.001
+'FI1D9'.'TRA_Hdt_Dis' 0.001
+'FI1D9'.'TRA_Hdt_Gas' 0.001
+'FI1D9'.'TRA_Lcv_Cng' 0.001
+'FI1D9'.'TRA_Lcv_Dis' 0.001
+'FI1D9'.'TRA_Lcv_Gas' 0.001
+'FI1D9'.'TRA_Lcv_Lpg' 0.001
+'FI1D9'.'TRA_Mop_Gas' 0.001
+'FI1D9'.'TRA_Mot_Gas' 0.001
 'FI1DA'.'ECHP_biomass_thermal' 31.536
 'FI1DA'.'ECHP_HFO_thermal' 31.536
 'FI1DA'.'ECHP_LFO_thermal' 31.536
@@ -98006,6 +100346,14 @@ PRC_CAPACT ' '/
 'FI1DA'.'TRA_Car_Oth_Lom' 0.001
 'FI1DA'.'TRA_Car_Oth_Sma' 0.001
 'FI1DA'.'TRA_Car_Oth_Upm' 0.001
+'FI1DA'.'TRA_Hdt_Dis' 0.001
+'FI1DA'.'TRA_Hdt_Gas' 0.001
+'FI1DA'.'TRA_Lcv_Cng' 0.001
+'FI1DA'.'TRA_Lcv_Dis' 0.001
+'FI1DA'.'TRA_Lcv_Gas' 0.001
+'FI1DA'.'TRA_Lcv_Lpg' 0.001
+'FI1DA'.'TRA_Mop_Gas' 0.001
+'FI1DA'.'TRA_Mot_Gas' 0.001
 'FI1DB'.'CHPAUTOGENBLQ00' 31.536
 'FI1DB'.'ECHP_HFO_thermal' 31.536
 'FI1DB'.'ECHP_LFO_thermal' 31.536
@@ -98078,6 +100426,14 @@ PRC_CAPACT ' '/
 'FI1DB'.'TRA_Car_Oth_Lom' 0.001
 'FI1DB'.'TRA_Car_Oth_Sma' 0.001
 'FI1DB'.'TRA_Car_Oth_Upm' 0.001
+'FI1DB'.'TRA_Hdt_Dis' 0.001
+'FI1DB'.'TRA_Hdt_Gas' 0.001
+'FI1DB'.'TRA_Lcv_Cng' 0.001
+'FI1DB'.'TRA_Lcv_Dis' 0.001
+'FI1DB'.'TRA_Lcv_Gas' 0.001
+'FI1DB'.'TRA_Lcv_Lpg' 0.001
+'FI1DB'.'TRA_Mop_Gas' 0.001
+'FI1DB'.'TRA_Mot_Gas' 0.001
 'FI1DC'.'ECHP_HFO_thermal' 31.536
 'FI1DC'.'ECHP_LFO_thermal' 31.536
 'FI1DC'.'ECHP_lignite_thermal' 31.536
@@ -98153,6 +100509,14 @@ PRC_CAPACT ' '/
 'FI1DC'.'TRA_Car_Oth_Lom' 0.001
 'FI1DC'.'TRA_Car_Oth_Sma' 0.001
 'FI1DC'.'TRA_Car_Oth_Upm' 0.001
+'FI1DC'.'TRA_Hdt_Dis' 0.001
+'FI1DC'.'TRA_Hdt_Gas' 0.001
+'FI1DC'.'TRA_Lcv_Cng' 0.001
+'FI1DC'.'TRA_Lcv_Dis' 0.001
+'FI1DC'.'TRA_Lcv_Gas' 0.001
+'FI1DC'.'TRA_Lcv_Lpg' 0.001
+'FI1DC'.'TRA_Mop_Gas' 0.001
+'FI1DC'.'TRA_Mot_Gas' 0.001
 'FI200'.'EEPP_PV' 31.536
 'FI200'.'EEPP_windON' 31.536
 'FI200'.'INFSTMBIO00' 31.536
@@ -98215,6 +100579,14 @@ PRC_CAPACT ' '/
 'FI200'.'TRA_Car_Oth_Lom' 0.001
 'FI200'.'TRA_Car_Oth_Sma' 0.001
 'FI200'.'TRA_Car_Oth_Upm' 0.001
+'FI200'.'TRA_Hdt_Dis' 0.001
+'FI200'.'TRA_Hdt_Gas' 0.001
+'FI200'.'TRA_Lcv_Cng' 0.001
+'FI200'.'TRA_Lcv_Dis' 0.001
+'FI200'.'TRA_Lcv_Gas' 0.001
+'FI200'.'TRA_Lcv_Lpg' 0.001
+'FI200'.'TRA_Mop_Gas' 0.001
+'FI200'.'TRA_Mot_Gas' 0.001
 /;
 
 PARAMETER
@@ -98867,6 +101239,14 @@ PRC_RESID ' '/
 'FI196'.2010.'TRA_Car_Oth_Lom' 0.00685092234771
 'FI196'.2010.'TRA_Car_Oth_Sma' 0
 'FI196'.2010.'TRA_Car_Oth_Upm' 0
+'FI196'.2010.'TRA_Hdt_Dis' 6.79424925675599
+'FI196'.2010.'TRA_Hdt_Gas' 0.157776469555992
+'FI196'.2010.'TRA_Lcv_Cng' 0
+'FI196'.2010.'TRA_Lcv_Dis' 17.7149450323012
+'FI196'.2010.'TRA_Lcv_Gas' 1.19336317979435
+'FI196'.2010.'TRA_Lcv_Lpg' 0
+'FI196'.2010.'TRA_Mop_Gas' 13.2577474717832
+'FI196'.2010.'TRA_Mot_Gas' 10.0276905731474
 'FI196'.2011.'TRA_Car_Dis_Exe' 9.62694818058975
 'FI196'.2011.'TRA_Car_Dis_Lom' 5.64278855113152
 'FI196'.2011.'TRA_Car_Dis_Sma' 5.51067046858322
@@ -98982,6 +101362,8 @@ PRC_RESID ' '/
 'FI196'.2022.'TRA_Car_Oth_Lom' 0
 'FI196'.2022.'TRA_Car_Oth_Sma' 0
 'FI196'.2022.'TRA_Car_Oth_Upm' 0
+'FI196'.2022.'TRA_Mop_Gas' 0
+'FI196'.2022.'TRA_Mot_Gas' 0
 'FI196'.2023.'TRA_Car_Dis_Exe' 6.10082104880438
 'FI196'.2023.'TRA_Car_Dis_Lom' 3.5759663935977
 'FI196'.2023.'TRA_Car_Dis_Sma' 3.49224009074261
@@ -98999,6 +101381,12 @@ PRC_RESID ' '/
 'FI196'.2024.'TRA_Car_Gas_Sma' 11.8760991205951
 'FI196'.2024.'TRA_Car_Gas_Upm' 7.7023116238299
 'FI196'.2025.'EUHYDDAM00' 0.169129248220114
+'FI196'.2025.'TRA_Hdt_Dis' 0
+'FI196'.2025.'TRA_Hdt_Gas' 0
+'FI196'.2025.'TRA_Lcv_Cng' 0
+'FI196'.2025.'TRA_Lcv_Dis' 0
+'FI196'.2025.'TRA_Lcv_Gas' 0
+'FI196'.2025.'TRA_Lcv_Lpg' 0
 'FI196'.2030.'EUHYDDAM00' 0.169129248220114
 'FI196'.2030.'ICLSTDPRO02' 0
 'FI196'.2030.'INDIPPHTH00' 0
@@ -99277,6 +101665,14 @@ PRC_RESID ' '/
 'FI198'.2010.'TRA_Car_Oth_Lom' 0.007390863278736
 'FI198'.2010.'TRA_Car_Oth_Sma' 0
 'FI198'.2010.'TRA_Car_Oth_Upm' 0
+'FI198'.2010.'TRA_Hdt_Dis' 5.2787078346105
+'FI198'.2010.'TRA_Hdt_Gas' 0.122582474455766
+'FI198'.2010.'TRA_Lcv_Cng' 0
+'FI198'.2010.'TRA_Lcv_Dis' 16.1169418999244
+'FI198'.2010.'TRA_Lcv_Gas' 1.08571406793443
+'FI198'.2010.'TRA_Lcv_Lpg' 0
+'FI198'.2010.'TRA_Mop_Gas' 12.4543883428998
+'FI198'.2010.'TRA_Mot_Gas' 12.0728907478326
 'FI198'.2011.'TRA_Car_Dis_Exe' 10.3856757065709
 'FI198'.2011.'TRA_Car_Dis_Lom' 6.08751297643452
 'FI198'.2011.'TRA_Car_Dis_Sma' 5.94498228710483
@@ -99392,6 +101788,8 @@ PRC_RESID ' '/
 'FI198'.2022.'TRA_Car_Oth_Lom' 0
 'FI198'.2022.'TRA_Car_Oth_Sma' 0
 'FI198'.2022.'TRA_Car_Oth_Upm' 0
+'FI198'.2022.'TRA_Mop_Gas' 0
+'FI198'.2022.'TRA_Mot_Gas' 0
 'FI198'.2023.'TRA_Car_Dis_Exe' 6.58164433506094
 'FI198'.2023.'TRA_Car_Dis_Lom' 3.85779860915657
 'FI198'.2023.'TRA_Car_Dis_Sma' 3.76747359511771
@@ -99409,6 +101807,12 @@ PRC_RESID ' '/
 'FI198'.2024.'TRA_Car_Gas_Sma' 12.8120887130439
 'FI198'.2024.'TRA_Car_Gas_Upm' 8.30935299696898
 'FI198'.2025.'EUHYDDAM00' 0.034615119468995
+'FI198'.2025.'TRA_Hdt_Dis' 0
+'FI198'.2025.'TRA_Hdt_Gas' 0
+'FI198'.2025.'TRA_Lcv_Cng' 0
+'FI198'.2025.'TRA_Lcv_Dis' 0
+'FI198'.2025.'TRA_Lcv_Gas' 0
+'FI198'.2025.'TRA_Lcv_Lpg' 0
 'FI198'.2030.'EUHYDDAM00' 0.034615119468995
 'FI198'.2030.'ICLSTDPRO02' 0
 'FI198'.2030.'INDIPPHTH00' 0
@@ -99648,6 +102052,14 @@ PRC_RESID ' '/
 'FI199'.2010.'TRA_Car_Oth_Lom' 0.006256589332518
 'FI199'.2010.'TRA_Car_Oth_Sma' 0
 'FI199'.2010.'TRA_Car_Oth_Upm' 0
+'FI199'.2010.'TRA_Hdt_Dis' 6.63428841332434
+'FI199'.2010.'TRA_Hdt_Gas' 0.1540618491189
+'FI199'.2010.'TRA_Lcv_Cng' 0
+'FI199'.2010.'TRA_Lcv_Dis' 18.5749145896505
+'FI199'.2010.'TRA_Lcv_Gas' 1.25129483036472
+'FI199'.2010.'TRA_Lcv_Lpg' 0
+'FI199'.2010.'TRA_Mop_Gas' 13.0267236758782
+'FI199'.2010.'TRA_Mot_Gas' 11.6091651452169
 'FI199'.2011.'TRA_Car_Dis_Exe' 8.7917886431036
 'FI199'.2011.'TRA_Car_Dis_Lom' 5.15326387642755
 'FI199'.2011.'TRA_Car_Dis_Sma' 5.03260733648286
@@ -99763,6 +102175,8 @@ PRC_RESID ' '/
 'FI199'.2022.'TRA_Car_Oth_Lom' 0
 'FI199'.2022.'TRA_Car_Oth_Sma' 0
 'FI199'.2022.'TRA_Car_Oth_Upm' 0
+'FI199'.2022.'TRA_Mop_Gas' 0
+'FI199'.2022.'TRA_Mot_Gas' 0
 'FI199'.2023.'TRA_Car_Dis_Exe' 5.57156101854075
 'FI199'.2023.'TRA_Car_Dis_Lom' 3.26574321764205
 'FI199'.2023.'TRA_Car_Dis_Sma' 3.18928036100648
@@ -99780,6 +102194,12 @@ PRC_RESID ' '/
 'FI199'.2024.'TRA_Car_Gas_Sma' 10.8458206499273
 'FI199'.2024.'TRA_Car_Gas_Upm' 7.03411866250268
 'FI199'.2025.'EUHYDDAM00' 0.03269832132209
+'FI199'.2025.'TRA_Hdt_Dis' 0
+'FI199'.2025.'TRA_Hdt_Gas' 0
+'FI199'.2025.'TRA_Lcv_Cng' 0
+'FI199'.2025.'TRA_Lcv_Dis' 0
+'FI199'.2025.'TRA_Lcv_Gas' 0
+'FI199'.2025.'TRA_Lcv_Lpg' 0
 'FI199'.2030.'EUHYDDAM00' 0.03269832132209
 'FI199'.2030.'ICLSTDPRO02' 0
 'FI199'.2030.'TRA_Bus_Cng_Coa' 0
@@ -100020,6 +102440,14 @@ PRC_RESID ' '/
 'FI19A'.2010.'TRA_Car_Oth_Lom' 0.005308505892207
 'FI19A'.2010.'TRA_Car_Oth_Sma' 0
 'FI19A'.2010.'TRA_Car_Oth_Upm' 0
+'FI19A'.2010.'TRA_Hdt_Dis' 4.06557413847832
+'FI19A'.2010.'TRA_Hdt_Gas' 0.0944110099654371
+'FI19A'.2010.'TRA_Lcv_Cng' 0
+'FI19A'.2010.'TRA_Lcv_Dis' 12.370084488709
+'FI19A'.2010.'TRA_Lcv_Gas' 0.833307883984605
+'FI19A'.2010.'TRA_Lcv_Lpg' 0
+'FI19A'.2010.'TRA_Mop_Gas' 11.6370981310775
+'FI19A'.2010.'TRA_Mot_Gas' 7.72208293240764
 'FI19A'.2011.'TRA_Car_Dis_Exe' 7.459537350867
 'FI19A'.2011.'TRA_Car_Dis_Lom' 4.37237130299289
 'FI19A'.2011.'TRA_Car_Dis_Sma' 4.26999828165669
@@ -100135,6 +102563,8 @@ PRC_RESID ' '/
 'FI19A'.2022.'TRA_Car_Oth_Lom' 0
 'FI19A'.2022.'TRA_Car_Oth_Sma' 0
 'FI19A'.2022.'TRA_Car_Oth_Upm' 0
+'FI19A'.2022.'TRA_Mop_Gas' 0
+'FI19A'.2022.'TRA_Mot_Gas' 0
 'FI19A'.2023.'TRA_Car_Dis_Exe' 4.72728237763547
 'FI19A'.2023.'TRA_Car_Dis_Lom' 2.77087342510792
 'FI19A'.2023.'TRA_Car_Dis_Sma' 2.70599725961065
@@ -100152,6 +102582,12 @@ PRC_RESID ' '/
 'FI19A'.2024.'TRA_Car_Gas_Sma' 9.20231451451012
 'FI19A'.2024.'TRA_Car_Gas_Upm' 5.9682134117872
 'FI19A'.2025.'EUHYDDAM00' 0.015108879506792
+'FI19A'.2025.'TRA_Hdt_Dis' 0
+'FI19A'.2025.'TRA_Hdt_Gas' 0
+'FI19A'.2025.'TRA_Lcv_Cng' 0
+'FI19A'.2025.'TRA_Lcv_Dis' 0
+'FI19A'.2025.'TRA_Lcv_Gas' 0
+'FI19A'.2025.'TRA_Lcv_Lpg' 0
 'FI19A'.2030.'EUHYDDAM00' 0.015108879506792
 'FI19A'.2030.'ICLSTDPRO02' 0
 'FI19A'.2030.'INDIPPHTH00' 0
@@ -100400,6 +102836,14 @@ PRC_RESID ' '/
 'FI19B'.2010.'TRA_Car_Oth_Lom' 0.013333155192882
 'FI19B'.2010.'TRA_Car_Oth_Sma' 0
 'FI19B'.2010.'TRA_Car_Oth_Upm' 0
+'FI19B'.2010.'TRA_Hdt_Dis' 10.313387813163
+'FI19B'.2010.'TRA_Hdt_Gas' 0.23949811919317
+'FI19B'.2010.'TRA_Lcv_Cng' 0
+'FI19B'.2010.'TRA_Lcv_Dis' 27.4216909670489
+'FI19B'.2010.'TRA_Lcv_Gas' 1.84725587734576
+'FI19B'.2010.'TRA_Lcv_Lpg' 0
+'FI19B'.2010.'TRA_Mop_Gas' 19.6799768072379
+'FI19B'.2010.'TRA_Mot_Gas' 22.0444935590606
 'FI19B'.2011.'TRA_Car_Dis_Exe' 18.7358121448481
 'FI19B'.2011.'TRA_Car_Dis_Lom' 10.981904574937
 'FI19B'.2011.'TRA_Car_Dis_Sma' 10.7247784816904
@@ -100515,6 +102959,8 @@ PRC_RESID ' '/
 'FI19B'.2022.'TRA_Car_Oth_Lom' 0
 'FI19B'.2022.'TRA_Car_Oth_Sma' 0
 'FI19B'.2022.'TRA_Car_Oth_Upm' 0
+'FI19B'.2022.'TRA_Mop_Gas' 0
+'FI19B'.2022.'TRA_Mot_Gas' 0
 'FI19B'.2023.'TRA_Car_Dis_Exe' 11.8733200756391
 'FI19B'.2023.'TRA_Car_Dis_Lom' 6.95948844118865
 'FI19B'.2023.'TRA_Car_Dis_Sma' 6.79654165343731
@@ -100532,6 +102978,12 @@ PRC_RESID ' '/
 'FI19B'.2024.'TRA_Car_Gas_Sma' 23.1130736307167
 'FI19B'.2024.'TRA_Car_Gas_Upm' 14.9901153468467
 'FI19B'.2025.'EUHYDDAM00' 0.050535819367604
+'FI19B'.2025.'TRA_Hdt_Dis' 0
+'FI19B'.2025.'TRA_Hdt_Gas' 0
+'FI19B'.2025.'TRA_Lcv_Cng' 0
+'FI19B'.2025.'TRA_Lcv_Dis' 0
+'FI19B'.2025.'TRA_Lcv_Gas' 0
+'FI19B'.2025.'TRA_Lcv_Lpg' 0
 'FI19B'.2030.'EUHYDDAM00' 0.050535819367604
 'FI19B'.2030.'ICLSTDPRO02' 0
 'FI19B'.2030.'INDIPPHTH00' 0
@@ -100811,6 +103263,14 @@ PRC_RESID ' '/
 'FI1B1'.2010.'TRA_Car_Oth_Lom' 0.037815187924479
 'FI1B1'.2010.'TRA_Car_Oth_Sma' 0
 'FI1B1'.2010.'TRA_Car_Oth_Upm' 0
+'FI1B1'.2010.'TRA_Hdt_Dis' 25.6346008647719
+'FI1B1'.2010.'TRA_Hdt_Gas' 0.595288260715329
+'FI1B1'.2010.'TRA_Lcv_Cng' 0
+'FI1B1'.2010.'TRA_Lcv_Dis' 70.4501180147866
+'FI1B1'.2010.'TRA_Lcv_Gas' 4.74585592547512
+'FI1B1'.2010.'TRA_Lcv_Lpg' 0
+'FI1B1'.2010.'TRA_Mop_Gas' 52.9648172418083
+'FI1B1'.2010.'TRA_Mot_Gas' 55.410702483671
 'FI1B1'.2011.'TRA_Car_Dis_Exe' 53.1380792412439
 'FI1B1'.2011.'TRA_Car_Dis_Lom' 31.1466250307833
 'FI1B1'.2011.'TRA_Car_Dis_Sma' 30.4173699223152
@@ -100924,6 +103384,8 @@ PRC_RESID ' '/
 'FI1B1'.2022.'TRA_Car_Oth_Lom' 0
 'FI1B1'.2022.'TRA_Car_Oth_Sma' 0
 'FI1B1'.2022.'TRA_Car_Oth_Upm' 0
+'FI1B1'.2022.'TRA_Mop_Gas' 0
+'FI1B1'.2022.'TRA_Mot_Gas' 0
 'FI1B1'.2023.'TRA_Car_Dis_Exe' 33.6748371598855
 'FI1B1'.2023.'TRA_Car_Dis_Lom' 19.7383409594066
 'FI1B1'.2023.'TRA_Car_Dis_Sma' 19.2761950298523
@@ -100940,6 +103402,12 @@ PRC_RESID ' '/
 'FI1B1'.2024.'TRA_Car_Gas_Lom' 94.8205295068052
 'FI1B1'.2024.'TRA_Car_Gas_Sma' 65.5527675343101
 'FI1B1'.2024.'TRA_Car_Gas_Upm' 42.514620181819
+'FI1B1'.2025.'TRA_Hdt_Dis' 0
+'FI1B1'.2025.'TRA_Hdt_Gas' 0
+'FI1B1'.2025.'TRA_Lcv_Cng' 0
+'FI1B1'.2025.'TRA_Lcv_Dis' 0
+'FI1B1'.2025.'TRA_Lcv_Gas' 0
+'FI1B1'.2025.'TRA_Lcv_Lpg' 0
 'FI1B1'.2030.'ICLSTDPRO02' 0
 'FI1B1'.2030.'INDIPPHTH00' 0
 'FI1B1'.2030.'TRA_Bus_Cng_Coa' 0
@@ -101215,6 +103683,14 @@ PRC_RESID ' '/
 'FI1C1'.2010.'TRA_Car_Oth_Lom' 0.013214046334608
 'FI1C1'.2010.'TRA_Car_Oth_Sma' 0
 'FI1C1'.2010.'TRA_Car_Oth_Upm' 0
+'FI1C1'.2010.'TRA_Hdt_Dis' 11.0968456670206
+'FI1C1'.2010.'TRA_Hdt_Gas' 0.257691625135663
+'FI1C1'.2010.'TRA_Lcv_Cng' 0
+'FI1C1'.2010.'TRA_Lcv_Dis' 28.896688503695
+'FI1C1'.2010.'TRA_Lcv_Gas' 1.94661874566464
+'FI1C1'.2010.'TRA_Lcv_Lpg' 0
+'FI1C1'.2010.'TRA_Mop_Gas' 24.3004527211809
+'FI1C1'.2010.'TRA_Mot_Gas' 20.3498418962586
 'FI1C1'.2011.'TRA_Car_Dis_Exe' 18.5684398191588
 'FI1C1'.2011.'TRA_Car_Dis_Lom' 10.8838001055393
 'FI1C1'.2011.'TRA_Car_Dis_Sma' 10.6289709926365
@@ -101330,6 +103806,8 @@ PRC_RESID ' '/
 'FI1C1'.2022.'TRA_Car_Oth_Lom' 0
 'FI1C1'.2022.'TRA_Car_Oth_Sma' 0
 'FI1C1'.2022.'TRA_Car_Oth_Upm' 0
+'FI1C1'.2022.'TRA_Mop_Gas' 0
+'FI1C1'.2022.'TRA_Mot_Gas' 0
 'FI1C1'.2023.'TRA_Car_Dis_Exe' 11.7672523386577
 'FI1C1'.2023.'TRA_Car_Dis_Lom' 6.89731735636969
 'FI1C1'.2023.'TRA_Car_Dis_Sma' 6.73582621850524
@@ -101347,6 +103825,12 @@ PRC_RESID ' '/
 'FI1C1'.2024.'TRA_Car_Gas_Sma' 22.9065979862401
 'FI1C1'.2024.'TRA_Car_Gas_Upm' 14.856204393398
 'FI1C1'.2025.'EUHYDDAM00' 0.003495337797484
+'FI1C1'.2025.'TRA_Hdt_Dis' 0
+'FI1C1'.2025.'TRA_Hdt_Gas' 0
+'FI1C1'.2025.'TRA_Lcv_Cng' 0
+'FI1C1'.2025.'TRA_Lcv_Dis' 0
+'FI1C1'.2025.'TRA_Lcv_Gas' 0
+'FI1C1'.2025.'TRA_Lcv_Lpg' 0
 'FI1C1'.2030.'EUHYDDAM00' 0.003495337797484
 'FI1C1'.2030.'ICLSTDPRO02' 0
 'FI1C1'.2030.'TRA_Bus_Cng_Coa' 0
@@ -101598,6 +104082,14 @@ PRC_RESID ' '/
 'FI1C2'.2010.'TRA_Car_Oth_Lom' 0.005145214280577
 'FI1C2'.2010.'TRA_Car_Oth_Sma' 0
 'FI1C2'.2010.'TRA_Car_Oth_Upm' 0
+'FI1C2'.2010.'TRA_Hdt_Dis' 4.46489244845352
+'FI1C2'.2010.'TRA_Hdt_Gas' 0.103684004051473
+'FI1C2'.2010.'TRA_Lcv_Cng' 0
+'FI1C2'.2010.'TRA_Lcv_Dis' 11.2512683732027
+'FI1C2'.2010.'TRA_Lcv_Gas' 0.75793909481979
+'FI1C2'.2010.'TRA_Lcv_Lpg' 0
+'FI1C2'.2010.'TRA_Mop_Gas' 9.32337740317628
+'FI1C2'.2010.'TRA_Mot_Gas' 9.57097594060155
 'FI1C2'.2011.'TRA_Car_Dis_Exe' 7.23007921315909
 'FI1C2'.2011.'TRA_Car_Dis_Lom' 4.23787553879705
 'FI1C2'.2011.'TRA_Car_Dis_Sma' 4.13865154959548
@@ -101711,6 +104203,8 @@ PRC_RESID ' '/
 'FI1C2'.2022.'TRA_Car_Oth_Lom' 0
 'FI1C2'.2022.'TRA_Car_Oth_Sma' 0
 'FI1C2'.2022.'TRA_Car_Oth_Upm' 0
+'FI1C2'.2022.'TRA_Mop_Gas' 0
+'FI1C2'.2022.'TRA_Mot_Gas' 0
 'FI1C2'.2023.'TRA_Car_Dis_Exe' 4.58186941704944
 'FI1C2'.2023.'TRA_Car_Dis_Lom' 2.68564033007212
 'FI1C2'.2023.'TRA_Car_Dis_Sma' 2.62275977950597
@@ -101727,6 +104221,12 @@ PRC_RESID ' '/
 'FI1C2'.2024.'TRA_Car_Gas_Lom' 12.9014813699887
 'FI1C2'.2024.'TRA_Car_Gas_Sma' 8.9192479043729
 'FI1C2'.2024.'TRA_Car_Gas_Upm' 5.78462895198785
+'FI1C2'.2025.'TRA_Hdt_Dis' 0
+'FI1C2'.2025.'TRA_Hdt_Gas' 0
+'FI1C2'.2025.'TRA_Lcv_Cng' 0
+'FI1C2'.2025.'TRA_Lcv_Dis' 0
+'FI1C2'.2025.'TRA_Lcv_Gas' 0
+'FI1C2'.2025.'TRA_Lcv_Lpg' 0
 'FI1C2'.2030.'ICLSTDPRO02' 0
 'FI1C2'.2030.'IISFINPRO00' 0
 'FI1C2'.2030.'INDIISHTH00' 0
@@ -102009,6 +104509,14 @@ PRC_RESID ' '/
 'FI1C5'.2010.'TRA_Car_Oth_Lom' 0.003962316233841
 'FI1C5'.2010.'TRA_Car_Oth_Sma' 0
 'FI1C5'.2010.'TRA_Car_Oth_Upm' 0
+'FI1C5'.2010.'TRA_Hdt_Dis' 2.75903265057702
+'FI1C5'.2010.'TRA_Hdt_Gas' 0.0640704240523549
+'FI1C5'.2010.'TRA_Lcv_Cng' 0
+'FI1C5'.2010.'TRA_Lcv_Dis' 7.07977425244742
+'FI1C5'.2010.'TRA_Lcv_Gas' 0.476927357026594
+'FI1C5'.2010.'TRA_Lcv_Lpg' 0
+'FI1C5'.2010.'TRA_Mop_Gas' 8.52930566317877
+'FI1C5'.2010.'TRA_Mot_Gas' 6.26480269030267
 'FI1C5'.2011.'TRA_Car_Dis_Exe' 5.56786533583281
 'FI1C5'.2011.'TRA_Car_Dis_Lom' 3.26357701131354
 'FI1C5'.2011.'TRA_Car_Dis_Sma' 3.18716487340045
@@ -102124,6 +104632,8 @@ PRC_RESID ' '/
 'FI1C5'.2022.'TRA_Car_Oth_Lom' 0
 'FI1C5'.2022.'TRA_Car_Oth_Sma' 0
 'FI1C5'.2022.'TRA_Car_Oth_Upm' 0
+'FI1C5'.2022.'TRA_Mop_Gas' 0
+'FI1C5'.2022.'TRA_Mot_Gas' 0
 'FI1C5'.2023.'TRA_Car_Dis_Exe' 3.52848580885123
 'FI1C5'.2023.'TRA_Car_Dis_Lom' 2.06820468454999
 'FI1C5'.2023.'TRA_Car_Dis_Sma' 2.01978053490055
@@ -102141,6 +104651,12 @@ PRC_RESID ' '/
 'FI1C5'.2024.'TRA_Car_Gas_Sma' 6.86868978393371
 'FI1C5'.2024.'TRA_Car_Gas_Upm' 4.45472782148885
 'FI1C5'.2025.'EUHYDDAM00' 0.290338542777122
+'FI1C5'.2025.'TRA_Hdt_Dis' 0
+'FI1C5'.2025.'TRA_Hdt_Gas' 0
+'FI1C5'.2025.'TRA_Lcv_Cng' 0
+'FI1C5'.2025.'TRA_Lcv_Dis' 0
+'FI1C5'.2025.'TRA_Lcv_Gas' 0
+'FI1C5'.2025.'TRA_Lcv_Lpg' 0
 'FI1C5'.2030.'EUHYDDAM00' 0.290338542777122
 'FI1C5'.2030.'ICLSTDPRO02' 0
 'FI1C5'.2030.'IISFINPRO00' 0
@@ -102426,6 +104942,14 @@ PRC_RESID ' '/
 'FI1C6'.2010.'TRA_Car_Oth_Lom' 0.005719878472182
 'FI1C6'.2010.'TRA_Car_Oth_Sma' 0
 'FI1C6'.2010.'TRA_Car_Oth_Upm' 0
+'FI1C6'.2010.'TRA_Hdt_Dis' 4.28858524149357
+'FI1C6'.2010.'TRA_Hdt_Gas' 0.0995897873661259
+'FI1C6'.2010.'TRA_Lcv_Cng' 0
+'FI1C6'.2010.'TRA_Lcv_Dis' 11.7197592514818
+'FI1C6'.2010.'TRA_Lcv_Gas' 0.789498874609585
+'FI1C6'.2010.'TRA_Lcv_Lpg' 0
+'FI1C6'.2010.'TRA_Mop_Gas' 9.8666896463735
+'FI1C6'.2010.'TRA_Mot_Gas' 8.72565324332797
 'FI1C6'.2011.'TRA_Car_Dis_Exe' 8.03760002758944
 'FI1C6'.2011.'TRA_Car_Dis_Lom' 4.71119991127631
 'FI1C6'.2011.'TRA_Car_Dis_Sma' 4.60089368712145
@@ -102541,6 +105065,8 @@ PRC_RESID ' '/
 'FI1C6'.2022.'TRA_Car_Oth_Lom' 0
 'FI1C6'.2022.'TRA_Car_Oth_Sma' 0
 'FI1C6'.2022.'TRA_Car_Oth_Upm' 0
+'FI1C6'.2022.'TRA_Mop_Gas' 0
+'FI1C6'.2022.'TRA_Mot_Gas' 0
 'FI1C6'.2023.'TRA_Car_Dis_Exe' 5.0936141454523
 'FI1C6'.2023.'TRA_Car_Dis_Lom' 2.98559699758133
 'FI1C6'.2023.'TRA_Car_Dis_Sma' 2.91569337687888
@@ -102558,6 +105084,12 @@ PRC_RESID ' '/
 'FI1C6'.2024.'TRA_Car_Gas_Sma' 9.91543039691552
 'FI1C6'.2024.'TRA_Car_Gas_Upm' 6.43070877279877
 'FI1C6'.2025.'EUHYDDAM00' 0.044537368696673
+'FI1C6'.2025.'TRA_Hdt_Dis' 0
+'FI1C6'.2025.'TRA_Hdt_Gas' 0
+'FI1C6'.2025.'TRA_Lcv_Cng' 0
+'FI1C6'.2025.'TRA_Lcv_Dis' 0
+'FI1C6'.2025.'TRA_Lcv_Gas' 0
+'FI1C6'.2025.'TRA_Lcv_Lpg' 0
 'FI1C6'.2030.'EUHYDDAM00' 0.044537368696673
 'FI1C6'.2030.'ICLSTDPRO02' 0
 'FI1C6'.2030.'INDIPPHTH00' 0
@@ -102810,6 +105342,14 @@ PRC_RESID ' '/
 'FI1C7'.2010.'TRA_Car_Oth_Lom' 0.005216102797206
 'FI1C7'.2010.'TRA_Car_Oth_Sma' 0
 'FI1C7'.2010.'TRA_Car_Oth_Upm' 0
+'FI1C7'.2010.'TRA_Hdt_Dis' 3.91378647686773
+'FI1C7'.2010.'TRA_Hdt_Gas' 0.090886187653794
+'FI1C7'.2010.'TRA_Lcv_Cng' 0
+'FI1C7'.2010.'TRA_Lcv_Dis' 9.47998779268648
+'FI1C7'.2010.'TRA_Lcv_Gas' 0.638617187694561
+'FI1C7'.2010.'TRA_Lcv_Lpg' 0
+'FI1C7'.2010.'TRA_Mop_Gas' 11.8692828503659
+'FI1C7'.2010.'TRA_Mot_Gas' 8.20183361008431
 'FI1C7'.2011.'TRA_Car_Dis_Exe' 7.32969208884938
 'FI1C7'.2011.'TRA_Car_Dis_Lom' 4.29626313826744
 'FI1C7'.2011.'TRA_Car_Dis_Sma' 4.19567208425089
@@ -102925,6 +105465,8 @@ PRC_RESID ' '/
 'FI1C7'.2022.'TRA_Car_Oth_Lom' 0
 'FI1C7'.2022.'TRA_Car_Oth_Sma' 0
 'FI1C7'.2022.'TRA_Car_Oth_Upm' 0
+'FI1C7'.2022.'TRA_Mop_Gas' 0
+'FI1C7'.2022.'TRA_Mot_Gas' 0
 'FI1C7'.2023.'TRA_Car_Dis_Exe' 4.64499641403158
 'FI1C7'.2023.'TRA_Car_Dis_Lom' 2.72264191033993
 'FI1C7'.2023.'TRA_Car_Dis_Sma' 2.65889501899351
@@ -102942,6 +105484,12 @@ PRC_RESID ' '/
 'FI1C7'.2024.'TRA_Car_Gas_Sma' 9.04213340902023
 'FI1C7'.2024.'TRA_Car_Gas_Upm' 5.86432704487459
 'FI1C7'.2025.'EUHYDDAM00' 0.119969013402755
+'FI1C7'.2025.'TRA_Hdt_Dis' 0
+'FI1C7'.2025.'TRA_Hdt_Gas' 0
+'FI1C7'.2025.'TRA_Lcv_Cng' 0
+'FI1C7'.2025.'TRA_Lcv_Dis' 0
+'FI1C7'.2025.'TRA_Lcv_Gas' 0
+'FI1C7'.2025.'TRA_Lcv_Lpg' 0
 'FI1C7'.2030.'EUHYDDAM00' 0.119969013402755
 'FI1C7'.2030.'ICLSTDPRO02' 0
 'FI1C7'.2030.'INDIPPHTH00' 0
@@ -103184,6 +105732,14 @@ PRC_RESID ' '/
 'FI1D5'.2010.'TRA_Car_Oth_Lom' 0.001987531738584
 'FI1D5'.2010.'TRA_Car_Oth_Sma' 0
 'FI1D5'.2010.'TRA_Car_Oth_Upm' 0
+'FI1D5'.2010.'TRA_Hdt_Dis' 1.83312791425156
+'FI1D5'.2010.'TRA_Hdt_Gas' 0.0425690079397006
+'FI1D5'.2010.'TRA_Lcv_Cng' 0
+'FI1D5'.2010.'TRA_Lcv_Dis' 4.93626804290444
+'FI1D5'.2010.'TRA_Lcv_Gas' 0.332530556389338
+'FI1D5'.2010.'TRA_Lcv_Lpg' 0
+'FI1D5'.2010.'TRA_Mop_Gas' 4.16191109332247
+'FI1D5'.2010.'TRA_Mot_Gas' 2.93659496199343
 'FI1D5'.2011.'TRA_Car_Dis_Exe' 2.79288891093932
 'FI1D5'.2011.'TRA_Car_Dis_Lom' 1.6370381636629
 'FI1D5'.2011.'TRA_Car_Dis_Sma' 1.59870918123131
@@ -103299,6 +105855,8 @@ PRC_RESID ' '/
 'FI1D5'.2022.'TRA_Car_Oth_Lom' 0
 'FI1D5'.2022.'TRA_Car_Oth_Sma' 0
 'FI1D5'.2022.'TRA_Car_Oth_Upm' 0
+'FI1D5'.2022.'TRA_Mop_Gas' 0
+'FI1D5'.2022.'TRA_Mot_Gas' 0
 'FI1D5'.2023.'TRA_Car_Dis_Exe' 1.76991868401094
 'FI1D5'.2023.'TRA_Car_Dis_Lom' 1.0374291726954
 'FI1D5'.2023.'TRA_Car_Dis_Sma' 1.01313920474175
@@ -103316,6 +105874,12 @@ PRC_RESID ' '/
 'FI1D5'.2024.'TRA_Car_Gas_Sma' 3.44539358859355
 'FI1D5'.2024.'TRA_Car_Gas_Upm' 2.23452960577541
 'FI1D5'.2025.'EUHYDDAM00' 0.158981493327161
+'FI1D5'.2025.'TRA_Hdt_Dis' 0
+'FI1D5'.2025.'TRA_Hdt_Gas' 0
+'FI1D5'.2025.'TRA_Lcv_Cng' 0
+'FI1D5'.2025.'TRA_Lcv_Dis' 0
+'FI1D5'.2025.'TRA_Lcv_Gas' 0
+'FI1D5'.2025.'TRA_Lcv_Lpg' 0
 'FI1D5'.2030.'EUHYDDAM00' 0.158981493327161
 'FI1D5'.2030.'ICLSTDPRO02' 0
 'FI1D5'.2030.'TRA_Bus_Cng_Coa' 0
@@ -103566,6 +106130,14 @@ PRC_RESID ' '/
 'FI1D7'.2010.'TRA_Car_Oth_Lom' 0.005094513705981
 'FI1D7'.2010.'TRA_Car_Oth_Sma' 0
 'FI1D7'.2010.'TRA_Car_Oth_Upm' 0
+'FI1D7'.2010.'TRA_Hdt_Dis' 4.47773601990288
+'FI1D7'.2010.'TRA_Hdt_Gas' 0.103982258248985
+'FI1D7'.2010.'TRA_Lcv_Cng' 0
+'FI1D7'.2010.'TRA_Lcv_Dis' 15.4666166626972
+'FI1D7'.2010.'TRA_Lcv_Gas' 1.04190505855941
+'FI1D7'.2010.'TRA_Lcv_Lpg' 0
+'FI1D7'.2010.'TRA_Mop_Gas' 9.06100867046355
+'FI1D7'.2010.'TRA_Mot_Gas' 6.81466307026523
 'FI1D7'.2011.'TRA_Car_Dis_Exe' 7.15883452819708
 'FI1D7'.2011.'TRA_Car_Dis_Lom' 4.19611581545678
 'FI1D7'.2011.'TRA_Car_Dis_Sma' 4.09786957236876
@@ -103681,6 +106253,8 @@ PRC_RESID ' '/
 'FI1D7'.2022.'TRA_Car_Oth_Lom' 0
 'FI1D7'.2022.'TRA_Car_Oth_Sma' 0
 'FI1D7'.2022.'TRA_Car_Oth_Upm' 0
+'FI1D7'.2022.'TRA_Mop_Gas' 0
+'FI1D7'.2022.'TRA_Mot_Gas' 0
 'FI1D7'.2023.'TRA_Car_Dis_Exe' 4.53672000256438
 'FI1D7'.2023.'TRA_Car_Dis_Lom' 2.65917622178282
 'FI1D7'.2023.'TRA_Car_Dis_Sma' 2.5969152916777
@@ -103698,6 +106272,12 @@ PRC_RESID ' '/
 'FI1D7'.2024.'TRA_Car_Gas_Sma' 8.83135827158872
 'FI1D7'.2024.'TRA_Car_Gas_Upm' 5.72762763081886
 'FI1D7'.2025.'EUHYDDAM00' 1.19709681889751
+'FI1D7'.2025.'TRA_Hdt_Dis' 0
+'FI1D7'.2025.'TRA_Hdt_Gas' 0
+'FI1D7'.2025.'TRA_Lcv_Cng' 0
+'FI1D7'.2025.'TRA_Lcv_Dis' 0
+'FI1D7'.2025.'TRA_Lcv_Gas' 0
+'FI1D7'.2025.'TRA_Lcv_Lpg' 0
 'FI1D7'.2030.'EUHYDDAM00' 1.19709681889751
 'FI1D7'.2030.'ICLSTDPRO02' 0
 'FI1D7'.2030.'IISFINPRO00' 0
@@ -103916,6 +106496,14 @@ PRC_RESID ' '/
 'FI1D8'.2010.'TRA_Car_Oth_Lom' 0.002229614004135
 'FI1D8'.2010.'TRA_Car_Oth_Sma' 0
 'FI1D8'.2010.'TRA_Car_Oth_Upm' 0
+'FI1D8'.2010.'TRA_Hdt_Dis' 1.66616148643438
+'FI1D8'.2010.'TRA_Hdt_Gas' 0.0386917033958358
+'FI1D8'.2010.'TRA_Lcv_Cng' 0
+'FI1D8'.2010.'TRA_Lcv_Dis' 5.72350385628848
+'FI1D8'.2010.'TRA_Lcv_Gas' 0.385562515099623
+'FI1D8'.2010.'TRA_Lcv_Lpg' 0
+'FI1D8'.2010.'TRA_Mop_Gas' 4.30934839003421
+'FI1D8'.2010.'TRA_Mot_Gas' 2.86748682682795
 'FI1D8'.2011.'TRA_Car_Dis_Exe' 3.13306404468292
 'FI1D8'.2011.'TRA_Car_Dis_Lom' 1.83643015311375
 'FI1D8'.2011.'TRA_Car_Dis_Sma' 1.79343268326976
@@ -104031,6 +106619,8 @@ PRC_RESID ' '/
 'FI1D8'.2022.'TRA_Car_Oth_Lom' 0
 'FI1D8'.2022.'TRA_Car_Oth_Sma' 0
 'FI1D8'.2022.'TRA_Car_Oth_Upm' 0
+'FI1D8'.2022.'TRA_Mop_Gas' 0
+'FI1D8'.2022.'TRA_Mot_Gas' 0
 'FI1D8'.2023.'TRA_Car_Dis_Exe' 1.98549558099759
 'FI1D8'.2023.'TRA_Car_Dis_Lom' 1.1637885155926
 'FI1D8'.2023.'TRA_Car_Dis_Sma' 1.13654001854569
@@ -104048,6 +106638,12 @@ PRC_RESID ' '/
 'FI1D8'.2024.'TRA_Car_Gas_Sma' 3.86504408747607
 'FI1D8'.2024.'TRA_Car_Gas_Upm' 2.50669632337072
 'FI1D8'.2025.'EUHYDDAM00' 0.152103570566417
+'FI1D8'.2025.'TRA_Hdt_Dis' 0
+'FI1D8'.2025.'TRA_Hdt_Gas' 0
+'FI1D8'.2025.'TRA_Lcv_Cng' 0
+'FI1D8'.2025.'TRA_Lcv_Dis' 0
+'FI1D8'.2025.'TRA_Lcv_Gas' 0
+'FI1D8'.2025.'TRA_Lcv_Lpg' 0
 'FI1D8'.2030.'EUHYDDAM00' 0.152103570566417
 'FI1D8'.2030.'ICLSTDPRO02' 0
 'FI1D8'.2030.'TRA_Bus_Cng_Coa' 0
@@ -104274,6 +106870,14 @@ PRC_RESID ' '/
 'FI1D9'.2010.'TRA_Car_Oth_Lom' 0.010395175140756
 'FI1D9'.2010.'TRA_Car_Oth_Sma' 0
 'FI1D9'.2010.'TRA_Car_Oth_Upm' 0
+'FI1D9'.2010.'TRA_Hdt_Dis' 7.73766795404527
+'FI1D9'.2010.'TRA_Hdt_Gas' 0.179684595935578
+'FI1D9'.2010.'TRA_Lcv_Cng' 0
+'FI1D9'.2010.'TRA_Lcv_Dis' 23.9315408862079
+'FI1D9'.2010.'TRA_Lcv_Gas' 1.61214272340497
+'FI1D9'.2010.'TRA_Lcv_Lpg' 0
+'FI1D9'.2010.'TRA_Mop_Gas' 22.3152733713171
+'FI1D9'.2010.'TRA_Mot_Gas' 17.0376592427835
 'FI1D9'.2011.'TRA_Car_Dis_Exe' 14.6073488107282
 'FI1D9'.2011.'TRA_Car_Dis_Lom' 8.56202600090366
 'FI1D9'.2011.'TRA_Car_Dis_Sma' 8.36155801460258
@@ -104389,6 +106993,8 @@ PRC_RESID ' '/
 'FI1D9'.2022.'TRA_Car_Oth_Lom' 0
 'FI1D9'.2022.'TRA_Car_Oth_Sma' 0
 'FI1D9'.2022.'TRA_Car_Oth_Upm' 0
+'FI1D9'.2022.'TRA_Mop_Gas' 0
+'FI1D9'.2022.'TRA_Mot_Gas' 0
 'FI1D9'.2023.'TRA_Car_Dis_Exe' 9.2570168053256
 'FI1D9'.2023.'TRA_Car_Dis_Lom' 5.42595508637332
 'FI1D9'.2023.'TRA_Car_Dis_Sma' 5.2989138592373
@@ -104406,6 +107012,12 @@ PRC_RESID ' '/
 'FI1D9'.2024.'TRA_Car_Gas_Sma' 18.0200743902506
 'FI1D9'.2024.'TRA_Car_Gas_Upm' 11.6870217256448
 'FI1D9'.2025.'EUHYDDAM00' 0.661182607708389
+'FI1D9'.2025.'TRA_Hdt_Dis' 0
+'FI1D9'.2025.'TRA_Hdt_Gas' 0
+'FI1D9'.2025.'TRA_Lcv_Cng' 0
+'FI1D9'.2025.'TRA_Lcv_Dis' 0
+'FI1D9'.2025.'TRA_Lcv_Gas' 0
+'FI1D9'.2025.'TRA_Lcv_Lpg' 0
 'FI1D9'.2030.'EUHYDDAM00' 0.661182607708389
 'FI1D9'.2030.'ICLSTDPRO02' 0
 'FI1D9'.2030.'IISFINPRO00' 0
@@ -104667,6 +107279,14 @@ PRC_RESID ' '/
 'FI1DA'.2010.'TRA_Car_Oth_Lom' 0.004176135380487
 'FI1DA'.2010.'TRA_Car_Oth_Sma' 0
 'FI1DA'.2010.'TRA_Car_Oth_Upm' 0
+'FI1DA'.2010.'TRA_Hdt_Dis' 3.11748505167457
+'FI1DA'.2010.'TRA_Hdt_Gas' 0.072394427516432
+'FI1DA'.2010.'TRA_Lcv_Cng' 0
+'FI1DA'.2010.'TRA_Lcv_Dis' 9.67679674611291
+'FI1DA'.2010.'TRA_Lcv_Gas' 0.651875177377549
+'FI1DA'.2010.'TRA_Lcv_Lpg' 0
+'FI1DA'.2010.'TRA_Mop_Gas' 8.06261437757543
+'FI1DA'.2010.'TRA_Mot_Gas' 6.21372276421216
 'FI1DA'.2011.'TRA_Car_Dis_Exe' 5.8683250024742
 'FI1DA'.2011.'TRA_Car_Dis_Lom' 3.43968997413381
 'FI1DA'.2011.'TRA_Car_Dis_Sma' 3.35915439499146
@@ -104782,6 +107402,8 @@ PRC_RESID ' '/
 'FI1DA'.2022.'TRA_Car_Oth_Lom' 0
 'FI1DA'.2022.'TRA_Car_Oth_Sma' 0
 'FI1DA'.2022.'TRA_Car_Oth_Upm' 0
+'FI1DA'.2022.'TRA_Mop_Gas' 0
+'FI1DA'.2022.'TRA_Mot_Gas' 0
 'FI1DA'.2023.'TRA_Car_Dis_Exe' 3.71889409028961
 'FI1DA'.2023.'TRA_Car_Dis_Lom' 2.17981156664659
 'FI1DA'.2023.'TRA_Car_Dis_Sma' 2.12877429635153
@@ -104799,6 +107421,12 @@ PRC_RESID ' '/
 'FI1DA'.2024.'TRA_Car_Gas_Sma' 7.23934606210591
 'FI1DA'.2024.'TRA_Car_Gas_Upm' 4.6951190586132
 'FI1DA'.2025.'EUHYDDAM00' 0.00338258496326
+'FI1DA'.2025.'TRA_Hdt_Dis' 0
+'FI1DA'.2025.'TRA_Hdt_Gas' 0
+'FI1DA'.2025.'TRA_Lcv_Cng' 0
+'FI1DA'.2025.'TRA_Lcv_Dis' 0
+'FI1DA'.2025.'TRA_Lcv_Gas' 0
+'FI1DA'.2025.'TRA_Lcv_Lpg' 0
 'FI1DA'.2030.'EUHYDDAM00' 0.00338258496326
 'FI1DA'.2030.'ICLSTDPRO02' 0
 'FI1DA'.2030.'TRA_Bus_Cng_Coa' 0
@@ -105047,6 +107675,14 @@ PRC_RESID ' '/
 'FI1DB'.2010.'TRA_Car_Oth_Lom' 0.006901507562586
 'FI1DB'.2010.'TRA_Car_Oth_Sma' 0
 'FI1DB'.2010.'TRA_Car_Oth_Upm' 0
+'FI1DB'.2010.'TRA_Hdt_Dis' 5.71538926138441
+'FI1DB'.2010.'TRA_Hdt_Gas' 0.132723117113018
+'FI1DB'.2010.'TRA_Lcv_Cng' 0
+'FI1DB'.2010.'TRA_Lcv_Dis' 15.6730521409845
+'FI1DB'.2010.'TRA_Lcv_Gas' 1.05581153686584
+'FI1DB'.2010.'TRA_Lcv_Lpg' 0
+'FI1DB'.2010.'TRA_Mop_Gas' 13.6071854740992
+'FI1DB'.2010.'TRA_Mot_Gas' 10.5364866989043
 'FI1DB'.2011.'TRA_Car_Dis_Exe' 9.69803076153275
 'FI1DB'.2011.'TRA_Car_Dis_Lom' 5.68445325799456
 'FI1DB'.2011.'TRA_Car_Dis_Sma' 5.55135965401199
@@ -105162,6 +107798,8 @@ PRC_RESID ' '/
 'FI1DB'.2022.'TRA_Car_Oth_Lom' 0
 'FI1DB'.2022.'TRA_Car_Oth_Sma' 0
 'FI1DB'.2022.'TRA_Car_Oth_Upm' 0
+'FI1DB'.2022.'TRA_Mop_Gas' 0
+'FI1DB'.2022.'TRA_Mot_Gas' 0
 'FI1DB'.2023.'TRA_Car_Dis_Exe' 6.14586773420097
 'FI1DB'.2023.'TRA_Car_Dis_Lom' 3.60237028773467
 'FI1DB'.2023.'TRA_Car_Dis_Sma' 3.51802577424957
@@ -105179,6 +107817,12 @@ PRC_RESID ' '/
 'FI1DB'.2024.'TRA_Car_Gas_Sma' 11.9637887768798
 'FI1DB'.2024.'TRA_Car_Gas_Upm' 7.7591832491029
 'FI1DB'.2025.'EUHYDDAM00' 0.021874049436485
+'FI1DB'.2025.'TRA_Hdt_Dis' 0
+'FI1DB'.2025.'TRA_Hdt_Gas' 0
+'FI1DB'.2025.'TRA_Lcv_Cng' 0
+'FI1DB'.2025.'TRA_Lcv_Dis' 0
+'FI1DB'.2025.'TRA_Lcv_Gas' 0
+'FI1DB'.2025.'TRA_Lcv_Lpg' 0
 'FI1DB'.2030.'EUHYDDAM00' 0.021874049436485
 'FI1DB'.2030.'ICLSTDPRO02' 0
 'FI1DB'.2030.'INDIPPHTH00' 0
@@ -105456,6 +108100,14 @@ PRC_RESID ' '/
 'FI1DC'.2010.'TRA_Car_Oth_Lom' 0.004862813810673
 'FI1DC'.2010.'TRA_Car_Oth_Sma' 0
 'FI1DC'.2010.'TRA_Car_Oth_Upm' 0
+'FI1DC'.2010.'TRA_Hdt_Dis' 3.26343472633516
+'FI1DC'.2010.'TRA_Hdt_Gas' 0.0757836797399792
+'FI1DC'.2010.'TRA_Lcv_Cng' 0
+'FI1DC'.2010.'TRA_Lcv_Dis' 11.0330671422719
+'FI1DC'.2010.'TRA_Lcv_Gas' 0.74324001930452
+'FI1DC'.2010.'TRA_Lcv_Lpg' 0
+'FI1DC'.2010.'TRA_Mop_Gas' 9.59503352477489
+'FI1DC'.2010.'TRA_Mot_Gas' 7.08208150638965
 'FI1DC'.2011.'TRA_Car_Dis_Exe' 6.83324874976189
 'FI1DC'.2011.'TRA_Car_Dis_Lom' 4.00527530520353
 'FI1DC'.2011.'TRA_Car_Dis_Sma' 3.9114973284804
@@ -105571,6 +108223,8 @@ PRC_RESID ' '/
 'FI1DC'.2022.'TRA_Car_Oth_Lom' 0
 'FI1DC'.2022.'TRA_Car_Oth_Sma' 0
 'FI1DC'.2022.'TRA_Car_Oth_Upm' 0
+'FI1DC'.2022.'TRA_Mop_Gas' 0
+'FI1DC'.2022.'TRA_Mot_Gas' 0
 'FI1DC'.2023.'TRA_Car_Dis_Exe' 4.33038871948199
 'FI1DC'.2023.'TRA_Car_Dis_Lom' 2.53823615021735
 'FI1DC'.2023.'TRA_Car_Dis_Sma' 2.47880686446921
@@ -105588,6 +108242,12 @@ PRC_RESID ' '/
 'FI1DC'.2024.'TRA_Car_Gas_Sma' 8.42970564975903
 'FI1DC'.2024.'TRA_Car_Gas_Upm' 5.46713353873978
 'FI1DC'.2025.'EUHYDDAM00' 0.217951224537974
+'FI1DC'.2025.'TRA_Hdt_Dis' 0
+'FI1DC'.2025.'TRA_Hdt_Gas' 0
+'FI1DC'.2025.'TRA_Lcv_Cng' 0
+'FI1DC'.2025.'TRA_Lcv_Dis' 0
+'FI1DC'.2025.'TRA_Lcv_Gas' 0
+'FI1DC'.2025.'TRA_Lcv_Lpg' 0
 'FI1DC'.2030.'EUHYDDAM00' 0.217951224537974
 'FI1DC'.2030.'ICLSTDPRO02' 0
 'FI1DC'.2030.'INDIPPHTH00' 0
@@ -105852,6 +108512,14 @@ PRC_RESID ' '/
 'FI200'.2010.'TRA_Car_Oth_Lom' 0.001139926569999
 'FI200'.2010.'TRA_Car_Oth_Sma' 0
 'FI200'.2010.'TRA_Car_Oth_Upm' 0
+'FI200'.2010.'TRA_Hdt_Dis' 0.777619866793802
+'FI200'.2010.'TRA_Hdt_Gas' 0.018057935851754
+'FI200'.2010.'TRA_Lcv_Cng' 0
+'FI200'.2010.'TRA_Lcv_Dis' 4.15651952627701
+'FI200'.2010.'TRA_Lcv_Gas' 0.280002977695431
+'FI200'.2010.'TRA_Lcv_Lpg' 0
+'FI200'.2010.'TRA_Mop_Gas' 1.86676514319305
+'FI200'.2010.'TRA_Mot_Gas' 1.38817210693949
 'FI200'.2011.'TRA_Car_Dis_Exe' 1.6018301568877
 'FI200'.2011.'TRA_Car_Dis_Lom' 0.938904905333086
 'FI200'.2011.'TRA_Car_Dis_Sma' 0.916921746711463
@@ -105965,6 +108633,8 @@ PRC_RESID ' '/
 'FI200'.2022.'TRA_Car_Oth_Lom' 0
 'FI200'.2022.'TRA_Car_Oth_Sma' 0
 'FI200'.2022.'TRA_Car_Oth_Upm' 0
+'FI200'.2022.'TRA_Mop_Gas' 0
+'FI200'.2022.'TRA_Mot_Gas' 0
 'FI200'.2023.'TRA_Car_Dis_Exe' 1.01511703962984
 'FI200'.2023.'TRA_Car_Dis_Lom' 0.59500588367464
 'FI200'.2023.'TRA_Car_Dis_Sma' 0.581074644581818
@@ -105981,6 +108651,12 @@ PRC_RESID ' '/
 'FI200'.2024.'TRA_Car_Gas_Lom' 2.85833409533878
 'FI200'.2024.'TRA_Car_Gas_Sma' 1.9760669072586
 'FI200'.2024.'TRA_Car_Gas_Upm' 1.2815894305605
+'FI200'.2025.'TRA_Hdt_Dis' 0
+'FI200'.2025.'TRA_Hdt_Gas' 0
+'FI200'.2025.'TRA_Lcv_Cng' 0
+'FI200'.2025.'TRA_Lcv_Dis' 0
+'FI200'.2025.'TRA_Lcv_Gas' 0
+'FI200'.2025.'TRA_Lcv_Lpg' 0
 'FI200'.2030.'ICLSTDPRO02' 0
 'FI200'.2030.'TRA_Bus_Cng_Coa' 0
 'FI200'.2030.'TRA_Bus_Cng_Urb' 0
