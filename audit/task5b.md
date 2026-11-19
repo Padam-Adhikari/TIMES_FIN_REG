@@ -1,7 +1,7 @@
-# Task 5b: road and rail transport to the regions — audit and design
+﻿# Task 5b: road and rail transport to the regions â€” audit and design
 
 Status: applied 2026-11-18; fixes 5bfix .. 5bfix4 (sections 8-11); run 4 passes the hard checks at +0.136 %;
-5bfix5 (section 12, delivery cost on links, TRACO2N reporting) dry run, awaiting approval.
+5bfix5 (section 12, delivery cost on links, TRACO2N reporting) applied 2026-11-19; server run pending.
 (`runs/reg_baseline-sami_2026-11-18_task5a_run2.gdx`). Part of step 5 (`audit/task5.md`).
 
 ## 1. What is in the model
