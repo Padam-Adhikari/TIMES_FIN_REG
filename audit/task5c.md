@@ -191,3 +191,18 @@ is not known from the files).
   and would reach `RESLIM 50000` (about 04:20) with no solution (`solutiontype 2`: no crossover).
 - The two objectives differ by 9e-5 (relative) at the snapshot; they lie 0.13 % below 5bfix7, which is the range expected
   from the services moves. This is not a result yet.
+
+### 10.1 The barrier stalls (follow-up, same run still going)
+
+Barrier progress at equal iterations (5bfix7 / 5c): both runs track each other up to iteration about 200
+(e.g. it. 150: primal infeasibility 6.6e2 / 6.2e2). From about 200 on, 5c no longer improves: the dual objective is
+frozen at 1,526,830.3 and the primal infeasibility stays at 2.5e2, while 5bfix7 converged by iteration 244. This is a
+numerical stall, not only slowness; with `solutiontype 2` (no crossover) it cannot end in a usable solution.
+
+Data check (scratch script, both runs): every COM_PROJ demand and every process with NCAP_PASTI/PRC_RESID in every
+region has an output or import path for at least one of its inputs: nothing unreachable in 5c or in 5bfix7.
+
+Rerun proposal: case `5c-r2` with `runs/cplex_5c_r2.opt` (changes against the server `cplex.opt`): `solutiontype 1`
+(crossover from the barrier point to a basic optimal solution, so a stall still ends in a solution), `numericalemphasis 1`,
+`scaind 1` (aggressive scaling), `barepcomp 1e-6` and `eprhs 1e-6` (CPLEX defaults instead of 1e-7 / 1e-8). The changed
+tolerances move the objective by about 1e-6 relative, far below the 0.01 % level of the regional comparisons.
