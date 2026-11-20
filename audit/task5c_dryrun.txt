@@ -416,7 +416,7 @@ NOTE RS_PRD corrections: 0 rows on Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.
       -> =IF(Region_selection!$B$8=Region_selection!$D$8,SUMIF(ServBldg!$C$2:$C$42,'ServBldg Projection'!$A11,INDEX(ServBldg!$2:$42,,MATCH(F$5,ServBldg!$1:$1,0))),SUMPRODUCT((ServBldg!$C$2:$C$42=$A11)*(COUNTIF(Region_selection!$K$8:$AD$8,ServBldg!$L$1:$BZ$1)>0),ServBldg!$L$2:$BZ$42))
       (national 2010 floor area = sum of the region columns of the ServBldg fill (Reg mode))
   + sheet 'Reg_ServBldg' (313 cells)
-      A1 [None] Task 5c (tools/task5c.py): COM_PROJ of the services building types (NR_*) from 'ServBldg Projection' split by their floor-area keys (audit/task5c.md); FI 0. Read only in Reg mode.
+      A1 [None] Task 4a (tools/task4_industry.py) / task 5c (tools/task5c.py): COM_PROJ of the services building types (NR_*) from 'ServBldg Projection' split by their floor-area keys (audit/task5c.md); FI 0. Read only in Reg mode.
       A3 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~TFM_DINS")
       A4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Attribute")
       B4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Year")
@@ -1437,7 +1437,7 @@ NOTE RS_PRD corrections: 0 rows on Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.
       -> =IF(Region_selection!$B$8=Region_selection!$D$8,"STOCK","*STOCK")
       (COMGAS00 stock row: comment in Reg mode (split to the regions on Reg_GasGrid))
   + sheet 'Reg_GasGrid' (68 cells)
-      A1 [None] Task 5c (tools/task5c.py): existing gas-grid stock of the gas fuel processes moved to the regions (5a AGRGAS00, 5c COMGAS00) split by their keys. Read only in Reg mode.
+      A1 [None] Task 4a (tools/task4_industry.py) / task 5c (tools/task5c.py): existing gas-grid stock of the gas fuel processes moved to the regions (5a AGRGAS00, 5c COMGAS00) split by their keys. Read only in Reg mode.
       A3 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~TFM_INS")
       A4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Attribute")
       B4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Pset_PN")
@@ -2599,7 +2599,7 @@ NOTE RS_PRD corrections: 0 rows on Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.
       -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","*TRai_Pas_Metro COM_PROJ split: Reg_Demand")
       (TRai_Pas_Metro: FI row commented out in Reg mode (split by FI1B1))
   + sheet 'Reg_Demand' (7565 cells)
-      A1 [None] Task 5c (tools/task5c.py): COM_PROJ of the moved products split by their keys (data/keys/*.csv): AGR_Agr_For_Fis, IAL, IAM, ICH, ICL, ILM, INF, INM, IOI, IPH, IPL, NEU, NR_BuildLight, NR_BuildTech, NR_ICTM, NR_Refrig, NR_StLight, NR_Vent, TBus, TCar, THDT, TLCV, TMop, TMot, TRai_Frt, TRai_Pas_Conv, TRai_Pas_Hspd, TRai_Pas_Metro; FI 0. Read only in Reg mode.
+      A1 [None] Task 4a (tools/task4_industry.py): COM_PROJ of the moved products split by their keys (data/keys/*.csv): AGR_Agr_For_Fis, IAL, IAM, ICH, ICL, ILM, INF, INM, IOI, IPH, IPL, NEU, NR_BuildLight, NR_BuildTech, NR_ICTM, NR_Refrig, NR_StLight, NR_Vent, TBus, TCar, THDT, TLCV, TMop, TMot, TRai_Frt, TRai_Pas_Conv, TRai_Pas_Hspd, TRai_Pas_Metro; FI 0. Read only in Reg mode.
       A3 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","~TFM_DINS")
       A4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Attribute")
       B4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Year")
@@ -10166,7 +10166,7 @@ NOTE RS_PRD corrections: 0 rows on Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.
       Y368 [None] source 'Extrapol 2055-2070'!F174
 --- Reg-FINTIMES/SuppXLS/Trades/ScenTrade__Trade_Links.xlsx
   + sheet 'FI internal trades industry' (9970 cells)
-      A1 [None] Task 5c (tools/task5c.py): internal links FI hub <-> region for every commodity the moved industry processes use there (fuels, materials, products, heat); read from the DD files.
+      A1 [None] Task 4a (tools/task4_industry.py): internal links FI hub <-> region for every commodity the moved industry processes use there (fuels, materials, products, heat); read from the DD files.
       C2 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$9,"~TradeLinks_DINS","TradeLinks_DINS")
       C3 [#E2EFDA] Reg1
       D3 [#E2EFDA] Reg2
@@ -20898,7 +20898,7 @@ NOTE RS_PRD corrections: 0 rows on Reg-FINTIMES/SuppXLS/Scen_ZATEMP_Calibration.
       -> =IF(Region_selection!$B$8=Region_selection!$D$8,"~FI_T: Stock","*~FI_T: Stock (Reg mode: Reg sheet)")
       (stock table of 1 moved processes off in Reg mode (split on the Reg sheet))
   + sheet 'Reg_COM' (18655 cells)
-      A1 [None] Task 5c (tools/task5c.py): data of processes in several regions (one column per region; formulas on the original FI cells; STOCK x regional share). Green = copied, orange = split.
+      A1 [None] Task 4a (tools/task4_industry.py): data of processes in several regions (one column per region; formulas on the original FI cells; STOCK x regional share). Green = copied, orange = split.
       B3 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"FI_T: Stock","~FI_T: Stock")
       B4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","TechName")
       C4 [#E2EFDA] =IF(Region_selection!$B$8=Region_selection!$D$8,"","Comm-IN")

@@ -30,7 +30,7 @@ from task4_industry import (  # noqa: E402
     plan_ava_rows, plan_book, plan_comms_links, plan_demand_4b, plan_env_decl, plan_generic, plan_generic_deps_pre,
     plan_prd_corrections, q, read_tables, regonly, regs_of, shares_of, sheet_ref, sw, write_dry)
 
-MARK = "Task 5c (tools/task5c.py)"
+MARK = T4.MARK + " / task 5c (tools/task5c.py)"   # starts with the tool-family mark: sheets of 4a-5b can be regenerated
 COM_BOOK = M + "VT_FINTIMES_COM.xlsx"
 SUB30_T = M + "SubRES_TMPL/SUBRES_30_TECHS_HeatingCooling_Trans.xlsx"
 SUB31_T = M + "SubRES_TMPL/SubRES_31_TECHS_BUILDINGS_COM_Trans.xlsx"
@@ -210,6 +210,63 @@ def plan_copy_tables(plan, notes):
     notes.append(f"SUBRES_30 INS-UPD: {sum(map(len, by_sheet.values()))} tables, {n_rest} helper lookups outside them")
 
 
+def split_switch(f):
+    """'=IF(<SEL>,a,b)' -> (a, b); None if the formula is not a mode switch."""
+    pre = "=IF(" + SEL + ","
+    if not f or not f.startswith(pre) or not f.endswith(")"):
+        return None
+    s, depth, inq = f[len(pre):-1], 0, False
+    for i, ch in enumerate(s):
+        if ch == '"':
+            inq = not inq
+        elif not inq and ch == "(":
+            depth += 1
+        elif not inq and ch == ")":
+            depth -= 1
+        elif not inq and ch == "," and depth == 0:
+            return s[:i], s[i + 1:]
+    return None
+
+
+def plan_reg_rewrite(plan, book, sheet, rx, repl, why, notes, label):
+    """Every formula of the sheet matching rx gets rx -> repl in its Reg-mode value (new switch, or the
+    Reg branch of an existing one)."""
+    b = Book(book)
+    n = 0
+    for (s, c), f in sorted(b.f.items()):
+        if s != sheet or not f or not rx.search(f):
+            continue
+        sp = split_switch(f)
+        if sp:
+            single, reg = sp
+            if not rx.search(reg):
+                continue
+            new = sw(single, rx.sub(repl, reg))
+        else:
+            new = sw(f[1:], rx.sub(repl, f[1:]))
+        plan.edit(book, sheet, c, b.val(s, c), new, BLUE, why)
+        n += 1
+    notes.append(f"{os.path.basename(book)} {sheet}: {n} {label}")
+
+
+RES_RX = re.compile(r"MATCH\(\$?[A-Z]{1,3}\$?\d+,(RES_[A-Za-z]+)!\$1:\$1,0\)")
+
+
+def plan_lookup_fixes(plan, notes):
+    """Lookups keyed on an FI header that is AllRegions in Reg mode (regmode_check after the first apply):
+    the COM_FR rows that read the sheet named by the header (INDIRECT(ADDRESS(..,J$3))) keep the sheet 'FI';
+    the SUBRES_30 lookups in the residential fills (RES_*) keep the FI column (residential is on the hub
+    until 5d)."""
+    for f in COMFR:
+        plan_reg_rewrite(plan, f, "N_VEDA_INPUT", re.compile(r"J\$3"), '"FI"',
+                         "Reg mode: the profile sheet is still 'FI' (the header J3 is AllRegions there)", notes,
+                         "sheet references to J$3 -> 'FI'")
+    for sh in ("INS-UPD WaterHeat", "INS-UPD Others", "INS-UPD SpCool"):
+        plan_reg_rewrite(plan, SUB30_T, sh, RES_RX, lambda m: 'MATCH("FI",' + m.group(1) + '!$1:$1,0)',
+                         "Reg mode: residential fill read in its FI column (residential on the hub until 5d)", notes,
+                         "residential fill lookups -> FI")
+
+
 # ------------------------------------------------------------------------------------------- constraints
 def plan_rcuc(plan, notes):
     """Scen_UC_RSD-COM: RCUC-* national; coefficients (shares) from the national stock in Reg mode."""
@@ -350,7 +407,6 @@ def comms_cell(name):
 
 # ------------------------------------------------------------------------------------------- main
 def run(a):
-    T4.MARK = MARK
     plan, notes = Plan(), []
     move4b, m5 = move_4b(), move_5a()
     move5a = {p: k for p, (bk, k) in m5.items()}
@@ -430,12 +486,23 @@ def run(a):
         apply_per_book(plan)
 
 
+def run_fix(a):
+    """Corrections after the first apply (regmode_check): audit/task5c.md section 9."""
+    plan, notes = Plan(), []
+    plan_lookup_fixes(plan, notes)
+    write_dry(plan, notes, os.path.join(ROOT, "audit", "task5c_fix_dryrun.txt"))
+    if a.apply:
+        apply_per_book(plan)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--fix", action="store_true", help="only the corrections found after the first apply")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="5bfix7.run")
-    run(ap.parse_args())
+    a = ap.parse_args()
+    run_fix(a) if a.fix else run(a)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Task 5c: services buildings to the regions — audit and design
 
-Status: audit 2026-11-20; dry run section 8, awaiting approval. Audit on the DD files of the passing 5b run (case `5bfix7`,
+Status: applied 2026-11-20 (sections 8-9); server run pending. Audit on the DD files of the passing 5b run (case `5bfix7`,
 `GAMS_WrkTIMES/5bfix7.run`). Nothing in the model changed yet; two composite floor-area keys added
 (`tools/regional_keys.py`, section 2). Part of step 5 (`audit/task5.md`).
 
@@ -143,3 +143,21 @@ columns, AF in each, a text column between) the national values are reproduced e
 `FI` lookup returns nothing.
 
 After apply: `regmode_check`, `reg_header_scan`; after the server sync: `rsum_rhs_scan`, `uc_ire_scan`.
+
+## 9. Applied (2026-11-20)
+
+`python tools/task5c.py --apply`: all 15 workbooks ok (first attempt stopped before saving `Scen_X-NATIONALGRIDS`:
+the 5c sheet note did not start with the tool-family mark, so the ownership check refused to rewrite
+`Reg_GasGrid`; workbooks restored from git, mark fixed, applied again from scratch).
+
+`regmode_check` then found lookups keyed on an `FI` header that is `AllRegions` in Reg mode; fixed by
+`python tools/task5c.py --fix --apply` (`audit/task5c_fix_dryrun.txt`, 357 cells):
+- `Scen_DEMAND_Com-FR(_Sami)` `N_VEDA_INPUT`: rows 112+ read the profile sheet named by the header
+  (`INDIRECT(ADDRESS(..,J$3))`): the sheet stays `"FI"` in Reg mode (188 + 132 cells).
+- `SUBRES_30` `INS-UPD *`: 37 lookups in the residential fills (`RES_*`) keep the `FI` column (residential
+  is on the hub until 5d; 5d switches them to a region column like the `COM_All` lookups).
+
+Checks: `regmode_check` 0 new Reg-mode errors in all 15 workbooks; `reg_header_scan` 0 duplicate headers;
+single-mode values of every original sheet identical to the committed workbooks (cell by cell, 15 books).
+Next: server run, case named after the step (e.g. `5c`); then `rsum_rhs_scan`, `uc_ire_scan`, `check_run`,
+`audit_run`, parameter comparison of the moved processes, and the `COM_FR` of the NR demands in every region.
