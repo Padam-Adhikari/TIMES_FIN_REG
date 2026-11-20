@@ -1,0 +1,36 @@
+{
+ "name": "bld_officeedu_ground",
+ "year": "2010",
+ "path": "data/keys/bld_officeedu_ground_2010.csv",
+ "total": 36052,
+ "national": 36052,
+ "check": "OK",
+ "source": {
+  "org": "Statistics Finland",
+  "table": "StatFin raku 15f7",
+  "item": "Building floor area (m2), classes 04+08, heat source 09",
+  "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/raku/15f7.px"
+ },
+ "shares": {
+  "FI1B1": 0.2542438699656052,
+  "FI1C1": 0.0500110950848774,
+  "FI196": 0.021219349828026184,
+  "FI1C2": 0.05547542438699656,
+  "FI19B": 0.08124375901475646,
+  "FI1C6": 0.006851214911794076,
+  "FI1C7": 0.0,
+  "FI1C5": 0.0,
+  "FI1DA": 0.015727282813713526,
+  "FI1DB": 0.016836791301453456,
+  "FI1DC": 0.06906690336181072,
+  "FI198": 0.006213247531343615,
+  "FI199": 0.13952069233329634,
+  "FI19A": 0.06349162321091756,
+  "FI1D5": 0.0,
+  "FI1D9": 0.045573061133917674,
+  "FI1D8": 0.0,
+  "FI1D7": 0.008321313658049483,
+  "FI200": 0.1662043714634417
+ },
+ "fetched": "2026-11-20"
+}

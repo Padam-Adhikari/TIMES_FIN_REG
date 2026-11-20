@@ -1,0 +1,111 @@
+# Task 5c: services buildings to the regions — audit and design
+
+Status: read-only audit 2026-11-20 on the DD files of the passing 5b run (case `5bfix7`,
+`GAMS_WrkTIMES/5bfix7.run`). Nothing in the model changed yet; two composite floor-area keys added
+(`tools/regional_keys.py`, section 2). Part of step 5 (`audit/task5.md`).
+
+## 1. What is on the hub
+
+509 services processes, all declared in FI only (DD scan of `5bfix7.run`):
+
+| Part | Processes | Source | Existing stock (FI, 2010) |
+|---|---|---|---|
+| Fuel supply to services `COM<fuel>00/01` (BIO, COA, GAS, GEO, HTH = district heat, LPG, OIL, SOL), `COMELC00`, `COMCOO100/200` (cooling), `COMAHT00`, `COMGHT00` | 21 | `VT_FINTIMES_COM` `COM_Fuel`, `TechComm` | `Stock`: COMOIL00 13.29, COMBIO00 3.67, COMGAS00 1.26, COMCOA00 0.14, COMHTH00 4.39 |
+| Existing end-use techs `C_ES-<use>-<bldg>_<fuel>`: space heat SH, water heat WH, cooling SC, cooking CK x 6 building types x fuel | 144 | `VT_FINTIMES_COM` `TechHeat/WaterHeat/Cool/Cook-COM` | `~FI_T: Stock` tables: SH 15.16, WH 1.51, SC 0.69, CK 107.12 |
+| Building stock `NRbldg-<type>` (6 types) and electric services `NRbldg_<service>` (BuildLight, BuildTech, ICTM, Refrig, StLight, Vent) | 12 | `VT_FINTIMES_COM` `Building stock`, `TechELC-COM` | `NCAP_PASTI` 107.12 (6 types); `Stock` of the 6 electric services = their 2010 demand (1,919 PJ-units) |
+| New end-use techs `C_ES-*` (heat pumps, condensing boilers, fuel cells `C_ES-SP-*`, ...) | ~298 | `SUBRES_30_TECHS_HeatingCooling` (+ `_Trans`) | - |
+| New buildings and retrofits `NRbldg_<type>-MG1..` | 42 | `SubRES_31_TECHS_BUILDINGS_COM` (+ `_Trans`) | - |
+| Services batteries `COMBATS01-03` | 3 | `SubRES_14_TECHS_STORAGE` | - |
+| Hydrogen blending into services gas `COMGASH2C01` | 1 | `SubRES_15_TECHS_HYDROGEN` | - |
+
+Building types (code in the process names): `HO` hospitals (`NR_Hosp`), `HR` hotels and restaurants
+(`NR_HoRest`), `OF` offices (`NR_Offic`), `SL` large shops (`NR_ShopL`), `SS` small shops (`NR_ShopS`),
+`SR` sport and recreation (`NR_SpoRecr`).
+
+Chain: hub fuel (ELCLOW, GASNAT, HETHTH, BIOWOO, OIL*, COA*, REN*, ...) -> `COM*00` -> `COMELC/COMGAS/COMHET/...`
+-> `C_ES-*` -> `NR_ES-<bldg>-<use>` -> `NRbldg*` -> demand `NR_*`. Retrofit commodities `Bldg_<type>-Cei/Wal/Win`
+stay inside the chain.
+
+Demand (`COM_PROJ`), three sources, all FI:
+
+| Demand | Source | Values |
+|---|---|---|
+| `NR_BuildLight`, `NR_BuildTech`, `NR_ICTM`, `NR_Refrig`, `NR_StLight`, `NR_Vent` | `VT_FINTIMES_COM` `TechELC-COM`!E103 (2010) and `Scen_ZUDemand_REF2016` (2010-2070, wins) | 2010: 108.7, 35.2, 771.0, 217.5, 724.7, 62.0 |
+| `NR_HoRest`, `NR_Hosp`, `NR_Offic`, `NR_ShopL`, `NR_ShopS`, `NR_SpoRecr` (floor area served) | `Scen_NewHouses_and_retrofits` `ServBldg Projection` (`~TFM_DINS`, 2010 and 2060; the 2010 value is read from the `ServBldg` fill of `NRbldg-*` PASTI through the `FI` header) | 2010: 6.0, 8.4, 28.1, 19.2, 16.2, 29.1 |
+
+## 2. Keys (Split rule; Statistics Finland raku 15f7, floor area 2010)
+
+| Model item | Key | Basis |
+|---|---|---|
+| `HO` hospitals | `bld_care_<heat>` (class 06) | health and social care buildings |
+| `HR` hotels/restaurants, `SL`, `SS` shops | `bld_commercial_<heat>` (class 03) | class 03 = retail, wholesale, hotels, restaurants |
+| `OF` offices | `bld_officeedu_<heat>` (classes 04 + 08) | **decision (yellow)**: the model has no education type; schools have the daytime use profile of offices. Offices alone: `bld_office_*` |
+| `SR` sport and recreation | `bld_assembly_<heat>` (class 07) | assembly = sports halls, culture, religious |
+| electric services `NRbldg_BuildLight/BuildTech/ICTM/Refrig/Vent` and their demands | `bld_services_all` (classes 03+04+06+07+08) | in-building electricity scales with services floor area |
+| street lighting `NRbldg_StLight`, `NR_StLight` | `population_2010` | |
+| `COM<fuel>00` fuel supply (stock = capacity) | `bld_services_<heat>` of the fuel | |
+
+Heat source of a `C_ES-SH/WH` existing tech (stock split): ELC -> `elc`, HET -> `dh`, GAS/OIL/LPG -> `oilgas`,
+BIO -> `wood`, COA -> `coal`, GEO -> `ground`, SOL -> `all`. Cooling (SC), cooking (CK), fuel cells (SP) and
+building stock: `<class>_all`. If a class has no floor area for that heat source nationally, `<class>_all`.
+New keys `bld_services_<heat>` and `bld_officeedu_<heat>` (16 files) are sums of the native classes
+fetched in the same query; every one passes the exact share-sum and national-total checks (`audit/keys.md`).
+
+New technologies (SubRES_30/31, COMBATS, COMGASH2C01) are available in all 19 regions and not on the hub.
+
+## 3. Workbooks and treatment
+
+| Workbook / table | Now | Treatment (rule) |
+|---|---|---|
+| `VT_FINTIMES_COM` `~FI_Process` (163) | `Region` FI | Reg mode: the 19 regions of the process key (copy mode: no hub copy) |
+| `VT_FINTIMES_COM` `~FI_T: Stock` tables, `COM_Fuel` stocks | `FI` column | Reg sheet: STOCK x key (orange); FI stock row commented in Reg mode (4b mechanism) |
+| `VT_FINTIMES_COM` `Building stock` `~FI_T: NCAP_PASTI` | `FI` column | **split** (x type key). `plan_book` treats only `STOCK` as split: extend to `NCAP_PASTI` (task 4 tool change) |
+| `VT_FINTIMES_COM` `~FI_T: EFF/PRC_CAPACT/NCAP_AFA/LIFE/INPUT/Share/...` | `FI` column | copy to the regions (Reg sheet) |
+| `VT_FINTIMES_COM` `TechELC-COM` `~FI_T: DEMAND` (2010) | `FI` | overridden by `Reg_Demand` 2010 (FI 0, regions x key) |
+| `Scen_ZUDemand_REF2016` NR rows | `FI` | `Reg_Demand` split (4b mechanism) |
+| `Scen_NewHouses_and_retrofits` `ServBldg Projection` | `FI`, value via fill lookup | Reg mode: table off, the 12 rows go to `Reg_Demand` (2010 = 6 `NRbldg-*` PASTI as in single mode, x type key) |
+| `SUBRES_30_..._Trans` `AVA` | FI | Reg-only rows: `C_ES-*` all regions, not FI (`R_ES-*` stay on FI until 5d) |
+| `SUBRES_30_..._Trans` `INS-UPD Heat/WaterHeat/SpCool/Others` (`~TFM_UPD`/`INS`, `FI` + `AllRegions` columns) | FI values from the `COM_All` fill (`MATCH(<FI header>)`) | copy: `FI` header -> `AllRegions`, old `AllRegions` -> comment, lookups read a region column that has services (as `5bfix4`); rows with only an `AllRegions` value keep it in the Reg formula |
+| `SubRES_31_..._Trans` `AVA`, `COM_Saving`, `COM_Invcost` (`FI`) | FI | AVA all regions not FI; `FI` -> `AllRegions` (copy) |
+| `SubRES_14` / `SubRES_15` Trans `AVA` | FI | `COMBATS*`, `COMGASH2C01` all regions |
+| `Scen_DEMAND_Com-FR_Sami` `N_VEDA_INPUT` `~TFM_INS` (`COM_FR` of R_* and NR_* demands) | `FI` column (J3) | copy: `FI` -> `AllRegions` in Reg mode (without it the regional demands get the default flat profile) |
+| `Scen_UC_RSD-COM` `COP_HP` `~TFM_UPD` (heat-pump ACT_EFF) | `FI` | copy: `FI` -> `AllRegions` |
+| `Scen_UC_STORAGE` `Sheet1` (`FI` + `AllRegions`), `WinterPeakLimit` | zero `STGOUT_BND` of COMBATS at the winter peak | copy (check the dry run: FI column values must reach the regions) |
+| `SysSettings` `Comms` | `COM*`, `NR_*`, `Bldg_*`, `COMFINOIL` declared FI | all regions (`COMFINOIL` = aggregate of `RS_PRD_COMFINOIL_*`: 4a lesson) |
+| `ScenTrade__Trade_Links` | | links region <-> hub for every hub fuel the moved chain uses (computed from the DD topology by the tool); `HETHTH` gets the regions without a CHP link (copper plate until 5e) |
+
+Every other scenario file that sets services parameters (`BAU-General` green certificates,
+`FuelPrices-DELIV`, `SysSettings` FLO_SHAR/FLO_DELIV, `ZATEMP` NCAP_AFA/FLO_DELIV, `ZIETAssumptions_DRATE`,
+`ZUILED`, `ZZZCostUpdate`, `Kill_Zebras`, `X-NationalGrids`) is written for every region where the processes
+exist (they already write the 5b vehicles' regional rows): no change; checked after the run by comparing all
+parameters of the moved processes (single FI vs regions).
+
+## 4. Constraints
+
+| Family | Source | Now | Treatment |
+|---|---|---|---|
+| End-use shares `RCUC-Lo/Up_C_ES-*` (min. electricity, cooking; max. district heat), 2015/2020/2050 | `Scen_UC_RSD-COM` `UC1` | `R_E: AllRegions`, coefficients in the `FI` column (header `=Shares!C$1`), `UC_RHSRT` 0 | national (`R_S`, `UC_RHST`), coefficients `AllRegions` (`plan_ucs_general`). Residential rows of the same tables become national too (residential is on the hub only: no change) |
+| Their coefficients | `Stock-AF`!L (stock x AF per process, `MATCH("FI", fill header)`) -> `Shares` -> `UC1` | the `Stock`/`AF` fills (`~TFM_Fill-R`) get one column per region in Reg mode: **the FI lookup fails, every share is an error** | Reg-mode formula in `Stock-AF`!L: AF x sum of the regional stocks (`SUMPRODUCT` over the `Region_selection` columns). AF is a copy attribute (one row per process, checked), so the national share equals the single-mode share exactly |
+| Unit/SPL boilers `UC_R_UnitBoiler_*`, `UC_R_SPLBoiler_*` | `Scen_UC_RSD-COM` `UC unit boilers` | residential only | 5d |
+| Heat-pump caps `UC_RSD_*HPCAP*` | `Scen_UC_HeatPumps_*` | residential only | 5d |
+| Battery discharge limits `UC_COMBatt1-3_DischLimit` | `Scen_UC_STORAGE` `UCStorage` | `R_E: AllRegions`, per battery | unchanged (per region: each region's batteries) |
+| Calibration `COM_BNDPRD` UP (COMBIO, COMGAS, COMHET, COMFINOIL), `FLO_BND COMHTH00.HETHTH` UP | `Scen_ZATEMP_Calibration` | FI bounds + national twins `RS_PRD_COM*_LO/UP`, `RS_FLO_COMHTH00_HETHTH_UP` (task 0, all years) | unchanged: the FI upper bounds go slack (no services on the hub), the national twins carry the limits; no link corrections needed (COMBIO/COMGAS/COMHET are made and used inside each region) |
+| Variable-RES adequacy `UC_VARI_ELE_Cons_Cap` (COMCON `COMELC`), `UC_VAR5_DSM`, `UC_VAR_MinStor5h` | `Scen_SepDb-ZIET_VAR*` | national since 5bfix6/7 | unchanged: regional COMELC is counted; it does not cross a link |
+
+## 5. Size and risk
+
+Services have 1,275 topology entries on the hub; in 19 regions ~24,000 (the whole 5b model has 30,485). The LP
+(3.7 M rows in 5b, 41 min barrier) may grow by roughly half. Mitigation if needed: the new end-use techs
+could be limited to the regions with that heat source (key > 0), which the key data already allow.
+
+## 6. Checks after the run
+
+As 5b: no dummy imports; COM_PROJ, NCAP_PASTI, PRC_RESID conserved (now incl. services); `rsum_rhs_scan`
+0; `uc_ire_scan` clean; RCUC shares national and equal to single (DD coefficients); `COM_FR` of NR demands
+present in every region; parameters of the moved processes single-FI vs regions (`parcmp`); objective
+change explained (expected small: services are a copper plate on the hub's fuels).
+
+## 7. Decisions (yellow)
+
+1. Offices key incl. education buildings (`bld_officeedu_*`) - alternative `bld_office_*`.
+2. New end-use technologies in all 19 regions (vs only where the heat source exists).

@@ -173,7 +173,31 @@ def key_buildings(years=("2010",)):
                 out.append(write_key(name, y, vals, shares, total, national, dict(
                     org="Statistics Finland", table="StatFin raku 15f7",
                     item=f"Building floor area (m2), class {cc}, heat source {hc}", url=f"{PXWEB}/{table}")))
+        # composite classes (task 5c, audit/task5c.md section 2): sums of the native classes above
+        for cn, parts in COMPOSITE_CLASSES.items():
+            for hc, hn in heats.items():
+                vals = {r: 0 for r in REGIONS}
+                national = 0
+                for cc in parts:
+                    fixed = {"rakennus_6_20180101": cc, "polttoaineet_12_20260101": hc, "timeperiod_y": y,
+                             "contentscode": "kerrosala_rakennus"}
+                    v, n = _regional(get, area, fixed)
+                    for k in vals:
+                        vals[k] += v.get(k) or 0
+                    national += n or 0
+                if sum(vals.values()) <= 0:
+                    continue
+                name = f"bld_{cn}_{hn}"
+                shares, total = check_and_share(vals, name)
+                out.append(write_key(name, y, vals, shares, total, national, dict(
+                    org="Statistics Finland", table="StatFin raku 15f7",
+                    item=f"Building floor area (m2), classes {'+'.join(parts)}, heat source {hc}",
+                    url=f"{PXWEB}/{table}")))
     return out
+
+
+# services buildings of the model (commercial, office, care, assembly, education) and offices incl. education
+COMPOSITE_CLASSES = {"services": ["03", "04", "06", "07", "08"], "officeedu": ["04", "08"]}
 
 
 def key_vehicles(years=("2011", "2024")):
