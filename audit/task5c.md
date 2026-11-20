@@ -1,6 +1,6 @@
 # Task 5c: services buildings to the regions — audit and design
 
-Status: applied 2026-11-20 (sections 8-9); server run pending. Audit on the DD files of the passing 5b run (case `5bfix7`,
+Status: applied 2026-11-20 (sections 8-9); server run 1 not solved (section 10, too slow); rerun pending. Audit on the DD files of the passing 5b run (case `5bfix7`,
 `GAMS_WrkTIMES/5bfix7.run`). Nothing in the model changed yet; two composite floor-area keys added
 (`tools/regional_keys.py`, section 2). Part of step 5 (`audit/task5.md`).
 
@@ -161,3 +161,33 @@ Checks: `regmode_check` 0 new Reg-mode errors in all 15 workbooks; `reg_header_s
 single-mode values of every original sheet identical to the committed workbooks (cell by cell, 15 books).
 Next: server run, case named after the step (e.g. `5c`); then `rsum_rhs_scan`, `uc_ire_scan`, `check_run`,
 `audit_run`, parameter comparison of the moved processes, and the `COM_FR` of the NR demands in every region.
+
+## 10. Server run 1 (case `5c`): not solved, barrier too slow
+
+Run commit `67a6d93` (rebuilt from the local commit `28d0327`, kept as `backup/pre-5crun-split`; left out: `5bfix7.gdx`
+157 MB and a stale regional `baseline-sami.gdx` 226 MB = the unsolved run 6, objective 1.24e10). The log is a snapshot
+taken at 21:16 while CPLEX was still in barrier (the commit message says "stopped by hand"; whether the run was stopped
+is not known from the files).
+
+| | 5bfix7 (run 7 of 5b) | 5c |
+|---|---|---|
+| rows / columns / nonzeros | 3.68 M / 4.35 M / 20.7 M | 6.67 M / 8.82 M / 36.3 M |
+| reduced LP rows / cols | 1.60 M / 2.26 M | 2.37 M / 3.17 M |
+| Cholesky nonzeros / FP ops | 440 M / 2.07e12 | 812 M / 4.21e12 |
+| barrier iterations | 244 (optimal) | 253 at the snapshot, not converged |
+| time per iteration | about 10 s | about 95 s (14:29 start, 6 h 47 min) |
+| dual infeasibility at the end | 0.7 | 25 (falling about 2.4x per 80 iterations) |
+| primal / dual objective | 1,529,072 / 1,529,068 | 1,526,967 / 1,526,830 |
+
+- Size: expected from the design. About 494 services processes per region (`C_ES-*` by building type, `NRb*`, `COM*`) now
+  sit in all 19 regions instead of only in FI (FI 1,585 -> 1,076 processes; each region about +500). Only 12 timeslices.
+- Data numerics did not get worse: the magnitudes of NCAP_PASTI, PRC_RESID, COM_PROJ, FLO_SHAR, COM_FR and the UC
+  coefficients match 5bfix7 (the 1e-8..1e-6 splits were already in 5bfix7). QA_CHECK has the same categories; the one
+  count that grew (`RPC in TOP not found`, 65 -> 713) is the heat-pump COMAHT/COMGHT input, already reported for FI in
+  single mode and now copied to the 18 regions.
+- `rsum_rhs_scan`: 391 R_SUM UCs, 0 with only regional RHS. `uc_ire_scan`: no missing UC_IRE correction.
+- Time per iteration grew 9.5x while the factor work grew 2x: the server was probably paging (the factor alone is about
+  6.5 GB, GMO 3.4 GB) or sharing its cores. At the observed rate the barrier would need several hundred more iterations
+  and would reach `RESLIM 50000` (about 04:20) with no solution (`solutiontype 2`: no crossover).
+- The two objectives differ by 9e-5 (relative) at the snapshot; they lie 0.13 % below 5bfix7, which is the range expected
+  from the services moves. This is not a result yet.
