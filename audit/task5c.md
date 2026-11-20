@@ -1,6 +1,6 @@
 # Task 5c: services buildings to the regions — audit and design
 
-Status: read-only audit 2026-11-20 on the DD files of the passing 5b run (case `5bfix7`,
+Status: audit 2026-11-20; dry run section 8, awaiting approval. Audit on the DD files of the passing 5b run (case `5bfix7`,
 `GAMS_WrkTIMES/5bfix7.run`). Nothing in the model changed yet; two composite floor-area keys added
 (`tools/regional_keys.py`, section 2). Part of step 5 (`audit/task5.md`).
 
@@ -109,3 +109,37 @@ change explained (expected small: services are a copper plate on the hub's fuels
 
 1. Offices key incl. education buildings (`bld_officeedu_*`) - alternative `bld_office_*`.
 2. New end-use technologies in all 19 regions (vs only where the heat source exists).
+
+## 8. Dry run (2026-11-20, `python tools/task5c.py` -> `audit/task5c_dryrun.txt`)
+
+Decisions confirmed: offices with education (`bld_officeedu_*`); new end-use technologies in all 19 regions.
+Fuel supply (`COM*`, `COMAHT00`, `COMGHT00`) and the existing end-use techs are declared in all 19 regions
+too (stock only where the key is positive), so a new heat pump or boiler can run in any region.
+
+976 cell edits in 13 workbooks, every one a `Region_selection` switch (single mode unchanged), plus
+regenerated/new sheets:
+
+| Workbook | Edits | Sheets |
+|---|---|---|
+| `VT_FINTIMES_COM` | 163 declarations (19 regions, not FI); 13 stock tables off in Reg mode (their TechName cells feed the tables below, 5bfix3) | `Reg_COM`: 152 stock/past-investment rows x key (each sums to 1), 689 copied coefficient rows in all 19 regions |
+| `VT_FINTIMES_SUP` | `COMAHT00`, `COMGHT00` declared in the regions (generic table: no copy needed; `Reg_SUP` untouched) | |
+| `Scen_ZUDemand_REF2016` | NR rows commented in Reg mode | `Reg_Demand` regenerated: 4b-5b rows + 6 services demands x 13 years |
+| `Scen_NewHouses_and_retrofits` | `ServBldg Projection` off; 2010 national = sum of the fill's region columns | `Reg_ServBldg` 12 rows x building-type key |
+| `Scen_X-NATIONALGRIDS` | `COMGAS00` stock row commented | `Reg_GasGrid`: AGRGAS00 (5a) + COMGAS00 |
+| `SUBRES_30` Trans | AVA `C_ES-*,NRbldg_N-*` regions; 15 INS/UPD tables FI -> AllRegions; 64 `COM_All` lookups read a region column (FI1B1, else FI) | |
+| `SubRES_31` / `_14` / `_15` Trans | AVA rows; `COM_Saving`, `COM_Invcost` FI -> AllRegions | |
+| `Scen_DEMAND_Com-FR(_Sami)` | `COM_FR` FI -> AllRegions | |
+| `Scen_UC_RSD-COM` | `UC1` R_S, RHS `UC_RHST`, coefficients AllRegions; 214 `Stock-AF` formulas = national stock x AF | |
+| `SysSettings` | services commodities and `COMFINOIL` in all regions | |
+| `ScenTrade__Trade_Links` | | 1,083 -> 1,423 links: new hub fuels for services (BIOGAS, BIOMUN, BIOSLU, COA*, OIL*, RENAHT, RENGHT, COOFRE, GASGWG, battery AUX) and `HETHTH` for the 2 regions without a CHP link |
+
+Tool changes (`tools/task4_industry.py`, defaults unchanged for earlier steps): `plan_book` options
+`decl_all` and `split_tags` (NCAP_PASTI split; stock tables of moved processes off as a whole);
+`plan_generic(books=...)`; `plan_ava_rows` finds the end of an AVA table past Reg-only rows.
+
+Formula tests in Excel (scratch copies): in single mode the new `Stock-AF` (214 rows) and ServBldg (6 rows)
+formulas equal the original values exactly; with a simulated regional fill (stock split over two region
+columns, AF in each, a text column between) the national values are reproduced exactly, while the original
+`FI` lookup returns nothing.
+
+After apply: `regmode_check`, `reg_header_scan`; after the server sync: `rsum_rhs_scan`, `uc_ire_scan`.

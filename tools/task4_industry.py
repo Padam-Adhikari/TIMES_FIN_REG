@@ -119,8 +119,10 @@ def inner(b, sheet, cell):
 
 
 # ------------------------------------------------------------------------------- workbook data
-def plan_book(plan, book, move, shares, notes):
-    """Declarations + data of moved processes in one VEDA BY workbook."""
+def plan_book(plan, book, move, shares, notes, decl_all=False, split_tags=("STOCK",)):
+    """Declarations + data of moved processes in one VEDA BY workbook.
+    decl_all (5c): copy-mode processes declared and their coefficients copied in all 19 regions; stock
+    only where the key is positive. split_tags: tag attributes split by the key (5c: NCAP_PASTI too)."""
     b = Book(book)
     T = read_tables(os.path.join(ROOT, book))
     data = [t for t in T if t["tag"].upper().startswith("~FI_T")]
@@ -155,7 +157,7 @@ def plan_book(plan, book, move, shares, notes):
                 continue
             if b.val(t["sheet"], cell) != "FI":
                 sys.exit(f"{book} {t['sheet']}!{cell}: Region of {p} is {b.val(t['sheet'], cell)!r}")
-            regs = sorted(shares[p])
+            regs = sorted(REG19) if decl_all and mode[p] == "copy" else sorted(shares[p])
             # existing (*00) plants are declared only at their sites in both modes: a hub copy without
             # stock and capacity costs gets no capacity variable (TIMES REDUCE) -> free, unlimited activity
             new = ",".join(regs)
@@ -195,23 +197,35 @@ def plan_book(plan, book, move, shares, notes):
             sys.exit(f"{book} {t['sheet']} {t['tag_cell']}: Year column and FI~<year> headers")
         desc = [h for h in t["cols"] if h in DESCR]
         att_col = "Attribute" in t["cols"]
+        # 5c: a stock table (attribute in the tag) holding only moved copy-mode processes is switched off in
+        # Reg mode as a whole (its TechName cells are read by the tables below it: 5bfix3); the stock then
+        # comes only from the Reg sheet
+        off = (decl_all and not att_col and any(s in t["tag"].upper() for s in split_tags)
+               and all(mode.get(p) == "copy" for p in tr))
+        if off:
+            if b.f.get((t["sheet"], t["tag_cell"])):
+                sys.exit(f"{book} {t['sheet']}!{t['tag_cell']}: tag is already a formula")
+            plan.edit(book, t["sheet"], t["tag_cell"], t["tag"],
+                      sw(q(t["tag"]), q(f"*{t['tag']} (Reg mode: Reg sheet)")), BLUE,
+                      f"stock table of {len(tr)} moved processes off in Reg mode (split on the Reg sheet)")
         for p in cp:
             for r in tr[p]:
                 c = r["cells"]
                 if not any(h in c for h in fi_cols):
                     continue
                 att = str(c.get("Attribute", ("", ""))[1] or "").upper()
-                is_stock = att == "STOCK" or (not att_col and "STOCK" in t["tag"].upper())
+                is_stock = att in split_tags or (not att_col and any(s in t["tag"].upper() for s in split_tags))
                 for fh in fi_cols:
                     if fh not in c:
                         continue
                     fic = c[fh][0]
                     vals = {}
-                    for reg, s in shares[p].items():
-                        ref = sheet_ref(t["sheet"], fic)
-                        if is_stock:
+                    ref = sheet_ref(t["sheet"], fic)
+                    if is_stock:
+                        for reg, s in shares[p].items():
                             vals[reg] = (f"={ref}*{s!r}", ORANGE)
-                        else:
+                    else:
+                        for reg in (REG19 if decl_all else shares[p]):
                             vals[reg] = (f"={ref}", GREEN)
                     d = {h: (p if h == "TechName" else c.get(h, (None, None))[1]) for h in desc}
                     if "TechName" not in d:
@@ -219,7 +233,7 @@ def plan_book(plan, book, move, shares, notes):
                     if "~" in fh:
                         d["Year"] = int(fh.split("~")[1])      # FI~2010 -> Year 2010 (5b kmPerVeh)
                     rows_out[(t["tag"], tuple(sorted(d)))].append((d, vals, f"{t['sheet']}!{fic}"))
-                if is_stock:
+                if is_stock and not off:
                     # the stock cell itself stays untouched (other stock cells refer to it); in Reg mode
                     # the row becomes a VEDA comment ('*' in TechName), so FI's copy has no stock
                     tnc = f"{col_let(t['cols']['TechName'])}{r['row']}"
@@ -567,13 +581,13 @@ def plan_hub_decl(plan, notes):
     notes.append(f"hub declarations removed: {n} Region cells")
 
 
-def plan_generic(plan, notes, extra=()):
+def plan_generic(plan, notes, extra=(), books=None):
     """Copied rows: VEDA lets the original table's generic (year/no-region) value beat the Reg_IND
     regional copy of the calibrated FI value (first 4a run: AOD, EAF, FeCr at their sites got the
     generic coefficients). In Reg mode the generic cell of every copied row with an FI value is blanked;
     Reg_IND gives every site region the FI value, and the hub no longer holds these processes."""
     n = 0
-    for book in (IND, SUP, AGR_BOOK, TRA_BOOK):
+    for book in (books or (IND, SUP, AGR_BOOK, TRA_BOOK)):
         b = Book(book)
         regsheet = "Reg_" + os.path.basename(book).split("_")[-1].split(".")[0]
         copied = set()
@@ -1675,8 +1689,11 @@ def plan_ava_rows(plan, book, rows, why, notes):
     if len(T) != 1:
         sys.exit(f"{book}: {len(T)} ~TFM_AVA tables")
     t = T[0]
-    last = max(r["row"] for r in t["rows"])
     sh = t["sheet"]
+    last = max(r["row"] for r in t["rows"])
+    # Reg-only rows of earlier steps read empty in single mode: count formula cells too (5c)
+    while any(b.f.get((sh, f"{col_let(c)}{last + 1}")) for c in t["cols"].values()):
+        last += 1
     for k, row in enumerate(rows):
         r = last + 1 + k
         for h in list(t["cols"]):
