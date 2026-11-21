@@ -1,0 +1,1948 @@
+--- Job 5cfix2b.run Start 11/21/26 13:07:58 54.3.1 61154be4 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /scratch/work/adhikap1/gams/gams54.3_linux_x64_64_sfx/gmsprmun.txt
+--- GAMS Parameters defined
+    Restart /scratch/work/adhikap1/reg-fintimes/GAMS_SrcTIMES.v4.8.3/_times.g00
+    Input /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/5cfix2b.run
+    PageWidth 255
+    PageSize 99999
+    ScrDir /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/scratch/
+    SysDir /scratch/work/adhikap1/gams/gams54.3_linux_x64_64_sfx/
+    LogOption 3
+    AppendLog 1
+    InputDir1 /scratch/work/adhikap1/reg-fintimes/GAMS_SrcTIMES.v4.8.3/
+    InputDir2 /scratch/work/adhikap1/reg-fintimes/
+    GDX /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/GAMSSAVE/5cfix2b.gdx
+Licensee: Production Planning and Optimization           G260821+0003Ac-GEN
+          Aalto University                                          DCE5589
+          225a/gamslice.dat
+          06e5d2f9-4467-4d26
+          node:51419506 mem:504 cores:32 ipport:35917 v:2                  
+          Course license for use within the course and related course work
+          The time-limited license stops working on : Jun 17, 2027
+System information: 128 physical cores and 504 Gb physical memory detected
+                    cgroup limits: 32 cores and 504 Gb memory
+GAMS 54.3.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
+--- Starting continued compilation
+--- Workfile was generated under GAMS version WIN233-233
+--- 5cfix2b.run(62) 2 Mb
+--- > 5cfix2b_ts.dd(21) 3 Mb
+--- 5cfix2b.run(67) 3 Mb
+--- > initsys.mod(181) 3 Mb
+--- >> units.def(38) 3 Mb
+--- > initsys.mod(184) 3 Mb
+--- >> maplists.def(122) 3 Mb
+--- > initsys.mod(187) 3 Mb
+--- >> globals.def(16) 3 Mb
+--- > initsys.mod(187) 3 Mb
+--- 5cfix2b.run(71) 3 Mb
+--- > initmty.mod(475) 3 Mb
+--- >> main_ext.mod(20) 3 Mb
+--- >>> initmty.VDA(66) 3 Mb
+--- >> main_ext.mod(18) 3 Mb
+--- > initmty.mod(478) 3 Mb
+--- >> err_stat.mod(73) 3 Mb
+--- > initmty.mod(491) 3 Mb
+--- 5cfix2b.run(76) 3 Mb
+--- > base.dd(56488) 6 Mb--- > base.dd(86480) 8 Mb--- > base.dd(161677) 12 Mb
+--- 5cfix2b.run(77) 12 Mb
+--- > 00_nuc-eu.dd(303) 12 Mb
+--- 5cfix2b.run(78) 12 Mb
+--- > 01_nucchain-eu.dd(62) 12 Mb
+--- 5cfix2b.run(79) 12 Mb
+--- > 11_techs_power.dd(1514) 12 Mb
+--- 5cfix2b.run(80) 12 Mb
+--- > 10_techs_chp_sup_ind.dd(18744) 13 Mb--- > 10_techs_chp_sup_ind.dd(30422) 14 Mb
+--- 5cfix2b.run(81) 14 Mb
+--- > 12_techs_powerlowaf.dd(1502) 14 Mb--- > 12_techs_powerlowaf.dd(2708) 14 Mb
+--- 5cfix2b.run(82) 14 Mb
+--- > 13_techs_ind-chp-boiler.dd(1679) 14 Mb
+--- 5cfix2b.run(83) 14 Mb
+--- > 14_techs_storage.dd(5102) 14 Mb
+--- 5cfix2b.run(84) 14 Mb
+--- > 15_techs_hydrogen.dd(7500) 15 Mb
+--- 5cfix2b.run(85) 15 Mb
+--- > 20_techs_tra.dd(1478) 15 Mb--- > 20_techs_tra.dd(100881) 20 Mb--- > 20_techs_tra.dd(123312) 21 Mb
+--- 5cfix2b.run(86) 21 Mb
+--- > 21_techs_other.dd(996) 21 Mb
+--- 5cfix2b.run(87) 21 Mb
+--- > 22_techs_biorefineries.dd(868) 21 Mb
+--- 5cfix2b.run(88) 21 Mb
+--- > 23_techs_ccus.dd(1333) 21 Mb
+--- 5cfix2b.run(89) 21 Mb
+--- > 30_techs_heatingcooling.dd(1389) 21 Mb--- > 30_techs_heatingcooling.dd(77499) 26 Mb--- > 30_techs_heatingcooling.dd(111823) 28 Mb
+--- 5cfix2b.run(90) 28 Mb
+--- > 31_techs_buildings_com.dd(8895) 28 Mb
+--- 5cfix2b.run(91) 28 Mb
+--- > 32_techs_buildings_rsd.dd(1648) 28 Mb
+--- 5cfix2b.run(92) 28 Mb
+--- > 40_trade-extraeu.dd(359) 28 Mb
+--- 5cfix2b.run(93) 28 Mb
+--- > 41_trade-elc-extraeu.dd(152) 28 Mb
+--- 5cfix2b.run(94) 28 Mb
+--- > syssettings.dd(10629) 29 Mb
+--- 5cfix2b.run(95) 29 Mb
+--- > power_from_jrc-idees-2015.dd(2171) 29 Mb
+--- 5cfix2b.run(96) 29 Mb
+--- > rsdretfitsetup.dd(34) 29 Mb
+--- 5cfix2b.run(97) 29 Mb
+--- > tradeparameters.dd(1385) 29 Mb--- > tradeparameters.dd(3333) 30 Mb
+--- 5cfix2b.run(98) 30 Mb
+--- > bau-general.dd(1547) 30 Mb--- > bau-general.dd(4043) 30 Mb
+--- 5cfix2b.run(99) 30 Mb
+--- > biopot_biom16_forestbau.dd(2099) 30 Mb
+--- 5cfix2b.run(100) 30 Mb
+--- > bunk_fuels_share.dd(17) 30 Mb
+--- 5cfix2b.run(101) 30 Mb
+--- > co2target_nonets_2030.dd(385) 30 Mb
+--- 5cfix2b.run(102) 30 Mb
+--- > demand_com-fr_sami.dd(8437) 30 Mb
+--- 5cfix2b.run(103) 30 Mb
+--- > enuc40_tlife.dd(17) 30 Mb
+--- 5cfix2b.run(104) 30 Mb
+--- > fuelprices_ref2016.dd(219) 30 Mb
+--- 5cfix2b.run(105) 30 Mb
+--- > fuelprices-deliv.dd(986) 30 Mb
+--- 5cfix2b.run(106) 30 Mb
+--- > hdd.dd(977) 31 Mb
+--- 5cfix2b.run(107) 31 Mb
+--- > hydrogenustore.dd(8) 31 Mb
+--- 5cfix2b.run(108) 31 Mb
+--- > kill_coalphaseout2030.dd(173) 31 Mb
+--- 5cfix2b.run(109) 31 Mb
+--- > kill_zebras.dd(33) 31 Mb
+--- 5cfix2b.run(110) 31 Mb
+--- > killsnkco2_11ms.dd(15) 31 Mb
+--- 5cfix2b.run(111) 31 Mb
+--- > newhouses_and_retrofits.dd(16286) 32 Mb--- > newhouses_and_retrofits.dd(18315) 32 Mb
+--- 5cfix2b.run(112) 32 Mb
+--- > diversified_cement.dd(447) 32 Mb
+--- 5cfix2b.run(113) 32 Mb
+--- > refineries_lim.dd(208) 32 Mb
+--- 5cfix2b.run(114) 32 Mb
+--- > emisuc_v1point.dd(308) 32 Mb
+--- 5cfix2b.run(115) 32 Mb
+--- > sepdb-ziet_var.dd(1583) 32 Mb--- > sepdb-ziet_var.dd(65236) 35 Mb--- > sepdb-ziet_var.dd(76372) 36 Mb
+--- 5cfix2b.run(116) 36 Mb
+--- > sepdb-ziet_var_stor.dd(1433) 36 Mb--- > sepdb-ziet_var_stor.dd(3210) 36 Mb
+--- 5cfix2b.run(117) 36 Mb
+--- > sepdb-zietassumptions_drate.dd(45342) 37 Mb
+--- 5cfix2b.run(118) 37 Mb
+--- > regsum_base.dd(3089) 37 Mb
+--- 5cfix2b.run(119) 37 Mb
+--- > tra_co2_target.dd(1074) 37 Mb--- > tra_co2_target.dd(10818) 38 Mb
+--- 5cfix2b.run(120) 38 Mb
+--- > tra_scenarios.dd(1123) 38 Mb--- > tra_scenarios.dd(10519) 38 Mb
+--- 5cfix2b.run(121) 38 Mb
+--- > tra_evphev_newsalesbase.dd(23057) 39 Mb
+--- 5cfix2b.run(122) 39 Mb
+--- > uc_elcpot.dd(1627) 39 Mb--- > uc_elcpot.dd(3044) 39 Mb
+--- 5cfix2b.run(123) 39 Mb
+--- > uc_heatpumps_maxcap.dd(1044) 39 Mb
+--- 5cfix2b.run(124) 39 Mb
+--- > uc_heatpumps_mincap_lo.dd(490) 39 Mb
+--- 5cfix2b.run(125) 39 Mb
+--- > uc_limitcoal.dd(1052) 39 Mb--- > uc_limitcoal.dd(6380) 39 Mb
+--- 5cfix2b.run(126) 39 Mb
+--- > uc_refscen16_data.dd(548) 39 Mb
+--- 5cfix2b.run(127) 39 Mb
+--- > uc_rsd-com.dd(20913) 41 Mb
+--- 5cfix2b.run(128) 41 Mb
+--- > uc_storage.dd(4891) 41 Mb
+--- 5cfix2b.run(129) 41 Mb
+--- > uc_tra.dd(3595) 42 Mb--- > uc_tra.dd(12363) 42 Mb
+--- 5cfix2b.run(130) 42 Mb
+--- > uc-biofuel.dd(1378) 42 Mb
+--- 5cfix2b.run(131) 42 Mb
+--- > uc-elc.dd(1730) 42 Mb--- > uc-elc.dd(4335) 42 Mb
+--- 5cfix2b.run(132) 42 Mb
+--- > uc-ind.dd(12909) 43 Mb
+--- 5cfix2b.run(133) 43 Mb
+--- > x-nationalgrids.dd(403) 43 Mb
+--- 5cfix2b.run(134) 43 Mb
+--- > x-yesgrid_bound.dd(313) 43 Mb
+--- 5cfix2b.run(135) 43 Mb
+--- > z_dac_sensit.dd(17) 43 Mb
+--- 5cfix2b.run(136) 43 Mb
+--- > zatemp_calibration.dd(9356) 44 Mb--- > zatemp_calibration.dd(16933) 44 Mb
+--- 5cfix2b.run(137) 44 Mb
+--- > zietassumptions.dd(267) 44 Mb
+--- 5cfix2b.run(138) 44 Mb
+--- > zusetrneff_from_eurostat.dd(20) 44 Mb
+--- 5cfix2b.run(139) 44 Mb
+--- > trades_fin.dd(527) 44 Mb
+--- 5cfix2b.run(140) 44 Mb
+--- > uc_co2storage_300.dd(204) 44 Mb
+--- 5cfix2b.run(141) 44 Mb
+--- > 01_baseline.dd(277) 44 Mb
+--- 5cfix2b.run(142) 44 Mb
+--- > zuco2transbase.dd(186) 44 Mb
+--- 5cfix2b.run(143) 44 Mb
+--- > zudelayindeployment.dd(311) 44 Mb
+--- 5cfix2b.run(144) 44 Mb
+--- > zuco2trans.dd(228) 44 Mb
+--- 5cfix2b.run(145) 44 Mb
+--- > zuemisco2.dd(1174) 44 Mb--- > zuemisco2.dd(2178) 44 Mb
+--- 5cfix2b.run(146) 44 Mb
+--- > zudemand_ref2016.dd(6319) 45 Mb
+--- 5cfix2b.run(147) 45 Mb
+--- > zz_cumulativeco2.dd(2464) 45 Mb
+--- 5cfix2b.run(148) 45 Mb
+--- > zuesr.dd(3585) 45 Mb
+--- 5cfix2b.run(149) 45 Mb
+--- > zugrowth_yearly.dd(1924) 46 Mb--- > zugrowth_yearly.dd(3268) 46 Mb
+--- 5cfix2b.run(150) 46 Mb
+--- > zuiled.dd(2271) 46 Mb--- > zuiled.dd(24720) 46 Mb
+--- 5cfix2b.run(151) 46 Mb
+--- > zzzcostupdate.dd(4051) 47 Mb
+--- 5cfix2b.run(165) 47 Mb
+--- > maindrv.mod(23) 47 Mb
+--- >> setglobs.gms(15) 47 Mb
+--- GDX File ($gdxOut) /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/_dd_.gdx
+--- >> setglobs.gms(19) 47 Mb--- >> setglobs.gms(373) 47 Mb
+--- > maindrv.mod(45) 47 Mb
+--- >> err_stat.mod(73) 47 Mb
+--- > maindrv.mod(55) 47 Mb
+--- >> main_ext.mod(20) 47 Mb
+--- >>> init_ext.VDA(124) 47 Mb
+--- >>>> equcrtp.vda(38) 47 Mb
+--- >>> init_ext.VDA(151) 47 Mb
+--- >> main_ext.mod(18) 47 Mb
+--- > maindrv.mod(56) 47 Mb
+--- >> ppmain.mod(189) 47 Mb
+--- >>> filparam.gms(43) 47 Mb
+--- >> ppmain.mod(196) 47 Mb
+--- >>> timslice.mod(36) 47 Mb
+--- >>>> pp_off.mod(23) 47 Mb
+--- >>> timslice.mod(81) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> timslice.mod(103) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> timslice.mod(123) 47 Mb
+--- >> ppmain.mod(229) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(237) 47 Mb
+--- >>> pp_off.mod(23) 47 Mb
+--- >> ppmain.mod(248) 47 Mb
+--- >>> preppm.mod(11) 47 Mb
+--- >>>> prepxtra.mod(90) 47 Mb
+
+--- >>> preppm.mod(28) 47 Mb
+--- >>>> curex.gms(34) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(35) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(36) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(37) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(38) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(39) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(40) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(41) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(42) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(43) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(44) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(45) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(46) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(47) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(48) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(49) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(50) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(51) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(52) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(53) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(54) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(55) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(56) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(57) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(58) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(59) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(60) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(61) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(62) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(63) 47 Mb
+--- >>>>> curex.gms(81) 47 Mb
+--- >>>> curex.gms(72) 47 Mb
+--- >>> preppm.mod(57) 47 Mb
+--- >>>> prepret.dsc(25) 47 Mb
+--- >>>>> fillparm.gms(57) 47 Mb
+--- >>>> prepret.dsc(26) 47 Mb
+--- >>>>> prepparm.gms(72) 47 Mb
+--- >>>> prepret.dsc(38) 47 Mb
+--- >>> preppm.mod(60) 47 Mb
+--- >>>> fillvint.gms(20) 47 Mb
+--- >>> preppm.mod(77) 47 Mb
+--- >>>> filparam.gms(43) 47 Mb
+--- >>> preppm.mod(81) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(82) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(83) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(84) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(85) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(86) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(87) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(88) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(89) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(90) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(94) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(95) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(99) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(100) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(101) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(102) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(103) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(104) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(111) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(112) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(113) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(114) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(115) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(116) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(117) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(118) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(119) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(120) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(121) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(122) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(123) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(124) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(125) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(126) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(127) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(128) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(129) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(130) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(131) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(135) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(136) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(137) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(138) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(139) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(140) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(141) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(142) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(146) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(147) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(148) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(149) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(150) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(151) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(152) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(153) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(154) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(155) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(156) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(160) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(161) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(162) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(163) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(167) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(168) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(169) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(170) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(171) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(172) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(173) 47 Mb
+--- >>>> fillparm.gms(57) 47 Mb
+--- >>> preppm.mod(174) 47 Mb
+--- >>>> filparam.gms(43) 47 Mb
+--- >>> preppm.mod(180) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(181) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(182) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(183) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(187) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(188) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(189) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(190) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(191) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(192) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(196) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(197) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(201) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(202) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(203) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(204) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(205) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(209) 47 Mb
+--- >>>> prepparm.gms(72) 47 Mb
+--- >>> preppm.mod(215) 47 Mb
+--- >>>> main_ext.mod(20) 47 Mb
+--- >>>>> prep_ext.VDA(24) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(25) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(26) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(27) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(28) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(29) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(30) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(31) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(32) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(33) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(34) 47 Mb
+--- >>>>>> fillparm.gms(57) 47 Mb
+--- >>>>> prep_ext.VDA(39) 47 Mb
+--- >>>>>> equcrtp.vda(55) 47 Mb
+--- >>>>>>> prepparm.gms(72) 47 Mb
+--- >>>>>> equcrtp.vda(62) 47 Mb
+--- >>>>> prep_ext.VDA(79) 47 Mb
+--- >>>> main_ext.mod(18) 47 Mb
+--- >>> preppm.mod(220) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(221) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(222) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(223) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(224) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(225) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(226) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(227) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(228) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(229) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(230) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(231) 47 Mb
+--- >>>> preshape.gms(49) 47 Mb
+--- >>> preppm.mod(243) 47 Mb
+--- >> ppmain.mod(275) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(338) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(359) 47 Mb
+--- >>> pp_off.mod(23) 47 Mb
+--- >> ppmain.mod(466) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(529) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(540) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(561) 47 Mb
+--- >>> pp_off.mod(23) 47 Mb
+--- >> ppmain.mod(577) 47 Mb
+--- >>> pp_off.mod(23) 47 Mb
+--- >> ppmain.mod(582) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(614) 47 Mb
+--- >>> main_ext.mod(20) 47 Mb
+--- >>>> pp_prelv.VDA(83) 47 Mb
+--- >>>>> pp_qaput.mod(16) 47 Mb
+--- >>>> pp_prelv.VDA(101) 47 Mb
+--- >>>>> pp_lvlfc.mod(45) 47 Mb
+--- >>>> pp_prelv.VDA(119) 47 Mb
+--- >>> main_ext.mod(18) 47 Mb
+--- >> ppmain.mod(616) 47 Mb
+--- >>> pp_qafs.mod(17) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_qafs.mod(33) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_qafs.mod(56) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_qafs.mod(78) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_qafs.mod(97) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_qafs.mod(110) 47 Mb
+--- >> ppmain.mod(627) 47 Mb
+--- >>> filshape.gms(26) 47 Mb
+--- >> ppmain.mod(633) 47 Mb
+--- >>> filparam.gms(43) 47 Mb
+--- >> ppmain.mod(692) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(693) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(694) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(695) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(696) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(697) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(698) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(699) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(725) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(765) 47 Mb
+--- >>> pp_lvlbr.mod(23) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbr.mod(51) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbr.mod(55) 47 Mb
+--- >> ppmain.mod(794) 47 Mb
+--- >>> pp_lvlpk.mod(55) 47 Mb
+--- >> ppmain.mod(801) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(802) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(803) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(804) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(805) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(806) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(816) 47 Mb
+--- >>> pp_chp.mod(67) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_chp.mod(70) 47 Mb
+--- >> ppmain.mod(824) 47 Mb
+--- >>> pp_lvlff.mod(41) 47 Mb
+--- >> ppmain.mod(827) 47 Mb
+--- >>> pp_lvlfs.mod(43) 47 Mb
+--- >> ppmain.mod(836) 47 Mb
+--- >>> pp_lvlbr.mod(23) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbr.mod(51) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbr.mod(55) 47 Mb
+--- >> ppmain.mod(838) 47 Mb
+--- >>> eqflomrk.mod(52) 47 Mb
+--- >> ppmain.mod(844) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(845) 47 Mb
+--- >>> pp_lvlfc.mod(45) 47 Mb
+--- >> ppmain.mod(847) 47 Mb
+--- >>> pp_lvlif.mod(22) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlif.mod(39) 47 Mb
+--- >> ppmain.mod(879) 47 Mb
+--- >>> pp_qaput.mod(16) 47 Mb
+--- >> ppmain.mod(987) 47 Mb
+--- >>> pp_lvlbd.mod(32) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbd.mod(47) 47 Mb
+--- >> ppmain.mod(988) 47 Mb
+--- >>> pp_lvlbd.mod(32) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbd.mod(47) 47 Mb
+--- >> ppmain.mod(989) 47 Mb
+--- >>> pp_lvlbd.mod(32) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbd.mod(47) 47 Mb
+--- >> ppmain.mod(990) 47 Mb
+--- >>> pp_lvlbd.mod(32) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbd.mod(47) 47 Mb
+--- >> ppmain.mod(991) 47 Mb
+--- >>> pp_lvlbd.mod(32) 47 Mb
+--- >>>> pp_qaput.mod(16) 47 Mb
+--- >>> pp_lvlbd.mod(47) 47 Mb
+--- >> ppmain.mod(1084) 47 Mb
+--- >>> pp_lvlfc.mod(45) 48 Mb
+--- >> ppmain.mod(1085) 48 Mb
+--- >>> pp_lvlfc.mod(45) 48 Mb
+--- >> ppmain.mod(1095) 48 Mb
+--- >>> prepxtra.mod(76) 48 Mb
+--- >> ppmain.mod(1205) 48 Mb
+--- >>> pp_lvlus.mod(40) 48 Mb
+--- >> ppmain.mod(1206) 48 Mb
+--- >>> pp_lvlus.mod(40) 48 Mb
+--- >> ppmain.mod(1207) 48 Mb
+--- >>> pp_lvlus.mod(40) 48 Mb
+--- >> ppmain.mod(1208) 48 Mb
+--- >>> pp_lvlus.mod(40) 48 Mb
+--- >> ppmain.mod(1331) 48 Mb
+--- >>> pp_reduce.red(188) 48 Mb
+--- >> ppmain.mod(1347) 48 Mb
+--- > maindrv.mod(58) 48 Mb
+--- >> main_ext.mod(20) 48 Mb
+--- >>> ppm_ext.VDA(58) 48 Mb
+--- >>>> pp_actef.VDA(49) 48 Mb
+--- >>> ppm_ext.VDA(89) 48 Mb
+--- >>>> pp_qaput.mod(16) 48 Mb
+--- >>> ppm_ext.VDA(93) 48 Mb
+--- >>>> pp_qaput.mod(16) 48 Mb
+--- >>> ppm_ext.VDA(164) 48 Mb
+--- >>>> equcrtp.vda(71) 48 Mb
+--- >>> ppm_ext.VDA(166) 48 Mb
+--- >> main_ext.mod(18) 48 Mb
+--- > maindrv.mod(72) 48 Mb
+--- >> coefmain.mod(14) 48 Mb
+--- >>> coef_cpt.mod(48) 48 Mb
+--- >>>> pp_shapr.mod(46) 48 Mb
+--- >>> coef_cpt.mod(59) 48 Mb
+--- >>>> pp_shapr.mod(46) 48 Mb
+--- >>> coef_cpt.mod(63) 48 Mb
+--- >> coefmain.mod(17) 48 Mb
+--- >>> coef_nio.mod(69) 48 Mb
+--- >> coefmain.mod(20) 48 Mb
+--- >>> coef_ptr.mod(54) 48 Mb
+--- >> coefmain.mod(23) 48 Mb
+--- >>> coef_obj.mod(41) 48 Mb
+--- >>>> filparam.gms(43) 48 Mb
+--- >>> coef_obj.mod(120) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(121) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(122) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(123) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(127) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(128) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(129) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(132) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(133) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(140) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(143) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(144) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(145) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(149) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(150) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(151) 48 Mb
+--- >>>> fillcost.gms(43) 48 Mb
+--- >>> coef_obj.mod(205) 48 Mb
+--- >> coefmain.mod(26) 48 Mb
+--- >>> coef_alt.lin(161) 48 Mb
+--- >> coefmain.mod(29) 48 Mb
+--- >>> coef_shp.mod(94) 48 Mb
+--- >> coefmain.mod(29) 48 Mb
+--- > maindrv.mod(73) 48 Mb
+--- >> main_ext.mod(20) 48 Mb
+--- >>> coef_ext.VDA(77) 48 Mb
+--- >>>> eqlducs.vda(42) 48 Mb
+--- >>> coef_ext.VDA(78) 48 Mb
+--- >>>> eqashar.vda(33) 48 Mb
+--- >>>>> pp_lvlfc.mod(45) 48 Mb
+--- >>>> eqashar.vda(34) 48 Mb
+--- >>> coef_ext.VDA(82) 48 Mb
+--- >> main_ext.mod(18) 48 Mb
+--- > maindrv.mod(77) 48 Mb
+--- >> mod_vars.mod(13) 48 Mb--- >> mod_vars.mod(94) 48 Mb
+--- >>> prepret.dsc(76) 48 Mb
+--- >> mod_vars.mod(96) 48 Mb
+--- > maindrv.mod(78) 48 Mb
+--- >> main_ext.mod(18) 48 Mb
+--- > maindrv.mod(79) 48 Mb
+--- >> eqmain.mod(22) 48 Mb
+--- >>> eqdeclr.mod(195) 48 Mb
+--- >> eqmain.mod(23) 48 Mb
+--- >>> equ_ext.vda(68) 48 Mb
+--- >> eqmain.mod(34) 48 Mb
+--- >>> eqobj.mod(39) 48 Mb
+--- >>>> prepret.dsc(123) 48 Mb
+--- >>> eqobj.mod(44) 48 Mb
+--- >>>> eqobjinv.mod(239) 48 Mb
+--- >>>>> coef_alt.lin(118) 48 Mb
+--- >>>> eqobjinv.mod(324) 48 Mb
+--- >>> eqobj.mod(54) 48 Mb
+--- >>>> eqobjfix.mod(164) 48 Mb
+--- >>>>> coef_alt.lin(132) 48 Mb
+--- >>>> eqobjfix.mod(214) 48 Mb
+--- >>>>> prepret.dsc(147) 48 Mb
+--- >>>> eqobjfix.mod(227) 48 Mb
+--- >>> eqobj.mod(60) 48 Mb
+--- >>>> eqobjvar.mod(70) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> eqobjvar.mod(99) 48 Mb
+--- >>>>> cal_caps.mod(29) 48 Mb
+--- >>>> eqobjvar.mod(113) 48 Mb
+--- >>> eqobj.mod(65) 48 Mb
+--- >>>> eqobsalv.mod(106) 48 Mb
+--- >>>>> prepret.dsc(153) 48 Mb
+--- >>>> eqobsalv.mod(143) 48 Mb
+--- >>> eqobj.mod(95) 48 Mb
+--- >>>> main_ext.mod(18) 48 Mb
+--- >>> eqobj.mod(103) 48 Mb
+--- >> eqmain.mod(41) 48 Mb
+--- >>> eqactflo.mod(31) 48 Mb
+--- >> eqmain.mod(47) 48 Mb
+--- >>> eqactbnd.mod(29) 48 Mb
+--- >> eqmain.mod(48) 48 Mb
+--- >>> eqactbnd.mod(29) 48 Mb
+--- >> eqmain.mod(49) 48 Mb
+--- >>> eqactbnd.mod(29) 48 Mb
+--- >> eqmain.mod(54) 48 Mb
+--- >>> eqbndcom.mod(25) 48 Mb
+--- >> eqmain.mod(55) 48 Mb
+--- >>> eqbndcom.mod(25) 48 Mb
+--- >> eqmain.mod(56) 48 Mb
+--- >>> eqbndcom.mod(25) 48 Mb
+--- >> eqmain.mod(57) 48 Mb
+--- >>> eqbndcom.mod(25) 48 Mb
+--- >> eqmain.mod(58) 48 Mb
+--- >>> eqbndcom.mod(25) 48 Mb
+--- >> eqmain.mod(59) 48 Mb
+--- >>> eqbndcom.mod(25) 48 Mb
+--- >> eqmain.mod(64) 48 Mb
+--- >>> eqcapact.mod(52) 48 Mb
+--- >> eqmain.mod(65) 48 Mb
+--- >>> eqcapact.mod(52) 48 Mb
+--- >> eqmain.mod(66) 48 Mb
+--- >>> eqcapact.mod(52) 48 Mb
+--- >> eqmain.mod(76) 48 Mb
+--- >>> eqcpt.mod(28) 48 Mb
+--- >> eqmain.mod(77) 48 Mb
+--- >>> eqcpt.mod(28) 48 Mb
+--- >> eqmain.mod(78) 48 Mb
+--- >>> eqcpt.mod(28) 48 Mb
+--- >> eqmain.mod(89) 48 Mb
+--- >>> eqcumcom.mod(34) 48 Mb
+--- >> eqmain.mod(90) 48 Mb
+--- >>> eqcumcom.mod(34) 48 Mb
+--- >> eqmain.mod(92) 48 Mb
+--- >>> eqcumflo.mod(27) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqcumflo.mod(48) 48 Mb
+--- >> eqmain.mod(98) 48 Mb
+--- >>> eqcombal.mod(27) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqcombal.mod(39) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqcombal.mod(42) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqcombal.mod(51) 48 Mb
+--- >>>> cal_cap.mod(28) 48 Mb
+--- >>> eqcombal.mod(72) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqcombal.mod(84) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqcombal.mod(87) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqcombal.mod(91) 48 Mb
+--- >>>> cal_cap.mod(28) 48 Mb
+--- >>> eqcombal.mod(114) 48 Mb
+--- >> eqmain.mod(99) 48 Mb
+--- >>> eqcombal.mod(27) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqcombal.mod(39) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqcombal.mod(42) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqcombal.mod(51) 48 Mb
+--- >>>> cal_cap.mod(28) 48 Mb
+--- >>> eqcombal.mod(72) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqcombal.mod(84) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqcombal.mod(87) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqcombal.mod(91) 48 Mb
+--- >>>> cal_cap.mod(28) 48 Mb
+--- >>> eqcombal.mod(114) 48 Mb
+--- >> eqmain.mod(106) 48 Mb
+--- >>> eqcombal.mod(27) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqcombal.mod(39) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqcombal.mod(42) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqcombal.mod(51) 48 Mb
+--- >>>> cal_cap.mod(28) 48 Mb
+--- >>> eqcombal.mod(114) 48 Mb
+--- >> eqmain.mod(111) 48 Mb
+--- >>> eqflobnd.mod(29) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflobnd.mod(45) 48 Mb
+--- >> eqmain.mod(112) 48 Mb
+--- >>> eqflobnd.mod(29) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflobnd.mod(45) 48 Mb
+--- >> eqmain.mod(113) 48 Mb
+--- >>> eqflobnd.mod(29) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflobnd.mod(45) 48 Mb
+--- >> eqmain.mod(118) 48 Mb
+--- >>> eqflofr.mod(20) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflofr.mod(26) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflofr.mod(27) 48 Mb
+--- >> eqmain.mod(119) 48 Mb
+--- >>> eqflofr.mod(20) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflofr.mod(26) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflofr.mod(27) 48 Mb
+--- >> eqmain.mod(120) 48 Mb
+--- >>> eqflofr.mod(20) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflofr.mod(26) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflofr.mod(27) 48 Mb
+--- >> eqmain.mod(125) 48 Mb
+--- >>> eqfloshr.mod(28) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(40) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(42) 48 Mb
+--- >> eqmain.mod(126) 48 Mb
+--- >>> eqfloshr.mod(28) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(40) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(42) 48 Mb
+--- >> eqmain.mod(127) 48 Mb
+--- >>> eqfloshr.mod(28) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(40) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(42) 48 Mb
+--- >> eqmain.mod(132) 48 Mb
+--- >>> eqfloshr.mod(28) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(40) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(42) 48 Mb
+--- >> eqmain.mod(133) 48 Mb
+--- >>> eqfloshr.mod(28) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(40) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(42) 48 Mb
+--- >> eqmain.mod(134) 48 Mb
+--- >>> eqfloshr.mod(28) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(40) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqfloshr.mod(42) 48 Mb
+--- >> eqmain.mod(139) 48 Mb
+--- >>> eqflomrk.mod(73) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflomrk.mod(104) 48 Mb
+--- >> eqmain.mod(140) 48 Mb
+--- >>> eqflomrk.mod(73) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflomrk.mod(104) 48 Mb
+--- >> eqmain.mod(141) 48 Mb
+--- >>> eqflomrk.mod(73) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqflomrk.mod(104) 48 Mb
+--- >> eqmain.mod(146) 48 Mb
+--- >>> eqire.mod(55) 48 Mb
+--- >> eqmain.mod(152) 48 Mb
+--- >>> eqirebnd.mod(70) 48 Mb
+--- >> eqmain.mod(153) 48 Mb
+--- >>> eqirebnd.mod(70) 48 Mb
+--- >> eqmain.mod(154) 48 Mb
+--- >>> eqirebnd.mod(70) 48 Mb
+--- >> eqmain.mod(159) 48 Mb
+--- >>> eqpeak.mod(31) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqpeak.mod(32) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqpeak.mod(41) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqpeak.mod(44) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqpeak.mod(65) 48 Mb
+--- >>>> cal_fflo.mod(40) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(47) 48 Mb
+--- >>>>> cal_red.red(59) 48 Mb
+--- >>>> cal_fflo.mod(50) 48 Mb
+--- >>> eqpeak.mod(68) 48 Mb
+--- >>>> cal_ire.mod(42) 48 Mb
+--- >>> eqpeak.mod(72) 48 Mb
+--- >>>> cal_cap.mod(28) 48 Mb
+--- >>> eqpeak.mod(75) 48 Mb
+--- >>>> cal_stgn.mod(23) 48 Mb
+--- >>> eqpeak.mod(88) 48 Mb
+--- >> eqmain.mod(164) 48 Mb
+--- >>> eqptrans.mod(27) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqptrans.mod(37) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqptrans.mod(41) 48 Mb
+--- >> eqmain.mod(169) 48 Mb
+--- >>> eqstgips.mod(46) 48 Mb
+--- >> eqmain.mod(170) 48 Mb
+--- >>> eqstgaux.mod(44) 48 Mb
+--- >> eqmain.mod(175) 48 Mb
+--- >>> eqstgtss.mod(95) 48 Mb
+--- >> eqmain.mod(180) 48 Mb
+--- >>> eqstgflo.mod(31) 48 Mb
+--- >> eqmain.mod(181) 48 Mb
+--- >>> eqstgflo.mod(31) 48 Mb
+--- >> eqmain.mod(182) 48 Mb
+--- >>> eqstgflo.mod(31) 48 Mb
+--- >> eqmain.mod(183) 48 Mb
+--- >>> eqstgflo.mod(31) 48 Mb
+--- >> eqmain.mod(184) 48 Mb
+--- >>> eqstgflo.mod(31) 48 Mb
+--- >> eqmain.mod(185) 48 Mb
+--- >>> eqstgflo.mod(31) 48 Mb
+--- >> eqmain.mod(192) 48 Mb
+--- >>> eqbndcst.mod(180) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqbndcst.mod(197) 48 Mb
+--- >>>> cal_red.red(59) 48 Mb
+--- >>> eqbndcst.mod(215) 48 Mb
+--- >> eqmain.mod(229) 48 Mb
+--- >>> equcwrap.mod(22) 48 Mb
+--- >>>> equserco.mod(34) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(36) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(38) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(40) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(42) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(44) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(46) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(24) 48 Mb
+--- >>>> equserco.mod(34) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(36) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(38) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(40) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(42) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(44) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(46) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(26) 48 Mb
+--- >>>> equserco.mod(34) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(36) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(38) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(40) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(42) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(44) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(46) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(28) 48 Mb
+--- >>>> equserco.mod(34) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(36) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(38) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(40) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(42) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(44) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(46) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(30) 48 Mb
+--- >>>> equserco.mod(34) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(36) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(38) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(40) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(42) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(44) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(46) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(32) 48 Mb
+--- >>>> equserco.mod(34) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(36) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(38) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(40) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(42) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(44) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(46) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(34) 48 Mb
+--- >>>> equserco.mod(62) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(64) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(66) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(68) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(70) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(72) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(74) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(85) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(87) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(89) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(91) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(93) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(95) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(97) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(104) 48 Mb
+--- >>>>> uc_pasti.mod(33) 48 Mb
+--- >>>> equserco.mod(122) 48 Mb
+--- >>> equcwrap.mod(36) 48 Mb
+--- >>>> equserco.mod(62) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 48 Mb
+--- >>>>>> cal_caps.mod(29) 48 Mb
+--- >>>>> uc_flo.mod(77) 48 Mb
+--- >>>> equserco.mod(64) 48 Mb
+--- >>>>> uc_ncap.mod(51) 48 Mb
+--- >>>> equserco.mod(66) 48 Mb
+--- >>>>> uc_cap.mod(36) 48 Mb
+--- >>>> equserco.mod(68) 48 Mb
+--- >>>>> uc_act.mod(53) 48 Mb
+--- >>>> equserco.mod(70) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(72) 48 Mb
+--- >>>>> uc_com.mod(47) 48 Mb
+--- >>>> equserco.mod(74) 48 Mb
+--- >>>>> uc_ire.mod(58) 48 Mb
+--- >>>> equserco.mod(85) 48 Mb
+--- >>>>> uc_flo.mod(30) 48 Mb
+--- >>>>>> cal_red.red(59) 48 Mb
+--- >>>>> uc_flo.mod(51) 49 Mb
+--- >>>>>> cal_caps.mod(29) 49 Mb
+--- >>>>> uc_flo.mod(77) 49 Mb
+--- >>>> equserco.mod(87) 49 Mb
+--- >>>>> uc_ncap.mod(51) 49 Mb
+--- >>>> equserco.mod(89) 49 Mb
+--- >>>>> uc_cap.mod(36) 49 Mb
+--- >>>> equserco.mod(91) 49 Mb
+--- >>>>> uc_act.mod(53) 49 Mb
+--- >>>> equserco.mod(93) 49 Mb
+--- >>>>> uc_com.mod(47) 49 Mb
+--- >>>> equserco.mod(95) 49 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(97) 50 Mb
+--- >>>>> uc_ire.mod(58) 50 Mb
+--- >>>> equserco.mod(104) 50 Mb
+--- >>>>> uc_pasti.mod(33) 50 Mb
+--- >>>> equserco.mod(122) 50 Mb
+--- >>> equcwrap.mod(38) 50 Mb
+--- >>>> equserco.mod(62) 50 Mb
+--- >>>>> uc_flo.mod(30) 50 Mb
+--- >>>>>> cal_red.red(59) 50 Mb
+--- >>>>> uc_flo.mod(51) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> uc_flo.mod(77) 50 Mb
+--- >>>> equserco.mod(64) 50 Mb
+--- >>>>> uc_ncap.mod(51) 50 Mb
+--- >>>> equserco.mod(66) 50 Mb
+--- >>>>> uc_cap.mod(36) 50 Mb
+--- >>>> equserco.mod(68) 50 Mb
+--- >>>>> uc_act.mod(53) 50 Mb
+--- >>>> equserco.mod(70) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(72) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(74) 50 Mb
+--- >>>>> uc_ire.mod(58) 50 Mb
+--- >>>> equserco.mod(85) 50 Mb
+--- >>>>> uc_flo.mod(30) 50 Mb
+--- >>>>>> cal_red.red(59) 50 Mb
+--- >>>>> uc_flo.mod(51) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> uc_flo.mod(77) 50 Mb
+--- >>>> equserco.mod(87) 50 Mb
+--- >>>>> uc_ncap.mod(51) 50 Mb
+--- >>>> equserco.mod(89) 50 Mb
+--- >>>>> uc_cap.mod(36) 50 Mb
+--- >>>> equserco.mod(91) 50 Mb
+--- >>>>> uc_act.mod(53) 50 Mb
+--- >>>> equserco.mod(93) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(95) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(97) 50 Mb
+--- >>>>> uc_ire.mod(58) 50 Mb
+--- >>>> equserco.mod(104) 50 Mb
+--- >>>>> uc_pasti.mod(33) 50 Mb
+--- >>>> equserco.mod(122) 50 Mb
+--- >>> equcwrap.mod(40) 50 Mb
+--- >>>> equserco.mod(62) 50 Mb
+--- >>>>> uc_flo.mod(30) 50 Mb
+--- >>>>>> cal_red.red(59) 50 Mb
+--- >>>>> uc_flo.mod(51) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> uc_flo.mod(77) 50 Mb
+--- >>>> equserco.mod(64) 50 Mb
+--- >>>>> uc_ncap.mod(51) 50 Mb
+--- >>>> equserco.mod(66) 50 Mb
+--- >>>>> uc_cap.mod(36) 50 Mb
+--- >>>> equserco.mod(68) 50 Mb
+--- >>>>> uc_act.mod(53) 50 Mb
+--- >>>> equserco.mod(70) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(72) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(74) 50 Mb
+--- >>>>> uc_ire.mod(58) 50 Mb
+--- >>>> equserco.mod(85) 50 Mb
+--- >>>>> uc_flo.mod(30) 50 Mb
+--- >>>>>> cal_red.red(59) 50 Mb
+--- >>>>> uc_flo.mod(51) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> uc_flo.mod(77) 50 Mb
+--- >>>> equserco.mod(87) 50 Mb
+--- >>>>> uc_ncap.mod(51) 50 Mb
+--- >>>> equserco.mod(89) 50 Mb
+--- >>>>> uc_cap.mod(36) 50 Mb
+--- >>>> equserco.mod(91) 50 Mb
+--- >>>>> uc_act.mod(53) 50 Mb
+--- >>>> equserco.mod(93) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(95) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(97) 50 Mb
+--- >>>>> uc_ire.mod(58) 50 Mb
+--- >>>> equserco.mod(104) 50 Mb
+--- >>>>> uc_pasti.mod(33) 50 Mb
+--- >>>> equserco.mod(122) 50 Mb
+--- >>> equcwrap.mod(42) 50 Mb
+--- >>>> equserco.mod(34) 50 Mb
+--- >>>>> uc_flo.mod(30) 50 Mb
+--- >>>>>> cal_red.red(59) 50 Mb
+--- >>>>> uc_flo.mod(51) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> uc_flo.mod(77) 50 Mb
+--- >>>> equserco.mod(36) 50 Mb
+--- >>>>> uc_ncap.mod(51) 50 Mb
+--- >>>> equserco.mod(38) 50 Mb
+--- >>>>> uc_cap.mod(44) 50 Mb
+--- >>>> equserco.mod(40) 50 Mb
+--- >>>>> uc_act.mod(53) 50 Mb
+--- >>>> equserco.mod(42) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(44) 50 Mb
+--- >>>>> uc_com.mod(47) 50 Mb
+--- >>>> equserco.mod(46) 50 Mb
+--- >>>>> uc_ire.mod(58) 50 Mb
+--- >>>> equserco.mod(122) 50 Mb
+--- >>> equcwrap.mod(42) 50 Mb
+--- >> eqmain.mod(230) 50 Mb
+--- >>> equcwrap.mod(13) 50 Mb
+--- >> eqmain.mod(231) 50 Mb
+--- >>> equcwrap.mod(13) 50 Mb
+--- >> eqmain.mod(232) 50 Mb
+--- >>> equcwrap.mod(13) 50 Mb
+--- >> eqmain.mod(241) 50 Mb
+--- >>> eqxbnd.mod(57) 50 Mb
+--- >> eqmain.mod(242) 50 Mb
+--- >>> eqxbnd.mod(57) 50 Mb
+--- >> eqmain.mod(243) 50 Mb
+--- >>> eqxbnd.mod(57) 50 Mb
+--- >> eqmain.mod(249) 50 Mb
+--- >>> eqblnd.mod(71) 50 Mb
+--- >> eqmain.mod(250) 50 Mb
+--- >>> eqblnd.mod(71) 50 Mb
+--- >> eqmain.mod(251) 50 Mb
+--- >>> eqblnd.mod(71) 50 Mb
+--- >> eqmain.mod(252) 50 Mb
+--- >>> eqblnd.mod(71) 50 Mb
+--- >> eqmain.mod(262) 50 Mb
+--- > maindrv.mod(80) 50 Mb
+--- >> main_ext.mod(20) 50 Mb
+--- >>> equ_ext.VDA(83) 50 Mb
+--- >>>> pp_actef.VDA(80) 50 Mb
+--- >>> equ_ext.VDA(86) 50 Mb
+--- >>>> eqcaflac.VDA(37) 50 Mb
+--- >>> equ_ext.VDA(87) 50 Mb
+--- >>>> eqcaflac.VDA(45) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqcaflac.VDA(60) 50 Mb
+--- >>> equ_ext.VDA(88) 50 Mb
+--- >>>> eqactups.VDA(28) 50 Mb
+--- >>>>> pp_lvlfc.mod(45) 50 Mb
+--- >>>> eqactups.VDA(157) 50 Mb
+--- >>> equ_ext.VDA(89) 50 Mb
+--- >>>> eqlducs.VDA(128) 50 Mb
+--- >>> equ_ext.VDA(92) 50 Mb
+--- >>>> eqashar.VDA(45) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqashar.VDA(71) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqashar.VDA(78) 50 Mb
+--- >>> equ_ext.VDA(93) 50 Mb
+--- >>>> eqashar.VDA(45) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqashar.VDA(71) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqashar.VDA(78) 50 Mb
+--- >>> equ_ext.VDA(94) 50 Mb
+--- >>>> eqashar.VDA(45) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqashar.VDA(71) 50 Mb
+--- >>>>> cal_red.red(59) 50 Mb
+--- >>>> eqashar.VDA(78) 50 Mb
+--- >>> equ_ext.VDA(103) 50 Mb
+--- >>>> equcrtp.vda(123) 50 Mb
+--- >>> equ_ext.VDA(104) 50 Mb
+--- >>>> equcrtp.vda(101) 50 Mb
+--- >>> equ_ext.VDA(105) 50 Mb
+--- >> main_ext.mod(18) 50 Mb
+--- > maindrv.mod(82) 50 Mb
+--- >> mod_equa.mod(216) 50 Mb
+--- > maindrv.mod(84) 50 Mb
+--- >> main_ext.mod(20) 50 Mb
+--- >>> mod_ext.VDA(51) 50 Mb
+--- >> main_ext.mod(18) 50 Mb
+--- > maindrv.mod(92) 50 Mb
+--- >> bndmain.mod(26) 50 Mb
+--- >>> bnd_act.mod(26) 50 Mb
+--- >> bndmain.mod(31) 50 Mb
+--- >>> bnd_flo.mod(40) 50 Mb
+--- >> bndmain.mod(36) 50 Mb
+--- >>> bnd_stg.mod(27) 50 Mb
+--- >> bndmain.mod(37) 50 Mb
+--- >>> bnd_stg.mod(27) 50 Mb
+--- >> bndmain.mod(46) 50 Mb
+--- >>> bnd_set.mod(29) 50 Mb
+--- >> bndmain.mod(52) 50 Mb
+--- >>> bnd_set.mod(29) 50 Mb
+--- >> bndmain.mod(57) 50 Mb
+--- >>> bnd_set.mod(29) 50 Mb
+--- >> bndmain.mod(58) 50 Mb
+--- >>> bnd_set.mod(29) 50 Mb
+--- >> bndmain.mod(64) 50 Mb
+--- >>> bnd_cum.mod(48) 50 Mb
+--- >> bndmain.mod(69) 50 Mb
+--- >>> bnd_ucw.mod(15) 50 Mb
+--- >>>> bnd_ucv.mod(37) 50 Mb
+--- >>> bnd_ucw.mod(16) 50 Mb
+--- >>>> bnd_ucv.mod(37) 50 Mb
+--- >>> bnd_ucw.mod(17) 50 Mb
+--- >>>> bnd_ucv.mod(37) 50 Mb
+--- >>> bnd_ucw.mod(18) 50 Mb
+--- >>>> bnd_ucv.mod(37) 50 Mb
+--- >>> bnd_ucw.mod(19) 50 Mb
+--- >>>> bnd_ucv.mod(37) 50 Mb
+--- >>> bnd_ucw.mod(20) 50 Mb
+--- >>>> bnd_ucv.mod(37) 50 Mb
+--- >>> bnd_ucw.mod(25) 50 Mb
+--- >> bndmain.mod(87) 50 Mb
+--- > maindrv.mod(97) 50 Mb
+--- >> pp_qack.mod(69) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(78) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(86) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(98) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(106) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(113) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(118) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(130) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(135) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(146) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(154) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(166) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(172) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(177) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(186) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(189) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(193) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(197) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(208) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(220) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(229) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(234) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(238) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(252) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(261) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(268) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(277) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(302) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(311) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(319) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(325) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(332) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(342) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(351) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(359) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(365) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(370) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(378) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(383) 50 Mb
+--- >>> pp_qaput.mod(16) 50 Mb
+--- >> pp_qack.mod(385) 50 Mb
+--- > maindrv.mod(102) 50 Mb
+--- >> err_stat.mod(73) 50 Mb
+--- > maindrv.mod(103) 50 Mb
+--- >> err_stat.mod(73) 50 Mb
+--- > maindrv.mod(104) 50 Mb
+--- >> spoint.mod(66) 50 Mb
+--- > maindrv.mod(113) 50 Mb
+--- >> solve.mod(12) 50 Mb
+--- >>> pp_clean.mod(27) 50 Mb
+--- >> solve.mod(41) 50 Mb
+--- >>> err_stat.mod(73) 50 Mb
+--- >> solve.mod(47) 50 Mb
+--- > maindrv.mod(120) 50 Mb
+--- >> rptmain.mod(19) 50 Mb
+--- >>> solsetv.v3(176) 50 Mb
+--- >> rptmain.mod(26) 50 Mb
+--- >>> rptlite.rpt(12) 50 Mb
+--- >>>> solsysd.v3(11) 50 Mb
+--- >>> rptlite.rpt(13) 50 Mb
+--- >>>> solsysd.v3(11) 50 Mb
+--- >>> rptlite.rpt(144) 50 Mb
+--- >>>> sol_flo.red(43) 50 Mb
+--- >>> rptlite.rpt(145) 50 Mb
+--- >>>> sol_flo.red(31) 50 Mb
+--- >>> rptlite.rpt(146) 50 Mb
+--- >>>> sol_ire.rpt(20) 50 Mb
+--- >>> rptlite.rpt(151) 50 Mb
+--- >>>> rpt_obj.rpt(122) 50 Mb
+--- >>>>> eqobjvar.rpt(73) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> eqobjvar.rpt(96) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> eqobjvar.rpt(107) 50 Mb
+--- >>>> rpt_obj.rpt(145) 50 Mb
+--- >>>>> rpt_objc.rpt(128) 50 Mb
+--- >>>> rpt_obj.rpt(145) 50 Mb
+--- >>> rptlite.rpt(155) 50 Mb
+--- >>>> cost_ann.rpt(167) 50 Mb
+--- >>>>> eqobjvar.rpt(73) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> eqobjvar.rpt(96) 50 Mb
+--- >>>>>> cal_caps.mod(29) 50 Mb
+--- >>>>> eqobjvar.rpt(107) 50 Mb
+--- >>>> cost_ann.rpt(179) 50 Mb
+--- >>>>> eqobjels.rpt(29) 50 Mb
+--- >>>> cost_ann.rpt(209) 50 Mb
+--- >>> rptlite.rpt(158) 50 Mb
+--- >>>> rptmisc.rpt(274) 50 Mb
+--- >>> rptlite.rpt(176) 50 Mb
+--- >> rptmain.mod(43) 50 Mb
+--- >>> main_ext.mod(18) 50 Mb
+--- >> rptmain.mod(48) 50 Mb
+--- >>> solsetv.v3(191) 50 Mb
+--- >>>> solsysd.v3(14) 50 Mb
+--- >>> solsetv.v3(192) 50 Mb
+--- >>>> solsysd.v3(14) 50 Mb
+--- >>> solsetv.v3(200) 50 Mb
+--- >> rptmain.mod(48) 50 Mb
+--- > maindrv.mod(128) 50 Mb
+--- >> err_stat.mod(73) 50 Mb
+--- > maindrv.mod(129) 50 Mb
+--- >> err_stat.mod(73) 50 Mb
+--- > maindrv.mod(133) 50 Mb
+--- 5cfix2b.run(172) 51 Mb
+--- Starting execution: elapsed 0:00:03.847
+--- 5cfix2b.run(822548) 58 Mb--- 5cfix2b.run(822555) 62 Mb--- 5cfix2b.run(822996) 84 Mb--- 5cfix2b.run(823104) 95 Mb--- 5cfix2b.run(823914) 108 Mb--- 5cfix2b.run(825029) 108 Mb--- 5cfix2b.run(825329) 118 Mb--- 5cfix2b.run(825329) 122 Mb--- 5cfix2b.run(825387) 153 Mb--- 5cfix2b.run(826083) 164 Mb--- 5cfix2b.run(826083) 165 Mb--- 5cfix2b.run(826315) 185 Mb--- 5cfix2b.run(826489) 185 Mb--- 5cfix2b.run(826489) 187 Mb--- 5cfix2b.run(826489) 200 Mb--- 5cfix2b.run(827423) 200 Mb--- 5cfix2b.run(828024) 201 Mb--- 5cfix2b.run(828082) 201 Mb--- 5cfix2b.run(828082) 205 Mb--- 5cfix2b.run(828082) 210 Mb--- 5cfix2b.run(828082) 235 Mb--- 5cfix2b.run(828140) 293 Mb--- 5cfix2b.run(828198) 293 Mb--- 5cfix2b.run(828256) 293 Mb--- 5cfix2b.run(828361) 293 Mb--- 5cfix2b.run(828481) 293 Mb--- 5cfix2b.run(828656) 293 Mb--- 5cfix2b.run(828875) 293 Mb--- 5cfix2b.run(829319) 294 Mb--- 5cfix2b.run(829392) 294 Mb--- 5cfix2b.run(829708) 294 Mb--- 5cfix2b.run(829796) 294 Mb--- 5cfix2b.run(829854) 316 Mb--- 5cfix2b.run(829854) 318 Mb--- 5cfix2b.run(829854) 330 Mb--- 5cfix2b.run(829854) 335 Mb--- 5cfix2b.run(829912) 396 Mb--- 5cfix2b.run(829970) 396 Mb--- 5cfix2b.run(830498) 396 Mb--- 5cfix2b.run(831134) 396 Mb--- 5cfix2b.run(831189) 396 Mb--- 5cfix2b.run(831215) 396 Mb--- 5cfix2b.run(831257) 396 Mb--- 5cfix2b.run(831292) 410 Mb--- 5cfix2b.run(831346) 418 Mb--- 5cfix2b.run(831381) 431 Mb--- 5cfix2b.run(831384) 436 Mb--- 5cfix2b.run(831442) 442 Mb--- 5cfix2b.run(831442) 445 Mb--- 5cfix2b.run(831450) 458 Mb--- 5cfix2b.run(831450) 459 Mb--- 5cfix2b.run(831450) 470 Mb--- 5cfix2b.run(831450) 472 Mb--- 5cfix2b.run(831450) 483 Mb--- 5cfix2b.run(831450) 485 Mb--- 5cfix2b.run(831450) 496 Mb--- 5cfix2b.run(831450) 498 Mb--- 5cfix2b.run(831450) 510 Mb--- 5cfix2b.run(831450) 512 Mb--- 5cfix2b.run(831450) 523 Mb--- 5cfix2b.run(831450) 525 Mb--- 5cfix2b.run(831450) 536 Mb--- 5cfix2b.run(831450) 538 Mb--- 5cfix2b.run(831524) 540 Mb--- 5cfix2b.run(831527) 540 Mb--- 5cfix2b.run(831571) 546 Mb--- 5cfix2b.run(831571) 555 Mb--- 5cfix2b.run(831644) 565 Mb--- 5cfix2b.run(831646) 569 Mb--- 5cfix2b.run(831646) 570 Mb--- 5cfix2b.run(831646) 578 Mb--- 5cfix2b.run(831646) 579 Mb--- 5cfix2b.run(831734) 589 Mb--- 5cfix2b.run(831734) 592 Mb--- 5cfix2b.run(831750) 599 Mb--- 5cfix2b.run(831753) 600 Mb--- 5cfix2b.run(831785) 600 Mb--- 5cfix2b.run(831898) 600 Mb--- 5cfix2b.run(831906) 600 Mb--- 5cfix2b.run(831936) 600 Mb--- 5cfix2b.run(831942) 602 Mb--- 5cfix2b.run(831942) 603 Mb--- 5cfix2b.run(831976) 607 Mb--- 5cfix2b.run(831979) 607 Mb--- 5cfix2b.run(831979) 609 Mb--- 5cfix2b.run(832015) 610 Mb--- 5cfix2b.run(832146) 610 Mb--- 5cfix2b.run(832146) 611 Mb--- 5cfix2b.run(832274) 612 Mb--- 5cfix2b.run(832566) 615 Mb--- 5cfix2b.run(832566) 623 Mb--- 5cfix2b.run(832607) 650 Mb--- 5cfix2b.run(832608) 650 Mb--- 5cfix2b.run(832619) 659 Mb--- 5cfix2b.run(832619) 667 Mb--- 5cfix2b.run(832619) 698 Mb--- 5cfix2b.run(832661) 698 Mb--- 5cfix2b.run(832739) 706 Mb--- 5cfix2b.run(832739) 718 Mb--- 5cfix2b.run(832805) 751 Mb--- 5cfix2b.run(832813) 763 Mb--- 5cfix2b.run(833261) 778 Mb--- 5cfix2b.run(833280) 778 Mb--- 5cfix2b.run(833280) 788 Mb--- 5cfix2b.run(833280) 792 Mb--- 5cfix2b.run(833292) 803 Mb--- 5cfix2b.run(833314) 803 Mb--- 5cfix2b.run(833348) 810 Mb--- 5cfix2b.run(833348) 814 Mb--- 5cfix2b.run(833674) 827 Mb--- 5cfix2b.run(833687) 831 Mb--- 5cfix2b.run(833687) 832 Mb--- 5cfix2b.run(833687) 835 Mb--- 5cfix2b.run(834116) 844 Mb--- 5cfix2b.run(834323) 869 Mb--- 5cfix2b.run(834327) 869 Mb--- 5cfix2b.run(834451) 869 Mb--- 5cfix2b.run(834475) 897 Mb--- 5cfix2b.run(834475) 900 Mb--- 5cfix2b.run(834558) 901 Mb--- 5cfix2b.run(834563) 901 Mb--- 5cfix2b.run(834564) 913 Mb--- 5cfix2b.run(834679) 925 Mb--- 5cfix2b.run(834735) 939 Mb--- 5cfix2b.run(834752) 940 Mb--- 5cfix2b.run(834862) 942 Mb--- 5cfix2b.run(834870) 945 Mb--- 5cfix2b.run(834870) 975 Mb--- 5cfix2b.run(834870) 982 Mb--- 5cfix2b.run(834870) 1012 Mb--- 5cfix2b.run(834870) 1019 Mb--- 5cfix2b.run(834870) 1048 Mb--- 5cfix2b.run(834870) 1055 Mb--- 5cfix2b.run(834870) 1085 Mb--- 5cfix2b.run(834870) 1092 Mb--- 5cfix2b.run(834875) 1121 Mb--- 5cfix2b.run(834876) 1127 Mb--- 5cfix2b.run(834927) 1133 Mb--- 5cfix2b.run(834927) 1147 Mb--- 5cfix2b.run(834927) 1149 Mb--- 5cfix2b.run(834934) 1162 Mb--- 5cfix2b.run(834936) 1162 Mb--- 5cfix2b.run(834958) 1215 Mb--- 5cfix2b.run(834986) 1215 Mb--- 5cfix2b.run(835002) 1215 Mb--- 5cfix2b.run(835010) 1215 Mb--- 5cfix2b.run(835011) 1215 Mb--- 5cfix2b.run(835080) 1223 Mb--- 5cfix2b.run(835088) 1223 Mb--- 5cfix2b.run(835115) 1223 Mb--- 5cfix2b.run(835291) 1223 Mb--- 5cfix2b.run(835292) 1224 Mb--- 5cfix2b.run(835292) 1229 Mb--- 5cfix2b.run(835292) 1256 Mb--- 5cfix2b.run(835292) 1261 Mb--- 5cfix2b.run(835297) 1279 Mb--- 5cfix2b.run(835297) 1286 Mb--- 5cfix2b.run(835297) 1318 Mb--- 5cfix2b.run(835297) 1324 Mb--- 5cfix2b.run(835297) 1355 Mb--- 5cfix2b.run(835297) 1362 Mb--- 5cfix2b.run(835297) 1394 Mb--- 5cfix2b.run(835297) 1400 Mb--- 5cfix2b.run(835297) 1432 Mb--- 5cfix2b.run(835297) 1439 Mb--- 5cfix2b.run(835298) 1443 Mb--- 5cfix2b.run(835354) 1455 Mb--- 5cfix2b.run(835446) 1482 Mb--- 5cfix2b.run(835464) 1499 Mb--- 5cfix2b.run(835464) 1506 Mb--- 5cfix2b.run(835464) 1536 Mb--- 5cfix2b.run(835464) 1542 Mb--- 5cfix2b.run(835464) 1570 Mb--- 5cfix2b.run(835464) 1577 Mb--- 5cfix2b.run(835468) 1591 Mb--- 5cfix2b.run(835468) 1591 Mb--- 5cfix2b.run(835468) 1596 Mb--- 5cfix2b.run(835468) 1596 Mb--- 5cfix2b.run(835468) 1600 Mb--- 5cfix2b.run(835468) 1601 Mb--- 5cfix2b.run(835468) 1605 Mb--- 5cfix2b.run(835468) 1606 Mb--- 5cfix2b.run(835468) 1610 Mb--- 5cfix2b.run(835468) 1610 Mb--- 5cfix2b.run(835472) 1613 Mb--- 5cfix2b.run(835633) 1613 Mb--- 5cfix2b.run(835673) 1613 Mb--- 5cfix2b.run(835673) 1617 Mb--- 5cfix2b.run(835852) 1622 Mb--- 5cfix2b.run(835852) 1622 Mb--- 5cfix2b.run(836144) 1626 Mb--- 5cfix2b.run(836305) 1628 Mb--- 5cfix2b.run(836472) 1632 Mb--- 5cfix2b.run(836474) 1635 Mb--- 5cfix2b.run(836474) 1654 Mb--- 5cfix2b.run(836474) 1658 Mb--- 5cfix2b.run(836474) 1677 Mb--- 5cfix2b.run(836474) 1681 Mb--- 5cfix2b.run(836481) 1697 Mb--- 5cfix2b.run(836620) 1697 Mb--- 5cfix2b.run(836641) 1697 Mb--- 5cfix2b.run(836647) 1697 Mb--- 5cfix2b.run(836648) 1697 Mb--- 5cfix2b.run(836660) 1697 Mb--- 5cfix2b.run(836660) 1699 Mb--- 5cfix2b.run(836664) 1701 Mb--- 5cfix2b.run(836670) 1701 Mb--- 5cfix2b.run(837405) 1701 Mb--- 5cfix2b.run(837414) 1701 Mb--- 5cfix2b.run(837428) 1702 Mb--- 5cfix2b.run(837434) 1702 Mb--- 5cfix2b.run(837434) 1704 Mb--- 5cfix2b.run(837451) 1723 Mb--- 5cfix2b.run(837472) 1733 Mb--- 5cfix2b.run(837575) 1754 Mb--- 5cfix2b.run(837594) 1757 Mb--- 5cfix2b.run(837732) 1778 Mb--- 5cfix2b.run(837732) 1784 Mb--- 5cfix2b.run(837811) 1788 Mb--- 5cfix2b.run(837850) 1788 Mb--- 5cfix2b.run(837854) 1788 Mb--- 5cfix2b.run(838221) 1789 Mb--- 5cfix2b.run(838236) 1795 Mb--- 5cfix2b.run(838236) 1797 Mb--- 5cfix2b.run(838252) 1800 Mb--- 5cfix2b.run(838781) 1813 Mb--- 5cfix2b.run(838781) 1815 Mb--- 5cfix2b.run(838781) 1825 Mb--- 5cfix2b.run(838781) 1826 Mb--- 5cfix2b.run(838781) 1833 Mb--- 5cfix2b.run(838781) 1834 Mb--- 5cfix2b.run(844183) 1839 Mb--- 5cfix2b.run(844484) 1839 Mb--- 5cfix2b.run(854430) 1872 Mb--- 5cfix2b.run(854691) 1882 Mb--- 5cfix2b.run(854894) 1884 Mb--- 5cfix2b.run(855025) 1894 Mb--- 5cfix2b.run(855025) 1916 Mb--- 5cfix2b.run(855025) 1959 Mb--- 5cfix2b.run(855025) 1993 Mb--- 5cfix2b.run(855329) 1997 Mb--- 5cfix2b.run(855610) 1997 Mb--- 5cfix2b.run(855695) 1997 Mb--- 5cfix2b.run(855700) 1997 Mb--- 5cfix2b.run(855750) 1997 Mb--- 5cfix2b.run(855868) 2007 Mb--- 5cfix2b.run(856100) 2008 Mb--- 5cfix2b.run(856119) 2008 Mb
+--- Generating LP model TIMES
+--- 5cfix2b.run(837904) 2012 Mb--- 5cfix2b.run(837904) 2016 Mb--- 5cfix2b.run(837904) 2017 Mb--- 5cfix2b.run(837649) 2032 Mb--- 5cfix2b.run(837649) 2035 Mb--- 5cfix2b.run(837649) 2036 Mb--- 5cfix2b.run(837649) 2040 Mb--- 5cfix2b.run(838009) 2049 Mb--- 5cfix2b.run(838009) 2057 Mb--- 5cfix2b.run(838009) 2063 Mb--- 5cfix2b.run(838009) 2064 Mb--- 5cfix2b.run(838009) 2070 Mb--- 5cfix2b.run(838009) 2071 Mb--- 5cfix2b.run(838009) 2077 Mb--- 5cfix2b.run(838009) 2077 Mb--- 5cfix2b.run(838009) 2082 Mb--- 5cfix2b.run(838009) 2096 Mb--- 5cfix2b.run(838432) 2135 Mb--- 5cfix2b.run(838432) 2142 Mb--- 5cfix2b.run(838432) 2173 Mb--- 5cfix2b.run(838432) 2179 Mb--- 5cfix2b.run(838432) 2203 Mb--- 5cfix2b.run(838432) 2208 Mb--- 5cfix2b.run(838432) 2234 Mb--- 5cfix2b.run(838432) 2239 Mb--- 5cfix2b.run(838432) 2275 Mb--- 5cfix2b.run(838432) 2287 Mb--- 5cfix2b.run(838432) 2335 Mb--- 5cfix2b.run(838432) 2346 Mb--- 5cfix2b.run(838432) 2387 Mb--- 5cfix2b.run(838432) 2391 Mb--- 5cfix2b.run(838432) 2407 Mb--- 5cfix2b.run(838432) 2411 Mb--- 5cfix2b.run(838783) 2421 Mb--- 5cfix2b.run(838783) 2428 Mb--- 5cfix2b.run(838783) 2508 Mb--- 5cfix2b.run(838783) 2516 Mb--- 5cfix2b.run(838783) 2551 Mb--- 5cfix2b.run(838783) 2559 Mb--- 5cfix2b.run(838783) 2594 Mb--- 5cfix2b.run(838783) 2604 Mb--- 5cfix2b.run(838783) 2647 Mb--- 5cfix2b.run(838783) 2658 Mb--- 5cfix2b.run(838783) 2700 Mb--- 5cfix2b.run(838783) 2709 Mb--- 5cfix2b.run(838783) 2748 Mb--- 5cfix2b.run(838783) 2758 Mb--- 5cfix2b.run(838783) 2799 Mb--- 5cfix2b.run(838783) 2808 Mb--- 5cfix2b.run(838783) 2859 Mb--- 5cfix2b.run(838783) 2871 Mb  3 secs--- 5cfix2b.run(838783) 2917 Mb  3 secs--- 5cfix2b.run(838783) 2928 Mb  3 secs--- 5cfix2b.run(838783) 2972 Mb  3 secs--- 5cfix2b.run(838783) 2981 Mb  3 secs--- 5cfix2b.run(838783) 3026 Mb  3 secs--- 5cfix2b.run(838783) 3036 Mb  3 secs--- 5cfix2b.run(838783) 3081 Mb  3 secs--- 5cfix2b.run(838783) 3091 Mb  4 secs--- 5cfix2b.run(838783) 3135 Mb  4 secs--- 5cfix2b.run(838783) 3145 Mb  4 secs--- 5cfix2b.run(838783) 3169 Mb  4 secs--- 5cfix2b.run(838783) 3169 Mb  5 secs
+--- 5cfix2b.run(838730) 3169 Mb--- 5cfix2b.run(838836) 3169 Mb--- 5cfix2b.run(838836) 3174 Mb--- 5cfix2b.run(838836) 3176 Mb--- 5cfix2b.run(838836) 3187 Mb--- 5cfix2b.run(838836) 3189 Mb--- 5cfix2b.run(838836) 3196 Mb--- 5cfix2b.run(838836) 3198 Mb--- 5cfix2b.run(838836) 3210 Mb--- 5cfix2b.run(838836) 3212 Mb--- 5cfix2b.run(838836) 3214 Mb--- 5cfix2b.run(839170) 3216 Mb--- 5cfix2b.run(839170) 3216 Mb  3 secs--- 5cfix2b.run(839170) 3218 Mb  3 secs--- 5cfix2b.run(839170) 3219 Mb  3 secs--- 5cfix2b.run(839170) 3223 Mb  3 secs--- 5cfix2b.run(839170) 3224 Mb  3 secs--- 5cfix2b.run(839170) 3231 Mb  3 secs--- 5cfix2b.run(839170) 3232 Mb  3 secs--- 5cfix2b.run(839170) 3239 Mb  3 secs--- 5cfix2b.run(839170) 3240 Mb  4 secs--- 5cfix2b.run(839170) 3246 Mb  4 secs--- 5cfix2b.run(839170) 3248 Mb  4 secs--- 5cfix2b.run(839170) 3254 Mb  4 secs--- 5cfix2b.run(839170) 3255 Mb  4 secs--- 5cfix2b.run(839170) 3262 Mb  4 secs--- 5cfix2b.run(839170) 3262 Mb  4 secs--- 5cfix2b.run(839170) 3269 Mb  4 secs--- 5cfix2b.run(839170) 3270 Mb  5 secs--- 5cfix2b.run(839170) 3276 Mb  5 secs--- 5cfix2b.run(839170) 3277 Mb  5 secs--- 5cfix2b.run(839170) 3284 Mb  5 secs--- 5cfix2b.run(839170) 3285 Mb  5 secs--- 5cfix2b.run(839170) 3291 Mb  5 secs--- 5cfix2b.run(839170) 3292 Mb  5 secs--- 5cfix2b.run(839170) 3299 Mb  5 secs--- 5cfix2b.run(839170) 3300 Mb  6 secs--- 5cfix2b.run(839170) 3306 Mb  6 secs--- 5cfix2b.run(839170) 3307 Mb  6 secs--- 5cfix2b.run(839170) 3314 Mb  6 secs--- 5cfix2b.run(839170) 3315 Mb  6 secs--- 5cfix2b.run(839170) 3321 Mb  6 secs--- 5cfix2b.run(839170) 3321 Mb  6 secs--- 5cfix2b.run(839170) 3328 Mb  6 secs--- 5cfix2b.run(839170) 3329 Mb  7 secs--- 5cfix2b.run(839170) 3335 Mb  7 secs--- 5cfix2b.run(839170) 3336 Mb  7 secs--- 5cfix2b.run(839170) 3342 Mb  7 secs--- 5cfix2b.run(839170) 3343 Mb  7 secs--- 5cfix2b.run(839170) 3350 Mb  7 secs--- 5cfix2b.run(839170) 3352 Mb  7 secs--- 5cfix2b.run(839170) 3352 Mb  7 secs--- 5cfix2b.run(839170) 3352 Mb  8 secs--- 5cfix2b.run(839170) 3369 Mb  8 secs--- 5cfix2b.run(839170) 3373 Mb  8 secs--- 5cfix2b.run(839170) 3389 Mb  8 secs--- 5cfix2b.run(839170) 3393 Mb  8 secs--- 5cfix2b.run(839170) 3409 Mb  8 secs--- 5cfix2b.run(839170) 3412 Mb  8 secs
+--- 5cfix2b.run(839755) 3427 Mb--- 5cfix2b.run(839755) 3429 Mb--- 5cfix2b.run(839755) 3431 Mb--- 5cfix2b.run(839755) 3432 Mb--- 5cfix2b.run(839755) 3434 Mb--- 5cfix2b.run(839755) 3436 Mb--- 5cfix2b.run(839755) 3438 Mb--- 5cfix2b.run(839755) 3441 Mb--- 5cfix2b.run(839755) 3444 Mb--- 5cfix2b.run(839755) 3444 Mb--- 5cfix2b.run(839755) 3444 Mb  3 secs--- 5cfix2b.run(839755) 3446 Mb  3 secs--- 5cfix2b.run(839755) 3447 Mb  3 secs--- 5cfix2b.run(839755) 3447 Mb  4 secs--- 5cfix2b.run(839755) 3450 Mb  4 secs--- 5cfix2b.run(839755) 3454 Mb  4 secs--- 5cfix2b.run(839755) 3457 Mb  4 secs--- 5cfix2b.run(839755) 3458 Mb  5 secs--- 5cfix2b.run(839755) 3463 Mb  5 secs--- 5cfix2b.run(839755) 3463 Mb  5 secs--- 5cfix2b.run(839755) 3467 Mb  5 secs--- 5cfix2b.run(839755) 3468 Mb  5 secs--- 5cfix2b.run(839755) 3473 Mb  5 secs--- 5cfix2b.run(839755) 3474 Mb  5 secs--- 5cfix2b.run(839755) 3478 Mb  5 secs--- 5cfix2b.run(839755) 3478 Mb  6 secs--- 5cfix2b.run(839755) 3483 Mb  6 secs--- 5cfix2b.run(839755) 3484 Mb  6 secs--- 5cfix2b.run(839755) 3490 Mb  6 secs--- 5cfix2b.run(839755) 3494 Mb  6 secs--- 5cfix2b.run(839755) 3495 Mb  6 secs--- 5cfix2b.run(839755) 3500 Mb  6 secs--- 5cfix2b.run(839755) 3501 Mb  7 secs--- 5cfix2b.run(839755) 3505 Mb  7 secs--- 5cfix2b.run(839755) 3505 Mb  7 secs--- 5cfix2b.run(839755) 3515 Mb  7 secs--- 5cfix2b.run(839755) 3518 Mb  7 secs--- 5cfix2b.run(839755) 3530 Mb  7 secs--- 5cfix2b.run(839755) 3531 Mb  7 secs--- 5cfix2b.run(839755) 3556 Mb  7 secs--- 5cfix2b.run(839755) 3558 Mb  8 secs--- 5cfix2b.run(839755) 3569 Mb  8 secs--- 5cfix2b.run(839755) 3572 Mb  8 secs--- 5cfix2b.run(839755) 3584 Mb  8 secs--- 5cfix2b.run(839755) 3607 Mb  8 secs--- 5cfix2b.run(839755) 3629 Mb  8 secs--- 5cfix2b.run(839755) 3639 Mb  8 secs--- 5cfix2b.run(839755) 3641 Mb  9 secs--- 5cfix2b.run(839755) 3653 Mb  9 secs--- 5cfix2b.run(839755) 3656 Mb  9 secs--- 5cfix2b.run(839755) 3666 Mb  9 secs--- 5cfix2b.run(839755) 3668 Mb  9 secs--- 5cfix2b.run(839755) 3679 Mb  9 secs--- 5cfix2b.run(839755) 3682 Mb  9 secs--- 5cfix2b.run(839755) 3694 Mb  9 secs--- 5cfix2b.run(839755) 3696 Mb  10 secs--- 5cfix2b.run(839755) 3705 Mb  10 secs--- 5cfix2b.run(839755) 3707 Mb  10 secs--- 5cfix2b.run(839755) 3718 Mb  10 secs--- 5cfix2b.run(839755) 3720 Mb  10 secs--- 5cfix2b.run(839755) 3732 Mb  10 secs--- 5cfix2b.run(839755) 3733 Mb  10 secs--- 5cfix2b.run(839755) 3742 Mb  10 secs--- 5cfix2b.run(839755) 3745 Mb  11 secs--- 5cfix2b.run(839755) 3757 Mb  11 secs--- 5cfix2b.run(839755) 3759 Mb  11 secs--- 5cfix2b.run(839755) 3769 Mb  11 secs--- 5cfix2b.run(839755) 3770 Mb  11 secs--- 5cfix2b.run(839755) 3782 Mb  11 secs--- 5cfix2b.run(839755) 3784 Mb  11 secs--- 5cfix2b.run(839755) 3796 Mb  11 secs--- 5cfix2b.run(839755) 3797 Mb  12 secs--- 5cfix2b.run(839755) 3807 Mb  12 secs--- 5cfix2b.run(839755) 3810 Mb  12 secs--- 5cfix2b.run(839755) 3822 Mb  12 secs--- 5cfix2b.run(839755) 3825 Mb  12 secs--- 5cfix2b.run(839755) 3834 Mb  12 secs--- 5cfix2b.run(839755) 3835 Mb  12 secs--- 5cfix2b.run(839755) 3847 Mb  12 secs--- 5cfix2b.run(839755) 3849 Mb  13 secs--- 5cfix2b.run(839755) 3861 Mb  13 secs--- 5cfix2b.run(839755) 3862 Mb  13 secs--- 5cfix2b.run(839755) 3874 Mb  13 secs--- 5cfix2b.run(839755) 3876 Mb  13 secs--- 5cfix2b.run(839755) 3889 Mb  13 secs--- 5cfix2b.run(839755) 3890 Mb  13 secs--- 5cfix2b.run(839755) 3900 Mb  13 secs--- 5cfix2b.run(839755) 3901 Mb  14 secs--- 5cfix2b.run(839755) 3902 Mb  14 secs--- 5cfix2b.run(839755) 3931 Mb  14 secs--- 5cfix2b.run(839755) 3952 Mb  14 secs--- 5cfix2b.run(839755) 3954 Mb  14 secs--- 5cfix2b.run(839755) 3964 Mb  14 secs--- 5cfix2b.run(839755) 3966 Mb  14 secs--- 5cfix2b.run(839755) 3978 Mb  14 secs--- 5cfix2b.run(839755) 3981 Mb  15 secs--- 5cfix2b.run(839755) 3994 Mb  15 secs--- 5cfix2b.run(839755) 3995 Mb  15 secs--- 5cfix2b.run(839755) 4005 Mb  15 secs--- 5cfix2b.run(839755) 4007 Mb  15 secs--- 5cfix2b.run(839755) 4019 Mb  15 secs--- 5cfix2b.run(839755) 4021 Mb  15 secs--- 5cfix2b.run(839755) 4030 Mb  15 secs--- 5cfix2b.run(839755) 4032 Mb  16 secs--- 5cfix2b.run(839755) 4043 Mb  16 secs--- 5cfix2b.run(839755) 4046 Mb  16 secs--- 5cfix2b.run(839755) 4058 Mb  16 secs--- 5cfix2b.run(839755) 4059 Mb  16 secs--- 5cfix2b.run(839755) 4069 Mb  16 secs--- 5cfix2b.run(839755) 4071 Mb  16 secs--- 5cfix2b.run(839755) 4084 Mb  16 secs--- 5cfix2b.run(839755) 4087 Mb  17 secs--- 5cfix2b.run(839755) 4086 Mb  17 secs--- 5cfix2b.run(839755) 4086 Mb  17 secs--- 5cfix2b.run(839755) 4087 Mb  17 secs--- 5cfix2b.run(839755) 4090 Mb  17 secs--- 5cfix2b.run(839755) 4102 Mb  17 secs--- 5cfix2b.run(839755) 4104 Mb  17 secs--- 5cfix2b.run(839755) 4120 Mb  17 secs--- 5cfix2b.run(839755) 4123 Mb  18 secs--- 5cfix2b.run(839755) 4139 Mb  18 secs--- 5cfix2b.run(839755) 4142 Mb  18 secs--- 5cfix2b.run(839755) 4160 Mb  18 secs--- 5cfix2b.run(839755) 4164 Mb  18 secs--- 5cfix2b.run(839755) 4181 Mb  18 secs--- 5cfix2b.run(839755) 4185 Mb  18 secs
+--- 5cfix2b.run(840346) 4192 Mb--- 5cfix2b.run(840346) 4195 Mb--- 5cfix2b.run(840346) 4198 Mb--- 5cfix2b.run(840346) 4198 Mb--- 5cfix2b.run(840346) 4202 Mb--- 5cfix2b.run(840346) 4203 Mb--- 5cfix2b.run(840346) 4207 Mb--- 5cfix2b.run(840346) 4208 Mb--- 5cfix2b.run(840346) 4208 Mb--- 5cfix2b.run(840346) 4211 Mb--- 5cfix2b.run(840346) 4212 Mb--- 5cfix2b.run(840346) 4218 Mb--- 5cfix2b.run(840346) 4219 Mb--- 5cfix2b.run(840346) 4225 Mb--- 5cfix2b.run(840346) 4225 Mb  3 secs--- 5cfix2b.run(840346) 4232 Mb  3 secs--- 5cfix2b.run(840346) 4233 Mb  3 secs--- 5cfix2b.run(840346) 4238 Mb  3 secs--- 5cfix2b.run(840346) 4239 Mb  3 secs--- 5cfix2b.run(840346) 4245 Mb  3 secs--- 5cfix2b.run(840346) 4246 Mb  3 secs--- 5cfix2b.run(840346) 4252 Mb  3 secs--- 5cfix2b.run(840346) 4253 Mb  4 secs--- 5cfix2b.run(840346) 4259 Mb  4 secs--- 5cfix2b.run(840346) 4260 Mb  4 secs--- 5cfix2b.run(840346) 4259 Mb  4 secs--- 5cfix2b.run(840346) 4259 Mb  5 secs
+--- 5cfix2b.run(838894) 4259 Mb--- 5cfix2b.run(838894) 4259 Mb--- 5cfix2b.run(838894) 4260 Mb--- 5cfix2b.run(841731) 4263 Mb--- 5cfix2b.run(841731) 4263 Mb--- 5cfix2b.run(841731) 4270 Mb--- 5cfix2b.run(841731) 4271 Mb--- 5cfix2b.run(841731) 4278 Mb--- 5cfix2b.run(841731) 4279 Mb--- 5cfix2b.run(841731) 4284 Mb--- 5cfix2b.run(841731) 4285 Mb--- 5cfix2b.run(841731) 4291 Mb--- 5cfix2b.run(841731) 4293 Mb--- 5cfix2b.run(841731) 4299 Mb--- 5cfix2b.run(841731) 4300 Mb--- 5cfix2b.run(841731) 4306 Mb--- 5cfix2b.run(841731) 4308 Mb--- 5cfix2b.run(841731) 4314 Mb--- 5cfix2b.run(841731) 4315 Mb--- 5cfix2b.run(841731) 4322 Mb--- 5cfix2b.run(841731) 4323 Mb--- 5cfix2b.run(841731) 4322 Mb--- 5cfix2b.run(841572) 4323 Mb--- 5cfix2b.run(841572) 4323 Mb--- 5cfix2b.run(841572) 4327 Mb--- 5cfix2b.run(841572) 4328 Mb--- 5cfix2b.run(841572) 4332 Mb--- 5cfix2b.run(841572) 4333 Mb--- 5cfix2b.run(841413) 4333 Mb--- 5cfix2b.run(841413) 4333 Mb--- 5cfix2b.run(841413) 4334 Mb--- 5cfix2b.run(841413) 4340 Mb--- 5cfix2b.run(841413) 4341 Mb--- 5cfix2b.run(841413) 4348 Mb--- 5cfix2b.run(841413) 4349 Mb--- 5cfix2b.run(841413) 4356 Mb--- 5cfix2b.run(841413) 4357 Mb--- 5cfix2b.run(841413) 4363 Mb--- 5cfix2b.run(841413) 4364 Mb--- 5cfix2b.run(841413) 4370 Mb--- 5cfix2b.run(841413) 4371 Mb--- 5cfix2b.run(841413) 4375 Mb--- 5cfix2b.run(842742) 4375 Mb--- 5cfix2b.run(842742) 4376 Mb--- 5cfix2b.run(842742) 4377 Mb--- 5cfix2b.run(842742) 4379 Mb--- 5cfix2b.run(842742) 4384 Mb--- 5cfix2b.run(842742) 4389 Mb--- 5cfix2b.run(842742) 4392 Mb--- 5cfix2b.run(842742) 4392 Mb--- 5cfix2b.run(842742) 4397 Mb--- 5cfix2b.run(842742) 4398 Mb--- 5cfix2b.run(842742) 4403 Mb--- 5cfix2b.run(842742) 4403 Mb--- 5cfix2b.run(842742) 4403 Mb  3 secs
+--- 5cfix2b.run(842807) 4403 Mb--- 5cfix2b.run(842878) 4403 Mb--- 5cfix2b.run(842212) 4404 Mb--- 5cfix2b.run(842053) 4404 Mb--- 5cfix2b.run(842053) 4407 Mb--- 5cfix2b.run(842053) 4409 Mb--- 5cfix2b.run(842053) 4411 Mb--- 5cfix2b.run(842053) 4412 Mb--- 5cfix2b.run(842053) 4411 Mb--- 5cfix2b.run(841894) 4412 Mb--- 5cfix2b.run(841894) 4413 Mb--- 5cfix2b.run(841894) 4414 Mb--- 5cfix2b.run(841894) 4418 Mb--- 5cfix2b.run(841894) 4422 Mb--- 5cfix2b.run(841894) 4422 Mb--- 5cfix2b.run(841894) 4426 Mb--- 5cfix2b.run(841894) 4427 Mb--- 5cfix2b.run(841894) 4431 Mb--- 5cfix2b.run(841894) 4434 Mb--- 5cfix2b.run(841894) 4434 Mb--- 5cfix2b.run(841894) 4436 Mb--- 5cfix2b.run(842378) 4436 Mb--- 5cfix2b.run(842378) 4436 Mb--- 5cfix2b.run(843021) 4437 Mb--- 5cfix2b.run(843021) 4439 Mb--- 5cfix2b.run(843021) 4441 Mb--- 5cfix2b.run(843021) 4441 Mb--- 5cfix2b.run(843021) 4445 Mb--- 5cfix2b.run(843021) 4447 Mb--- 5cfix2b.run(843021) 4450 Mb--- 5cfix2b.run(843021) 4452 Mb--- 5cfix2b.run(843021) 4450 Mb--- 5cfix2b.run(839018) 4450 Mb--- 5cfix2b.run(843860) 4451 Mb--- 5cfix2b.run(844063) 4455 Mb--- 5cfix2b.run(843812) 4455 Mb--- 5cfix2b.run(845602) 4457 Mb--- 5cfix2b.run(845602) 4457 Mb--- 5cfix2b.run(845602) 4458 Mb--- 5cfix2b.run(845602) 4458 Mb  3 secs--- 5cfix2b.run(845602) 4459 Mb  3 secs--- 5cfix2b.run(845602) 4459 Mb  3 secs--- 5cfix2b.run(845602) 4461 Mb  3 secs--- 5cfix2b.run(845602) 4461 Mb  4 secs--- 5cfix2b.run(845602) 4461 Mb  4 secs--- 5cfix2b.run(845602) 4463 Mb  4 secs--- 5cfix2b.run(845602) 4465 Mb  4 secs--- 5cfix2b.run(845602) 4466 Mb  4 secs--- 5cfix2b.run(845602) 4466 Mb  5 secs--- 5cfix2b.run(845602) 4468 Mb  5 secs--- 5cfix2b.run(845602) 4470 Mb  5 secs--- 5cfix2b.run(845602) 4471 Mb  5 secs--- 5cfix2b.run(845602) 4473 Mb  6 secs--- 5cfix2b.run(845602) 4475 Mb  6 secs--- 5cfix2b.run(845602) 4476 Mb  6 secs--- 5cfix2b.run(845602) 4478 Mb  6 secs--- 5cfix2b.run(845602) 4480 Mb  6 secs--- 5cfix2b.run(845602) 4480 Mb  7 secs--- 5cfix2b.run(845602) 4481 Mb  7 secs--- 5cfix2b.run(845602) 4482 Mb  7 secs--- 5cfix2b.run(845602) 4490 Mb  7 secs--- 5cfix2b.run(845602) 4492 Mb  7 secs--- 5cfix2b.run(845602) 4494 Mb  7 secs--- 5cfix2b.run(845602) 4494 Mb  8 secs--- 5cfix2b.run(845602) 4494 Mb  8 secs
+--- 5cfix2b.run(851866) 4494 Mb--- 5cfix2b.run(846646) 4494 Mb--- 5cfix2b.run(846646) 4495 Mb--- 5cfix2b.run(846646) 4496 Mb--- 5cfix2b.run(846646) 4496 Mb--- 5cfix2b.run(846646) 4497 Mb--- 5cfix2b.run(846646) 4497 Mb--- 5cfix2b.run(846646) 4498 Mb--- 5cfix2b.run(846646) 4499 Mb--- 5cfix2b.run(846646) 4500 Mb--- 5cfix2b.run(846646) 4502 Mb--- 5cfix2b.run(846646) 4505 Mb--- 5cfix2b.run(846646) 4507 Mb--- 5cfix2b.run(846646) 4507 Mb  3 secs--- 5cfix2b.run(846646) 4509 Mb  3 secs--- 5cfix2b.run(846646) 4511 Mb  3 secs--- 5cfix2b.run(846646) 4513 Mb  4 secs--- 5cfix2b.run(846646) 4515 Mb  4 secs--- 5cfix2b.run(846646) 4517 Mb  4 secs--- 5cfix2b.run(846646) 4520 Mb  4 secs--- 5cfix2b.run(846646) 4522 Mb  4 secs--- 5cfix2b.run(846646) 4522 Mb  5 secs--- 5cfix2b.run(846646) 4524 Mb  5 secs--- 5cfix2b.run(846646) 4527 Mb  5 secs--- 5cfix2b.run(846646) 4529 Mb  5 secs--- 5cfix2b.run(846646) 4531 Mb  5 secs--- 5cfix2b.run(846646) 4531 Mb  6 secs--- 5cfix2b.run(846646) 4533 Mb  6 secs--- 5cfix2b.run(846646) 4536 Mb  6 secs--- 5cfix2b.run(846646) 4538 Mb  6 secs--- 5cfix2b.run(846646) 4540 Mb  6 secs--- 5cfix2b.run(846646) 4540 Mb  7 secs--- 5cfix2b.run(846646) 4542 Mb  7 secs--- 5cfix2b.run(846646) 4545 Mb  7 secs--- 5cfix2b.run(846646) 4547 Mb  7 secs--- 5cfix2b.run(846646) 4550 Mb  7 secs--- 5cfix2b.run(846646) 4550 Mb  8 secs--- 5cfix2b.run(846646) 4552 Mb  8 secs--- 5cfix2b.run(846646) 4554 Mb  8 secs--- 5cfix2b.run(846646) 4556 Mb  8 secs--- 5cfix2b.run(846646) 4558 Mb  9 secs--- 5cfix2b.run(846646) 4560 Mb  9 secs--- 5cfix2b.run(846646) 4561 Mb  9 secs--- 5cfix2b.run(846646) 4562 Mb  9 secs--- 5cfix2b.run(846646) 4562 Mb  10 secs
+--- 5cfix2b.run(846124) 4562 Mb--- 5cfix2b.run(846124) 4563 Mb--- 5cfix2b.run(846124) 4564 Mb--- 5cfix2b.run(846124) 4565 Mb--- 5cfix2b.run(846124) 4567 Mb--- 5cfix2b.run(846124) 4567 Mb--- 5cfix2b.run(846124) 4567 Mb--- 5cfix2b.run(847168) 4568 Mb--- 5cfix2b.run(847168) 4570 Mb--- 5cfix2b.run(847168) 4571 Mb--- 5cfix2b.run(847168) 4572 Mb--- 5cfix2b.run(847168) 4574 Mb--- 5cfix2b.run(847168) 4576 Mb--- 5cfix2b.run(847168) 4578 Mb--- 5cfix2b.run(847168) 4580 Mb--- 5cfix2b.run(847168) 4582 Mb--- 5cfix2b.run(847168) 4583 Mb--- 5cfix2b.run(847168) 4585 Mb--- 5cfix2b.run(847168) 4587 Mb--- 5cfix2b.run(847168) 4589 Mb--- 5cfix2b.run(847168) 4589 Mb  3 secs--- 5cfix2b.run(847168) 4591 Mb  3 secs--- 5cfix2b.run(847168) 4593 Mb  3 secs--- 5cfix2b.run(847168) 4594 Mb  3 secs--- 5cfix2b.run(847168) 4596 Mb  3 secs--- 5cfix2b.run(847168) 4596 Mb  4 secs--- 5cfix2b.run(847168) 4598 Mb  4 secs--- 5cfix2b.run(847168) 4600 Mb  4 secs--- 5cfix2b.run(847168) 4602 Mb  4 secs--- 5cfix2b.run(847168) 4603 Mb  5 secs--- 5cfix2b.run(847168) 4605 Mb  5 secs--- 5cfix2b.run(847168) 4607 Mb  5 secs--- 5cfix2b.run(847168) 4609 Mb  5 secs--- 5cfix2b.run(847168) 4609 Mb  6 secs--- 5cfix2b.run(847168) 4610 Mb  6 secs
+--- 5cfix2b.run(847690) 4609 Mb--- 5cfix2b.run(847690) 4611 Mb--- 5cfix2b.run(848734) 4611 Mb--- 5cfix2b.run(852958) 4610 Mb--- 5cfix2b.run(852958) 4615 Mb--- 5cfix2b.run(852958) 4616 Mb--- 5cfix2b.run(852958) 4623 Mb--- 5cfix2b.run(852958) 4624 Mb--- 5cfix2b.run(852958) 4629 Mb--- 5cfix2b.run(852958) 4636 Mb--- 5cfix2b.run(852958) 4637 Mb--- 5cfix2b.run(852958) 4644 Mb--- 5cfix2b.run(852958) 4645 Mb--- 5cfix2b.run(852958) 4652 Mb--- 5cfix2b.run(852958) 4653 Mb--- 5cfix2b.run(852958) 4660 Mb--- 5cfix2b.run(852958) 4661 Mb--- 5cfix2b.run(852958) 4668 Mb--- 5cfix2b.run(852958) 4669 Mb--- 5cfix2b.run(852958) 4677 Mb--- 5cfix2b.run(852958) 4678 Mb--- 5cfix2b.run(852958) 4687 Mb--- 5cfix2b.run(852958) 4688 Mb--- 5cfix2b.run(852958) 4697 Mb--- 5cfix2b.run(852958) 4698 Mb--- 5cfix2b.run(852958) 4707 Mb--- 5cfix2b.run(852958) 4708 Mb  3 secs--- 5cfix2b.run(852958) 4717 Mb  3 secs--- 5cfix2b.run(852958) 4718 Mb  3 secs--- 5cfix2b.run(852958) 4726 Mb  3 secs--- 5cfix2b.run(852958) 4729 Mb  3 secs--- 5cfix2b.run(852958) 4737 Mb  3 secs--- 5cfix2b.run(852958) 4739 Mb  3 secs--- 5cfix2b.run(852958) 4747 Mb  3 secs--- 5cfix2b.run(852958) 4749 Mb  4 secs--- 5cfix2b.run(852958) 4757 Mb  4 secs--- 5cfix2b.run(852958) 4758 Mb  4 secs--- 5cfix2b.run(852958) 4768 Mb  4 secs--- 5cfix2b.run(852958) 4769 Mb  4 secs--- 5cfix2b.run(852958) 4778 Mb  4 secs--- 5cfix2b.run(852958) 4780 Mb  4 secs--- 5cfix2b.run(852958) 4789 Mb  4 secs--- 5cfix2b.run(852958) 4790 Mb  5 secs--- 5cfix2b.run(852958) 4800 Mb  5 secs--- 5cfix2b.run(852958) 4801 Mb  5 secs--- 5cfix2b.run(852958) 4810 Mb  5 secs--- 5cfix2b.run(852958) 4812 Mb  5 secs--- 5cfix2b.run(852958) 4821 Mb  5 secs--- 5cfix2b.run(852958) 4823 Mb  5 secs--- 5cfix2b.run(852958) 4832 Mb  5 secs--- 5cfix2b.run(852958) 4834 Mb  6 secs--- 5cfix2b.run(852958) 4843 Mb  6 secs--- 5cfix2b.run(852958) 4844 Mb  6 secs--- 5cfix2b.run(852958) 4853 Mb  6 secs--- 5cfix2b.run(852958) 4855 Mb  6 secs--- 5cfix2b.run(852958) 4864 Mb  6 secs--- 5cfix2b.run(852958) 4865 Mb  6 secs--- 5cfix2b.run(852958) 4874 Mb  6 secs--- 5cfix2b.run(852958) 4875 Mb  7 secs--- 5cfix2b.run(852958) 4885 Mb  7 secs--- 5cfix2b.run(852958) 4886 Mb  7 secs--- 5cfix2b.run(852958) 4896 Mb  7 secs--- 5cfix2b.run(852958) 4898 Mb  7 secs--- 5cfix2b.run(852958) 4907 Mb  7 secs--- 5cfix2b.run(852958) 4908 Mb  7 secs--- 5cfix2b.run(852958) 4918 Mb  7 secs--- 5cfix2b.run(852958) 4919 Mb  8 secs--- 5cfix2b.run(852958) 4929 Mb  8 secs--- 5cfix2b.run(852958) 4930 Mb  8 secs--- 5cfix2b.run(852958) 4940 Mb  8 secs--- 5cfix2b.run(852958) 4941 Mb  8 secs--- 5cfix2b.run(852958) 4951 Mb  8 secs--- 5cfix2b.run(852958) 4952 Mb  8 secs--- 5cfix2b.run(852958) 4961 Mb  8 secs--- 5cfix2b.run(852958) 4963 Mb  9 secs--- 5cfix2b.run(852958) 4971 Mb  9 secs--- 5cfix2b.run(852958) 4973 Mb  9 secs--- 5cfix2b.run(852958) 4982 Mb  9 secs--- 5cfix2b.run(852958) 4984 Mb  9 secs--- 5cfix2b.run(852958) 4989 Mb  9 secs--- 5cfix2b.run(852958) 4991 Mb  9 secs--- 5cfix2b.run(852958) 5000 Mb  9 secs--- 5cfix2b.run(852958) 5001 Mb  10 secs--- 5cfix2b.run(852958) 5010 Mb  10 secs--- 5cfix2b.run(852958) 5011 Mb  10 secs--- 5cfix2b.run(852958) 5020 Mb  10 secs--- 5cfix2b.run(852958) 5021 Mb  10 secs--- 5cfix2b.run(852958) 5030 Mb  10 secs--- 5cfix2b.run(852958) 5031 Mb  10 secs--- 5cfix2b.run(852958) 5040 Mb  10 secs--- 5cfix2b.run(852958) 5042 Mb  11 secs--- 5cfix2b.run(852958) 5050 Mb  11 secs--- 5cfix2b.run(852958) 5052 Mb  11 secs--- 5cfix2b.run(852958) 5061 Mb  11 secs--- 5cfix2b.run(852958) 5062 Mb  11 secs--- 5cfix2b.run(852958) 5071 Mb  11 secs--- 5cfix2b.run(852958) 5073 Mb  11 secs--- 5cfix2b.run(852958) 5089 Mb  11 secs--- 5cfix2b.run(852958) 5092 Mb  12 secs--- 5cfix2b.run(852958) 5111 Mb  12 secs--- 5cfix2b.run(852958) 5116 Mb  12 secs--- 5cfix2b.run(852958) 5135 Mb  12 secs--- 5cfix2b.run(852958) 5139 Mb  12 secs--- 5cfix2b.run(852958) 5157 Mb  12 secs--- 5cfix2b.run(852958) 5162 Mb  12 secs--- 5cfix2b.run(852958) 5181 Mb  12 secs--- 5cfix2b.run(852958) 5185 Mb  13 secs--- 5cfix2b.run(852958) 5204 Mb  13 secs--- 5cfix2b.run(852958) 5208 Mb  13 secs--- 5cfix2b.run(852958) 5226 Mb  13 secs--- 5cfix2b.run(852958) 5230 Mb  13 secs--- 5cfix2b.run(852958) 5249 Mb  13 secs--- 5cfix2b.run(852958) 5253 Mb  13 secs--- 5cfix2b.run(852958) 5272 Mb  13 secs--- 5cfix2b.run(852958) 5276 Mb  14 secs--- 5cfix2b.run(852958) 5294 Mb  14 secs--- 5cfix2b.run(852958) 5298 Mb  14 secs--- 5cfix2b.run(852958) 5317 Mb  14 secs--- 5cfix2b.run(852958) 5322 Mb  14 secs--- 5cfix2b.run(852958) 5330 Mb  14 secs--- 5cfix2b.run(852958) 5330 Mb  15 secs--- 5cfix2b.run(852958) 5330 Mb  16 secs
+--- 5cfix2b.run(853038) 5330 Mb--- 5cfix2b.run(853000) 5330 Mb--- 5cfix2b.run(853063) 5330 Mb--- 5cfix2b.run(853458) 5331 Mb--- 5cfix2b.run(856138) 5329 Mb--- 5cfix2b.run(856138) 5329 Mb  3 secs--- 5cfix2b.run(856138) 5329 Mb  4 secs--- 5cfix2b.run(856138) 5329 Mb  5 secs--- 5cfix2b.run(856138) 5329 Mb  6 secs--- 5cfix2b.run(856138) 5329 Mb  7 secs--- 5cfix2b.run(856138) 5333 Mb  7 secs--- 5cfix2b.run(856138) 5336 Mb  7 secs--- 5cfix2b.run(856138) 5349 Mb  7 secs--- 5cfix2b.run(856138) 5351 Mb  7 secs--- 5cfix2b.run(856138) 5355 Mb  8 secs--- 5cfix2b.run(856138) 5355 Mb  9 secs--- 5cfix2b.run(856138) 5355 Mb  10 secs--- 5cfix2b.run(856138) 5355 Mb  11 secs
+---   6,672,627 rows  8,822,838 columns  36,255,843 non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 5.592E-09, 4.321E+04] - Zero values observed as well
+--- Bound     [min, max] : [ 6.124E-06, 1.000E+07] - Zero values observed as well
+--- Matrix    [min, max] : [ 2.436E-08, 1.029E+05] - Zero values observed as well
+--- Executing CPLEX (Solvelink=0): elapsed 0:02:44.791
+--- Warning: SolveOpt is set to REPLACE (0).
+---          Empty equations are not passed to the solver
+---          and will be cleared when reading the solution.
+--- 5cfix2b.run(856138) 5355 Mb  12 secs--- 5cfix2b.run(856138) 5355 Mb  13 secs--- 5cfix2b.run(856138) 5355 Mb  14 secs--- 5cfix2b.run(856138) 5355 Mb  15 secs--- 5cfix2b.run(856138) 5355 Mb  16 secs
+
+IBM ILOG CPLEX   54.3.1 61154be4 Aug 21, 2026          LEG x86 64bit/Linux    
+
+--- GAMS/CPLEX licensed for continuous and discrete problems.
+
+--- Reading option file '/scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/cplex.opt':
+--- Setting 'scaind': 0
+--- Setting 'rerun': yes
+--- Setting 'lpmethod': 4
+--- Setting 'baralg': 2
+--- Setting 'barepcomp': 1e-07
+--- Setting 'barcrossalg': 1
+--- Setting 'barorder': 0
+--- Setting 'threads': 32
+--- Setting 'aggind': 3
+--- Setting 'names': 0
+--- Setting 'eprhs': 1e-08
+--- Setting 'solutiontype': 2
+
+--- GMO setup time: 0.00s
+--- GMO memory 3416.28 Mb (peak 3483.59 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.2.0 link memory 244.64 Mb (peak 834.20 Mb)
+--- Starting Cplex
+
+Version identifier: 22.1.2.0 | 2024-11-26 | 0edbb82fd
+CPXPARAM_Advance                                 0
+CPXPARAM_Preprocessing_Aggregator                3
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 32
+CPXPARAM_Parallel                                1
+CPXPARAM_SolutionType                            2
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_Barrier_Algorithm                       2
+CPXPARAM_Barrier_Crossover                       1
+CPXPARAM_Preprocessing_QCPDuals                  0
+CPXPARAM_Barrier_Limits_Iteration                999999
+CPXPARAM_Simplex_Tolerances_Feasibility          1e-08
+CPXPARAM_TimeLimit                               160000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_Barrier_ConvergeTol                     9.9999999999999995e-08
+Aggregator has done 1346398 substitutions...
+Aggregator has done 1355396 substitutions...
+Aggregator has done 1363295 substitutions...
+Aggregator has done 1371294 substitutions...
+Aggregator has done 1378992 substitutions...
+Aggregator has done 1385991 substitutions...
+Aggregator has done 1392842 substitutions...
+Aggregator has done 1399533 substitutions...
+Aggregator has done 1406715 substitutions...
+Aggregator has done 1413206 substitutions...
+Aggregator has done 1419561 substitutions...
+Aggregator has done 1425816 substitutions...
+Aggregator has done 1431971 substitutions...
+Aggregator has done 1438026 substitutions...
+Aggregator has done 1443981 substitutions...
+Aggregator has done 1449836 substitutions...
+Aggregator has done 1455591 substitutions...
+Aggregator has done 1461246 substitutions...
+Aggregator has done 1466901 substitutions...
+Aggregator has done 1472456 substitutions...
+Aggregator has done 1477911 substitutions...
+Aggregator has done 1483266 substitutions...
+Aggregator has done 1642005 substitutions...
+Aggregator has done 1653596 substitutions...
+Aggregator has done 1679008 substitutions...
+Aggregator has done 1687744 substitutions...
+Aggregator has done 1741553 substitutions...
+Aggregator has done 2043677 substitutions...
+Aggregator has done 2283057 substitutions...
+Aggregator has done 2493173 substitutions...
+Aggregator has done 2683798 substitutions...
+Aggregator has done 2722367 substitutions...
+Aggregator has done 2730944 substitutions...
+Aggregator has done 2855215 substitutions...
+Aggregator has done 2873711 substitutions...
+Aggregator has done 2878842 substitutions...
+Aggregator has done 2903278 substitutions...
+Aggregator has done 2906226 substitutions...
+Tried aggregator 3 times.
+Aggregator has done 2906584 substitutions...
+LP Presolve eliminated 1396774 rows and 2756835 columns.
+Aggregator did 2906584 substitutions.
+Reduced LP has 2369268 rows, 3166868 columns, and 23032279 nonzeros.
+Presolve time = 204.18 sec. (398367.35 ticks)
+Parallel mode: using up to 32 threads for barrier.
+
+***NOTE: Found 4 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 57014049
+Elapsed ordering time = 6.13 sec. (10000.02 ticks)
+Elapsed ordering time = 10.87 sec. (20000.05 ticks)
+Using Nested Dissection ordering
+Total time for automatic ordering = 165.77 sec. (305613.02 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 32
+  Rows in Factor            = 2369272
+  Integer space required    = 25766809
+  Total non-zeros in factor = 811736187
+  Total FP ops to factor    = 4206952116827
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   5.2226649e+09  -2.0157861e+09  6.29e+09  2.39e+05  5.61e+09  1.00e+00
+   1   5.4196059e+09  -1.7295006e+09  6.29e+09  2.39e+05  5.61e+09  8.93e-01
+   2   5.8310119e+09  -1.4263213e+09  6.29e+09  2.39e+05  5.61e+09  6.77e-01
+   3   6.3196789e+09  -1.2202508e+09  6.29e+09  2.39e+05  5.61e+09  4.78e-01
+   4   6.6077540e+09  -8.7573268e+08  6.29e+09  2.39e+05  5.61e+09  3.84e-01
+   5   6.8197481e+09  -8.2977897e+08  6.29e+09  2.39e+05  5.61e+09  2.97e-01
+   6   7.2309237e+09  -1.1862209e+08  6.29e+09  2.39e+05  5.61e+09  2.37e-01
+   7   7.3021765e+09   2.3386701e+07  6.29e+09  2.39e+05  5.61e+09  2.01e-01
+   8   7.2630694e+09  -2.5911130e+07  6.29e+09  2.39e+05  5.61e+09  1.72e-01
+   9   7.2608273e+09  -3.2263688e+07  6.29e+09  2.39e+05  5.61e+09  1.67e-01
+  10   7.2503302e+09  -9.4156003e+07  6.29e+09  2.39e+05  5.61e+09  1.60e-01
+  11   7.2144900e+09  -3.7492418e+08  6.29e+09  2.39e+05  5.61e+09  1.52e-01
+  12   7.1263519e+09  -7.0263588e+08  6.29e+09  2.39e+05  5.61e+09  1.40e-01
+  13   7.0252332e+09  -1.0237885e+09  6.29e+09  2.39e+05  5.61e+09  1.28e-01
+  14   6.9853300e+09  -1.2642277e+09  6.29e+09  2.39e+05  5.61e+09  1.21e-01
+  15   6.9091463e+09  -1.6470623e+09  6.29e+09  2.39e+05  5.61e+09  1.08e-01
+  16   6.7635535e+09  -1.8712393e+09  6.29e+09  2.39e+05  5.61e+09  8.59e-02
+  17   6.7167356e+09  -1.9243146e+09  6.29e+09  2.39e+05  5.61e+09  7.10e-02
+  18   6.6245970e+09  -2.0651513e+09  6.29e+09  2.39e+05  5.61e+09  4.85e-02
+  19   6.4703181e+09  -2.1518787e+09  6.29e+09  2.39e+05  5.61e+09  2.93e-02
+  20   6.8562259e+09  -1.4392068e+09  6.29e+09  2.39e+05  5.61e+09  2.27e-02
+  21   6.9066372e+09  -1.2743739e+09  6.29e+09  2.39e+05  5.61e+09  1.92e-02
+  22   6.8080261e+09  -1.4222541e+09  6.29e+09  2.39e+05  5.61e+09  1.57e-02
+  23   6.8942144e+09  -1.3045774e+09  6.29e+09  2.39e+05  5.60e+09  1.22e-02
+  24   7.8410338e+09  -7.4108403e+08  6.28e+09  2.39e+05  5.60e+09  7.51e-03
+  25   8.8043061e+09   6.9434934e+08  6.28e+09  2.38e+05  5.60e+09  6.02e-03
+  26   1.0006400e+10   1.5605993e+09  6.27e+09  2.38e+05  5.60e+09  4.74e-03
+  27   1.0212508e+10   1.6620156e+09  6.27e+09  2.38e+05  5.59e+09  3.87e-03
+  28   1.0170168e+10   1.6470336e+09  6.25e+09  2.37e+05  5.57e+09  2.62e-03
+  29   1.0155887e+10   1.8175992e+09  6.10e+09  2.32e+05  5.45e+09  9.88e-04
+  30   1.0244309e+10   2.2804679e+09  5.89e+09  2.24e+05  5.22e+09  5.93e-04
+  31   9.9567981e+09   2.3172187e+09  5.66e+09  2.15e+05  4.93e+09  4.54e-04
+  32   9.6712577e+09   2.0683789e+09  5.50e+09  2.09e+05  4.44e+09  4.27e-04
+  33   9.1688618e+09   1.9121004e+09  5.26e+09  2.00e+05  4.26e+09  3.89e-04
+  34   8.8883823e+09   1.6731536e+09  5.11e+09  1.94e+05  3.91e+09  3.88e-04
+  35   8.1815229e+09   1.5088119e+09  4.76e+09  1.81e+05  3.70e+09  3.59e-04
+  36   7.6082179e+09   1.3090280e+09  4.45e+09  1.69e+05  3.36e+09  3.54e-04
+  37   7.0341934e+09   1.1884925e+09  4.14e+09  1.57e+05  3.15e+09  3.47e-04
+  38   6.8191080e+09   1.1669317e+09  4.02e+09  1.53e+05  3.11e+09  3.43e-04
+  39   5.4682182e+09   1.0760713e+09  3.27e+09  1.24e+05  2.93e+09  3.11e-04
+  40   4.5143339e+09   1.0031372e+09  2.71e+09  1.03e+05  2.75e+09  3.00e-04
+  41   3.5912360e+09   8.9117921e+08  2.16e+09  8.20e+04  2.45e+09  3.11e-04
+  42   3.2241135e+09   8.4224976e+08  1.94e+09  7.38e+04  2.33e+09  3.20e-04
+  43   2.2294097e+09   7.0068985e+08  1.35e+09  5.12e+04  1.95e+09  3.65e-04
+  44   2.1019421e+09   6.4881489e+08  1.27e+09  4.83e+04  1.80e+09  4.00e-04
+  45   1.5149322e+09   5.8639994e+08  9.19e+08  3.49e+04  1.63e+09  4.34e-04
+  46   9.8312297e+08   4.5041468e+08  5.96e+08  2.26e+04  1.25e+09  5.95e-04
+  47   6.8705342e+08   3.3813777e+08  4.15e+08  1.58e+04  9.37e+08  8.52e-04
+  48   4.5015969e+08   2.6033004e+08  2.72e+08  1.04e+04  7.22e+08  1.17e-03
+  49   3.4016989e+08   2.0758114e+08  2.06e+08  7.83e+03  5.76e+08  1.55e-03
+  50   2.9368482e+08   1.8479872e+08  1.78e+08  6.77e+03  5.14e+08  1.78e-03
+  51   2.0696640e+08   1.4664822e+08  1.26e+08  4.81e+03  4.11e+08  2.36e-03
+  52   1.3320157e+08   1.1153879e+08  8.21e+07  3.12e+03  3.15e+08  3.35e-03
+  53   9.8883455e+07   9.3959227e+07  6.10e+07  2.32e+03  2.65e+08  4.21e-03
+  54   8.0673734e+07   7.7100799e+07  4.93e+07  1.87e+03  2.16e+08  5.37e-03
+  55   5.7815731e+07   6.0780151e+07  3.49e+07  1.33e+03  1.68e+08  7.32e-03
+  56   4.2621977e+07   4.8257017e+07  2.52e+07  9.57e+02  1.32e+08  9.89e-03
+  57   3.3049756e+07   3.7891520e+07  1.90e+07  7.23e+02  1.01e+08  1.35e-02
+  58   2.8952288e+07   3.2434133e+07  1.64e+07  6.25e+02  8.56e+07  1.62e-02
+  59   2.4952295e+07   2.6320223e+07  1.40e+07  5.31e+02  6.82e+07  2.09e-02
+  60   2.1480555e+07   2.3201972e+07  1.19e+07  4.52e+02  5.96e+07  2.44e-02
+  61   1.9961890e+07   1.9531239e+07  1.10e+07  4.17e+02  4.95e+07  2.97e-02
+  62   1.9279245e+07   1.7142084e+07  1.06e+07  4.03e+02  4.33e+07  3.41e-02
+  63   1.8323410e+07   1.5940379e+07  1.01e+07  3.83e+02  4.03e+07  3.68e-02
+  64   1.7136138e+07   1.3220034e+07  9.41e+06  3.58e+02  3.32e+07  4.50e-02
+  65   1.6935824e+07   1.2893104e+07  9.31e+06  3.54e+02  3.25e+07  4.61e-02
+  66   1.4075610e+07   1.0669525e+07  7.73e+06  2.94e+02  2.68e+07  5.71e-02
+  67   1.2560407e+07   9.4657593e+06  6.88e+06  2.61e+02  2.37e+07  6.56e-02
+  68   1.1434855e+07   8.2815780e+06  6.22e+06  2.36e+02  2.05e+07  7.68e-02
+  69   1.0518849e+07   7.7788207e+06  5.68e+06  2.16e+02  1.91e+07  8.35e-02
+  70   9.1227474e+06   7.2723281e+06  4.86e+06  1.85e+02  1.77e+07  9.17e-02
+  71   8.4254284e+06   6.5061056e+06  4.44e+06  1.69e+02  1.55e+07  1.06e-01
+  72   8.0759217e+06   6.0110732e+06  4.22e+06  1.60e+02  1.41e+07  1.18e-01
+  73   6.6414102e+06   4.9258435e+06  3.36e+06  1.27e+02  1.09e+07  1.57e-01
+  74   6.1217189e+06   4.8153444e+06  3.03e+06  1.15e+02  1.06e+07  1.64e-01
+  75   5.9880841e+06   4.6746067e+06  2.95e+06  1.12e+02  1.02e+07  1.71e-01
+  76   5.9226242e+06   4.5579839e+06  2.91e+06  1.10e+02  9.82e+06  1.78e-01
+  77   5.7052853e+06   4.4095129e+06  2.77e+06  1.05e+02  9.37e+06  1.88e-01
+  78   5.2910647e+06   4.2073075e+06  2.50e+06  9.50e+01  8.74e+06  2.04e-01
+  79   5.1454542e+06   3.9344373e+06  2.41e+06  9.15e+01  7.91e+06  2.27e-01
+  80   4.8105493e+06   3.3919549e+06  2.19e+06  8.34e+01  6.23e+06  2.93e-01
+  81   4.7563076e+06   3.2666113e+06  2.16e+06  8.22e+01  5.88e+06  3.11e-01
+  82   4.7066028e+06   3.2134497e+06  2.13e+06  8.10e+01  5.72e+06  3.20e-01
+  83   4.4413444e+06   2.9729690e+06  1.97e+06  7.47e+01  5.01e+06  3.69e-01
+  84   4.3178650e+06   2.9348925e+06  1.89e+06  7.18e+01  4.89e+06  3.79e-01
+  85   4.2379127e+06   2.8725349e+06  1.84e+06  6.98e+01  4.70e+06  3.96e-01
+  86   4.1315958e+06   2.6948185e+06  1.77e+06  6.73e+01  4.16e+06  4.48e-01
+  87   3.7944473e+06   2.4262758e+06  1.56e+06  5.93e+01  3.37e+06  5.61e-01
+  88   3.5988995e+06   2.2954974e+06  1.44e+06  5.46e+01  2.97e+06  6.40e-01
+  89   3.3252171e+06   2.1427699e+06  1.26e+06  4.80e+01  2.49e+06  7.70e-01
+  90   3.1870711e+06   2.0776131e+06  1.17e+06  4.45e+01  2.28e+06  8.48e-01
+  91   3.0602602e+06   2.0127896e+06  1.09e+06  4.14e+01  2.06e+06  9.38e-01
+  92   2.9796896e+06   1.9531787e+06  1.04e+06  3.95e+01  1.87e+06  1.03e+00
+  93   2.7354388e+06   1.8763922e+06  8.77e+05  3.33e+01  1.61e+06  1.22e+00
+  94   2.5692904e+06   1.8031602e+06  7.64e+05  2.90e+01  1.33e+06  1.48e+00
+  95   2.4032319e+06   1.7635025e+06  6.47e+05  2.46e+01  1.17e+06  1.70e+00
+  96   2.3465997e+06   1.7381887e+06  6.08e+05  2.31e+01  1.07e+06  1.88e+00
+  97   2.2071585e+06   1.6936777e+06  5.08e+05  1.93e+01  8.71e+05  2.32e+00
+  98   2.1277144e+06   1.6697181e+06  4.52e+05  1.72e+01  7.69e+05  2.64e+00
+  99   2.0149344e+06   1.6428381e+06  3.69e+05  1.40e+01  6.38e+05  3.22e+00
+ 100   1.9328018e+06   1.6264844e+06  3.09e+05  1.17e+01  5.57e+05  3.73e+00
+ 101   1.9155425e+06   1.6107919e+06  2.95e+05  1.12e+01  4.70e+05  4.44e+00
+ 102   1.8676991e+06   1.5896076e+06  2.60e+05  9.88e+00  3.65e+05  5.76e+00
+ 103   1.8458162e+06   1.5820656e+06  2.44e+05  9.28e+00  3.30e+05  6.37e+00
+ 104   1.8067480e+06   1.5767797e+06  2.15e+05  8.18e+00  3.04e+05  6.95e+00
+ 105   1.7679363e+06   1.5629951e+06  1.86e+05  7.07e+00  2.31e+05  9.17e+00
+ 106   1.7404430e+06   1.5572375e+06  1.66e+05  6.30e+00  2.02e+05  1.05e+01
+ 107   1.7051067e+06   1.5497476e+06  1.39e+05  5.29e+00  1.62e+05  1.31e+01
+ 108   1.6887117e+06   1.5448496e+06  1.27e+05  4.82e+00  1.35e+05  1.56e+01
+ 109   1.6763374e+06   1.5443529e+06  1.18e+05  4.47e+00  1.32e+05  1.60e+01
+ 110   1.6494208e+06   1.5403939e+06  9.68e+04  3.68e+00  1.07e+05  1.96e+01
+ 111   1.6323553e+06   1.5397728e+06  8.32e+04  3.16e+00  1.01e+05  2.08e+01
+ 112   1.6120662e+06   1.5370737e+06  6.71e+04  2.55e+00  7.89e+04  2.69e+01
+ 113   1.6028796e+06   1.5360095e+06  5.97e+04  2.27e+00  6.97e+04  3.04e+01
+ 114   1.5938171e+06   1.5349944e+06  5.24e+04  1.99e+00  5.99e+04  3.54e+01
+ 115   1.5899856e+06   1.5347156e+06  4.93e+04  1.87e+00  5.71e+04  3.72e+01
+ 116   1.5840288e+06   1.5335537e+06  4.45e+04  1.69e+00  4.61e+04  4.61e+01
+ 117   1.5757321e+06   1.5320545e+06  3.80e+04  1.44e+00  3.49e+04  6.04e+01
+ 118   1.5727808e+06   1.5313971e+06  3.57e+04  1.36e+00  3.09e+04  6.80e+01
+ 119   1.5691378e+06   1.5310467e+06  3.29e+04  1.25e+00  2.88e+04  7.26e+01
+ 120   1.5642493e+06   1.5305005e+06  2.92e+04  1.11e+00  2.52e+04  8.22e+01
+ 121   1.5596931e+06   1.5298025e+06  2.56e+04  9.73e-01  2.05e+04  1.00e+02
+ 122   1.5566297e+06   1.5294204e+06  2.32e+04  8.83e-01  1.80e+04  1.13e+02
+ 123   1.5541762e+06   1.5291234e+06  2.13e+04  8.10e-01  1.60e+04  1.26e+02
+ 124   1.5509854e+06   1.5289371e+06  1.88e+04  7.15e-01  1.46e+04  1.37e+02
+ 125   1.5487205e+06   1.5288368e+06  1.70e+04  6.46e-01  1.36e+04  1.46e+02
+ 126   1.5456288e+06   1.5285934e+06  1.46e+04  5.53e-01  1.16e+04  1.70e+02
+ 127   1.5423509e+06   1.5284793e+06  1.19e+04  4.52e-01  1.01e+04  1.94e+02
+ 128   1.5402259e+06   1.5282618e+06  1.02e+04  3.88e-01  8.14e+03  2.39e+02
+ 129   1.5386504e+06   1.5280697e+06  8.97e+03  3.41e-01  6.57e+03  2.94e+02
+ 130   1.5368857e+06   1.5279718e+06  7.58e+03  2.88e-01  5.73e+03  3.34e+02
+ 131   1.5354291e+06   1.5278558e+06  6.43e+03  2.44e-01  4.70e+03  4.03e+02
+ 132   1.5349493e+06   1.5277917e+06  6.05e+03  2.30e-01  4.22e+03  4.46e+02
+ 133   1.5333811e+06   1.5277266e+06  4.82e+03  1.83e-01  3.73e+03  5.02e+02
+ 134   1.5327169e+06   1.5276931e+06  4.30e+03  1.63e-01  3.46e+03  5.41e+02
+ 135   1.5325195e+06   1.5276723e+06  4.14e+03  1.57e-01  3.27e+03  5.71e+02
+ 136   1.5314712e+06   1.5276192e+06  3.31e+03  1.26e-01  2.82e+03  6.60e+02
+ 137   1.5307226e+06   1.5276103e+06  2.70e+03  1.02e-01  2.69e+03  6.93e+02
+ 138   1.5301155e+06   1.5275555e+06  2.21e+03  8.38e-02  2.03e+03  9.29e+02
+ 139   1.5297686e+06   1.5275162e+06  1.94e+03  7.36e-02  1.76e+03  1.07e+03
+ 140   1.5293114e+06   1.5274773e+06  1.58e+03  6.01e-02  1.47e+03  1.28e+03
+ 141   1.5288461e+06   1.5274246e+06  1.23e+03  4.66e-02  1.14e+03  1.66e+03
+ 142   1.5285487e+06   1.5273715e+06  1.01e+03  3.81e-02  8.45e+02  2.26e+03
+ 143   1.5284780e+06   1.5273663e+06  9.45e+02  3.60e-02  8.06e+02  2.37e+03
+ 144   1.5279950e+06   1.5273254e+06  5.71e+02  2.24e-02  6.08e+02  3.14e+03
+ 145   1.5279877e+06   1.5273242e+06  5.66e+02  2.22e-02  6.02e+02  3.17e+03
+ 146   1.5278406e+06   1.5272783e+06  4.66e+02  1.80e-02  3.81e+02  5.11e+03
+ 147   1.5277269e+06   1.5272583e+06  3.93e+02  1.50e-02  3.08e+02  6.29e+03
+ 148   1.5277262e+06   1.5272581e+06  3.93e+02  1.49e-02  3.07e+02  6.30e+03
+ 149   1.5277115e+06   1.5272558e+06  3.83e+02  1.45e-02  2.98e+02  6.49e+03
+ 150   1.5275834e+06   1.5272379e+06  3.06e+02  1.11e-02  2.35e+02  8.17e+03
+ 151   1.5275631e+06   1.5272360e+06  2.95e+02  1.05e-02  2.28e+02  8.41e+03
+ 152   1.5275631e+06   1.5272360e+06  2.94e+02  1.05e-02  2.28e+02  8.41e+03
+ 153   1.5275630e+06   1.5272359e+06  2.94e+02  1.05e-02  2.28e+02  8.42e+03
+ 154   1.5275630e+06   1.5272359e+06  2.94e+02  1.05e-02  2.28e+02  8.42e+03
+ 155   1.5275629e+06   1.5272359e+06  2.95e+02  1.05e-02  2.27e+02  8.42e+03
+ 156   1.5275615e+06   1.5272354e+06  2.94e+02  1.05e-02  2.25e+02  8.49e+03
+ 157   1.5275606e+06   1.5272353e+06  2.91e+02  1.05e-02  2.25e+02  8.50e+03
+ 158   1.5275596e+06   1.5272351e+06  2.89e+02  1.05e-02  2.25e+02  8.52e+03
+ 159   1.5275595e+06   1.5272351e+06  2.89e+02  1.05e-02  2.25e+02  8.52e+03
+ 160   1.5275596e+06   1.5272350e+06  2.92e+02  1.05e-02  2.25e+02  8.52e+03
+ 161   1.5275574e+06   1.5272348e+06  2.91e+02  1.04e-02  2.24e+02  8.55e+03
+ 162   1.5275543e+06   1.5272327e+06  2.88e+02  1.03e-02  2.17e+02  8.80e+03
+ 163   1.5274925e+06   1.5272074e+06  2.46e+02  8.65e-03  1.28e+02  1.47e+04
+ 164   1.5274830e+06   1.5272013e+06  2.39e+02  8.40e-03  1.11e+02  1.66e+04
+ 165   1.5274125e+06   1.5271966e+06  1.94e+02  6.56e-03  9.76e+01  1.84e+04
+ 166   1.5274121e+06   1.5271966e+06  1.93e+02  6.55e-03  9.76e+01  1.84e+04
+ 167   1.5274056e+06   1.5271937e+06  1.88e+02  6.38e-03  8.91e+01  1.99e+04
+ 168   1.5274012e+06   1.5271934e+06  1.84e+02  6.26e-03  8.83e+01  2.01e+04
+ 169   1.5273951e+06   1.5271928e+06  1.80e+02  6.10e-03  8.65e+01  2.04e+04
+ 170   1.5273825e+06   1.5271896e+06  1.69e+02  5.77e-03  7.68e+01  2.27e+04
+ 171   1.5273657e+06   1.5271895e+06  1.52e+02  5.32e-03  7.65e+01  2.27e+04
+ 172   1.5273060e+06   1.5271813e+06  1.17e+02  3.74e-03  5.13e+01  3.20e+04
+ 173   1.5273057e+06   1.5271811e+06  1.17e+02  3.74e-03  5.07e+01  3.24e+04
+ 174   1.5273041e+06   1.5271806e+06  1.16e+02  3.69e-03  4.92e+01  3.33e+04
+ 175   1.5273041e+06   1.5271806e+06  1.16e+02  3.69e-03  4.92e+01  3.33e+04
+ 176   1.5272976e+06   1.5271793e+06  1.11e+02  3.52e-03  4.51e+01  3.59e+04
+ 177   1.5272817e+06   1.5271771e+06  9.90e+01  3.10e-03  3.83e+01  4.12e+04
+ 178   1.5272535e+06   1.5271743e+06  1.02e+02  2.35e-03  2.97e+01  5.12e+04
+ 179   1.5272415e+06   1.5271725e+06  8.39e+01  2.03e-03  2.38e+01  6.22e+04
+ 180   1.5272267e+06   1.5271705e+06  7.46e+01  1.64e-03  1.73e+01  8.16e+04
+ 181   1.5272202e+06   1.5271701e+06  7.19e+01  1.46e-03  1.60e+01  8.73e+04
+ 182   1.5272091e+06   1.5271687e+06  6.17e+01  1.17e-03  1.14e+01  1.17e+05
+ 183   1.5272056e+06   1.5271685e+06  5.78e+01  1.08e-03  1.07e+01  1.23e+05
+ 184   1.5271822e+06   1.5271671e+06  9.32e+01  4.47e-04  5.60e+00  2.08e+05
+ 185   1.5271822e+06   1.5271671e+06  9.31e+01  4.47e-04  5.60e+00  2.08e+05
+ 186   1.5271821e+06   1.5271671e+06  7.38e+01  4.43e-04  5.58e+00  2.08e+05
+ 187   1.5271820e+06   1.5271671e+06  7.38e+01  4.41e-04  5.48e+00  2.12e+05
+ 188   1.5271767e+06   1.5271669e+06  6.69e+01  2.93e-04  4.21e+00  2.75e+05
+ 189   1.5271767e+06   1.5271669e+06  6.63e+01  2.92e-04  4.20e+00  2.76e+05
+ 190   1.5271767e+06   1.5271669e+06  6.60e+01  2.91e-04  4.13e+00  2.81e+05
+ 191   1.5271767e+06   1.5271669e+06  6.60e+01  2.91e-04  4.13e+00  2.81e+05
+ 192   1.5271766e+06   1.5271669e+06  6.60e+01  2.90e-04  4.09e+00  2.83e+05
+ 193   1.5271765e+06   1.5271669e+06  6.49e+01  2.87e-04  4.09e+00  2.83e+05
+ 194   1.5271758e+06   1.5271669e+06  6.06e+01  2.67e-04  3.76e+00  3.09e+05
+ 195   1.5271737e+06   1.5271668e+06  6.42e+01  2.09e-04  3.39e+00  3.43e+05
+ 196   1.5271731e+06   1.5271667e+06  5.61e+01  1.91e-04  2.91e+00  4.05e+05
+ 197   1.5271703e+06   1.5271665e+06  2.38e+02  1.11e-04  1.26e+00  9.70e+05
+Barrier time = 2719.00 sec. (4636446.52 ticks)
+
+Total time on 32 threads = 2719.01 sec. (4636446.52 ticks)
+
+--- LP status (1): optimal.
+--- Cplex Time: 2719.16sec (det. 4636465.61 ticks)
+
+
+Optimal solution found
+Objective:      1527170.271003
+
+--- Restarting execution
+--- 5cfix2b.run(856138) 2394 Mb
+--- Reading solution for model TIMES
+***
+*** Reading with solveopt=REPLACE (0)
+***
+--- 5cfix2b.run(856138) 2395 Mb--- 5cfix2b.run(856138) 2420 Mb--- 5cfix2b.run(856138) 2494 Mb--- 5cfix2b.run(856138) 2528 Mb--- 5cfix2b.run(856138) 2555 Mb--- 5cfix2b.run(856138) 2565 Mb--- 5cfix2b.run(856138) 2608 Mb--- 5cfix2b.run(856138) 2616 Mb--- 5cfix2b.run(856138) 2633 Mb--- 5cfix2b.run(856138) 2643 Mb--- 5cfix2b.run(856138) 2683 Mb--- 5cfix2b.run(856138) 2691 Mb--- 5cfix2b.run(856138) 2811 Mb--- 5cfix2b.run(856138) 2817 Mb--- 5cfix2b.run(856138) 2870 Mb--- 5cfix2b.run(856138) 2876 Mb--- 5cfix2b.run(856138) 2887 Mb--- 5cfix2b.run(856138) 2935 Mb--- 5cfix2b.run(856138) 2949 Mb--- 5cfix2b.run(856138) 2993 Mb--- 5cfix2b.run(856138) 3003 Mb--- 5cfix2b.run(856138) 3044 Mb--- 5cfix2b.run(856138) 3073 Mb  3 secs--- 5cfix2b.run(856138) 3205 Mb  3 secs--- 5cfix2b.run(856138) 3238 Mb  3 secs--- 5cfix2b.run(856138) 3336 Mb  3 secs--- 5cfix2b.run(856138) 3339 Mb  3 secs--- 5cfix2b.run(856138) 3348 Mb  4 secs
+--- Executing after solve: elapsed 0:48:51.564
+--- 5cfix2b.run(856161) 3348 Mb--- 5cfix2b.run(856162) 3348 Mb
+--- TIMES Solve status: Optimal
+--- 5cfix2b.run(856649) 3348 Mb--- 5cfix2b.run(856652) 3348 Mb--- 5cfix2b.run(856665) 3348 Mb--- 5cfix2b.run(856665) 3348 Mb  3 secs--- 5cfix2b.run(856665) 3348 Mb  4 secs--- 5cfix2b.run(856665) 3348 Mb  5 secs--- 5cfix2b.run(856665) 3348 Mb  6 secs--- 5cfix2b.run(856665) 3348 Mb  7 secs
+--- 5cfix2b.run(856671) 3348 Mb--- 5cfix2b.run(856671) 3351 Mb--- 5cfix2b.run(856671) 3354 Mb--- 5cfix2b.run(856671) 3363 Mb--- 5cfix2b.run(856671) 3364 Mb--- 5cfix2b.run(856671) 3365 Mb--- 5cfix2b.run(856671) 3366 Mb--- 5cfix2b.run(856671) 3367 Mb--- 5cfix2b.run(856671) 3368 Mb--- 5cfix2b.run(856671) 3369 Mb--- 5cfix2b.run(856671) 3369 Mb--- 5cfix2b.run(856671) 3370 Mb--- 5cfix2b.run(856671) 3370 Mb--- 5cfix2b.run(856671) 3370 Mb  3 secs--- 5cfix2b.run(856671) 3410 Mb  3 secs--- 5cfix2b.run(856671) 3411 Mb  3 secs--- 5cfix2b.run(856671) 3414 Mb  3 secs--- 5cfix2b.run(856671) 3415 Mb  3 secs--- 5cfix2b.run(856671) 3418 Mb  3 secs--- 5cfix2b.run(856671) 3419 Mb  3 secs--- 5cfix2b.run(856671) 3423 Mb  3 secs--- 5cfix2b.run(856671) 3423 Mb  4 secs--- 5cfix2b.run(856671) 3425 Mb  4 secs
+--- 5cfix2b.run(856696) 3425 Mb--- 5cfix2b.run(856720) 3425 Mb--- 5cfix2b.run(856721) 3425 Mb--- 5cfix2b.run(856751) 3425 Mb--- 5cfix2b.run(856761) 3425 Mb--- 5cfix2b.run(856768) 3425 Mb--- 5cfix2b.run(856775) 3425 Mb--- 5cfix2b.run(856785) 3425 Mb--- 5cfix2b.run(856806) 3425 Mb--- 5cfix2b.run(856814) 3425 Mb--- 5cfix2b.run(856825) 3425 Mb--- 5cfix2b.run(856838) 3425 Mb--- 5cfix2b.run(856875) 3425 Mb--- 5cfix2b.run(856878) 3425 Mb--- 5cfix2b.run(856886) 3425 Mb--- 5cfix2b.run(856903) 3425 Mb--- 5cfix2b.run(856904) 3425 Mb--- 5cfix2b.run(857026) 3425 Mb--- 5cfix2b.run(857053) 3425 Mb--- 5cfix2b.run(857057) 3425 Mb--- 5cfix2b.run(857065) 3425 Mb--- 5cfix2b.run(857082) 3425 Mb--- 5cfix2b.run(857082) 3426 Mb--- 5cfix2b.run(857082) 3427 Mb--- 5cfix2b.run(857082) 3430 Mb--- 5cfix2b.run(857082) 3431 Mb--- 5cfix2b.run(857082) 3435 Mb--- 5cfix2b.run(857129) 3435 Mb--- 5cfix2b.run(857177) 3436 Mb--- 5cfix2b.run(857179) 3482 Mb--- 5cfix2b.run(857179) 3483 Mb--- 5cfix2b.run(857179) 3487 Mb--- 5cfix2b.run(857179) 3488 Mb--- 5cfix2b.run(857179) 3493 Mb--- 5cfix2b.run(857179) 3493 Mb--- 5cfix2b.run(857179) 3497 Mb--- 5cfix2b.run(857179) 3498 Mb--- 5cfix2b.run(857179) 3503 Mb--- 5cfix2b.run(857179) 3503 Mb--- 5cfix2b.run(857179) 3507 Mb--- 5cfix2b.run(857179) 3508 Mb--- 5cfix2b.run(857179) 3513 Mb--- 5cfix2b.run(857179) 3513 Mb--- 5cfix2b.run(857179) 3517 Mb--- 5cfix2b.run(857179) 3518 Mb--- 5cfix2b.run(857179) 3523 Mb--- 5cfix2b.run(857179) 3523 Mb--- 5cfix2b.run(857179) 3528 Mb--- 5cfix2b.run(857179) 3528 Mb--- 5cfix2b.run(857179) 3533 Mb--- 5cfix2b.run(857179) 3533 Mb--- 5cfix2b.run(857179) 3538 Mb--- 5cfix2b.run(857179) 3538 Mb--- 5cfix2b.run(857179) 3543 Mb--- 5cfix2b.run(857179) 3543 Mb  3 secs--- 5cfix2b.run(857179) 3548 Mb  3 secs--- 5cfix2b.run(857179) 3548 Mb  3 secs--- 5cfix2b.run(857179) 3552 Mb  3 secs--- 5cfix2b.run(857179) 3553 Mb  3 secs--- 5cfix2b.run(857179) 3558 Mb  3 secs--- 5cfix2b.run(857179) 3558 Mb  3 secs--- 5cfix2b.run(857179) 3563 Mb  3 secs--- 5cfix2b.run(857179) 3563 Mb  4 secs--- 5cfix2b.run(857179) 3568 Mb  4 secs--- 5cfix2b.run(857179) 3568 Mb  4 secs
+--- 5cfix2b.run(857189) 3570 Mb--- 5cfix2b.run(857189) 3613 Mb--- 5cfix2b.run(857189) 3635 Mb--- 5cfix2b.run(857190) 3668 Mb--- 5cfix2b.run(857218) 3677 Mb--- 5cfix2b.run(857221) 3677 Mb--- 5cfix2b.run(857221) 3705 Mb--- 5cfix2b.run(857221) 3708 Mb--- 5cfix2b.run(857221) 3710 Mb--- 5cfix2b.run(857221) 3711 Mb--- 5cfix2b.run(857221) 3713 Mb--- 5cfix2b.run(857221) 3716 Mb--- 5cfix2b.run(857221) 3718 Mb--- 5cfix2b.run(857221) 3721 Mb--- 5cfix2b.run(857221) 3723 Mb--- 5cfix2b.run(857221) 3726 Mb--- 5cfix2b.run(857221) 3729 Mb--- 5cfix2b.run(857221) 3731 Mb--- 5cfix2b.run(857221) 3734 Mb--- 5cfix2b.run(857221) 3734 Mb  3 secs--- 5cfix2b.run(857221) 3737 Mb  3 secs--- 5cfix2b.run(857221) 3739 Mb  3 secs--- 5cfix2b.run(857221) 3742 Mb  3 secs--- 5cfix2b.run(857221) 3744 Mb  3 secs--- 5cfix2b.run(857221) 3744 Mb  4 secs--- 5cfix2b.run(857221) 3747 Mb  4 secs--- 5cfix2b.run(857221) 3750 Mb  4 secs
+--- 5cfix2b.run(857233) 3750 Mb--- 5cfix2b.run(857235) 3750 Mb--- 5cfix2b.run(857244) 3750 Mb--- 5cfix2b.run(857254) 3750 Mb--- 5cfix2b.run(857255) 3750 Mb--- 5cfix2b.run(857263) 3750 Mb--- 5cfix2b.run(857267) 3750 Mb--- 5cfix2b.run(857276) 3750 Mb--- 5cfix2b.run(857278) 3750 Mb--- 5cfix2b.run(857279) 3750 Mb--- 5cfix2b.run(857287) 3750 Mb--- 5cfix2b.run(857317) 3750 Mb--- 5cfix2b.run(857345) 3750 Mb--- 5cfix2b.run(857346) 3750 Mb--- 5cfix2b.run(857507) 3750 Mb--- 5cfix2b.run(857508) 3750 Mb--- 5cfix2b.run(857509) 3750 Mb--- 5cfix2b.run(857528) 3750 Mb--- 5cfix2b.run(857547) 3750 Mb--- 5cfix2b.run(857553) 3750 Mb--- 5cfix2b.run(857562) 3750 Mb--- 5cfix2b.run(857565) 3750 Mb--- 5cfix2b.run(857565) 3757 Mb--- 5cfix2b.run(857565) 3759 Mb--- 5cfix2b.run(857566) 3760 Mb--- 5cfix2b.run(857581) 3760 Mb--- 5cfix2b.run(857602) 3760 Mb--- 5cfix2b.run(857609) 3760 Mb--- 5cfix2b.run(857609) 3764 Mb--- 5cfix2b.run(857609) 3765 Mb--- 5cfix2b.run(857609) 3771 Mb--- 5cfix2b.run(857609) 3773 Mb--- 5cfix2b.run(857609) 3793 Mb--- 5cfix2b.run(857610) 3797 Mb--- 5cfix2b.run(857615) 3824 Mb--- 5cfix2b.run(857615) 3831 Mb--- 5cfix2b.run(857615) 3852 Mb--- 5cfix2b.run(857615) 3856 Mb--- 5cfix2b.run(857615) 3875 Mb--- 5cfix2b.run(857615) 3880 Mb--- 5cfix2b.run(857615) 3907 Mb--- 5cfix2b.run(857615) 3913 Mb--- 5cfix2b.run(857620) 3931 Mb--- 5cfix2b.run(857640) 3931 Mb--- 5cfix2b.run(857644) 3931 Mb--- 5cfix2b.run(857664) 3931 Mb--- 5cfix2b.run(857673) 3931 Mb--- 5cfix2b.run(857717) 3931 Mb--- 5cfix2b.run(857738) 3932 Mb--- 5cfix2b.run(857738) 3932 Mb  3 secs--- 5cfix2b.run(857738) 3946 Mb  3 secs--- 5cfix2b.run(857738) 3987 Mb  3 secs--- 5cfix2b.run(857738) 4123 Mb  4 secs--- 5cfix2b.run(857738) 4123 Mb  4 secs--- 5cfix2b.run(857738) 4124 Mb  4 secs--- 5cfix2b.run(857738) 4132 Mb  5 secs--- 5cfix2b.run(857738) 4185 Mb  5 secs--- 5cfix2b.run(857738) 4185 Mb  5 secs--- 5cfix2b.run(857738) 4185 Mb  6 secs--- 5cfix2b.run(857738) 4241 Mb  6 secs--- 5cfix2b.run(857738) 4242 Mb  6 secs--- 5cfix2b.run(857738) 4242 Mb  6 secs--- 5cfix2b.run(857738) 4242 Mb  7 secs--- 5cfix2b.run(857738) 4242 Mb  8 secs--- 5cfix2b.run(857738) 4336 Mb  8 secs--- 5cfix2b.run(857738) 4372 Mb  9 secs--- 5cfix2b.run(857738) 4441 Mb  9 secs--- 5cfix2b.run(857738) 4442 Mb  9 secs--- 5cfix2b.run(857738) 4442 Mb  9 secs--- 5cfix2b.run(857738) 4443 Mb  9 secs--- 5cfix2b.run(857738) 4443 Mb  10 secs--- 5cfix2b.run(857738) 4444 Mb  10 secs
+--- 5cfix2b.run(857790) 4444 Mb--- 5cfix2b.run(857899) 4444 Mb--- 5cfix2b.run(857969) 4444 Mb
+--- Putfile END_GAMS /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/END_GAMS
+--- Putfile QLOG /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/QA_CHECK.LOG
+--- 5cfix2b.run(857969) 4444 Mb  3 secs--- 5cfix2b.run(857969) 4444 Mb  4 secs--- 5cfix2b.run(857969) 4444 Mb  5 secs--- 5cfix2b.run(857969) 4444 Mb  6 secs--- 5cfix2b.run(857969) 4444 Mb  7 secs--- 5cfix2b.run(857969) 4444 Mb  8 secs--- 5cfix2b.run(857969) 4444 Mb  9 secs--- 5cfix2b.run(857969) 4444 Mb  10 secs--- 5cfix2b.run(857969) 4444 Mb  11 secs--- 5cfix2b.run(857969) 4444 Mb  12 secs--- 5cfix2b.run(857969) 4444 Mb  13 secs--- 5cfix2b.run(857969) 4444 Mb  14 secs--- 5cfix2b.run(857969) 4444 Mb  15 secs--- 5cfix2b.run(857969) 4444 Mb  16 secs--- 5cfix2b.run(857969) 4444 Mb  17 secs--- 5cfix2b.run(857969) 4444 Mb  18 secs--- 5cfix2b.run(857969) 4444 Mb  19 secs--- 5cfix2b.run(857969) 4444 Mb  20 secs--- 5cfix2b.run(857969) 4444 Mb  21 secs--- 5cfix2b.run(857969) 4444 Mb  22 secs--- 5cfix2b.run(857969) 4444 Mb  23 secs--- 5cfix2b.run(857969) 4444 Mb  24 secs--- 5cfix2b.run(857969) 4444 Mb  25 secs
+--- GDX File /scratch/work/adhikap1/reg-fintimes/cases/5cfix2b/GAMSSAVE/5cfix2b.gdx
+--- Profile Summary (2618 records processed)
+  2755.977   2.394GB    856138 Solver     TIMES
+    25.905   4.444GB    857969 GAMS Fini   
+    18.925   4.192GB    839755 Equation   EQE_COMBAL (196150)
+    16.765   5.329GB    852958 Equation   EQE_ACTEFF (2324356)
+    12.095   5.355GB    856138 Solve Fini TIMES (36255843)
+    10.792   4.561GB    846646 Equation   EQE_UCTS (3936)
+    10.449   4.444GB    857738 Loop       
+     9.020   3.427GB    839170 Equation   EQG_COMBAL (117291)
+     8.876   4.494GB    845602 Equation   EQE_UCT (6072)
+     7.363   3.349GB    856665 Assignment PAR_FLO (4254097)
+*** Status: Normal completion
+--- Job 5cfix2b.run Stop 11/21/26 13:58:17 elapsed 0:50:18.994

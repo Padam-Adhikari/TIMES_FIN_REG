@@ -1,6 +1,6 @@
 # Task 5c: services buildings to the regions — audit and design
 
-Status: applied 2026-11-20 (sections 8-9); runs 1-2 not solved (sections 10-11); fix2 (heat-pump COP) dry run, awaiting approval. Audit on the DD files of the passing 5b run (case `5bfix7`,
+Status: applied 2026-11-20 (sections 8-9); runs 1-2 not solved (10-11); cluster run 5cfix2b with the COP fix in the DD files OPTIMAL (section 12); objective -0.124 % vs 5bfix7 not yet explained; P_COMBATS link found.
 `GAMS_WrkTIMES/5bfix7.run`). Nothing in the model changed yet; two composite floor-area keys added
 (`tools/regional_keys.py`, section 2). Part of step 5 (`audit/task5.md`).
 
@@ -236,3 +236,33 @@ commodities that now also exist in regions (scratch scans); every demand and sto
 Fix2: `python tools/task5c.py --fix2` (dry run `audit/task5c_fix2_dryrun.txt`): `COP_HP!K11` `FI` ->
 `=IF(<single>,"FI","AllRegions")` (blue). The C_ES rows then scale the heat pumps in every region; the R_ES rows
 still find residential only in FI (and are already right for 5d). Single mode unchanged.
+
+## 12. Cluster runs with the heat-pump COP fix in the DD files (Triton, 2026-11-21)
+
+Set-up: `tools/cluster_run.py` (GAMS 54.3.1 Linux, TIMES 4.8.3 from `cluster/GAMS_SrcTIMES.v4.8.3`; on Linux the
+VDA extension files need upper-case-extension links, done by the tool). DD patch: `tools/dd_patch.py copy-fi 5cfix2`
+(the 90 FI ACT_EFF values of the 30 services heat pumps of 5bfix7 for every region where they exist: 1,710 lines in
+`uc_rsd-com.dd`). Same LP size as the server run 5cnewsolver (6,672,627 rows, 8,822,838 columns).
+
+| case | options | result |
+|---|---|---|
+| 5cfix2b | `runs/cplex_5bfix7.opt` (barrier, no crossover) | **optimal** 1,527,170.27; barrier 197 iterations, 2,719 s; whole job 50 min |
+| 5cfix2a | `runs/cplex_5c_r2.opt` (crossover) | barrier stalled at 229 iterations (1.52719e6 / 1.52716e6), then crossover (running) |
+
+Checks of 5cfix2b (`checks/task5c.md` vs single, `audit/run_5cfix2b_vs_5bfix7.md`):
+- hard checks pass: dummy imports 0; COM_PROJ, NCAP_PASTI, PRC_RESID totals conserved (vs single and vs 5bfix7);
+  no activity without capacity, no output without inputs.
+- objective -1,900 M EUR vs 5bfix7 (-0.124 %), -2,750 vs single (-0.180 %); 5b was -0.056 % vs single.
+- services itself is cost-neutral (undiscounted +11 M EUR; services fuel use: electricity -1.6 %, mix unchanged).
+  The difference is elsewhere: new power -1,010 (offshore wind EUWINOFH01 -1,122 investment), oil exports -937 with
+  crude imports +713 (refinery runs more), industry/industrial CHP +600. Emissions shift industry -> power
+  (INDCO2N -1.1 %, ELCCO2N +0.3 %). Shadow prices of UC_VARU_CAP_* -25 %, UCI_UP_CHPShare-* -28 %;
+  RS_FLO_RSDHET00_HETHTH_UP binding only in 5bfix7; 2025 prices lower (ELCHIG 6.8 vs 8.2, HETHTH 196 vs 240).
+  Not explained yet: the services move should not relax power/refinery/industry.
+- Checked and not the cause: UC_VARI_ELE_Cons_Cap has COMELC in all 19 regions; FLO_PKCOI defaults to 1 for
+  consumption and exports, so demand behind a link stays in the FI peak; emission totals plausible (COMCO2N -2.6 %).
+
+New defect (no effect in this run, to fix): `UC_COMBatt1/2_DischLimit` (R_EACH, `uc_storage.dd`) couple the services
+battery storage COMBATS0x (-0.25, now in the 19 regions) with its power part P_COMBATS0x (+1, still FI only):
+regional services batteries are forced to zero capacity. Neither run builds services batteries (COMBATS/P_COMBATS 0
+in 5bfix7 too), so the objective is unaffected; P_COMBATS0x must move with COMBATS0x (5c fix3).
