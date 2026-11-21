@@ -495,14 +495,26 @@ def run_fix(a):
         apply_per_book(plan)
 
 
+def run_fix2(a):
+    """Correction after server run 2 (audit/task5c.md section 11): Scen_UC_RSD-COM COP_HP (~TFM_UPD, FI column)
+    scales the seasonal COP (ACT_EFF) of the heat pumps; its C_ES rows matched nothing once the services
+    processes left FI. Copy rule: FI -> AllRegions in Reg mode (residential R_ES rows still find only FI)."""
+    plan, notes = Plan(), []
+    plan_fi_to_all(plan, RSDCOM, "COP_HP", "D10", notes)
+    write_dry(plan, notes, os.path.join(ROOT, "audit", "task5c_fix2_dryrun.txt"))
+    if a.apply:
+        apply_per_book(plan)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--fix", action="store_true", help="only the corrections found after the first apply")
+    ap.add_argument("--fix2", action="store_true", help="only the correction found after server run 2")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="5bfix7.run")
     a = ap.parse_args()
-    run_fix(a) if a.fix else run(a)
+    run_fix2(a) if a.fix2 else run_fix(a) if a.fix else run(a)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,6 @@
+NOTE Scen_UC_RSD-COM.xlsx COP_HP!D10: FI -> AllRegions
+
+--- Reg-FINTIMES/SuppXLS/Scen_UC_RSD-COM.xlsx
+  ~ 'COP_HP'!K11 [#DDEBF7]: 'FI'
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"FI","AllRegions")
+      (copy rule: the FI values apply in every region (Reg mode))

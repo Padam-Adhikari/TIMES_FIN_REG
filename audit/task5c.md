@@ -1,6 +1,6 @@
 # Task 5c: services buildings to the regions — audit and design
 
-Status: applied 2026-11-20 (sections 8-9); server run 1 not solved (section 10, too slow); rerun pending. Audit on the DD files of the passing 5b run (case `5bfix7`,
+Status: applied 2026-11-20 (sections 8-9); runs 1-2 not solved (sections 10-11); fix2 (heat-pump COP) dry run, awaiting approval. Audit on the DD files of the passing 5b run (case `5bfix7`,
 `GAMS_WrkTIMES/5bfix7.run`). Nothing in the model changed yet; two composite floor-area keys added
 (`tools/regional_keys.py`, section 2). Part of step 5 (`audit/task5.md`).
 
@@ -206,3 +206,33 @@ Rerun proposal: case `5c-r2` with `runs/cplex_5c_r2.opt` (changes against the se
 (crossover from the barrier point to a basic optimal solution, so a stall still ends in a solution), `numericalemphasis 1`,
 `scaind 1` (aggressive scaling), `barepcomp 1e-6` and `eprhs 1e-6` (CPLEX defaults instead of 1e-7 / 1e-8). The changed
 tolerances move the objective by about 1e-6 relative, far below the 0.01 % level of the regional comparisons.
+
+## 11. Server run 2 (case `5cnewsolver`, `runs/cplex_5c_r2.opt`): not solved; heat-pump COP lost in the regions
+
+Run commit `178cbb0` (local commit kept as `backup/pre-5cr2run-split`). `RESLIM` stayed 50000 s.
+- Barrier 341 iterations, 5,233 s (about 15 s per iteration: the 95 s of run 1 was the server, not the model); it stopped
+  with primal infeasibility 2.3e2 and dual infeasibility 15 (5bfix7: 1.9e2 / 0.7).
+- Primal crossover, then primal simplex for 12.4 h: objective down from 1,526,870 to 1,525,843 (iteration 504,108),
+  then feasibility lost (scaled infeasibility 1e-3), perturbation, time limit at 50,020 s: "intermediate infeasible".
+  The GDX point violates about 1,550 rows spread over all regions and sectors (EQL_CAPACT, EQL_OUTSHR, ...): not usable.
+- 1,525,843 is 0.21 % below 5bfix7 and 0.27 % below single (feasible primal-simplex values; the optimum is lower still).
+  The barrier "dual objective" 1,526,83x was not a bound (dual infeasible).
+
+New check `tools/moved_compare.py` (CLAUDE.md rule: compare all parameters of the moved processes; reads only the DD
+files the .run includes): `python tools/moved_compare.py bd1239e 5bfix7.run GAMS_WrkTIMES 5cnewsolver.run`.
+594 processes/commodities moved into the 19 regions. Differences:
+
+| parameter | items | verdict |
+|---|---|---|
+| ACT_EFF | 30 services heat pumps (`C_ES-SH-*_ELC03..08`), all 19 regions | **defect**: `Scen_UC_RSD-COM` `COP_HP` (`~TFM_UPD`, column `FI`) scales the seasonal COP (`CEFF` x 0.551 W, 0.718 R, 1.175 S, 0.928 F; ground x 0.718). Its `C_ES-SH*ELC*` rows matched nothing once the services processes left FI: the regional heat pumps keep the unscaled COP (winter 1.8x too good). Residential rows (280 values) unchanged. |
+| FLO_BND COMHTH00, COM_BNDPRD COMHET/COMGAS/COMBIO/COMFINOIL | national calibration bounds | expected: in the task-0 `RS_FLO_COMHTH00_HETHTH_UP` / `RS_PRD_COM*` UCs with all 20 regions |
+| STGOUT_BND COMBATS01-03 on RSDELC | | no effect: RSDELC is not in their topology |
+| VDA_EMCB COM* | | zeros |
+| NCAP_BND COMCOA00 `0.UP` | 4 regions miss base.dd's `2` | no effect: `zatemp_calibration.dd` (later in the run) sets `0` in every region |
+
+Other checks on the 5c DD: `rsum_rhs_scan` 0, `uc_ire_scan` 0; no UC with FI-only coefficients on processes or
+commodities that now also exist in regions (scratch scans); every demand and stocked process reaches an input.
+
+Fix2: `python tools/task5c.py --fix2` (dry run `audit/task5c_fix2_dryrun.txt`): `COP_HP!K11` `FI` ->
+`=IF(<single>,"FI","AllRegions")` (blue). The C_ES rows then scale the heat pumps in every region; the R_ES rows
+still find residential only in FI (and are already right for 5d). Single mode unchanged.
