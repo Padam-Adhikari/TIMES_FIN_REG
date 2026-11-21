@@ -1,0 +1,13 @@
+scaind 1
+rerun yes
+lpmethod 4
+baralg 2
+barepcomp 1.0e-6
+barcrossalg 1
+barorder 0
+threads -1
+aggind 3
+names no
+eprhs 1.0e-6
+numericalemphasis 1
+solutiontype 1

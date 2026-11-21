@@ -3,3 +3,9 @@ __pycache__/
 # GAMS scratch directories (temporary work files) and VEDA .vd results over GitHub's 100 MB limit
 GAMS_WrkTIMES/[0-9a-f][0-9a-f][0-9a-f][0-9a-f]/
 GAMS_WrkTIMES/*.vd
+
+# cluster cases: inputs are rebuilt by tools/cluster_run.py prepare / tools/dd_patch.py; results stay local
+cluster/cases/*/*.dd
+cluster/cases/*/out/*.gdx
+cluster/patches/*/*.dd
+cluster/cases/_*.tgz

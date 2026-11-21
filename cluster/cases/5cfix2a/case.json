@@ -1,0 +1,22 @@
+{
+ "case": "5cfix2a",
+ "from_run": "GAMS_WrkTIMES/5cnewsolver.run",
+ "from_run_name": "5cnewsolver",
+ "opt": "runs\\cplex_5c_r2.opt",
+ "reslim": 160000,
+ "patch": "cluster/patches/5cfix2",
+ "patched": [
+  "uc_rsd-com.dd"
+ ],
+ "dd_files": 77,
+ "prepared": "2026-11-21 13:04",
+ "partition": "batch-milan",
+ "cpus": 32,
+ "mem": "120G",
+ "time": "2-00:00:00",
+ "submitted": "2026-11-21 13:07",
+ "earlier_jobs": [
+  "21740617"
+ ],
+ "job": "21740687"
+}
