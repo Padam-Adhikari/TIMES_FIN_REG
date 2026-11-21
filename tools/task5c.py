@@ -506,15 +506,29 @@ def run_fix2(a):
         apply_per_book(plan)
 
 
+def run_fix3(a):
+    """Correction after cluster run 5cfix2b (audit/task5c.md section 13): the services batteries are two processes,
+    COMBATS0x (storage, input AUX_COMBATS0x) and P_COMBATS0x (power part, the only producer of AUX_COMBATS0x),
+    coupled per region by UC_COMBatt*_DischLimit. The 5c AVA row opened COMBATS* only, so regional batteries had
+    neither their power part nor their auxiliary input. P_COMBATS* follows the same AVA rule."""
+    plan, notes = Plan(), []
+    plan_ava_rows(plan, SUB14_T, [{"PSET_PN": "P_COMBATS*", "AllRegions": 1, "FI": 0}],
+                  "power part of the services batteries with them in all regions, not on the hub (Reg mode)", notes)
+    write_dry(plan, notes, os.path.join(ROOT, "audit", "task5c_fix3_dryrun.txt"))
+    if a.apply:
+        apply_per_book(plan)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--fix", action="store_true", help="only the corrections found after the first apply")
     ap.add_argument("--fix2", action="store_true", help="only the correction found after server run 2")
+    ap.add_argument("--fix3", action="store_true", help="only the correction found after cluster run 5cfix2b")
     ap.add_argument("--dd", default=os.path.join(ROOT, "GAMS_WrkTIMES"))
     ap.add_argument("--run", default="5bfix7.run")
     a = ap.parse_args()
-    run_fix2(a) if a.fix2 else run_fix(a) if a.fix else run(a)
+    run_fix3(a) if a.fix3 else run_fix2(a) if a.fix2 else run_fix(a) if a.fix else run(a)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,17 @@
+{
+ "case": "ctl5cnocop",
+ "from_run": "GAMS_WrkTIMES/5cnewsolver.run",
+ "from_run_name": "5cnewsolver",
+ "opt": "runs\\cplex_5bfix7.opt",
+ "reslim": 160000,
+ "patch": null,
+ "patched": [],
+ "dd_files": 77,
+ "prepared": "2026-11-21 14:15",
+ "job": "21741877",
+ "partition": "batch-milan",
+ "cpus": 32,
+ "mem": "120G",
+ "time": "2-00:00:00",
+ "submitted": "2026-11-21 14:16"
+}

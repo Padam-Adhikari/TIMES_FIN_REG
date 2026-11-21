@@ -99,9 +99,77 @@ def copy_fi(a):
           f"-> cluster/patches/{a.name}/{a.file}")
 
 
+def copy_proc(a):
+    """Processes still FI-only whose partner moved (e.g. P_COMBATS01 for COMBATS01): every FI line that names one
+    of them is copied to each region where the partner is in the topology - what VEDA writes once the process is
+    available there (~TFM_AVA). The region is the first quoted token, or the second in UC_* coefficient lines.
+    Sections matching --skip (e.g. the FI-hub-only variable-RES UCs) are left alone."""
+    regions_of = topology(a.new, a.new_run)
+    procs = {p for p in regions_of if re.fullmatch(a.procs, p)}
+    if not procs:
+        sys.exit(f"no process matches {a.procs}")
+    target = {}
+    for p in procs:
+        partner = re.sub(a.partner_from, a.partner_to, p)
+        target[p] = sorted(regions_of.get(partner, set()) - {"FI"} - regions_of[p])
+    skip = re.compile(a.skip) if a.skip else None
+    files = re.findall(r"^\$BATINCLUDE\s+(\S+\.dd)", read(a.new, a.new_run), re.M | re.I)
+    out_dir = os.path.join(ROOT, "cluster", "patches", a.name)
+    os.makedirs(out_dir, exist_ok=True)
+    total = collections.Counter()
+    for f in files:
+        pre = os.path.join(out_dir, f)
+        text = open(pre, encoding="latin-1").read() if os.path.exists(pre) else read(a.new, f)
+        if not any(f"'{p}'" in text for p in procs):
+            continue
+        lines, out, sec, changed = text.splitlines(), [], None, False
+        for line in lines:
+            out.append(line)
+            m = HEAD.match(line)
+            if m:
+                sec = m.group(1) or m.group(2)
+                continue
+            if line.startswith("/;"):
+                sec = None
+                continue
+            if not sec or not line.startswith("'") or (skip and skip.search(sec + " " + line)):
+                continue
+            t = Q.findall(line)
+            p = next((x for x in t if x in procs), None)
+            if not p:
+                continue
+            pos = 1 if sec.startswith("UC_") and len(t) > 1 and t[1] == "FI" else (0 if t[0] == "FI" else None)
+            if pos is None:
+                continue
+            for r in target[p]:
+                if pos == 0:
+                    new = line.replace("'FI'", f"'{r}'", 1)
+                else:
+                    i = line.index("'FI'", line.index("'") + len(t[0]) + 2)
+                    new = line[:i] + f"'{r}'" + line[i + 4:]
+                out.append(new)
+                total[(f, sec)] += 1
+                changed = True
+        if changed:
+            with open(pre, "w", encoding="latin-1", newline="\n") as fh:
+                fh.write("\n".join(out) + "\n")
+    for (f, s), n in sorted(total.items()):
+        print(f"{f} {s}: +{n} lines")
+    print(f"{sorted(procs)} -> regions of their partners ({', '.join(f'{p}: {len(r)}' for p, r in sorted(target.items()))})"
+          f"; patched files in cluster/patches/{a.name}/")
+
+
 def main():
     ap = argparse.ArgumentParser()
     sp = ap.add_subparsers(dest="cmd", required=True)
+    p = sp.add_parser("copy-proc")
+    p.add_argument("name")
+    p.add_argument("--new", required=True)
+    p.add_argument("--new-run", required=True)
+    p.add_argument("--procs", required=True, help="regex of the FI-only processes, e.g. 'P_COMBATS0[1-3]'")
+    p.add_argument("--partner-from", default=r"^P_", help="regex turning the process name into its partner's")
+    p.add_argument("--partner-to", default="")
+    p.add_argument("--skip", default="", help="regex on '<section> <line>' to leave alone")
     p = sp.add_parser("copy-fi")
     p.add_argument("name")
     p.add_argument("--ref", required=True)
@@ -111,7 +179,7 @@ def main():
     p.add_argument("--section", required=True)
     p.add_argument("--match", default=".")
     a = ap.parse_args()
-    copy_fi(a)
+    copy_proc(a) if a.cmd == "copy-proc" else copy_fi(a)
 
 
 if __name__ == "__main__":

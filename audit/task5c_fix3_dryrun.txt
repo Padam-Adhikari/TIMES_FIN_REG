@@ -1,0 +1,12 @@
+NOTE SubRES_14_TECHS_STORAGE_Trans.xlsx:AVA: 1 availability rows (Reg mode)
+
+--- Reg-FINTIMES/SubRES_TMPL/SubRES_14_TECHS_STORAGE_Trans.xlsx
+  ~ 'AVA'!C6 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"","P_COMBATS*")
+      (power part of the services batteries with them in all regions, not on the hub (Reg mode))
+  ~ 'AVA'!D6 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",1)
+      (power part of the services batteries with them in all regions, not on the hub (Reg mode))
+  ~ 'AVA'!E6 [#E2EFDA]: None
+      -> =IF(Region_selection!$B$8=Region_selection!$D$8,"",0)
+      (power part of the services batteries with them in all regions, not on the hub (Reg mode))

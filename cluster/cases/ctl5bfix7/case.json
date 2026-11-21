@@ -1,0 +1,17 @@
+{
+ "case": "ctl5bfix7",
+ "from_run": "C:\\Users\\adhikap1\\AppData\\Local\\Temp\\claude\\2e39fdd8ab3a32fb\\e51e8d0f-ac88-405d-9fc2-e248a49368e9\\scratchpad\\old\\5bfix7.run",
+ "from_run_name": "5bfix7",
+ "opt": "runs\\cplex_5bfix7.opt",
+ "reslim": 160000,
+ "patch": null,
+ "patched": [],
+ "dd_files": 77,
+ "prepared": "2026-11-21 14:15",
+ "job": "21741874",
+ "partition": "batch-milan",
+ "cpus": 32,
+ "mem": "120G",
+ "time": "2-00:00:00",
+ "submitted": "2026-11-21 14:15"
+}
